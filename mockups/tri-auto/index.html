@@ -183,12 +183,16 @@ tr:not(.today) th,tr:not(.today) td{background:#fff}
 .ph{filter:none}
 .skip{border-radius:12px}
 @media(max-width:900px){.hero-photo{clip-path:none;width:auto;margin:14px 22px 0;border-radius:var(--r);height:230px}.gauge{margin-top:0!important;margin-bottom:44px}.hero .wrap{padding:36px 0 30px}.marquee{width:calc(100% - 28px)}.make{padding:22px}.why{width:calc(100% - 16px)}}
+.make{grid-template-columns:1fr auto}.card h3{margin-top:0}h1{margin-top:0}
+@media(max-width:900px){.make{grid-template-columns:1fr}.card h3{margin-top:0}}
+/* one typeface everywhere */
+body *{font-family:inherit!important}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header><div class="wrap"><a href="#" style="width:190px"><svg viewBox="0 0 330 60" role="img" aria-label="Tri-Auto" ><text x="0" y="47" font-family="'Arial Black',Impact,Arial,sans-serif" font-weight="900" font-style="italic" font-size="50" letter-spacing="-1" fill="currentColor">TRI-AUTO</text><g transform="skewX(-18)"><rect x="286" y="8" width="11" height="41" fill="#d7261e"/><rect x="301" y="8" width="11" height="41" fill="#f26b1d"/><rect x="316" y="8" width="11" height="41" fill="#f7b51c"/></g></svg></a>
+<header><div class="wrap"><a href="#" style="width:190px"><svg viewBox="0 0 330 60" role="img" aria-label="Tri-Auto" ><text x="0" y="46" font-family="Manrope,'Segoe UI',Arial,sans-serif" font-weight="800" font-size="46" letter-spacing="-2" fill="currentColor">Tri-Auto</text><g transform="translate(-52 0) skewX(-18)"><rect x="286" y="8" width="11" height="41" fill="#d7261e"/><rect x="301" y="8" width="11" height="41" fill="#f26b1d"/><rect x="316" y="8" width="11" height="41" fill="#f7b51c"/></g></svg></a>
 <nav aria-label="Main"><a href="#makes">What we fix</a><a href="#why">Why Tri Auto</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
 <a class="phone" href="tel:+19094656422">(909) 465-6422</a></div></header>
 <main id="main">
@@ -196,7 +200,6 @@ tr:not(.today) th,tr:not(.today) td{background:#fff}
 <div class="hero-photo" role="img" aria-label="Mechanic's hands working on an engine with a wrench" style="--img:url(https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=1100&h=1000&q=70)"></div>
 <div class="stripes" aria-hidden="true"><i style="--n:2;--c:#d7261e"></i><i style="--n:1;--c:#f26b1d"></i><i style="--n:0;--c:#f7b51c"></i></div>
 <div class="wrap">
-<p class="mono status"><b></b><em style="font-style:normal">Chino, California</em></p>
 <h1>Bye-bye,<br><em>dealership.</em></h1>
 <p class="lede">Tri Auto is Chino's independent shop for <strong>Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices customers say run far below the dealer's.</p>
 <div class="actions"><a class="btn" href="tel:+19094656422" style="background:var(--ink);color:var(--bg);--btn-fill:var(--accent);--btn-hover:#fff">Call Danny's shop <i>→</i></a><a class="btn" href="#visit">Hours &amp; directions <i>↓</i></a></div>
@@ -205,21 +208,21 @@ tr:not(.today) th,tr:not(.today) td{background:#fff}
 </section>
 <div class="marquee" aria-hidden="true"><div><span>Toyota</span><span aria-hidden="true">///</span><span>Honda</span><span aria-hidden="true">///</span><span>Lexus</span><span aria-hidden="true">///</span><span>Honest work</span><span aria-hidden="true">///</span><span>Fair prices</span><span aria-hidden="true">///</span><span>Chino, CA</span><span aria-hidden="true">///</span><span>Mon–Fri 8 to 6</span><span aria-hidden="true">///</span><span>Toyota</span><span aria-hidden="true">///</span><span>Honda</span><span aria-hidden="true">///</span><span>Lexus</span><span aria-hidden="true">///</span><span>Honest work</span><span aria-hidden="true">///</span><span>Fair prices</span><span aria-hidden="true">///</span><span>Chino, CA</span><span aria-hidden="true">///</span><span>Mon–Fri 8 to 6</span><span aria-hidden="true">///</span></div></div>
 <section id="makes"><div class="wrap">
-<div class="head"><div><p class="mono" style="color:var(--accent);margin-bottom:14px">01 — What we fix</p><h2>Three makes.<br>Nothing else.</h2></div><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
+<div class="head"><div><p class="mono" style="color:var(--accent);margin-bottom:14px">What we fix</p><h2>Three makes.<br>Nothing else.</h2></div><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
 <div class="makes">
-<div class="make reveal" style="--c:#d7261e"><span class="mono">01</span><h3>Toyota</h3><p>Camry, Corolla, Tacoma, RAV4, Prius and the rest of the family.</p></div>
-<div class="make reveal" style="--c:#f26b1d;--d:1"><span class="mono">02</span><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
-<div class="make reveal" style="--c:#f7b51c;--d:2"><span class="mono">03</span><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
+<div class="make reveal" style="--c:#d7261e"><h3>Toyota</h3><p>Camry, Corolla, Tacoma, RAV4, Prius and the rest of the family.</p></div>
+<div class="make reveal" style="--c:#f26b1d;--d:1"><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
+<div class="make reveal" style="--c:#f7b51c;--d:2"><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
 </div></div></section>
 <section class="why" id="why"><div class="wrap">
-<div class="head"><div><p class="mono" style="color:var(--a3);margin-bottom:14px">02 — Why Tri Auto</p><h2>What people<br>come in for.</h2></div><p>Taken from what customers say in their reviews, not from a sales brochure.</p></div>
+<div class="head"><div><p class="mono" style="color:var(--a3);margin-bottom:14px">Why Tri Auto</p><h2>What people<br>come in for.</h2></div><p>Taken from what customers say in their reviews, not from a sales brochure.</p></div>
 <div class="cards">
-<div class="card reveal" style="--c:#d7261e"><div class="phw"><img class="ph" loading="lazy" alt="Fresh oil being poured into an engine" src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=700&h=420&q=70"></div><span class="mono">A</span><h3>Maintenance &amp; oil changes</h3><p>Routine service done right and done the same day. One reviewer had several services finished in a few hours.</p></div>
-<div class="card reveal" style="--c:#f26b1d;--d:1"><div class="phw"><img class="ph" loading="lazy" alt="Open engine bay" src="https://images.unsplash.com/photo-1686082307524-c89fb0bfadde?auto=format&fit=crop&w=700&h=420&q=70"></div><span class="mono">B</span><h3>Diagnosis &amp; repair</h3><p>A straight answer about what's wrong, what it costs, and what can wait.</p></div>
-<div class="card reveal" style="--c:#f7b51c;--d:2"><div class="phw"><img class="ph" loading="lazy" alt="Car raised on a shop lift" src="https://images.unsplash.com/photo-1791419542289-693087bd1044?auto=format&fit=crop&w=700&h=420&q=70"></div><span class="mono">C</span><h3>A second opinion</h3><p>Got a dealer quote that stings? Bring it in. One customer says Danny saved her almost $600.</p></div>
+<div class="card reveal" style="--c:#d7261e"><div class="phw"><img class="ph" loading="lazy" alt="Fresh oil being poured into an engine" src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=700&h=420&q=70"></div><h3>Maintenance &amp; oil changes</h3><p>Routine service done right and done the same day. One reviewer had several services finished in a few hours.</p></div>
+<div class="card reveal" style="--c:#f26b1d;--d:1"><div class="phw"><img class="ph" loading="lazy" alt="Open engine bay" src="https://images.unsplash.com/photo-1686082307524-c89fb0bfadde?auto=format&fit=crop&w=700&h=420&q=70"></div><h3>Diagnosis &amp; repair</h3><p>A straight answer about what's wrong, what it costs, and what can wait.</p></div>
+<div class="card reveal" style="--c:#f7b51c;--d:2"><div class="phw"><img class="ph" loading="lazy" alt="Car raised on a shop lift" src="https://images.unsplash.com/photo-1791419542289-693087bd1044?auto=format&fit=crop&w=700&h=420&q=70"></div><h3>A second opinion</h3><p>Got a dealer quote that stings? Bring it in. One customer says Danny saved her almost $600.</p></div>
 </div></div></section>
 <section id="reviews"><div class="wrap">
-<p class="mono" style="color:var(--accent);margin-bottom:20px">03 — Reviews</p>
+<p class="mono" style="color:var(--accent);margin-bottom:20px">Reviews</p>
 <blockquote class="bigquote reveal">“Honest, timely, friendly, <span style="color:var(--accent)">and affordable!</span>”<cite>Heidi Todd Broberg · Facebook review</cite><a class="review-source" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=He%20is%20honest%2C%20timely%2C%20friendly%2C%20and%20affordable%21" target="_blank" rel="noopener noreferrer" aria-label="Read Heidi Todd Broberg’s review on Birdeye (opens in a new tab)">Read review on Birdeye ↗</a></blockquote>
 <p id="review-help" class="skip" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
 <!-- Source inspected 2026-11-09: Birdeye Tri Auto profile. Quotes are excerpts. No individual star ratings are asserted. Text fragments highlight the quote where browser support permits; the base page remains the source. -->
@@ -227,7 +230,7 @@ tr:not(.today) th,tr:not(.today) td{background:#fff}
 <p class="note">Facebook review excerpts via Birdeye. Source links open in a new tab.</p>
 </div></section>
 <section class="visit" id="visit"><div class="wrap visit-grid">
-<div class="reveal"><p class="mono" style="color:var(--accent)">04 — Visit</p><h2 style="margin-top:14px">Schaefer Ave,<br>Chino.</h2>
+<div class="reveal"><p class="mono" style="color:var(--accent)">Visit</p><h2 style="margin-top:14px">Schaefer Ave,<br>Chino.</h2>
 <address>6108 Schaefer Ave<br>Chino, CA 91710</address><p style="color:var(--muted)">Stucco building with the Tri-Auto sign and the flag out front. Plenty of parking on the lot.</p>
 <a class="bigphone" href="tel:+19094656422">(909) 465-6422</a>
 <div class="actions"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Tri+Auto+6108+Schaefer+Ave+Chino+CA+91710" rel="noopener">Get directions <i>→</i></a></div></div>
