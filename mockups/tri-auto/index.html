@@ -24,11 +24,12 @@ th{text-align:left;font-weight:500}td{text-align:right}th,td{padding:10px 12px;b
 tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
 tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
 .tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .41s cubic-bezier(.24,1,.4,1),transform .41s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*70ms)}
-.reveal.in{opacity:1;transform:none}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
 footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 
 :root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#B3261E;--a2:#C8642A;--a3:#D9A53A}
 header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 1px 2px #0000001f}
@@ -58,7 +59,7 @@ section{padding:56px 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
 .review-origin{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .quote p:not(.review-origin){font-size:19px;font-weight:600;line-height:1.35}
 .quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted)}
-.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px;align-items:center}
 address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4;margin:14px 0 6px}
 .bigphone{display:inline-block;font-size:clamp(28px,3.4vw,40px);font-weight:700;letter-spacing:-.02em;margin-top:16px}
 .visit{--row:#F0F2F5}
@@ -74,7 +75,7 @@ address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4;margin:
 <main id="main">
 <div class="wrap hero">
 <div><h1>Bye-bye, <em>dealership.</em></h1>
-<p class="lede">Tri Auto is Chino's independent shop for <strong style="color:var(--ink)">Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices customers say run far below the dealer's.</p>
+<p class="lede">Tri Auto is Chino's independent shop for <strong style="color:var(--ink)">Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices well below the dealer's.</p>
 <div class="actions"><a class="btn primary" href="tel:+19094656422">Call Danny's shop</a><a class="btn" href="#visit">Hours &amp; directions</a></div>
 <p class="rating"><b>4.9 ★</b> on Google · 333 reviews</p></div>
 <img alt="Close-up of a mechanic's gloved hand holding a wrench" src="https://images.unsplash.com/photo-1729844164746-d074d1d4ac6c?auto=format&fit=crop&w=1100&h=825&q=70">
@@ -83,14 +84,14 @@ address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4;margin:
 <div class="intro"><span class="label">What we fix</span><h2>Three makes. Nothing else.</h2><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
 <div class="makes">
 <div class="card make reveal" style="--c:#B3261E"><h3>Toyota</h3><p>Camry, Corolla, Tacoma, RAV4, Prius and the rest of the family.</p></div>
-<div class="card make reveal" style="--c:#C8642A;--d:1"><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
-<div class="card make reveal" style="--c:#D9A53A;--d:2"><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
+<div class="card make reveal" style="--c:#C8642A"><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
+<div class="card make reveal" style="--c:#D9A53A"><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
 </div></div></section>
 <section id="why"><div class="wrap">
-<div class="intro"><span class="label">Why Tri Auto</span><h2>What people come in for.</h2><p>Taken from what customers say in their reviews, not from a sales brochure.</p></div>
-<div class="row reveal"><img loading="lazy" alt="Fresh oil being poured into an engine" src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=900&h=562&q=70"><div><h3>Maintenance &amp; oil changes</h3><p>Routine service done right and done the same day. One reviewer had several services finished in a few hours.</p></div></div>
+<div class="intro"><span class="label">Why Tri Auto</span><h2>What people come in for.</h2><p>The reasons customers keep coming back.</p></div>
+<div class="row reveal"><img loading="lazy" alt="Fresh oil being poured into an engine" src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=900&h=562&q=70"><div><h3>Maintenance &amp; oil changes</h3><p>Routine service done right, often the same day.</p></div></div>
 <div class="row reveal"><img loading="lazy" alt="Open engine bay" src="https://images.unsplash.com/photo-1686082307524-c89fb0bfadde?auto=format&fit=crop&w=900&h=562&q=70"><div><h3>Diagnosis &amp; repair</h3><p>A straight answer about what's wrong, what it costs, and what can wait.</p></div></div>
-<div class="row reveal"><img loading="lazy" alt="Car raised on a shop lift" src="https://images.unsplash.com/photo-1791419542289-693087bd1044?auto=format&fit=crop&w=900&h=562&q=70"><div><h3>A second opinion</h3><p>Got a dealer quote that stings? Bring it in. One customer says Danny saved her almost $600.</p></div></div>
+<div class="row reveal"><img loading="lazy" alt="Car raised on a shop lift" src="https://images.unsplash.com/photo-1791419542289-693087bd1044?auto=format&fit=crop&w=900&h=562&q=70"><div><h3>A second opinion</h3><p>Got a dealer quote that stings? Bring it in. One customer saved almost $600.</p></div></div>
 </div></section>
 <section id="reviews"><div class="wrap">
 <span class="label">Reviews</span>
@@ -98,22 +99,24 @@ address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4;margin:
 <p id="review-help" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
 <div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0"><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=My%20friend%27s%20dad%20referred%20me%20to%20Tri%20Auto" target="_blank" rel="noopener noreferrer" aria-label="Read Kristy Hudson’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Bye, bye dealerships!”</p></div><div><cite>Kristy Hudson · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=Very%20good%20service%20for%20reasonable%20price.%20Danny%20is%20very%20honest" target="_blank" rel="noopener noreferrer" aria-label="Read Disha Desai’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Very good service for reasonable price.”</p></div><div><cite>Disha Desai · Facebook recommendation</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=Trust%20worthy%2C%20honest%20and%20very%20reasonable.%20Go%20check%20them%20out." target="_blank" rel="noopener noreferrer" aria-label="Read CeeCee Gaatogo’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Trust worthy, honest and very reasonable.”</p></div><div><cite>CeeCee Gaatogo · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=My%20family%20has%20been%20going%20to%20Danny%27s%20for%20years." target="_blank" rel="noopener noreferrer" aria-label="Read Tracy Gallardo Rey’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“My family has been going to Danny&#x27;s for years.”</p></div><div><cite>Tracy Gallardo Rey · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=It%27s%20hard%20to%20find%20a%20good%20mechanic%20that%20you%20can%20trust." target="_blank" rel="noopener noreferrer" aria-label="Read Amber Baker’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“It&#x27;s hard to find a good mechanic that you can trust.”</p></div><div><cite>Amber Baker · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a></div>
 
-<p class="muted" style="font-size:13px">Facebook review excerpts via Birdeye. Source links open in a new tab.</p>
 </div></section>
 <section id="visit"><div class="wrap"><div class="card visit">
 <div><span class="label">Visit</span><h2>Schaefer Ave, Chino.</h2>
-<address>6108 Schaefer Ave<br>Chino, CA 91710</address><p class="muted">Stucco building with the Tri-Auto sign and the flag out front. Plenty of parking on the lot.</p>
-<a class="bigphone" href="tel:+19094656422">(909) 465-6422</a>
+<address>6108 Schaefer Ave<br>Chino, CA 91710</address><a class="bigphone" href="tel:+19094656422">(909) 465-6422</a>
 <div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Tri+Auto+6108+Schaefer+Ave+Chino+CA+91710" rel="noopener">Get directions</a></div></div>
-<div><table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>Closed</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><p class="muted" style="font-size:13px;margin-top:10px">Hours from public listings. Call ahead to confirm.</p></div>
+<div><table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 5:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 5:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 5:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 5:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 5:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>Closed</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19094656422">(909) 465-6422</a> before you come in.</p></div></div>
 </div></div></section>
 </main>
-<footer><div class="wrap"><strong>Tri Auto · Chino, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Details and reviews come from public listings; reviews are quoted from the sources named. Photos are stock images from Unsplash, not photos of this shop.</span></div></footer>
+<footer><div class="wrap"><strong>Tri Auto · Chino, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
 (()=>{
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
 // highlight today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);

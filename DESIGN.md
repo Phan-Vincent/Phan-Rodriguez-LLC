@@ -135,3 +135,24 @@ Andrew asked that the sites stop sharing one layout, stay professional and clean
 - **Image pack:** the zip held no image files, only four links and notes. Three were viewed in the browser and are now the hero photos: wrench close-up (Unsplash, Bengkel Mobil Matic Bandung) for Tri Auto, tire mounting (Mustafa Sheikhmouss) for A C Tires, clean workshop (Dextar Studio) for Moreno's. The Pexels brake photo was not used because brake work is not confirmed for Tri Auto.
 - **Removed:** marquees, the A C Tires spinning tire and yellow badge, Moreno's bay banners over the photo, Manrope font files.
 - **Checked:** Playwright at 1440px and 390px, no overflow, no console errors, Tri Auto carousel scrolls, holds and resumes. Photos were placeholders in that check.
+
+## Quality check before cold calls (2026-11-10)
+
+Checked against Google Maps, Birdeye, SureCritic, Yelp and MapQuest on Nov 10, 2026.
+
+| Item | Tri Auto | A C Tires | Moreno's |
+| --- | --- | --- | --- |
+| Address (Google Maps) | 6108 Schaefer Ave, Chino 91710. Confirmed; Birdeye's "5203 G St" is wrong or old | 301 W California St, Ontario 91762 | 527 E Holt Blvd, Ontario 91761 |
+| Phone (Google Maps) | (909) 465-6422 | (909) 391-4636 | (909) 418-6955 |
+| Google rating | 4.9, 333 reviews | 4.4, 324 reviews (was 322) | 4.7, 284 reviews |
+| Hours (Google Maps) | Mon to Fri 8 to 5. **Changed from 6 PM.** Birdeye still says 6 PM; ask the owner | Mon to Fri 8 to 8, Sat 8 to 7, Sun 8 to 6 | Mon to Fri 8 to 6 |
+| Other | Atly lists Toyota, Honda and Lexus only; reviews name Danny | | SureCritic 4.9 from 661 reviews; opened 2009, family owned |
+
+- **Reviews:** all three sites now have the rotating review row. Every card is a short excerpt from a real review and links to it. Tri Auto: six Facebook reviews via Birdeye (Vincent's links, each phrase re-checked on the page). A C Tires: four Yelp reviews linked by Yelp review ID plus one Google review via Birdeye. Moreno's: five SureCritic reviews (text-fragment links to the listing page) and two Yelp reviews by ID. Two Yelp links were opened and showed the right business and review. Earlier quotes that no longer had a findable source link (Kristina G., James S., G O.) were dropped. SureCritic links point at the recent-reviews page, so older reviews will scroll off it over time.
+- **Holiday hours:** none of the three shops publishes holiday hours. Google Maps only says Veterans Day hours "might differ". Each site has a Holiday hours note telling visitors to call first. Replace with real hours once an owner provides them.
+- **Wording:** removed hedges ("according to reviews", "Hours from public listings", "On the banner / From reviews" tags, building descriptions). Claims that remain need owner sign-off: Tri Auto "prices well below the dealer's" and "Three makes. Nothing else."; A C Tires "Wheels"; Moreno's service list.
+- **Footer:** the short "Concept website by Phan-Rodriguez LLC. Not the official site of this business." line stays while the pages are public.
+- **Motion:** every block is hidden until scrolled to, then fades in and slides up, with siblings staggered. Skipped when reduced motion is on; without JavaScript everything is visible.
+- **Layout:** A C Tires service list and photo column now match in height; Tri Auto visit card columns are vertically centered.
+- **Photos:** all 13 Unsplash URLs load (checked in a browser). They are still hotlinked.
+- **Tests:** Playwright at 1440px and 390px on all three: no horizontal overflow, no script errors, reveal hides below-the-fold blocks and shows them on scroll, carousels scroll, hold and resume.

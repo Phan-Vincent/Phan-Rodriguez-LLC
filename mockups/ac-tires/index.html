@@ -24,11 +24,12 @@ th{text-align:left;font-weight:500}td{text-align:right}th,td{padding:10px 12px;b
 tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
 tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
 .tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .41s cubic-bezier(.24,1,.4,1),transform .41s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*70ms)}
-.reveal.in{opacity:1;transform:none}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
 footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 
 :root{--bg:#F5F6F8;--ink:#0B1220;--muted:#5A6272;--line:#D5D9E0;--chip:#E6E9EF;--accent:#B3261E;--navy:#16295E;--gold:#E9B949;--focus:#16295E}
 header{background:var(--navy);color:#fff;--focus:#fff}
@@ -45,25 +46,30 @@ h1{font-size:clamp(36px,5.2vw,66px);max-width:640px}h1 span{color:var(--gold)}
 .bar strong{display:block;font-size:20px;letter-spacing:-.01em;margin-top:4px}.bar a strong{color:var(--accent)}
 .bar small{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
 section{padding:64px 0 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
-.split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:start}
-.split .side{position:sticky;top:24px}.side p{color:var(--muted);margin-top:12px;max-width:360px}
-.side img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:24px}
-.svc li{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;padding:20px 24px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
-.svc svg{width:36px;height:36px;color:var(--navy);margin-top:2px}.svc h3{font-size:19px}.svc p{color:var(--muted);font-size:15px;margin-top:4px}
+.split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:stretch}
+.split .side{display:flex;flex-direction:column}.side p{color:var(--muted);margin-top:12px;max-width:360px}
+.side img{width:100%;flex:1;min-height:240px;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:24px}
+.svc{display:grid;grid-auto-rows:1fr}.svc li{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:center;padding:20px 24px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc svg{width:36px;height:36px;color:var(--navy)}.svc h3{font-size:19px}.svc p{color:var(--muted);font-size:15px;margin-top:4px}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);background:var(--navy);color:#fff;border-radius:8px}
 .stats div{padding:26px 28px;border-right:1px solid #ffffff2e}.stats div:last-child{border:0}
 .stats strong{display:block;font-size:clamp(34px,4.4vw,52px);line-height:1;letter-spacing:-.02em}.stats span{font-size:13px;font-weight:600;color:#C9D2EA;letter-spacing:.04em;text-transform:uppercase}
-.quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
-.quote{padding:24px;border-left:4px solid var(--gold)}.quote p{font-size:20px;font-weight:600;line-height:1.35}
-.quote cite{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:16px}
 .week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:24px}
 .day{padding:16px 10px;text-align:center}.dname{display:block;font-weight:700;font-size:14px}.day .tag{display:block;margin:6px auto 0;width:max-content}
 .day span.h{display:block;font-size:13px;color:var(--muted);margin-top:6px;line-height:1.35}
 .day.today{background:var(--navy);color:#fff}.day.today span.h{color:#C9D2EA}
-.find{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:26px 28px;margin-top:16px}
+.find{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:26px 28px;margin-top:16px}.holiday{max-width:none}
 address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
 .find .actions{display:flex;gap:10px;flex-wrap:wrap}
-@media(max-width:860px){nav{display:none}.sign{font-size:17px;white-space:nowrap}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}.banner .wrap{padding:52px 0 96px}.bar{grid-template-columns:1fr}.bar>*{border-right:0;border-bottom:1px solid var(--line)}.split{grid-template-columns:1fr;gap:24px}.split .side{position:static}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid #ffffff2e}.quotes{grid-template-columns:1fr}.week{grid-template-columns:1fr 1fr}.find{grid-template-columns:1fr}section{padding:44px 0 0}}
+@media(max-width:860px){nav{display:none}.sign{font-size:17px;white-space:nowrap}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}.banner .wrap{padding:52px 0 96px}.bar{grid-template-columns:1fr}.bar>*{border-right:0;border-bottom:1px solid var(--line)}.split{grid-template-columns:1fr;gap:24px}.side img{flex:none}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid #ffffff2e}.week{grid-template-columns:1fr 1fr}.find{grid-template-columns:1fr}section{padding:44px 0 0}}
+
+.quotes{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding:4px 2px 18px;cursor:grab}.quotes::-webkit-scrollbar{display:none}
+.quotes .quote{flex:0 0 min(380px,82%);background:var(--qbg,#fff);border-radius:8px;box-shadow:0 1px 2px #0003;padding:22px}
+.review-body{display:flex;flex-direction:column;justify-content:space-between;gap:24px;height:100%}
+.review-origin{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.quotes .quote p:not(.review-origin){font-size:19px;font-weight:600;line-height:1.35}
+.quotes .quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted)}
+.review-source{display:inline-block;margin-top:10px;font-size:13px;font-weight:600;letter-spacing:0;text-decoration:underline;text-underline-offset:4px}
 </style>
 </head>
 <body>
@@ -85,33 +91,72 @@ address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
 <section id="services"><div class="wrap split">
 <div class="side"><span class="label">What we do</span><h2>Tires. That's it. That's the shop.</h2><p>No waiting-room upsell. Pull in, tell us what you need, and get back on the road.</p>
 <img loading="lazy" alt="Stacks of tires in a tire shop" src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=900&h=675&q=70"></div>
-<ul class="card svc"><li class="reveal" style="--d:0"><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>New tires</h3><p>Fresh rubber in the sizes people around here actually drive.</p></div></li><li class="reveal" style="--d:1"><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Used tires</h3><p>Good used tires for when the budget says “not today” to a full new set.</p></div></li><li class="reveal" style="--d:2"><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Flat repair</h3><p>Nail in the tread? In and out fast, weekends included.</p></div></li><li class="reveal" style="--d:3"><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Mount &amp; balance</h3><p>Bought tires elsewhere? We’ll mount and balance them.</p></div></li><li class="reveal" style="--d:4"><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Wheels</h3><p>It’s on the sign: A C Tires &amp; Wheels.</p></div></li></ul>
+<ul class="card svc"><li class="reveal" ><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>New tires</h3><p>Fresh rubber in the sizes people around here actually drive.</p></div></li><li class="reveal" ><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Used tires</h3><p>Good used tires for when the budget says “not today” to a full new set.</p></div></li><li class="reveal" ><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Flat repair</h3><p>Nail in the tread? In and out fast, weekends included.</p></div></li><li class="reveal" ><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Mount &amp; balance</h3><p>Bought tires elsewhere? We’ll mount and balance them.</p></div></li><li class="reveal" ><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg><div><h3>Wheels</h3><p>Ask what’s in stock for your car.</p></div></li></ul>
 </div></section>
 <section id="reviews"><div class="wrap">
-<div class="stats reveal"><div><strong>4.4 ★</strong><span>Google rating</span></div><div><strong>322</strong><span>Google reviews</span></div><div><strong>7</strong><span>Days a week</span></div></div>
-<div style="margin-top:48px"><span class="label">From Yelp</span><h2>Quick, easy, straight forward.</h2></div>
-<div class="quotes"><blockquote class="card quote reveal"><p>“…the dudes here are super nice and straight forward”</p><cite>Sam R. · Yelp · Aug 2025 · flat fixed on a Sunday</cite></blockquote><blockquote class="card quote reveal" style="--d:1"><p>“Super quick and easy.”</p><cite>Kristina G. · Yelp · Aug 2024 · flat repair</cite></blockquote></div>
+<div class="stats reveal"><div><strong>4.4 ★</strong><span>Google rating</span></div><div><strong>324</strong><span>Google reviews</span></div><div><strong>7</strong><span>Days a week</span></div></div>
+<div style="margin-top:48px"><span class="label">Reviews</span><h2>Quick, easy, straight forward.</h2></div>
+<div style="margin-top:24px"><p id="review-help" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
+<div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0"><a class="quote" href="https://www.yelp.com/biz/ac-tires-ontario?hrid=qpYzQvT4rPGetO2iujY9AA" target="_blank" rel="noopener noreferrer" aria-label="Read Sam R.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“…the dudes here are super nice and straight forward…”</p></div><div><cite>Sam R. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/ac-tires-ontario?hrid=KIjkkkd9y3sKk48GIKdnIg" target="_blank" rel="noopener noreferrer" aria-label="Read Christopher H.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“This shop saved me…”</p></div><div><cite>Christopher H. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/ac-tires-ontario?hrid=mEdlYEeRdGaw9HvtcZtlBg" target="_blank" rel="noopener noreferrer" aria-label="Read Jason B.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Better prices and faster service…”</p></div><div><cite>Jason B. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/ac-tires-ontario?hrid=9hu7OMh86t_kzCD_94nGGQ" target="_blank" rel="noopener noreferrer" aria-label="Read Samantha D.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“…Really Fast Reliable Employees”</p></div><div><cite>Samantha D. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/a-c-tires-156071200776516#:~:text=Lifesavers%20on%20a%20Rainy%20Night" target="_blank" rel="noopener noreferrer" aria-label="Read Ru’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Lifesavers on a Rainy Night…”</p></div><div><cite>Ru · Google review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a></div></div>
 </div></section>
 <section id="visit"><div class="wrap">
 <span class="label">Hours &amp; location</span><h2>Look for the blue building.</h2>
 <div class="week"><div class="card day" data-day="1"><span class="dname">Mon</span><span class="h">8 AM – 8 PM</span></div><div class="card day" data-day="2"><span class="dname">Tue</span><span class="h">8 AM – 8 PM</span></div><div class="card day" data-day="3"><span class="dname">Wed</span><span class="h">8 AM – 8 PM</span></div><div class="card day" data-day="4"><span class="dname">Thu</span><span class="h">8 AM – 8 PM</span></div><div class="card day" data-day="5"><span class="dname">Fri</span><span class="h">8 AM – 8 PM</span></div><div class="card day" data-day="6"><span class="dname">Sat</span><span class="h">8 AM – 7 PM</span></div><div class="card day" data-day="0"><span class="dname">Sun</span><span class="h">8 AM – 6 PM</span></div></div>
-<p class="muted" style="font-size:13px;margin-top:10px">Hours from public listings. Call ahead to confirm.</p>
-<div class="card find"><div><address>301 W California St, Ontario, CA 91762</address><p class="muted" style="margin-top:6px">Royal blue walls, red-and-white hand-painted sign, tires stacked out front.</p></div>
+<div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19093914636">(909) 391-4636</a> before you come in.</p></div>
+<div class="card find"><div><address>301 W California St, Ontario, CA 91762</address></div>
 <div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=A+C+Tires+301+W+California+St+Ontario+CA+91762" rel="noopener">Get directions</a><a class="btn" href="tel:+19093914636">Call (909) 391-4636</a></div></div>
 </div></section>
 </main>
-<footer><div class="wrap"><strong>A C Tires · Ontario, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Details and reviews come from public listings; reviews are quoted from the sources named. Photos are stock images from Unsplash, not photos of this shop.</span></div></footer>
+<footer><div class="wrap"><strong>A C Tires · Ontario, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
 (()=>{
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
 // highlight today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
 document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>
-
+<script>
+(()=>{
+  // Continuous review rotation. It stops while the visitor touches, holds, hovers, wheels or focuses the row, and resumes as soon as they let go.
+  const track=document.getElementById('review-track');
+  const motion=matchMedia('(prefers-reduced-motion:reduce)');
+  const originals=[...track.querySelectorAll('.quote')];
+  const copies=originals.map(card=>{const c=card.cloneNode(true);c.setAttribute('aria-hidden','true');c.tabIndex=-1;track.append(c);return c});
+  let held=false,hovered=false,focused=false,visible=true,settleUntil=0,previous=0,fraction=0,period=0;
+  const measure=()=>{period=copies[0].offsetLeft-originals[0].offsetLeft};
+  const wrap=()=>{if(period<=0)return;if(track.scrollLeft>=period)track.scrollLeft-=period;else if(track.scrollLeft<=0&&(held||performance.now()<settleUntil))track.scrollLeft+=period};
+  const settle=ms=>{settleUntil=performance.now()+ms};
+  const tick=time=>{
+    const run=!held&&!hovered&&!focused&&visible&&!motion.matches&&!document.hidden&&period>0&&time>=settleUntil;
+    if(run&&previous){fraction+=Math.min(time-previous,64)*36/1000;const px=Math.floor(fraction);fraction-=px;if(px){track.scrollLeft+=px;wrap()}}
+    else if(!run)fraction=0;
+    previous=time;requestAnimationFrame(tick);
+  };
+  track.addEventListener('pointerdown',()=>{held=true},{passive:true});
+  ['pointerup','pointercancel'].forEach(e=>addEventListener(e,()=>{if(held){held=false;settle(350)}},{passive:true}));
+  track.addEventListener('touchstart',()=>{held=true},{passive:true});
+  ['touchend','touchcancel'].forEach(e=>track.addEventListener(e,()=>{held=false;settle(350)},{passive:true}));
+  // a swipe keeps gliding after release: wait for it to finish, then carry on
+  track.addEventListener('scroll',()=>{if(held||performance.now()<settleUntil){settle(250);wrap()}},{passive:true});
+  track.addEventListener('wheel',()=>settle(500),{passive:true});
+  track.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')hovered=true});
+  track.addEventListener('pointerleave',()=>{hovered=false});
+  track.addEventListener('focusin',()=>{focused=track.matches(':focus-visible')||!!track.querySelector(':focus-visible')});
+  track.addEventListener('focusout',()=>queueMicrotask(()=>{focused=track.contains(document.activeElement)}));
+  track.addEventListener('keydown',e=>{if(e.target!==track)return;const d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(!d)return;e.preventDefault();if(d<0&&track.scrollLeft<period/originals.length)track.scrollLeft+=period;track.scrollBy({left:d*(originals[0].offsetWidth+22),behavior:motion.matches?'instant':'smooth'})});
+  addEventListener('resize',measure,{passive:true});
+  if('ResizeObserver' in window)new ResizeObserver(measure).observe(track);
+  if('IntersectionObserver' in window)new IntersectionObserver(es=>{visible=es[0].isIntersecting}).observe(track);
+  measure();requestAnimationFrame(tick);
+})();
+</script>
 </body>
 </html>

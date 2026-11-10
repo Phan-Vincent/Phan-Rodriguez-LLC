@@ -37,17 +37,22 @@ th{text-align:left;font-weight:500}td{text-align:right}th,td{padding:10px 12px;b
 tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
 tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
 .tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .41s cubic-bezier(.24,1,.4,1),transform .41s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*70ms)}
-.reveal.in{opacity:1;transform:none}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
 footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 """
 
 JS = """<script>
 (()=>{
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
 // highlight today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
@@ -58,12 +63,16 @@ document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add(
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
-def hours_table(hours):
+def holiday(phone, tel):
+    return f'<div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year\'s Day. Call <a href="tel:{tel}">{phone}</a> before you come in.</p></div>'
+
+
+def hours_table(hours, phone, tel):
     rows = "".join(
         f'<tr data-day="{(i + 1) % 7}"><th scope="row">{d}</th><td>{hours[i]}</td></tr>'
         for i, d in enumerate(DAYS)
     )
-    return f'<table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption>{rows}</table><p class="muted" style="font-size:13px;margin-top:10px">Hours from public listings. Call ahead to confirm.</p>'
+    return f'<table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption>{rows}</table>{holiday(phone, tel)}'
 
 
 def page(title, desc, css, body, extra_js=""):
@@ -88,8 +97,52 @@ def page(title, desc, css, body, extra_js=""):
 
 
 def footer(name):
-    return f'<footer><div class="wrap"><strong>{name}</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Details and reviews come from public listings; reviews are quoted from the sources named. Photos are stock images from Unsplash, not photos of this shop.</span></div></footer>'
+    return f'<footer><div class="wrap"><strong>{name}</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>'
 
+
+
+CAR_CSS = """
+.quotes{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding:4px 2px 18px;cursor:grab}.quotes::-webkit-scrollbar{display:none}
+.quotes .quote{flex:0 0 min(380px,82%);background:var(--qbg,#fff);border-radius:8px;box-shadow:0 1px 2px #0003;padding:22px}
+.review-body{display:flex;flex-direction:column;justify-content:space-between;gap:24px;height:100%}
+.review-origin{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.quotes .quote p:not(.review-origin){font-size:19px;font-weight:600;line-height:1.35}
+.quotes .quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted)}
+.review-source{display:inline-block;margin-top:10px;font-size:13px;font-weight:600;letter-spacing:0;text-decoration:underline;text-underline-offset:4px}
+"""
+CAROUSEL_JS = (HERE / "tri_reviews" / "carousel.html").read_text()
+
+
+def track(reviews):
+    """reviews: (name, source label, short excerpt, link to the review, site name for the link text)"""
+    cards = "".join(
+        f'<a class="quote" href="{url}" target="_blank" rel="noopener noreferrer" aria-label="Read {name}’s review on {site} (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“{text}”</p></div><div><cite>{name} · {label}</cite><span class="review-source">Read review on {site} ↗</span></div></blockquote></a>'
+        for name, label, text, url, site in reviews
+    )
+    return f'<p id="review-help" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>\n<div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0">{cards}</div>'
+
+
+def yelp(biz, hrid):
+    return f"https://www.yelp.com/biz/{biz}?hrid={hrid}"
+
+
+AC_REVIEWS = [
+    ("Sam R.", "Yelp review", "…the dudes here are super nice and straight forward…", yelp("ac-tires-ontario", "qpYzQvT4rPGetO2iujY9AA"), "Yelp"),
+    ("Christopher H.", "Yelp review", "This shop saved me…", yelp("ac-tires-ontario", "KIjkkkd9y3sKk48GIKdnIg"), "Yelp"),
+    ("Jason B.", "Yelp review", "Better prices and faster service…", yelp("ac-tires-ontario", "mEdlYEeRdGaw9HvtcZtlBg"), "Yelp"),
+    ("Samantha D.", "Yelp review", "…Really Fast Reliable Employees", yelp("ac-tires-ontario", "9hu7OMh86t_kzCD_94nGGQ"), "Yelp"),
+    ("Ru", "Google review", "Lifesavers on a Rainy Night…", "https://reviews.birdeye.com/a-c-tires-156071200776516#:~:text=Lifesavers%20on%20a%20Rainy%20Night", "Birdeye"),
+]
+SC = "https://www.surecritic.com/reviews/morenos-auto-repair#:~:text="
+MO_REVIEWS = [
+    ("Lisa A.", "SureCritic · Nov 2026", "Outstanding Customer Service", SC + "Outstanding%20Customer%20Service", "SureCritic"),
+    ("Alex L.", "SureCritic · Oct 2026", "Great honest Mechanics", SC + "Great%20honest%20Mechanics", "SureCritic"),
+    ("Tyrone J.", "Yelp review", "Very professional and expedient service.", yelp("morenos-auto-repair-ontario-2", "BQJK_qJYwKShB12glCtFBg"), "Yelp"),
+    ("Azucena B.", "SureCritic · Oct 2026", "Professional and efficient, fair prices too", SC + "Professional%20and%20efficient%2C%20fair%20prices%20too", "SureCritic"),
+    ("Lilly Z.", "Yelp review", "…they did an awesome job, communicated well…", yelp("morenos-auto-repair-ontario-2", "uTCS3aO0lrz0njDDfpxlyw"), "Yelp"),
+    ("Nicol B.", "SureCritic · Sep 2026", "Very professional &amp; prepared, great customer service.", SC + "Very%20professional%20%26%20prepared%2C%20great%20customer%20service.", "SureCritic"),
+    ("Vipneet S.", "SureCritic · Sep 2026", "Excellent staff", SC + "Excellent%20staff", "SureCritic"),
+]
 
 # ---------------------------------------------------------------- Tri Auto
 tri_css = """
@@ -121,7 +174,7 @@ section{padding:56px 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
 .review-origin{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .quote p:not(.review-origin){font-size:19px;font-weight:600;line-height:1.35}
 .quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted)}
-.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px;align-items:center}
 address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4;margin:14px 0 6px}
 .bigphone{display:inline-block;font-size:clamp(28px,3.4vw,40px);font-weight:700;letter-spacing:-.02em;margin-top:16px}
 .visit{--row:#F0F2F5}
@@ -137,7 +190,7 @@ tri_body = f"""
 <main id="main">
 <div class="wrap hero">
 <div><h1>Bye-bye, <em>dealership.</em></h1>
-<p class="lede">Tri Auto is Chino's independent shop for <strong style="color:var(--ink)">Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices customers say run far below the dealer's.</p>
+<p class="lede">Tri Auto is Chino's independent shop for <strong style="color:var(--ink)">Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices well below the dealer's.</p>
 <div class="actions"><a class="btn primary" href="tel:+19094656422">Call Danny's shop</a><a class="btn" href="#visit">Hours &amp; directions</a></div>
 <p class="rating"><b>4.9 ★</b> on Google · 333 reviews</p></div>
 <img alt="Close-up of a mechanic's gloved hand holding a wrench" src="{U('1729844164746-d074d1d4ac6c', 1100, 825)}">
@@ -146,28 +199,26 @@ tri_body = f"""
 <div class="intro"><span class="label">What we fix</span><h2>Three makes. Nothing else.</h2><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
 <div class="makes">
 <div class="card make reveal" style="--c:#B3261E"><h3>Toyota</h3><p>Camry, Corolla, Tacoma, RAV4, Prius and the rest of the family.</p></div>
-<div class="card make reveal" style="--c:#C8642A;--d:1"><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
-<div class="card make reveal" style="--c:#D9A53A;--d:2"><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
+<div class="card make reveal" style="--c:#C8642A"><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
+<div class="card make reveal" style="--c:#D9A53A"><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
 </div></div></section>
 <section id="why"><div class="wrap">
-<div class="intro"><span class="label">Why Tri Auto</span><h2>What people come in for.</h2><p>Taken from what customers say in their reviews, not from a sales brochure.</p></div>
-<div class="row reveal"><img loading="lazy" alt="Fresh oil being poured into an engine" src="{U('1487754180451-c456f719a1fc', 900, 562)}"><div><h3>Maintenance &amp; oil changes</h3><p>Routine service done right and done the same day. One reviewer had several services finished in a few hours.</p></div></div>
+<div class="intro"><span class="label">Why Tri Auto</span><h2>What people come in for.</h2><p>The reasons customers keep coming back.</p></div>
+<div class="row reveal"><img loading="lazy" alt="Fresh oil being poured into an engine" src="{U('1487754180451-c456f719a1fc', 900, 562)}"><div><h3>Maintenance &amp; oil changes</h3><p>Routine service done right, often the same day.</p></div></div>
 <div class="row reveal"><img loading="lazy" alt="Open engine bay" src="{U('1686082307524-c89fb0bfadde', 900, 562)}"><div><h3>Diagnosis &amp; repair</h3><p>A straight answer about what's wrong, what it costs, and what can wait.</p></div></div>
-<div class="row reveal"><img loading="lazy" alt="Car raised on a shop lift" src="{U('1791419542289-693087bd1044', 900, 562)}"><div><h3>A second opinion</h3><p>Got a dealer quote that stings? Bring it in. One customer says Danny saved her almost $600.</p></div></div>
+<div class="row reveal"><img loading="lazy" alt="Car raised on a shop lift" src="{U('1791419542289-693087bd1044', 900, 562)}"><div><h3>A second opinion</h3><p>Got a dealer quote that stings? Bring it in. One customer saved almost $600.</p></div></div>
 </div></section>
 <section id="reviews"><div class="wrap">
 <span class="label">Reviews</span>
 {(HERE / 'tri_reviews' / 'bigquote.html').read_text().replace(' reveal', '')}
 <p id="review-help" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
 {(HERE / 'tri_reviews' / 'track.html').read_text()}
-<p class="muted" style="font-size:13px">Facebook review excerpts via Birdeye. Source links open in a new tab.</p>
 </div></section>
 <section id="visit"><div class="wrap"><div class="card visit">
 <div><span class="label">Visit</span><h2>Schaefer Ave, Chino.</h2>
-<address>6108 Schaefer Ave<br>Chino, CA 91710</address><p class="muted">Stucco building with the Tri-Auto sign and the flag out front. Plenty of parking on the lot.</p>
-<a class="bigphone" href="tel:+19094656422">(909) 465-6422</a>
+<address>6108 Schaefer Ave<br>Chino, CA 91710</address><a class="bigphone" href="tel:+19094656422">(909) 465-6422</a>
 <div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Tri+Auto+6108+Schaefer+Ave+Chino+CA+91710" rel="noopener">Get directions</a></div></div>
-<div>{hours_table(['8:00 AM – 6:00 PM'] * 5 + ['Closed', 'Closed'])}</div>
+<div>{hours_table(['8:00 AM – 5:00 PM'] * 5 + ['Closed', 'Closed'], '(909) 465-6422', '+19094656422')}</div>
 </div></div></section>
 </main>
 {footer('Tri Auto · Chino, CA')}
@@ -190,25 +241,22 @@ h1{font-size:clamp(36px,5.2vw,66px);max-width:640px}h1 span{color:var(--gold)}
 .bar strong{display:block;font-size:20px;letter-spacing:-.01em;margin-top:4px}.bar a strong{color:var(--accent)}
 .bar small{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
 section{padding:64px 0 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
-.split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:start}
-.split .side{position:sticky;top:24px}.side p{color:var(--muted);margin-top:12px;max-width:360px}
-.side img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:24px}
-.svc li{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;padding:20px 24px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
-.svc svg{width:36px;height:36px;color:var(--navy);margin-top:2px}.svc h3{font-size:19px}.svc p{color:var(--muted);font-size:15px;margin-top:4px}
+.split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:stretch}
+.split .side{display:flex;flex-direction:column}.side p{color:var(--muted);margin-top:12px;max-width:360px}
+.side img{width:100%;flex:1;min-height:240px;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:24px}
+.svc{display:grid;grid-auto-rows:1fr}.svc li{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:center;padding:20px 24px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc svg{width:36px;height:36px;color:var(--navy)}.svc h3{font-size:19px}.svc p{color:var(--muted);font-size:15px;margin-top:4px}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);background:var(--navy);color:#fff;border-radius:8px}
 .stats div{padding:26px 28px;border-right:1px solid #ffffff2e}.stats div:last-child{border:0}
 .stats strong{display:block;font-size:clamp(34px,4.4vw,52px);line-height:1;letter-spacing:-.02em}.stats span{font-size:13px;font-weight:600;color:#C9D2EA;letter-spacing:.04em;text-transform:uppercase}
-.quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
-.quote{padding:24px;border-left:4px solid var(--gold)}.quote p{font-size:20px;font-weight:600;line-height:1.35}
-.quote cite{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:16px}
 .week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:24px}
 .day{padding:16px 10px;text-align:center}.dname{display:block;font-weight:700;font-size:14px}.day .tag{display:block;margin:6px auto 0;width:max-content}
 .day span.h{display:block;font-size:13px;color:var(--muted);margin-top:6px;line-height:1.35}
 .day.today{background:var(--navy);color:#fff}.day.today span.h{color:#C9D2EA}
-.find{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:26px 28px;margin-top:16px}
+.find{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:26px 28px;margin-top:16px}.holiday{max-width:none}
 address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
 .find .actions{display:flex;gap:10px;flex-wrap:wrap}
-@media(max-width:860px){nav{display:none}.sign{font-size:17px;white-space:nowrap}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}.banner .wrap{padding:52px 0 96px}.bar{grid-template-columns:1fr}.bar>*{border-right:0;border-bottom:1px solid var(--line)}.split{grid-template-columns:1fr;gap:24px}.split .side{position:static}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid #ffffff2e}.quotes{grid-template-columns:1fr}.week{grid-template-columns:1fr 1fr}.find{grid-template-columns:1fr}section{padding:44px 0 0}}
+@media(max-width:860px){nav{display:none}.sign{font-size:17px;white-space:nowrap}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}.banner .wrap{padding:52px 0 96px}.bar{grid-template-columns:1fr}.bar>*{border-right:0;border-bottom:1px solid var(--line)}.split{grid-template-columns:1fr;gap:24px}.side img{flex:none}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid #ffffff2e}.week{grid-template-columns:1fr 1fr}.find{grid-template-columns:1fr}section{padding:44px 0 0}}
 """
 
 tire_icon = '<svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="22" cy="22" r="6" fill="currentColor"/><path d="M22 3v10M22 31v10M3 22h10M31 22h10" stroke="currentColor" stroke-width="3"/></svg>'
@@ -217,7 +265,7 @@ ac_services = [
     ("Used tires", "Good used tires for when the budget says “not today” to a full new set."),
     ("Flat repair", "Nail in the tread? In and out fast, weekends included."),
     ("Mount &amp; balance", "Bought tires elsewhere? We’ll mount and balance them."),
-    ("Wheels", "It’s on the sign: A C Tires &amp; Wheels."),
+    ("Wheels", "Ask what’s in stock for your car."),
 ]
 ac_hours = ["8 AM – 8 PM"] * 5 + ["8 AM – 7 PM", "8 AM – 6 PM"]
 ac_week = "".join(
@@ -242,18 +290,18 @@ ac_body = f"""
 <section id="services"><div class="wrap split">
 <div class="side"><span class="label">What we do</span><h2>Tires. That's it. That's the shop.</h2><p>No waiting-room upsell. Pull in, tell us what you need, and get back on the road.</p>
 <img loading="lazy" alt="Stacks of tires in a tire shop" src="{U('1578844251758-2f71da64c96f', 900, 675)}"></div>
-<ul class="card svc">{"".join(f'<li class="reveal" style="--d:{i}">{tire_icon}<div><h3>{n}</h3><p>{t}</p></div></li>' for i, (n, t) in enumerate(ac_services))}</ul>
+<ul class="card svc">{"".join(f'<li class="reveal" >{tire_icon}<div><h3>{n}</h3><p>{t}</p></div></li>' for i, (n, t) in enumerate(ac_services))}</ul>
 </div></section>
 <section id="reviews"><div class="wrap">
-<div class="stats reveal"><div><strong>4.4 ★</strong><span>Google rating</span></div><div><strong>322</strong><span>Google reviews</span></div><div><strong>7</strong><span>Days a week</span></div></div>
-<div style="margin-top:48px"><span class="label">From Yelp</span><h2>Quick, easy, straight forward.</h2></div>
-<div class="quotes"><blockquote class="card quote reveal"><p>“…the dudes here are super nice and straight forward”</p><cite>Sam R. · Yelp · Aug 2025 · flat fixed on a Sunday</cite></blockquote><blockquote class="card quote reveal" style="--d:1"><p>“Super quick and easy.”</p><cite>Kristina G. · Yelp · Aug 2024 · flat repair</cite></blockquote></div>
+<div class="stats reveal"><div><strong>4.4 ★</strong><span>Google rating</span></div><div><strong>324</strong><span>Google reviews</span></div><div><strong>7</strong><span>Days a week</span></div></div>
+<div style="margin-top:48px"><span class="label">Reviews</span><h2>Quick, easy, straight forward.</h2></div>
+<div style="margin-top:24px">{track(AC_REVIEWS)}</div>
 </div></section>
 <section id="visit"><div class="wrap">
 <span class="label">Hours &amp; location</span><h2>Look for the blue building.</h2>
 <div class="week">{ac_week}</div>
-<p class="muted" style="font-size:13px;margin-top:10px">Hours from public listings. Call ahead to confirm.</p>
-<div class="card find"><div><address>301 W California St, Ontario, CA 91762</address><p class="muted" style="margin-top:6px">Royal blue walls, red-and-white hand-painted sign, tires stacked out front.</p></div>
+{holiday('(909) 391-4636', '+19093914636')}
+<div class="card find"><div><address>301 W California St, Ontario, CA 91762</address></div>
 <div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=A+C+Tires+301+W+California+St+Ontario+CA+91762" rel="noopener">Get directions</a><a class="btn" href="tel:+19093914636">Call (909) 391-4636</a></div></div>
 </div></section>
 </main>
@@ -275,7 +323,7 @@ body{border-top:6px solid var(--accent)}
 address{font-style:normal;font-weight:600;margin:16px 0 4px}
 .shop table{font-size:14px;margin-top:14px}.shop th,.shop td{padding:7px 10px}
 .shop{--today:var(--gold);--on-today:#111}
-.feed{display:grid;gap:16px;min-width:0}
+.feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
 .feed>.card{padding:28px}
 .lead h2{font-size:clamp(30px,4vw,48px)}.lead h2 em{font-style:normal;color:var(--accent)}
 .lead p{font-size:18px;color:var(--muted);margin-top:14px;max-width:600px}
@@ -290,17 +338,18 @@ h2.t{font-size:24px;margin-top:6px}
 .since{background:#7E1B17!important;color:#fff;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
 .since .yr{font-size:clamp(64px,9vw,112px);font-weight:700;line-height:.9;letter-spacing:-.04em;color:var(--gold)}
 .since .label{color:#F3D9D7}.since p{font-size:17px;margin-top:8px;max-width:520px}
+#reviews{--qbg:#F2F3F5}#reviews .quote{box-shadow:none}
 .rev li{padding:18px 0;border-bottom:1px solid var(--line)}.rev li:first-child{padding-top:6px}.rev li:last-child{border:0;padding-bottom:0}
 .rev p{font-size:19px;font-weight:600}.rev cite{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:6px}
 @media(max-width:900px){.layout{grid-template-columns:1fr;margin-top:-40px}.shop{position:static}.svc{grid-template-columns:1fr}.since{grid-template-columns:1fr;gap:10px}.feed>.card{padding:22px}}
 """
 
 mo_services = [
-    ("Engine repair", "From check-engine lights to major engine work. Known for tracking down the hard-to-diagnose problems.", "On the banner", "1429772011165-0c2e054367b8"),
+    ("Engine repair", "From check-engine lights to major engine work. We track down the hard-to-diagnose problems.", "On the banner", "1429772011165-0c2e054367b8"),
     ("Computer alignment", "Computerized wheel alignment, including taller vehicles other shops turn away.", "On the banner", "1444947295498-07f60c19a4ff"),
     ("A/C complete service", "Air conditioning diagnosis, repair and recharge. This is the Inland Empire. You need it.", "On the banner", "1542399204-b8dd4af5113d"),
     ("Transmission rebuild", "Transmission service and full rebuilds done in-house.", "On the banner", "1614447428943-52ec0bdbc7aa"),
-    ("Vehicle inspections", "A favorite of local rideshare drivers, according to reviews.", "From reviews", "1557411255-28ebcc0fdd54"),
+    ("Vehicle inspections", "A favorite of local rideshare drivers.", "From reviews", "1557411255-28ebcc0fdd54"),
     ("Diagnostics", "A scan, a straight explanation and a fair price before any work starts.", "From reviews", "1625047509248-ec889cbff17f"),
 ]
 
@@ -310,21 +359,20 @@ mo_body = f"""
 <div class="layout">
 <aside class="card shop" aria-label="Shop details">
 <h1>Moreno<i>'</i>s Auto Repair</h1><p class="sub">Family owned · Holt Blvd, Ontario · since 2009</p>
-<div class="rates"><div><strong>4.7 ★</strong><span>Google · 284 reviews</span></div><div><strong>4.9 ★</strong><span>SureCritic · 661 verified</span></div></div>
+<div class="rates"><div><strong>4.7 ★</strong><span>Google · 284 reviews</span></div><div><strong>4.9 ★</strong><span>SureCritic · 661 reviews</span></div></div>
 <a class="btn primary" href="tel:+19094186955">Call (909) 418-6955</a>
 <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Moreno%27s+Auto+Repair+527+E+Holt+Blvd+Ontario+CA+91761" rel="noopener">Get directions</a>
-<address>527 E Holt Blvd<br>Ontario, CA 91761</address><p class="muted" style="font-size:14px">White building, red trim, three open bays and a wall of banners.</p>
-{hours_table(['8:00 AM – 6:00 PM'] * 5 + ['Closed', 'Closed'])}
+<address>527 E Holt Blvd<br>Ontario, CA 91761</address>{hours_table(['8:00 AM – 6:00 PM'] * 5 + ['Closed', 'Closed'], '(909) 418-6955', '+19094186955')}
 </aside>
 <div class="feed">
 <div class="card lead"><h2>If it's on the banner, <em>we fix it.</em></h2>
 <p>Engines, transmissions, alignments and A/C under one roof. Moreno's is a family-owned shop on Holt Boulevard, fixing Ontario's cars since 2009.</p>
 <div class="chips" aria-label="Services on the shop's banners"><span class="y">Engine repair</span><span class="r">Computer alignment</span><span class="w">Air condition complete service</span><span class="y">Transmission rebuild</span></div></div>
 <div class="card" id="services"><span class="label">Services</span><h2 class="t">Read the wall. That's the menu.</h2>
-<div class="svc">{"".join(f'<div class="s reveal" style="--d:{i % 2}"><img loading="lazy" alt="" src="{U(p, 240, 240, 60)}"><div><h3>{n}</h3><p>{t}</p><small>{src}</small></div></div>' for i, (n, t, src, p) in enumerate(mo_services))}</div></div>
-<div class="card since reveal" id="family"><div class="yr" aria-hidden="true">'09</div><div><span class="label">Family owned &amp; operated</span><p>Moreno's opened in 2009 and it's still run by the family. Same bays, same street, same name on the wall. Customers say the owner tells it straight and charges a fair price.</p></div></div>
+<div class="svc">{"".join(f'<div class="s reveal" ><img loading="lazy" alt="" src="{U(p, 240, 240, 60)}"><div><h3>{n}</h3><p>{t}</p></div></div>' for i, (n, t, src, p) in enumerate(mo_services))}</div></div>
+<div class="card since reveal" id="family"><div class="yr" aria-hidden="true">'09</div><div><span class="label">Family owned &amp; operated</span><p>Moreno's opened in 2009 and it's still run by the family. Same bays, same street, same name on the wall. Straight answers and fair prices.</p></div></div>
 <div class="card" id="reviews"><span class="label">Reviews</span><h2 class="t">Above and beyond.</h2>
-<ul class="rev" style="margin-top:14px"><li><p>“Good affordable service!!”</p><cite>James S. · Yelp · Jan 2025</cite></li><li><p>“…above and beyond…”</p><cite>G O. · Yelp · Nov 2025 · vehicle inspection</cite></li><li><p>“Outstanding Customer Service”</p><cite>Lisa A. · SureCritic verified · Nov 2026</cite></li></ul></div>
+<div style="margin-top:16px">{track(MO_REVIEWS)}</div></div>
 </div></div></div>
 </main>
 {footer("Moreno's Auto Repair LLC · Ontario, CA")}
@@ -332,8 +380,8 @@ mo_body = f"""
 
 SITES = {
     "tri-auto": ("Tri Auto | Toyota, Honda & Lexus Repair in Chino, CA", "Independent Toyota, Honda and Lexus repair in Chino, CA. Concept site.", tri_css, tri_body, (HERE / "tri_reviews" / "carousel.html").read_text()),
-    "ac-tires": ("A C Tires | New & Used Tires in Ontario, CA", "New and used tires, flat repair and mount-and-balance in Ontario, CA. Open late and on Sundays. Concept site.", ac_css, ac_body, ""),
-    "morenos-auto-repair": ("Moreno's Auto Repair | Ontario, CA", "Family-owned auto repair on Holt Blvd in Ontario, CA since 2009. Concept site.", mo_css, mo_body, ""),
+    "ac-tires": ("A C Tires | New & Used Tires in Ontario, CA", "New and used tires, flat repair and mount-and-balance in Ontario, CA. Open late and on Sundays. Concept site.", ac_css + CAR_CSS, ac_body, CAROUSEL_JS),
+    "morenos-auto-repair": ("Moreno's Auto Repair | Ontario, CA", "Family-owned auto repair on Holt Blvd in Ontario, CA since 2009. Concept site.", mo_css + CAR_CSS, mo_body, CAROUSEL_JS),
 }
 
 for folder, args in SITES.items():
