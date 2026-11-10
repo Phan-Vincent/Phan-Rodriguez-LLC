@@ -21,3 +21,9 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `morenos-auto-repair/` | Moreno's Auto Repair LLC | Ontario |
 
 These are mockups for sales pitches, not the businesses' official websites. Content comes from each business's public listings (Google Maps, Yelp excerpts, Facebook reviews, SureCritic). Review quotes name their source. Confirm services and hours with the owner before a site goes live.
+
+## docs/ and tools/
+- `docs/HANDOFF.md`: full project context (business data, sources, decisions, open items) for anyone, or any Claude session, picking this up.
+- `docs/screenshots/`: contact sheets of the three auto shop concepts.
+- `DESIGN.md`: design directions and system for the three auto shop concepts.
+- `tools/auto-shop-generator/`: the script that builds those three sites.
