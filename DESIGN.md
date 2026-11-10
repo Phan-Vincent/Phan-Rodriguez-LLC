@@ -74,3 +74,85 @@ Layout rendered with Playwright (Chrome) at 1440px and 390px, with placeholder b
 - Real photos from each owner (shop front, bays, staff). Current photos are stock images, not these shops.
 - Owner sign-off on services, hours and the quoted reviews.
 - Tri Auto's address: Google shows 6108 Schaefer Ave; older directories show 5203 G St.
+
+## Tri Auto modern refresh (2026-11-10)
+
+Requested by Andrew: rounder, more modern, better type, reviews that rotate on their own.
+
+- **Reference:** sbdautomotive.com (the Awwwards page for it blocks automated reading, so the live site was inspected directly). Borrowed: geometric sans in sentence case, heavy headings, pill buttons, rounded panels, lots of white space, soft shadows. Tri Auto's own red, orange and yellow stripe colors are kept.
+- **Type:** Manrope (variable, weights 200 to 800), self-hosted in `mockups/tri-auto/fonts/` under the SIL Open Font License. This replaces Arial Black italic capitals. Tri Auto is no longer a single file: it needs the `fonts/` folder beside it.
+- **Shape:** 24px to 32px radius on cards, photo, rating badge and the dark section; pill buttons, phone link and marquee; paper grain and hard 2px rules removed; sticky blurred header.
+- **Reviews:** the Pause/Resume button, arrows and helper text are gone. The row scrolls continuously, stops while a visitor touches, holds, hovers or keyboard-focuses it, and continues about a third of a second after they let go. Swiping and arrow keys still work. With reduced motion turned on it does not auto-scroll.
+- **Checked:** Playwright at 1440px and 390px, no horizontal overflow, no console errors, auto-scroll, hold and release confirmed by script. Photos were placeholders in that check (the sandbox cannot load Unsplash).
+- `tools/auto-shop-generator/build.py` does not produce this version. Edit `mockups/tri-auto/index.html` directly.
+- **Follow-up (same day):** removed the section numbers (01 to 04), the 01/02/03 row numbers and the A/B/C card labels; removed the green "Open now" status line from the hero; set every piece of text, including the Tri-Auto wordmark, in Manrope. Today's row is still highlighted in the hours table.
+
+## A C Tires and Moreno's: same refresh (2026-11-10)
+
+Andrew asked for the Tri Auto design changes on the other two sites. Each keeps its own colors and signature element (blue wall and tire for A C Tires; bay banners and '09 for Moreno's).
+
+- Manrope everywhere in sentence case, self-hosted in each site's own `fonts/` folder, so each folder still stands alone.
+- Pill buttons, phone link and marquee; 24px to 32px rounded cards, photos, stat tiles, hours rows and dark panels; grain overlay removed; sticky header.
+- The green "Open now" status line is removed. Neither site had section numbers.
+- Reviews stay as static rounded cards. These sites have only two and three quotes, too few for a rotating row without visible repeats. Add the Tri Auto carousel once more quotes are collected.
+- Checked with Playwright at 1440px and 390px: no horizontal overflow, no console errors. Photos were placeholders in that check.
+- `tools/auto-shop-generator/build.py` no longer matches any of the three pages. Edit the `index.html` files directly.
+
+## Astryx layer on all three auto shop sites (2026-11-10)
+
+Andrew asked for the three sites to use the Astryx UI values (see `docs/design-system/`). Each page got an "Astryx layer" block at the end of its stylesheet.
+
+- **Neutral palette:** Tri Auto and Moreno's backgrounds moved from warm cream to Astryx's cool gray `#F1F4F7`, with white surfaces, `#0A1317` text, `#4E606F` secondary text and `#CCD3DB` borders. A C Tires keeps its blue; its cream panels became `#F1F4F7` and white. Brand reds, yellows and blues are unchanged.
+- **Radius roles:** 12px for small parts (table rows, banners, sign), 20px for cards, 28px for panels and hero photos, pills for buttons. Astryx's own 12px container radius is scaled up for cards because these are marketing pages.
+- **Shadows:** Astryx low on cards, high on hover and on the Tri Auto rating badge.
+- **Focus ring:** 2px solid, 3px offset.
+- **Motion:** 175ms hover feedback, 410ms reveals, easing `cubic-bezier(.24,1,.4,1)`.
+- **Type weights:** headings 700 (was 800), quotes and addresses 600, labels 600. Still Manrope; Astryx's default is the system font.
+- **Badges:** section labels ("What we fix", "Services", "Find us") are now small pill badges.
+- **Not used:** Astryx's React components and its 14px app text sizes.
+- Checked with Playwright at 1440px and 390px: no overflow, no console errors, Tri Auto carousel still scrolls, holds and resumes. Photos were placeholders in that check.
+
+## Feed-style look and muted colors on all three sites (2026-11-10)
+
+Andrew asked for the sites to mirror Facebook's UI look and for logos and designs to be less bright with good contrast. Style cues only: no Facebook logo, name, blue brand color or layout is copied, and each shop keeps its own identity.
+
+- **Look:** light gray canvas `#F0F2F5`, white cards, 8px corners (12px on large panels), thin card shadow, white header with a hairline shadow, flat 6px buttons (gray secondary, brand-colored primary), gray pill labels, system font (Segoe UI on Windows). Manrope files remain in each `fonts/` folder but are no longer used.
+- **Light sections:** Tri Auto's dark "Why" band and A C Tires' all-blue page became light sections with white cards. A C Tires keeps blue for the hero and visit panels; Moreno's keeps the red '09 panel and dark visit panel.
+- **Muted brand colors:** red `#B3261E` on all three (was `#d7261e`, `#d62b1f`, `#c81f25`); Tri Auto stripes `#C8642A` and `#D9A53A`; A C Tires blue `#1E3A8A` and gold `#E9B949`; Moreno's gold `#E9B949`, blue `#1E4A9C`, panel red `#8C1D18`. Logos use the same muted values.
+- **Contrast (WCAG ratio, 4.5 needed for normal text):** red on canvas 5.8, red on white 6.5, gray text on canvas 5.1, gray label on chip 4.5, white on A C blue 10.4, dark on gold 10.3, gold '09 on red panel 5.0, white on red 6.5, Moreno's blue on white banner 8.0. Tri Auto's orange logo stripe is 3.9 on white; it is decoration, not text.
+- Checked with Playwright at 1440px and 390px: no overflow, no console errors, Tri Auto carousel still works. Photos were placeholders in that check.
+
+## Three different layouts, new hero photos (2026-11-10)
+
+Andrew asked that the sites stop sharing one layout, stay professional and clean, not too vibrant, with good contrast. He also sent `ai-image-handoff.zip`.
+
+- **Rebuilt from scratch** with `tools/auto-shop-generator/build_v2.py`. The stacked override layers from earlier today are gone.
+- **Tri Auto:** split hero (text left, photo right), three make tiles, zigzag photo rows, rotating reviews, one visit card.
+- **A C Tires:** navy header, wide photo banner, an info bar overlapping it (open late, phone, address), service list beside a sticky heading, navy stats band, hours as a seven-day strip.
+- **Moreno's:** profile-style page. Cover photo, a sticky shop card on the left (ratings, call, directions, address, hours) and content cards on the right (headline with banner-colored service chips, services with thumbnails, the '09 family card, reviews list). No top nav.
+- **Shared on purpose:** system font, 8px cards, 6px buttons, muted palette, footer note, noindex, today highlighted in hours.
+- **Palette:** red `#B3261E` (Moreno's `#A32420`), A C navy `#16295E`, gold `#E9B949`, neutrals near `#F0F2F5` with `#050505` text and gray secondary text around 5:1.
+- **Image pack:** the zip held no image files, only four links and notes. Three were viewed in the browser and are now the hero photos: wrench close-up (Unsplash, Bengkel Mobil Matic Bandung) for Tri Auto, tire mounting (Mustafa Sheikhmouss) for A C Tires, clean workshop (Dextar Studio) for Moreno's. The Pexels brake photo was not used because brake work is not confirmed for Tri Auto.
+- **Removed:** marquees, the A C Tires spinning tire and yellow badge, Moreno's bay banners over the photo, Manrope font files.
+- **Checked:** Playwright at 1440px and 390px, no overflow, no console errors, Tri Auto carousel scrolls, holds and resumes. Photos were placeholders in that check.
+
+## Quality check before cold calls (2026-11-10)
+
+Checked against Google Maps, Birdeye, SureCritic, Yelp and MapQuest on Nov 10, 2026.
+
+| Item | Tri Auto | A C Tires | Moreno's |
+| --- | --- | --- | --- |
+| Address (Google Maps) | 6108 Schaefer Ave, Chino 91710. Confirmed; Birdeye's "5203 G St" is wrong or old | 301 W California St, Ontario 91762 | 527 E Holt Blvd, Ontario 91761 |
+| Phone (Google Maps) | (909) 465-6422 | (909) 391-4636 | (909) 418-6955 |
+| Google rating | 4.9, 333 reviews | 4.4, 324 reviews (was 322) | 4.7, 284 reviews |
+| Hours (Google Maps) | Mon to Fri 8 to 5. **Changed from 6 PM.** Birdeye still says 6 PM; ask the owner | Mon to Fri 8 to 8, Sat 8 to 7, Sun 8 to 6 | Mon to Fri 8 to 6 |
+| Other | Atly lists Toyota, Honda and Lexus only; reviews name Danny | | SureCritic 4.9 from 661 reviews; opened 2009, family owned |
+
+- **Reviews:** all three sites now have the rotating review row. Every card is a short excerpt from a real review and links to it. Tri Auto: six Facebook reviews via Birdeye (Vincent's links, each phrase re-checked on the page). A C Tires: four Yelp reviews linked by Yelp review ID plus one Google review via Birdeye. Moreno's: five SureCritic reviews (text-fragment links to the listing page) and two Yelp reviews by ID. Two Yelp links were opened and showed the right business and review. Earlier quotes that no longer had a findable source link (Kristina G., James S., G O.) were dropped. SureCritic links point at the recent-reviews page, so older reviews will scroll off it over time.
+- **Holiday hours:** none of the three shops publishes holiday hours. Google Maps only says Veterans Day hours "might differ". Each site has a Holiday hours note telling visitors to call first. Replace with real hours once an owner provides them.
+- **Wording:** removed hedges ("according to reviews", "Hours from public listings", "On the banner / From reviews" tags, building descriptions). Claims that remain need owner sign-off: Tri Auto "prices well below the dealer's" and "Three makes. Nothing else."; A C Tires "Wheels"; Moreno's service list.
+- **Footer:** the short "Concept website by Phan-Rodriguez LLC. Not the official site of this business." line stays while the pages are public.
+- **Motion:** every block is hidden until scrolled to, then fades in and slides up, with siblings staggered. Skipped when reduced motion is on; without JavaScript everything is visible.
+- **Layout:** A C Tires service list and photo column now match in height; Tri Auto visit card columns are vertically centered.
+- **Photos:** all 13 Unsplash URLs load (checked in a browser). They are still hotlinked.
+- **Tests:** Playwright at 1440px and 390px on all three: no horizontal overflow, no script errors, reveal hides below-the-fold blocks and shows them on scroll, carousels scroll, hold and resume.

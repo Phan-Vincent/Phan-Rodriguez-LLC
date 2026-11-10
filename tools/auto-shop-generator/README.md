@@ -1,12 +1,18 @@
 # Auto shop site generator
 
-`build.py` generates the Tri Auto, A C Tires and Moreno's Auto Repair sites (`mockups/<folder>/index.html`). `shot.py` takes Playwright screenshots at 1440px and 390px and checks for horizontal overflow and console errors.
+`build_v2.py` builds the three auto shop concept sites into `mockups/<folder>/index.html`. Each site has its own layout:
+
+| Site | Layout |
+| --- | --- |
+| Tri Auto | Split hero, three make tiles, zigzag photo rows, rotating reviews, visit card |
+| A C Tires | Photo banner with an info bar, service list beside a sticky heading, stats band, week strip |
+| Moreno's | Profile page: cover photo, sticky shop card on the left, content cards on the right |
 
 ```
-python3 build.py <path-to-mockups-dir>
+python3 tools/auto-shop-generator/build_v2.py mockups
 ```
 
-Notes:
-- Photos are Unsplash free-license images, loaded by URL. IDs are in the `P` dict in `build.py` and listed in `DESIGN.md`.
-- The committed pages also have `<meta name="robots" content="noindex">` added after generation. Add it to `page()` in `build.py` if you regenerate.
-- Review quotes, hours and addresses are from public listings. Confirm with each owner before launch.
+- `tri_reviews/` holds Tri Auto's review markup and carousel script (Vincent's Birdeye links). Edit reviews there.
+- If you hand-edit a page in `mockups/`, also change `build_v2.py`, or the next build overwrites it.
+- `build_v1_old.py` is the first generator, kept for history. `shot.py` takes Playwright screenshots.
+- Photos are Unsplash free-license images loaded by URL. Quotes, hours and addresses come from public listings; confirm with each owner before launch.

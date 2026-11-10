@@ -1,167 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f4f1ea">
-<meta name="description" content="Moreno's Auto Repair — engine repair, computer alignment, A/C and transmission rebuilds at 527 E Holt Blvd, Ontario. Family owned since 2009. (909) 418-6955.">
-<title>Moreno's Auto Repair | Family-Owned Shop in Ontario, CA</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moreno's Auto Repair | Ontario, CA</title>
+<meta name="description" content="Family-owned auto repair on Holt Blvd in Ontario, CA since 2009. Concept site.">
 <style>
-@font-face{font-family:Poster;src:local('Impact'),local('Haettenschweiler'),local('Anton'),local('Arial Black'),local('Arial-Black'),local('Roboto Black'),local('Arial Bold'),local('Arial-BoldMT'),local('Liberation Sans Bold'),local('DejaVu Sans Bold')}
-body:after{content:'';position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.09;mix-blend-mode:multiply;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:20px}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
-h1,h2,h3,p,blockquote,figure{margin:0}a{color:inherit;text-decoration:none}
-a:focus-visible,button:focus-visible{outline:3px solid var(--focus,var(--accent));outline-offset:5px}
-svg{display:block;max-width:100%}
-.wrap{width:min(1180px,calc(100% - 72px));margin:auto}
-.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700}
-.skip{position:absolute;left:16px;top:-80px;z-index:9;background:#fff;color:#000;padding:10px}.skip:focus{top:10px}
-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:92px}
-nav{display:flex;gap:28px;font-size:13px;font-weight:700}
-nav a{position:relative;padding:4px 0}
-nav a:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s cubic-bezier(.2,.8,.2,1)}
-nav a:hover:after{transform:scaleX(1)}
-.phone{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700;font-size:15px;white-space:nowrap}
-.btn{display:inline-flex;align-items:center;gap:16px;min-height:54px;padding:14px 24px;font-size:14px;font-weight:800;border:2px solid currentColor;position:relative;overflow:hidden;isolation:isolate;transition:color .3s}
-.btn:before{content:"";position:absolute;inset:0;background:var(--btn-fill,var(--ink));transform:translateY(101%);transition:transform .35s cubic-bezier(.2,.8,.2,1);z-index:-1}
-.btn:hover:before{transform:none}.btn:hover{color:var(--btn-hover,var(--bg))}
-.btn i{font-style:normal;transition:transform .3s}.btn:hover i{transform:translateX(6px)}
-.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.status{display:inline-flex;align-items:center;gap:10px}
-.status b{width:9px;height:9px;border-radius:50%;background:#9a9a9a}
-.status.open b{background:#22b455;animation:pulse 1.8s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 #22b45599}100%{box-shadow:0 0 0 12px #22b45500}}
-h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding:.08em .06em .08em 0;margin:-.08em 0}
-h1 .w>span{display:inline-block;transform:translateY(110%);transition:transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--i)*70ms)}
-.ready h1 .w>span{transform:none}
-.reveal{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--d,0)*90ms)}
-.reveal.in{opacity:1;transform:none}
-.marquee{overflow:hidden;white-space:nowrap}
-.marquee div{display:inline-block;animation:slide 28s linear infinite;padding:16px 0}
-.marquee span{margin:0 26px}
-@keyframes slide{to{transform:translateX(-50%)}}
-section{padding:96px 0}
-h2{font-family:var(--display);font-size:clamp(38px,5vw,66px);line-height:1;text-transform:uppercase}
-.head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:46px}
-.head p:last-child{max-width:300px;font-size:14px;color:var(--muted)}
-.quotes{display:grid;grid-template-columns:repeat(var(--qcols,3),1fr);gap:22px}
-.quote{padding:28px;border:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;gap:26px;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
-.quote:hover{transform:translateY(-6px) rotate(-.6deg);box-shadow:8px 8px 0 var(--accent)}
-.quote p{font-size:21px;line-height:1.35;font-weight:700}
-.quote cite{font-style:normal;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
-.stars{letter-spacing:4px;color:var(--star,var(--accent))}
-.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}
-address{font-style:normal;font-size:24px;line-height:1.45;font-weight:700;margin:22px 0 8px}
-.bigphone{display:inline-block;font-family:var(--display);font-size:clamp(36px,5vw,58px);line-height:1.1;margin-top:26px}
-table{border-collapse:collapse;width:100%;font-size:15px}
-th,td{padding:13px 14px;border-bottom:1px solid var(--line)}th{text-align:left;font-weight:400}td{text-align:right;white-space:nowrap}
-tr.today{background:var(--accent);color:var(--on-accent,#fff)}tr.today th,tr.today td{font-weight:800}
-.tag{font:9px ui-monospace,Menlo,monospace;text-transform:uppercase;margin-left:10px;border:1px solid currentColor;padding:2px 5px;letter-spacing:1px}
-.ph{display:block;width:100%;object-fit:cover;background:#2a2a2a;filter:saturate(.85) contrast(1.05);transition:filter .5s,transform .8s cubic-bezier(.2,.8,.2,1)}.phw{overflow:hidden}.phw:hover .ph,.card:hover .ph,.s:hover .ph{filter:none;transform:scale(1.05)}.proof{margin-top:18px;display:block}
-.note{font-size:12px;color:var(--muted);margin-top:14px}
-footer{padding:30px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
-footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
-@media(max-width:900px){.wrap{width:calc(100% - 44px)}nav{display:none}.quotes{grid-template-columns:1fr}.visit-grid{grid-template-columns:1fr;gap:50px}.head{display:block}.head p:last-child{margin-top:16px;max-width:none}section{padding:64px 0}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}h1 .w>span{transform:none}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+.skip{position:absolute;left:16px;top:-80px;z-index:99;background:#fff;color:#000;padding:10px;border-radius:6px}.skip:focus{top:10px}
+.label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:6px;font-weight:600;font-size:15px;background:var(--chip);color:var(--ink);transition:filter .175s}
+.btn:hover{filter:brightness(.94)}.btn.primary{background:var(--accent);color:#fff}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
+.muted{color:var(--muted)}
+table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
+th{text-align:left;font-weight:500}td{text-align:right}th,td{padding:10px 12px;background:var(--row,#fff)}
+tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
+tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 
-:root{--bg:#f4f1ea;--ink:#16171b;--accent:#c81f25;--yellow:#ffd21f;--blue:#1d4fb8;--muted:#5c5e66;--line:#d3cec2;--display:Poster,Impact,'Arial Black',sans-serif;--focus:#1d4fb8}
-body:before{content:"";display:block;height:14px;background:var(--accent)}
-.logo{font-family:var(--display);font-size:30px;line-height:1;text-transform:uppercase;letter-spacing:.5px}
-.logo span{color:var(--accent)}.logo small{display:block;font:700 10px ui-monospace,Menlo,monospace;letter-spacing:3px;margin-top:4px;color:var(--muted)}
-.hero{padding:64px 0 0}
-h1{font-family:var(--display);font-weight:400;font-size:clamp(56px,9.6vw,148px);line-height:.92;text-transform:uppercase;margin-top:22px}
-h1 em{font-style:normal;color:var(--accent)}
-.hero-row{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-top:30px;flex-wrap:wrap}
-.lede{font-size:19px;max-width:520px}
-.shop{overflow:hidden;margin-top:60px;position:relative;border-top:16px solid var(--accent);background:linear-gradient(180deg,#000a 0,#0003 38%,#0000 60%,#0006 100%),var(--img) center 60%/cover #1b1c20;padding-bottom:clamp(170px,27vw,400px)}
-.bays{display:grid;grid-template-columns:repeat(3,1fr);gap:3%;padding:0 3%}
-.bay{position:relative;padding-top:26px;display:flex;flex-direction:column}
-.banner{display:block;position:relative;font-family:var(--display);text-transform:uppercase;font-size:clamp(15px,2.4vw,34px);line-height:1.05;padding:12px 14px;text-align:center;transform-origin:top;animation:unfurl .8s cubic-bezier(.3,1.4,.5,1) both;animation-delay:calc(var(--n)*160ms + 500ms);box-shadow:0 10px 14px -6px #0007,inset 0 0 0 1px #0002;background-image:linear-gradient(90deg,#0000 0,#fff3 12%,#0001 30%,#fff2 52%,#0002 74%,#fff2 90%,#0001 100%)}
-.banner:before,.banner:after{content:'';position:absolute;top:5px;width:7px;height:7px;border-radius:50%;background:radial-gradient(#111 0 35%,#d9d9d9 40% 100%);box-shadow:0 1px 1px #0006}
-.banner:before{left:6px}.banner:after{right:6px}
-@keyframes unfurl{from{transform:scaleY(0) rotate(-3deg)}to{transform:none}}
-.b-y{background-color:var(--yellow);color:#111}.b-r{background-color:var(--accent);color:#fff}.b-b{background-color:#fafafa;color:var(--blue)}
-.marquee{background:var(--ink);color:#fff;font-family:var(--display);font-size:22px;text-transform:uppercase}
-.marquee span:nth-child(4n+1){color:var(--yellow)}
-.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.s{padding:0;border:2px solid var(--ink);background:#fff;box-shadow:0 16px 26px -18px #000;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
-.s:hover{transform:translate(-5px,-5px);box-shadow:10px 10px 0 var(--ink)}
-.s h3{background-image:linear-gradient(90deg,#0000 0,#fff3 14%,#0001 34%,#fff2 56%,#0002 78%,#fff2 100%);font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:28px;line-height:1.05;padding:14px 18px;border-bottom:2px solid var(--ink)}
-.s .ph{height:170px;border-bottom:2px solid var(--ink)}.s p{padding:18px;font-size:14.5px;color:#3e4047}.s .mono{display:block;padding:0 18px 18px;color:var(--muted);font-size:10px}
-.family{background:radial-gradient(90% 120% at 20% 40%,#e02b31 0,#c81f25 45%,#8e1318 100%);color:#fff}.year{text-shadow:0 2px 0 #b98f00,0 18px 30px #5a0a0d}
-.fam-grid{display:grid;grid-template-columns:auto 1fr;gap:60px;align-items:center}
-.year{font-family:var(--display);font-size:clamp(120px,24vw,340px);line-height:.8;color:var(--yellow);transform:translateX(calc(var(--mx,0)*-20px))}
-.family p{font-size:22px;line-height:1.45;max-width:520px}
-.nums{display:flex;gap:44px;margin-top:34px;flex-wrap:wrap}.nums strong{font-family:var(--display);font-weight:400;font-size:54px;line-height:1;display:block}
-.quote{background:#fff;border:2px solid var(--ink)}.quote:hover{box-shadow:8px 8px 0 var(--yellow)}
-.visit{background:var(--ink);color:#fff;--line:#3b3d45;--muted:#a9abb3}.visit .btn{--btn-fill:#fff;--btn-hover:#16171b}
-tr.today{background:var(--yellow);color:#111}
-@media(max-width:900px){.svc{grid-template-columns:1fr}.fam-grid{grid-template-columns:1fr;gap:20px}.bays{gap:2%;padding:0 2%}}
+:root{--bg:#F2F3F5;--ink:#111418;--muted:#5F6670;--line:#D3D6DB;--chip:#E5E7EB;--accent:#A32420;--gold:#E9B949;--blue:#1E4A9C;--focus:#1E4A9C}
+body{border-top:6px solid var(--accent)}
+.cover{height:clamp(200px,30vw,380px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover #23262b;border-radius:0 0 8px 8px}
+.layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start;margin-top:-56px;position:relative}
+.shop{position:sticky;top:16px;padding:24px;--row:#F2F3F5}
+.shop h1{font-size:28px}.shop h1 i{font-style:normal;color:var(--accent)}
+.shop .sub{font-size:13px;font-weight:600;color:var(--muted);margin-top:4px}
+.rates{display:flex;gap:18px;margin:16px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.rates strong{display:block;font-size:22px}.rates span{font-size:12px;color:var(--muted)}
+.shop .btn{width:100%;margin-top:8px}
+address{font-style:normal;font-weight:600;margin:16px 0 4px}
+.shop table{font-size:14px;margin-top:14px}.shop th,.shop td{padding:7px 10px}
+.shop{--today:var(--gold);--on-today:#111}
+.feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
+.feed>.card{padding:28px}
+.lead h2{font-size:clamp(30px,4vw,48px)}.lead h2 em{font-style:normal;color:var(--accent)}
+.lead p{font-size:18px;color:var(--muted);margin-top:14px;max-width:600px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chips span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:6px}
+.y{background:var(--gold);color:#111}.r{background:var(--accent);color:#fff}.w{background:#fff;color:var(--blue);box-shadow:inset 0 0 0 1px var(--line)}
+h2.t{font-size:24px;margin-top:6px}
+.svc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.s{display:grid;grid-template-columns:104px 1fr;gap:14px;align-items:center;min-width:0}
+.s img{width:104px;height:104px;object-fit:cover;border-radius:8px}
+.s h3{font-size:17px}.s p{font-size:14px;color:var(--muted);margin-top:4px}.s small{display:block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.since{background:#7E1B17!important;color:#fff;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
+.since .yr{font-size:clamp(64px,9vw,112px);font-weight:700;line-height:.9;letter-spacing:-.04em;color:var(--gold)}
+.since .label{color:#F3D9D7}.since p{font-size:17px;margin-top:8px;max-width:520px}
+#reviews{--qbg:#F2F3F5}#reviews .quote{box-shadow:none}
+.rev li{padding:18px 0;border-bottom:1px solid var(--line)}.rev li:first-child{padding-top:6px}.rev li:last-child{border:0;padding-bottom:0}
+.rev p{font-size:19px;font-weight:600}.rev cite{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:6px}
+@media(max-width:900px){.layout{grid-template-columns:1fr;margin-top:-40px}.shop{position:static}.svc{grid-template-columns:1fr}.since{grid-template-columns:1fr;gap:10px}.feed>.card{padding:22px}}
+
+.quotes{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding:4px 2px 18px;cursor:grab}.quotes::-webkit-scrollbar{display:none}
+.quotes .quote{flex:0 0 min(380px,82%);background:var(--qbg,#fff);border-radius:8px;box-shadow:0 1px 2px #0003;padding:22px}
+.review-body{display:flex;flex-direction:column;justify-content:space-between;gap:24px;height:100%}
+.review-origin{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.quotes .quote p:not(.review-origin){font-size:19px;font-weight:600;line-height:1.35}
+.quotes .quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted)}
+.review-source{display:inline-block;margin-top:10px;font-size:13px;font-weight:600;letter-spacing:0;text-decoration:underline;text-underline-offset:4px}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header><div class="wrap"><a href="#" class="logo" aria-label="Moreno's Auto Repair">Moreno<span>'</span>s<small>AUTO REPAIR · ONTARIO</small></a>
-<nav aria-label="Main"><a href="#services">Services</a><a href="#family">Our shop</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
-<a class="phone" href="tel:+19094186955">(909) 418-6955</a></div></header>
 <main id="main">
-<section class="hero">
-<div class="wrap"><p class="mono status"><b></b><em style="font-style:normal">Holt Blvd · Ontario, CA</em></p>
-<h1>If it's on the banner,<br><em>we fix it.</em></h1>
-<div class="hero-row"><p class="lede">Engines, transmissions, alignments and A/C under one roof. Moreno's is a <strong>family-owned shop on Holt Boulevard</strong>, fixing Ontario's cars since 2009.</p>
-<div class="actions" style="margin:0"><a class="btn" href="tel:+19094186955" style="background:var(--accent);color:#fff;border-color:var(--accent)">Call the shop <i>→</i></a><a class="btn" href="#services">See services <i>↓</i></a><span class="mono" style="flex-basis:100%;text-align:right">★ 4.7 on Google · 284 reviews</span></div></div></div>
-<div class="shop" role="img" aria-label="Auto repair shop floor with red vehicle lifts" style="--img:url(https://images.unsplash.com/photo-1792793176006-a7b35e29c7e1?auto=format&fit=crop&w=1800&h=900&q=70)"><div class="bays">
-<div class="bay"><span class="banner b-y" style="--n:0">Engine Repair</span><span class="banner b-r" style="--n:1;margin-top:4px">Computer Alignment</span></div>
-<div class="bay"><span class="banner b-b" style="--n:2">Air Condition<br>Complete Service</span></div>
-<div class="bay"><span class="banner b-y" style="--n:3">Transmission Rebuild</span><span class="banner b-b" style="--n:4;margin-top:4px">Moreno's Auto Repair</span></div>
-</div></div>
-<div class="marquee" aria-hidden="true"><div><span>Engine repair</span><span aria-hidden="true">★</span><span>Computer alignment</span><span aria-hidden="true">★</span><span>A/C service</span><span aria-hidden="true">★</span><span>Transmission rebuild</span><span aria-hidden="true">★</span><span>Family owned</span><span aria-hidden="true">★</span><span>Since 2009</span><span aria-hidden="true">★</span><span>Engine repair</span><span aria-hidden="true">★</span><span>Computer alignment</span><span aria-hidden="true">★</span><span>A/C service</span><span aria-hidden="true">★</span><span>Transmission rebuild</span><span aria-hidden="true">★</span><span>Family owned</span><span aria-hidden="true">★</span><span>Since 2009</span><span aria-hidden="true">★</span></div></div>
-</section>
-<section id="services"><div class="wrap">
-<div class="head"><div><p class="mono" style="color:var(--accent);margin-bottom:14px">Services</p><h2>Read the wall.<br>That's the menu.</h2></div><p>The banners over our bay doors say what we do. Here's the same list, a little bigger.</p></div>
-<div class="svc"><div class="s reveal" style="--d:0"><h3 class="b-y">Engine repair</h3><div class="phw"><img class="ph" loading="lazy" alt="" src="https://images.unsplash.com/photo-1429772011165-0c2e054367b8?auto=format&fit=crop&w=700&h=360&q=60"></div><p>From check-engine lights to major engine work. The shop is known for tracking down the hard-to-diagnose problems.</p><span class="mono">On the banner</span></div><div class="s reveal" style="--d:1"><h3 class="b-r">Computer alignment</h3><div class="phw"><img class="ph" loading="lazy" alt="" src="https://images.unsplash.com/photo-1444947295498-07f60c19a4ff?auto=format&fit=crop&w=700&h=360&q=60"></div><p>Computerized wheel alignment, including taller vehicles other shops turn away.</p><span class="mono">On the banner</span></div><div class="s reveal" style="--d:2"><h3 class="b-b">A/C complete service</h3><div class="phw"><img class="ph" loading="lazy" alt="" src="https://images.unsplash.com/photo-1542399204-b8dd4af5113d?auto=format&fit=crop&w=700&h=360&q=60"></div><p>Air conditioning diagnosis, repair and recharge. This is the Inland Empire. You need it.</p><span class="mono">On the banner</span></div><div class="s reveal" style="--d:0"><h3 class="b-y">Transmission rebuild</h3><div class="phw"><img class="ph" loading="lazy" alt="" src="https://images.unsplash.com/photo-1614447428943-52ec0bdbc7aa?auto=format&fit=crop&w=700&h=360&q=60"></div><p>Transmission service and full rebuilds done in-house.</p><span class="mono">On the banner</span></div><div class="s reveal" style="--d:1"><h3 class="b-r">Vehicle inspections</h3><div class="phw"><img class="ph" loading="lazy" alt="" src="https://images.unsplash.com/photo-1557411255-28ebcc0fdd54?auto=format&fit=crop&w=700&h=360&q=60"></div><p>Vehicle inspections, a favorite of local rideshare drivers according to reviews.</p><span class="mono">From reviews</span></div><div class="s reveal" style="--d:2"><h3 class="b-b">Diagnostics</h3><div class="phw"><img class="ph" loading="lazy" alt="" src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=700&h=360&q=60"></div><p>A scan, a straight explanation and a fair price before any work starts.</p><span class="mono">From reviews</span></div></div>
-</div></section>
-<section class="family" id="family"><div class="wrap fam-grid">
-<div class="year reveal" aria-hidden="true">'09</div>
-<div class="reveal" style="--d:1"><p class="mono" style="color:var(--yellow);margin-bottom:16px">Family owned &amp; operated</p>
-<p>Moreno's opened in 2009 and it's still run by the family. Same bays, same street, same name on the wall. Customers say the owner tells it straight and charges a fair price.</p>
-<div class="nums"><div><strong><span data-count="4.7">4.7</span>★</strong><span class="mono">Google · 284 reviews</span></div><div><strong><span data-count="4.9">4.9</span>★</strong><span class="mono">SureCritic · 661 verified</span></div></div></div>
-</div></section>
-<section id="reviews"><div class="wrap">
-<div class="head"><div><p class="mono" style="color:var(--accent);margin-bottom:14px">Reviews</p><h2>Above<br>and beyond.</h2></div><p>Real words from customers on Yelp and SureCritic.</p></div>
-<div class="quotes"><blockquote class="quote reveal" style="--d:0"><div><div class="stars" aria-hidden="true">★★★★★</div><p style="margin-top:14px">“Good affordable service!!”</p></div><cite>James S. · Yelp · Jan 2025</cite></blockquote><blockquote class="quote reveal" style="--d:1"><div><div class="stars" aria-hidden="true">★★★★★</div><p style="margin-top:14px">“…above and beyond…”</p></div><cite>G O. · Yelp · Nov 2025 · vehicle inspection</cite></blockquote><blockquote class="quote reveal" style="--d:2"><div><div class="stars" aria-hidden="true">★★★★★</div><p style="margin-top:14px">“Outstanding Customer Service”</p></div><cite>Lisa A. · SureCritic verified · Nov 2026</cite></blockquote></div>
-</div></section>
-<section class="visit" id="visit"><div class="wrap visit-grid">
-<div class="reveal"><p class="mono" style="color:var(--yellow)">Visit</p><h2 style="margin-top:14px">527 East<br>Holt.</h2>
-<address>527 E Holt Blvd<br>Ontario, CA 91761</address><p style="color:var(--muted)">White building, red trim, three open bays and a wall of banners.</p>
-<a class="bigphone" href="tel:+19094186955">(909) 418-6955</a>
-<div class="actions"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Moreno%27s+Auto+Repair+527+E+Holt+Blvd+Ontario+CA+91761" rel="noopener">Get directions <i>→</i></a></div></div>
-<div class="reveal" style="--d:1"><table><caption class="mono" style="text-align:left;padding-bottom:14px">Hours</caption><tr data-day="1" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Monday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="2" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Tuesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="3" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Wednesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="4" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Thursday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="5" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>Closed</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><p class="note">Hours from public listings. Call ahead to confirm.</p></div>
-</div></section>
+<div class="wrap"><div class="cover" role="img" aria-label="Mechanic working under the hood of a car in a clean workshop" style="--img:url(https://images.unsplash.com/photo-1771340012319-0b4fca008b54?auto=format&fit=crop&w=1800&h=760&q=70)"></div>
+<div class="layout">
+<aside class="card shop" aria-label="Shop details">
+<h1>Moreno<i>'</i>s Auto Repair</h1><p class="sub">Family owned · Holt Blvd, Ontario · since 2009</p>
+<div class="rates"><div><strong>4.7 ★</strong><span>Google · 284 reviews</span></div><div><strong>4.9 ★</strong><span>SureCritic · 661 reviews</span></div></div>
+<a class="btn primary" href="tel:+19094186955">Call (909) 418-6955</a>
+<a class="btn" href="https://www.google.com/maps/search/?api=1&query=Moreno%27s+Auto+Repair+527+E+Holt+Blvd+Ontario+CA+91761" rel="noopener">Get directions</a>
+<address>527 E Holt Blvd<br>Ontario, CA 91761</address><table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>Closed</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19094186955">(909) 418-6955</a> before you come in.</p></div>
+</aside>
+<div class="feed">
+<div class="card lead"><h2>If it's on the banner, <em>we fix it.</em></h2>
+<p>Engines, transmissions, alignments and A/C under one roof. Moreno's is a family-owned shop on Holt Boulevard, fixing Ontario's cars since 2009.</p>
+<div class="chips" aria-label="Services on the shop's banners"><span class="y">Engine repair</span><span class="r">Computer alignment</span><span class="w">Air condition complete service</span><span class="y">Transmission rebuild</span></div></div>
+<div class="card" id="services"><span class="label">Services</span><h2 class="t">Read the wall. That's the menu.</h2>
+<div class="svc"><div class="s reveal" ><img loading="lazy" alt="" src="https://images.unsplash.com/photo-1429772011165-0c2e054367b8?auto=format&fit=crop&w=240&h=240&q=60"><div><h3>Engine repair</h3><p>From check-engine lights to major engine work. We track down the hard-to-diagnose problems.</p></div></div><div class="s reveal" ><img loading="lazy" alt="" src="https://images.unsplash.com/photo-1444947295498-07f60c19a4ff?auto=format&fit=crop&w=240&h=240&q=60"><div><h3>Computer alignment</h3><p>Computerized wheel alignment, including taller vehicles other shops turn away.</p></div></div><div class="s reveal" ><img loading="lazy" alt="" src="https://images.unsplash.com/photo-1542399204-b8dd4af5113d?auto=format&fit=crop&w=240&h=240&q=60"><div><h3>A/C complete service</h3><p>Air conditioning diagnosis, repair and recharge. This is the Inland Empire. You need it.</p></div></div><div class="s reveal" ><img loading="lazy" alt="" src="https://images.unsplash.com/photo-1614447428943-52ec0bdbc7aa?auto=format&fit=crop&w=240&h=240&q=60"><div><h3>Transmission rebuild</h3><p>Transmission service and full rebuilds done in-house.</p></div></div><div class="s reveal" ><img loading="lazy" alt="" src="https://images.unsplash.com/photo-1557411255-28ebcc0fdd54?auto=format&fit=crop&w=240&h=240&q=60"><div><h3>Vehicle inspections</h3><p>A favorite of local rideshare drivers.</p></div></div><div class="s reveal" ><img loading="lazy" alt="" src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=240&h=240&q=60"><div><h3>Diagnostics</h3><p>A scan, a straight explanation and a fair price before any work starts.</p></div></div></div></div>
+<div class="card since reveal" id="family"><div class="yr" aria-hidden="true">'09</div><div><span class="label">Family owned &amp; operated</span><p>Moreno's opened in 2009 and it's still run by the family. Same bays, same street, same name on the wall. Straight answers and fair prices.</p></div></div>
+<div class="card" id="reviews"><span class="label">Reviews</span><h2 class="t">Above and beyond.</h2>
+<div style="margin-top:16px"><p id="review-help" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
+<div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0"><a class="quote" href="https://www.surecritic.com/reviews/morenos-auto-repair#:~:text=Outstanding%20Customer%20Service" target="_blank" rel="noopener noreferrer" aria-label="Read Lisa A.’s review on SureCritic (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Outstanding Customer Service”</p></div><div><cite>Lisa A. · SureCritic · Nov 2026</cite><span class="review-source">Read review on SureCritic ↗</span></div></blockquote></a><a class="quote" href="https://www.surecritic.com/reviews/morenos-auto-repair#:~:text=Great%20honest%20Mechanics" target="_blank" rel="noopener noreferrer" aria-label="Read Alex L.’s review on SureCritic (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Great honest Mechanics”</p></div><div><cite>Alex L. · SureCritic · Oct 2026</cite><span class="review-source">Read review on SureCritic ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/morenos-auto-repair-ontario-2?hrid=BQJK_qJYwKShB12glCtFBg" target="_blank" rel="noopener noreferrer" aria-label="Read Tyrone J.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Very professional and expedient service.”</p></div><div><cite>Tyrone J. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.surecritic.com/reviews/morenos-auto-repair#:~:text=Professional%20and%20efficient%2C%20fair%20prices%20too" target="_blank" rel="noopener noreferrer" aria-label="Read Azucena B.’s review on SureCritic (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Professional and efficient, fair prices too”</p></div><div><cite>Azucena B. · SureCritic · Oct 2026</cite><span class="review-source">Read review on SureCritic ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/morenos-auto-repair-ontario-2?hrid=uTCS3aO0lrz0njDDfpxlyw" target="_blank" rel="noopener noreferrer" aria-label="Read Lilly Z.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“…they did an awesome job, communicated well…”</p></div><div><cite>Lilly Z. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.surecritic.com/reviews/morenos-auto-repair#:~:text=Very%20professional%20%26%20prepared%2C%20great%20customer%20service." target="_blank" rel="noopener noreferrer" aria-label="Read Nicol B.’s review on SureCritic (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Very professional &amp; prepared, great customer service.”</p></div><div><cite>Nicol B. · SureCritic · Sep 2026</cite><span class="review-source">Read review on SureCritic ↗</span></div></blockquote></a><a class="quote" href="https://www.surecritic.com/reviews/morenos-auto-repair#:~:text=Excellent%20staff" target="_blank" rel="noopener noreferrer" aria-label="Read Vipneet S.’s review on SureCritic (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Excellent staff”</p></div><div><cite>Vipneet S. · SureCritic · Sep 2026</cite><span class="review-source">Read review on SureCritic ↗</span></div></blockquote></a></div></div></div>
+</div></div></div>
 </main>
-<footer><div class="wrap"><strong>Moreno's Auto Repair LLC · Ontario, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Details and reviews come from public listings; reviews are quoted from the sources named. Photos are stock images from Unsplash, not photos of this shop.</span></div></footer>
+<footer><div class="wrap"><strong>Moreno's Auto Repair LLC · Ontario, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
 (()=>{
-const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches,root=document.documentElement;
-// headline: split into words that rise in
-document.querySelectorAll('h1').forEach(h=>{let i=0;const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();c.textContent.split(/([ \n\t]+)/).forEach(t=>{if(!t.trim()){f.append(t);return}const w=document.createElement('span');w.className='w';const s=document.createElement('span');s.style.setProperty('--i',i++);s.textContent=t;w.append(s);f.append(w)});c.replaceWith(f)}else if(c.tagName!=='BR')walk(c)})};walk(h)});
-requestAnimationFrame(()=>requestAnimationFrame(()=>root.classList.add('ready')));
-// scroll reveals + counters
-const count=el=>{const end=parseFloat(el.dataset.count),dec=(el.dataset.count.split('.')[1]||'').length;if(reduce){el.textContent=end.toFixed(dec);return}const t0=performance.now();const step=t=>{const p=Math.min((t-t0)/1400,1),e=1-Math.pow(1-p,3);el.textContent=(end*e).toFixed(dec);if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)};
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');e.target.querySelectorAll('[data-count]').forEach(count);if(e.target.dataset.count)count(e.target);io.unobserve(e.target)}),{threshold:.18});
-document.querySelectorAll('.reveal,[data-count]:not(.reveal [data-count])').forEach(el=>io.observe(el));
-// scroll + pointer driven motion
-if(!reduce){let tick=false;const upd=()=>{root.style.setProperty('--scroll',scrollY);tick=false};addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});
-addEventListener('pointermove',e=>{root.style.setProperty('--mx',(e.clientX/innerWidth-.5).toFixed(3));root.style.setProperty('--my',(e.clientY/innerHeight-.5).toFixed(3))},{passive:true})}
-// hours: highlight today and show open/closed in shop's time zone
-const p=Object.fromEntries(new Intl.DateTimeFormat('en-US',{weekday:'short',hour:'numeric',minute:'numeric',hour12:false,timeZone:'America/Los_Angeles'}).formatToParts(new Date()).map(x=>[x.type,x.value]));
-const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday),now=(+p.hour%24)+(+p.minute)/60,row=document.querySelector('tr[data-day="'+d+'"]');
-if(row){row.classList.add('today');const t=document.createElement('span');t.className='tag';t.textContent='Today';row.querySelector('th').append(t);
-const open=row.dataset.open&&now>=+row.dataset.open&&now<+row.dataset.close;document.querySelectorAll('.status').forEach(s=>{s.classList.toggle('open',!!open);s.querySelector('em').textContent=(open?'Open now · until '+row.dataset.label:'Closed right now')+' · '+s.querySelector('em').textContent})}
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
+// highlight today's hours in the shop's time zone
+const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
+const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
+})();
+</script>
+<script>
+(()=>{
+  // Continuous review rotation. It stops while the visitor touches, holds, hovers, wheels or focuses the row, and resumes as soon as they let go.
+  const track=document.getElementById('review-track');
+  const motion=matchMedia('(prefers-reduced-motion:reduce)');
+  const originals=[...track.querySelectorAll('.quote')];
+  const copies=originals.map(card=>{const c=card.cloneNode(true);c.setAttribute('aria-hidden','true');c.tabIndex=-1;track.append(c);return c});
+  let held=false,hovered=false,focused=false,visible=true,settleUntil=0,previous=0,fraction=0,period=0;
+  const measure=()=>{period=copies[0].offsetLeft-originals[0].offsetLeft};
+  const wrap=()=>{if(period<=0)return;if(track.scrollLeft>=period)track.scrollLeft-=period;else if(track.scrollLeft<=0&&(held||performance.now()<settleUntil))track.scrollLeft+=period};
+  const settle=ms=>{settleUntil=performance.now()+ms};
+  const tick=time=>{
+    const run=!held&&!hovered&&!focused&&visible&&!motion.matches&&!document.hidden&&period>0&&time>=settleUntil;
+    if(run&&previous){fraction+=Math.min(time-previous,64)*36/1000;const px=Math.floor(fraction);fraction-=px;if(px){track.scrollLeft+=px;wrap()}}
+    else if(!run)fraction=0;
+    previous=time;requestAnimationFrame(tick);
+  };
+  track.addEventListener('pointerdown',()=>{held=true},{passive:true});
+  ['pointerup','pointercancel'].forEach(e=>addEventListener(e,()=>{if(held){held=false;settle(350)}},{passive:true}));
+  track.addEventListener('touchstart',()=>{held=true},{passive:true});
+  ['touchend','touchcancel'].forEach(e=>track.addEventListener(e,()=>{held=false;settle(350)},{passive:true}));
+  // a swipe keeps gliding after release: wait for it to finish, then carry on
+  track.addEventListener('scroll',()=>{if(held||performance.now()<settleUntil){settle(250);wrap()}},{passive:true});
+  track.addEventListener('wheel',()=>settle(500),{passive:true});
+  track.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')hovered=true});
+  track.addEventListener('pointerleave',()=>{hovered=false});
+  track.addEventListener('focusin',()=>{focused=track.matches(':focus-visible')||!!track.querySelector(':focus-visible')});
+  track.addEventListener('focusout',()=>queueMicrotask(()=>{focused=track.contains(document.activeElement)}));
+  track.addEventListener('keydown',e=>{if(e.target!==track)return;const d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(!d)return;e.preventDefault();if(d<0&&track.scrollLeft<period/originals.length)track.scrollLeft+=period;track.scrollBy({left:d*(originals[0].offsetWidth+22),behavior:motion.matches?'instant':'smooth'})});
+  addEventListener('resize',measure,{passive:true});
+  if('ResizeObserver' in window)new ResizeObserver(measure).observe(track);
+  if('IntersectionObserver' in window)new IntersectionObserver(es=>{visible=es[0].isIntersecting}).observe(track);
+  measure();requestAnimationFrame(tick);
 })();
 </script>
 </body>
