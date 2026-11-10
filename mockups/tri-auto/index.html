@@ -99,6 +99,37 @@ h1 em{font-style:italic;color:var(--accent)}
 .bigquote cite{display:block;font:700 12px ui-monospace,Menlo,monospace;letter-spacing:2px;margin-top:20px;color:var(--muted)}
 .visit{border-top:2px solid var(--ink)}
 @media(max-width:900px){.cards{grid-template-columns:1fr}.card{border-right:0}.card h3{margin-top:28px}.make{grid-template-columns:1fr}.make p{text-align:left}.gauge{position:relative;right:auto;bottom:auto;display:inline-block;margin:0 22px 40px}.stripes{display:none}.hero-photo{position:relative;width:100%;height:240px;clip-path:polygon(0 14%,100% 0,100% 100%,0 100%);margin-top:-10px}.gauge{margin-top:-70px!important;z-index:4}.hero .wrap{padding:60px 0 50px}}
+
+/* Keep racing stripes off the headline; retain the logo's stripe motif. */
+.hero > .stripes{display:none}
+/* Reviews remain a horizontal, manually controlled row at every width. */
+.review-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:16px}
+.review-toolbar p{font-size:14px;color:var(--muted)}
+.review-controls{display:flex;gap:10px}
+.review-controls[hidden]{display:none}
+.review-controls button{width:48px;height:48px;border:2px solid var(--ink);background:transparent;color:var(--ink);font:700 24px Arial;cursor:pointer}
+.review-controls button:hover{background:var(--ink);color:var(--bg)}
+.review-controls button[aria-disabled="true"]{opacity:.35;cursor:default}
+.quotes{display:flex;gap:22px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-behavior:smooth;scroll-padding-inline:8px;padding:10px 8px 30px;scrollbar-width:thin;scrollbar-color:var(--accent) var(--line)}
+.quotes:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+.quotes .quote{flex:0 0 44%;min-width:0;scroll-snap-align:start;scroll-margin-inline:0;transform:none;opacity:1;transition:box-shadow .2s;background:#fff8ea}
+.quotes .quote:hover{transform:none;box-shadow:5px 5px 0 var(--accent)}
+.quotes .quote:focus-visible{outline-offset:-7px}
+.review-body{display:flex;flex-direction:column;justify-content:space-between;gap:28px;height:100%}
+.review-source{display:block;margin-top:18px;font-size:13px;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.bigquote .review-source{font:700 13px Arial,sans-serif;text-transform:none;letter-spacing:0;line-height:1.5}
+@media(max-width:900px){.quotes .quote{flex-basis:86%;padding:24px}.review-toolbar{align-items:flex-end}.review-toolbar p{max-width:180px}h1{font-size:clamp(32px,8.5vw,76px)}}
+@media(prefers-reduced-motion:reduce){.quotes{scroll-behavior:auto}}
+
+
+/* Continuous review marquee; native horizontal scrolling also works without JS. */
+#review-track{scroll-snap-type:none;scroll-behavior:auto}
+#review-track .quote{flex:0 0 min(400px,82%);scroll-snap-align:none}
+.review-controls #reviews-toggle{width:auto;min-width:84px;padding:0 14px;font-size:14px}
+.review-controls button:disabled{opacity:.65;cursor:default}
+.review-origin{font:700 11px ui-monospace,Menlo,monospace!important;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent)}
+@media(max-width:600px){.review-toolbar{flex-wrap:wrap;gap:12px}.review-toolbar p{max-width:none}.review-controls{margin-left:auto}}
+
 </style>
 </head>
 <body>
@@ -136,8 +167,11 @@ h1 em{font-style:italic;color:var(--accent)}
 </div></div></section>
 <section id="reviews"><div class="wrap">
 <p class="mono" style="color:var(--accent);margin-bottom:20px">03 — Reviews</p>
-<blockquote class="bigquote reveal">“Honest, timely, friendly, <span style="color:var(--accent)">and affordable!</span>”<cite>Heidi Todd Broberg · Facebook review</cite></blockquote>
-<div class="quotes"><blockquote class="quote reveal" style="--d:0"><div><div class="stars" aria-hidden="true">★★★★★</div><p style="margin-top:14px">“Bye, bye dealerships!”</p></div><cite>Kristy Hudson · Facebook review</cite></blockquote><blockquote class="quote reveal" style="--d:1"><div><div class="stars" aria-hidden="true">★★★★★</div><p style="margin-top:14px">“Very good service for reasonable price.”</p></div><cite>Disha Desai · Facebook recommendation</cite></blockquote><blockquote class="quote reveal" style="--d:2"><div><div class="stars" aria-hidden="true">★★★★★</div><p style="margin-top:14px">“Trust worthy, honest and very reasonable.”</p></div><cite>CeeCee Gaatogo · Facebook review</cite></blockquote></div>
+<blockquote class="bigquote reveal">“Honest, timely, friendly, <span style="color:var(--accent)">and affordable!</span>”<cite>Heidi Todd Broberg · Facebook review</cite><a class="review-source" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=He%20is%20honest%2C%20timely%2C%20friendly%2C%20and%20affordable%21" target="_blank" rel="noopener noreferrer" aria-label="Read Heidi Todd Broberg’s review on Birdeye (opens in a new tab)">Read review on Birdeye ↗</a></blockquote>
+<div class="review-toolbar"><p id="review-help">Scroll to explore customer reviews.</p><div class="review-controls" hidden><button type="button" id="reviews-toggle" aria-controls="review-track" aria-pressed="false">Pause</button><button type="button" id="reviews-prev" aria-label="Previous review" aria-controls="review-track">←</button><button type="button" id="reviews-next" aria-label="Next review" aria-controls="review-track">→</button></div></div>
+<!-- Source inspected 2026-11-09: Birdeye Tri Auto profile. Quotes are excerpts. No individual star ratings are asserted. Text fragments highlight the quote where browser support permits; the base page remains the source. -->
+<div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0"><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=My%20friend%27s%20dad%20referred%20me%20to%20Tri%20Auto" target="_blank" rel="noopener noreferrer" aria-label="Read Kristy Hudson’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Bye, bye dealerships!”</p></div><div><cite>Kristy Hudson · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=Very%20good%20service%20for%20reasonable%20price.%20Danny%20is%20very%20honest" target="_blank" rel="noopener noreferrer" aria-label="Read Disha Desai’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Very good service for reasonable price.”</p></div><div><cite>Disha Desai · Facebook recommendation</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=Trust%20worthy%2C%20honest%20and%20very%20reasonable.%20Go%20check%20them%20out." target="_blank" rel="noopener noreferrer" aria-label="Read CeeCee Gaatogo’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Trust worthy, honest and very reasonable.”</p></div><div><cite>CeeCee Gaatogo · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=My%20family%20has%20been%20going%20to%20Danny%27s%20for%20years." target="_blank" rel="noopener noreferrer" aria-label="Read Tracy Gallardo Rey’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“My family has been going to Danny&#x27;s for years.”</p></div><div><cite>Tracy Gallardo Rey · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=It%27s%20hard%20to%20find%20a%20good%20mechanic%20that%20you%20can%20trust." target="_blank" rel="noopener noreferrer" aria-label="Read Amber Baker’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“It&#x27;s hard to find a good mechanic that you can trust.”</p></div><div><cite>Amber Baker · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a></div>
+<p class="note">Facebook review excerpts via Birdeye. Source links open in a new tab.</p>
 </div></section>
 <section class="visit" id="visit"><div class="wrap visit-grid">
 <div class="reveal"><p class="mono" style="color:var(--accent)">04 — Visit</p><h2 style="font-style:italic;margin-top:14px">Schaefer Ave,<br>Chino.</h2>
@@ -167,6 +201,84 @@ const p=Object.fromEntries(new Intl.DateTimeFormat('en-US',{weekday:'short',hour
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday),now=(+p.hour%24)+(+p.minute)/60,row=document.querySelector('tr[data-day="'+d+'"]');
 if(row){row.classList.add('today');const t=document.createElement('span');t.className='tag';t.textContent='Today';row.querySelector('th').append(t);
 const open=row.dataset.open&&now>=+row.dataset.open&&now<+row.dataset.close;document.querySelectorAll('.status').forEach(s=>{s.classList.toggle('open',!!open);s.querySelector('em').textContent=(open?'Open now · until '+row.dataset.label:'Closed right now')+' · '+s.querySelector('em').textContent})}
+})();
+</script>
+
+<script>
+(()=>{
+  const track=document.getElementById('review-track');
+  const section=document.getElementById('reviews');
+  const controls=section.querySelector('.review-controls');
+  const toggle=document.getElementById('reviews-toggle');
+  const help=document.getElementById('review-help');
+  const motion=matchMedia('(prefers-reduced-motion:reduce)');
+  const originals=[...track.querySelectorAll('.quote')];
+  // One repeat creates a continuous seam. Repeats are excluded from keyboard/screen-reader order.
+  const copies=originals.map(card=>{
+    const copy=card.cloneNode(true);
+    copy.dataset.repeat='true';copy.setAttribute('aria-hidden','true');copy.tabIndex=-1;
+    track.append(copy);return copy;
+  });
+  let paused=false,hovered=false,focused=false,visible=true,previous=0,fraction=0,period=0,frameId=0;
+  const measure=()=>{
+    // Same parent, so the difference includes all card widths and gaps.
+    period=copies[0].offsetLeft-originals[0].offsetLeft;
+  };
+  const normalize=()=>{
+    if(period>0&&track.scrollLeft>=period)track.scrollLeft-=period;
+  };
+  const paint=()=>{
+    toggle.textContent=motion.matches?'Motion off':paused?'Resume':'Pause';
+    toggle.setAttribute('aria-pressed',String(paused||motion.matches));
+    toggle.disabled=motion.matches;
+    help.textContent=motion.matches?'Swipe, scroll, or use the arrows.':paused?'Auto-scroll paused. Swipe or use the arrows.':'Reviews scroll automatically. Hover or focus to pause.';
+  };
+  const canRun=()=>!paused&&!hovered&&!focused&&!motion.matches&&!document.hidden&&visible&&period>0;
+  const stop=()=>{cancelAnimationFrame(frameId);frameId=0;previous=0;fraction=0};
+  const tick=time=>{
+    frameId=0;
+    if(!canRun()){previous=0;return}
+    if(previous){
+      fraction+=Math.min(time-previous,64)*28/1000;
+      const pixels=Math.floor(fraction);fraction-=pixels;
+      if(pixels){track.scrollLeft+=pixels;normalize()}
+    }
+    previous=time;frameId=requestAnimationFrame(tick);
+  };
+  const sync=()=>{paint();if(canRun()){if(!frameId)frameId=requestAnimationFrame(tick)}else stop()};
+  const pause=()=>{paused=true;sync()};
+  const step=()=>originals[0].getBoundingClientRect().width+parseFloat(getComputedStyle(track).gap);
+  const move=direction=>{
+    pause();
+    if(!period)return;
+    // Rebase before an explicit navigation so both directions can wrap.
+    if(direction<0&&track.scrollLeft<step())track.scrollLeft+=period;
+    else normalize();
+    track.scrollTo({left:track.scrollLeft+direction*step(),behavior:motion.matches?'instant':'smooth'});
+  };
+  toggle.addEventListener('click',()=>{paused=!paused;sync()});
+  document.getElementById('reviews-prev').addEventListener('click',()=>move(-1));
+  document.getElementById('reviews-next').addEventListener('click',()=>move(1));
+  track.addEventListener('pointerenter',event=>{if(event.pointerType!=='touch'){hovered=true;sync()}});
+  track.addEventListener('pointerleave',()=>{hovered=false;sync()});
+  track.addEventListener('pointerdown',pause,{passive:true});
+  track.addEventListener('wheel',pause,{passive:true});
+  track.addEventListener('focusin',()=>{focused=true;sync()});
+  track.addEventListener('focusout',()=>{queueMicrotask(()=>{focused=track.contains(document.activeElement);sync()})});
+  track.addEventListener('keydown',event=>{
+    if(event.target!==track||event.altKey||event.ctrlKey||event.metaKey)return;
+    if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();move(event.key==='ArrowRight'?1:-1)}
+    if(event.key==='Home'||event.key==='End'){
+      event.preventDefault();pause();
+      track.scrollTo({left:event.key==='Home'?0:originals[originals.length-1].offsetLeft-originals[0].offsetLeft,behavior:motion.matches?'instant':'smooth'});
+    }
+  });
+  document.addEventListener('visibilitychange',sync);
+  motion.addEventListener('change',sync);
+  addEventListener('resize',()=>{measure();sync()},{passive:true});
+  if('ResizeObserver' in window)new ResizeObserver(()=>{measure();sync()}).observe(track);
+  if('IntersectionObserver' in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync()}).observe(track);
+  controls.hidden=false;measure();sync();
 })();
 </script>
 </body>
