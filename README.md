@@ -13,6 +13,7 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | Folder | Business | Location |
 | --- | --- | --- |
 | `el-rey/` | El Rey (Mexican restaurant) | Chino |
+| `el-rey-retro-roadside/` | El Rey, alternate "Retro Roadside" concept (see its `DESIGN.md`) | Chino |
 | `lockworx/` | Lockworx Locksmith Services | Fontana |
 | `don-cortez-tires/` | Don Cortez Tire Shop | Fontana |
 | `tri-auto/` | Tri Auto (Toyota, Honda and Lexus repair) | Chino |
