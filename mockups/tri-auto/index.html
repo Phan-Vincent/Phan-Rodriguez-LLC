@@ -130,6 +130,59 @@ h1 em{font-style:italic;color:var(--accent)}
 .review-origin{font:700 11px ui-monospace,Menlo,monospace!important;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent)}
 @media(max-width:600px){.review-toolbar{flex-wrap:wrap;gap:12px}.review-toolbar p{max-width:none}.review-controls{margin-left:auto}}
 
+
+/* ===== 2026-11-10 modern refresh: Manrope type, rounded surfaces, clean layout (reference: sbdautomotive.com) ===== */
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-wght-normal.woff2) format('woff2');font-weight:200 800;font-display:swap}
+:root{--bg:#faf7f2;--ink:#14171c;--muted:#5b6068;--line:#e4ddd0;--display:Manrope,'Segoe UI',system-ui,Arial,sans-serif;--r:24px;--r-lg:32px}
+body{font-family:Manrope,'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body:after{display:none}
+.mono,.phone,.quote cite,.bigquote cite,.review-origin,.tag{font-family:inherit!important}
+.mono{font-size:12px;letter-spacing:.14em;font-weight:800}
+.phone{font-size:15px;font-weight:800;border:1.5px solid var(--ink);border-radius:999px;padding:10px 18px;transition:background .25s,color .25s}.phone:hover{background:var(--ink);color:var(--bg)}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;background:#faf7f2e6;backdrop-filter:blur(12px)}
+header .wrap{min-height:76px}nav{font-size:14px;font-weight:700}
+html{scroll-padding-top:96px}
+h1,h2,.make h3,.card h3,.bigquote,.gauge strong,.bigphone{font-family:var(--display);font-style:normal!important;text-transform:none;font-weight:800;letter-spacing:-.035em}
+h1{font-size:clamp(40px,6.2vw,88px);line-height:1;margin-top:22px}h1 em{font-style:normal}
+h2{font-size:clamp(32px,4.2vw,56px);line-height:1.05}
+.lede{font-size:19px;color:#3a3f47}
+.btn{border-radius:999px;border-width:1.5px;font-size:15px;padding:14px 26px}
+.hero{border-bottom:0;background:none}.hero:after{display:none}
+.gauge{border-radius:var(--r);background:#fff;color:var(--ink);box-shadow:0 24px 50px -22px #14171c66;padding:20px 26px;transform:translate(calc(var(--mx,0)*-12px),calc(var(--my,0)*-12px))}
+.gauge strong{font-size:54px;color:var(--accent)}
+.hero-photo:after{border-radius:inherit}
+@media(min-width:901px){
+.hero .wrap{padding:84px 0 104px}.hero .wrap>*{max-width:54%}
+.hero-photo{top:44px;bottom:44px;right:max(36px,calc((100vw - 1180px)/2));width:min(40%,500px);clip-path:none;border-radius:var(--r-lg);overflow:hidden}
+.gauge{right:calc(max(36px,(100vw - 1180px)/2) + min(40vw,500px) - 70px);bottom:76px}
+}
+.marquee{font-style:normal;font-weight:800;text-transform:none;font-size:17px;letter-spacing:0;width:min(1180px,calc(100% - 72px));margin:0 auto;border-radius:999px}
+.marquee div{padding:14px 0}
+.makes{border-top:0;display:grid;gap:14px}
+.make{border:1.5px solid var(--line);background:#fff;border-radius:var(--r);padding:26px 34px}
+.make h3{font-size:clamp(38px,6vw,84px);line-height:1}
+.make:hover{border-color:var(--ink)}.make:before{transform:translateX(-140%) skewX(-18deg)}
+.why{width:min(1320px,calc(100% - 28px));margin:0 auto;border-radius:var(--r-lg)}
+.cards{gap:18px;border:0}
+.card{border:0!important;border-radius:var(--r);overflow:hidden;background:#1d2026;padding:34px 28px 38px;box-shadow:inset 0 -5px 0 var(--c)}
+.card h3{font-size:24px;line-height:1.15;letter-spacing:-.02em}
+.bigquote{font-size:clamp(30px,5vw,68px);line-height:1.05}
+.bigquote cite{font-weight:800;font-size:12px;letter-spacing:.14em}
+.quote,.quotes .quote{border:1.5px solid var(--line);border-radius:var(--r);background:#fff;box-shadow:0 14px 34px -26px #14171c88}
+.quotes .quote:hover{box-shadow:0 18px 40px -22px #14171caa;border-color:var(--ink)}
+.quote p{font-weight:700;letter-spacing:-.01em}.quote cite{font-weight:800;letter-spacing:.1em}
+.review-origin{letter-spacing:.14em!important}
+.quotes{scrollbar-width:none;padding:10px 4px 26px;cursor:grab;-webkit-mask-image:linear-gradient(90deg,#0000,#000 4%,#000 96%,#0000);mask-image:linear-gradient(90deg,#0000,#000 4%,#000 96%,#0000)}
+.quotes::-webkit-scrollbar{display:none}.quotes:focus-visible{border-radius:var(--r)}
+.visit{border-top:0}
+address{font-weight:800;letter-spacing:-.02em}
+table{border-collapse:separate;border-spacing:0 4px}
+th,td{border:0!important}tr th{border-radius:14px 0 0 14px}tr td{border-radius:0 14px 14px 0}
+tr:not(.today) th,tr:not(.today) td{background:#fff}
+.tag{border-radius:999px;padding:3px 8px;font-weight:800}
+.ph{filter:none}
+.skip{border-radius:12px}
+@media(max-width:900px){.hero-photo{clip-path:none;width:auto;margin:14px 22px 0;border-radius:var(--r);height:230px}.gauge{margin-top:0!important;margin-bottom:44px}.hero .wrap{padding:36px 0 30px}.marquee{width:calc(100% - 28px)}.make{padding:22px}.why{width:calc(100% - 16px)}}
 </style>
 </head>
 <body>
@@ -152,14 +205,14 @@ h1 em{font-style:italic;color:var(--accent)}
 </section>
 <div class="marquee" aria-hidden="true"><div><span>Toyota</span><span aria-hidden="true">///</span><span>Honda</span><span aria-hidden="true">///</span><span>Lexus</span><span aria-hidden="true">///</span><span>Honest work</span><span aria-hidden="true">///</span><span>Fair prices</span><span aria-hidden="true">///</span><span>Chino, CA</span><span aria-hidden="true">///</span><span>Mon–Fri 8 to 6</span><span aria-hidden="true">///</span><span>Toyota</span><span aria-hidden="true">///</span><span>Honda</span><span aria-hidden="true">///</span><span>Lexus</span><span aria-hidden="true">///</span><span>Honest work</span><span aria-hidden="true">///</span><span>Fair prices</span><span aria-hidden="true">///</span><span>Chino, CA</span><span aria-hidden="true">///</span><span>Mon–Fri 8 to 6</span><span aria-hidden="true">///</span></div></div>
 <section id="makes"><div class="wrap">
-<div class="head"><div><p class="mono" style="color:var(--accent);margin-bottom:14px">01 — What we fix</p><h2 style="font-style:italic">Three makes.<br>Nothing else.</h2></div><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
+<div class="head"><div><p class="mono" style="color:var(--accent);margin-bottom:14px">01 — What we fix</p><h2>Three makes.<br>Nothing else.</h2></div><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
 <div class="makes">
 <div class="make reveal" style="--c:#d7261e"><span class="mono">01</span><h3>Toyota</h3><p>Camry, Corolla, Tacoma, RAV4, Prius and the rest of the family.</p></div>
 <div class="make reveal" style="--c:#f26b1d;--d:1"><span class="mono">02</span><h3>Honda</h3><p>Civic, Accord, CR-V, Odyssey, Pilot. Daily drivers kept on the road.</p></div>
 <div class="make reveal" style="--c:#f7b51c;--d:2"><span class="mono">03</span><h3>Lexus</h3><p>Dealer-level know-how for your ES, RX or IS, without the dealer invoice.</p></div>
 </div></div></section>
 <section class="why" id="why"><div class="wrap">
-<div class="head"><div><p class="mono" style="color:var(--a3);margin-bottom:14px">02 — Why Tri Auto</p><h2 style="font-style:italic">What people<br>come in for.</h2></div><p>Taken from what customers say in their reviews, not from a sales brochure.</p></div>
+<div class="head"><div><p class="mono" style="color:var(--a3);margin-bottom:14px">02 — Why Tri Auto</p><h2>What people<br>come in for.</h2></div><p>Taken from what customers say in their reviews, not from a sales brochure.</p></div>
 <div class="cards">
 <div class="card reveal" style="--c:#d7261e"><div class="phw"><img class="ph" loading="lazy" alt="Fresh oil being poured into an engine" src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=700&h=420&q=70"></div><span class="mono">A</span><h3>Maintenance &amp; oil changes</h3><p>Routine service done right and done the same day. One reviewer had several services finished in a few hours.</p></div>
 <div class="card reveal" style="--c:#f26b1d;--d:1"><div class="phw"><img class="ph" loading="lazy" alt="Open engine bay" src="https://images.unsplash.com/photo-1686082307524-c89fb0bfadde?auto=format&fit=crop&w=700&h=420&q=70"></div><span class="mono">B</span><h3>Diagnosis &amp; repair</h3><p>A straight answer about what's wrong, what it costs, and what can wait.</p></div>
@@ -168,15 +221,15 @@ h1 em{font-style:italic;color:var(--accent)}
 <section id="reviews"><div class="wrap">
 <p class="mono" style="color:var(--accent);margin-bottom:20px">03 — Reviews</p>
 <blockquote class="bigquote reveal">“Honest, timely, friendly, <span style="color:var(--accent)">and affordable!</span>”<cite>Heidi Todd Broberg · Facebook review</cite><a class="review-source" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=He%20is%20honest%2C%20timely%2C%20friendly%2C%20and%20affordable%21" target="_blank" rel="noopener noreferrer" aria-label="Read Heidi Todd Broberg’s review on Birdeye (opens in a new tab)">Read review on Birdeye ↗</a></blockquote>
-<div class="review-toolbar"><p id="review-help">Scroll to explore customer reviews.</p><div class="review-controls" hidden><button type="button" id="reviews-toggle" aria-controls="review-track" aria-pressed="false">Pause</button><button type="button" id="reviews-prev" aria-label="Previous review" aria-controls="review-track">←</button><button type="button" id="reviews-next" aria-label="Next review" aria-controls="review-track">→</button></div></div>
+<p id="review-help" class="skip" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
 <!-- Source inspected 2026-11-09: Birdeye Tri Auto profile. Quotes are excerpts. No individual star ratings are asserted. Text fragments highlight the quote where browser support permits; the base page remains the source. -->
 <div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0"><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=My%20friend%27s%20dad%20referred%20me%20to%20Tri%20Auto" target="_blank" rel="noopener noreferrer" aria-label="Read Kristy Hudson’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Bye, bye dealerships!”</p></div><div><cite>Kristy Hudson · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=Very%20good%20service%20for%20reasonable%20price.%20Danny%20is%20very%20honest" target="_blank" rel="noopener noreferrer" aria-label="Read Disha Desai’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Very good service for reasonable price.”</p></div><div><cite>Disha Desai · Facebook recommendation</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=Trust%20worthy%2C%20honest%20and%20very%20reasonable.%20Go%20check%20them%20out." target="_blank" rel="noopener noreferrer" aria-label="Read CeeCee Gaatogo’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Trust worthy, honest and very reasonable.”</p></div><div><cite>CeeCee Gaatogo · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=My%20family%20has%20been%20going%20to%20Danny%27s%20for%20years." target="_blank" rel="noopener noreferrer" aria-label="Read Tracy Gallardo Rey’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“My family has been going to Danny&#x27;s for years.”</p></div><div><cite>Tracy Gallardo Rey · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a><a class="quote" href="https://reviews.birdeye.com/tri-auto-auto-repair-156038804550709#:~:text=It%27s%20hard%20to%20find%20a%20good%20mechanic%20that%20you%20can%20trust." target="_blank" rel="noopener noreferrer" aria-label="Read Amber Baker’s review on Birdeye (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“It&#x27;s hard to find a good mechanic that you can trust.”</p></div><div><cite>Amber Baker · Facebook review</cite><span class="review-source">Read review on Birdeye ↗</span></div></blockquote></a></div>
 <p class="note">Facebook review excerpts via Birdeye. Source links open in a new tab.</p>
 </div></section>
 <section class="visit" id="visit"><div class="wrap visit-grid">
-<div class="reveal"><p class="mono" style="color:var(--accent)">04 — Visit</p><h2 style="font-style:italic;margin-top:14px">Schaefer Ave,<br>Chino.</h2>
+<div class="reveal"><p class="mono" style="color:var(--accent)">04 — Visit</p><h2 style="margin-top:14px">Schaefer Ave,<br>Chino.</h2>
 <address>6108 Schaefer Ave<br>Chino, CA 91710</address><p style="color:var(--muted)">Stucco building with the Tri-Auto sign and the flag out front. Plenty of parking on the lot.</p>
-<a class="bigphone" href="tel:+19094656422" style="font-style:italic">(909) 465-6422</a>
+<a class="bigphone" href="tel:+19094656422">(909) 465-6422</a>
 <div class="actions"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Tri+Auto+6108+Schaefer+Ave+Chino+CA+91710" rel="noopener">Get directions <i>→</i></a></div></div>
 <div class="reveal" style="--d:1"><table><caption class="mono" style="text-align:left;padding-bottom:14px">Hours</caption><tr data-day="1" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Monday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="2" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Tuesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="3" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Wednesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="4" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Thursday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="5" data-open="8" data-close="18" data-label="6:00 PM"><th scope="row">Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>Closed</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><p class="note">Hours from public listings. Call ahead to confirm.</p></div>
 </div></section>
@@ -206,79 +259,37 @@ const open=row.dataset.open&&now>=+row.dataset.open&&now<+row.dataset.close;docu
 
 <script>
 (()=>{
+  // Continuous review rotation. It stops while the visitor touches, holds, hovers, wheels or focuses the row, and resumes as soon as they let go.
   const track=document.getElementById('review-track');
-  const section=document.getElementById('reviews');
-  const controls=section.querySelector('.review-controls');
-  const toggle=document.getElementById('reviews-toggle');
-  const help=document.getElementById('review-help');
   const motion=matchMedia('(prefers-reduced-motion:reduce)');
   const originals=[...track.querySelectorAll('.quote')];
-  // One repeat creates a continuous seam. Repeats are excluded from keyboard/screen-reader order.
-  const copies=originals.map(card=>{
-    const copy=card.cloneNode(true);
-    copy.dataset.repeat='true';copy.setAttribute('aria-hidden','true');copy.tabIndex=-1;
-    track.append(copy);return copy;
-  });
-  let paused=false,hovered=false,focused=false,visible=true,previous=0,fraction=0,period=0,frameId=0;
-  const measure=()=>{
-    // Same parent, so the difference includes all card widths and gaps.
-    period=copies[0].offsetLeft-originals[0].offsetLeft;
-  };
-  const normalize=()=>{
-    if(period>0&&track.scrollLeft>=period)track.scrollLeft-=period;
-  };
-  const paint=()=>{
-    toggle.textContent=motion.matches?'Motion off':paused?'Resume':'Pause';
-    toggle.setAttribute('aria-pressed',String(paused||motion.matches));
-    toggle.disabled=motion.matches;
-    help.textContent=motion.matches?'Swipe, scroll, or use the arrows.':paused?'Auto-scroll paused. Swipe or use the arrows.':'Reviews scroll automatically. Hover or focus to pause.';
-  };
-  const canRun=()=>!paused&&!hovered&&!focused&&!motion.matches&&!document.hidden&&visible&&period>0;
-  const stop=()=>{cancelAnimationFrame(frameId);frameId=0;previous=0;fraction=0};
+  const copies=originals.map(card=>{const c=card.cloneNode(true);c.setAttribute('aria-hidden','true');c.tabIndex=-1;track.append(c);return c});
+  let held=false,hovered=false,focused=false,visible=true,settleUntil=0,previous=0,fraction=0,period=0;
+  const measure=()=>{period=copies[0].offsetLeft-originals[0].offsetLeft};
+  const wrap=()=>{if(period<=0)return;if(track.scrollLeft>=period)track.scrollLeft-=period;else if(track.scrollLeft<=0&&(held||performance.now()<settleUntil))track.scrollLeft+=period};
+  const settle=ms=>{settleUntil=performance.now()+ms};
   const tick=time=>{
-    frameId=0;
-    if(!canRun()){previous=0;return}
-    if(previous){
-      fraction+=Math.min(time-previous,64)*28/1000;
-      const pixels=Math.floor(fraction);fraction-=pixels;
-      if(pixels){track.scrollLeft+=pixels;normalize()}
-    }
-    previous=time;frameId=requestAnimationFrame(tick);
+    const run=!held&&!hovered&&!focused&&visible&&!motion.matches&&!document.hidden&&period>0&&time>=settleUntil;
+    if(run&&previous){fraction+=Math.min(time-previous,64)*36/1000;const px=Math.floor(fraction);fraction-=px;if(px){track.scrollLeft+=px;wrap()}}
+    else if(!run)fraction=0;
+    previous=time;requestAnimationFrame(tick);
   };
-  const sync=()=>{paint();if(canRun()){if(!frameId)frameId=requestAnimationFrame(tick)}else stop()};
-  const pause=()=>{paused=true;sync()};
-  const step=()=>originals[0].getBoundingClientRect().width+parseFloat(getComputedStyle(track).gap);
-  const move=direction=>{
-    pause();
-    if(!period)return;
-    // Rebase before an explicit navigation so both directions can wrap.
-    if(direction<0&&track.scrollLeft<step())track.scrollLeft+=period;
-    else normalize();
-    track.scrollTo({left:track.scrollLeft+direction*step(),behavior:motion.matches?'instant':'smooth'});
-  };
-  toggle.addEventListener('click',()=>{paused=!paused;sync()});
-  document.getElementById('reviews-prev').addEventListener('click',()=>move(-1));
-  document.getElementById('reviews-next').addEventListener('click',()=>move(1));
-  track.addEventListener('pointerenter',event=>{if(event.pointerType!=='touch'){hovered=true;sync()}});
-  track.addEventListener('pointerleave',()=>{hovered=false;sync()});
-  track.addEventListener('pointerdown',pause,{passive:true});
-  track.addEventListener('wheel',pause,{passive:true});
-  track.addEventListener('focusin',()=>{focused=true;sync()});
-  track.addEventListener('focusout',()=>{queueMicrotask(()=>{focused=track.contains(document.activeElement);sync()})});
-  track.addEventListener('keydown',event=>{
-    if(event.target!==track||event.altKey||event.ctrlKey||event.metaKey)return;
-    if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();move(event.key==='ArrowRight'?1:-1)}
-    if(event.key==='Home'||event.key==='End'){
-      event.preventDefault();pause();
-      track.scrollTo({left:event.key==='Home'?0:originals[originals.length-1].offsetLeft-originals[0].offsetLeft,behavior:motion.matches?'instant':'smooth'});
-    }
-  });
-  document.addEventListener('visibilitychange',sync);
-  motion.addEventListener('change',sync);
-  addEventListener('resize',()=>{measure();sync()},{passive:true});
-  if('ResizeObserver' in window)new ResizeObserver(()=>{measure();sync()}).observe(track);
-  if('IntersectionObserver' in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync()}).observe(track);
-  controls.hidden=false;measure();sync();
+  track.addEventListener('pointerdown',()=>{held=true},{passive:true});
+  ['pointerup','pointercancel'].forEach(e=>addEventListener(e,()=>{if(held){held=false;settle(350)}},{passive:true}));
+  track.addEventListener('touchstart',()=>{held=true},{passive:true});
+  ['touchend','touchcancel'].forEach(e=>track.addEventListener(e,()=>{held=false;settle(350)},{passive:true}));
+  // a swipe keeps gliding after release: wait for it to finish, then carry on
+  track.addEventListener('scroll',()=>{if(held||performance.now()<settleUntil){settle(250);wrap()}},{passive:true});
+  track.addEventListener('wheel',()=>settle(500),{passive:true});
+  track.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')hovered=true});
+  track.addEventListener('pointerleave',()=>{hovered=false});
+  track.addEventListener('focusin',()=>{focused=track.matches(':focus-visible')||!!track.querySelector(':focus-visible')});
+  track.addEventListener('focusout',()=>queueMicrotask(()=>{focused=track.contains(document.activeElement)}));
+  track.addEventListener('keydown',e=>{if(e.target!==track)return;const d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(!d)return;e.preventDefault();if(d<0&&track.scrollLeft<period/originals.length)track.scrollLeft+=period;track.scrollBy({left:d*(originals[0].offsetWidth+22),behavior:motion.matches?'instant':'smooth'})});
+  addEventListener('resize',measure,{passive:true});
+  if('ResizeObserver' in window)new ResizeObserver(measure).observe(track);
+  if('IntersectionObserver' in window)new IntersectionObserver(es=>{visible=es[0].isIntersecting}).observe(track);
+  measure();requestAnimationFrame(tick);
 })();
 </script>
 </body>

@@ -74,3 +74,14 @@ Layout rendered with Playwright (Chrome) at 1440px and 390px, with placeholder b
 - Real photos from each owner (shop front, bays, staff). Current photos are stock images, not these shops.
 - Owner sign-off on services, hours and the quoted reviews.
 - Tri Auto's address: Google shows 6108 Schaefer Ave; older directories show 5203 G St.
+
+## Tri Auto modern refresh (2026-11-10)
+
+Requested by Andrew: rounder, more modern, better type, reviews that rotate on their own.
+
+- **Reference:** sbdautomotive.com (the Awwwards page for it blocks automated reading, so the live site was inspected directly). Borrowed: geometric sans in sentence case, heavy headings, pill buttons, rounded panels, lots of white space, soft shadows. Tri Auto's own red, orange and yellow stripe colors are kept.
+- **Type:** Manrope (variable, weights 200 to 800), self-hosted in `mockups/tri-auto/fonts/` under the SIL Open Font License. This replaces Arial Black italic capitals. Tri Auto is no longer a single file: it needs the `fonts/` folder beside it.
+- **Shape:** 24px to 32px radius on cards, photo, rating badge and the dark section; pill buttons, phone link and marquee; paper grain and hard 2px rules removed; sticky blurred header.
+- **Reviews:** the Pause/Resume button, arrows and helper text are gone. The row scrolls continuously, stops while a visitor touches, holds, hovers or keyboard-focuses it, and continues about a third of a second after they let go. Swiping and arrow keys still work. With reduced motion turned on it does not auto-scroll.
+- **Checked:** Playwright at 1440px and 390px, no horizontal overflow, no console errors, auto-scroll, hold and release confirmed by script. Photos were placeholders in that check (the sandbox cannot load Unsplash).
+- `tools/auto-shop-generator/build.py` does not produce this version. Edit `mockups/tri-auto/index.html` directly.
