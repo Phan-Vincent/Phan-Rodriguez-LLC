@@ -1,0 +1,5000 @@
+[
+  {
+    "row": 2,
+    "values": [
+      "High",
+      "El Rey",
+      "Mexican Restaurant",
+      "Chino",
+      "4547 Riverside Dr",
+      "(909) 590-0129",
+      4.4,
+      2328,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJi0h5Bukyw4ARPfYBcCSu_ng"
+  },
+  {
+    "row": 3,
+    "values": [
+      "High",
+      "Lockworx Locksmith Services",
+      "Auto Repair",
+      "Fontana",
+      "9035 Sierra Ave",
+      "(909) 823-8510",
+      4.5,
+      494,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJDbCEWZJMw4ARnfN9USwFfDY"
+  },
+  {
+    "row": 4,
+    "values": [
+      "High",
+      "Don Cortez Tire Shop",
+      "Auto Repair",
+      "Fontana",
+      "9530 Sierra Ave Ste 1",
+      "(909) 251-4965",
+      4.4,
+      362,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ00P9IL5Mw4ARfRyY1IHAtiQ"
+  },
+  {
+    "row": 5,
+    "values": [
+      "High",
+      "Tri Auto",
+      "Auto Repair",
+      "Chino",
+      "6108 Schaefer Ave",
+      "(909) 465-6422",
+      4.9,
+      333,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJRx87FNgyw4AR-sAlqsdT0fs"
+  },
+  {
+    "row": 6,
+    "values": [
+      "High",
+      "A C Tires",
+      "Tire Shop",
+      "Ontario",
+      "301 W California St",
+      "(909) 391-4636",
+      4.4,
+      322,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/A+C+Tires+301+W+California+St+Ontario+CA"
+  },
+  {
+    "row": 7,
+    "values": [
+      "High",
+      "Moreno's Auto Repair LLC",
+      "Auto Repair",
+      "Ontario",
+      "527 E Holt Blvd",
+      "(909) 418-6955",
+      4.7,
+      284,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Moreno%27s+Auto+Repair+LLC+527+E+Holt+Blvd+Ontario+CA"
+  },
+  {
+    "row": 8,
+    "values": [
+      "High",
+      "Tepa tire & auto care",
+      "Tire Shop",
+      "Ontario",
+      "705 S Mountain Ave",
+      "(909) 458-9200",
+      4.6,
+      205,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA"
+  },
+  {
+    "row": 9,
+    "values": [
+      "High",
+      "Alejandros Tree Service",
+      "Landscaping",
+      "Fontana",
+      "1073 N Sandalwood Ave",
+      "(909) 694-8945",
+      4.8,
+      188,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ-Qvq36pSw4ARYQYBgJ23ZWU"
+  },
+  {
+    "row": 10,
+    "values": [
+      "High",
+      "ROYSAUTOREPAIR IN UPLAND",
+      "Auto Repair",
+      "Upland",
+      "687 N Benson Ave",
+      "(909) 373-3313",
+      4.8,
+      173,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUd8biAwxw4ARImKHQdDYunk"
+  },
+  {
+    "row": 11,
+    "values": [
+      "High",
+      "RC Auto concept Body Collision & Bumper Repair",
+      "Auto Repair",
+      "Fontana",
+      "16620 Ceres Ave #5",
+      "(909) 357-8184",
+      4.9,
+      170,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJGZqiJI9Mw4ARi-CD1KY4jkE"
+  },
+  {
+    "row": 12,
+    "values": [
+      "High",
+      "Muffler Doctor",
+      "Auto Repair",
+      "Montclair",
+      "5436 Holt Blvd # A5",
+      "(909) 445-0024",
+      4.8,
+      165,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJWaHSVsozw4ARm_j6ZTLx6Lc"
+  },
+  {
+    "row": 13,
+    "values": [
+      "High",
+      "Sinaloa Tires",
+      "Auto Repair",
+      "Pomona",
+      "1542 S Garey Ave",
+      "(909) 620-1199",
+      4.3,
+      161,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJE8RyfpItw4AR0t5SOjQT4WA"
+  },
+  {
+    "row": 14,
+    "values": [
+      "High",
+      "Mailo's Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "16624 Ceres Ave",
+      "(909) 427-9202",
+      4.4,
+      153,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ5VxEL49Mw4AR5_IG_Hl3mB8"
+  },
+  {
+    "row": 15,
+    "values": [
+      "High",
+      "Bee Z Auto Care",
+      "Auto Repair",
+      "Upland",
+      "231 E Arrow Hwy",
+      "(909) 982-4321",
+      4.7,
+      145,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJOYpLOFIxw4ARO9_dNXXGAfE"
+  },
+  {
+    "row": 16,
+    "values": [
+      "High",
+      "Quality Auto Complete Auto Repair",
+      "Auto Repair",
+      "Rancho Cucamonga",
+      "8160 Masi Dr B",
+      "(909) 466-1919",
+      4.4,
+      142,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJJfFzHwhKw4ARaWfoTyVxYa4"
+  },
+  {
+    "row": 17,
+    "values": [
+      "High",
+      "king tire shop",
+      "Auto Repair",
+      "Montclair",
+      "8939 Rose Ave",
+      "(909) 952-9219",
+      4.5,
+      135,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJa-Q7KXgxw4ARHwzRXWctZbo"
+  },
+  {
+    "row": 18,
+    "values": [
+      "High",
+      "Basic Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "803 E Holt Blvd",
+      "(909) 984-8011",
+      4.8,
+      115,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Basic+Auto+Repair+803+E+Holt+Blvd+Ontario+CA"
+  },
+  {
+    "row": 19,
+    "values": [
+      "High",
+      "43's Mufflers & Brakes",
+      "Auto Repair",
+      "Pomona",
+      "1717 and, 1709 W Holt Ave",
+      "(909) 868-1997",
+      4.5,
+      105,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJoTddIX8uw4ARmaMEo3ClnPU"
+  },
+  {
+    "row": 20,
+    "values": [
+      "High",
+      "A Tech Automotive",
+      "Auto Repair",
+      "Chino",
+      "12365 Central Ave Unit a",
+      "(909) 590-0123",
+      4.5,
+      104,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ3dcN-h0zw4ARfcyIAiZoHtA"
+  },
+  {
+    "row": 21,
+    "values": [
+      "High",
+      "Purrfect Auto Services Montclair",
+      "Auto Repair",
+      "Montclair",
+      "5483 E Arrow Hwy",
+      "(909) 982-1919",
+      4.7,
+      104,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJHaQO5nkxw4ARq03JW_25Q-4"
+  },
+  {
+    "row": 22,
+    "values": [
+      "High",
+      "Prime Truck and Trailer Repair",
+      "Auto Body",
+      "Fontana",
+      "9978 Cherry Ave",
+      "(909) 644-3029",
+      4.4,
+      102,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8UU9_RlLw4ARiU6R4-NtTVs"
+  },
+  {
+    "row": 23,
+    "values": [
+      "High",
+      "County Brake, Alignment & Mufflers Plus",
+      "Auto Repair",
+      "Montclair",
+      "10602 Ramona Ave",
+      "(909) 482-0594",
+      4.7,
+      100,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJzUVUVjkyw4ARXDkBkT5QS1E"
+  },
+  {
+    "row": 24,
+    "values": [
+      "High",
+      "JC Bumper Repair",
+      "Auto Body",
+      "Fontana",
+      "16620 Ceres Ave",
+      "(909) 349-0343",
+      4.7,
+      98,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ5bfdVI9Mw4ARKRAh9g8SGhA"
+  },
+  {
+    "row": 25,
+    "values": [
+      "High",
+      "With Pride Auto Air Conditioning",
+      "Auto Repair",
+      "Montclair",
+      "5438 Holt Blvd Unit F3",
+      "(909) 391-4894",
+      4.7,
+      97,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJgTzNvLgzw4ARj-hlHKxZMHA"
+  },
+  {
+    "row": 26,
+    "values": [
+      "High",
+      "Ontario Mills Tire Pros",
+      "Auto Repair",
+      "Ontario",
+      "1000 North Ontario Mills Dr",
+      "(909) 944-5757",
+      4.6,
+      96,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Ontario+Mills+Tire+Pros+1000+North+Ontario+Mills+Dr+Ontario+CA"
+  },
+  {
+    "row": 27,
+    "values": [
+      "High",
+      "Auto Repair Foreign Domestic",
+      "Auto Repair",
+      "Chino",
+      "12949 Central Ave",
+      "(909) 627-5018",
+      4.3,
+      94,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJEeV9FiAzw4ARkg-Lx_k7VWw"
+  },
+  {
+    "row": 28,
+    "values": [
+      "High",
+      "John's Auto Repair - BMW, Mercedes Benz And Mini Cooper Experts",
+      "Auto Repair",
+      "Fontana",
+      "16566 Ceres Ave Unit 1 and 2",
+      "(909) 822-5606",
+      4.6,
+      93,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8R5BUo9Mw4ARbQlHoVvvNcA"
+  },
+  {
+    "row": 29,
+    "values": [
+      "High",
+      "A-1 Auto Expert",
+      "Auto Repair",
+      "Chino",
+      "14580 Central Ave",
+      "(909) 393-0777",
+      4.8,
+      92,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJp8VgG9jM3IARyfff32y7obQ"
+  },
+  {
+    "row": 30,
+    "values": [
+      "High",
+      "Star Hi-Tech Auto",
+      "Auto Repair",
+      "Claremont",
+      "609 E Arrow Hwy",
+      "(909) 399-9330",
+      4.4,
+      89,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUQ0LISAuw4ARTM-gfU-Ojs8"
+  },
+  {
+    "row": 31,
+    "values": [
+      "High",
+      "Jujubuilt Engineered Performance",
+      "Auto Repair",
+      "Upland",
+      "1133 W 9th St",
+      "(661) 492-4309",
+      4.9,
+      88,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJYYyOCWgxw4ARXP5SoyuBPFk"
+  },
+  {
+    "row": 32,
+    "values": [
+      "High",
+      "Performance Lube & Oil",
+      "Auto Repair",
+      "Chino",
+      "5288 Riverside Dr",
+      "(909) 364-1197",
+      4.3,
+      87,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJYTMFBSAzw4ARv1dQwxuQ93w"
+  },
+  {
+    "row": 33,
+    "values": [
+      "High",
+      "J & S Auto Center & SMOG",
+      "Auto Repair",
+      "Fontana",
+      "8807 Sierra Ave",
+      "(909) 822-3055",
+      4.9,
+      85,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJP4wlU4xMw4ARA6TRFE9OOAA"
+  },
+  {
+    "row": 34,
+    "values": [
+      "High",
+      "2Man Moving Services",
+      "Handyman",
+      "Ontario",
+      "1372 E 5th St Spc 104",
+      "(818) 964-3103",
+      4.8,
+      85,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ7TxNvomg3IARsuy2iryqix8"
+  },
+  {
+    "row": 35,
+    "values": [
+      "High",
+      "Auto Technik Carcare",
+      "Auto Repair",
+      "Chino",
+      "5260 Las Flores Dr Suite A and B",
+      "(909) 393-2679",
+      4.8,
+      83,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJB2PwZt_M3IARclWBT1Z9eqs"
+  },
+  {
+    "row": 36,
+    "values": [
+      "High",
+      "J C Auto Electric",
+      "Auto Repair",
+      "Montclair",
+      "10640 Ramona Ave",
+      "(909) 625-9181",
+      4.7,
+      83,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJTwxtRDkyw4ARh9qPaR4hI78"
+  },
+  {
+    "row": 37,
+    "values": [
+      "High",
+      "Diesel Injection Service",
+      "Auto Body",
+      "Fontana",
+      "8482 Cherry Ave",
+      "(909) 885-0590",
+      4.9,
+      83,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJh80U4vas3IARpsO2JQ9naBA"
+  },
+  {
+    "row": 38,
+    "values": [
+      "High",
+      "Diamond Auto Center / Propane",
+      "Auto Repair",
+      "Ontario",
+      "105 W California St",
+      "(909) 218-7600",
+      4.8,
+      78,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Diamond+Auto+Center+%2F+Propane+105+W+California+St+Ontario+CA"
+  },
+  {
+    "row": 39,
+    "values": [
+      "High",
+      "Claremont Auto Care",
+      "Auto Repair",
+      "Claremont",
+      "3624 Lynoak Dr",
+      "(909) 621-3872",
+      4.5,
+      75,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJh4-D9youw4ARp9kTjfmPLd8"
+  },
+  {
+    "row": 40,
+    "values": [
+      "High",
+      "L & R Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "504 W Holt Blvd",
+      "(909) 972-8883",
+      4.4,
+      72,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/L+%26+R+Auto+Repair+504+W+Holt+Blvd+Ontario+CA"
+  },
+  {
+    "row": 41,
+    "values": [
+      "High",
+      "Freddie's Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "915 E Mission Blvd",
+      "(909) 622-7216",
+      4.6,
+      71,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJXer9vfstw4AR_U2qoo0mLKU"
+  },
+  {
+    "row": 42,
+    "values": [
+      "High",
+      "Baja Auto Center Smog & Lamp",
+      "Auto Repair",
+      "Ontario",
+      "817 E Holt Blvd Ste #B",
+      "(909) 986-7172",
+      4.5,
+      70,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Baja+Auto+Center+Smog+%26+Lamp+817+E+Holt+Blvd+Ste+%23B+Ontario+CA"
+  },
+  {
+    "row": 43,
+    "values": [
+      "High",
+      "Bates Auto Service",
+      "Auto Repair",
+      "Upland",
+      "958 W 9th St",
+      "(909) 949-7984",
+      4.7,
+      69,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJU0AvGl0xw4ARVGttWW4vUIk"
+  },
+  {
+    "row": 44,
+    "values": [
+      "High",
+      "Sergio's Auto Repair & Tires",
+      "Auto Repair",
+      "Chino",
+      "5760 Riverside Dr",
+      "(909) 902-1887",
+      4.3,
+      68,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ7bgDeb4zw4AR1_mhjCbdNUc"
+  },
+  {
+    "row": 45,
+    "values": [
+      "High",
+      "AutoTech's",
+      "Auto Repair",
+      "Ontario",
+      "8840 Archibald Ave # E",
+      "(909) 581-1942",
+      4.8,
+      68,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/AutoTech%27s+8840+Archibald+Ave+%23+E+Ontario+CA"
+  },
+  {
+    "row": 46,
+    "values": [
+      "High",
+      "Toy Shop Transmissions",
+      "Auto Repair",
+      "Pomona",
+      "1292 E 3rd St",
+      "(909) 620-5849",
+      4.9,
+      67,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8dAZuA4yw4AR26MDptdAzd8"
+  },
+  {
+    "row": 47,
+    "values": [
+      "High",
+      "Huerta Smog & Repair",
+      "Auto Repair",
+      "Pomona",
+      "1703 W Holt Ave",
+      "(909) 865-9383",
+      4.3,
+      66,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJW4d42H4uw4ARlHkEwO6xlxM"
+  },
+  {
+    "row": 48,
+    "values": [
+      "High",
+      "QUINONEZ MOBILE SVC",
+      "Auto Repair",
+      "Fontana",
+      "8640 Cherry Ave",
+      "(909) 900-0476",
+      4.7,
+      65,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJeTaAgJBLw4AR4OJa-hH7N5U"
+  },
+  {
+    "row": 49,
+    "values": [
+      "High",
+      "I.E Automotive",
+      "Auto Repair",
+      "Ontario",
+      "628 S Bon View Ave",
+      "(909) 538-4789",
+      4.8,
+      65,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/I.E+Automotive+628+S+Bon+View+Ave+Ontario+CA"
+  },
+  {
+    "row": 50,
+    "values": [
+      "High",
+      "Hock's Japanese Car Specialists",
+      "Auto Repair",
+      "Pomona",
+      "45 Rio Rancho Rd Ste 2b",
+      "(909) 620-9761",
+      4.7,
+      64,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJr0RSDpotw4AR8Vp8qg1ytFg"
+  },
+  {
+    "row": 51,
+    "values": [
+      "High",
+      "Arredondo's Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "15441 Merrill Ave",
+      "(909) 355-9122",
+      4.3,
+      61,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ0x2tg3dLw4ARpu2S9uWHy3c"
+  },
+  {
+    "row": 52,
+    "values": [
+      "High",
+      "German and Japanese Auto Repair",
+      "Auto Repair",
+      "Upland",
+      "825 N Central Ave Ste E",
+      "(909) 587-9394",
+      4.9,
+      60,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJGfBDnAoxw4ARLvdtUj-nOXo"
+  },
+  {
+    "row": 53,
+    "values": [
+      "High",
+      "Mendiola Diesel & Auto Service",
+      "Auto Repair",
+      "Pomona",
+      "1321 S Garey Ave Unit C",
+      "(909) 630-1641",
+      4.8,
+      58,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUUy4o00tw4ARISSFhnCj5RU"
+  },
+  {
+    "row": 54,
+    "values": [
+      "High",
+      "Kikas Tires",
+      "Auto Repair",
+      "Pomona",
+      "1587 E Mission Blvd",
+      "(909) 643-9998",
+      4.7,
+      58,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJNUS5axIyw4ARQh5LoHHX6M0"
+  },
+  {
+    "row": 55,
+    "values": [
+      "High",
+      "Molinas Tire & Towing",
+      "Auto Repair",
+      "Pomona",
+      "1558 W Mission Blvd",
+      "(909) 620-5528",
+      4.5,
+      58,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJTbMxktAtw4AR3S2tKa8zDsk"
+  },
+  {
+    "row": 56,
+    "values": [
+      "High",
+      "The Auto Clinic",
+      "Auto Repair",
+      "Chino",
+      "5530 Schaefer Ave Ste A",
+      "(909) 628-6796",
+      4.9,
+      55,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJg_2TDywzw4AR1zGx83ina-c"
+  },
+  {
+    "row": 57,
+    "values": [
+      "High",
+      "Williams Independent Auto Repair & Smog",
+      "Auto Repair",
+      "Fontana",
+      "9435 Sierra Ave",
+      "(909) 428-6805",
+      4.5,
+      54,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJYXyFopVMw4ARaH4GFxbJJIc"
+  },
+  {
+    "row": 58,
+    "values": [
+      "High",
+      "HVAC Assistance - 24/7 On Call",
+      "Auto Repair",
+      "Fontana",
+      "9757 Sierra Ave",
+      "(909) 326-0391",
+      4.7,
+      53,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ00P9IL5Mw4ARnrKT0ayPpCA"
+  },
+  {
+    "row": 59,
+    "values": [
+      "High",
+      "Rudy's Auto Works and Paint",
+      "Auto Body",
+      "Fontana",
+      "14597 Arrow Route",
+      "(909) 437-0649",
+      4.8,
+      51,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJB1fcDWRMw4AR5GHmbQe8ujA"
+  },
+  {
+    "row": 60,
+    "values": [
+      "High",
+      "V Tech Auto Care Inc",
+      "Auto Repair",
+      "Pomona",
+      "45 Rio Rancho Rd 2 C",
+      "(909) 620-1660",
+      4.7,
+      50,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJqdRbBJotw4ARWP_QOTXwcx0"
+  },
+  {
+    "row": 61,
+    "values": [
+      "High",
+      "Gil's Tire Shop",
+      "Auto Repair",
+      "Pomona",
+      "1281 W Holt Ave",
+      "(626) 626-3354",
+      4.5,
+      50,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJt28x23cuw4ARvKpxOeKmCKs"
+  },
+  {
+    "row": 62,
+    "values": [
+      "High",
+      "Diaz Landscape",
+      "Landscaping",
+      "Ontario",
+      null,
+      "(909) 775-3108",
+      4.4,
+      50,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ26byZqo1w4ARE7I02pPz1lw"
+  },
+  {
+    "row": 63,
+    "values": [
+      "High",
+      "Nino's Lawnmower Shop",
+      "Landscaping",
+      "Pomona",
+      "333 Clark Ave",
+      "(909) 964-6143",
+      4.8,
+      50,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJGf_DawUyw4ARZ4FzBEBphoA"
+  },
+  {
+    "row": 64,
+    "values": [
+      "High",
+      "Valencia Handyman",
+      "Handyman",
+      "Fontana",
+      null,
+      "(909) 418-0569",
+      4.9,
+      50,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJrwH5yfxNw4ARaK45lEAoy4U"
+  },
+  {
+    "row": 65,
+    "values": [
+      "High",
+      "Ceres Collision",
+      "Auto Body",
+      "Fontana",
+      "16616 Ceres Ave",
+      "(909) 251-4447",
+      4.8,
+      50,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJhTt_N49Mw4ARSiqpfdcYSuI"
+  },
+  {
+    "row": 66,
+    "values": [
+      "High",
+      "JR Truck Tire Road Service",
+      "Auto Repair",
+      "Fontana",
+      "8835 Emerald Ave",
+      "(909) 279-9573",
+      4.9,
+      48,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJvcZPGjdNw4ARW4w0Gu0u3MI"
+  },
+  {
+    "row": 67,
+    "values": [
+      "High",
+      "Express Transmissions",
+      "Auto Repair",
+      "Pomona",
+      "309 E Mission Blvd",
+      "(909) 469-2282",
+      4.7,
+      48,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ79Z7P_Atw4AR4q_hVWQmxmw"
+  },
+  {
+    "row": 68,
+    "values": [
+      "High",
+      "Menas Brake & Suspension",
+      "Auto Repair",
+      "Ontario",
+      "646 E Holt Blvd",
+      "(909) 933-9131",
+      4.6,
+      47,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Menas+Brake+%26+Suspension+646+E+Holt+Blvd+Ontario+CA"
+  },
+  {
+    "row": 69,
+    "values": [
+      "High",
+      "Japanese Auto Tech",
+      "Auto Repair",
+      "Upland",
+      "259 E Arrow Hwy A",
+      "(909) 949-3011",
+      4.6,
+      46,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJP9l7SFIxw4ARpWxYjkqVK_w"
+  },
+  {
+    "row": 70,
+    "values": [
+      "High",
+      "Sal's Auto Care by Ramirez",
+      "Auto Repair",
+      "Montclair",
+      "4421 Mission Blvd",
+      "(909) 590-5014",
+      4.9,
+      45,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJeTr5sEAyw4ARrbXC8ZzZiXo"
+  },
+  {
+    "row": 71,
+    "values": [
+      "High",
+      "Arrow Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "15750 Arrow Blvd #3p",
+      "(909) 349-0107",
+      4.8,
+      44,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJg-KSWIFLw4ARl_HmVxKwA60"
+  },
+  {
+    "row": 72,
+    "values": [
+      "High",
+      "Moya Auto",
+      "Auto Repair",
+      "Chino",
+      "13380 12th St",
+      "(909) 902-0262",
+      4.9,
+      44,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJIxvWAiYzw4ARyztptZsdIzw"
+  },
+  {
+    "row": 73,
+    "values": [
+      "High",
+      "Hytech Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "8060 Mango Ave",
+      "(909) 356-4600",
+      4.4,
+      43,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ72vvA15Mw4ARZUfTusVz26s"
+  },
+  {
+    "row": 74,
+    "values": [
+      "High",
+      "Speed 1 smog",
+      "Auto Repair",
+      "Montclair",
+      "4727 Brooks St",
+      "(909) 626-8060",
+      4.5,
+      43,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJU0rgZjcyw4ARL24P4HL0kwA"
+  },
+  {
+    "row": 75,
+    "values": [
+      "High",
+      "JL Auto Body & Repair",
+      "Auto Repair",
+      "Fontana",
+      "15944 Valley Blvd",
+      "(909) 320-7547",
+      4.6,
+      41,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJnds2Nl9Lw4ARM2s1MIvHAbs"
+  },
+  {
+    "row": 76,
+    "values": [
+      "High",
+      "ORTEGA SMOG & REPAIR",
+      "Auto Repair",
+      "Fontana",
+      "16375 Arrow Blvd C",
+      "(909) 434-0575",
+      4.6,
+      39,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJg-KSWIFLw4ARTAYw3bPJWrI"
+  },
+  {
+    "row": 77,
+    "values": [
+      "High",
+      "Advance Muffler",
+      "Auto Repair",
+      "Chino",
+      "12365 Central Ave",
+      "(909) 548-6113",
+      4.8,
+      39,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJwfONFh0zw4ARsZnUaFRBNL0"
+  },
+  {
+    "row": 78,
+    "values": [
+      "High",
+      "General Auto Care",
+      "Auto Repair",
+      "Montclair",
+      "10662 Ramona Ave",
+      "(909) 391-7173",
+      4.7,
+      39,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJcSQWL7wzw4ARNnq0WAmqCHc"
+  },
+  {
+    "row": 79,
+    "values": [
+      "High",
+      "TJ Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "1524 S Garey Ave",
+      "(909) 622-0669",
+      4.8,
+      38,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJRzhYyKwtw4AR_EGGxIlPOlk"
+  },
+  {
+    "row": 80,
+    "values": [
+      "High",
+      "Sanchez Auto Electric",
+      "Auto Repair",
+      "Pomona",
+      "809 E 2nd St",
+      "(909) 623-2374",
+      4.3,
+      38,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJg_DMfPctw4ARxa2uz6NlKOQ"
+  },
+  {
+    "row": 81,
+    "values": [
+      "High",
+      "EJ's Auto",
+      "Auto Repair",
+      "Fontana",
+      "16635 Foothill Blvd Suite 104",
+      "(951) 237-6600",
+      4.8,
+      36,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJlcRIMJpKw4ARNNMoqitNL4k"
+  },
+  {
+    "row": 82,
+    "values": [
+      "High",
+      "Garcia\u2019s Gardening, tree service",
+      "Landscaping",
+      "Chino",
+      null,
+      "(818) 399-6462",
+      5,
+      36,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJv4RiO1m-D4wREt2NAZSu8oc"
+  },
+  {
+    "row": 83,
+    "values": [
+      "High",
+      "Ontario Japan Auto",
+      "Auto Repair",
+      "Ontario",
+      "2215 E 4th St",
+      "(909) 941-8855",
+      4.6,
+      36,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Ontario+Japan+Auto+2215+E+4th+St+Ontario+CA"
+  },
+  {
+    "row": 84,
+    "values": [
+      "High",
+      "SG Mechanics Auto shop Repair",
+      "Auto Repair",
+      "Fontana",
+      "15867 Foothill Blvd suite C",
+      "(909) 452-6061",
+      4.4,
+      35,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJx_-4LoZLw4ARaYbbTzKXwsc"
+  },
+  {
+    "row": 85,
+    "values": [
+      "High",
+      "Roadhaus Automotive & Diesel Specialist",
+      "Auto Repair",
+      "Montclair",
+      "10638 Ramona Ave",
+      "(909) 621-5665",
+      4.4,
+      35,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJVVxkRDkyw4ARV0evyAb__Q8"
+  },
+  {
+    "row": 86,
+    "values": [
+      "High",
+      "Avant-Garde Automotive",
+      "Auto Repair",
+      "Chino",
+      "13611 12th St Ste B",
+      "(909) 964-6515",
+      4.8,
+      34,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJyfLQygwzw4ARK12_XkedWVw"
+  },
+  {
+    "row": 87,
+    "values": [
+      "High",
+      "M&M CAR PRO'S",
+      "Auto Body",
+      "Fontana",
+      "16534 Ceres Ave #3",
+      "(909) 329-6162",
+      4.9,
+      34,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJSR-mOdpNw4ARtc17Nd9fQkw"
+  },
+  {
+    "row": 88,
+    "values": [
+      "High",
+      "Pro Auto Service",
+      "Auto Repair",
+      "Pomona",
+      "836 E Holt Ave #91767",
+      "(909) 302-2054",
+      4.6,
+      33,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ9VgTYGwzw4AR4l99HKqg7AQ"
+  },
+  {
+    "row": 89,
+    "values": [
+      "High",
+      "Omar Auto Body Paint And Repair",
+      "Auto Body",
+      "Fontana",
+      "16522 Ceres Ave Ste 3, 4",
+      "(909) 685-3183",
+      4.8,
+      33,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJXbIcKY9Mw4ARGuPO15H21ow"
+  },
+  {
+    "row": 90,
+    "values": [
+      "High",
+      "Ready2List Residential Clean-Ups",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "9340 Foothill Blvd",
+      "(909) 243-4498",
+      5,
+      32,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJo_DU8LMGQwMRkamXRkrwHac"
+  },
+  {
+    "row": 91,
+    "values": [
+      "High",
+      "Chino Valley Auto Repair",
+      "Auto Repair",
+      "Chino",
+      "5260 Las Flores Dr",
+      "(909) 597-1131",
+      4.7,
+      31,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJhd0paN_M3IARETLmskJfgwQ"
+  },
+  {
+    "row": 92,
+    "values": [
+      "High",
+      "Auto Tech Center",
+      "Auto Repair",
+      "Pomona",
+      "1407 W Holt Ave",
+      "(909) 868-7000",
+      4.7,
+      31,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJDUhzGHguw4ARcdamuYEYQho"
+  },
+  {
+    "row": 93,
+    "values": [
+      "High",
+      "Willy's Trailer Repair",
+      "Auto Body",
+      "Fontana",
+      "8358 Beech Ave",
+      "(909) 265-0831",
+      4.7,
+      31,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJF1Tdy2RLw4ARNXw1wm6pVoE"
+  },
+  {
+    "row": 94,
+    "values": [
+      "High",
+      "Andy's Auto Repair Paint & Body",
+      "Auto Repair",
+      "Montclair",
+      "5334 Holt Blvd c",
+      "(909) 621-3008",
+      4.4,
+      30,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJqaxFAsszw4ARgkR0ULuqfFI"
+  },
+  {
+    "row": 95,
+    "values": [
+      "High",
+      "Perfect Image Collision Center",
+      "Auto Body",
+      "Fontana",
+      "15142 Slover Ave",
+      "(909) 574-9000",
+      4.7,
+      30,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJB_5mIlBLw4ARC8oSWJNaq6I"
+  },
+  {
+    "row": 96,
+    "values": [
+      "High",
+      "RC Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "1113 W Holt Blvd c1",
+      "(909) 395-9436",
+      4.8,
+      30,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/RC+Auto+Repair+1113+W+Holt+Blvd+c1+Ontario+CA"
+  },
+  {
+    "row": 97,
+    "values": [
+      "High",
+      "Sharp Auto Body & Paint",
+      "Auto Repair",
+      "Montclair",
+      "4461 Brooks St",
+      "(909) 624-9379",
+      4.8,
+      29,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJO1cnVTkyw4AR3d9q9KBycW0"
+  },
+  {
+    "row": 98,
+    "values": [
+      "High",
+      "Jamacor Industries",
+      "Auto Body",
+      "Fontana",
+      "10557 Juniper Ave",
+      "(909) 793-4971",
+      4.6,
+      28,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJgZfNLVqq3IARwRWWB1p8NZQ"
+  },
+  {
+    "row": 99,
+    "values": [
+      "High",
+      "Foothill Automotive",
+      "Auto Repair",
+      "Claremont",
+      "377 E Foothill Blvd",
+      "(909) 392-4661",
+      4.3,
+      27,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJDydlcCsuw4ARnt4ep5pxX8k"
+  },
+  {
+    "row": 100,
+    "values": [
+      "High",
+      "Sunrise Concrete",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "6970 Mendocino Pl",
+      "(951) 275-2929",
+      4.3,
+      27,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJLeBw5hQ2w4ARBQ7VVZCEo74"
+  },
+  {
+    "row": 101,
+    "values": [
+      "High",
+      "J And C Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "806 E State St",
+      "(909) 984-6078",
+      4.9,
+      27,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/J+And+C+Auto+Repair+806+E+State+St+Ontario+CA"
+  },
+  {
+    "row": 102,
+    "values": [
+      "High",
+      "T&S auto repair",
+      "Auto Repair",
+      "Upland",
+      "1710 W Foothill Blvd Unit D1",
+      "(909) 931-5255",
+      4.4,
+      25,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJm9KLh6oxw4ARTV6uZaLHBe8"
+  },
+  {
+    "row": 103,
+    "values": [
+      "High",
+      "Fast Lane Auto Repair",
+      "Auto Repair",
+      "Upland",
+      "687 N Benson Ave Ste D",
+      "(909) 608-7473",
+      4.6,
+      25,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUb3IF3Qxw4ARvn5A7CE1GwY"
+  },
+  {
+    "row": 104,
+    "values": [
+      "High",
+      "Auto Pros Repair",
+      "Auto Repair",
+      "Montclair",
+      "4771 Holt Blvd",
+      "(909) 399-9969",
+      4.8,
+      25,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJk83NTjcyw4ARGbL9lF-o8Kw"
+  },
+  {
+    "row": 105,
+    "values": [
+      "High",
+      "A & A Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "1141 W Holt Blvd #1",
+      "(909) 391-0080",
+      4.4,
+      25,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/A+%26+A+Auto+Repair+1141+W+Holt+Blvd+%231+Ontario+CA"
+  },
+  {
+    "row": 106,
+    "values": [
+      "High",
+      "Fontana Custom Auto Body",
+      "Auto Repair",
+      "Fontana",
+      "15770 Slover Ave Unit B",
+      "(909) 695-6606",
+      4.5,
+      24,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ4RGqYppLw4ARAMiitavyxqk"
+  },
+  {
+    "row": 107,
+    "values": [
+      "High",
+      "Advance Tranz",
+      "Auto Repair",
+      "Upland",
+      "1466 E Foothill Blvd Ste a",
+      "(909) 920-0511",
+      5,
+      24,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8TK55703w4AR_8McYKspeQU"
+  },
+  {
+    "row": 108,
+    "values": [
+      "High",
+      "Lanny Monroe Automotive",
+      "Auto Repair",
+      "Upland",
+      "8428 Loma Pl",
+      "(909) 946-3900",
+      4.8,
+      24,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJTXRqjXQxw4ARSGeRnSBCTNU"
+  },
+  {
+    "row": 109,
+    "values": [
+      "High",
+      "Joes Fleet Paint (J&E TRUKNBUS INC)",
+      "Auto Body",
+      "Fontana",
+      "8646 Beech Ave",
+      "(909) 745-2634",
+      4.8,
+      24,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJmepwP5xLw4ARU4HHpYoZeHg"
+  },
+  {
+    "row": 110,
+    "values": [
+      "High",
+      "Esparza Auto Body & Paint",
+      "Auto Repair",
+      "Ontario",
+      "109 N Vine Ave",
+      "(909) 208-8035",
+      4.4,
+      23,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Esparza+Auto+Body+%26+Paint+109+N+Vine+Ave+Ontario+CA"
+  },
+  {
+    "row": 111,
+    "values": [
+      "High",
+      "Highline Auto Service & Collision, LLC",
+      "Auto Repair",
+      "Montclair",
+      "5334 Holt Blvd Ste B",
+      "(909) 399-1111",
+      4.8,
+      22,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ1wNpAMszw4ARK1srFVyMkwk"
+  },
+  {
+    "row": 112,
+    "values": [
+      "High",
+      "Norman's Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "328 E California St",
+      "(909) 236-4416",
+      4.9,
+      22,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Norman%27s+Auto+Repair+328+E+California+St+Ontario+CA"
+  },
+  {
+    "row": 113,
+    "values": [
+      "High",
+      "All Gear Transmission & Differential",
+      "Auto Repair",
+      "Montclair",
+      "5512 Arrow Hwy Ste F",
+      "(909) 204-2154",
+      4.3,
+      21,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJiQui9Qsxw4AREHSCd_7hHOQ"
+  },
+  {
+    "row": 114,
+    "values": [
+      "High",
+      "European Transmission Rebuild",
+      "Auto Repair",
+      "Montclair",
+      "5521 Holt Blvd Ste g",
+      "(626) 234-5424",
+      4.8,
+      20,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJkcov-Mkzw4ARPNHALOUn23I"
+  },
+  {
+    "row": 115,
+    "values": [
+      "Medium",
+      "Don Cortez Tire Services",
+      "Auto Repair",
+      "Ontario",
+      "117 N Campus Ave",
+      "(909) 218-4924",
+      4.2,
+      377,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Don+Cortez+Tire+Services+117+N+Campus+Ave+Ontario+CA"
+  },
+  {
+    "row": 116,
+    "values": [
+      "Medium",
+      "Sierra Lawnmower Service",
+      "Landscaping",
+      "Fontana",
+      "7695 Sierra Ave",
+      "(909) 355-8507",
+      4.2,
+      83,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJrfQP-2hMw4ARCxiucYahIQ8"
+  },
+  {
+    "row": 117,
+    "values": [
+      "Medium",
+      "Colima Tires",
+      "Auto Repair",
+      "Pomona",
+      "1031 W Holt Ave",
+      "(909) 837-1694",
+      4.1,
+      77,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJrxY2HXYuw4ARO41-clAzjfU"
+  },
+  {
+    "row": 118,
+    "values": [
+      "Medium",
+      "Ricos Auto Repair & Smog",
+      "Auto Repair",
+      "Fontana",
+      "16178 Arrow Blvd",
+      "(909) 574-1511",
+      4.2,
+      72,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJU8ygT35Mw4AR3fvvypHtGeo"
+  },
+  {
+    "row": 119,
+    "values": [
+      "Medium",
+      "C&H Axle & Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "15750 Arrow Blvd n",
+      "(909) 356-4910",
+      4.1,
+      56,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJwW9MG6dMw4ARqvwJi-RCgPQ"
+  },
+  {
+    "row": 120,
+    "values": [
+      "Medium",
+      "Charlie's On-Site Mobile Mechanic",
+      "Auto Repair",
+      "Chino",
+      "12937 Falcon Pl",
+      "(714) 390-8782",
+      4,
+      56,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJdc_rwSEv3YAR1xlg3iV6zjQ"
+  },
+  {
+    "row": 121,
+    "values": [
+      "Medium",
+      "C R Automotive",
+      "Auto Repair",
+      "Pomona",
+      "1715 W Holt Ave",
+      "(909) 469-6678",
+      4.2,
+      56,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJO41QIX8uw4ARhPx2NKcpqEs"
+  },
+  {
+    "row": 122,
+    "values": [
+      "Medium",
+      "Tune Tech",
+      "Auto Repair",
+      "Pomona",
+      "402 W Holt Ave",
+      "(909) 622-5131",
+      4.1,
+      53,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJP0NwYuEtw4ARtiyyVLtkcwA"
+  },
+  {
+    "row": 123,
+    "values": [
+      "Medium",
+      "C & C Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "15750 Arrow Blvd Unit K",
+      "(909) 574-6873",
+      4.2,
+      43,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJg-KSWIFLw4AR7_1AXRS_yKY"
+  },
+  {
+    "row": 124,
+    "values": [
+      "Medium",
+      "Hi Tech Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "393 N East End Ave",
+      "(909) 620-8666",
+      4.2,
+      42,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJaauQ5botw4ARca6q310qXms"
+  },
+  {
+    "row": 125,
+    "values": [
+      "Medium",
+      "Fontana Suspension and Auto Repair",
+      "Auto Body",
+      "Fontana",
+      "17474 Foothill Blvd Unit A",
+      "(909) 320-7757",
+      4,
+      34,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJZX2oGoJNw4ARkfafpzrKE2M"
+  },
+  {
+    "row": 126,
+    "values": [
+      "Medium",
+      "Chino Auto Repair",
+      "Auto Repair",
+      "Chino",
+      "5715 Riverside Dr",
+      "(909) 548-6300",
+      4.2,
+      33,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJeXxAGCMzw4AROV83wu3W-Ns"
+  },
+  {
+    "row": 127,
+    "values": [
+      "Medium",
+      "Rudy's Autobody",
+      "Auto Body",
+      "Fontana",
+      "8265 Juniper Ave",
+      "(909) 822-3553",
+      4.2,
+      22,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJfXqNtmNMw4ARHMkLEcgCmGI"
+  },
+  {
+    "row": 128,
+    "values": [
+      "Medium",
+      "JT Automotive Service",
+      "Auto Repair",
+      "Montclair",
+      "4711 E Arrow Hwy C",
+      "(909) 626-6447",
+      5,
+      19,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJZ6vACpoxw4ARzEIsqc_dWeM"
+  },
+  {
+    "row": 129,
+    "values": [
+      "Medium",
+      "Ramirez Tree Service",
+      "Landscaping",
+      "Rancho Cucamonga",
+      null,
+      "(909) 230-3103",
+      4,
+      19,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJLSCoM8Ezw4ARLc95LmDAA8Y"
+  },
+  {
+    "row": 130,
+    "values": [
+      "Medium",
+      "Japanese Auto Care Specialist",
+      "Auto Repair",
+      "Rancho Cucamonga",
+      "8727 Rochester Ave",
+      "(909) 981-3086",
+      4.9,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJWyDy4lwxw4ARO9ySJ7cX0as"
+  },
+  {
+    "row": 131,
+    "values": [
+      "Medium",
+      "Sergios Used Engines & Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "16522 Ceres Ave units 5&6",
+      "(442) 356-3081",
+      5,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJQ35X4gpNw4AR_NjRNI1uqHg"
+  },
+  {
+    "row": 132,
+    "values": [
+      "Medium",
+      "Don Veverka Auto Services",
+      "Auto Repair",
+      "Upland",
+      "1462 E 9th St",
+      "(909) 946-9150",
+      4.9,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ46wufR00w4ARIw8O60gty5k"
+  },
+  {
+    "row": 133,
+    "values": [
+      "Medium",
+      "Danny's Automotive Repair | Car Repair Service",
+      "Auto Repair",
+      "Pomona",
+      "594 S San Antonio Ave",
+      "(909) 622-3785",
+      4.7,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJpyzZ-Akyw4ARtorMXQJMUWE"
+  },
+  {
+    "row": 134,
+    "values": [
+      "Medium",
+      "Express Brake",
+      "Auto Repair",
+      "Montclair",
+      "5640 E Arrow Hwy",
+      "(909) 982-8744",
+      4.5,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ07W5ZXoxw4ARNYg5_bpb6Aw"
+  },
+  {
+    "row": 135,
+    "values": [
+      "Medium",
+      "Ontario Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "111 W California St",
+      "(909) 391-6811",
+      4.9,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Ontario+Auto+Repair+111+W+California+St+Ontario+CA"
+  },
+  {
+    "row": 136,
+    "values": [
+      "Medium",
+      "SAS Star Certified Smog Check Ontario Ca",
+      "Auto Repair",
+      "Ontario",
+      "2209 E 4th St",
+      "(909) 638-5067",
+      4.4,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/SAS+Star+Certified+Smog+Check+Ontario+Ca+2209+E+4th+St+Ontario+CA"
+  },
+  {
+    "row": 137,
+    "values": [
+      "Medium",
+      "Dexter Auto Care",
+      "Auto Repair",
+      "Pomona",
+      "45 Rio Rancho Rd #4C",
+      "(909) 629-8778",
+      5,
+      17,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJhehQD5otw4ARJ0oYkGAm3-U"
+  },
+  {
+    "row": 138,
+    "values": [
+      "Medium",
+      "J & H Automotive Service",
+      "Auto Repair",
+      "Montclair",
+      "10608 Ramona Ave",
+      "(909) 624-5819",
+      4.6,
+      17,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJdWna4Dkyw4ARWJqdw3KlgV4"
+  },
+  {
+    "row": 139,
+    "values": [
+      "Medium",
+      "Angel's Body Shop",
+      "Auto Repair",
+      "Montclair",
+      "4691 Brooks St # G",
+      "(909) 626-6761",
+      4.8,
+      17,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJwchbxDkyw4ARP6PjD38mY6c"
+  },
+  {
+    "row": 140,
+    "values": [
+      "Medium",
+      "Bazan Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "1485 E Holt Ave",
+      "(909) 469-0113",
+      4.8,
+      16,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ-eu_oRAyw4ARgAWcrCO5y-c"
+  },
+  {
+    "row": 141,
+    "values": [
+      "Medium",
+      "Jesus Tree Service Landscaping",
+      "Landscaping",
+      "Chino",
+      null,
+      "(909) 757-4979",
+      4.3,
+      16,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJX9XkLA7PwoARHL3wNjpbmB0"
+  },
+  {
+    "row": 142,
+    "values": [
+      "Medium",
+      "So.Cal Automotive Repair",
+      "Auto Repair",
+      "Ontario",
+      "520 W California St",
+      "(909) 241-6822",
+      4.6,
+      15,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/So.Cal+Automotive+Repair+520+W+California+St+Ontario+CA"
+  },
+  {
+    "row": 143,
+    "values": [
+      "Medium",
+      "Ruano's Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "604 W Holt Ave",
+      "(909) 630-2208",
+      4.7,
+      14,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ72gzYOAtw4AR5GOFG8zEZOc"
+  },
+  {
+    "row": 144,
+    "values": [
+      "Medium",
+      "Empire Mechanic",
+      "Auto Repair",
+      "Montclair",
+      "5521 Holt Blvd Ste 1",
+      "(626) 234-5424",
+      4.7,
+      14,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ3dpb-U4zw4ARoa3lWPxfWyw"
+  },
+  {
+    "row": 145,
+    "values": [
+      "Medium",
+      "Excellent Auto Repair",
+      "Auto Repair",
+      "Montclair",
+      "4392 Brooks St B",
+      "(714) 944-7508",
+      4.7,
+      14,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJKXwOGDwyw4ARW2CsuHKgZBs"
+  },
+  {
+    "row": 146,
+    "values": [
+      "Medium",
+      "D L Long Landscaping",
+      "Landscaping",
+      "Chino",
+      "5475 G St",
+      "(909) 628-5531",
+      4.4,
+      14,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJXX-3sCgzw4AR39zcPV3_S8A"
+  },
+  {
+    "row": 147,
+    "values": [
+      "Medium",
+      "Torres Truck Repair & Road Services",
+      "Auto Body",
+      "Fontana",
+      "14838 Boyle Ave Ste a",
+      "(909) 429-0232",
+      4.2,
+      14,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJK05n0ThLw4ARIUCe6djdBRQ"
+  },
+  {
+    "row": 148,
+    "values": [
+      "Medium",
+      "Pomona Car Care",
+      "Auto Repair",
+      "Pomona",
+      "1207 E Mission Blvd",
+      "(909) 629-4863",
+      4.8,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJZ6hRVwkyw4ARY02YTrGZ77w"
+  },
+  {
+    "row": 149,
+    "values": [
+      "Medium",
+      "G&C Brothers Auto",
+      "Auto Repair",
+      "Pomona",
+      "255 N White Ave",
+      "(909) 446-9104",
+      5,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJV9uYRQAtw4ARJukVZqvnCb8"
+  },
+  {
+    "row": 150,
+    "values": [
+      "Medium",
+      "Panda Plastering and Stucco",
+      "Landscaping",
+      "Fontana",
+      "8964 Juniper Ave",
+      "(909) 409-6680",
+      4.7,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ9dIuLo5Mw4ARaLRp4p3nshs"
+  },
+  {
+    "row": 151,
+    "values": [
+      "Medium",
+      "Highland Handyman",
+      "Handyman",
+      "Rancho Cucamonga",
+      "9988 Foothill Blvd",
+      "(909) 354-7780",
+      5,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJEevdEo03w4ARA3OUbJbHfUw"
+  },
+  {
+    "row": 152,
+    "values": [
+      "Medium",
+      "DXM12 Chimney Inspection Services Ltd",
+      "Handyman",
+      "Fontana",
+      "11329 Fiesta Ct",
+      "(909) 382-8194",
+      4.2,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJnWyOe0ez3IAR4LtMpqeanek"
+  },
+  {
+    "row": 153,
+    "values": [
+      "Medium",
+      "GS Auto Body Collision",
+      "Auto Body",
+      "Fontana",
+      "15867 Foothill Blvd",
+      "(909) 452-6061",
+      4.7,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ3zJEkcRLw4ARgN3y9-hc4OQ"
+  },
+  {
+    "row": 154,
+    "values": [
+      "Medium",
+      "Elizalde Auto Repair",
+      "Auto Body",
+      "Fontana",
+      "16566 Ceres Ave Ste 4 & 5",
+      "(909) 827-9808",
+      4,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJfSBlwARNw4AR2n8WgWUwvog"
+  },
+  {
+    "row": 155,
+    "values": [
+      "Medium",
+      "A & V Auto Repair",
+      "Auto Repair",
+      "Ontario",
+      "949 W State St #H",
+      "(909) 391-8699",
+      4.5,
+      12,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/A+%26+V+Auto+Repair+949+W+State+St+%23H+Ontario+CA"
+  },
+  {
+    "row": 156,
+    "values": [
+      "Medium",
+      "Master Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "15614 1/2 Arrow Route",
+      "(909) 838-4589",
+      5,
+      10,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJA_EnxrpLw4AR0Th4r2IIt1I"
+  },
+  {
+    "row": 157,
+    "values": [
+      "Medium",
+      "T 4 Auto Tech",
+      "Auto Repair",
+      "Montclair",
+      "708 Indian Hill Blvd",
+      "(909) 621-2369",
+      5,
+      10,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJTzxXmxkyw4AR9gIapV34Vzc"
+  },
+  {
+    "row": 158,
+    "values": [
+      "Medium",
+      "J & J Auto Services Center",
+      "Auto Repair",
+      "Montclair",
+      "5533 Holt Blvd",
+      "(909) 625-5777",
+      4.4,
+      10,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ6bG4RMszw4ARPyK1D7kus3I"
+  },
+  {
+    "row": 159,
+    "values": [
+      "Medium",
+      "CALDERON LANDSCAPING & GRASS PAINTING SERVICES",
+      "Landscaping",
+      "Pomona",
+      "11204 Roswell Ave",
+      "(909) 248-6913",
+      4.4,
+      10,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJlwNJemwyw4ARwNwwLb9rUY0"
+  },
+  {
+    "row": 160,
+    "values": [
+      "Medium",
+      "Central Truck Body Inc",
+      "Auto Body",
+      "Fontana",
+      "14984 1/2 Valley Blvd",
+      "(909) 356-0388",
+      4.3,
+      10,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJPwlZoWpLw4ARz4wyTlyCLc4"
+  },
+  {
+    "row": 161,
+    "values": [
+      "Medium",
+      "Elite Auto Body Collision",
+      "Auto Body",
+      "Fontana",
+      "16534 Ceres Ave #1",
+      "(951) 531-6535",
+      5,
+      10,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ__8vVY9Mw4ARY3bqjUbvlHA"
+  },
+  {
+    "row": 162,
+    "values": [
+      "Medium",
+      "Arevalo Tree Service and Landscape",
+      "Landscaping",
+      "Fontana",
+      "16362 Randall Ave",
+      "(909) 561-0215",
+      4.1,
+      9,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJReWcIShLw4ARv9OXaPSH6K8"
+  },
+  {
+    "row": 163,
+    "values": [
+      "Medium",
+      "Almazan's landscape",
+      "Landscaping",
+      "Fontana",
+      null,
+      "(909) 837-7122",
+      4.6,
+      9,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJdeSQ7q4xw4ARB22IIx61rMs"
+  },
+  {
+    "row": 164,
+    "values": [
+      "Medium",
+      "Anthony\u2019s auto repair and towing",
+      "Auto Body",
+      "Fontana",
+      "16622 Ceres Ave #4",
+      "(909) 904-6061",
+      5,
+      9,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJgddddbZNw4AREJ7t6iR1aVI"
+  },
+  {
+    "row": 165,
+    "values": [
+      "Medium",
+      "P & E Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "45 Rio Rancho Rd #1c",
+      "(626) 863-2207",
+      4.9,
+      8,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJVzGSf4Utw4AReNWzc1sci68"
+  },
+  {
+    "row": 166,
+    "values": [
+      "Medium",
+      "M&M A/C Service & Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "1152 E Holt Ave",
+      "(909) 767-3008",
+      4.6,
+      8,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJJeugiA4zw4ARJ7ImTfNToBs"
+  },
+  {
+    "row": 167,
+    "values": [
+      "Medium",
+      "Docs auto repair and detailing",
+      "Auto Repair",
+      "Fontana",
+      "16622 Ceres Ave #4",
+      "(909) 642-7066",
+      4.1,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJAzsa0f9Nw4ARH4GXCWwaKVI"
+  },
+  {
+    "row": 168,
+    "values": [
+      "Medium",
+      "Gary's Automotive",
+      "Auto Repair",
+      "Fontana",
+      "16600 Merrill Ave A",
+      "(909) 823-6171",
+      4.4,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJLzmrp49Mw4ARW_nD6UyFPJs"
+  },
+  {
+    "row": 169,
+    "values": [
+      "Medium",
+      "The Tech Lab Auto",
+      "Auto Repair",
+      "Montclair",
+      "4747 E State St D",
+      "(909) 238-8464",
+      4.6,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJLzRGt1Yzw4ARdGuA2RSEwCM"
+  },
+  {
+    "row": 170,
+    "values": [
+      "Medium",
+      "Bailon's Auto Repair",
+      "Auto Repair",
+      "Montclair",
+      "5437 W State St",
+      "(626) 626-3961",
+      5,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJYzVFh2oqw4AR1k__xuq6wPg"
+  },
+  {
+    "row": 171,
+    "values": [
+      "Medium",
+      "P & RAuto Electric Repair",
+      "Auto Repair",
+      "Montclair",
+      "5438 Holt Blvd E1",
+      "(909) 447-4128",
+      4.1,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJDfJyWsozw4ARLDjSjadIsFI"
+  },
+  {
+    "row": 172,
+    "values": [
+      "Medium",
+      "Merchant Landscape Services",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "8847 E 9th St",
+      "(909) 981-1022",
+      4.4,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJfQqKISQ0w4ARmRtOsi2LQVg"
+  },
+  {
+    "row": 173,
+    "values": [
+      "Medium",
+      "Cal Beaver Tree Service",
+      "Landscaping",
+      "Fontana",
+      "13786 Dodge Ct",
+      "(909) 821-1590",
+      4.9,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJLe5I-eZMw4ARgk8gz6tjULo"
+  },
+  {
+    "row": 174,
+    "values": [
+      "Medium",
+      "Fontana Paving & Pool Remodeling",
+      "Landscaping",
+      "Fontana",
+      "7970 Cherry Ave",
+      "(909) 368-0676",
+      5,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJX0uMY63Z54kRG7p8e9Trdkk"
+  },
+  {
+    "row": 175,
+    "values": [
+      "Medium",
+      "Affordable Handyman",
+      "Handyman",
+      "Rancho Cucamonga",
+      "8458 Autumnhill Pl",
+      "(951) 295-7983",
+      4.4,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJKW-eQII1w4ARQ8cms8LYgVI"
+  },
+  {
+    "row": 176,
+    "values": [
+      "Medium",
+      "AA Handyman Services",
+      "Handyman",
+      "Pomona",
+      null,
+      "(424) 207-4631",
+      5,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJQQtGGuozw4ARuo2W7Sr0VAI"
+  },
+  {
+    "row": 177,
+    "values": [
+      "Medium",
+      "Handy Joe",
+      "Handyman",
+      "Rancho Cucamonga",
+      null,
+      "(909) 775-4134",
+      5,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJu3xkuLAQRG4RWFO70_aEQLM"
+  },
+  {
+    "row": 178,
+    "values": [
+      "Medium",
+      "Mailos auto and towing",
+      "Auto Repair",
+      "Fontana",
+      "16622 Ceres Ave #4",
+      "(909) 904-6061",
+      5,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJO5nJCoRNw4ARctuxTuiEFBQ"
+  },
+  {
+    "row": 179,
+    "values": [
+      "Medium",
+      "Mario's Garden Service",
+      "Landscaping",
+      "Fontana",
+      "8460 Mulberry Ave",
+      "(951) 218-0569",
+      4.7,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJBXafdUxKw4ARJChenI1p1IQ"
+  },
+  {
+    "row": 180,
+    "values": [
+      "Medium",
+      "On The Go Landscaping",
+      "Landscaping",
+      "Fontana",
+      null,
+      null,
+      5,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJgQYUqHVLw4ARLFKG2_9GJcs"
+  },
+  {
+    "row": 181,
+    "values": [
+      "Medium",
+      "Eric Ellis Yard and Handyman Services",
+      "Landscaping",
+      "Claremont",
+      null,
+      "(909) 242-9675",
+      5,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ9_87aAEuw4ARNc-LJlotDEY"
+  },
+  {
+    "row": 182,
+    "values": [
+      "Medium",
+      "Charlie's Handyman Service",
+      "Handyman",
+      "Rancho Cucamonga",
+      null,
+      "(909) 541-7484",
+      4.3,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUyXiBe81w4AR2AG6k23FmAE"
+  },
+  {
+    "row": 183,
+    "values": [
+      "Medium",
+      "1 Stop Chassis and Trailer Repair Inc",
+      "Auto Body",
+      "Fontana",
+      "14272 Santa Ana Ave",
+      "(909) 695-4078",
+      4,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ24whdy9Lw4AR5libTZ-H4sU"
+  },
+  {
+    "row": 184,
+    "values": [
+      "Medium",
+      "Claremont Tire & Auto Center",
+      "Auto Repair",
+      "Montclair",
+      "4711 E Arrow Hwy # B",
+      "(909) 625-3848",
+      4.8,
+      5,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJR5fqdJoxw4ARDjdyzwL99_A"
+  },
+  {
+    "row": 185,
+    "values": [
+      "Medium",
+      "F&R Garcia's Landscaping",
+      "Landscaping",
+      "Ontario",
+      "670 E Elm St",
+      "(909) 292-5122",
+      4.2,
+      5,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ0WA-Yy81w4ARWjhtCcliF3E"
+  },
+  {
+    "row": 186,
+    "values": [
+      "Low",
+      "Sierra Car Wash & Detail Shop",
+      "Auto Repair",
+      "Fontana",
+      "9146 Sierra Ave",
+      "(909) 350-1800",
+      3,
+      349,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJa11UvpNMw4ARCI6o1MP_yuY"
+  },
+  {
+    "row": 187,
+    "values": [
+      "Low",
+      "Purrfect Auto Service",
+      "Auto Repair",
+      "Claremont",
+      "621 E Arrow Hwy",
+      "(909) 482-2222",
+      3.8,
+      263,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJjxfGISAuw4AR9B6ddfJMUkk"
+  },
+  {
+    "row": 188,
+    "values": [
+      "Low",
+      "Purrfect Auto Service",
+      "Auto Repair",
+      "Ontario",
+      "11075 Central Ave",
+      "(909) 517-9140",
+      3.8,
+      165,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Purrfect+Auto+Service+11075+Central+Ave+Ontario+CA"
+  },
+  {
+    "row": 189,
+    "values": [
+      "Low",
+      "J & V Auto Parts & Accessories",
+      "Auto Parts",
+      "Ontario",
+      "802 E Holt Blvd",
+      "(909) 509-9231",
+      2.8,
+      107,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/J+%26+V+Auto+Parts+%26+Accessories+802+E+Holt+Blvd+Ontario+CA"
+  },
+  {
+    "row": 190,
+    "values": [
+      "Low",
+      "A-1 Power Equipment - Lawnmower Sales Repair and Service",
+      "Landscaping",
+      "Fontana",
+      "15690 Foothill Blvd",
+      "(909) 427-8098",
+      2.9,
+      102,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJc-axOI9Lw4AR9bsoQ-Epj8I"
+  },
+  {
+    "row": 191,
+    "values": [
+      "Low",
+      "Fast Lawn Mower Llc",
+      "Landscaping",
+      "Pomona",
+      "995 E Mission Blvd",
+      "(909) 461-3323",
+      3.8,
+      72,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJE4V43wkyw4ARVeLCop0HVqY"
+  },
+  {
+    "row": 192,
+    "values": [
+      "Low",
+      "Superior Lawn Mower Center",
+      "Landscaping",
+      "Fontana",
+      "17968 San Bernardino Ave",
+      "(909) 829-3034",
+      3.8,
+      44,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJEVWdxWhLw4ARceUQQTgUMuE"
+  },
+  {
+    "row": 193,
+    "values": [
+      "Low",
+      "Reliable Auto Care",
+      "Auto Repair",
+      "Claremont",
+      "615 E Arrow Hwy",
+      "(909) 625-1747",
+      3.9,
+      32,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJGX7fAyAuw4AR0gvZbnc0tnU"
+  },
+  {
+    "row": 194,
+    "values": [
+      "Low",
+      "Ben's Auto Care",
+      "Auto Repair",
+      "Rancho Cucamonga",
+      "9795 Foothill Blvd S",
+      "(909) 945-9718",
+      3.8,
+      27,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJe5Z1T382w4ARqqztTb5DSv8"
+  },
+  {
+    "row": 195,
+    "values": [
+      "Low",
+      "Express Smog Repair",
+      "Auto Repair",
+      "Ontario",
+      "105 W California St",
+      "(909) 843-4446",
+      2.9,
+      22,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/search/Express+Smog+Repair+105+W+California+St+Ontario+CA"
+  },
+  {
+    "row": 196,
+    "values": [
+      "Low",
+      "Blanca's Auto Accessories",
+      "Auto Repair",
+      "Fontana",
+      "16309 Merrill Ave",
+      "(909) 574-0225",
+      3.7,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ6UJmaYRMw4ARaQEM6iPSrCk"
+  },
+  {
+    "row": 197,
+    "values": [
+      "Low",
+      "Leo's Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "16666 Historic Rte 66",
+      "(909) 384-2405",
+      3.8,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJZd02Z2RMw4ARj44RiOWAGbY"
+  },
+  {
+    "row": 198,
+    "values": [
+      "Low",
+      "Garcia's Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      "770 W Holt Ave",
+      "(909) 461-0838",
+      3.5,
+      18,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJlZozvN8tw4AR8nPSw63DaB4"
+  },
+  {
+    "row": 199,
+    "values": [
+      "Low",
+      "Ramos Mobile Auto Care",
+      "Auto Repair",
+      "Pomona",
+      "490 E 9th St CA",
+      null,
+      3.4,
+      11,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ_3RX5BUtw4AR9W79sKE2Qbg"
+  },
+  {
+    "row": 200,
+    "values": [
+      "Low",
+      "Golden Hand Handyman",
+      "Handyman",
+      "Fontana",
+      null,
+      "(909) 236-4163",
+      2.8,
+      9,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJQV6B2NLXwoARr8LXHxRhRBI"
+  },
+  {
+    "row": 201,
+    "values": [
+      "Low",
+      "Fontana Mechanics",
+      "Auto Repair",
+      "Fontana",
+      "17494 Foothill Blvd",
+      "(909) 822-9328",
+      3.6,
+      7,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJixX7WVhMw4ARKxXoqqIwnnM"
+  },
+  {
+    "row": 202,
+    "values": [
+      "Low",
+      "Diamond Auto Shop",
+      "Auto Repair",
+      "Pomona",
+      "45 Rio Rancho Rd #4B",
+      "(909) 629-8111",
+      3.5,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJhehQD5otw4AR6Jv08QBDdVY"
+  },
+  {
+    "row": 203,
+    "values": [
+      "Low",
+      "Ruiz Lawn Service",
+      "Landscaping",
+      "Fontana",
+      "15329 Pine Ave",
+      "(909) 586-4840",
+      3.7,
+      6,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJAQAAAHxOw4ARkeLh2hCHIpc"
+  },
+  {
+    "row": 204,
+    "values": [
+      "Low",
+      "City2City Tire Repair San Bernardino",
+      "Auto Repair",
+      "Rancho Cucamonga",
+      "7951 Etiwanda Ave",
+      "(909) 316-0054",
+      1.8,
+      5,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ53M4KKVLw4ARymk422c2wkQ"
+  },
+  {
+    "row": 205,
+    "values": [
+      "Low",
+      "Complete Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      null,
+      "(909) 734-5379",
+      3.2,
+      5,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJyceZQu0tw4ARMX5yvcdJnP0"
+  },
+  {
+    "row": 206,
+    "values": [
+      "Low",
+      "Puentes Gardening Services",
+      "Landscaping",
+      "Pomona",
+      "1682 Burma Ct",
+      "(909) 623-0296",
+      2.6,
+      5,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJMdKTE3cyw4ARn3CM16Mn528"
+  },
+  {
+    "row": 207,
+    "values": [
+      "Low",
+      "NO JOB TOO SMALL HANDYMAN",
+      "Handyman",
+      "Montclair",
+      "10159 Saratoga Ave",
+      "(909) 548-9111",
+      2.2,
+      5,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJD2853lQxw4ARjh5AmUcCz7w"
+  },
+  {
+    "row": 208,
+    "values": [
+      "Low",
+      "E & S Auto Repair",
+      "Auto Repair",
+      "Fontana",
+      "9530 Sierra Ave Ste 9",
+      "(909) 355-3399",
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJS2MGwktNw4ARuQy-mVQD15I"
+  },
+  {
+    "row": 209,
+    "values": [
+      "Low",
+      "Frank Auto Maintenance&Repair",
+      "Auto Repair",
+      "Pomona",
+      "45 Rio Rancho Rd #2a",
+      "(951) 310-2122",
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJz_v3pj4tw4AR-6vdnorDlAI"
+  },
+  {
+    "row": 210,
+    "values": [
+      "Low",
+      "Landscape Maintenance Unlimited",
+      "Landscaping",
+      "Chino",
+      "2145 S Benson Ave",
+      "(909) 988-4731",
+      4,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJp45xDQUzw4ARLazrFknpolQ"
+  },
+  {
+    "row": 211,
+    "values": [
+      "Low",
+      "Greenland Landscape Inc",
+      "Landscaping",
+      "Montclair",
+      "11236 S Benson Ave",
+      "(909) 984-3500",
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJLYYV_64zw4ARY-CeEzyeIIo"
+  },
+  {
+    "row": 212,
+    "values": [
+      "Low",
+      "Perez Landscaping",
+      "Landscaping",
+      "Chino",
+      null,
+      null,
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJF9wPtVFLVW4R9eZ8JVcXGoY"
+  },
+  {
+    "row": 213,
+    "values": [
+      "Low",
+      "Duarte Landscape Services",
+      "Landscaping",
+      "Claremont",
+      "2929 Gayridge St",
+      null,
+      4,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJlfM7OTEuw4ARZeNWlRS6FYY"
+  },
+  {
+    "row": 214,
+    "values": [
+      "Low",
+      "Ramirez Gardening Services",
+      "Landscaping",
+      "Ontario",
+      null,
+      "(909) 223-9529",
+      1.3,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJJ395ikA0w4ARTMC8I3DX1W4"
+  },
+  {
+    "row": 215,
+    "values": [
+      "Low",
+      "BFF RENOVATIONS LLC",
+      "Handyman",
+      "Fontana",
+      null,
+      "(909) 660-0838",
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJJU0RP-WMfYIRnqNO2TyUyzk"
+  },
+  {
+    "row": 216,
+    "values": [
+      "Low",
+      "Duram Body Repair",
+      "Auto Body",
+      "Fontana",
+      "15130 Arrow Route",
+      null,
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ7ZQLBplLw4ARm_WrCd2-_XE"
+  },
+  {
+    "row": 217,
+    "values": [
+      "Low",
+      "Chato's Auto body and Repair",
+      "Auto Body",
+      "Fontana",
+      "16624 Ceres Ave Unit 3",
+      "(909) 252-0433",
+      5,
+      4,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJKUiZVuJNw4ARkRB-vI25Hfc"
+  },
+  {
+    "row": 218,
+    "values": [
+      "Low",
+      "Car care/Mechanic near you",
+      "Auto Repair",
+      "Fontana",
+      "6614 Tokay Ave",
+      "(909) 486-6891",
+      5,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ9atyEAVTw4ARLigSRRbyD30"
+  },
+  {
+    "row": 219,
+    "values": [
+      "Low",
+      "Lucky truck and trailer repair fontana",
+      "Auto Repair",
+      "Fontana",
+      "9935 Live Oak Ave",
+      "(909) 639-4727",
+      4.7,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ7U3ecwBLw4AR1viUqgl21nU"
+  },
+  {
+    "row": 220,
+    "values": [
+      "Low",
+      "Complete Auto Repair",
+      "Auto Repair",
+      "Pomona",
+      null,
+      null,
+      5,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ15BvugUyw4ARcLSol-TxU6s"
+  },
+  {
+    "row": 221,
+    "values": [
+      "Low",
+      "Arellano\u2019s Auto Repair",
+      "Auto Repair",
+      "Montclair",
+      "5512 E Arrow Hwy Ste C",
+      "(909) 541-4975",
+      4,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJzbXyHwAxw4ARwfE6CHvkkJ0"
+  },
+  {
+    "row": 222,
+    "values": [
+      "Low",
+      "Commercial Garden Maintenance Landscaping",
+      "Landscaping",
+      "Fontana",
+      null,
+      "(626) 400-0218",
+      3.7,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ7c8pdwRLw4AROdY6zDrNWIc"
+  },
+  {
+    "row": 223,
+    "values": [
+      "Low",
+      "Spirit Landscaping Inc",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "4924 Lone Acres Ct",
+      "(909) 987-8306",
+      2.3,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJWdPyuMU3w4ARtOOsg1-lS7k"
+  },
+  {
+    "row": 224,
+    "values": [
+      "Low",
+      "HandyMan Solutions",
+      "Handyman",
+      "Fontana",
+      "14768 Shadow Dr",
+      null,
+      5,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJt9aeSgC13IARPmJF07aSgXM"
+  },
+  {
+    "row": 225,
+    "values": [
+      "Low",
+      "Sherman's Services",
+      "Handyman",
+      "Montclair",
+      "1030 N Mountain Ave #162",
+      null,
+      5,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJNTYOqlEzw4ARzVxBcfHitqs"
+  },
+  {
+    "row": 226,
+    "values": [
+      "Low",
+      "HRPainting909z",
+      "Handyman",
+      "Fontana",
+      "15049 Rosemary Dr",
+      "(909) 255-9555",
+      5,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJoYKS8GpLw4AR_bS_fo9Z5HA"
+  },
+  {
+    "row": 227,
+    "values": [
+      "Low",
+      "Resource Builders",
+      "Handyman",
+      "Ontario",
+      null,
+      "(909) 552-2308",
+      2.3,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ6fR6SxxJw4AReRofTlIemfk"
+  },
+  {
+    "row": 228,
+    "values": [
+      "Low",
+      "JMJ Autobody",
+      "Auto Body",
+      "Fontana",
+      "10422 Fremontia Ave",
+      "(909) 441-8360",
+      4.3,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJRdu9p0VLw4ARLFCzBZlxa4s"
+  },
+  {
+    "row": 229,
+    "values": [
+      "Low",
+      "MYM Auto Body Repair",
+      "Auto Body",
+      "Fontana",
+      "15130 Arrow Route",
+      "(626) 672-5802",
+      4.3,
+      3,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJH0aW1DVLw4ARpzVBAr5FyHE"
+  },
+  {
+    "row": 230,
+    "values": [
+      "Low",
+      "G & A Landscaping Services",
+      "Landscaping",
+      "Upland",
+      "1140 E Caroline Ct",
+      "(909) 530-6277",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJb-E_4M01w4ARtlYQMq8jzNg"
+  },
+  {
+    "row": 231,
+    "values": [
+      "Low",
+      "Mauricio garden and tree service",
+      "Landscaping",
+      "Fontana",
+      "8166 Beech Ave",
+      "(909) 331-0490",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJh6BU1Z9Lw4ARlX9c-P2ts70"
+  },
+  {
+    "row": 232,
+    "values": [
+      "Low",
+      "American Mowing Chino Hills",
+      "Landscaping",
+      "Chino",
+      "14071 Peyton Dr #2382",
+      "(909) 536-2669",
+      3,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJu6SbAaYyw4ARCebYhiErEBc"
+  },
+  {
+    "row": 233,
+    "values": [
+      "Low",
+      "Pelayo Landscaping Services LLC",
+      "Landscaping",
+      "Pomona",
+      "550 N San Antonio Ave f",
+      "(909) 372-9191",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJHbgYvERGDIQRqgHnQPTjiAM"
+  },
+  {
+    "row": 234,
+    "values": [
+      "Low",
+      "Ortiz Gardening Service",
+      "Landscaping",
+      "Pomona",
+      "1933 S Reservoir St",
+      "(909) 545-5156",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJk02Hcnkyw4ARd6Ie7weIHuI"
+  },
+  {
+    "row": 235,
+    "values": [
+      "Low",
+      "Yard Service",
+      "Landscaping",
+      "Claremont",
+      "469 Spencer Ct",
+      "(909) 621-7818",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ6w_tIh8uw4ARuynlE-VKiC0"
+  },
+  {
+    "row": 236,
+    "values": [
+      "Low",
+      "Federico\u2019s Gardening And Landscaping",
+      "Landscaping",
+      "Pomona",
+      "538 W 10th St",
+      "(909) 964-4452",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ_1KN_dstw4ARlzrP8BwV-e8"
+  },
+  {
+    "row": 237,
+    "values": [
+      "Low",
+      "Casa Verde Landscape Maintenance Corp",
+      "Landscaping",
+      "Pomona",
+      "1580 W 2nd St",
+      "(909) 483-2494",
+      3.5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ6ZxNiAMzw4ARyIj2Z0OiPVg"
+  },
+  {
+    "row": 238,
+    "values": [
+      "Low",
+      "Dan's Gardening Services",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "8805 Hillside Rd",
+      "(909) 989-1515",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJcakyMxE3w4ARElaVuMmUBjw"
+  },
+  {
+    "row": 239,
+    "values": [
+      "Low",
+      "Home Services & Handyman",
+      "Handyman",
+      "Rancho Cucamonga",
+      "11210 Fourth St",
+      "(909) 332-4766",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJq05hgtw1w4ARATbO9hmRwW4"
+  },
+  {
+    "row": 240,
+    "values": [
+      "Low",
+      "Devine Handyman",
+      "Handyman",
+      "Ontario",
+      "943 W G St",
+      "(909) 917-4730",
+      2,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJJx8DC-ozw4AR7HXLsriSdII"
+  },
+  {
+    "row": 241,
+    "values": [
+      "Low",
+      "Affordable Handy Man",
+      "Handyman",
+      "Rancho Cucamonga",
+      "6682 Austin Ct",
+      null,
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJv8sZERY2w4ARQiBibzpY95I"
+  },
+  {
+    "row": 242,
+    "values": [
+      "Low",
+      "Handyman Pros Ontario CA",
+      "Handyman",
+      "Fontana",
+      null,
+      "(909) 552-7935",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJf1B5hbk0w4ARNKE9Q3oeTAM"
+  },
+  {
+    "row": 243,
+    "values": [
+      "Low",
+      "Larry's Home Repair & Handyman Service",
+      "Handyman",
+      "Rancho Cucamonga",
+      "7746 Beryl St",
+      "(909) 206-5380",
+      2.5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJc6zt2o82w4ARhpJcV0cEdic"
+  },
+  {
+    "row": 244,
+    "values": [
+      "Low",
+      "Semper fi Handyman",
+      "Handyman",
+      "Pomona",
+      "1153 E Columbia Ave",
+      "(323) 203-8027",
+      2.5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJrwCGqeszw4AR6gwOw7-6kuo"
+  },
+  {
+    "row": 245,
+    "values": [
+      "Low",
+      "A Plus Handyman Solutions",
+      "Handyman",
+      "Fontana",
+      null,
+      "(909) 766-6010",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJaR_o4-9Lw4ARiXQRBuaJ-10"
+  },
+  {
+    "row": 246,
+    "values": [
+      "Low",
+      "Dream Handyman",
+      "Handyman",
+      "Fontana",
+      null,
+      "(323) 503-8847",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJBW4rL8TsmgARFMg8-ngmc14"
+  },
+  {
+    "row": 247,
+    "values": [
+      "Low",
+      "J B's Reglaze & Repair",
+      "Handyman",
+      "Fontana",
+      "1229 W Montrose St",
+      "(909) 731-0784",
+      2.5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJbzce7DpNw4ARjZ5zpVOnLa4"
+  },
+  {
+    "row": 248,
+    "values": [
+      "Low",
+      "A & A Handyman",
+      "Handyman",
+      "Fontana",
+      "723 S Teakwood Ave",
+      "(909) 419-0132",
+      1.5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJTylcwT5Nw4ARCUTn9LEL0SE"
+  },
+  {
+    "row": 249,
+    "values": [
+      "Low",
+      "Fixtures and Fans Handyman",
+      "Handyman",
+      "Fontana",
+      null,
+      "(760) 713-7801",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJpWDnV7fVagMRdHmk_04uTW8"
+  },
+  {
+    "row": 250,
+    "values": [
+      "Low",
+      "Angel's One Auto Body",
+      "Auto Body",
+      "Fontana",
+      "16510 Ceres Ave #3",
+      "(909) 332-8101",
+      5,
+      2,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ-dDFS6NNw4ARDmNE14VoOY4"
+  },
+  {
+    "row": 251,
+    "values": [
+      "Low",
+      "Rancho Cucamonga Mobile Auto Repair",
+      "Auto Repair",
+      "Rancho Cucamonga",
+      "11845 8th St",
+      null,
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJd0DjVABLw4ARh6bt9aZZ_OI"
+  },
+  {
+    "row": 252,
+    "values": [
+      "Low",
+      "Complete Auto Repair and Maintenance",
+      "Auto Repair",
+      "Fontana",
+      "San Bernardino Ave",
+      null,
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJf1N78b5Mw4AReil8rQZdVS0"
+  },
+  {
+    "row": 253,
+    "values": [
+      "Low",
+      "Arrazola Automotive and Repair",
+      "Auto Repair",
+      "Montclair",
+      "5512 E Arrow Hwy Ste D",
+      "(909) 236-3437",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJOdP5i1Axw4ARoPaj8DY3Ijo"
+  },
+  {
+    "row": 254,
+    "values": [
+      "Low",
+      "C P Auto Repair",
+      "Auto Repair",
+      "Montclair",
+      "10658 Holt Blvd C",
+      "(909) 625-8511",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJW7plSTkyw4AR7zhNyU1qx48"
+  },
+  {
+    "row": 255,
+    "values": [
+      "Low",
+      "Maldonado\u2019s Auto Center LLC",
+      "Auto Repair",
+      "Montclair",
+      "10642 Ramona Ave",
+      null,
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ33kgUwAzw4ARtR6-BMUwMxw"
+  },
+  {
+    "row": 256,
+    "values": [
+      "Low",
+      "A. Amezcua Landscaping",
+      "Landscaping",
+      "Fontana",
+      null,
+      "(909) 236-2986",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJzUAz-p2JXWARHqMJTknjqsI"
+  },
+  {
+    "row": 257,
+    "values": [
+      "Low",
+      "4EVERGREEN Landscaping",
+      "Landscaping",
+      "Ontario",
+      null,
+      "(626) 515-6649",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJIxIwOr01w4ARWo5mChY88Wg"
+  },
+  {
+    "row": 258,
+    "values": [
+      "Low",
+      "Mirabal Landscaping",
+      "Landscaping",
+      "Chino",
+      "13272 Oaks Ave",
+      "(909) 614-3676",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJMfMteDAzw4ARwIAhwP5g6b4"
+  },
+  {
+    "row": 259,
+    "values": [
+      "Low",
+      "THE LANDSCAPER GUYS",
+      "Landscaping",
+      "Chino",
+      "7000 Merrill Ave",
+      "(909) 247-8125",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJtVW5PnHM3IARhPh4YP2Z0A0"
+  },
+  {
+    "row": 260,
+    "values": [
+      "Low",
+      "martinez landscaping",
+      "Landscaping",
+      "Pomona",
+      "1256 W 2nd St",
+      null,
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJh__tFKYtw4ARNsFjKWl6WdE"
+  },
+  {
+    "row": 261,
+    "values": [
+      "Low",
+      "Merchants Landscape Services, Inc.",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "8748 Industrial Ln",
+      null,
+      4,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJR-xTSi00w4ARCSZh6wWnFAI"
+  },
+  {
+    "row": 262,
+    "values": [
+      "Low",
+      "Aleman Gardening",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "10135 Effen St",
+      "(909) 980-2411",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJpz32cHc2w4ARq5EeONRaF50"
+  },
+  {
+    "row": 263,
+    "values": [
+      "Low",
+      "A-1 Advanced Sprinkler Repair",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "10384 Ironwood St",
+      "(909) 980-3734",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJPZ3MLXg2w4AR2O4DfRAy_mU"
+  },
+  {
+    "row": 264,
+    "values": [
+      "Low",
+      "EZ HANDYMAN",
+      "Handyman",
+      "Chino",
+      "13035 Melon Ave",
+      "(909) 919-3036",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJkbE0Ig7epWARAw_C7VDNMJw"
+  },
+  {
+    "row": 265,
+    "values": [
+      "Low",
+      "California's Handyman",
+      "Handyman",
+      "Montclair",
+      "11250 Ramona Ave",
+      "(909) 545-1531",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJjXUOiUMyw4ARc7q7sznOA9M"
+  },
+  {
+    "row": 266,
+    "values": [
+      "Low",
+      "Jon Jr\u2019s HandyMan & Janitorial services",
+      "Handyman",
+      "Chino",
+      "6006 Notre Dame Ave",
+      "(702) 323-9054",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJG7XrP8_M3IARPABIaJMH_Ao"
+  },
+  {
+    "row": 267,
+    "values": [
+      "Low",
+      "A&E Handyman Services",
+      "Handyman",
+      "Fontana",
+      "8282 Sierra Ave #1811",
+      "(909) 543-0179",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJtYO3vWFMw4AR1lNn4RQL3zY"
+  },
+  {
+    "row": 268,
+    "values": [
+      "Low",
+      "Casablanca West",
+      "Handyman",
+      "Ontario",
+      "1510 E Caroline St",
+      "(909) 946-3371",
+      4,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJR0t-mhc0w4ARjy9dFAnYKx4"
+  },
+  {
+    "row": 269,
+    "values": [
+      "Low",
+      "Ruben's Body Shop",
+      "Auto Body",
+      "Fontana",
+      "14548 Boyle Ave Rear",
+      "(909) 823-6226",
+      5,
+      1,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJQWwtZjxLw4ARxc4FUesBBdk"
+  },
+  {
+    "row": 270,
+    "values": [
+      "Low",
+      "Sixtos Auto Repair- Mobile Mechanic",
+      "Auto Repair",
+      "Rancho Cucamonga",
+      "10850 Church St",
+      "(909) 329-5200",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJzUDnU203w4ARCQzMmxp38WI"
+  },
+  {
+    "row": 271,
+    "values": [
+      "Low",
+      "Ferris Landscaping LLC",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "3281 E Guasti Rd",
+      "(833) 433-7900",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJFz5Pf5knIKwRDiEEZrukR3U"
+  },
+  {
+    "row": 272,
+    "values": [
+      "Low",
+      "S & D Landscaping",
+      "Landscaping",
+      "Fontana",
+      "7811 Johnson Way",
+      "(909) 714-0134",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUwwPgo1Lw4ARsXPE0xxyIAM"
+  },
+  {
+    "row": 273,
+    "values": [
+      "Low",
+      "Carlos Gardening and Landscaping services",
+      "Landscaping",
+      "Ontario",
+      null,
+      null,
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJH__SovZGkqYRo-51ZLzD5OQ"
+  },
+  {
+    "row": 274,
+    "values": [
+      "Low",
+      "Ruiz Gardening",
+      "Landscaping",
+      "Fontana",
+      "17858 Barbee St",
+      "(909) 559-7709",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJwdPtfVZMw4ARIgsavSK4-dw"
+  },
+  {
+    "row": 275,
+    "values": [
+      "Low",
+      "Inland impire landscaping",
+      "Landscaping",
+      "Fontana",
+      null,
+      "(909) 757-3484",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ09QqqM9PHWgRt4NEuIAIeCI"
+  },
+  {
+    "row": 276,
+    "values": [
+      "Low",
+      "Affordable landscaping material",
+      "Landscaping",
+      "Pomona",
+      "11041 Pipeline Ave",
+      "(909) 306-6981",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ0_WFl2oyw4AREmmVeC1BzuA"
+  },
+  {
+    "row": 277,
+    "values": [
+      "Low",
+      "Fajardo's Gardening",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "8429 Spring Desert Pl Unit d",
+      "(909) 260-9475",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJka_PB_01w4ARq3PU-fGy3ZE"
+  },
+  {
+    "row": 278,
+    "values": [
+      "Low",
+      "TTM Cutting",
+      "Landscaping",
+      "Rancho Cucamonga",
+      "8752 Industrial Ln",
+      "(909) 948-1637",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJt9jKstI1w4ARFT17faevR3A"
+  },
+  {
+    "row": 279,
+    "values": [
+      "Low",
+      "Urzuas Handyman",
+      "Handyman",
+      "Ontario",
+      "1512 N Amador Ave",
+      "(909) 935-9404",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJXxobeak1w4AR50j_fInVltA"
+  },
+  {
+    "row": 280,
+    "values": [
+      "Low",
+      "Handyman Lomeli llc",
+      "Handyman",
+      "Ontario",
+      "3187 E Olympic Dr",
+      "(909) 551-9291",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJL-iWgMbL3IARabtvTqZggj0"
+  },
+  {
+    "row": 281,
+    "values": [
+      "Low",
+      "Nova's Handyman Services",
+      "Handyman",
+      "Ontario",
+      "1330 N Lassen Ave",
+      "(951) 415-2392",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJY0pQ-hU0w4ARqTLJJTJsduA"
+  },
+  {
+    "row": 282,
+    "values": [
+      "Low",
+      "Zhang's Remodeling & Home Service",
+      "Handyman",
+      "Ontario",
+      "1539 N Marin Ave",
+      "(626) 927-7715",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ_RQTeY01w4AR8kD-JsQ1RLE"
+  },
+  {
+    "row": 283,
+    "values": [
+      "Low",
+      "Mendes Handyman Services",
+      "Handyman",
+      "Ontario",
+      "922 E Deerfield St",
+      "(909) 930-1213",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJF2lm9aU0w4ARpck3KvEqt9k"
+  },
+  {
+    "row": 284,
+    "values": [
+      "Low",
+      "LeMus Electric & Handyman Inc.",
+      "Handyman",
+      "Ontario",
+      "920 N San Antonio Ave",
+      "(909) 395-6933",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJRXp8xe4zw4AR9UIQPfhr24A"
+  },
+  {
+    "row": 285,
+    "values": [
+      "Low",
+      "A 2 Z Home Repair-Maintenance",
+      "Handyman",
+      "Rancho Cucamonga",
+      "12584 Atwood Ct Apt 121",
+      "(909) 438-3770",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8e-AE_RJw4ARA2Z_wfZHEC4"
+  },
+  {
+    "row": 286,
+    "values": [
+      "Low",
+      "KMS HOMEWORKS",
+      "Handyman",
+      "Ontario",
+      "2337 S Greenwood Pl",
+      "(909) 208-8464",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJgw4c9KI0w4AREzoxzCgZ8qc"
+  },
+  {
+    "row": 287,
+    "values": [
+      "Low",
+      "Fenceman Handyman",
+      "Handyman",
+      "Fontana",
+      null,
+      "(909) 201-2468",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJq6qqqnpLw4AROTArKSzUyOE"
+  },
+  {
+    "row": 288,
+    "values": [
+      "Low",
+      "Home Repair Services",
+      "Handyman",
+      "Rancho Cucamonga",
+      null,
+      "(909) 908-3042",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJh0LHNZU1w4ARDbdSlmsHsWI"
+  },
+  {
+    "row": 289,
+    "values": [
+      "Low",
+      "Meta Remodeling and Home Improvement Inc",
+      "Handyman",
+      "Montclair",
+      "10169 Columbine Ave",
+      "(909) 961-7511",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJWa_tLo8zw4ARMq9Lq3VFdNs"
+  },
+  {
+    "row": 290,
+    "values": [
+      "Low",
+      "Paul white handyman",
+      "Handyman",
+      "Fontana",
+      "8806 Mango Ave",
+      "(909) 991-3424",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJffcrActNw4AROpsOioFc-Uk"
+  },
+  {
+    "row": 291,
+    "values": [
+      "Low",
+      "Meticulous Handyman",
+      "Handyman",
+      "Rancho Cucamonga",
+      "11857 Antler Peak Ct",
+      "(714) 381-9844",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJtxMx7w5Jw4ARa-sNxw0DyK8"
+  },
+  {
+    "row": 292,
+    "values": [
+      "Low",
+      "VAGOZZ",
+      "Handyman",
+      "Fontana",
+      "16583 Windcrest Dr",
+      "(909) 724-0626",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJxwVYVwqz3IARn1vkdypCaFo"
+  },
+  {
+    "row": 293,
+    "values": [
+      "Low",
+      "The Patriot Handyman",
+      "Handyman",
+      "Montclair",
+      null,
+      "(909) 263-6388",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJfcvQNMqmvmER-RkH1HukHqU"
+  },
+  {
+    "row": 294,
+    "values": [
+      "Low",
+      "Daniel\u2019s Auto Body Work",
+      "Auto Body",
+      "Fontana",
+      "14827 Rosemary Dr",
+      "(909) 815-1258",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJfy_guUdLw4AR4N5jseaxCSg"
+  },
+  {
+    "row": 295,
+    "values": [
+      "Low",
+      "Teck Collision Repair Inc.",
+      "Auto Body",
+      "Fontana",
+      "14547 Hawthorne Ave",
+      "(840) 201-0277",
+      null,
+      0,
+      "Open listing",
+      null,
+      null
+    ],
+    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJF7Fgaz9Lw4ARgBB_i6EQ2uc"
+  }
+]

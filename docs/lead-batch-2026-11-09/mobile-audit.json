@@ -1,0 +1,420 @@
+[
+  {
+    "slug": "tepa-tire",
+    "width": 320,
+    "height": 740,
+    "innerWidth": 320,
+    "clientWidth": 320,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 104.8125,
+      "stickyBottom": 81
+    },
+    "footer": {
+      "footerBottom": 739.796875,
+      "viewport": 740,
+      "fixed": null
+    },
+    "errors": []
+  },
+  {
+    "slug": "tepa-tire",
+    "width": 360,
+    "height": 800,
+    "innerWidth": 360,
+    "clientWidth": 360,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 104.96875,
+      "stickyBottom": 81
+    },
+    "footer": {
+      "footerBottom": 799.546875,
+      "viewport": 800,
+      "fixed": null
+    },
+    "errors": []
+  },
+  {
+    "slug": "tepa-tire",
+    "width": 390,
+    "height": 844,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 105.078125,
+      "stickyBottom": 81
+    },
+    "footer": {
+      "footerBottom": 844.28125,
+      "viewport": 844,
+      "fixed": null
+    },
+    "errors": []
+  },
+  {
+    "slug": "tepa-tire",
+    "width": 430,
+    "height": 932,
+    "innerWidth": 430,
+    "clientWidth": 430,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 105.390625,
+      "stickyBottom": 81
+    },
+    "footer": {
+      "footerBottom": 931.90625,
+      "viewport": 932,
+      "fixed": null
+    },
+    "errors": []
+  },
+  {
+    "slug": "tepa-tire",
+    "width": 768,
+    "height": 1024,
+    "innerWidth": 768,
+    "clientWidth": 768,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 104.8125,
+      "stickyBottom": 81
+    },
+    "footer": {
+      "footerBottom": 1024.46875,
+      "viewport": 1024,
+      "fixed": null
+    },
+    "errors": []
+  },
+  {
+    "slug": "tepa-tire",
+    "width": 844,
+    "height": 390,
+    "innerWidth": 844,
+    "clientWidth": 844,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 105.109375,
+      "stickyBottom": 81
+    },
+    "footer": {
+      "footerBottom": 389.53125,
+      "viewport": 390,
+      "fixed": null
+    },
+    "errors": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "width": 320,
+    "height": 740,
+    "innerWidth": 320,
+    "clientWidth": 320,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 103.03125,
+      "stickyBottom": 71
+    },
+    "footer": {
+      "footerBottom": 665.65625,
+      "viewport": 740,
+      "fixed": {
+        "display": "flex",
+        "top": 673,
+        "bottom": 740
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "width": 360,
+    "height": 800,
+    "innerWidth": 360,
+    "clientWidth": 360,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 103.3125,
+      "stickyBottom": 71
+    },
+    "footer": {
+      "footerBottom": 725.65625,
+      "viewport": 800,
+      "fixed": {
+        "display": "flex",
+        "top": 733,
+        "bottom": 800
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "width": 390,
+    "height": 844,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 103.328125,
+      "stickyBottom": 71
+    },
+    "footer": {
+      "footerBottom": 769.703125,
+      "viewport": 844,
+      "fixed": {
+        "display": "flex",
+        "top": 777,
+        "bottom": 844
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "width": 430,
+    "height": 932,
+    "innerWidth": 430,
+    "clientWidth": 430,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 103.171875,
+      "stickyBottom": 71
+    },
+    "footer": {
+      "footerBottom": 858.1875,
+      "viewport": 932,
+      "fixed": {
+        "display": "flex",
+        "top": 865,
+        "bottom": 932
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "width": 768,
+    "height": 1024,
+    "innerWidth": 768,
+    "clientWidth": 768,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 102.765625,
+      "stickyBottom": 79
+    },
+    "footer": {
+      "footerBottom": 1023.640625,
+      "viewport": 1024,
+      "fixed": {
+        "display": "none",
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "width": 844,
+    "height": 390,
+    "innerWidth": 844,
+    "clientWidth": 844,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 103.03125,
+      "stickyBottom": 79
+    },
+    "footer": {
+      "footerBottom": 390.4375,
+      "viewport": 390,
+      "fixed": {
+        "display": "none",
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "width": 320,
+    "height": 740,
+    "innerWidth": 320,
+    "clientWidth": 320,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 24.421875,
+      "stickyBottom": 0
+    },
+    "footer": {
+      "footerBottom": 665.046875,
+      "viewport": 740,
+      "fixed": {
+        "display": "flex",
+        "top": 682.203125,
+        "bottom": 740
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "width": 360,
+    "height": 800,
+    "innerWidth": 360,
+    "clientWidth": 360,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 24.421875,
+      "stickyBottom": 0
+    },
+    "footer": {
+      "footerBottom": 725.375,
+      "viewport": 800,
+      "fixed": {
+        "display": "flex",
+        "top": 742.203125,
+        "bottom": 800
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "width": 390,
+    "height": 844,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 24.484375,
+      "stickyBottom": 0
+    },
+    "footer": {
+      "footerBottom": 769.125,
+      "viewport": 844,
+      "fixed": {
+        "display": "flex",
+        "top": 786.203125,
+        "bottom": 844
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "width": 430,
+    "height": 932,
+    "innerWidth": 430,
+    "clientWidth": 430,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": {
+      "closed": true,
+      "anchorTop": 23.6875,
+      "stickyBottom": 0
+    },
+    "footer": {
+      "footerBottom": 857.328125,
+      "viewport": 932,
+      "fixed": {
+        "display": "flex",
+        "top": 874.203125,
+        "bottom": 932
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "width": 768,
+    "height": 1024,
+    "innerWidth": 768,
+    "clientWidth": 768,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": null,
+    "footer": {
+      "footerBottom": 1023.78125,
+      "viewport": 1024,
+      "fixed": {
+        "display": "none",
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    "errors": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "width": 844,
+    "height": 390,
+    "innerWidth": 844,
+    "clientWidth": 844,
+    "overflow": 0,
+    "clipped": [],
+    "images": [],
+    "menu": null,
+    "footer": {
+      "footerBottom": 390.421875,
+      "viewport": 390,
+      "fixed": {
+        "display": "none",
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    "errors": []
+  }
+]

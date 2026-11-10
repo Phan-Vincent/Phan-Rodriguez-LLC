@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "tepa-tire",
+    "keyboardSkip": "Skip to content",
+    "menuOpened": true,
+    "menuClosedAfterNavigation": true,
+    "target": "#shop",
+    "clippedHeadings": []
+  },
+  {
+    "slug": "muffler-doctor",
+    "keyboardSkip": "Skip to content",
+    "menuOpened": true,
+    "menuClosedAfterNavigation": true,
+    "target": "#system",
+    "clippedHeadings": []
+  },
+  {
+    "slug": "alejandros-tree-service",
+    "keyboardSkip": "Skip to content",
+    "menuOpened": true,
+    "menuClosedAfterNavigation": true,
+    "target": "#services",
+    "clippedHeadings": []
+  }
+]

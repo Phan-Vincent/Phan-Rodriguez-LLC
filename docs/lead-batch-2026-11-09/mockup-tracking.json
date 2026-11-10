@@ -1,0 +1,2362 @@
+[
+  [
+    "Mockup exists",
+    "Mockup location",
+    "Build order",
+    "Build effort",
+    "Research notes",
+    "Last checked"
+  ],
+  [
+    "Yes",
+    "mockups/el-rey/index.html",
+    null,
+    "Already built",
+    "Existing concept; El Rey has two versions.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/lockworx/index.html",
+    null,
+    "Already built",
+    "Existing concept in repository.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/don-cortez-tires/index.html",
+    null,
+    "Already built",
+    "Existing concept in repository.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/tri-auto/index.html",
+    null,
+    "Already built",
+    "Existing concept in repository.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/ac-tires/index.html",
+    null,
+    "Already built",
+    "Existing concept in repository.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/morenos-auto-repair/index.html",
+    null,
+    "Already built",
+    "Existing concept in repository.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/tepa-tire/index.html",
+    2,
+    "Low",
+    "Maps daily 8\u20136. Dealer phone differs. Yelp blocked. Local only.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/alejandros-tree-service/index.html",
+    3,
+    "Low\u2013medium",
+    "Maps: Rialto (sheet: Fontana). Hours/Yelp match unconfirmed. Local only.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    9,
+    "Low\u2013medium (provisional)",
+    "Good review base; verify specialty and brand spelling. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "Yes",
+    "mockups/muffler-doctor/index.html",
+    1,
+    "Low",
+    "Maps weekdays 8\u20135. Yelp snippets match contact. Local only.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    5,
+    "Low\u2013medium (provisional)",
+    "Simple tire-shop conversion; verify listing and photographs. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    8,
+    "Low\u2013medium (provisional)",
+    "Strong review base; more general service discovery. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    6,
+    "Low\u2013medium (provisional)",
+    "Narrow category; verify exact branding and hours. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    7,
+    "Low\u2013medium (provisional)",
+    "Good review base; broader service copy needs confirmation. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    4,
+    "Low\u2013medium (provisional)",
+    "Bounded service specialty; verify services/hours. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    10,
+    "Low\u2013medium (provisional)",
+    "Clear specialty; verify seasonal service scope. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    11,
+    "Low\u2013medium (provisional)",
+    "Narrow service category; verify menu and pricing omissions. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    12,
+    "Low\u2013medium (provisional)",
+    "Clear specialty; needs plain-language service clarification. Listing pending.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ],
+  [
+    "No",
+    "",
+    null,
+    "Not assessed",
+    "No local mockup; business listing not rechecked.",
+    "2026-11-09"
+  ]
+]
