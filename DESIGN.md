@@ -121,3 +121,17 @@ Andrew asked for the sites to mirror Facebook's UI look and for logos and design
 - **Muted brand colors:** red `#B3261E` on all three (was `#d7261e`, `#d62b1f`, `#c81f25`); Tri Auto stripes `#C8642A` and `#D9A53A`; A C Tires blue `#1E3A8A` and gold `#E9B949`; Moreno's gold `#E9B949`, blue `#1E4A9C`, panel red `#8C1D18`. Logos use the same muted values.
 - **Contrast (WCAG ratio, 4.5 needed for normal text):** red on canvas 5.8, red on white 6.5, gray text on canvas 5.1, gray label on chip 4.5, white on A C blue 10.4, dark on gold 10.3, gold '09 on red panel 5.0, white on red 6.5, Moreno's blue on white banner 8.0. Tri Auto's orange logo stripe is 3.9 on white; it is decoration, not text.
 - Checked with Playwright at 1440px and 390px: no overflow, no console errors, Tri Auto carousel still works. Photos were placeholders in that check.
+
+## Three different layouts, new hero photos (2026-11-10)
+
+Andrew asked that the sites stop sharing one layout, stay professional and clean, not too vibrant, with good contrast. He also sent `ai-image-handoff.zip`.
+
+- **Rebuilt from scratch** with `tools/auto-shop-generator/build_v2.py`. The stacked override layers from earlier today are gone.
+- **Tri Auto:** split hero (text left, photo right), three make tiles, zigzag photo rows, rotating reviews, one visit card.
+- **A C Tires:** navy header, wide photo banner, an info bar overlapping it (open late, phone, address), service list beside a sticky heading, navy stats band, hours as a seven-day strip.
+- **Moreno's:** profile-style page. Cover photo, a sticky shop card on the left (ratings, call, directions, address, hours) and content cards on the right (headline with banner-colored service chips, services with thumbnails, the '09 family card, reviews list). No top nav.
+- **Shared on purpose:** system font, 8px cards, 6px buttons, muted palette, footer note, noindex, today highlighted in hours.
+- **Palette:** red `#B3261E` (Moreno's `#A32420`), A C navy `#16295E`, gold `#E9B949`, neutrals near `#F0F2F5` with `#050505` text and gray secondary text around 5:1.
+- **Image pack:** the zip held no image files, only four links and notes. Three were viewed in the browser and are now the hero photos: wrench close-up (Unsplash, Bengkel Mobil Matic Bandung) for Tri Auto, tire mounting (Mustafa Sheikhmouss) for A C Tires, clean workshop (Dextar Studio) for Moreno's. The Pexels brake photo was not used because brake work is not confirmed for Tri Auto.
+- **Removed:** marquees, the A C Tires spinning tire and yellow badge, Moreno's bay banners over the photo, Manrope font files.
+- **Checked:** Playwright at 1440px and 390px, no overflow, no console errors, Tri Auto carousel scrolls, holds and resumes. Photos were placeholders in that check.
