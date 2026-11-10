@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Performance Lube &amp; Oil — Chino oil change with a free car wash (concept)</title>
+<meta name="description" content="Concept website for Performance Lube &amp; Oil, 5288 Riverside Dr, Chino, CA. Oil changes, transmission fluid, coolant flushes, tune-ups, brakes and belts, with a free complete car wash with every service. Open every day, 8 AM to 5 PM. Call (909) 364-1197.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --amber:#e8a200;
+  --blue:#1596bd;
+  --petrol:#0d2730;
+  --foam:#f7fbfc;
+  --tile:#1d5aa6;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --frame:1240px;
+  --gutter:clamp(18px,4vw,56px);
+  --h1:clamp(40px,5.6vw,68px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--foam);color:var(--petrol);font-family:var(--body);font-size:clamp(17px,.5vw + 14px,19px);line-height:1.55}
+h1,h2,h3,p,ul,figure,table{margin:0}
+ul{padding:0;list-style:none}
+a{color:inherit}
+address{font-style:normal}
+:focus-visible{outline:3px solid var(--petrol);outline-offset:3px}
+.frame{max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
+.skip{position:fixed;left:12px;top:-120px;z-index:30;background:var(--petrol);color:#fff;padding:12px 18px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+
+h2{font-family:var(--display);font-weight:800;font-size:clamp(32px,4.6vw,60px);line-height:.98;letter-spacing:-.02em}
+h3{font-family:var(--display);font-weight:800;font-size:clamp(19px,1.6vw,23px);line-height:1.1;letter-spacing:-.01em}
+.measure{max-width:60ch}
+
+/* ---------- hero: two fields, hard slanted edge ---------- */
+.hero{position:relative;overflow:hidden;background:var(--amber);min-height:80vh;display:flex;flex-direction:column}
+.field{position:absolute;inset:0;background:var(--blue);clip-path:polygon(58% 0,100% 0,100% 100%,46% 100%);z-index:0}
+.hero-inner{position:relative;z-index:1;flex:1;display:grid;grid-template-columns:minmax(0,55fr) minmax(0,45fr);grid-template-areas:"top top" "l1 l2" "a b";align-content:start;row-gap:clamp(24px,5.6vh,58px);padding-block:clamp(20px,4vh,44px) clamp(40px,9vh,104px)}
+.hero-top{grid-area:top;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 24px}
+.brand{font-family:var(--display);font-weight:800;font-size:clamp(17px,1.5vw,21px);letter-spacing:-.01em}
+.hero-call{font-weight:600;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;text-underline-offset:5px;white-space:nowrap}
+.hero-call:hover{text-decoration:underline}
+h1{display:contents;font-family:var(--display);font-weight:800;font-size:var(--h1);line-height:.92;letter-spacing:-.025em}
+h1 span{min-width:0;white-space:nowrap}
+.line-a{grid-area:l1;padding-right:clamp(10px,2vw,30px)}
+.line-b{grid-area:l2;padding-left:clamp(20px,4vw,56px)}
+.hero-a{grid-area:a;padding-right:clamp(10px,2vw,30px);max-width:36ch}
+.hero-b{grid-area:b;padding-left:clamp(20px,4vw,56px);max-width:34ch}
+.hero-copy{font-size:clamp(17px,1.3vw,19px)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:clamp(16px,2vw,22px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 22px;font-family:var(--body);font-size:16px;font-weight:600;line-height:1.2;text-decoration:none;border:2px solid var(--petrol);border-radius:0}
+.btn-solid{background:var(--petrol);color:#fff}
+.btn-solid:hover,.btn-solid:focus-visible{background:var(--amber);color:var(--petrol)}
+.btn-outline{background:transparent;color:var(--petrol)}
+.btn-outline:hover,.btn-outline:focus-visible{background:var(--petrol);color:#fff}
+.btn-solid:focus-visible,.foot :focus-visible,.bar a.bar-solid:focus-visible{outline-color:#fff}
+
+@media (prefers-reduced-motion:no-preference){
+  .field{animation:wash-in .7s cubic-bezier(.33,0,.2,1) both}
+  @keyframes wash-in{from{transform:translateX(100%)}to{transform:translateX(0)}}
+}
+
+/* ---------- the tile stripe ---------- */
+.stripe{height:10px;background:repeating-linear-gradient(90deg,var(--tile) 0 10px,var(--foam) 10px 17px)}
+
+/* ---------- one stop, two jobs ---------- */
+.work,.find,.hours,.ratings{padding-block:clamp(46px,6.5vw,92px)}
+.two{display:grid;gap:clamp(28px,4vw,56px);margin-top:clamp(26px,4vw,48px)}
+.two h3{padding-bottom:12px;border-bottom:2px solid var(--petrol)}
+.under li{font-family:var(--display);font-weight:800;font-size:clamp(26px,3.4vw,44px);line-height:1;letter-spacing:-.02em;padding-block:clamp(10px,1.4vw,16px);border-bottom:2px solid rgba(13,39,48,.16)}
+.outside li{font-family:var(--display);font-weight:800;font-size:clamp(19px,1.9vw,25px);line-height:1.15;letter-spacing:-.01em;padding-block:11px;border-bottom:2px solid rgba(13,39,48,.16)}
+.under li:last-child,.outside li:last-child{border-bottom:0}
+.note{margin-top:clamp(26px,3.4vw,44px);max-width:46ch}
+@media (min-width:860px){
+  .two{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);column-gap:clamp(40px,6vw,96px)}
+  .outside{margin-top:64px}
+}
+
+/* ---------- find us ---------- */
+.find h2{max-width:20ch}
+.find-grid{display:grid;gap:clamp(30px,4vw,56px);margin-top:clamp(26px,4vw,44px)}
+.sketch{margin:0}
+.sketch svg{display:block;width:100%;height:auto;max-width:640px}
+.sketch figcaption{margin-top:12px;font-size:15px}
+.sk-road{fill:var(--amber);stroke:var(--petrol);stroke-width:2}
+.sk-gas{fill:var(--blue);stroke:var(--petrol);stroke-width:2}
+.sk-shop{fill:var(--foam);stroke:var(--petrol);stroke-width:2}
+.sk-tile{fill:var(--tile)}
+.sk-pin{fill:var(--amber);stroke:var(--petrol);stroke-width:2}
+.sk-line{fill:none;stroke:var(--petrol);stroke-width:2}
+.sk-dash{fill:none;stroke:var(--petrol);stroke-width:2;stroke-dasharray:26 20}
+.sk-label{font-family:var(--body);font-size:18px;font-weight:600;fill:var(--petrol)}
+.sk-small{font-size:14px;font-weight:400}
+.find-info{display:flex;flex-direction:column;align-items:flex-start}
+.find-info address{font-family:var(--display);font-weight:800;font-size:clamp(22px,2.2vw,30px);line-height:1.2;letter-spacing:-.01em}
+.cards{margin-top:10px}
+.find-info .actions{margin-top:clamp(20px,2.4vw,28px)}
+@media (min-width:900px){
+  .find-grid{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);column-gap:clamp(40px,6vw,88px);align-items:start}
+  .find-info{padding-top:clamp(6px,4vw,56px)}
+}
+
+/* ---------- hours ---------- */
+.hours-grid{display:grid;gap:clamp(26px,4vw,44px)}
+.hours-intro{max-width:22ch}
+.hours-intro p{margin-top:14px;max-width:32ch}
+table{width:100%;border-collapse:collapse}
+caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+th,td{text-align:left;padding:13px 10px;border-top:2px solid rgba(13,39,48,.16);font-weight:400}
+th{font-weight:600}
+td{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:2px solid rgba(13,39,48,.16)}
+tr.today th,tr.today td{background:var(--amber);color:var(--petrol)}
+tr.today th{font-weight:600}
+tr.today th::after{content:" (today)";font-weight:400}
+@media (min-width:860px){
+  .hours-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);column-gap:clamp(40px,7vw,110px);align-items:start}
+}
+
+/* ---------- ratings ---------- */
+.ratings{padding-block:clamp(34px,4vw,56px) clamp(46px,6vw,88px)}
+.ratings p{max-width:60ch}
+.ratings a{color:var(--tile);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+
+/* ---------- footer ---------- */
+.foot{background:var(--petrol);color:#fff;padding-block:clamp(30px,4vw,46px)}
+.foot p{font-size:15px;max-width:62ch}
+
+/* ---------- mobile ---------- */
+@media (max-width:799.98px){
+  .hero{min-height:0}
+  .hero-inner{grid-template-columns:minmax(0,1fr);grid-template-areas:"top" "l1" "a" "l2" "b";row-gap:18px;padding-block:20px clamp(110px,28vw,150px)}
+  .field{clip-path:polygon(0 56%,100% 46%,100% 100%,0 100%)}
+  .line-a,.line-b{white-space:nowrap;padding:0}
+  .line-b{margin-top:clamp(34px,9vw,52px)}
+  .hero-a{max-width:none;padding-right:0}
+  .hero-b{padding-left:0;max-width:none;margin-top:4px}
+}
+.bar{display:none}
+@media (max-width:719.98px){
+  body{padding-bottom:78px}
+  .bar{position:fixed;inset:auto 0 0 0;z-index:20;display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--petrol);background:var(--petrol)}
+  .bar a{display:grid;place-items:center;min-height:56px;font-weight:600;text-decoration:none;color:#fff}
+  .bar a.bar-solid{background:var(--amber);color:var(--petrol)}
+  .find-info .actions .btn{width:100%}
+}
+/* supervisor pass: poster-scale staggered headline on desktop */
+@media (min-width:800px){
+  :root{--h1:clamp(56px,7.4vw,112px)}
+  .hero-inner{grid-template-areas:"top top" "l1 l1" "a l2" "a b";row-gap:clamp(20px,4vh,40px);align-items:start}
+  .line-b{white-space:normal;padding-left:clamp(40px,7vw,104px);margin-top:clamp(24px,8vh,96px)}
+  .hero-b{padding-left:clamp(40px,7vw,104px)}
+  .hero-a{margin-top:clamp(8px,2vh,24px)}
+  .hero .btn{font-size:18px;min-height:56px;padding-inline:26px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <div class="field" aria-hidden="true"></div>
+  <div class="frame hero-inner">
+    <div class="hero-top">
+      <p class="brand">Performance Lube &amp; Oil</p>
+      <a class="hero-call" href="tel:+19093641197">(909) 364-1197</a>
+    </div>
+    <h1><span class="line-a">Oil change.</span> <span class="line-b">Free car wash.</span></h1>
+    <div class="hero-a">
+      <p class="hero-copy">Open every day, 8 AM to 5 PM.</p>
+      <div class="actions">
+        <a class="btn btn-solid" href="tel:+19093641197">Call (909) 364-1197</a>
+        <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=Performance+Lube+%26+Oil+5288+Riverside+Dr+Chino+CA+91710">Get directions</a>
+      </div>
+    </div>
+    <div class="hero-b">
+      <p class="hero-copy">A free complete car wash with every service, in the shop's own words on Yelp. Ask about rainy days.</p>
+    </div>
+  </div>
+</header>
+
+<div class="stripe" aria-hidden="true"></div>
+
+<main id="main" tabindex="-1">
+  <section class="work" id="work" aria-labelledby="work-h">
+    <div class="frame">
+      <h2 id="work-h">One stop, two jobs.</h2>
+      <div class="two">
+        <div class="under">
+          <h3>Under the hood</h3>
+          <ul>
+            <li>Oil changes</li>
+            <li>Transmission fluid</li>
+            <li>Coolant flushes</li>
+            <li>Tune-ups</li>
+            <li>Brakes</li>
+            <li>Belts</li>
+          </ul>
+        </div>
+        <div class="outside">
+          <h3>Outside</h3>
+          <ul>
+            <li>Car wash</li>
+            <li>Hand wash</li>
+            <li>Detailing</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note measure">Not sure what it's due for? Bring the owner's manual or call with the mileage.</p>
+    </div>
+  </section>
+
+  <section class="find" id="find" aria-labelledby="find-h">
+    <div class="frame">
+      <h2 id="find-h">Find us: behind the Chevron.</h2>
+      <div class="find-grid">
+        <figure class="sketch">
+          <svg viewBox="0 0 640 400" role="img" aria-labelledby="sketch-title sketch-desc">
+            <title id="sketch-title">Sketch of the site: the shop sits behind the Chevron station on Riverside Drive.</title>
+            <desc id="sketch-desc">Riverside Drive runs along the bottom. The Chevron station stands in front of the road, and a driveway runs up its right side to the Performance Lube &amp; Oil building at the back, marked with a pin.</desc>
+            <rect class="sk-road" x="0" y="306" width="640" height="94"></rect>
+            <line class="sk-dash" x1="0" y1="356" x2="640" y2="356"></line>
+            <text class="sk-label" x="22" y="340">Riverside Dr</text>
+
+            <rect class="sk-gas" x="140" y="196" width="200" height="110"></rect>
+            <text class="sk-label" x="240" y="256" text-anchor="middle">Chevron</text>
+
+            <rect class="sk-shop" x="300" y="56" width="270" height="108"></rect>
+            <rect class="sk-tile" x="301" y="57" width="268" height="9"></rect>
+            <text class="sk-label" x="435" y="112" text-anchor="middle" font-size="17">Performance Lube &amp; Oil</text>
+            <rect class="sk-line" x="316" y="130" width="92" height="34" fill="#f7fbfc"></rect>
+            <line class="sk-line" x1="362" y1="130" x2="362" y2="164"></line>
+
+            <path class="sk-line" d="M505 306 L505 196 L435 196 L435 164"></path>
+            <path class="sk-line" d="M533 306 L533 212 L463 212 L463 164"></path>
+            <text class="sk-label sk-small" x="548" y="252">Driveway</text>
+
+            <path class="sk-pin" d="M435 56 C424 39 416 31 416 23 A19 19 0 1 1 454 23 C454 31 446 39 435 56 Z"></path>
+            <circle cx="435" cy="23" r="6" fill="#0d2730"></circle>
+          </svg>
+          <figcaption>Sketch, not to scale.</figcaption>
+        </figure>
+        <div class="find-info">
+          <address>5288 Riverside Dr<br>Chino, CA 91710</address>
+          <p class="cards">Cards accepted.</p>
+          <div class="actions">
+            <a class="btn btn-solid" href="tel:+19093641197">Call (909) 364-1197</a>
+            <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=Performance+Lube+%26+Oil+5288+Riverside+Dr+Chino+CA+91710">Get directions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hours" id="hours" aria-labelledby="hours-h">
+    <div class="frame hours-grid">
+      <div class="hours-intro">
+        <h2 id="hours-h">Hours</h2>
+        <p>Same hours seven days a week.</p>
+      </div>
+      <table>
+        <caption>Performance Lube &amp; Oil hours, Monday to Sunday</caption>
+        <tbody>
+          <tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 5:00 PM</td></tr>
+          <tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 5:00 PM</td></tr>
+          <tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 5:00 PM</td></tr>
+          <tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 5:00 PM</td></tr>
+          <tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 5:00 PM</td></tr>
+          <tr data-day="6"><th scope="row">Saturday</th><td>8:00 AM – 5:00 PM</td></tr>
+          <tr data-day="0"><th scope="row">Sunday</th><td>8:00 AM – 5:00 PM</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="ratings" aria-label="Ratings">
+    <div class="frame">
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Performance+Lube+%26+Oil+5288+Riverside+Dr+Chino+CA">4.3 on Google from 87 reviews</a>, <a href="https://www.yelp.com/biz/performance-lube-and-oil-chino-2">4.2 on Yelp from 129</a>. Checked November 10, 2026.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="frame">
+    <p>Concept website by Phan Rodriguez LLC. Not the official Performance Lube &amp; Oil site. Details from public listings, checked November 10, 2026.</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Quick actions">
+  <a class="bar-solid" href="tel:+19093641197">Call</a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Performance+Lube+%26+Oil+5288+Riverside+Dr+Chino+CA+91710">Directions</a>
+</nav>
+
+<script>
+(function(){
+  try{
+    var parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short'}).formatToParts(new Date());
+    var name=parts.filter(function(p){return p.type==='weekday';})[0].value;
+    var day=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(name);
+    var row=document.querySelector('tr[data-day="'+day+'"]');
+    if(row) row.classList.add('today');
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

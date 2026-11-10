@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>King Tire Shop — Montclair tire repair, open till 9 PM (concept)</title>
+<meta name="description" content="Concept website for King Tire Shop, 8939 Rose Ave, Montclair. Flat tire repair, new and used tires, mounting and balancing, alignment, brakes and oil changes. Monday to Saturday, 9 AM to 9 PM. Call (909) 952-9219.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --dusk:#1c2444; --red:#d3202a; --stucco:#e3d0b0; --yellow:#ffd400;
+  --ink:#17171a; --paper:#fbf8f1; --mist:#dfe4f2; --line:#d8ccb5;
+  --display:"Anton","Arial Narrow",Impact,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --frame:1240px; --gutter:clamp(18px,4vw,56px); --wall:clamp(88px,12vh,148px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:clamp(17px,.35vw + 15.4px,19px);line-height:1.55;overflow-wrap:break-word}
+h1,h2,p,ul,table,address{margin:0}
+ul{padding:0;list-style:none}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+::selection{background:var(--yellow);color:var(--ink)}
+.skip{position:absolute;left:12px;top:-64px;z-index:60;background:var(--yellow);color:var(--ink);padding:12px 16px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+.frame{width:100%;max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(34px,5vw,68px);line-height:.96;letter-spacing:-.008em}
+
+/* ---------- hero: the shop at dusk ---------- */
+.hero{position:relative;display:flex;flex-direction:column;min-height:clamp(620px,86vh,940px);background:var(--dusk);color:#fff;overflow:hidden}
+.hero-wall{position:absolute;left:0;right:0;bottom:0;height:var(--wall);background:var(--stucco);z-index:0}
+.masthead{position:relative;z-index:2;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 24px;padding-block:clamp(20px,2.6vw,34px);font-size:15px;font-weight:600}
+.masthead .brand{color:var(--mist);letter-spacing:.01em}
+.masthead .tel{font-size:clamp(16px,1.3vw,19px);text-decoration:none;padding-bottom:3px;border-bottom:2px solid var(--red)}
+.masthead .tel:hover{border-color:var(--yellow)}
+.masthead .tel:focus-visible{outline-offset:4px}
+
+.stage{position:relative;z-index:2;margin-top:auto;display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(20px,3vw,36px);align-items:end}
+.name{
+  margin:0 0 clamp(14px,1.8vw,24px);
+  font-family:var(--display);font-weight:400;
+  font-size:clamp(56px,13vw,190px);line-height:.9;letter-spacing:-.005em;text-transform:uppercase;
+  color:var(--red);
+  -webkit-text-stroke:.03em #fff; paint-order:stroke fill;
+}
+.name .w{display:inline-block;white-space:nowrap}
+
+.pitch{position:relative;display:flex;flex-direction:column;gap:clamp(14px,1.8vw,22px);padding-bottom:calc(var(--wall) + clamp(18px,2.2vw,34px))}
+.tagline{max-width:22ch;font-size:clamp(21px,2.3vw,30px);font-weight:600;line-height:1.22;letter-spacing:-.006em}
+.sub{max-width:44ch;color:var(--mist);font-size:clamp(16px,.5vw + 14.5px,18px);line-height:1.5}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 clamp(20px,2.2vw,28px);font-size:18px;font-weight:600;line-height:1.2;text-align:center;text-decoration:none;border:2px solid transparent;border-radius:2px}
+.btn-call{background:var(--red);color:#fff;font-size:20px}
+.btn-call:hover{background:#fff;color:var(--red)}
+.btn-dir{border-color:currentColor;color:#fff}
+.btn-dir:hover{background:#fff;color:var(--dusk)}
+
+/* sandwich board, drawn in CSS */
+.board{position:absolute;right:var(--gutter);bottom:clamp(6px,1vw,12px);height:clamp(86px,11vh,132px);aspect-ratio:1.16;z-index:3;pointer-events:none}
+.board .leg{position:absolute;bottom:0;width:11%;height:58%;background:var(--yellow);border:2px solid var(--ink);transform-origin:50% 100%}
+.board .leg-a{left:13%;transform:rotate(5deg)}
+.board .leg-b{right:13%;transform:rotate(-5deg)}
+.board .panel{position:absolute;left:0;right:0;top:0;height:66%;display:grid;place-items:center;padding:6px;background:var(--yellow);border:2px solid var(--ink);transform:rotate(-1.6deg)}
+.board .panel span{font-size:clamp(11px,1.1vw,14px);font-weight:600;line-height:1.15;text-align:center;color:var(--ink)}
+
+/* ---------- the day bar, on the wall ---------- */
+.late{background:var(--stucco);padding-block:clamp(38px,5vw,66px) clamp(46px,6vw,84px)}
+.late h2{max-width:18ch}
+.late .note{max-width:36ch;margin-top:clamp(20px,2.8vw,32px);font-weight:600;font-size:clamp(16px,.55vw,18px);line-height:1.45}
+.day{margin-top:clamp(36px,4.4vw,56px)}
+.day-track{position:relative;margin-top:clamp(46px,5.6vw,64px);height:clamp(28px,3.6vw,44px);border:2px solid var(--ink);background:rgba(23,23,26,.07)}
+.day-fill{position:absolute;inset:0;background:var(--yellow);transform:scaleX(1);transform-origin:left center}
+.day-mark{position:absolute;left:75%;top:calc(-1 * clamp(14px,2vw,20px));bottom:calc(-1 * clamp(14px,2vw,20px));width:2px;margin-left:-1px;background:var(--ink)}
+.day-mark-text{position:absolute;right:0;bottom:calc(100% + 10px);width:min(66vw,268px);text-align:right;font-size:clamp(13px,1.15vw,15px);font-weight:600;line-height:1.3}
+.day-ends{display:flex;justify-content:space-between;gap:12px;margin-top:9px;font-size:clamp(14px,1.2vw,16px);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* ---------- services and hours ---------- */
+.paperblock{background:var(--paper);padding-block:clamp(52px,7vw,100px)}
+.split{display:grid;gap:clamp(40px,6vw,72px);align-items:start}
+.worklists{display:grid;gap:clamp(18px,3vw,28px);margin-top:clamp(26px,3.6vw,44px)}
+.worklist{display:grid;align-content:start}
+.worklist li{padding-block:clamp(9px,1.1vw,14px);border-top:1px solid var(--line);font-family:var(--display);font-weight:400;font-size:clamp(28px,3.3vw,46px);line-height:1.06;letter-spacing:-.004em}
+.worklist.small li{font-family:var(--body);font-weight:600;font-size:clamp(17px,1.35vw,21px);line-height:1.35;padding-block:clamp(13px,1.6vw,19px)}
+
+.hours h2{font-size:clamp(30px,3.6vw,46px)}
+table{width:100%;border-collapse:collapse;margin-top:clamp(18px,2.2vw,28px);font-size:clamp(16px,.5vw,18px);border-top:3px solid var(--ink)}
+caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+th,td{text-align:left;padding:clamp(9px,1vw,13px) 6px;border-top:1px solid var(--line);font-weight:400}
+tbody tr:first-child th,tbody tr:first-child td{border-top:none}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:1px solid var(--line)}
+td{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+tr.today th,tr.today td{background:var(--yellow);color:var(--ink);font-weight:600}
+tr.today th::after{content:" (today)";font-weight:400}
+
+/* ---------- find us ---------- */
+.find{background:var(--stucco);padding-block:clamp(52px,7vw,96px)}
+.find .grid{display:grid;gap:clamp(30px,4vw,48px);align-items:end}
+.addr{font-style:normal;font-family:var(--display);font-weight:400;font-size:clamp(30px,4.2vw,58px);line-height:1.02;margin-top:clamp(14px,2vw,24px);letter-spacing:-.005em}
+.cards{font-weight:600;margin-top:14px}
+.find .actions{margin-top:clamp(18px,2.2vw,26px)}
+.ratings{max-width:44ch;font-size:clamp(15px,.4vw,17px);line-height:1.5;padding-top:14px;border-top:2px solid rgba(23,23,26,.35)}
+.ratings a{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.ratings a:hover{background:var(--yellow)}
+
+/* light grounds get ink focus rings */
+.late :focus-visible,.paperblock :focus-visible,.find :focus-visible{outline-color:var(--ink)}
+.late .btn-call:hover,.find .btn-call:hover{background:var(--dusk);color:#fff}
+.late .btn-dir,.find .btn-dir{color:var(--ink);border-color:var(--ink)}
+.late .btn-dir:hover,.find .btn-dir:hover{background:var(--ink);color:var(--stucco)}
+
+/* ---------- footer ---------- */
+footer{background:var(--dusk);color:var(--mist);padding-block:clamp(34px,4vw,54px);font-size:15px;line-height:1.55}
+footer .frame{display:grid;gap:10px}
+footer p{max-width:64em}
+footer .tel-line{color:#fff;font-weight:600}
+footer a{color:#fff;text-decoration-color:var(--mist);text-decoration-thickness:1px;text-underline-offset:3px}
+footer a:hover{color:#fff;text-decoration-color:var(--yellow)}
+
+/* ---------- fixed bar on phones ---------- */
+.bar{display:none}
+
+@media (min-width:900px){
+  .stage{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(28px,4vw,64px)}
+  .split{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(36px,6vw,96px)}
+  .hours{margin-top:clamp(38px,6vw,88px)}
+  .find .grid{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(28px,4vw,64px)}
+  .worklists{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(28px,5vw,80px)}
+  .worklists .small{margin-top:clamp(36px,5vw,84px)}
+}
+@media (max-width:899px){
+  .hours{order:-1}
+}
+@media (max-width:819px){
+  .pitch{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"tag board" "sub sub" "act act";gap:16px 18px;align-items:start}
+  .tagline{grid-area:tag}
+  .sub{grid-area:sub}
+  .actions{grid-area:act}
+  .board{grid-area:board;position:relative;justify-self:end;width:92px;height:112px}
+}
+@media (max-width:779px){
+  .name .w{display:block}
+}
+@media (max-width:559px){
+  .actions{display:grid}
+  .actions .btn{width:100%}
+}
+@media (max-width:719px){
+  body{padding-bottom:78px}
+  .bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;inset:auto 0 0 0;z-index:30;background:var(--dusk);border-top:2px solid var(--dusk)}
+  .bar a{display:grid;place-items:center;min-height:56px;padding:8px;font-size:17px;font-weight:600;color:#fff;text-decoration:none}
+  .bar .call{background:var(--red)}
+  .bar .dir{border-left:2px solid rgba(255,255,255,.3)}
+}
+@media (prefers-reduced-motion:no-preference){
+  .day-fill{animation:fill .9s cubic-bezier(.25,.6,.3,1) both}
+  @keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+}
+/* supervisor pass: larger sandwich board, bigger mobile name, shorter mobile wall */
+@media (min-width:1100px){
+  .board{height:clamp(150px,21vh,230px);right:auto;left:calc(-1 * clamp(250px,21vw,310px))}
+  .board .panel span{font-size:clamp(15px,1.5vw,22px);font-weight:700}
+}
+@media (max-width:819px){
+  :root{--wall:56px}
+  h1.name{font-size:clamp(72px,22vw,150px)}
+  .board{width:104px;height:124px}
+  .board .panel span{font-size:14px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <div class="hero-wall" aria-hidden="true"></div>
+
+  <div class="frame masthead">
+    <p class="brand">King Tire Shop, Montclair</p>
+    <a class="tel" href="tel:+19099529219">(909) 952-9219</a>
+  </div>
+
+  <div class="frame stage">
+    <h1 class="name"><span class="w">King</span> <span class="w">Tire</span> <span class="w">Shop</span></h1>
+
+    <div class="pitch">
+      <p class="tagline">Flat at 8 PM? We're open till nine.</p>
+      <p class="sub">Tires, flats, brakes and oil changes on Rose Ave in Montclair. Monday to Saturday, 9 AM to 9 PM.</p>
+
+      <div class="board" aria-hidden="true">
+        <span class="leg leg-a"></span>
+        <span class="leg leg-b"></span>
+        <span class="panel"><span>Flat tire repair</span></span>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-call" href="tel:+19099529219">Call (909) 952-9219</a>
+        <a class="btn btn-dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=King+Tire+Shop+8939+Rose+Ave+Montclair+CA+91763">Get directions</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="late" aria-labelledby="late-h">
+    <div class="frame">
+      <h2 id="late-h">Twelve hours a day.</h2>
+
+      <div class="day" role="img" aria-label="Shop hours drawn as a horizontal bar, labelled 9 AM at the left and 9 PM at the right and filled yellow across all twelve hours. A thin dark marker three quarters of the way along is labelled 6 PM, when most tire shops close.">
+        <div class="day-track">
+          <div class="day-fill"></div>
+          <div class="day-mark">
+            <span class="day-mark-text">6 PM, when most tire shops close</span>
+          </div>
+        </div>
+        <div class="day-ends"><span>9 AM</span><span>9 PM</span></div>
+      </div>
+
+      <p class="note">If it's getting close to nine, call first so we know you're coming.</p>
+    </div>
+  </section>
+
+  <div class="paperblock">
+    <div class="frame split">
+      <section id="work" aria-labelledby="work-h">
+        <h2 id="work-h">What we do</h2>
+        <div class="worklists">
+          <ul class="worklist">
+            <li>Flat tire repair and patches</li>
+            <li>New tires</li>
+            <li>Used tires</li>
+            <li>Mounting and balancing</li>
+            <li>Tire rotation</li>
+          </ul>
+          <ul class="worklist small">
+            <li>Tire pressure sensor (TPMS) repair</li>
+            <li>Alignment</li>
+            <li>Brakes</li>
+            <li>Oil changes</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="hours" id="hours" aria-labelledby="hours-h">
+        <h2 id="hours-h">Hours</h2>
+        <table>
+          <caption>King Tire Shop hours, Monday to Sunday</caption>
+          <tbody>
+            <tr data-day="1"><th scope="row">Monday</th><td>9:00 AM – 9:00 PM</td></tr>
+            <tr data-day="2"><th scope="row">Tuesday</th><td>9:00 AM – 9:00 PM</td></tr>
+            <tr data-day="3"><th scope="row">Wednesday</th><td>9:00 AM – 9:00 PM</td></tr>
+            <tr data-day="4"><th scope="row">Thursday</th><td>9:00 AM – 9:00 PM</td></tr>
+            <tr data-day="5"><th scope="row">Friday</th><td>9:00 AM – 9:00 PM</td></tr>
+            <tr data-day="6"><th scope="row">Saturday</th><td>9:00 AM – 9:00 PM</td></tr>
+            <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </div>
+
+  <section class="find" id="find" aria-labelledby="find-h">
+    <div class="frame grid">
+      <div>
+        <h2 id="find-h">Find us</h2>
+        <address class="addr">8939 Rose Ave<br>Montclair, CA 91763</address>
+        <p class="cards">Cards accepted.</p>
+        <div class="actions">
+          <a class="btn btn-call" href="tel:+19099529219">Call (909) 952-9219</a>
+          <a class="btn btn-dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=King+Tire+Shop+8939+Rose+Ave+Montclair+CA+91763">Get directions</a>
+        </div>
+      </div>
+      <p class="ratings">4.5 on <a href="https://www.google.com/maps/search/?api=1&amp;query=King+Tire+Shop+8939+Rose+Ave+Montclair+CA">Google</a> from 135 reviews, 4.3 on <a href="https://www.yelp.com/biz/king-tire-shop-montclair">Yelp</a> from 59. Checked November 10, 2026.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="frame">
+    <p class="tel-line">King Tire Shop, 8939 Rose Ave, Montclair, CA 91763. <a href="tel:+19099529219">(909) 952-9219</a></p>
+    <p>Concept website by Phan Rodriguez LLC. Not the official King Tire Shop site. Details from public listings, checked November 10, 2026.</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Quick actions">
+  <a class="call" href="tel:+19099529219">Call</a>
+  <a class="dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=King+Tire+Shop+8939+Rose+Ave+Montclair+CA+91763">Directions</a>
+</nav>
+
+<script>
+(function(){
+  try{
+    var names=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+    var weekday=new Intl.DateTimeFormat("en-US",{timeZone:"America/Los_Angeles",weekday:"short"}).format(new Date());
+    var index=names.indexOf(weekday);
+    if(index<0) return;
+    var row=document.querySelector('tr[data-day="'+index+'"]');
+    if(row) row.classList.add("today");
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

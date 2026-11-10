@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>J C Auto Electric — Montclair auto electrical repair (concept)</title>
+<meta name="description" content="Concept website for J C Auto Electric, 10640 Ramona Ave, Montclair. Auto electrical diagnosis, starting and charging, wiring, gauges and A/C. Call (909) 625-9181.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --panel:#16181b;
+  --paper:#f3efe6;
+  --red:#d42a20;
+  --blue:#2c6fd6;
+  --yellow:#f4c20d;
+  --green:#2f8f4e;
+  --copper:#b5672b;
+  --display:"Space Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Space Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --frame:1200px;
+  --gutter:clamp(16px,4vw,56px);
+  --rail:clamp(30px,4vw,58px);
+  --sectpad:clamp(38px,5.4vw,76px);
+}
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;background:var(--paper);color:var(--panel);
+  font-family:var(--display);font-size:clamp(17px,.45vw + 15px,19px);line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,p,ul,dl,dd,figure{margin:0}
+ul{padding:0;list-style:none}
+a{color:inherit}
+address{font-style:normal}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px;box-shadow:0 0 0 7px var(--panel)}
+
+.skip{
+  position:fixed;left:16px;top:-80px;z-index:30;
+  background:var(--yellow);color:var(--panel);padding:12px 16px;
+  font-weight:700;text-decoration:none;
+}
+.skip:focus,.skip:focus-visible{top:16px;outline-color:var(--panel);box-shadow:0 0 0 7px var(--yellow)}
+.frame{max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
+
+/* ---------- fuse box ---------- */
+.box{background:var(--panel);color:var(--paper);padding-block:clamp(18px,2.4vw,30px) clamp(34px,5vw,64px)}
+.mast{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px}
+.shop{font-size:clamp(15px,1.3vw,17px);font-weight:500;color:#d8d3c6;letter-spacing:.01em}
+.phone{
+  display:inline-block;padding-block:6px;font-weight:700;
+  font-size:clamp(17px,1.7vw,21px);color:var(--yellow);text-decoration:none;
+  border-bottom:2px solid transparent;
+}
+.phone:hover{border-bottom-color:var(--copper)}
+h1{
+  font-size:clamp(44px,8vw,116px);line-height:.95;letter-spacing:-.02em;font-weight:700;
+  margin-top:clamp(24px,3.6vw,46px);text-wrap:balance;overflow-wrap:break-word;
+}
+.lede{margin-top:clamp(10px,1.4vw,18px);max-width:44ch;color:#d8d3c6;font-size:clamp(17px,1.4vw,19px)}
+
+.bench{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(16px,2.2vw,28px);margin-top:clamp(28px,4vw,54px)}
+@media (min-width:900px){
+  .bench{grid-template-columns:minmax(0,58fr) minmax(0,42fr);align-items:stretch}
+}
+
+.fuses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:clamp(10px,1.3vw,16px);min-width:0}
+@media (min-width:720px){.fuses{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.fuse{
+  position:relative;display:flex;flex-direction:column;align-items:flex-start;
+  gap:clamp(8px,.9vw,12px);
+  min-height:clamp(120px,11vw,152px);
+  padding:clamp(12px,1.2vw,16px) clamp(12px,1.2vw,16px) 36px;
+  border:0;border-radius:2px;background:none;text-align:left;cursor:pointer;
+  appearance:none;-webkit-appearance:none;-webkit-tap-highlight-color:transparent;
+  font-family:var(--display);
+}
+.fuse::before{
+  content:"";position:absolute;inset:0 0 20px 0;z-index:0;
+  background:var(--fbody);border-radius:3px;
+  box-shadow:inset 0 -7px 0 rgba(0,0,0,.13);
+}
+.fuse .amp{
+  position:relative;z-index:1;background:var(--panel);color:#fff;
+  font-family:var(--mono);font-weight:700;font-size:clamp(13px,.95vw,14px);
+  line-height:1;letter-spacing:.04em;padding:4px 6px;border-radius:2px;
+}
+.fuse .sym{
+  position:relative;z-index:1;margin-top:auto;
+  font-size:clamp(19px,1.6vw,22px);font-weight:700;line-height:1.14;
+  letter-spacing:-.01em;color:var(--ftext);
+}
+.fuse .prongs{position:absolute;left:0;right:0;bottom:0;height:20px;z-index:0;display:flex;justify-content:center;gap:18%}
+.fuse .prongs span{display:block;width:12%;max-width:16px;height:100%;background:var(--copper);border-radius:0 0 2px 2px}
+.f10{--fbody:var(--red);--ftext:#fff}
+.f15{--fbody:var(--blue);--ftext:#fff}
+.f20{--fbody:var(--yellow);--ftext:var(--panel)}
+.f30{--fbody:var(--green);--ftext:#fff}
+.fuse:hover::before{filter:brightness(1.06)}
+.fuse[aria-pressed="true"]{transform:translateY(4px);z-index:2}
+.fuse:focus-visible{outline:3px solid var(--yellow);outline-offset:3px;box-shadow:0 0 0 7px var(--panel)}
+.f20:focus-visible{outline-color:var(--panel);box-shadow:0 0 0 7px var(--yellow)}
+
+.readout{
+  min-width:0;display:flex;flex-direction:column;
+  background:var(--paper);color:var(--panel);
+  border-top:4px solid var(--copper);
+  padding:clamp(20px,2.6vw,32px);
+}
+.outs{margin:0 0 clamp(20px,3vw,30px);padding:0}
+.out{padding-top:clamp(14px,2vw,20px);border-top:1px solid rgba(22,24,27,.18)}
+.out:first-child{padding-top:0;border-top:0}
+.js .out{display:none}
+.js .out.is-on{display:block}
+.out dt{
+  font-size:clamp(28px,3vw,42px);font-weight:700;line-height:1.02;letter-spacing:-.015em;
+  text-wrap:balance;
+}
+.out dd{margin:12px 0 0}
+.out dd p{max-width:44ch}
+.note{margin-top:16px;padding-top:14px;border-top:1px solid var(--copper);font-weight:500}
+.cta{
+  margin-top:auto;display:grid;place-items:center;min-height:54px;
+  padding:14px 18px;background:var(--red);color:#fff;border-radius:3px;
+  font-weight:700;font-size:clamp(17px,1.4vw,19px);text-align:center;text-decoration:none;
+}
+.cta:hover{background:var(--panel);color:var(--paper)}
+
+/* ---------- the wire ---------- */
+main{position:relative}
+main:focus{outline:none}
+.rail{position:relative;padding-left:var(--rail)}
+.rail::before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--red);
+}
+.sect{position:relative;padding-block:var(--sectpad)}
+.sect::before{
+  content:"";position:absolute;left:calc(-1 * var(--rail) - 5px);top:calc(var(--sectpad) + 7px);
+  width:14px;height:14px;border-radius:50%;background:var(--copper);
+}
+h2{font-size:clamp(34px,5vw,64px);line-height:1;letter-spacing:-.02em;font-weight:700;text-wrap:balance}
+
+/* ---------- not only electrical ---------- */
+.cols{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(24px,4vw,48px)}
+@media (min-width:900px){
+  .cols{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(32px,6vw,96px);align-items:start}
+}
+.intro p{margin-top:clamp(14px,2vw,20px);max-width:34ch}
+.work ul{margin-top:clamp(20px,3vw,30px);border-bottom:1px solid var(--copper)}
+.work li{
+  border-top:1px solid var(--copper);padding-block:clamp(10px,1.4vw,16px);
+  font-size:clamp(22px,2.3vw,32px);font-weight:700;line-height:1.15;letter-spacing:-.01em;
+}
+.work li span{font-weight:400}
+.fine{margin-top:14px;font-size:15px;font-weight:500;color:#3b3c38;max-width:40ch}
+
+/* ---------- hours ---------- */
+.hours{max-width:440px}
+table{width:100%;border-collapse:collapse;margin-top:clamp(18px,2.4vw,26px)}
+caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+th,td{text-align:left;padding:11px 10px;border-top:1px solid rgba(22,24,27,.22);vertical-align:top}
+th{font-weight:500;font-size:clamp(16px,1.3vw,17px);line-height:1.4}
+td{text-align:right;font-family:var(--mono);font-weight:700;font-size:13px;line-height:1.4;white-space:normal}
+tr:last-child th,tr:last-child td{border-bottom:1px solid rgba(22,24,27,.22)}
+tr.today th,tr.today td{background:var(--yellow);color:var(--panel);border-color:var(--yellow)}
+tr.today th{font-weight:700}
+tr.today th::after{content:"today";display:block;font-family:var(--mono);font-weight:400;font-size:12px;line-height:1.5;letter-spacing:.02em}
+
+/* ---------- find us ---------- */
+.find{max-width:640px}
+.find address{margin-top:clamp(16px,2vw,22px);font-weight:500;font-size:clamp(19px,1.6vw,22px);line-height:1.4}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(20px,2.6vw,28px)}
+.btn{
+  display:inline-grid;place-items:center;min-height:52px;padding:12px 22px;
+  border:2px solid var(--panel);border-radius:3px;background:transparent;
+  color:var(--panel);font-weight:700;text-decoration:none;
+}
+.btn:hover{background:var(--panel);color:var(--paper)}
+.btn.primary{background:var(--red);border-color:var(--red);color:#fff}
+.btn.primary:hover{background:var(--panel);border-color:var(--panel);color:var(--paper)}
+.ratings{
+  margin-top:clamp(28px,4vw,40px);padding-top:18px;border-top:1px solid var(--copper);
+  max-width:52ch;font-size:clamp(15px,1.2vw,17px);line-height:1.6;color:#2b2c28;
+}
+.ratings a{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--copper)}
+.ratings a:hover{text-decoration-color:var(--panel)}
+
+/* ---------- footer ---------- */
+footer{background:var(--panel);color:#d8d3c6;padding-block:clamp(28px,4vw,44px);margin-top:clamp(24px,4vw,40px)}
+footer p{max-width:60ch;font-size:clamp(14px,1.1vw,15px);line-height:1.6}
+
+/* ---------- fixed actions ---------- */
+.bar{display:none}
+@media (max-width:719px){
+  :root{--gutter:16px}
+  body{padding-bottom:66px}
+  .bar{
+    display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:20;
+    background:var(--panel);border-top:2px solid var(--copper);
+  }
+  .bar a{display:grid;place-items:center;min-height:58px;color:var(--paper);font-weight:700;font-size:16px;text-decoration:none}
+  .bar a:first-child{background:var(--red);color:#fff}
+}
+
+@media (prefers-reduced-motion:no-preference){
+  .fuse{transition:transform 150ms ease}
+  .fuse::before{transition:filter 150ms ease}
+}
+/* supervisor pass: hours and find-us share a row on desktop */
+@media (min-width:900px){
+  .rail{display:grid;grid-template-columns:minmax(0,440px) minmax(0,1fr);column-gap:clamp(48px,8vw,128px)}
+  .rail>.sect:first-child{grid-column:1/-1}
+  .rail>.find{max-width:none;padding-top:calc(var(--sectpad) + clamp(40px,6vw,88px))}
+  .rail>.find::before{display:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="box">
+  <div class="frame">
+    <div class="mast">
+      <p class="shop">J C Auto Electric</p>
+      <a class="phone" href="tel:+19096259181">(909) 625-9181</a>
+    </div>
+    <h1>What's it doing?</h1>
+    <p class="lede">Pick the closest one. We'll tell you what we check.</p>
+
+    <div class="bench">
+      <div class="fuses" role="group" aria-label="Symptoms">
+        <button type="button" class="fuse f10" aria-pressed="true" aria-controls="readout">
+          <span class="amp">10 A</span>
+          <span class="sym">Won't start</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f15" aria-pressed="false" aria-controls="readout">
+          <span class="amp">15 A</span>
+          <span class="sym">Battery light on</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f20" aria-pressed="false" aria-controls="readout">
+          <span class="amp">20 A</span>
+          <span class="sym">Dead battery every morning</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f30" aria-pressed="false" aria-controls="readout">
+          <span class="amp">30 A</span>
+          <span class="sym">Gauge reads wrong</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f10" aria-pressed="false" aria-controls="readout">
+          <span class="amp">10 A</span>
+          <span class="sym">Windows or locks stuck</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f15" aria-pressed="false" aria-controls="readout">
+          <span class="amp">15 A</span>
+          <span class="sym">Lights out or flickering</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f20" aria-pressed="false" aria-controls="readout">
+          <span class="amp">20 A</span>
+          <span class="sym">A/C or blower dead</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <button type="button" class="fuse f30" aria-pressed="false" aria-controls="readout">
+          <span class="amp">30 A</span>
+          <span class="sym">Check-engine light</span>
+          <span class="prongs" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+
+      <div class="readout" id="readout" aria-live="polite">
+        <dl class="outs">
+          <div class="out is-on">
+            <dt>Won't start</dt>
+            <dd>
+              <p>We test the battery, the starter, the ignition switch and the wiring between them before anything gets replaced.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>Battery light on</dt>
+            <dd>
+              <p>Usually the alternator or its wiring. We measure charging voltage with the engine running.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>Dead battery every morning</dt>
+            <dd>
+              <p>Something is drawing power with the key off. We measure the draw and pull circuits one at a time until it stops.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>Gauge reads wrong</dt>
+            <dd>
+              <p>Fuel, temperature or speed that doesn't match reality. We check the sender, the wiring and the cluster.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>Windows or locks stuck</dt>
+            <dd>
+              <p>Switches, motors and the wiring where the door meets the body, which flexes every time the door opens.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>Lights out or flickering</dt>
+            <dd>
+              <p>Headlights, brake lights, turn signals. We check bulbs, grounds, relays and switches.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>A/C or blower dead</dt>
+            <dd>
+              <p>Blower motor, resistor, relay and controls.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+          <div class="out">
+            <dt>Check-engine light</dt>
+            <dd>
+              <p>We read the code, then test the sensor and its circuit. A code names a circuit, not a part.</p>
+              <p class="note">A real diagnosis needs the car in the shop.</p>
+            </dd>
+          </div>
+        </dl>
+        <a class="cta" href="tel:+19096259181">Call (909) 625-9181</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="frame">
+    <div class="rail">
+      <section class="sect" aria-labelledby="work-h">
+        <div class="cols">
+          <div class="intro">
+            <h2 id="work-h">Not only electrical.</h2>
+            <p>Customers say the shop handles general repair too. Ask when you call.</p>
+          </div>
+          <div class="work">
+            <ul>
+              <li>Starting and charging</li>
+              <li>Wiring repair</li>
+              <li>Fuel pumps and gauges</li>
+              <li>Air conditioning</li>
+              <li>General repair, <span>ask when you call</span></li>
+            </ul>
+            <p class="fine">No wheel alignments.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sect hours" id="hours" aria-labelledby="hours-h">
+        <h2 id="hours-h">Hours</h2>
+        <table>
+          <caption>Shop hours</caption>
+          <tbody>
+            <tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 5:30 PM</td></tr>
+            <tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 5:30 PM</td></tr>
+            <tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 5:30 PM</td></tr>
+            <tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 5:30 PM</td></tr>
+            <tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 5:30 PM</td></tr>
+            <tr data-day="6"><th scope="row">Saturday</th><td>8:00 AM – 4:00 PM, call to confirm</td></tr>
+            <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="sect find" id="find" aria-labelledby="find-h">
+        <h2 id="find-h">Find us</h2>
+        <address>10640 Ramona Ave<br>Montclair, CA 91763</address>
+        <div class="actions">
+          <a class="btn primary" href="tel:+19096259181">Call (909) 625-9181</a>
+          <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=J+C+Auto+Electric+10640+Ramona+Ave+Montclair+CA+91763">Get directions</a>
+        </div>
+        <p class="ratings">4.7 on <a href="https://www.google.com/maps/search/?api=1&amp;query=J+C+Auto+Electric+10640+Ramona+Ave+Montclair+CA">Google</a> from 83 reviews, 4.2 on <a href="https://www.yelp.com/biz/jc-auto-electric-montclair">Yelp</a> from 12. Checked November 10, 2026.</p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="frame">
+    <p>Concept website by Phan Rodriguez LLC. Not the official J C Auto Electric site. Details from public listings, checked November 10, 2026. Symptom notes are draft copy for the owner to correct.</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Quick actions">
+  <a href="tel:+19096259181">Call</a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=J+C+Auto+Electric+10640+Ramona+Ave+Montclair+CA+91763">Directions</a>
+</nav>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var fuses=[].slice.call(document.querySelectorAll('.fuse'));
+  var outs=[].slice.call(document.querySelectorAll('.out'));
+  function show(i){
+    for(var j=0;j<fuses.length;j++){
+      fuses[j].setAttribute('aria-pressed', j===i?'true':'false');
+      if(outs[j]) outs[j].classList.toggle('is-on', j===i);
+    }
+  }
+  for(var k=0;k<fuses.length;k++){
+    (function(n){
+      fuses[n].addEventListener('click', function(){ show(n); });
+    }(k));
+  }
+  if(fuses.length) show(0);
+  try{
+    var wd=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short'}).format(new Date());
+    var day=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+    var row=document.querySelector('tr[data-day="'+day+'"]');
+    if(row) row.classList.add('today');
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

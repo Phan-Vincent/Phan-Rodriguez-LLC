@@ -25,10 +25,13 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `43s-mufflers-brakes/` | 43's Mufflers & Brakes — The Sign Out Front | Pomona |
 | `sinaloa-tires/` | Sinaloa Tires — La Bandera | Pomona |
 | `with-pride-auto-air/` | With Pride Auto Air Conditioning — Turn it to cold | Montclair |
+| `king-tire-shop/` | King Tire Shop — Till nine | Montclair |
+| `jc-auto-electric/` | J C Auto Electric — Find the fuse | Montclair |
+| `performance-lube-oil/` | Performance Lube & Oil — Oil in, car washed | Chino |
 
 These are mockups for sales pitches, not the businesses' official websites. Content comes from each business's public listings (Google Maps, Yelp excerpts, Facebook reviews, SureCritic). Review quotes name their source. Confirm services and hours with the owner before a site goes live.
 
-The November 9 batch adds three local concepts. Each folder contains `DESIGN.md` with three creative directions and the recommended direction. Research and listing limitations are documented in `docs/lead-batch-2026-11-09/RESEARCH.md`; build order is in `RANKING.md`. The November 10 batch adds three more (43's Mufflers & Brakes, Sinaloa Tires, With Pride Auto Air Conditioning), each with its own `DESIGN.md`; research, build order and verification are in `docs/lead-batch-2026-11-10/BATCH.md`. The lead workbook tracks mockup existence separately from outreach status in columns L–Q. Local mockup paths do not imply publication to GitHub Pages.
+The November 9 batch adds three local concepts. Each folder contains `DESIGN.md` with three creative directions and the recommended direction. Research and listing limitations are documented in `docs/lead-batch-2026-11-09/RESEARCH.md`; build order is in `RANKING.md`. The November 10 batch adds three more (43's Mufflers & Brakes, Sinaloa Tires, With Pride Auto Air Conditioning), each with its own `DESIGN.md`; research, build order and verification are in `docs/lead-batch-2026-11-10/BATCH.md`. A second November 10 batch adds King Tire Shop, J C Auto Electric and Performance Lube & Oil; see `docs/lead-batch-2026-11-10/BATCH-2.md`. The lead workbook tracks mockup existence separately from outreach status in columns L–Q. Local mockup paths do not imply publication to GitHub Pages.
 
 ## docs/ and tools/
 - `docs/HANDOFF.md`: full project context (business data, sources, decisions, open items) for anyone, or any Claude session, picking this up.
