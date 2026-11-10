@@ -143,6 +143,33 @@ h1 em{border-radius:16px;padding:.06em .22em .1em;transform:rotate(-1.5deg)}
 .visit{width:min(1320px,calc(100% - 28px));margin:0 auto 28px;border-radius:var(--r-lg)}
 tr:not(.today) th,tr:not(.today) td{background:#ffffff12}
 @media(max-width:900px){.strip{padding:0 14px 64px;grid-template-columns:1fr}.visit{width:calc(100% - 16px)}.sign{font-size:15px;white-space:nowrap;padding:8px 12px}}
+
+/* ===== 2026-11-10 Astryx layer (meta/astryx tokens, MIT; see docs/design-system/): neutral palette, radius roles, shadows, focus ring, motion, badge labels ===== */
+:root{--ax-r-el:8px;--ax-r-box:12px;--ax-r-card:20px;--ax-r-page:28px;--ax-shadow-low:0 1px 1px #0000001a,0 2px 8px #0000001a;--ax-shadow-med:0 1px 2px #0000001a,0 2px 12px #0000001a;--ax-shadow-high:0 2px 2px #0000001a,0 8px 24px #0000001a;--ax-fast:175ms;--ax-med:410ms;--ax-ease:cubic-bezier(.24,1,.4,1);--r:var(--ax-r-card);--r-lg:var(--ax-r-page)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px}
+h1,h2,h3,.bigphone,.marquee,.stat strong,.nums strong,.late strong,.year,.logo,.sign,.banner,.gauge strong,.make h3,.card h3,.bigquote{font-weight:700!important;letter-spacing:-.025em}
+address,.quote p{font-weight:600}
+.mono{font-weight:600;letter-spacing:.08em}
+p.mono{display:inline-block;padding:5px 12px;border-radius:9999px;background:color-mix(in srgb,currentColor 12%,transparent);font-weight:700;letter-spacing:.06em}
+.btn{min-height:48px;font-weight:600;border-width:1px;transition:color var(--ax-fast) var(--ax-ease)}
+.btn:before{transition:transform var(--ax-med) var(--ax-ease)}.btn i{transition:transform var(--ax-fast) var(--ax-ease)}
+.phone{border-width:1px;font-weight:600;transition:background var(--ax-fast) var(--ax-ease),color var(--ax-fast) var(--ax-ease)}
+nav{font-weight:600}nav a:after{transition:transform var(--ax-fast) var(--ax-ease)}
+.reveal{transition:opacity var(--ax-med) var(--ax-ease),transform var(--ax-med) var(--ax-ease);transform:translateY(20px)}
+.quote,.quotes .quote,.item,.s,.make,.card,.stat,.gauge{box-shadow:var(--ax-shadow-low);transition:opacity var(--ax-med) var(--ax-ease),transform var(--ax-fast) var(--ax-ease),box-shadow var(--ax-fast) var(--ax-ease),border-color var(--ax-fast) var(--ax-ease)}
+.reveal:not(.in){transition:opacity var(--ax-med) var(--ax-ease),transform var(--ax-med) var(--ax-ease)}
+.quote:hover,.quotes .quote:hover,.item:hover,.s:hover,.make:hover{box-shadow:var(--ax-shadow-high);transform:translateY(-4px)}
+.quote,.quotes .quote,.s,.make{border:1px solid var(--line)}
+.gauge{box-shadow:var(--ax-shadow-high)}
+tr th{border-radius:var(--ax-r-box) 0 0 var(--ax-r-box)}tr td{border-radius:0 var(--ax-r-box) var(--ax-r-box) 0}
+.note,.head p:last-child{color:var(--muted)}
+.ph{transition:transform var(--ax-med) var(--ax-ease)}
+
+.services,.strip{background:#F1F4F7;color:#0A1317}.services .head p:last-child{color:#4E606F}
+.sign,.marquee,h1 em{background:#fff}.sign{border-radius:var(--ax-r-box)}h1 em{border-radius:var(--ax-r-box)}
+.quote,.quotes .quote{background:#fff;color:#0A1317;border:0}.quote cite{color:#4E606F}
+tr.today{background:#fff}
+.stat{box-shadow:none}.visit .head p:last-child,.visit .note{color:var(--muted)}
 </style>
 </head>
 <body>

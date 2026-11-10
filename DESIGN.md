@@ -97,3 +97,17 @@ Andrew asked for the Tri Auto design changes on the other two sites. Each keeps 
 - Reviews stay as static rounded cards. These sites have only two and three quotes, too few for a rotating row without visible repeats. Add the Tri Auto carousel once more quotes are collected.
 - Checked with Playwright at 1440px and 390px: no horizontal overflow, no console errors. Photos were placeholders in that check.
 - `tools/auto-shop-generator/build.py` no longer matches any of the three pages. Edit the `index.html` files directly.
+
+## Astryx layer on all three auto shop sites (2026-11-10)
+
+Andrew asked for the three sites to use the Astryx UI values (see `docs/design-system/`). Each page got an "Astryx layer" block at the end of its stylesheet.
+
+- **Neutral palette:** Tri Auto and Moreno's backgrounds moved from warm cream to Astryx's cool gray `#F1F4F7`, with white surfaces, `#0A1317` text, `#4E606F` secondary text and `#CCD3DB` borders. A C Tires keeps its blue; its cream panels became `#F1F4F7` and white. Brand reds, yellows and blues are unchanged.
+- **Radius roles:** 12px for small parts (table rows, banners, sign), 20px for cards, 28px for panels and hero photos, pills for buttons. Astryx's own 12px container radius is scaled up for cards because these are marketing pages.
+- **Shadows:** Astryx low on cards, high on hover and on the Tri Auto rating badge.
+- **Focus ring:** 2px solid, 3px offset.
+- **Motion:** 175ms hover feedback, 410ms reveals, easing `cubic-bezier(.24,1,.4,1)`.
+- **Type weights:** headings 700 (was 800), quotes and addresses 600, labels 600. Still Manrope; Astryx's default is the system font.
+- **Badges:** section labels ("What we fix", "Services", "Find us") are now small pill badges.
+- **Not used:** Astryx's React components and its 14px app text sizes.
+- Checked with Playwright at 1440px and 390px: no overflow, no console errors, Tri Auto carousel still scrolls, holds and resumes. Photos were placeholders in that check.
