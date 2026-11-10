@@ -86,3 +86,14 @@ Requested by Andrew: rounder, more modern, better type, reviews that rotate on t
 - **Checked:** Playwright at 1440px and 390px, no horizontal overflow, no console errors, auto-scroll, hold and release confirmed by script. Photos were placeholders in that check (the sandbox cannot load Unsplash).
 - `tools/auto-shop-generator/build.py` does not produce this version. Edit `mockups/tri-auto/index.html` directly.
 - **Follow-up (same day):** removed the section numbers (01 to 04), the 01/02/03 row numbers and the A/B/C card labels; removed the green "Open now" status line from the hero; set every piece of text, including the Tri-Auto wordmark, in Manrope. Today's row is still highlighted in the hours table.
+
+## A C Tires and Moreno's: same refresh (2026-11-10)
+
+Andrew asked for the Tri Auto design changes on the other two sites. Each keeps its own colors and signature element (blue wall and tire for A C Tires; bay banners and '09 for Moreno's).
+
+- Manrope everywhere in sentence case, self-hosted in each site's own `fonts/` folder, so each folder still stands alone.
+- Pill buttons, phone link and marquee; 24px to 32px rounded cards, photos, stat tiles, hours rows and dark panels; grain overlay removed; sticky header.
+- The green "Open now" status line is removed. Neither site had section numbers.
+- Reviews stay as static rounded cards. These sites have only two and three quotes, too few for a rotating row without visible repeats. Add the Tri Auto carousel once more quotes are collected.
+- Checked with Playwright at 1440px and 390px: no horizontal overflow, no console errors. Photos were placeholders in that check.
+- `tools/auto-shop-generator/build.py` no longer matches any of the three pages. Edit the `index.html` files directly.

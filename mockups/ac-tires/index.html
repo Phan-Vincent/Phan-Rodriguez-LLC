@@ -100,6 +100,49 @@ h1 em{font-style:normal;background:#fdfbf4;color:var(--accent);padding:.04em .14
 .visit{background:#16307f}.visit .btn{--btn-hover:#16307f}
 tr.today{background:#fdfbf4;color:var(--accent)}
 @media(max-width:900px){.board{grid-template-columns:repeat(2,minmax(0,1fr))!important}.item h3{font-size:24px}.hero-grid{grid-template-columns:1fr}.tire{width:min(300px,82%);margin:26px auto 0;transform:none}.late{left:auto;right:-2%;bottom:2%}.board{grid-template-columns:1fr 1fr}.item{min-height:180px}.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:3px solid #fff}.sign{font-size:22px}}
+
+/* ===== 2026-11-10 modern refresh, matching Tri Auto: Manrope type, rounded surfaces, no status badge ===== */
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-wght-normal.woff2) format('woff2');font-weight:200 800;font-display:swap}
+:root{--display:Manrope,'Segoe UI',system-ui,Arial,sans-serif;--r:24px;--r-lg:32px}
+body{font-family:Manrope,'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body *{font-family:inherit!important}
+body:after{display:none}
+html{scroll-padding-top:96px}
+.mono{font-size:12px;letter-spacing:.14em;font-weight:800}
+header{position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}header .wrap{min-height:76px}nav{font-size:14px}
+.phone{font-size:15px;font-weight:800;border:1.5px solid currentColor;border-radius:999px;padding:10px 18px}
+h1,h2,h3,.bigphone,.marquee,.stat strong,.nums strong,.late strong,.year,.logo,.sign,.banner{font-weight:800!important;letter-spacing:-.03em}
+h1,h2,h3,.marquee,.logo,.sign{text-transform:none!important}
+h1{font-size:clamp(40px,6.2vw,88px);line-height:1.02}
+h2{font-size:clamp(32px,4.2vw,56px);line-height:1.05}
+.btn{border-radius:999px;border-width:1.5px;font-size:15px;padding:14px 26px}
+.marquee{font-size:17px;letter-spacing:0;width:min(1180px,calc(100% - 72px));margin-left:auto;margin-right:auto;border-radius:999px;transform:none;box-shadow:none}.marquee div{padding:14px 0}
+.quote{border-radius:var(--r);border:1.5px solid var(--line)}
+.quote:hover{transform:translateY(-6px)}
+.quote p{letter-spacing:-.01em}.quote cite{font-weight:800;letter-spacing:.1em}
+address{font-weight:800;letter-spacing:-.02em}
+table{border-collapse:separate;border-spacing:0 4px}
+th,td{border:0!important}tr th{border-radius:14px 0 0 14px}tr td{border-radius:0 14px 14px 0}
+.tag{border-radius:999px;padding:3px 8px;font-weight:800}
+.ph{filter:none}.phw{border-radius:var(--r)}.skip{border-radius:12px}
+@media(max-width:900px){.marquee{width:calc(100% - 28px)}}
+
+header{background:#1f3faee6}
+.sign{border-radius:14px;font-size:22px;padding:8px 16px;letter-spacing:-.02em;box-shadow:none}
+h1 em{border-radius:16px;padding:.06em .22em .1em;transform:rotate(-1.5deg)}
+.late strong{font-size:30px}
+.tire img{border-width:10px}
+.marquee{margin-top:64px;margin-bottom:64px}
+.services{margin-top:0;padding-top:96px;border-radius:var(--r-lg) var(--r-lg) 0 0}
+.item{border-radius:var(--r)}.item h3{font-size:24px;line-height:1.1;letter-spacing:-.02em}
+.item:hover{transform:translateY(-8px)}
+.strip{gap:14px;padding:0 max(36px,calc((100% - 1180px)/2)) 96px;border-radius:0 0 var(--r-lg) var(--r-lg)}.strip .phw{overflow:hidden}
+.stats{gap:14px;border:0}.stat{border:0!important;background:#ffffff14;border-radius:var(--r)}
+.stat strong{font-size:clamp(46px,6vw,80px)}
+.quote{border:0}.quote:hover{box-shadow:0 18px 40px -18px #000a}
+.visit{width:min(1320px,calc(100% - 28px));margin:0 auto 28px;border-radius:var(--r-lg)}
+tr:not(.today) th,tr:not(.today) td{background:#ffffff12}
+@media(max-width:900px){.strip{padding:0 14px 64px;grid-template-columns:1fr}.visit{width:calc(100% - 16px)}.sign{font-size:15px;white-space:nowrap;padding:8px 12px}}
 </style>
 </head>
 <body>
@@ -110,8 +153,7 @@ tr.today{background:#fdfbf4;color:var(--accent)}
 <a class="phone" href="tel:+19093914636">(909) 391-4636</a></div></header>
 <main id="main">
 <section class="hero"><div class="wrap hero-grid">
-<div><p class="mono status"><b></b><em style="font-style:normal">Ontario, California</em></p>
-<h1>Flat at 7&nbsp;PM?<br><em>We're still open.</em></h1>
+<div><h1>Flat at 7&nbsp;PM?<br><em>We're still open.</em></h1>
 <p class="lede">New and used tires, flat repair and mount-and-balance at the blue shop on California Street. Open until 8 on weeknights and <strong>open every Sunday</strong>.</p>
 <div class="actions"><a class="btn" href="tel:+19093914636" style="background:#fdfbf4;color:var(--accent);border-color:#fdfbf4;--btn-fill:#ffd23c;--btn-hover:#111">Call (909) 391-4636 <i>→</i></a><a class="btn" href="#visit">Find the blue building <i>↓</i></a></div><span class="mono proof">★ 4.4 on Google · 322 reviews</span></div>
 <div class="tire"><img alt="Gloved hands fitting a tire onto a car" src="https://images.unsplash.com/photo-1645445522156-9ac06bc7a767?auto=format&fit=crop&w=900&h=900&q=70"><div class="late"><span>OPEN TIL</span><strong>8 PM</strong><span>MON–FRI</span></div></div>

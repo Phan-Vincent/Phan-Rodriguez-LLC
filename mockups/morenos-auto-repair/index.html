@@ -99,6 +99,51 @@ h1 em{font-style:normal;color:var(--accent)}
 .visit{background:var(--ink);color:#fff;--line:#3b3d45;--muted:#a9abb3}.visit .btn{--btn-fill:#fff;--btn-hover:#16171b}
 tr.today{background:var(--yellow);color:#111}
 @media(max-width:900px){.svc{grid-template-columns:1fr}.fam-grid{grid-template-columns:1fr;gap:20px}.bays{gap:2%;padding:0 2%}}
+
+/* ===== 2026-11-10 modern refresh, matching Tri Auto: Manrope type, rounded surfaces, no status badge ===== */
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-wght-normal.woff2) format('woff2');font-weight:200 800;font-display:swap}
+:root{--display:Manrope,'Segoe UI',system-ui,Arial,sans-serif;--r:24px;--r-lg:32px}
+body{font-family:Manrope,'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body *{font-family:inherit!important}
+body:after{display:none}
+html{scroll-padding-top:96px}
+.mono{font-size:12px;letter-spacing:.14em;font-weight:800}
+header{position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}header .wrap{min-height:76px}nav{font-size:14px}
+.phone{font-size:15px;font-weight:800;border:1.5px solid currentColor;border-radius:999px;padding:10px 18px}
+h1,h2,h3,.bigphone,.marquee,.stat strong,.nums strong,.late strong,.year,.logo,.sign,.banner{font-weight:800!important;letter-spacing:-.03em}
+h1,h2,h3,.marquee,.logo,.sign{text-transform:none!important}
+h1{font-size:clamp(40px,6.2vw,88px);line-height:1.02}
+h2{font-size:clamp(32px,4.2vw,56px);line-height:1.05}
+.btn{border-radius:999px;border-width:1.5px;font-size:15px;padding:14px 26px}
+.marquee{font-size:17px;letter-spacing:0;width:min(1180px,calc(100% - 72px));margin-left:auto;margin-right:auto;border-radius:999px;transform:none;box-shadow:none}.marquee div{padding:14px 0}
+.quote{border-radius:var(--r);border:1.5px solid var(--line)}
+.quote:hover{transform:translateY(-6px)}
+.quote p{letter-spacing:-.01em}.quote cite{font-weight:800;letter-spacing:.1em}
+address{font-weight:800;letter-spacing:-.02em}
+table{border-collapse:separate;border-spacing:0 4px}
+th,td{border:0!important}tr th{border-radius:14px 0 0 14px}tr td{border-radius:0 14px 14px 0}
+.tag{border-radius:999px;padding:3px 8px;font-weight:800}
+.ph{filter:none}.phw{border-radius:var(--r)}.skip{border-radius:12px}
+@media(max-width:900px){.marquee{width:calc(100% - 28px)}}
+
+header{background:#f4f1eae6;border-bottom:1px solid var(--line)}
+.logo{font-size:26px}.logo small{font-weight:800;letter-spacing:.2em}
+h1{font-size:clamp(42px,7vw,104px);line-height:1}
+.shop{width:min(1320px,calc(100% - 28px));margin:56px auto 0;border-top:0;border-radius:var(--r-lg)}
+.banner{border-radius:12px;font-size:clamp(13px,1.9vw,26px);letter-spacing:-.01em;text-transform:none;padding:14px}
+.banner:before,.banner:after{display:none}
+.marquee{margin-top:28px}
+.s{border:1.5px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:0 14px 34px -26px #000}
+.s:hover{transform:translateY(-6px);box-shadow:0 22px 40px -24px #000;border-color:var(--ink)}
+.s h3{border-bottom:0;font-size:22px;line-height:1.15;letter-spacing:-.02em;padding:16px 20px}
+.s .ph{border-bottom:0}.s .phw{border-radius:0}.s p{padding:18px 20px}.s .mono{padding:0 20px 20px}
+.family,.visit{width:min(1320px,calc(100% - 28px));margin-left:auto;margin-right:auto;border-radius:var(--r-lg)}
+.visit{margin-bottom:28px}
+.year{letter-spacing:-.05em;text-shadow:0 18px 30px #5a0a0d}
+.nums strong{font-size:46px}
+.quote{background:#fff}.quote:hover{box-shadow:0 18px 40px -22px #000a;border-color:var(--ink)}
+tr:not(.today) th,tr:not(.today) td{background:#ffffff10}
+@media(max-width:900px){.shop,.family,.visit{width:calc(100% - 16px)}}
 </style>
 </head>
 <body>
@@ -109,8 +154,7 @@ tr.today{background:var(--yellow);color:#111}
 <a class="phone" href="tel:+19094186955">(909) 418-6955</a></div></header>
 <main id="main">
 <section class="hero">
-<div class="wrap"><p class="mono status"><b></b><em style="font-style:normal">Holt Blvd · Ontario, CA</em></p>
-<h1>If it's on the banner,<br><em>we fix it.</em></h1>
+<div class="wrap"><h1>If it's on the banner,<br><em>we fix it.</em></h1>
 <div class="hero-row"><p class="lede">Engines, transmissions, alignments and A/C under one roof. Moreno's is a <strong>family-owned shop on Holt Boulevard</strong>, fixing Ontario's cars since 2009.</p>
 <div class="actions" style="margin:0"><a class="btn" href="tel:+19094186955" style="background:var(--accent);color:#fff;border-color:var(--accent)">Call the shop <i>→</i></a><a class="btn" href="#services">See services <i>↓</i></a><span class="mono" style="flex-basis:100%;text-align:right">★ 4.7 on Google · 284 reviews</span></div></div></div>
 <div class="shop" role="img" aria-label="Auto repair shop floor with red vehicle lifts" style="--img:url(https://images.unsplash.com/photo-1792793176006-a7b35e29c7e1?auto=format&fit=crop&w=1800&h=900&q=70)"><div class="bays">
