@@ -6,7 +6,7 @@ Web design for local Inland Empire businesses.
 `West_IE_No_Website_Leads.xlsx` lists 294 West Inland Empire businesses (Ontario, Rancho Cucamonga, Fontana, Upland, Chino, Pomona, Montclair) whose Google Maps listing has no website. They are ranked High, Medium or Low priority by rating and review count. The list was built Nov 8, 2026.
 
 ## mockups/
-Concept websites for the top three leads. Each is a single standalone `index.html`, styled after the business's real signage and Google Maps photos.
+Concept websites for the top leads. Each is a single standalone `index.html`, styled after the business's real signage and Google Maps photos.
 
 Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 
@@ -15,5 +15,8 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `el-rey/` | El Rey (Mexican restaurant) | Chino |
 | `lockworx/` | Lockworx Locksmith Services | Fontana |
 | `don-cortez-tires/` | Don Cortez Tire Shop | Fontana |
+| `tri-auto/` | Tri Auto (Toyota, Honda and Lexus repair) | Chino |
+| `ac-tires/` | A C Tires (tire shop) | Ontario |
+| `morenos-auto-repair/` | Moreno's Auto Repair LLC | Ontario |
 
-These are mockups for sales pitches, not the businesses' official websites. All content comes from each business's public Google Maps listing.
+These are mockups for sales pitches, not the businesses' official websites. Content comes from each business's public listings (Google Maps, Yelp excerpts, Facebook reviews, SureCritic). Review quotes name their source. Confirm services and hours with the owner before a site goes live.
