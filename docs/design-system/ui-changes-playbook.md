@@ -10,10 +10,10 @@ How we make look-and-feel changes to the concept sites in `mockups/`. The same t
 
 ## House style (set 2026-11-10)
 
-- **Type:** Manrope, self-hosted in the site's `fonts/` folder (SIL Open Font License). Sentence case. Headings 800, body 400 to 500, small labels 800 in capitals with 0.14em spacing. One typeface for everything, including the wordmark.
-- **Shape:** pills for buttons, phone links and marquees; 24px cards; 32px page panels; 14px table rows.
+- **Type:** system font stack (`Segoe UI`, system-ui, Helvetica, Arial). Sentence case. Headings 700, body 400, small labels 600 to 700 in capitals.
+- **Shape:** 8px cards, 12px large panels, 6px buttons and table rows, pill labels.
 - **Depth:** soft, low shadows or a 1.5px hairline border, not both heavy. No paper grain.
-- **Color:** each business keeps its own brand colors from its real signage. Neutrals and status colors can come from `astryx-tokens.css`.
+- **Color:** gray canvas `#F0F2F5`, white cards, text `#050505`, secondary `#65676B`. Each business keeps its own brand colors, muted, and every text color must reach 4.5:1 on its background.
 - **Spacing:** 4px steps. Gaps grow from item to card to section (about 14px, 24px, 96px).
 - **Motion:** 175ms for hover feedback, about 400ms for reveals, easing `cubic-bezier(.24,1,.4,1)`. Always include a `prefers-reduced-motion` rule.
 - **Not on the pages:** section numbers, A/B/C labels, "Open now" status badges, carousel Pause/Resume buttons or arrows.

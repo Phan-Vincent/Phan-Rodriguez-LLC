@@ -111,3 +111,13 @@ Andrew asked for the three sites to use the Astryx UI values (see `docs/design-s
 - **Badges:** section labels ("What we fix", "Services", "Find us") are now small pill badges.
 - **Not used:** Astryx's React components and its 14px app text sizes.
 - Checked with Playwright at 1440px and 390px: no overflow, no console errors, Tri Auto carousel still scrolls, holds and resumes. Photos were placeholders in that check.
+
+## Feed-style look and muted colors on all three sites (2026-11-10)
+
+Andrew asked for the sites to mirror Facebook's UI look and for logos and designs to be less bright with good contrast. Style cues only: no Facebook logo, name, blue brand color or layout is copied, and each shop keeps its own identity.
+
+- **Look:** light gray canvas `#F0F2F5`, white cards, 8px corners (12px on large panels), thin card shadow, white header with a hairline shadow, flat 6px buttons (gray secondary, brand-colored primary), gray pill labels, system font (Segoe UI on Windows). Manrope files remain in each `fonts/` folder but are no longer used.
+- **Light sections:** Tri Auto's dark "Why" band and A C Tires' all-blue page became light sections with white cards. A C Tires keeps blue for the hero and visit panels; Moreno's keeps the red '09 panel and dark visit panel.
+- **Muted brand colors:** red `#B3261E` on all three (was `#d7261e`, `#d62b1f`, `#c81f25`); Tri Auto stripes `#C8642A` and `#D9A53A`; A C Tires blue `#1E3A8A` and gold `#E9B949`; Moreno's gold `#E9B949`, blue `#1E4A9C`, panel red `#8C1D18`. Logos use the same muted values.
+- **Contrast (WCAG ratio, 4.5 needed for normal text):** red on canvas 5.8, red on white 6.5, gray text on canvas 5.1, gray label on chip 4.5, white on A C blue 10.4, dark on gold 10.3, gold '09 on red panel 5.0, white on red 6.5, Moreno's blue on white banner 8.0. Tri Auto's orange logo stripe is 3.9 on white; it is decoration, not text.
+- Checked with Playwright at 1440px and 390px: no overflow, no console errors, Tri Auto carousel still works. Photos were placeholders in that check.
