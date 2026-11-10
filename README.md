@@ -27,3 +27,5 @@ These are mockups for sales pitches, not the businesses' official websites. Cont
 - `docs/screenshots/`: contact sheets of the three auto shop concepts.
 - `DESIGN.md`: design directions and system for the three auto shop concepts.
 - `tools/auto-shop-generator/`: the script that builds those three sites.
+
+- `docs/design-system/`: Astryx (Meta, MIT) token values and design rules we borrow, plus our UI changes playbook.
