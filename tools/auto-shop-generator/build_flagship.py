@@ -444,6 +444,38 @@ for k, r in REAL.items():
     SITES[k]["extra_js"] = V.CAROUSEL_JS
     SITES[k].pop("quotes", None)
 
+# Researched 2026-11-10 on Google Maps (address, phone, hours, rating) and the shop's MapQuest/Yelp listing.
+# Basic Auto Repair moved: older directories say 810 E Holt Blvd; Google and a customer review say 803.
+GM = "https://www.google.com/maps/search/?api=1&query="
+SITES["basic-auto-repair"] = dict(
+    art=dict(hero="block", ink="#141B2B", bone="#F4F1EA", acc="#1F3F8F", star="#F2B632", h1="10.4vw", stretch="80%", svc="index", mark="Basic Auto Repair", word="Basic Auto", wordsz="17vw"),
+    short="Basic Auto Repair", kicker="Auto repair · E Holt Blvd, Ontario", footer="Basic Auto Repair · Ontario, CA",
+    h1=("Honest work.", "That's the basics."), lede="Full-service auto repair on East Holt Boulevard, serving Ontario since 1995. Smog inspection, brakes, tune-ups and routine maintenance.",
+    phone="(909) 984-8011", addr="803 E Holt Blvd<br>Ontario, CA 91764", maps=GM + "Basic+Auto+Repair+803+E+Holt+Blvd+Ontario+CA", find="New location. Older listings still show 810 E Holt Blvd; the shop is at 803.",
+    hours=["8:00 AM – 5:00 PM"] * 5 + ["8:00 AM – 1:00 PM", "Closed"],
+    ratings=[("4.8", "Google · 115 reviews", GM + "Basic+Auto+Repair+803+E+Holt+Blvd+Ontario+CA")],
+    services=[("", [("Smog inspection", "Emission testing and smog inspection."), ("Brake repair", ""), ("Tune-ups", ""), ("Routine maintenance", "Including belt replacement."), ("Repairs", "Reviewers mention radiator repair and starter replacement. Call about yours.")])],
+    svc_title="Full service, plainly done.", svc_text="Tell us the car and what it's doing. We'll tell you what it needs.",
+    rev_text="“Honest mechanic” is the phrase Google reviewers use most.",
+    photos=(PX(8986100, 1800), PX(6870299)), alt=("Mechanic working under a car on a lift", "Close-up of a brake rotor being inspected"),
+    track=V.track([("Angie G.", "Yelp review", "I highly recommend the shop if you value 100% honesty…", V.yelp("basic-auto-repair-ontario", "olw7l5e7vWCG7xPBZz5eeA"), "Yelp"),
+                   ("Raena S.", "Yelp review", "…knowledgeable, honest and cordial.", V.yelp("basic-auto-repair-ontario", "kuxe2uu4hux-L5NwxBusJQ"), "Yelp"),
+                   ("Stephanie W.", "Yelp review", "I am so glad I listened to the majority of the people who recommended this shop!", V.yelp("basic-auto-repair-ontario", "b49PtK1gbPYmwJgH9gf9zg"), "Yelp")]),
+    extra_js=V.CAROUSEL_JS,
+)
+SITES["a-tech-automotive"] = dict(
+    art=dict(hero="split", ink="#161616", bone="#F2F2EE", acc="#B3261E", star="#D99A1E", h1="8.4vw", svc="rows", rowsz="7vw", mark="A Tech", word="A Tech", wordsz="24vw"),
+    short="A Tech Automotive", kicker="Auto repair · Central Ave, Chino", footer="A Tech Automotive · Chino, CA",
+    h1=("Good work.", "Fair prices."), lede="Auto repair and maintenance on Central Avenue in Chino. Several Google reviewers say they have been coming back for ten years or more.",
+    phone="(909) 590-0123", addr="12365 Central Ave, Unit A<br>Chino, CA 91710", maps=GM + "A+Tech+Automotive+12365+Central+Ave+Chino+CA",
+    hours=["8:00 AM – 5:00 PM"] * 5 + ["8:00 AM – 3:00 PM", "Closed"],
+    ratings=[("4.5", "Google · 104 reviews", GM + "A+Tech+Automotive+12365+Central+Ave+Chino+CA")],
+    services=[("", [("Oil changes", "One of the most-mentioned jobs in the shop's Google reviews."), ("Maintenance", "Regular service to keep a high-mileage car on the road."), ("Repairs", "From small fixes to major repairs. Call and describe what the car is doing.")])],
+    quotes=["They do good work and charge fair prices.", "Good fast service,easy to talk to as well.pleasent service."],
+    rev_text="Reviewers most often mention the professional team, kind staff, repair time and oil changes.",
+    photos=(PX(31097241, 1600), PX(8985660)), alt=("Mechanic working on a wheel in a workshop", "Mechanic rolling a tire beside a car on a lift"),
+)
+
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])
     only = sys.argv[2:]  # optional: site folder names
