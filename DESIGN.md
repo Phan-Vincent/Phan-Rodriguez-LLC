@@ -272,3 +272,12 @@ Vincent's fifth batch, again through `build_leads.py`: Mailo's Auto Repair (spli
 ### 2026-11-10 (night) — All 21 lead sites on the flagship generator
 
 Sheet re-checked: the only "not interested" rows are still Tri Auto, Moreno's, Roy's Auto Repair, RC Auto concept and Muffler Doctor; none has a site in the repo. The twelve remaining pages (Mailo's, Bee Z, Quality Auto, County Brake, JC Bumper, With Pride, Performance Lube, J & S, J C Auto Electric, Diesel Injection, Toy Shop, Hock's) were rebuilt by `build_flagship.py` from the facts already in `build_leads.py`. `build_leads.py` no longer writes pages; it only holds the facts. These twelve have no per-review links yet.
+
+### 2026-11-10 (late night) — Batch 7: John's Auto Repair and Ceres Collision
+
+Sheet re-read: the "not interested" rows are unchanged (Tri Auto, Moreno's, Roy's Auto Repair, RC Auto concept, Muffler Doctor) and none has a site. Continued down the sheet from the first row without a site.
+
+- **Built:** `johns-auto-repair` (full photo hero, five Yelp reviews linked by review id) and `ceres-collision` (split hero, no per-review links found). Facts come from each shop's MapQuest listing read on 2026-11-10 (address, hours, description, Yelp reviews); Google rating and phone come from the lead sheet. Not checked against Google Maps directly.
+- **Ceres Collision phone conflict:** Google (sheet) lists (909) 251-4447; MapQuest lists (909) 349-2880. The site uses the Google number. Confirm on the call.
+- **Skipped, with reasons:** Purrfect Auto Services (part of a multi-location chain that has its own website), A-1 Auto Expert (its MapQuest listing shows a Website button; check before building), Prime Truck and Trailer (no listing found to confirm hours or services), Ontario Mills Tire Pros (Tire Pros is a national dealer network; likely has a site).
+- **Next rows without a site:** Auto Repair Foreign Domestic (Chino), Star Hi-Tech Auto (Claremont), Jujubuilt (Upland), 2Man Moving Services, Auto Technik Carcare, Diamond Auto Center, Claremont Auto Care, L & R Auto Repair, Freddie's Auto Repair.

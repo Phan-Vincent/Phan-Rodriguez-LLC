@@ -33,6 +33,8 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `j-s-auto-center-smog/` | J & S Auto Center & Smog | Fontana |
 | `basic-auto-repair/` | Basic Auto Repair | Ontario |
 | `a-tech-automotive/` | A Tech Automotive | Chino |
+| `johns-auto-repair/` | John's Auto Repair | Fontana |
+| `ceres-collision/` | Ceres Collision | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |
 | `quality-auto-complete-auto-repair/` | Quality Auto Complete Auto Repair | Rancho Cucamonga |

@@ -476,6 +476,40 @@ SITES["a-tech-automotive"] = dict(
     photos=(PX(31097241, 1600), PX(8985660)), alt=("Mechanic working on a wheel in a workshop", "Mechanic rolling a tire beside a car on a lift"),
 )
 
+# Batch 7, researched 2026-11-10. Address, hours, description and Yelp reviews from each shop's MapQuest listing;
+# Google rating and phone from the lead sheet. Ceres Collision: MapQuest lists (909) 349-2880, Google lists (909) 251-4447 (used here).
+SITES["johns-auto-repair"] = dict(
+    art=dict(hero="photo", ink="#10141C", bone="#F2F1EC", acc="#1D5FA8", star="#E8B32A", h1="10.6vw", stretch="80%", svc="index", mark="John's Auto Repair", word="John's", wordsz="24vw"),
+    short="John's Auto Repair", kicker="BMW, Mercedes-Benz and Mini · Ceres Ave, Fontana", footer="John's Auto Repair · Fontana, CA",
+    h1=("European cars.", "Straight answers."), lede="A family-owned shop on Ceres Avenue that focuses on BMW, Mercedes-Benz and Mini Cooper. Clear explanations and accurate quotes before the work starts.",
+    phone="(909) 822-5606", addr="16566 Ceres Ave, Unit 1 and 2<br>Fontana, CA 92335", maps=GM + "John%27s+Auto+Repair+16566+Ceres+Ave+Fontana+CA",
+    hours=["9:00 AM – 5:00 PM"] * 6 + ["Closed"],
+    ratings=[("4.6", "Google · 93 reviews", GM + "John%27s+Auto+Repair+16566+Ceres+Ave+Fontana+CA")],
+    services=[("What we work on", [("BMW", ""), ("Mercedes-Benz", ""), ("Mini Cooper", "")]),
+              ("What we do", [("Check engine light repairs", "Diagnosis first, then a quote."), ("Oil changes", ""), ("Engine rebuilding", ""), ("Inspections", "A thorough look over the car, explained in plain words.")])],
+    svc_title="One kind of car, done well.", svc_text="Tell us the model and what it's doing. We'll tell you what it needs.",
+    photos=(PX(8986100, 1800), PX(6870299)), alt=("Mechanic working under a car on a lift", "Close-up of a brake rotor being inspected"),
+    track=V.track([("Jay S.", "Yelp review", "Trustworthy mechanic with no BS.", V.yelp("johns-auto-repair-specialist-fontana-5", "Y1QvrdlHCuVQqBMlR1wejw"), "Yelp"),
+                   ("Darren S.", "Yelp review", "John and team are a stellar crew.", V.yelp("johns-auto-repair-specialist-fontana-5", "YeJaM1s2XoEmI2hyaqHOxQ"), "Yelp"),
+                   ("chuyito r.", "Yelp review", "Muy confiable y honesto!", V.yelp("johns-auto-repair-specialist-fontana-5", "8kFiOoIsIcyadyMAbnqMrQ"), "Yelp"),
+                   ("Michael V.", "Yelp review", "Very please with the services. Upfront and honest.", V.yelp("johns-auto-repair-specialist-fontana-5", "aue4kPyLiTNvgkwEYZ1GEA"), "Yelp"),
+                   ("Charley B.", "Yelp review", "This man does an excellent job at fixing your car…", V.yelp("johns-auto-repair-specialist-fontana-5", "Mz_GC882eff4T1zbfrhK_Q"), "Yelp")]),
+    extra_js=V.CAROUSEL_JS,
+)
+SITES["ceres-collision"] = dict(
+    art=dict(hero="split", ink="#1A1614", bone="#F3EFE8", acc="#B4321F", star="#E0A52E", h1="8.8vw", svc="rows", rowsz="7vw", mark="Ceres Collision", word="Ceres", wordsz="26vw", about_label="The body shop"),
+    short="Ceres Collision", kicker="Auto body and collision repair · Fontana", footer="Ceres Collision · Fontana, CA",
+    h1=("After the accident,", "we work with you."), lede="Auto body and collision repair on Ceres Avenue. The shop says it has served the community for 20 years and can answer questions about your insurance claim.",
+    phone="(909) 251-4447", addr="16616 Ceres Ave, #1<br>Fontana, CA 92335", maps=GM + "Ceres+Collision+16616+Ceres+Ave+Fontana+CA",
+    hours=["8:00 AM – 5:00 PM"] * 5 + ["Closed", "Closed"],
+    ratings=[("4.8", "Google · 50 reviews", GM + "Ceres+Collision+16616+Ceres+Ave+Fontana+CA")],
+    services=[("", [("Collision repair", "Bring the car in or call first. We'll look at the damage with you."), ("Insurance claims", "Questions about your insurance or your claim? Ask us. We work directly with you."), ("Auto body work", "Customer service and attention to detail are what the shop says it is proud of.")])],
+    svc_label="What we do",
+    about=dict(title="From your first call until you leave.", text="Going to a body shop can be stressful. Ceres Collision says its aim is a good experience from the first phone call to the day you pick the car up."),
+    rev_text="Rated 4.8 on Google. Open the listing to read what customers wrote.",
+    photos=(PX(8470881, 1600), PX(6870314)), alt=("Painter working on a car in a body shop", "Spray gun painting a car part"),
+)
+
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])
     only = sys.argv[2:]  # optional: site folder names
