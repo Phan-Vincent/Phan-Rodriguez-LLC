@@ -298,3 +298,13 @@ So that no owner looks at another of our sites and sees a copy of theirs, `vary(
 - services layout (giant rows, index list, or a card grid)
 
 The mix is fixed by the site's position in `SITES`, so rebuilds are stable and adding a site at the end does not change the others. A check in this session confirmed no two of the 25 sites share the same combination.
+
+### 2026-11-10 — Batch 8: Freddie's, Bates, Express Transmissions, Menas, The Auto Clinic
+
+- **Built:** `freddies-auto-repair`, `bates-auto-service`, `express-transmissions`, `menas-brake-suspension`, `the-auto-clinic`. Address, hours, description and Yelp reviews come from each shop's MapQuest listing (read in a browser on 2026-11-10); every listing's phone matches the lead sheet. Google rating and count are the lead sheet's. Not checked against Google Maps directly.
+- **Reviews:** four of the five rotate Yelp reviews linked by review id (Freddie's 5, The Auto Clinic 5, Bates 4, Express 3). Menas had no reviews on its listing, so it links to the Google listing.
+- **Service lists are thin on purpose** for Freddie's, Bates and The Auto Clinic: the listings name little beyond auto repair and oil changes, so nothing more is claimed.
+- **Express Transmissions warranty:** the listing mentions a three-year, 100,000-mile warranty. The site says so and tells visitors to ask for the terms. Confirm with the owner.
+- **Held back:** Kikas Tires. MapQuest shows 1589 E Mission Blvd and (909) 203-0801; the sheet shows 1587 and (909) 643-9998. Needs a check before building.
+- **How leads are found cheaply:** search DuckDuckGo's HTML page in the browser for "mapquest <name> <address>", take the MapQuest listing id, then read hours, description and review ids from that page.
+- Tested with Playwright at 1440 and 390 px: no overflow, no script errors. Photos reuse ids already confirmed loading on other sites; not viewed live.

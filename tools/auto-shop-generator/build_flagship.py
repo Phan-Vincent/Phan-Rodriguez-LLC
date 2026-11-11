@@ -544,6 +544,81 @@ SITES["prime-truck-trailer-repair"] = dict(
     rev_text="Google reviewers mention quality of work, honest mechanics, alignments and trailer repair.",
     photos=(PX(6720519, 1800), PX(7019376)), alt=("Mechanic working on the front of a truck with the hood open", "Red semi truck parked in a repair shop"),
 )
+# Batch 8, researched 2026-11-10. Address, hours, description and Yelp reviews (linked by review id) come from each
+# shop's MapQuest listing, read in a browser. Phone matches the lead sheet; Google rating and count are from the lead sheet.
+def _y(biz, rows):
+    return V.track([(n, "Yelp review", q, V.yelp(biz, h), "Yelp") for n, q, h in rows])
+
+
+SITES["freddies-auto-repair"] = dict(
+    art=dict(hero="poster", ink="#1B1F1A", bone="#F1F0E8", acc="#2D6A4F", star="#E3B23C", h1="9.4vw", svc="index", mark="Freddie's", word="Freddie's", wordsz="20vw"),
+    short="Freddie's Auto Repair", kicker="Auto repair · E Mission Blvd, Pomona", footer="Freddie's Auto Repair · Pomona, CA",
+    h1=("Honest mechanics", "still exist."), lede="Auto repair and oil changes on East Mission Boulevard. Customers on Yelp keep using the same two words: honest and knowledgeable.",
+    phone="(909) 622-7216", addr="915 E Mission Blvd<br>Pomona, CA 91766", maps=GM + "Freddie%27s+Auto+Repair+915+E+Mission+Blvd+Pomona+CA",
+    hours=["8:30 AM – 5:00 PM"] * 5 + ["Closed", "Closed"],
+    ratings=[("4.6", "Google · 71 reviews", GM + "Freddie%27s+Auto+Repair+915+E+Mission+Blvd+Pomona+CA")],
+    services=[("", [("Auto repair", "Tell Freddie what the car is doing and he'll tell you what it needs."), ("Oil changes", ""), ("Diagnosis", "Call first with the year, make and model.")])],
+    svc_title="Bring it to Freddie.", svc_text="A small shop where you talk to the person working on your car.",
+    photos=(PX(8985660, 1800), PX(6870299)), alt=("Mechanic rolling a tire beside a car on a lift", "Close-up of a brake rotor being inspected"),
+    track=_y("freddies-auto-repair-pomona", [("Mary K.", "There really is still honest and reliable mechanics.", "6Leu7W5E5axejUxgiyWcYw"), ("Victor G.", "Honest and great mechanical knowledge…", "vN9mnCOWe3P8VmxHaXNLoQ"), ("Yolanda M.", "Freddy is so knowledgeable, friendly & does an amazing job!", "sOjG6YB0lsZvOr5TEwB_zA"), ("Party A.", "They're honest and hard working.", "BFLy1HSnixKdu3FILeRFlQ"), ("Erin B.", "I've been coming here for years…", "uygv3qF2WJskuclBIYdzCQ")]),
+    extra_js=V.CAROUSEL_JS,
+)
+SITES["bates-auto-service"] = dict(
+    art=dict(hero="split", serif=True, ink="#1E1A2B", bone="#F4F1EC", acc="#5B3F9B", star="#E0A62E", h1="9vw", svc="rows", rowsz="6.6vw", mark="Bates Auto", word="Bates", wordsz="26vw"),
+    short="Bates Auto Service", kicker="Auto repair · W 9th St, Upland", footer="Bates Auto Service · Upland, CA",
+    h1=("Worth the", "drive."), lede="Auto repair on West 9th Street in Upland. Yelp reviewers mention quick turnaround, competitive pricing and Henry, who they keep coming back to.",
+    phone="(909) 949-7984", addr="958 W 9th St<br>Upland, CA 91786", maps=GM + "Bates+Auto+Service+958+W+9th+St+Upland+CA",
+    hours=["8:00 AM – 5:00 PM"] * 5 + ["Closed", "Closed"],
+    ratings=[("4.7", "Google · 69 reviews", GM + "Bates+Auto+Service+958+W+9th+St+Upland+CA")],
+    services=[("", [("Diagnosis", "A strange noise, a warning light, overheating. Start by describing it."), ("Repairs", "Call with the year, make and model for a quote."), ("Maintenance", "Ask what your car is due for.")])],
+    svc_label="What we do",
+    photos=(PX(8986100, 1600), PX(6870311)), alt=("Mechanic working under a car on a lift", "Mechanic inspecting a tire in a workshop"),
+    track=_y("bates-auto-service-upland-3", [("Theresa H.", "…it's totally worth the drive!", "vbOUwIvyOV4hUTKg6-ZOiQ"), ("Jeff B.", "Great customer service, competitive pricing, and a quick turnaround!", "SfDfG54_SNsFaPVveXYlbQ"), ("B N.", "Quick quality service…", "EC6sEcUxZq7-czo7lq2JVA"), ("Rita C.", "I'm a returning customer of Henry.", "jD2VfHy5NzTjMNmO8qMFEQ")]),
+    extra_js=V.CAROUSEL_JS,
+)
+SITES["express-transmissions"] = dict(
+    art=dict(hero="block", ink="#111417", bone="#F2F2F0", acc="#0F5C7A", star="#F2B84B", h1="10.6vw", stretch="76%", svc="index", mark="Express Transmissions", word="Express", wordsz="22vw"),
+    short="Express Transmissions", kicker="Transmission shop · E Mission Blvd, Pomona", footer="Express Transmissions · Pomona, CA",
+    h1=("Slipping gears?", "Start here."), lede="A family-owned transmission shop on East Mission Boulevard. Transmission repair, differentials, transfer cases and diagnostics, plus fleet service.",
+    phone="(909) 469-2282", addr="309 E Mission Blvd<br>Pomona, CA 91766", maps=GM + "Express+Transmissions+309+E+Mission+Blvd+Pomona+CA",
+    hours=["8:00 AM – 6:00 PM"] * 5 + ["8:00 AM – 2:00 PM", "Closed"],
+    ratings=[("4.7", "Google · 48 reviews", GM + "Express+Transmissions+309+E+Mission+Blvd+Pomona+CA")],
+    services=[("Drivetrain", [("Transmission repair", "Including rebuilds. Ask for a price before any work starts."), ("Differential service", ""), ("Transfer case repair", ""), ("Diagnostics", "A check-up to find out what the transmission actually needs.")]),
+              ("Also", [("Fleet service", "Maintenance for commercial vehicles."), ("Makes", "The listing names Chevrolet, Dodge, Ford, Honda and Toyota.")])],
+    svc_title="Transmissions. Only transmissions.", svc_text="Tell us the vehicle and what it's doing when it shifts.",
+    about=dict(title="Ask about the warranty.", text="The shop's listing mentions a three-year, 100,000-mile warranty on transmission work. Ask for the terms when you call."),
+    photos=(PX(31097241, 1800), PX(8986100)), alt=("Mechanic working on a wheel in a workshop", "Mechanic working under a car on a lift"),
+    track=_y("express-transmission-pomona", [("Aren Y.", "I was referred to Juan by my trusted mechanic and he was responsive…", "-jhN4lnS7AJ9HSVmXJT7WA"), ("Geno F.", "Jaun is a great guy to work with…", "_xJkz94E4x_7Dj_oVHzH4w"), ("Daniel S.", "…they did a great job…", "xi4JSvWLrbribTa5AIwF5A")]),
+    extra_js=V.CAROUSEL_JS,
+)
+SITES["menas-brake-suspension"] = dict(
+    art=dict(hero="photo", ink="#1A1210", bone="#F5F0E6", acc="#B5361C", star="#F0B429", h1="10.4vw", svc="index", mark="Menas", word="Menas", wordsz="26vw"),
+    short="Menas Brake & Suspension", kicker="Brakes, suspension and repair · E Holt Blvd, Ontario", footer="Menas Brake & Suspension · Ontario, CA",
+    h1=("Brakes first.", "Then everything else."), lede="Brake service and suspension on East Holt Boulevard, plus diagnostics, tune-ups, oil changes and engine and transmission work.",
+    phone="(909) 933-9131", addr="646 E Holt Blvd<br>Ontario, CA 91761", maps=GM + "Menas+Brake+%26+Suspension+646+E+Holt+Blvd+Ontario+CA",
+    hours=["8:00 AM – 5:30 PM"] * 5 + ["8:00 AM – 1:30 PM", "Closed"],
+    ratings=[("4.6", "Google · 47 reviews", GM + "Menas+Brake+%26+Suspension+646+E+Holt+Blvd+Ontario+CA")],
+    services=[("Under the car", [("Brake service", ""), ("Suspension", ""), ("Axle replacement", "")]),
+              ("Under the hood", [("Diagnostics", ""), ("Tune-ups", ""), ("Oil changes", ""), ("Engine and transmission overhaul", ""), ("Transmission service", ""), ("Electrical", ""), ("Fuel pump replacement", "")])],
+    svc_title="What the shop lists.", svc_text="Call with the car and the symptom. Ask for a price before work starts.",
+    rev_text="Rated 4.6 on Google. Open the listing to read what customers wrote.",
+    photos=(PX(6870299, 1800), PX(8985660)), alt=("Close-up of a brake rotor being inspected", "Mechanic rolling a tire beside a car on a lift"),
+)
+SITES["the-auto-clinic"] = dict(
+    art=dict(hero="split", ink="#0E2A2A", bone="#F0F3EF", acc="#0E7C6B", star="#E8A93A", h1="8.6vw", stretch="84%", svc="rows", rowsz="6.6vw", mark="The Auto Clinic", word="Auto Clinic", wordsz="17vw"),
+    short="The Auto Clinic", kicker="Auto repair · Schaefer Ave, Chino", footer="The Auto Clinic · Chino, CA",
+    h1=("A second opinion", "you can trust."), lede="Auto repair and oil changes on Schaefer Avenue in Chino. Yelp reviewers describe Marcos as knowledgeable, honest and willing to explain.",
+    phone="(909) 628-6796", addr="5530 Schaefer Ave, Ste A<br>Chino, CA 91710", maps=GM + "The+Auto+Clinic+5530+Schaefer+Ave+Chino+CA",
+    hours=["8:00 AM – 4:00 PM"] * 5 + ["Closed", "Closed"],
+    ratings=[("4.9", "Google · 55 reviews", GM + "The+Auto+Clinic+5530+Schaefer+Ave+Chino+CA")],
+    services=[("", [("Oil changes", "The job reviewers mention most."), ("Repairs", "Call with the year, make and model."), ("Check-ups", "Not a car person? Ask Marcos to walk you through it.")])],
+    svc_label="What we do",
+    photos=(PX(6870311, 1600), PX(8986100)), alt=("Mechanic inspecting a tire in a workshop", "Mechanic working under a car on a lift"),
+    track=_y("the-auto-clinic-chino", [("Gracie D.", "Marcos is the best! He's incredibly knowledgeable and honest…", "usS-tUUGQ4hQtRdoappPhw"), ("Regina B.", "I trust him !!", "nQc5-yFg-Gw_y6kuPzV9Ig"), ("Kayli M.", "…amazed at how nice and informative Marcos was.", "h02mgS4Ur3-kysBN2qPDxQ"), ("Jair", "The guy is really honest…", "Rs5mzlIv4_IcYkAzeoZabQ"), ("Drew N.", "For service that goes above and beyond…", "EeoQwWCTuHkJ2iT8jCMU2g")]),
+    extra_js=V.CAROUSEL_JS,
+)
+
+
 def _lum(h):
     c = [int(h[i:i + 2], 16) / 255 for i in (1, 3, 5)]
     c = [x / 12.92 if x <= .03928 else ((x + .055) / 1.055) ** 2.4 for x in c]
