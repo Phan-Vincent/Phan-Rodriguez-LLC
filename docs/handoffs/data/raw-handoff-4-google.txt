@@ -1,0 +1,39 @@
+Raw Google Maps extracts for handoff 4. Read in a browser on 2026-11-10 by Vincent's session.
+Format per line: sheet row | listing name | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Tues first because the page was read on a Tuesday; * marks Wednesday Nov 11, Veterans Day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+79 | TJ Auto Repair | 4.8 | 38 | 1524 S Garey Ave, Pomona, CA 91766 |  | (909) 622-0669 | web:none | claimed? | Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 6 PM | TOPICS honest mechanic:6, knowledgeable owner:4, problem diagnosis:2, pricing:7, willing to help:2, trustworthy:2, expertise:2, kindness:2, fair:3, skill:4
+
+80 | Sanchez Auto Electric | 4.3 | 38 | 809 E 2nd St, Pomona, CA 91766 |  | (909) 623-2374 | web:none | claimed? | Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM*; Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5:30 PM | TOPICS honesty:2, window:2
+
+81 | EJ's Auto | 4.8 | 36 | 16635 Foothill Blvd Suite 104, Fontana, CA 92335 |  | (951) 237-6600 | web:none | claimed? | Tues: 9 AM to 5 PM; Wednes: 9 AM to 5 PM*; Thurs: 10 AM to 5 PM; Fri: 9 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 9 AM to 5 PM | TOPICS engine swap:2, fast repair:4, gaskets:2, pricing:9, customer care:2, job:3, opinion:2
+
+83 | Ontario Japan Auto | 4.6 | 36 | 2215 E 4th St, Ontario, CA 91764 |  | (909) 941-8855 | web:none | claimed? | Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 12:30 PM; Sun: Closed; Mon: 8 AM to 6 PM | TOPICS intake hose replacement:2, knowledgeable staff:8, oil change:2, turnaround time:2, mechanics:3, trustworthy:2, modified:2, honesty:3, door:2, AC:3
+
+84 | SG Mechanics Auto shop Repair | 4.4 | 35 | 15867 Foothill Blvd suite C, Fontana, CA 92335 |  | (909) 452-6061 | web:none | claimed? | Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2:30 PM; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS car repair:3
+
+85 | Roadhaus Automotive & Diesel Specialist | 4.4 | 35 | 10638 Ramona Ave, Montclair, CA 91763 |  | (909) 621-5665 | web:none | claimed? | Tues: 9 AM to 6 PM; Wednes: 9 AM to 6 PM*; Thurs: 9 AM to 6 PM; Fri: 9 AM to 6 PM; Satur: 9 AM to 3 PM; Sun: Closed; Mon: 9 AM to 6 PM | TOPICS mechanics:5, payment:2, light:3, car repair:3
+
+86 | Avant-Garde Automotive | 4.9 | 34 | 13611 12th St Ste B, Chino, CA 91710 |  | (909) 964-6515 | web:none | claimed? | Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 6 PM; Sun: Closed; Mon: 8 AM to 6 PM | TOPICS knowledgeable staff:9, pricing:7, car repair:3, choice:2, BMW:2
+
+87 | M&M CAR PRO'S | 4.9 | 34 | 16534 Ceres Ave #3, Fontana, CA 92335 |  | (909) 329-6162 | web:none | claimed? | Tues: 9 AM to 5 PM; Wednes: 9 AM to 5 PM*; Thurs: 9 AM to 5 PM; Fri: 9 AM to 5 PM; Satur: 9 AM to 2 PM; Sun: Closed; Mon: 9 AM to 5 PM | TOPICS deductible assistance:2, dent repair:2, fast work:4, fair pricing:2, bumper:3, time-saving:2, painting:2
+
+88 | Pro Auto Service | 4.6 | 33 | 836 E Holt Ave #91767, Pomona, CA 91767 |  | (909) 302-2054 | web:none | claimed? | Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM*; Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 8 AM to 4 PM; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS knowledgeable mechanics:3, personable staff:2, work quality:2, efficiency:2
+
+89 | Omar Auto Body Paint And Repair | 4.8 | 33 | 16522 Ceres Ave Ste 3, 4, Fontana, CA 92335 |  | (909) 685-3183 | web:none | claimed? | Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 12 PM; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS bumper repair:2, family owned shop:2, communicative:2, truck:2
+
+91 | Chino Valley Auto Repair | 4.7 | 31 | 5260 Las Flores Dr, Chino, CA 91710 |  | (909) 597-1131 | web:none | UNCLAIMED | (no hours on the listing) | TOPICS promptness:2, pricing:4, busy:2, honesty:2, call:3, car repair:2, mechanic:4
+
+92 | Auto Tech Center | 4.7 | 31 | 1407 W Holt Ave, Pomona, CA 91768 |  | (909) 868-7000 | web:none | claimed? | Tues: 9 AM to 6 PM; Wednes: 9 AM to 6 PM*; Thurs: 9 AM to 6 PM; Fri: 9 AM to 6 PM; Satur: 9 AM to 6 PM; Sun: Closed; Mon: Closed | TOPICS helpful mechanics:3, fair pricing:2
+
+Supervisor notes to carry into the handoff:
+- Row 87: Yelp lists a website, fontanammauto.com. The supervisor opened it on Nov 10: it is a GoDaddy "parked free" page, so the domain has lapsed or is unused. The lead stays valid; this is a pitch point.
+- Row 91: Chino Valley Auto Repair is at 5260 Las Flores Dr, the same address as Auto Technik Carcare (Suite A and B), which already has a site in the repo. The listing is unclaimed and shows no hours, and Yelp has no page for it. It may be a previous business at that address. Verdict should be Hold until someone confirms it still exists.
+- Row 88: the Google address reads "836 E Holt Ave #91767", where the suite number looks like the ZIP code typed into the wrong field. Flag it. Monday closes at 5 PM while Tuesday to Friday close at 5:30 PM.
+- Row 81: Thursday opens at 10 AM on both Google and Yelp; other weekdays 9 AM. The owner's Yelp text says the shop specialises in Subarus and works on any Japanese car. The 951 area code is not local to Fontana.
+- Row 86: owner's Yelp text names the makes it specialises in (BMW, Mercedes-Benz, Volvo, Porsche, Bentley, Ferrari) and says Spanish is spoken.
+- Row 85: Roadhaus is at 10638 Ramona Ave, next to J C Auto Electric (10640), which already has a site. Owner text says "nearly four decades".
+- Row 92: closed Monday and Sunday on both sites; open Saturday until 6. Yelp name adds "CC"; categories include body shop, and owner text is about collision work, paint, frame machine and towing.
+- Row 87: owner's Yelp text says family owned and operated since 2009 and that insurance claims are welcome.
+- Rows 87 and 89 are both body shops on Ceres Ave in Fontana, the same street as JC Bumper Repair, Ceres Collision and John's Auto Repair, which already have sites.
+- Row 82 (a gardening service with no address) and row 90 (a clean-up service) were not researched.

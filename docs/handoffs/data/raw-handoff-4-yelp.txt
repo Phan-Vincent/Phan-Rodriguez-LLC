@@ -1,0 +1,27 @@
+Raw Yelp extracts for handoff 4. Read in a browser on 2026-11-10 by Vincent's session.
+Format per line: sheet row | supervisor's match verdict | Yelp path || page header (name, rating, review count, claimed, categories) || SVC: services offered || ABOUT: owner text (owner and manager names already removed) || LOC: address and weekly hours || web: business website shown on Yelp || phone shown on Yelp
+Text is run together because it was extracted without spacing; split it sensibly.
+
+79 | MATCH | /biz/tj-auto-repair-pomona || TJ Auto Repair5.0 (14 reviews)Unclaimed Auto Repair || SVC:Routine automotive maintenance || ABOUT: || LOC:1524 S Garey AvePomona, CA 91766 (no hours listed) || web:none || (909) 622-0669
+
+80 | MATCH | /biz/sanchez-auto-electric-pomona || Sanchez Auto Electric3.5 (6 reviews) ClaimedAuto Repair || SVC:Auto battery or electrical system repairBatteryAuto brake repairAuto engine repairAuto general diagnosisAuto HVAC repairSee 13 More || ABOUT: || LOC:809 E 2nd StPomona, CA 91766 (no hours listed) || web:none || (909) 623-2374
+
+81 | MATCH | /biz/ejs-auto-fontana || EJ'S Auto4.6 (22 reviews) ClaimedAuto Repair || SVC:Auto transmission repairOil changesRoutine automotive maintenanceTransmission leak inspection || ABOUT:we are a shop specialized on Subarus but we can work on any Japanese car, from oil changes to full swaps, timing belts, clutch, engine swaps, transmission swaps, rebuilt engines, build short blocks, h[...] || LOC:16635 Foothill BlvdSte 104fontana , CA 92335 Mon9:00 AM - 5:00 PMTue9:00 AM - 5:00 PMWed9:00 AM - 5:00 PMThu10:00 AM - 5:00 PMFri9:00 AM - 5:00 PMSatClosedSunClosed || web:none || (951) 237-6600
+
+83 | NO MATCH: Yelp search returned no result. Treat row 83 as having no Yelp page.
+
+84 | NO MATCH: the result is a mobile mechanic in another city with a different phone. Treat row 84 as having no Yelp page.
+
+85 | MATCH | /biz/roadhaus-automotive-and-diesel-specialist-montclair || Roadhaus Automotive & Diesel Specialist 4.5 (24 reviews) ClaimedAuto Repair, Transmis[sion Repair] || SVC:Auto battery or electrical system repairBatteryAuto brake repairAuto engine repairAuto fluids and filters maintenanceAuto HVAC repairSee 7 More || ABOUT:For nearly four decades, our auto technicians have worked around the clock to deliver the exceptional craftsmanship that our clients demand and expect. When we repair cars, we aim to make them better [...] || LOC:10638 Ramona AveMontclair, CA 91763 Mon9:00 AM - 6:00 PMTue9:00 AM - 6:00 PMWed9:00 AM - 6:00 PMThu9:00 AM - 6:00 PMFri9:00 AM - 6:00 PMSat9:00 AM - 3:00 PMSunClosed || web:none || (909) 621-5665
+
+86 | MATCH | /biz/avant-garde-automotive-chino-2 || Avant-Garde Automotive4.7 (86 reviews) ClaimedAuto Repair, Oil Change Stations, Hybri[d Car Repair] || SVC:Verified by Business Auto battery or electrical system repairBatteryAuto brake repairAuto engine repairAuto fluids and filters maintenanceAuto general [diagnosis] || ABOUT:We specialize in BMW, Mercedes-Benz, Volvo, Porsche, Bentley, and Ferrari. We perform maintenance tu[n]e-ups, brakes, air conditioning, engine works, transmission, and electrical works. Se Habla Español || LOC:13611 12th StUnit BChino, CA 91710Serving Chino Area Mon8:00 AM - 6:00 PMTue8:00 AM - 6:00 PMWed8:00 AM - 6:00 PMThu8:00 AM - 6:00 PMFri8:00 AM - 6:00 PMSat8:00 AM - 6:00 PMSunClosed || web:none || (909) 964-6515
+
+87 | MATCH (Yelp lists a website) | /biz/m-and-m-car-pros-fontana-4 || M&M Car Pro's4.3 (18 reviews) ClaimedBody Shops || SVC:Auto body restorationBumper repairCollision repairDent removalAuto frame straighteningSee 6 More || ABOUT:M&M Car Pro's of Fontana, California specializes in professional auto body service & collision repairs. As family owned & operated since 2009, M & M Auto Body & Paint welcomes all insurance claims. [...] || LOC:16534 Ceres AveFontana, CA 92335Serving Fontana Area Mon9:00 AM - 5:00 PMTue9:00 AM - 5:00 PMWed9:00 AM - 5:00 PMThu9:00 AM - 5:00 PMFri9:00 AM - 5:00 PMSat9:00 AM - 2:00 PMSunClosed || web:fontanammauto.com || (909) 329-6162
+
+88 | NO MATCH: the result is a different shop at a different address. Treat row 88 as having no Yelp page.
+
+89 | NO MATCH: the result is Ceres Auto Body and Paint, a different business two doors away. Treat row 89 as having no Yelp page.
+
+91 | NO MATCH: the result is a shop in Chino Valley, Arizona. Treat row 91 as having no Yelp page.
+
+92 | MATCH (Yelp name adds "CC") | /biz/auto-tech-center-cc-pomona || Auto Tech Center CC4.7 (18 reviews) ClaimedAuto Repair, Body Shops || SVC:Verified by Business Auto battery or electrical system repairBatteryAuto brake repairAuto engine repairAuto fluids and filters maintenanceAuto general [diagnosis] || ABOUT:We offer Auto collision services,included paint ,frame machine, and towing at affordable rates we work with all insurance companies to insure a smooth progress.… || LOC:1407 W Holt AvePomona, CA 91768 MonClosedTue9:00 AM - 6:00 PMWed9:00 AM - 6:00 PMThu9:00 AM - 6:00 PMFri9:00 AM - 6:00 PMSat9:00 AM - 6:00 PMSunClosed || web:none || (909) 868-7000
