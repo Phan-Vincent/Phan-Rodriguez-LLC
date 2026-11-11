@@ -1,3 +1,5 @@
+> **Superseded on 2026-11-10.** Andrew asked for every site to be rebuilt in the shared house style (see the root `DESIGN.md`, section "All lead sites rebuilt in the house style"). The notes below describe Vincent's original concept, which is still in git history (last commit before the rebuild: `e69ee8b`). Screenshots in this folder show the original.
+
 # King Tire Shop — "Till nine"
 
 Concept website for King Tire Shop, 8939 Rose Ave, Montclair, CA 91763.

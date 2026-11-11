@@ -2,371 +2,129 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#1f7d7c">
-<title>Toy Shop Transmissions — Back in drive (concept)</title>
-<meta name="description" content="Concept website for Toy Shop Transmissions, 1292 E 3rd St, Pomona. Automatic transmission rebuilds and repair, leak inspection, rear differential rebuilds, hot rods and older vehicles. Call (909) 620-5849.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;family=Karla:wght@400;700&amp;display=swap" rel="stylesheet">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Toy Shop Transmissions | Pomona</title>
+<meta name="description" content="Toy Shop Transmissions. Transmissions and differentials for hot rods, customs and the car you drive to work. Concept site.">
 <style>
-:root{
-  --turq:#1f7d7c;
-  --cream:#f1e9d6;
-  --cream-d:#e3d6b8;
-  --red:#a5142b;
-  --chrome:#c8cdd0;
-  --ink:#1d1a17;
-  --display:"Alfa Slab One",Georgia,"Times New Roman",serif;
-  --body:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --frame:1200px;
-  --gutter:clamp(16px,4vw,56px);
-}
-*,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{
-  margin:0;
-  background:var(--cream);
-  color:var(--ink);
-  font-family:var(--body);
-  font-size:17px;
-  line-height:1.55;
-  -webkit-font-smoothing:antialiased;
-}
-h1,h2,p,ul,figure{margin:0}
-ul{padding:0;list-style:none}
-a{color:inherit}
-address{font-style:normal}
-:focus-visible{outline:3px solid var(--red);outline-offset:3px}
-.hero :focus-visible{outline-color:#fff}
-main:focus{outline:none}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+.skip{position:absolute;left:16px;top:-80px;z-index:99;background:#fff;color:#000;padding:10px;border-radius:6px}.skip:focus{top:10px}
+.label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:6px;font-weight:600;font-size:15px;background:var(--chip);color:var(--ink);transition:filter .175s}
+.btn:hover{filter:brightness(.94)}.btn.primary{background:var(--accent);color:#fff}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
+.muted{color:var(--muted)}
+table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
+th{text-align:left;font-weight:500}td{text-align:right;white-space:nowrap}
+@media(max-width:480px){table{font-size:14px}th,td{padding:9px 8px}}th,td{padding:10px 12px;background:var(--row,#fff)}
+tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
+tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#1A6B6A;--dark:#1D1A17;--gold:#D9B45A;--focus:#1A6B6A}
+h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+.lede{font-size:18px;margin-top:18px;max-width:560px}
+.sub{font-size:15px;font-weight:600;margin-top:10px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.gt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{padding:22px;border-top:4px solid var(--accent)}.tile h3{font-size:19px}.tile p{color:var(--muted);font-size:15px;margin-top:6px}
+.svc li{display:grid;grid-template-columns:14px 1fr;gap:14px;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc h3{font-size:18px}.svc p{color:var(--muted);font-size:15px;margin-top:3px}.dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.rates{display:flex;flex-wrap:wrap;gap:14px}
+.rate{display:block;background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;padding:18px 22px;min-width:200px}
+.rate strong{display:block;font-size:30px;letter-spacing:-.02em;color:var(--accent)}.rate span{font-size:13.5px;color:var(--muted)}.rate em{display:block;font-style:normal;font-size:13px;font-weight:600;margin-top:8px;text-decoration:underline;text-underline-offset:4px}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}
+.q{padding:22px}.q p{font-size:19px;font-weight:600;line-height:1.35}.q cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:14px}
+.more{font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.pts{display:grid;gap:10px;margin-top:16px}.pts li{padding-left:16px;border-left:3px solid var(--gold)}.pts strong{display:block}
+.note{margin-top:12px;font-size:14.5px;color:var(--muted)}
+address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
+.bigphone{display:inline-block;font-size:clamp(26px,3.2vw,38px);font-weight:700;letter-spacing:-.02em;margin-top:14px}
+.name{font-weight:700;font-size:20px;letter-spacing:-.01em}
+@media(max-width:860px){.tiles{grid-template-columns:1fr}}
 
-.skip{
-  position:fixed;left:16px;top:-90px;z-index:40;
-  display:inline-flex;align-items:center;min-height:48px;
-  padding:12px 18px;background:var(--ink);color:var(--cream);
-  font-weight:700;text-decoration:none;
-}
-.skip:focus,.skip:focus-visible{top:12px;outline-color:#fff}
-
-.frame{max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
-
-/* ---------- hero ---------- */
-.hero{background:var(--turq);color:#fff}
-.hero .frame{
-  width:100%;display:flex;flex-direction:column;gap:clamp(16px,2.2vw,30px);
-  padding-block:clamp(16px,2.2vw,28px) clamp(40px,5.5vw,72px);
-}
-@media (min-width:820px){
-  .hero{min-height:84vh;display:flex;align-items:center}
-}
-.mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px}
-.shop{font-weight:700;font-size:clamp(17px,1.3vw,19px);letter-spacing:.01em}
-.tel{
-  display:inline-flex;align-items:center;min-height:48px;padding:4px 0;
-  font-weight:700;font-size:clamp(18px,1.6vw,21px);text-decoration:none;
-  text-decoration:underline;text-decoration-thickness:2px;
-  text-underline-offset:5px;text-decoration-color:rgba(255,255,255,.6);
-}
-.tel:hover{text-decoration-color:#fff}
-
-h1{
-  font-family:var(--display);font-weight:400;
-  font-size:clamp(52px,9vw,132px);line-height:.95;
-  letter-spacing:-.005em;text-wrap:balance;overflow-wrap:break-word;
-}
-.lede{max-width:46ch;font-size:clamp(18px,1.45vw,21px);line-height:1.5}
-.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(6px,1.4vw,16px)}
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;
-  min-height:52px;padding:12px 24px;border:2px solid transparent;border-radius:2px;
-  font-family:var(--body);font-weight:700;font-size:17px;line-height:1.3;
-  text-align:center;text-decoration:none;
-}
-.btn.primary{background:var(--red);border-color:var(--red);color:#fff}
-.btn.primary:hover{background:#8a1024;border-color:#8a1024}
-.btn.ghost{border-color:rgba(255,255,255,.85);color:#fff}
-.btn.ghost:hover{background:#fff;color:var(--turq)}
-.btn.line{border-color:var(--ink);color:var(--ink)}
-.btn.line:hover{background:var(--ink);color:var(--cream)}
-
-/* ---------- signature: shift indicator ---------- */
-.indicator{--strip:clamp(110px,16vw,200px);--pad:clamp(6px,.9vw,11px);margin-block:clamp(2px,.8vw,8px)}
-.bezel{
-  height:var(--strip);display:flex;padding:var(--pad);
-  background:var(--chrome);border:1px solid #a9b1b5;border-top-color:#e3e7e9;
-  border-radius:2px;
-}
-.face{
-  flex:1;min-width:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));
-  background:var(--cream);border-radius:1px;
-}
-.gear{
-  display:grid;place-items:center;min-width:0;
-  font-family:var(--display);font-weight:400;
-  font-size:clamp(48px,9vw,120px);line-height:1;color:var(--ink);
-}
-.plate{
-  display:grid;place-items:center;
-  width:min(88%,calc(var(--strip) * .9));
-  height:calc(100% - clamp(10px,1.6vw,20px));
-  background:var(--cream-d);
-}
-.track{
-  display:grid;grid-template-columns:repeat(5,minmax(0,1fr));
-  height:clamp(26px,3.6vw,44px);
-  padding-inline:calc(var(--pad) + 1px);
-}
-.needle{
-  grid-column:4;justify-self:stretch;
-  display:flex;flex-direction:column;align-items:center;height:100%;
-  transform:translateX(0);
-}
-.tip{
-  width:0;height:0;
-  border-left:8px solid transparent;
-  border-right:8px solid transparent;
-  border-bottom:11px solid var(--red);
-}
-.stem{background:var(--red)}
-@keyframes shift{
-  from{transform:translateX(-100%)}
-  78%{transform:translateX(6%)}
-  to{transform:translateX(0)}
-}
-@media (prefers-reduced-motion:no-preference){
-  .needle{animation:shift .8s cubic-bezier(.22,.9,.32,1) .3s 1 both}
-}
-@media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation:none!important;transition:none!important}
-}
-
-/* ---------- body sections ---------- */
-.stage{
-  display:grid;grid-template-columns:minmax(0,1fr);
-  grid-template-areas:"hours" "work" "before" "find";
-  gap:clamp(34px,6vw,52px);
-  padding-block:clamp(40px,6vw,84px);
-}
-.work{grid-area:work}
-.hours{grid-area:hours}
-.before{grid-area:before}
-.find{grid-area:find}
-@media (min-width:900px){
-  body{font-size:18px}
-  .stage{
-    grid-template-columns:repeat(12,minmax(0,1fr));
-    grid-template-areas:
-      "work work work work work work work hours hours hours hours hours"
-      "before before before before before before . find find find find find";
-    column-gap:clamp(20px,3vw,40px);
-    row-gap:clamp(48px,7vw,92px);
-    padding-block:clamp(56px,7vw,104px);
-  }
-  .hours{padding-top:clamp(26px,4vw,58px)}
-}
-h2{
-  font-family:var(--display);font-weight:400;
-  font-size:clamp(30px,3.4vw,46px);line-height:1.04;
-  text-wrap:balance;
-}
-section > h2 + *{margin-top:clamp(14px,1.9vw,22px)}
-
-.jobs{margin-top:clamp(18px,2.4vw,28px);border-bottom:1px solid var(--chrome)}
-.jobs li{
-  display:grid;gap:4px;max-width:56ch;
-  padding-block:clamp(14px,1.8vw,20px);
-  border-top:1px solid var(--chrome);
-}
-.jobs strong{font-weight:700;font-size:clamp(19px,1.6vw,22px);line-height:1.3}
-.jobs span{max-width:58ch}
-
-table{width:100%;border-collapse:collapse;margin-top:clamp(16px,2vw,22px)}
-caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-th,td{
-  text-align:left;padding:12px 8px;vertical-align:baseline;
-  border-top:1px solid var(--chrome);
-}
-th{font-weight:400;font-size:17px}
-td{text-align:right;font-weight:700;font-size:17px;white-space:nowrap}
-tr:last-child th,tr:last-child td{border-bottom:1px solid var(--chrome)}
-tr.today th,tr.today td{background:#ddcfb0;font-weight:700}
-.flag{display:none;font-weight:700;font-size:17px}
-tr.today .flag{display:block}
-.note{
-  margin-top:14px;max-width:42ch;
-  font-size:17px;line-height:1.5;color:#352f28;
-}
-
-.before p{max-width:52ch}
-.pay{margin-top:16px;font-weight:700}
-.find address{
-  margin-top:clamp(14px,1.8vw,20px);
-  font-weight:700;font-size:clamp(19px,1.7vw,23px);line-height:1.4;
-}
-.ratings{
-  margin-top:clamp(20px,2.6vw,32px);padding-top:14px;
-  max-width:48ch;font-size:17px;line-height:1.55;color:#352f28;
-  border-top:1px solid var(--chrome);
-}
-
-/* ---------- footer ---------- */
-footer{background:var(--ink);color:#dfd9cc;padding-block:clamp(26px,3.6vw,44px)}
-footer p{max-width:64ch;font-size:17px;line-height:1.6}
-footer p + p{margin-top:8px}
-
-/* ---------- fixed actions ---------- */
-.bar{display:none}
-@media (max-width:819px){
-  body{padding-bottom:82px}
-  .btn{width:100%}
-  .bar{
-    display:grid;grid-template-columns:1fr 1fr;
-    position:fixed;left:0;right:0;bottom:0;z-index:30;
-    background:var(--ink);border-top:2px solid var(--red);
-  }
-  .bar a{
-    display:flex;align-items:center;justify-content:center;
-    min-height:56px;padding:8px 12px;
-    font-weight:700;font-size:17px;text-decoration:none;
-    color:var(--cream);
-  }
-  .bar a:first-child{background:var(--red);color:#fff}
-}
-
-/* supervisor: needle made visible */
-.track{height:clamp(40px,5vw,64px)}
-.needle{display:block}
-.tip{margin:0 auto;border-left-width:13px;border-right-width:13px;border-bottom-width:18px}
-.stem{display:block;width:10px;height:calc(100% - 18px);margin:0 auto}
-.needle{position:relative}
-.tip{display:none}
-.stem{position:absolute;left:50%;top:16px;bottom:0;height:auto;width:10px;margin:0 0 0 -5px}
-.stem::before{content:"";position:absolute;left:50%;top:-17px;transform:translateX(-50%);border:13px solid transparent;border-top:0;border-bottom:18px solid var(--red)}
+header{background:var(--dark);color:#fff;--focus:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px}
+nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{text-decoration:underline;text-underline-offset:5px}
+header .btn{background:#fff;color:var(--dark)}
+.banner{position:relative;color:#fff;background:linear-gradient(90deg,color-mix(in srgb,var(--dark) 96%,transparent) 0,color-mix(in srgb,var(--dark) 84%,transparent) 48%,color-mix(in srgb,var(--dark) 38%,transparent) 100%),var(--img) center/cover var(--dark);--focus:#fff}
+.banner .wrap{padding:80px 0 128px}.banner .label{color:#ffffffcc}
+h1{font-size:clamp(34px,5vw,62px);max-width:680px;margin-top:10px}h1 span{color:var(--gold)}
+.banner .lede{color:#ffffffe0}.banner .sub{color:var(--gold)}
+.bar{display:grid;grid-template-columns:repeat(3,1fr);margin-top:-64px;position:relative;z-index:2}
+.bar>*{padding:22px 24px;border-right:1px solid var(--line)}.bar>*:last-child{border:0}
+.bar strong{display:block;font-size:19px;letter-spacing:-.01em;margin-top:4px}.bar a strong{color:var(--accent)}
+.bar small{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
+section{padding:60px 0 0}
+.split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:start}
+.side p{color:var(--muted);margin-top:12px;max-width:380px}
+.side img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:22px}
+.list .gt:first-child{margin-top:0}
+.aboutc{padding:30px;background:var(--dark)!important;color:#fff}.aboutc p{color:#ffffffd9;margin-top:10px;max-width:720px}.aboutc .pts li{border-color:var(--gold)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:22px}
+.day{padding:16px 8px;text-align:center}.dname{display:block;font-weight:700;font-size:14px}.day .tag{display:block;margin:6px auto 0;width:max-content}
+.day span.h{display:block;font-size:13px;color:var(--muted);margin-top:6px;line-height:1.35}
+.day.today{background:var(--dark);color:#fff}.day.today span.h{color:#ffffffcc}
+.find{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:26px 28px;margin-top:14px}
+@media(max-width:860px){nav{display:none}.name{font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}.banner .wrap{padding:48px 0 96px}.bar{grid-template-columns:1fr}.bar>*{border-right:0;border-bottom:1px solid var(--line)}.split{grid-template-columns:1fr;gap:24px}.week{grid-template-columns:1fr 1fr}.find{grid-template-columns:1fr}section{padding:42px 0 0}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="hero">
-  <div class="frame">
-    <div class="mast">
-      <p class="shop">Toy Shop Transmissions</p>
-      <a class="tel" href="tel:+19096205849">(909) 620-5849</a>
-    </div>
-
-    <div class="indicator" role="img" aria-label="Shift indicator showing P R N D L with the needle on Drive">
-      <div class="bezel">
-        <div class="face">
-          <span class="gear">P</span>
-          <span class="gear">R</span>
-          <span class="gear">N</span>
-          <span class="gear"><span class="plate">D</span></span>
-          <span class="gear">L</span>
-        </div>
-      </div>
-      <div class="track">
-        <span class="needle"><span class="tip"></span><span class="stem"></span></span>
-      </div>
-    </div>
-
-    <h1>Back in drive.</h1>
-    <p class="lede">Transmissions and differentials, rebuilt in Pomona. Hot rods, customs and the car you drive to work.</p>
-
-    <div class="cta-row">
-      <a class="btn primary" href="tel:+19096205849">Call (909) 620-5849</a>
-      <a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=1292+E+3rd+St+Pomona+CA+91766">Get directions</a>
-    </div>
-  </div>
-</header>
-
-<main id="main" tabindex="-1">
-  <div class="frame">
-    <div class="stage">
-      <section class="work" aria-labelledby="work-h">
-        <h2 id="work-h">What comes in</h2>
-        <ul class="jobs">
-          <li>
-            <strong>Automatic transmission rebuilds</strong>
-            <span>We rebuild and repair automatics, from a car that slips in second to one that will not move at all.</span>
-          </li>
-          <li>
-            <strong>Transmission leak inspection</strong>
-            <span>We find where the red fluid is coming from and tell you what it takes to stop it.</span>
-          </li>
-          <li>
-            <strong>Rear differential rebuilds</strong>
-            <span>A rear end that howls, whines or leaves a puddle on the floor gets rebuilt here.</span>
-          </li>
-          <li>
-            <strong>Older vehicles and hard-to-find parts</strong>
-            <span>Old trucks and cars with parts nobody stocks are worth asking about.</span>
-          </li>
-          <li>
-            <strong>Hot rods, customs and daily drivers</strong>
-            <span>The car you take to shows and the car you drive to work both come in.</span>
-          </li>
-        </ul>
-      </section>
-
-      <section class="hours" id="hours" aria-labelledby="hours-h">
-        <h2 id="hours-h">Hours</h2>
-        <table>
-          <caption>Shop hours</caption>
-          <tbody>
-            <tr data-day="1"><th scope="row">Monday<span class="flag">today</span></th><td>9:00 AM &ndash; 6:00 PM</td></tr>
-            <tr data-day="2"><th scope="row">Tuesday<span class="flag">today</span></th><td>9:00 AM &ndash; 6:00 PM</td></tr>
-            <tr data-day="3"><th scope="row">Wednesday<span class="flag">today</span></th><td>9:00 AM &ndash; 6:00 PM</td></tr>
-            <tr data-day="4"><th scope="row">Thursday<span class="flag">today</span></th><td>9:00 AM &ndash; 6:00 PM</td></tr>
-            <tr data-day="5"><th scope="row">Friday<span class="flag">today</span></th><td>9:00 AM &ndash; 6:00 PM</td></tr>
-            <tr data-day="6"><th scope="row">Saturday<span class="flag">today</span></th><td>Closed</td></tr>
-            <tr data-day="0"><th scope="row">Sunday<span class="flag">today</span></th><td>Closed</td></tr>
-          </tbody>
-        </table>
-        <p class="note">Hours from the Google listing, Nov 2026. Call before you tow it over.</p>
-      </section>
-
-      <section class="before" aria-labelledby="before-h">
-        <h2 id="before-h">Before you call</h2>
-        <p>Have the year, make and model ready. Describe what it does &mdash; slips going into second, will not shift at all, leaks red fluid &mdash; and say whether it still drives. If it does not drive, call before you arrange the tow.</p>
-      </section>
-
-      <section class="find" id="find" aria-labelledby="find-h">
-        <h2 id="find-h">Find us</h2>
-        <address>1292 E 3rd St<br>Pomona, CA 91766</address>
-        <div class="cta-row">
-          <a class="btn primary" href="tel:+19096205849">Call (909) 620-5849</a>
-          <a class="btn line" href="https://www.google.com/maps/dir/?api=1&amp;destination=1292+E+3rd+St+Pomona+CA+91766">Get directions</a>
-        </div>
-        <p class="pay">Credit cards accepted.</p>
-        <p class="ratings">4.9 on Google from 67 reviews, 4.9 on Yelp from 36, as of Nov 10, 2026.</p>
-      </section>
-    </div>
-  </div>
+<header><div class="wrap"><a href="#" class="name">Toy Shop Transmissions</a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Hours &amp; location</a></nav>
+<a class="btn" href="tel:+19096205849">(909) 620-5849</a></div></header>
+<main id="main">
+<div class="banner" role="img" aria-label="Mechanic repairing a transmission" style="--img:url(https://images.pexels.com/photos/29181492/pexels-photo-29181492.jpeg?auto=compress&cs=tinysrgb&w=1800)"><div class="wrap">
+<span class="label">Transmissions and differentials · Pomona</span><h1>Back in drive. <span>Rebuilt in Pomona.</span></h1>
+<p class="lede">Transmissions and differentials for hot rods, customs and the car you drive to work.</p></div></div>
+<div class="wrap"><div class="card bar">
+<div><span class="label">Shop hours</span><strong>Monday to Friday, 9 to 6</strong><small>Closed weekends</small></div>
+<a href="tel:+19096205849"><span class="label">Call</span><strong>(909) 620-5849</strong><small>Tap to call</small></a>
+<a href="#visit"><span class="label">Find us</span><strong style="color:var(--ink)">1292 E 3rd St</strong><small>Pomona, CA 91766</small></a>
+</div></div>
+<section id="services"><div class="wrap split">
+<div class="side"><span class="label">What comes in</span><h2>Slipping, leaking or stuck.</h2>
+<img loading="lazy" alt="Car on a lift in a repair bay" src="https://images.pexels.com/photos/15489247/pexels-photo-15489247.jpeg?auto=compress&cs=tinysrgb&w=1200"></div>
+<div class="list"><ul class="card svc"><li><span class="dot" aria-hidden="true"></span><div><h3>Automatic transmission rebuilds</h3><p>From a car that slips in second to one that will not move at all.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Transmission leak inspection</h3><p>We find where the red fluid is coming from and tell you what it takes to stop it.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Rear differential rebuilds</h3><p>A rear end that howls, whines or leaves a puddle on the floor gets rebuilt here.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Older vehicles and hard-to-find parts</h3><p>Old trucks and cars with parts nobody stocks are worth asking about.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Hot rods, customs and daily drivers</h3><p>The car you take to shows and the car you drive to work both come in.</p></div></li></ul><p class="note">Credit cards accepted.</p></div>
+</div></section>
+<section><div class="wrap"><div class="card aboutc"><h2>Before you call.</h2><p>Have the year, make and model ready. Describe what it does and say whether it still drives. If it does not drive, call before you arrange the tow.</p></div></div></section>
+<section id="reviews"><div class="wrap"><span class="label">Reviews</span><h2>4.9 on Google and Yelp.</h2>
+<div class="rates" style="margin-top:18px"><a class="rate" href="https://www.google.com/maps/search/?api=1&query=Toy+Shop+Transmissions+1292+E+3rd+St+Pomona+CA" target="_blank" rel="noopener noreferrer"><strong>4.9 ★</strong><span>Google · 67 reviews</span><em>Read the reviews ↗</em></a><div class="rate"><strong>4.9 ★</strong><span>Yelp · 36 reviews</span></div></div></div></section>
+<section id="visit"><div class="wrap"><span class="label">Hours &amp; location</span><h2>East 3rd Street, Pomona.</h2>
+<div class="week"><div class="card day" data-day="1"><span class="dname">Mon</span><span class="h">9 AM – 6 PM</span></div><div class="card day" data-day="2"><span class="dname">Tue</span><span class="h">9 AM – 6 PM</span></div><div class="card day" data-day="3"><span class="dname">Wed</span><span class="h">9 AM – 6 PM</span></div><div class="card day" data-day="4"><span class="dname">Thu</span><span class="h">9 AM – 6 PM</span></div><div class="card day" data-day="5"><span class="dname">Fri</span><span class="h">9 AM – 6 PM</span></div><div class="card day" data-day="6"><span class="dname">Sat</span><span class="h">Closed</span></div><div class="card day" data-day="0"><span class="dname">Sun</span><span class="h">Closed</span></div></div><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19096205849">(909) 620-5849</a> before you come in.</p></div>
+<div class="card find"><div><address>1292 E 3rd St, Pomona, CA 91766</address></div>
+<div class="actions" style="margin:0"><a class="btn primary" href="https://www.google.com/maps/dir/?api=1&destination=1292+E+3rd+St+Pomona+CA+91766" target="_blank" rel="noopener noreferrer">Get directions</a><a class="btn" href="tel:+19096205849">Call (909) 620-5849</a></div></div>
+</div></section>
 </main>
-
-<footer>
-  <div class="frame">
-    <p>Concept website by Phan Rodriguez LLC. Not the official Toy Shop Transmissions site.</p>
-    <p>Listing details checked Nov 10, 2026.</p>
-  </div>
-</footer>
-
-<nav class="bar" aria-label="Quick actions">
-  <a href="tel:+19096205849">Call</a>
-  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=1292+E+3rd+St+Pomona+CA+91766">Directions</a>
-</nav>
+<footer><div class="wrap"><strong>Toy Shop Transmissions · Pomona, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
-(function(){
-  try{
-    var wd = new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short'}).format(new Date());
-    var day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
-    var row = document.querySelector('tr[data-day="' + day + '"]');
-    if(row){ row.classList.add('today'); }
-  }catch(e){}
+(()=>{
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
+// highlight today's hours in the shop's time zone
+const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
+const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>
+
 </body>
 </html>

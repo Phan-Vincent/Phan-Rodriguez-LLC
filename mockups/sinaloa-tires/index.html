@@ -1,559 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#1f6fd0">
-<meta name="description" content="Concept website for Sinaloa Tires, 1542 S Garey Ave, Pomona, CA 91766. Used and new tires, flat repair, brakes and general repair, seven days a week. Call (909) 620-1199.">
-<title>Sinaloa Tires — Pomona used and new tires (concept)</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900&amp;display=swap" rel="stylesheet">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sinaloa Tires | Pomona</title>
+<meta name="description" content="Sinaloa Tires. Free air and a free check-engine scan. Aire gratis. Escaneo de check engine gratis. Concept site.">
 <style>
-  :root{
-    --orange:#e8530e;
-    --orange-dark:#c4460a;
-    --sky:#1f6fd0;
-    --stucco:#fbfaf6;
-    --asphalt:#22252a;
-    --yellow:#ffd21f;
-    --line:rgba(34,37,42,.16);
-    --line-sky:rgba(255,255,255,.32);
-    --soft:rgba(34,37,42,.72);
-    --soft-sky:rgba(255,255,255,.88);
-    --font:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
-  }
-  *{box-sizing:border-box}
-  html{scroll-behavior:smooth;scroll-padding-top:96px;-webkit-text-size-adjust:100%}
-  body{
-    margin:0;background:var(--stucco);color:var(--asphalt);
-    font-family:var(--font);font-weight:400;font-stretch:100%;
-    font-size:17px;line-height:1.55;overflow-x:clip;
-  }
-  h1,h2,h3,p,ul,figure,address{margin:0}
-  ul{padding:0;list-style:none}
-  a{color:inherit}
-  svg{display:block;max-width:100%}
-  .sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
-  .frame{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+.skip{position:absolute;left:16px;top:-80px;z-index:99;background:#fff;color:#000;padding:10px;border-radius:6px}.skip:focus{top:10px}
+.label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:6px;font-weight:600;font-size:15px;background:var(--chip);color:var(--ink);transition:filter .175s}
+.btn:hover{filter:brightness(.94)}.btn.primary{background:var(--accent);color:#fff}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
+.muted{color:var(--muted)}
+table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
+th{text-align:left;font-weight:500}td{text-align:right;white-space:nowrap}
+@media(max-width:480px){table{font-size:14px}th,td{padding:9px 8px}}th,td{padding:10px 12px;background:var(--row,#fff)}
+tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
+tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#B8430B;--dark:#22252A;--gold:#E9B949;--focus:#B8430B}
+h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+.lede{font-size:18px;margin-top:18px;max-width:560px}
+.sub{font-size:15px;font-weight:600;margin-top:10px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.gt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{padding:22px;border-top:4px solid var(--accent)}.tile h3{font-size:19px}.tile p{color:var(--muted);font-size:15px;margin-top:6px}
+.svc li{display:grid;grid-template-columns:14px 1fr;gap:14px;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc h3{font-size:18px}.svc p{color:var(--muted);font-size:15px;margin-top:3px}.dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.rates{display:flex;flex-wrap:wrap;gap:14px}
+.rate{display:block;background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;padding:18px 22px;min-width:200px}
+.rate strong{display:block;font-size:30px;letter-spacing:-.02em;color:var(--accent)}.rate span{font-size:13.5px;color:var(--muted)}.rate em{display:block;font-style:normal;font-size:13px;font-weight:600;margin-top:8px;text-decoration:underline;text-underline-offset:4px}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}
+.q{padding:22px}.q p{font-size:19px;font-weight:600;line-height:1.35}.q cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:14px}
+.more{font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.pts{display:grid;gap:10px;margin-top:16px}.pts li{padding-left:16px;border-left:3px solid var(--gold)}.pts strong{display:block}
+.note{margin-top:12px;font-size:14.5px;color:var(--muted)}
+address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
+.bigphone{display:inline-block;font-size:clamp(26px,3.2vw,38px);font-weight:700;letter-spacing:-.02em;margin-top:14px}
+.name{font-weight:700;font-size:20px;letter-spacing:-.01em}
+@media(max-width:860px){.tiles{grid-template-columns:1fr}}
 
-  /* focus */
-  :focus-visible{outline:3px solid var(--asphalt);outline-offset:3px}
-  .hero :focus-visible,.services :focus-visible,.reviews :focus-visible,footer :focus-visible{outline-color:#fff}
-  .btn.call:focus-visible,.head-call:focus-visible,.banner :focus-visible,.callbar :focus-visible{outline-color:var(--yellow)}
-
-  .skip{
-    position:fixed;left:14px;top:-110px;z-index:200;
-    background:var(--yellow);color:var(--asphalt);text-decoration:none;
-    font-weight:800;font-size:17px;padding:14px 20px;border-radius:4px;
-  }
-  .skip:focus{top:14px}
-
-  /* the flag column */
-  .rail{display:none}
-  @media (min-width:900px){
-    body{padding-left:112px}
-    .rail{
-      display:flex;position:fixed;left:0;top:0;bottom:0;width:112px;z-index:30;
-      background:var(--stucco);border-right:1px solid var(--line);
-      align-items:flex-start;justify-content:center;padding-top:12px;
-    }
-    .rail svg{height:min(860px,calc(100vh - 24px));width:auto;max-width:100%}
-  }
-  .flag-sway{
-    transform-box:fill-box;transform-origin:0 0;
-    animation:sway 6s ease-in-out infinite alternate;
-  }
-  @keyframes sway{
-    from{transform:rotate(-1.5deg)}
-    to{transform:rotate(1.5deg)}
-  }
-  .flagtype{
-    font-family:var(--font);font-weight:900;font-stretch:62%;
-    font-size:31px;fill:#fff;
-  }
-
-  /* mobile flag banner */
-  .banner{
-    display:flex;align-items:center;justify-content:space-between;gap:12px;
-    min-height:56px;padding:8px 20px;background:var(--orange);color:#fff;
-  }
-  .banner p{
-    font-weight:800;font-size:19px;line-height:1.2;letter-spacing:-.01em;
-  }
-  .banner svg{flex:none;width:48px;height:24px}
-  @media (min-width:900px){.banner{display:none}}
-
-  /* header */
-  .head{position:sticky;top:0;z-index:50;background:var(--stucco);border-bottom:1px solid var(--line)}
-  .head-in{display:flex;align-items:center;gap:28px;min-height:78px}
-  .brand{
-    font-weight:800;font-stretch:125%;font-size:26px;line-height:1;
-    letter-spacing:-.02em;text-decoration:none;white-space:nowrap;
-  }
-  .nav{margin-left:auto;display:flex;gap:26px;font-size:16px;font-weight:600}
-  .nav a{text-decoration:none;padding:7px 0;border-bottom:2px solid transparent;white-space:nowrap}
-  .nav a:hover{border-bottom-color:var(--orange)}
-  .head-call{
-    display:inline-flex;align-items:center;justify-content:center;min-height:48px;
-    background:var(--orange);color:var(--asphalt);text-decoration:none;
-    font-weight:800;font-size:16px;line-height:1;padding:0 16px;border-radius:4px;
-    white-space:nowrap;
-  }
-  .head-call:hover{background:var(--yellow)}
-
-  /* hero */
-  .hero{background:var(--sky);color:#fff;padding:clamp(46px,6.6vw,90px) 0 clamp(50px,7vw,96px)}
-  h1{
-    font-weight:800;font-stretch:125%;font-size:clamp(44px,8.2vw,128px);
-    line-height:.92;letter-spacing:-.022em;overflow-wrap:break-word;
-  }
-  .hero-es{
-    margin-top:clamp(18px,2.4vw,26px);font-weight:500;
-    font-size:clamp(20px,2.2vw,28px);line-height:1.35;max-width:30ch;
-  }
-  .chip{
-    display:inline-flex;align-items:center;margin-top:clamp(26px,3.4vw,40px);
-    background:var(--yellow);color:var(--asphalt);border-radius:999px;
-    padding:10px 20px;font-size:17px;font-weight:800;line-height:1.2;
-  }
-  .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px}
-  .btn{
-    display:inline-flex;align-items:center;justify-content:center;min-height:58px;
-    padding:14px 26px;border-radius:4px;border:2px solid transparent;
-    font-size:20px;font-weight:800;font-stretch:100%;line-height:1.1;
-    text-decoration:none;text-align:center;
-    transition:background-color .18s,color .18s,border-color .18s;
-  }
-  .btn.call{background:var(--orange);color:#fff;border-color:var(--orange)}
-  .btn.call:hover{background:var(--orange-dark);border-color:var(--orange-dark)}
-  .btn.dir{color:#fff;border-color:#fff}
-  .btn.dir:hover{background:#fff;color:var(--sky)}
-  .hero-addr{margin-top:24px;font-size:16px;font-weight:500;color:var(--soft-sky)}
-
-  /* find us */
-  .find{background:var(--stucco);padding:clamp(58px,8vw,110px) 0}
-  .find h2{
-    font-weight:800;font-stretch:125%;font-size:clamp(40px,6.4vw,94px);
-    line-height:.94;letter-spacing:-.022em;max-width:20ch;
-  }
-  .find .es{
-    margin-top:14px;font-size:clamp(20px,2.4vw,28px);font-weight:500;
-    line-height:1.35;
-  }
-  .find-body{
-    display:grid;grid-template-columns:.72fr 1.28fr;
-    gap:clamp(28px,4.5vw,60px);align-items:start;
-    margin-top:clamp(30px,4.4vw,56px);
-  }
-  .find-copy p{font-size:18px;line-height:1.6;max-width:38ch}
-  .find-copy .addr{margin-top:18px;font-weight:600}
-  .sketch{margin:0;min-width:0}
-  .sketch svg{width:100%;height:auto}
-  .sketch figcaption{
-    margin-top:10px;font-size:14px;font-weight:500;color:var(--soft);
-  }
-  .sketch-label{font-family:var(--font);font-size:17px;font-weight:600;fill:var(--asphalt)}
-  .sketch-label.strong{font-weight:800}
-  .sketch-label.small{font-size:15px}
-
-  /* services */
-  .services{background:var(--sky);color:#fff;padding:clamp(58px,8vw,110px) 0}
-  .serv-grid{
-    display:grid;grid-template-columns:1.45fr .55fr;
-    gap:clamp(32px,5vw,76px);align-items:start;
-  }
-  .tires h2{
-    font-weight:800;font-stretch:125%;font-size:clamp(46px,7vw,104px);
-    line-height:.9;letter-spacing:-.02em;
-  }
-  .tirelist{margin-top:clamp(18px,2.6vw,32px);border-top:1px solid var(--line-sky)}
-  .tirelist li{
-    font-weight:800;font-stretch:125%;font-size:clamp(28px,3.8vw,54px);
-    line-height:1.05;letter-spacing:-.015em;
-    padding:clamp(10px,1.5vw,18px) 0;border-bottom:1px solid var(--line-sky);
-  }
-  .rest h3{
-    font-weight:800;font-stretch:125%;font-size:clamp(25px,2.6vw,34px);
-    line-height:1.05;letter-spacing:-.01em;
-  }
-  .restlist{margin-top:18px;border-top:1px solid var(--line-sky)}
-  .restlist li{
-    font-size:17px;font-weight:600;line-height:1.4;padding:12px 0;
-    border-bottom:1px solid var(--line-sky);
-  }
-  .free{
-    margin-top:clamp(40px,5vw,68px);background:var(--yellow);color:var(--asphalt);
-    padding:clamp(24px,3.6vw,44px) clamp(22px,4vw,52px);border-radius:2px;
-  }
-  .free p{font-size:clamp(21px,2.8vw,32px);line-height:1.3}
-  .free .free-en{font-weight:800;font-stretch:125%;letter-spacing:-.01em}
-  .free .free-es{font-weight:500;font-stretch:100%;margin-top:5px}
-
-  /* payment and hours */
-  .hours{padding:0 0 clamp(58px,8vw,100px);background:var(--stucco)}
-  .pay{
-    border-top:2px solid var(--asphalt);border-bottom:1px solid var(--line);
-    padding:18px 0;font-size:18px;font-weight:600;line-height:1.45;
-  }
-  .hours-grid{
-    display:grid;grid-template-columns:1fr 1.05fr;
-    gap:clamp(32px,5vw,76px);align-items:start;
-    margin-top:clamp(28px,4vw,50px);
-  }
-  .hours h2{
-    font-weight:800;font-stretch:125%;font-size:clamp(44px,6.2vw,88px);
-    line-height:.92;letter-spacing:-.02em;
-  }
-  .hours .lead{margin-top:16px;font-size:20px;font-weight:600}
-  .hours .note{margin-top:14px;font-size:14px;line-height:1.6;color:var(--soft);max-width:34ch}
-  .hours-table{width:100%;border-collapse:collapse;font-size:18px}
-  .hours-table th,.hours-table td{
-    padding:14px 12px;text-align:left;border-bottom:1px solid var(--line);
-    vertical-align:baseline;
-  }
-  .hours-table th{font-weight:600}
-  .hours-table td{text-align:right;font-weight:500;white-space:nowrap}
-  .hours-table tr.today th,.hours-table tr.today td{
-    background:var(--yellow);color:var(--asphalt);font-weight:800;
-    border-bottom-color:var(--yellow);
-  }
-  .hours-table tr.today th{border-radius:4px 0 0 4px}
-  .hours-table tr.today td{border-radius:0 4px 4px 0}
-  .hours-table tr:last-child th,.hours-table tr:last-child td{border-bottom:0}
-  .hours-table tr.today:last-child th,.hours-table tr.today:last-child td{border-bottom:0}
-
-  /* reviews */
-  .reviews{background:var(--sky);color:#fff;padding:clamp(56px,7vw,96px) 0}
-  .reviews-grid{
-    display:grid;grid-template-columns:.82fr 1.18fr;
-    gap:clamp(32px,5vw,76px);align-items:end;
-  }
-  .reviews h2{
-    font-weight:800;font-stretch:125%;font-size:clamp(28px,3.2vw,40px);
-    line-height:1.05;letter-spacing:-.01em;
-  }
-  .rating{
-    margin-top:10px;font-weight:800;font-stretch:125%;
-    font-size:clamp(72px,10vw,128px);line-height:.82;letter-spacing:-.035em;
-    color:var(--yellow);
-  }
-  .rating-note{margin-top:12px;font-size:17px;font-weight:500;color:var(--soft-sky)}
-  .reviews-copy p{font-size:clamp(20px,2.2vw,26px);line-height:1.4;max-width:34ch}
-  .textlink{
-    display:inline-block;margin-top:22px;font-size:18px;font-weight:800;
-    color:#fff;text-decoration:underline;text-decoration-thickness:2px;
-    text-underline-offset:4px;
-  }
-  .textlink:hover{color:var(--yellow)}
-
-  /* footer */
-  footer{
-    background:var(--asphalt);color:#efece3;
-    padding:clamp(42px,5vw,64px) 0 clamp(30px,4vw,40px);
-  }
-  .foot-grid{
-    display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,4vw,56px);
-    align-items:start;
-  }
-  .foot-brand{
-    font-weight:800;font-stretch:125%;font-size:clamp(26px,3vw,34px);
-    line-height:1;letter-spacing:-.02em;color:#fff;
-  }
-  footer address{margin-top:16px;font-style:normal;font-size:16px;line-height:1.75}
-  footer a{color:#fff;text-decoration-color:rgba(255,255,255,.5);text-underline-offset:3px}
-  .foot-note{font-size:14px;line-height:1.65;color:#c9c6bd;max-width:54ch}
-
-  /* mobile call bar */
-  .callbar{display:none}
-  @media (max-width:699px){
-    html{scroll-padding-top:132px}
-    .frame{width:calc(100% - 40px)}
-    .head-in{
-      display:grid;grid-template-columns:1fr auto;gap:0 12px;
-      min-height:0;padding-top:10px;
-    }
-    .brand{grid-column:1;grid-row:1;font-size:21px}
-    .head-call{grid-column:2;grid-row:1;justify-self:end;font-size:15px;min-height:48px;padding:0 12px}
-    .nav{
-      grid-column:1 / -1;grid-row:2;margin:10px 0 0;gap:22px;
-      font-size:15px;border-top:1px solid var(--line);padding:0;
-    }
-    .nav a{padding:14px 0}
-    .banner p{font-size:clamp(15px,4.6vw,19px)}
-    .hero-actions{flex-direction:column;align-items:stretch}
-    .btn{width:100%}
-    .find-body{grid-template-columns:1fr}
-    .serv-grid{grid-template-columns:1fr;gap:40px}
-    .hours-grid{grid-template-columns:1fr}
-    .reviews-grid{grid-template-columns:1fr;align-items:start}
-    .foot-grid{grid-template-columns:1fr}
-    .hours-table{font-size:17px}
-    .callbar{
-      display:grid;grid-template-columns:1fr 1fr;gap:8px;
-      position:fixed;left:0;right:0;bottom:0;z-index:70;
-      background:var(--asphalt);padding:8px;
-      padding-bottom:calc(8px + env(safe-area-inset-bottom));
-    }
-    .callbar a{
-      display:flex;align-items:center;justify-content:center;text-align:center;
-      min-height:52px;padding:4px 8px;border-radius:4px;
-      font-size:17px;font-weight:800;line-height:1.15;text-decoration:none;
-    }
-    .callbar .call{background:var(--orange);color:var(--asphalt)}
-    .callbar .dir{background:var(--yellow);color:var(--asphalt)}
-    body{padding-bottom:84px}
-  }
-  @media (max-width:899px) and (min-width:700px){
-    .head-in{gap:18px}
-    .brand{font-size:22px}
-    .nav{gap:16px;font-size:15px}
-    .head-call{font-size:14px;padding:0 12px}
-  }
-  @media (max-width:1100px) and (min-width:900px){
-    .head-in{gap:20px}
-    .brand{font-size:23px}
-    .nav{gap:18px;font-size:15px}
-    .head-call{font-size:15px}
-  }
-
-  @media (prefers-reduced-motion:reduce){
-    html{scroll-behavior:auto}
-    .flag-sway{animation:none;transform:none}
-  }
+header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 1px 2px #0000001f}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:60px}
+.name{border-left:5px solid var(--accent);padding-left:10px}
+nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding:56px 0 64px}
+h1{font-size:clamp(34px,4.8vw,60px)}h1 em{font-style:normal;color:var(--accent)}
+.lede{color:var(--muted)}
+.hero img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
+section{padding:52px 0}
+.intro{max-width:640px;margin-bottom:6px}.intro p{margin-top:10px;color:var(--muted)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.row img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px}
+.row p{margin-top:12px;color:var(--muted)}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px;align-items:center;--row:#F0F2F5}
+@media(max-width:860px){nav{display:none}.hero{grid-template-columns:1fr;gap:26px;padding:26px 0 36px}.hero img{order:-1}.row{grid-template-columns:1fr;gap:18px}.visit{grid-template-columns:1fr;padding:22px}section{padding:38px 0}.name{font-size:17px}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<div class="rail">
-  <svg viewBox="0 0 112 860" role="img" aria-labelledby="flag-title">
-    <title id="flag-title">Sinaloa Tires feather flag: Used Tires, then Llantas Usadas, with a checkered tail at the bottom.</title>
-    <defs>
-      <pattern id="check" width="22" height="22" patternUnits="userSpaceOnUse">
-        <rect width="22" height="22" fill="#fbfaf6"/>
-        <rect width="11" height="11" fill="#22252a"/>
-        <rect x="11" y="11" width="11" height="11" fill="#22252a"/>
-      </pattern>
-    </defs>
-    <rect x="14" y="6" width="4" height="850" rx="2" fill="#22252a"/>
-    <g class="flag-sway">
-      <path d="M24 20 C60 6 96 28 100 70 C98 250 94 480 90 620 C88 660 66 690 36 696 L24 696 Z" fill="#e8530e"/>
-      <text class="flagtype" x="60" y="72" text-anchor="middle"><tspan x="60" dy="0">U</tspan><tspan x="60" dy="25">S</tspan><tspan x="60" dy="25">E</tspan><tspan x="60" dy="25">D</tspan><tspan x="60" dy="38">T</tspan><tspan x="60" dy="25">I</tspan><tspan x="60" dy="25">R</tspan><tspan x="60" dy="25">E</tspan><tspan x="60" dy="25">S</tspan></text>
-      <text class="flagtype" x="60" y="338" text-anchor="middle"><tspan x="60" dy="0">L</tspan><tspan x="60" dy="25">L</tspan><tspan x="60" dy="25">A</tspan><tspan x="60" dy="25">N</tspan><tspan x="60" dy="25">T</tspan><tspan x="60" dy="25">A</tspan><tspan x="60" dy="25">S</tspan><tspan x="60" dy="38">U</tspan><tspan x="60" dy="25">S</tspan><tspan x="60" dy="25">A</tspan><tspan x="60" dy="25">D</tspan><tspan x="60" dy="25">A</tspan><tspan x="60" dy="25">S</tspan></text>
-      <path d="M26 686 L74 686 L62 838 L34 838 Z" fill="url(#check)"/>
-    </g>
-  </svg>
-</div>
+<header><div class="wrap"><a href="#" class="name">Sinaloa Tires</a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+<a class="btn" href="tel:+19096201199">(909) 620-1199</a></div></header>
+<main id="main">
+<div class="wrap hero"><div><span class="label">Used tires · Llantas usadas · Pomona</span><h1 style="margin-top:10px">Used and new tires, <em>seven days a week.</em></h1>
+<p class="sub">Llantas usadas y nuevas, los siete días.</p><p class="lede">Free air and a free check-engine scan. Aire gratis. Escaneo de check engine gratis.</p>
+<div class="actions"><a class="btn primary" href="tel:+19096201199">Call (909) 620-1199</a><a class="btn" href="#visit">Hours &amp; directions</a></div></div>
+<img alt="Mechanic working on a wheel in a workshop" src="https://images.pexels.com/photos/31097241/pexels-photo-31097241.jpeg?auto=compress&cs=tinysrgb&w=1200"></div>
+<section id="services"><div class="wrap"><div class="intro"><span class="label">What we do</span><h2>Tires first. The rest, too.</h2></div>
+<h3 class="gt">Tires</h3><div class="tiles"><div class="card tile"><h3>Used tires</h3></div><div class="card tile"><h3>New tires</h3></div><div class="card tile"><h3>Flat repair</h3></div><div class="card tile"><h3>Mounting and balancing</h3></div><div class="card tile"><h3>Rotation</h3></div><div class="card tile"><h3>Tire sensor repair</h3></div></div><h3 class="gt">And the rest</h3><div class="tiles"><div class="card tile"><h3>Brakes</h3></div><div class="card tile"><h3>Oil changes</h3></div><div class="card tile"><h3>Check-engine diagnosis</h3></div><div class="card tile"><h3>General repair up to engine work</h3></div></div><p class="note">Bring cash or Zelle. Ask about cards when you call.</p></div></section>
 
-<header class="head">
-  <div class="frame head-in">
-    <a class="brand" href="#main">Sinaloa Tires</a>
-    <nav class="nav" aria-label="Page sections">
-      <a href="#find-us">Find us</a>
-      <a href="#services">Services</a>
-      <a href="#hours">Hours</a>
-    </nav>
-    <a class="head-call" href="tel:+19096201199">Call (909) 620-1199</a>
-  </div>
-</header>
-
-<div class="banner">
-  <p>Used tires / <span lang="es">Llantas usadas</span></p>
-  <svg viewBox="0 0 48 24" aria-hidden="true" focusable="false">
-    <rect width="48" height="24" fill="#fbfaf6"/>
-    <rect width="12" height="12" fill="#22252a"/>
-    <rect x="24" width="12" height="12" fill="#22252a"/>
-    <rect x="12" y="12" width="12" height="12" fill="#22252a"/>
-    <rect x="36" y="12" width="12" height="12" fill="#22252a"/>
-  </svg>
-</div>
-
-<main id="main" tabindex="-1">
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="frame">
-      <h1 id="hero-title">Used and new tires, seven days a week.</h1>
-      <p class="hero-es" lang="es">Llantas usadas y nuevas, los siete días.</p>
-      <p class="chip" id="open-chip" role="status">Open seven days</p>
-      <div class="hero-actions">
-        <a class="btn call" href="tel:+19096201199">Call (909) 620-1199</a>
-        <a class="btn dir" href="https://www.google.com/maps/search/?api=1&amp;query=Sinaloa+Tires+1542+S+Garey+Ave+Pomona+CA" target="_blank" rel="noopener">Get directions</a>
-      </div>
-      <p class="hero-addr">1542 S Garey Ave, Pomona, CA 91766</p>
-    </div>
-  </section>
-
-  <section class="find" id="find-us" aria-labelledby="find-title">
-    <div class="frame">
-      <h2 id="find-title">We're in the back.</h2>
-      <p class="es" lang="es">Estamos al fondo.</p>
-      <div class="find-body">
-        <div class="find-copy">
-          <p>The shop sits at the back of the lot and is hard to see from the street. Look for the orange flag at Garey Ave, then follow the driveway back to the building.</p>
-          <p class="addr">1542 S Garey Ave, Pomona, CA 91766</p>
-        </div>
-        <figure class="sketch">
-          <svg viewBox="0 0 900 430" role="img" aria-labelledby="sketch-title">
-            <title id="sketch-title">Sketch of the lot: Sinaloa Tires is in the building at the back, reached by a driveway from S Garey Ave. The orange flag stands at the street.</title>
-            <rect x="36" y="34" width="828" height="284" fill="#f1eee3"/>
-            <rect x="0" y="318" width="900" height="112" fill="#e9e6db"/>
-            <line x1="0" y1="318" x2="900" y2="318" stroke="#22252a" stroke-width="2"/>
-            <line x1="0" y1="392" x2="900" y2="392" stroke="#22252a" stroke-width="2" stroke-dasharray="22 18"/>
-            <text class="sketch-label strong" x="26" y="370">S Garey Ave</text>
-
-            <rect x="600" y="250" width="92" height="68" fill="#e2ded0"/>
-            <line x1="600" y1="250" x2="600" y2="318" stroke="#22252a" stroke-width="2" stroke-dasharray="8 7"/>
-            <line x1="692" y1="250" x2="692" y2="318" stroke="#22252a" stroke-width="2" stroke-dasharray="8 7"/>
-            <text class="sketch-label small" x="646" y="240" text-anchor="middle">Driveway</text>
-
-            <rect x="180" y="70" width="440" height="124" fill="#fbfaf6" stroke="#22252a" stroke-width="3"/>
-            <rect x="210" y="110" width="150" height="84" fill="none" stroke="#22252a" stroke-width="2"/>
-            <line x1="260" y1="110" x2="260" y2="194" stroke="#22252a" stroke-width="1.5"/>
-            <line x1="310" y1="110" x2="310" y2="194" stroke="#22252a" stroke-width="1.5"/>
-            <text class="sketch-label strong" x="400" y="160" text-anchor="middle" font-size="22">Shop</text>
-
-            <path d="M400 68 C387 50 379 42 379 32 A21 21 0 1 1 421 32 C421 42 413 50 400 68 Z" fill="#e8530e"/>
-            <circle cx="400" cy="32" r="7" fill="#fbfaf6"/>
-            <text class="sketch-label strong" x="434" y="38">Sinaloa Tires</text>
-
-            <line x1="790" y1="318" x2="790" y2="252" stroke="#22252a" stroke-width="3"/>
-            <path d="M793 256 C810 252 820 256 822 264 L820 288 C810 290 801 288 793 286 Z" fill="#e8530e"/>
-            <rect x="793" y="290" width="9" height="9" fill="#22252a"/>
-            <rect x="802" y="290" width="9" height="9" fill="#fbfaf6" stroke="#22252a" stroke-width="1"/>
-            <rect x="793" y="299" width="9" height="9" fill="#fbfaf6" stroke="#22252a" stroke-width="1"/>
-            <rect x="802" y="299" width="9" height="9" fill="#22252a"/>
-          </svg>
-          <figcaption>Sketch, not to scale.</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <section class="services" id="services" aria-labelledby="services-title">
-    <div class="frame">
-      <div class="serv-grid">
-        <div class="tires">
-          <h2 id="services-title">Tires</h2>
-          <ul class="tirelist">
-            <li>Used tires</li>
-            <li>New tires</li>
-            <li>Flat repair</li>
-            <li>Mounting and balancing</li>
-            <li>Rotation</li>
-            <li>Tire sensor repair</li>
-          </ul>
-        </div>
-        <div class="rest">
-          <h3>And the rest</h3>
-          <ul class="restlist">
-            <li>Brakes</li>
-            <li>Oil changes</li>
-            <li>Check-engine diagnosis</li>
-            <li>General repair up to engine work</li>
-          </ul>
-        </div>
-      </div>
-      <div class="free">
-        <p class="free-en">Free air. Free check-engine scan.</p>
-        <p class="free-es" lang="es">Aire gratis. Escaneo de check engine gratis.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="hours" id="hours" aria-labelledby="hours-title">
-    <div class="frame">
-      <p class="pay">Bring cash or Zelle. Ask about cards when you call.</p>
-      <div class="hours-grid">
-        <div>
-          <h2 id="hours-title">Hours</h2>
-          <p class="lead">Open seven days a week.</p>
-          <p class="note">Hours as listed on Google Maps, checked Nov 10, 2026.</p>
-        </div>
-        <div>
-          <table class="hours-table" id="hours-table">
-            <caption class="sr">Weekly hours for Sinaloa Tires</caption>
-            <tbody>
-              <tr data-day="1"><th scope="row">Monday</th><td>8 AM–7 PM</td></tr>
-              <tr data-day="2"><th scope="row">Tuesday</th><td>8 AM–7 PM</td></tr>
-              <tr data-day="3"><th scope="row">Wednesday</th><td>8 AM–7 PM</td></tr>
-              <tr data-day="4"><th scope="row">Thursday</th><td>8 AM–7 PM</td></tr>
-              <tr data-day="5"><th scope="row">Friday</th><td>8 AM–7 PM</td></tr>
-              <tr data-day="6"><th scope="row">Saturday</th><td>8 AM–6 PM</td></tr>
-              <tr data-day="0"><th scope="row">Sunday</th><td>8 AM–3 PM</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="reviews" aria-labelledby="reviews-title">
-    <div class="frame reviews-grid">
-      <div>
-        <h2 id="reviews-title">Reviews</h2>
-        <p class="rating"><span class="sr">Google rating: </span>4.3<span class="sr"> out of 5</span></p>
-        <p class="rating-note">161 Google reviews, checked Nov 10, 2026</p>
-      </div>
-      <div class="reviews-copy">
-        <p>Reviewers most often mention flat tire repair, used tires, brakes, fair prices and fast service.</p>
-        <a class="textlink" href="https://www.google.com/maps/search/?api=1&amp;query=Sinaloa+Tires+1542+S+Garey+Ave+Pomona+CA" target="_blank" rel="noopener">Read the reviews on Google Maps</a>
-      </div>
-    </div>
-  </section>
+<section id="reviews"><div class="wrap"><span class="label">Reviews</span><h2>Fair prices and fast service.</h2><p class="note" style="max-width:640px">Reviewers most often mention flat tire repair, used tires, brakes, fair prices and fast service.</p>
+<div class="rates" style="margin-top:18px"><a class="rate" href="https://www.google.com/maps/search/?api=1&query=Sinaloa+Tires+1542+S+Garey+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer"><strong>4.3 ★</strong><span>Google · 161 reviews</span><em>Read the reviews ↗</em></a></div></div></section>
+<section id="visit"><div class="wrap"><div class="card visit">
+<div><span class="label">Visit</span><h2>Garey Avenue, Pomona.</h2><address style="margin-top:14px">1542 S Garey Ave<br>Pomona, CA 91766</address><p class="note">We're in the back. Estamos al fondo. Look for the orange flag at Garey Ave, then follow the driveway to the building.</p>
+<a class="bigphone" href="tel:+19096201199">(909) 620-1199</a>
+<div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Sinaloa+Tires+1542+S+Garey+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">Get directions</a></div></div>
+<div><table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 7:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 7:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 7:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 7:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 7:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>8:00 AM – 3:00 PM</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19096201199">(909) 620-1199</a> before you come in.</p></div></div></div></div></section>
 </main>
-
-<footer>
-  <div class="frame foot-grid">
-    <div>
-      <p class="foot-brand">Sinaloa Tires</p>
-      <address>
-        1542 S Garey Ave<br>
-        Pomona, CA 91766<br>
-        <a href="tel:+19096201199">(909) 620-1199</a>
-      </address>
-    </div>
-    <p class="foot-note">Concept website by Phan-Rodriguez LLC. Not the official site of Sinaloa Tires. Details from public listings; confirm with the shop.</p>
-  </div>
-</footer>
-
-<div class="callbar" role="group" aria-label="Call or get directions">
-  <a class="call" href="tel:+19096201199">Call (909) 620-1199</a>
-  <a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=Sinaloa+Tires+1542+S+Garey+Ave+Pomona+CA" target="_blank" rel="noopener">Directions</a>
-</div>
+<footer><div class="wrap"><strong>Sinaloa Tires · Pomona, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
-(function(){
-  var chip=document.getElementById('open-chip');
-  var rows=document.querySelectorAll('#hours-table tr[data-day]');
-  var schedule={0:[480,900],1:[480,1140],2:[480,1140],3:[480,1140],4:[480,1140],5:[480,1140],6:[480,1080]};
-  function clock(mins){
-    var h=Math.floor(mins/60),m=mins%60;
-    return (h%12||12)+(m?':'+('0'+m).slice(-2):'')+' '+(h>=12?'PM':'AM');
-  }
-  try{
-    var parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
-    function get(type){for(var i=0;i<parts.length;i++){if(parts[i].type===type)return parts[i].value}return ''}
-    var days={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
-    var day=days[get('weekday')];
-    var mins=(parseInt(get('hour'),10)%24)*60+parseInt(get('minute'),10);
-    var span=schedule[day];
-    var isOpen=mins>=span[0]&&mins<span[1];
-    rows.forEach(function(row){
-      if(Number(row.getAttribute('data-day'))===day){
-        row.classList.add('today');
-        row.setAttribute('aria-current','date');
-      }
-    });
-    if(isOpen){
-      chip.textContent='Open now, closes at '+clock(span[1]);
-    }else if(mins<span[0]){
-      chip.textContent='Closed now, opens at '+clock(span[0]);
-    }else{
-      chip.textContent='Closed now, opens tomorrow at '+clock(span[0]);
-    }
-  }catch(e){}
+(()=>{
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
+// highlight today's hours in the shop's time zone
+const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
+const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>
+
 </body>
 </html>

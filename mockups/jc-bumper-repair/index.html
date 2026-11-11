@@ -2,334 +2,123 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>JC Bumper Repair &amp; Auto Body — Bumper repair in Fontana (concept)</title>
-<meta name="description" content="Concept website for JC Bumper Repair &amp; Auto Body, 16620 Ceres Ave Ste 6, Fontana. Bumper repair, bumper replacement, collision repair, dent removal, chrome delete and auto body restoration. Call (909) 349-0343.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&amp;display=swap" rel="stylesheet">
-<script>document.documentElement.classList.add('js');</script>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JC Bumper Repair & Auto Body | Fontana</title>
+<meta name="description" content="JC Bumper Repair & Auto Body. Bumper repair and body work in Fontana. Have your year, make and model handy, and tell us which bumper and what happened to it. A photo helps when you come by. Concept site.">
 <style>
-:root{
-  --blue:#1c49b8;
-  --blue-light:#4f78de;
-  --primer:#9aa0a6;
-  --tape:#e9d79a;
-  --ink:#14171c;
-  --ground:#f6f6f2;
-  --display:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --frame:1200px;
-  --gutter:clamp(16px,4vw,56px);
-  --sectpad:clamp(34px,4.6vw,68px);
-}
-*,*::before,*::after{box-sizing:border-box}
-body{
-  margin:0;background:var(--ground);color:var(--ink);
-  font-family:var(--display);font-size:17px;line-height:1.55;
-  -webkit-font-smoothing:antialiased;
-  overflow-wrap:break-word;
-}
-h1,h2,p,ul,dl,figure{margin:0}
-ul{padding:0;list-style:none}
-a{color:var(--blue)}
-address{font-style:normal}
-:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-.skip{
-  position:fixed;left:16px;top:-90px;z-index:40;
-  background:var(--tape);color:var(--ink);padding:14px 18px;
-  font-weight:700;text-decoration:none;
-}
-.skip:focus,.skip:focus-visible{top:16px;outline-color:var(--ink)}
-.frame{max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+.skip{position:absolute;left:16px;top:-80px;z-index:99;background:#fff;color:#000;padding:10px;border-radius:6px}.skip:focus{top:10px}
+.label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:6px;font-weight:600;font-size:15px;background:var(--chip);color:var(--ink);transition:filter .175s}
+.btn:hover{filter:brightness(.94)}.btn.primary{background:var(--accent);color:#fff}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
+.muted{color:var(--muted)}
+table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
+th{text-align:left;font-weight:500}td{text-align:right;white-space:nowrap}
+@media(max-width:480px){table{font-size:14px}th,td{padding:9px 8px}}th,td{padding:10px 12px;background:var(--row,#fff)}
+tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
+tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#1E4A9C;--dark:#14171C;--gold:#D9C27A;--focus:#1E4A9C}
+h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+.lede{font-size:18px;margin-top:18px;max-width:560px}
+.sub{font-size:15px;font-weight:600;margin-top:10px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.gt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{padding:22px;border-top:4px solid var(--accent)}.tile h3{font-size:19px}.tile p{color:var(--muted);font-size:15px;margin-top:6px}
+.svc li{display:grid;grid-template-columns:14px 1fr;gap:14px;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc h3{font-size:18px}.svc p{color:var(--muted);font-size:15px;margin-top:3px}.dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.rates{display:flex;flex-wrap:wrap;gap:14px}
+.rate{display:block;background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;padding:18px 22px;min-width:200px}
+.rate strong{display:block;font-size:30px;letter-spacing:-.02em;color:var(--accent)}.rate span{font-size:13.5px;color:var(--muted)}.rate em{display:block;font-style:normal;font-size:13px;font-weight:600;margin-top:8px;text-decoration:underline;text-underline-offset:4px}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}
+.q{padding:22px}.q p{font-size:19px;font-weight:600;line-height:1.35}.q cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:14px}
+.more{font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.pts{display:grid;gap:10px;margin-top:16px}.pts li{padding-left:16px;border-left:3px solid var(--gold)}.pts strong{display:block}
+.note{margin-top:12px;font-size:14.5px;color:var(--muted)}
+address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
+.bigphone{display:inline-block;font-size:clamp(26px,3.2vw,38px);font-weight:700;letter-spacing:-.02em;margin-top:14px}
+.name{font-weight:700;font-size:20px;letter-spacing:-.01em}
+@media(max-width:860px){.tiles{grid-template-columns:1fr}}
 
-/* ---------- header ---------- */
-header{padding-block:clamp(18px,2.4vw,30px) clamp(26px,3.6vw,46px);border-bottom:1px solid rgba(20,23,28,.16)}
-.mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 20px}
-.shop{font-size:17px;font-weight:600;letter-spacing:.005em}
-.phone{
-  display:inline-flex;align-items:center;min-height:48px;padding-inline:2px;
-  font-size:clamp(18px,1.6vw,21px);font-weight:700;color:var(--ink);
-  text-decoration:none;border-bottom:3px solid var(--blue);
-}
-.phone:hover{color:var(--blue)}
-h1{
-  margin-top:clamp(20px,3vw,40px);
-  font-size:clamp(44px,7.6vw,112px);line-height:.95;letter-spacing:-.025em;
-  font-weight:800;font-stretch:125%;text-wrap:balance;
-}
-.lede{margin-top:clamp(12px,1.6vw,20px);max-width:42ch;font-size:clamp(17px,1.35vw,19px)}
-
-/* ---------- signature: slide to fix ---------- */
-.bumper{
-  --fix:100%;
-  position:relative;width:100%;aspect-ratio:1200/300;
-  margin-top:clamp(24px,3.4vw,44px);
-  isolation:isolate;
-}
-.js .bumper{--fix:35%}
-.bumper .layer{position:absolute;inset:0;width:100%;height:100%;display:block}
-.bumper .repaired{clip-path:inset(0 calc(100% - var(--fix)) 0 0)}
-.bumper .damaged{clip-path:inset(0 0 0 var(--fix))}
-.bumper::after{
-  content:"";position:absolute;top:0;bottom:0;left:var(--fix);width:4px;
-  margin-left:-2px;background:var(--ink);
-}
-
-.fix-label{
-  display:none;align-items:center;min-height:48px;
-  margin-top:clamp(6px,1.4vw,16px);font-weight:600;
-}
-.fix-range{
-  display:none;width:100%;height:48px;margin:0;padding:0;
-  background:transparent;appearance:none;-webkit-appearance:none;
-  cursor:pointer;touch-action:pan-y;
-}
-.fix-range::-webkit-slider-runnable-track{height:8px;border-radius:4px;background:rgba(20,23,28,.2)}
-.fix-range::-moz-range-track{height:8px;border-radius:4px;background:rgba(20,23,28,.2)}
-.fix-range::-webkit-slider-thumb{
-  -webkit-appearance:none;appearance:none;box-sizing:border-box;
-  width:44px;height:44px;margin-top:-18px;border-radius:50%;
-  background:var(--blue);border:3px solid #fff;
-}
-.fix-range::-moz-range-thumb{
-  box-sizing:border-box;width:44px;height:44px;border-radius:50%;
-  background:var(--blue);border:3px solid #fff;
-}
-.fix-range:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
-.js .fix-label{display:flex}
-.js .fix-range{display:block}
-.fix-hint{display:none;max-width:58ch;margin-top:4px;font-size:17px}
-.js .fix-hint{display:block}
-
-.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(18px,2.6vw,30px)}
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;
-  min-height:54px;padding:14px 24px;border:2px solid var(--ink);border-radius:2px;
-  background:transparent;color:var(--ink);font-size:17px;font-weight:700;
-  text-decoration:none;
-}
-.btn:hover{background:var(--ink);color:var(--ground)}
-.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
-.btn.primary:hover{background:#153a94;border-color:#153a94;color:#fff}
-
-/* ---------- sections ---------- */
-main{padding-block:clamp(30px,4vw,54px) 0}
-.pair{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(32px,4.4vw,56px)}
-.sect{padding-block:0 var(--sectpad)}
-h2{
-  font-size:clamp(27px,3.2vw,42px);line-height:1.06;letter-spacing:-.015em;
-  font-weight:800;font-stretch:125%;
-}
-.tape{
-  display:inline-block;background:var(--tape);color:var(--ink);
-  padding:6px 18px;transform:rotate(-1.5deg);
-}
-.tape.alt{transform:rotate(1deg)}
-.sect > p{margin-top:clamp(16px,2.2vw,24px);max-width:60ch}
-
-.services{margin-top:clamp(16px,2.2vw,24px);border-bottom:1px solid rgba(20,23,28,.16)}
-.services li{
-  padding-block:14px;border-top:1px solid rgba(20,23,28,.16);
-  font-size:17px;line-height:1.5;
-}
-.services strong{font-weight:700}
-
-.before ol{margin:clamp(16px,2.2vw,24px) 0 0;padding-left:20px;max-width:52ch}
-.before li+li{margin-top:8px}
-
-/* ---------- hours ---------- */
-table{width:100%;border-collapse:collapse;margin-top:clamp(16px,2.2vw,24px);max-width:460px}
-caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-th,td{text-align:left;padding:12px 10px;border-top:1px solid rgba(20,23,28,.2);vertical-align:top}
-th{font-weight:500;font-size:17px}
-td{text-align:right;font-weight:600;font-size:17px}
-tr:last-child th,tr:last-child td{border-bottom:1px solid rgba(20,23,28,.2)}
-tr.today th,tr.today td{background:var(--tape);color:var(--ink);border-color:rgba(20,23,28,.28)}
-tr.today th{font-weight:700}
-tr.today th::after{content:" · today";font-weight:500}
-.hours-note{margin-top:16px;max-width:46ch;font-size:17px;color:#33373d}
-
-/* ---------- find us ---------- */
-.find address{
-  margin-top:clamp(16px,2.2vw,24px);
-  font-size:clamp(19px,1.7vw,23px);line-height:1.4;font-weight:500;
-}
-.find .directions{
-  display:inline-flex;align-items:center;min-height:48px;margin-top:8px;
-  font-weight:700;text-decoration:underline;text-decoration-thickness:2px;
-  text-underline-offset:4px;
-}
-.ratings{margin-top:clamp(20px,2.6vw,28px);max-width:46ch;font-size:15px;line-height:1.6;color:#3b3f45}
-
-/* ---------- footer ---------- */
-footer{background:var(--ink);color:var(--ground);padding-block:clamp(26px,3.6vw,44px);margin-top:clamp(20px,3vw,36px)}
-footer p{max-width:62ch;font-size:15px;line-height:1.6}
-footer p+p{margin-top:6px;color:#c9cbcb}
-
-/* ---------- fixed bar ---------- */
-.bar{display:none}
-
-@media (min-width:900px){
-  .pair{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(40px,6vw,88px);align-items:start}
-  .fixes{grid-column:1;grid-row:1}
-  .hours{grid-column:2;grid-row:1;margin-top:80px}
-  .find{grid-column:1;grid-row:2}
-  .before{grid-column:2;grid-row:2}
-}
-
-@media (max-width:819px){
-  .bar{
-    display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;
-    background:var(--ink);border-top:3px solid var(--tape);
-  }
-  .bar a{
-    display:flex;align-items:center;justify-content:center;min-height:58px;
-    color:var(--ground);font-size:17px;font-weight:700;text-decoration:none;
-  }
-  .bar a:first-child{background:var(--blue);color:#fff}
-  body{padding-bottom:88px}
-}
+body{border-top:6px solid var(--accent)}
+.cover{height:clamp(200px,30vw,380px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover var(--dark);border-radius:0 0 8px 8px}
+.layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start;margin-top:-56px;position:relative}
+.shop{position:sticky;top:16px;padding:24px;--row:#F0F2F5;--today:var(--dark)}
+.shop h1{font-size:26px}.shop .sub{font-size:13px;font-weight:600;color:var(--muted);margin-top:4px}
+.shop .rates{margin:16px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);gap:18px}
+.shop .rate{box-shadow:none;padding:0;min-width:0}.shop .rate strong{font-size:22px;color:var(--ink)}.shop .rate span{font-size:12px}.shop .rate em{font-size:12px;margin-top:4px}
+.shop .btn{width:100%;margin-top:8px}
+.shop address{font-size:16px;margin:16px 0 4px}
+.shop table{font-size:14px;margin-top:14px}.shop th,.shop td{padding:7px 10px}
+.feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
+.feed>.card{padding:28px}
+.lead h2{font-size:clamp(30px,4vw,46px);margin:0}.lead h2 em{font-style:normal;color:var(--accent)}
+.lead p{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chips span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:6px;background:var(--chip)}
+.chips span:nth-child(3n+1){background:var(--dark);color:#fff}.chips span:nth-child(3n+2){background:var(--gold);color:#111}
+h2.t{font-size:24px;margin-top:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px 28px;margin-top:6px}
+.it{padding:12px 0 12px 14px;border-left:3px solid var(--accent)}.it h3{font-size:17px}.it p{font-size:14.5px;color:var(--muted);margin-top:3px}
+.photo{padding:0!important;overflow:hidden}.photo img{width:100%;aspect-ratio:21/9;object-fit:cover}
+.aboutc{background:var(--dark)!important;color:#fff}.aboutc h2{font-size:24px;margin:0}.aboutc p{color:#ffffffd9;margin-top:10px}.aboutc .pts li{border-color:var(--gold)}
+.feed .rates{display:none}
+@media(max-width:900px){.layout{grid-template-columns:1fr;margin-top:-40px}.shop{position:static}.two{grid-template-columns:1fr}.feed>.card{padding:22px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header>
-  <div class="frame">
-    <div class="mast">
-      <p class="shop">JC Bumper Repair &amp; Auto Body</p>
-      <a class="phone" href="tel:+19093490343">(909) 349-0343</a>
-    </div>
-
-    <h1>Cracked bumper? Slide.</h1>
-    <p class="lede">Bumper repair and body work in Fontana. Drag the slider, then call for a look at yours.</p>
-
-    <div class="bumper" id="bumper">
-      <svg class="layer damaged" aria-hidden="true" viewBox="0 0 1200 300" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-        <path fill="#9aa0a6" d="M60 70 C60 50 80 44 110 48 L300 70 L900 70 L900 262 L210 262 L190 224 L92 218 C64 216 48 200 50 170 Z"/>
-        <g transform="rotate(5 900 70)"><path fill="#9aa0a6" d="M900 70 L1090 48 C1120 44 1140 50 1140 70 L1150 170 C1152 200 1136 216 1108 218 L1010 224 L990 262 L900 262 Z"/>
-          <rect x="1004" y="178" width="84" height="16" rx="4" fill="#7e848b"/></g>
-        <path fill="none" stroke="#848a91" stroke-width="3" d="M70 150 L900 150"/>
-        <path fill="none" stroke="#848a91" stroke-width="10" stroke-linecap="round" d="M316 92 L884 92"/>
-        <rect x="500" y="108" width="200" height="30" rx="4" fill="#848a91"/>
-        <rect x="508" y="166" width="184" height="62" rx="5" fill="#848a91"/>
-        <rect x="112" y="178" width="84" height="16" rx="4" fill="#7e848b"/>
-        <rect x="806" y="234" width="94" height="40" fill="#f6f6f2"/>
-        <path fill="#b9bdc1" d="M236 176 L330 168 L392 188 L372 226 L280 236 L228 212 Z"/>
-        <g fill="none" stroke="#5f656b" stroke-width="3" stroke-linecap="round">
-          <path d="M724 172 L852 196"/><path d="M716 190 L836 214"/><path d="M738 208 L860 228"/><path d="M730 160 L800 172"/>
-          <path d="M250 190 L352 206"/><path d="M262 208 L340 220"/>
-        </g>
-        <polyline fill="none" stroke="#14171c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"
-          points="902 62 884 96 912 122 886 150 910 178 888 206 908 236 896 268"/>
-      </svg>
-
-      <svg class="layer repaired" aria-hidden="true" viewBox="0 0 1200 300" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-        <path fill="#1c49b8" d="M60 70 C60 50 80 44 110 48 L300 70 L900 70 L1090 48 C1120 44 1140 50 1140 70 L1150 170 C1152 200 1136 216 1108 218 L1010 224 L990 262 L210 262 L190 224 L92 218 C64 216 48 200 50 170 Z"/>
-        <path fill="none" stroke="#173e9f" stroke-width="3" d="M70 150 L1130 150"/>
-        <path fill="none" stroke="#173e9f" stroke-width="10" stroke-linecap="round" d="M316 92 L884 92"/>
-        <rect x="500" y="108" width="200" height="30" rx="4" fill="#173e9f"/>
-        <rect x="508" y="166" width="184" height="62" rx="5" fill="#173e9f"/>
-        <rect x="112" y="178" width="84" height="16" rx="4" fill="#4f78de"/>
-        <rect x="1004" y="178" width="84" height="16" rx="4" fill="#4f78de"/>
-        <rect x="806" y="234" width="120" height="40" rx="12" fill="#f6f6f2"/>
-        <path fill="none" stroke="#4f78de" stroke-width="5" stroke-linecap="round" d="M120 58 L296 79 L904 79 L1080 58"/>
-      </svg>
-    </div>
-
-    <label class="fix-label" for="fix">Drag to repair the bumper</label>
-    <input class="fix-range" type="range" id="fix" min="0" max="100" value="35" step="1">
-    <p class="fix-hint">Left of the line is the bumper after repair; right of it is before.</p>
-
-    <div class="actions">
-      <a class="btn primary" href="tel:+19093490343">Call (909) 349-0343</a>
-      <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=16620+Ceres+Ave+Ste+6+Fontana+CA+92335">Get directions</a>
-    </div>
-  </div>
-</header>
-
 <main id="main">
-  <div class="frame">
-    <div class="pair">
+<div class="wrap"><div class="cover" role="img" aria-label="Painter working on a car in a body shop" style="--img:url(https://images.pexels.com/photos/8470881/pexels-photo-8470881.jpeg?auto=compress&cs=tinysrgb&w=1600)"></div>
+<div class="layout">
+<aside class="card shop" aria-label="Shop details">
+<h1>JC Bumper Repair &amp; Auto Body</h1><p class="sub">Bumper and body work · Fontana</p>
+<div class="rates"><div class="rate"><strong>4.9 ★</strong><span>Yelp · 32 reviews</span></div><a class="rate" href="https://www.google.com/maps/search/?api=1&query=JC+Bumper+Repair+16620+Ceres+Ave+Fontana+CA" target="_blank" rel="noopener noreferrer"><strong>4.7 ★</strong><span>Google · 98 reviews</span><em>Read the reviews ↗</em></a></div>
+<a class="btn primary" href="tel:+19093490343">Call (909) 349-0343</a>
+<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=16620+Ceres+Ave+Ste+6+Fontana+CA+92335" target="_blank" rel="noopener noreferrer">Get directions</a>
+<address>16620 Ceres Ave, Suite 6<br>Fontana, CA 92335</address>
+<table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>9:00 AM – 5:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>9:00 AM – 5:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>9:00 AM – 5:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>9:00 AM – 5:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>9:00 AM – 5:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>10:30 AM – 2:00 PM</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19093490343">(909) 349-0343</a> before you come in.</p></div>
+</aside>
+<div class="feed">
+<div class="card lead"><h2>Cracked bumper? <em>Call for a look at yours.</em></h2><p class="lede">Bumper repair and body work in Fontana. Have your year, make and model handy, and tell us which bumper and what happened to it. A photo helps when you come by.</p>
+<div class="chips"><span>Bumper repair</span><span>Collision repair</span><span>Dent removal</span><span>Chrome delete</span></div></div>
+<div class="card" id="services"><span class="label">What we fix</span><h2 class="t">Repaired, refinished, back on the car.</h2><div class="two"><div class="it"><h3>Bumper repair</h3><p>Cracks, splits, scrapes and torn mounting tabs, repaired and refinished.</p></div><div class="it"><h3>Bumper replacement</h3><p>When a cover is bent or torn past repair, we fit a replacement.</p></div><div class="it"><h3>Collision repair</h3><p>Body panels and structure damaged in a hit, straightened and repainted.</p></div><div class="it"><h3>Dent removal</h3><p>Door, fender and quarter-panel dents worked back to shape.</p></div><div class="it"><h3>Chrome delete</h3><p>Grille, trim and window surrounds refinished in the finish you pick.</p></div><div class="it"><h3>Auto body restoration</h3><p>Older paint and bodywork brought back, panel by panel.</p></div></div></div>
+<div class="card photo"><img loading="lazy" alt="Spray gun painting a car part" src="https://images.pexels.com/photos/6870314/pexels-photo-6870314.jpeg?auto=compress&cs=tinysrgb&w=1200"></div>
 
-      <section class="sect hours" id="hours" aria-labelledby="hours-h">
-        <h2 class="tape" id="hours-h">Hours</h2>
-        <table>
-          <caption>Shop hours</caption>
-          <tbody>
-            <tr data-day="1"><th scope="row">Monday</th><td>9:00 AM – 5:00 PM</td></tr>
-            <tr data-day="2"><th scope="row">Tuesday</th><td>9:00 AM – 5:00 PM</td></tr>
-            <tr data-day="3"><th scope="row">Wednesday</th><td>9:00 AM – 5:00 PM</td></tr>
-            <tr data-day="4"><th scope="row">Thursday</th><td>9:00 AM – 5:00 PM</td></tr>
-            <tr data-day="5"><th scope="row">Friday</th><td>9:00 AM – 5:00 PM</td></tr>
-            <tr data-day="6"><th scope="row">Saturday</th><td>10:30 AM – 2:00 PM</td></tr>
-            <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
-          </tbody>
-        </table>
-        <p class="hours-note">Hours from the shop's Yelp page, Nov 2026. Google shows slightly longer hours, so call first.</p>
-      </section>
-
-      <section class="sect fixes" aria-labelledby="fixes-h">
-        <h2 class="tape alt" id="fixes-h">What we fix</h2>
-        <ul class="services">
-          <li><strong>Bumper repair.</strong> Cracks, splits, scrapes and torn mounting tabs, repaired and refinished.</li>
-          <li><strong>Bumper replacement.</strong> When a cover is bent or torn past repair, we fit a replacement.</li>
-          <li><strong>Collision repair.</strong> Body panels and structure damaged in a hit, straightened and repainted.</li>
-          <li><strong>Dent removal.</strong> Door, fender and quarter-panel dents worked back to shape.</li>
-          <li><strong>Chrome delete.</strong> Grille, trim and window surrounds refinished in the finish you pick.</li>
-          <li><strong>Auto body restoration.</strong> Older paint and bodywork brought back, panel by panel.</li>
-        </ul>
-      </section>
-
-      <section class="sect before" aria-labelledby="before-h">
-        <h2 class="tape" id="before-h">Before you call</h2>
-        <ol>
-          <li>Have your year, make and model handy.</li>
-          <li>Tell us which bumper and what happened to it.</li>
-          <li>A photo helps when you come by.</li>
-        </ol>
-      </section>
-
-      <section class="sect find" id="find" aria-labelledby="find-h">
-        <h2 class="tape alt" id="find-h">Find us</h2>
-        <address>16620 Ceres Ave<br>Suite 6<br>Fontana, CA 92335</address>
-        <a class="directions" href="https://www.google.com/maps/dir/?api=1&amp;destination=16620+Ceres+Ave+Ste+6+Fontana+CA+92335">Get directions</a>
-        <p class="ratings">4.9 on Yelp from 32 reviews, 4.7 on Google from 98, as of Nov 10, 2026.</p>
-      </section>
-
-    </div>
-  </div>
+<div class="card" id="reviews"><span class="label">Reviews</span><h2 class="t">Rated on Yelp and Google.</h2>
+<p style="margin-top:14px">4.9 ★ Yelp · 32 reviews · <a class="more" href="https://www.google.com/maps/search/?api=1&query=JC+Bumper+Repair+16620+Ceres+Ave+Fontana+CA" target="_blank" rel="noopener noreferrer">4.7 ★ Google · 98 reviews ↗</a></p></div>
+</div></div></div>
 </main>
-
-<footer>
-  <div class="frame">
-    <p>Concept website by Phan Rodriguez LLC for JC Bumper Repair &amp; Auto Body. Not the official site.</p>
-    <p>Listing details checked Nov 10, 2026.</p>
-  </div>
-</footer>
-
-<nav class="bar" aria-label="Quick actions">
-  <a href="tel:+19093490343">Call</a>
-  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=16620+Ceres+Ave+Ste+6+Fontana+CA+92335">Directions</a>
-</nav>
+<footer><div class="wrap"><strong>JC Bumper Repair & Auto Body · Fontana, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
-(function(){
-  var range=document.getElementById('fix');
-  var bumper=document.getElementById('bumper');
-  if(range&&bumper){
-    range.addEventListener('input',function(){
-      bumper.style.setProperty('--fix', range.value + '%');
-    });
-  }
-  try{
-    var wd=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short'}).format(new Date());
-    var day=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
-    var row=document.querySelector('tr[data-day="'+day+'"]');
-    if(row) row.classList.add('today');
-  }catch(e){}
+(()=>{
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
+// highlight today's hours in the shop's time zone
+const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
+const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>
+
 </body>
 </html>

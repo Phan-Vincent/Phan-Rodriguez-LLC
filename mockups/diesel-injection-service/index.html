@@ -2,309 +2,129 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#1b6b38">
-<title>Diesel Injection Service — Fontana pumps, injectors and turbos (concept)</title>
-<meta name="description" content="Concept website for Diesel Injection Service, 8482 Cherry Ave, Fontana. Diesel fuel injection pumps and injectors rebuilt and tested, turbochargers, diagnostics and fleet service. Call (909) 885-0590.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&amp;family=IBM+Plex+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diesel Injection Service | Fontana</title>
+<meta name="description" content="Diesel Injection Service. Half the work arrives as a part, the other half drives in. Either way, the fault gets found before anything gets replaced. Concept site.">
 <style>
-:root{
-  --green:#1b6b38;
-  --ink:#141614;
-  --paper:#f3f5ef;
-  --brass:#b98a2e;
-  --spray:#dfe9d8;
-  --steel:#c9cfc9;
-  --line:rgba(20,22,20,.16);
-  --display:"Big Shoulders Display","Arial Narrow",system-ui,sans-serif;
-  --text:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --frame:1240px;
-  --gutter:clamp(18px,4vw,56px);
-}
-*,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{
-  margin:0;background:var(--paper);color:var(--ink);
-  font-family:var(--text);
-  font-size:clamp(17px,.28vw + 16px,19px);
-  line-height:1.6;
-  -webkit-font-smoothing:antialiased;
-}
-h1,h2,p,figure{margin:0}
-ul{margin:0;padding:0;list-style:none}
-a{color:inherit}
-address{font-style:normal}
-:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-.hero :focus-visible{outline-color:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+.skip{position:absolute;left:16px;top:-80px;z-index:99;background:#fff;color:#000;padding:10px;border-radius:6px}.skip:focus{top:10px}
+.label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:6px;font-weight:600;font-size:15px;background:var(--chip);color:var(--ink);transition:filter .175s}
+.btn:hover{filter:brightness(.94)}.btn.primary{background:var(--accent);color:#fff}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
+.muted{color:var(--muted)}
+table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
+th{text-align:left;font-weight:500}td{text-align:right;white-space:nowrap}
+@media(max-width:480px){table{font-size:14px}th,td{padding:9px 8px}}th,td{padding:10px 12px;background:var(--row,#fff)}
+tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
+tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#1B6B38;--dark:#141614;--gold:#D2A546;--focus:#1B6B38}
+h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+.lede{font-size:18px;margin-top:18px;max-width:560px}
+.sub{font-size:15px;font-weight:600;margin-top:10px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.gt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{padding:22px;border-top:4px solid var(--accent)}.tile h3{font-size:19px}.tile p{color:var(--muted);font-size:15px;margin-top:6px}
+.svc li{display:grid;grid-template-columns:14px 1fr;gap:14px;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc h3{font-size:18px}.svc p{color:var(--muted);font-size:15px;margin-top:3px}.dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.rates{display:flex;flex-wrap:wrap;gap:14px}
+.rate{display:block;background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;padding:18px 22px;min-width:200px}
+.rate strong{display:block;font-size:30px;letter-spacing:-.02em;color:var(--accent)}.rate span{font-size:13.5px;color:var(--muted)}.rate em{display:block;font-style:normal;font-size:13px;font-weight:600;margin-top:8px;text-decoration:underline;text-underline-offset:4px}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}
+.q{padding:22px}.q p{font-size:19px;font-weight:600;line-height:1.35}.q cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:14px}
+.more{font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.pts{display:grid;gap:10px;margin-top:16px}.pts li{padding-left:16px;border-left:3px solid var(--gold)}.pts strong{display:block}
+.note{margin-top:12px;font-size:14.5px;color:var(--muted)}
+address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
+.bigphone{display:inline-block;font-size:clamp(26px,3.2vw,38px);font-weight:700;letter-spacing:-.02em;margin-top:14px}
+.name{font-weight:700;font-size:20px;letter-spacing:-.01em}
+@media(max-width:860px){.tiles{grid-template-columns:1fr}}
 
-.skip{
-  position:fixed;left:16px;top:-120px;z-index:40;
-  display:inline-flex;align-items:center;min-height:48px;padding:10px 16px;
-  background:var(--paper);color:var(--ink);font-weight:600;text-decoration:none;
-  border:2px solid var(--ink);
-}
-.skip:focus{top:16px}
-
-.frame{width:100%;max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
-
-/* ---------- hero ---------- */
-.hero{background:var(--green);color:#fff}
-.hero-inner{
-  display:flex;flex-direction:column;
-  padding-block:clamp(16px,2.2vw,26px) clamp(28px,4.5vw,52px);
-}
-@media (min-width:900px){.hero-inner{min-height:82vh}}
-.mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2px 20px}
-.shop{font-size:clamp(17px,1.2vw,19px);font-weight:600;letter-spacing:.01em}
-.phone{
-  display:inline-flex;align-items:center;min-height:48px;padding-block:4px;
-  color:#fff;font-weight:600;font-size:clamp(17px,1.3vw,20px);
-  text-decoration:none;border-bottom:2px solid transparent;
-}
-.phone:hover{border-bottom-color:var(--brass)}
-
-.fan{display:block;width:100%;height:clamp(120px,26vh,300px);margin-top:clamp(6px,1.4vw,18px)}
-
-.hero-foot{margin-top:auto;padding-top:clamp(14px,2.5vw,34px)}
-h1{
-  font-family:var(--display);font-weight:800;
-  font-size:clamp(44px,7vw,104px);line-height:.95;letter-spacing:-.015em;
-  max-width:16ch;text-wrap:balance;overflow-wrap:break-word;
-}
-.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;margin-top:clamp(22px,3vw,34px)}
-.buttons{display:flex;flex-wrap:wrap;gap:12px}
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;min-height:54px;
-  padding:12px 24px;border:2px solid #fff;color:#fff;background:transparent;
-  font-weight:600;font-size:clamp(17px,1.2vw,18px);text-decoration:none;
-}
-.btn:hover{background:#fff;color:var(--ink)}
-.btn.primary{background:#fff;color:var(--ink)}
-.btn.primary:hover{background:var(--spray);border-color:var(--spray);color:var(--ink)}
-.since{margin-left:auto;font-size:17px;color:var(--spray);letter-spacing:.02em}
-
-/* ---------- the fork ---------- */
-main{padding-block:clamp(48px,7vw,96px) clamp(8px,1.5vw,16px)}
-main:focus{outline:none}
-.fork{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(44px,7vw,64px)}
-@media (min-width:900px){
-  .fork{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(44px,7vw,104px);align-items:start}
-  .truck{margin-top:96px;border-left:1px solid var(--line);padding-left:clamp(22px,2.6vw,36px)}
-}
-h2{
-  font-family:var(--display);font-weight:800;
-  font-size:clamp(34px,4.6vw,62px);line-height:.98;letter-spacing:-.01em;
-  text-wrap:balance;
-}
-h2::after{content:"";display:block;width:56px;height:3px;background:var(--brass);margin-top:clamp(12px,1.6vw,18px)}
-.lead{margin-top:clamp(16px,2.2vw,22px);max-width:46ch;color:#2f332f}
-.services{margin-top:clamp(22px,3vw,32px);border-top:1px solid var(--line)}
-.services li{padding-block:clamp(13px,1.7vw,18px);border-bottom:1px solid var(--line);max-width:58ch}
-.services strong{font-weight:600}
-.note{
-  margin-top:clamp(20px,2.6vw,28px);padding-left:clamp(14px,2vw,18px);
-  border-left:4px solid var(--brass);font-weight:600;max-width:44ch;
-}
-
-/* ---------- hours and find us ---------- */
-.info{
-  display:grid;gap:clamp(40px,6vw,56px);
-  margin-top:clamp(56px,8vw,104px);padding-top:clamp(30px,4vw,52px);
-  border-top:1px solid var(--line);
-}
-@media (min-width:900px){
-  .info{grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:clamp(48px,7vw,104px);align-items:start}
-}
-table{width:100%;border-collapse:collapse;margin-top:clamp(18px,2.4vw,26px);font-variant-numeric:tabular-nums}
-caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-th,td{text-align:left;padding:13px 8px;border-top:1px solid var(--line);font-weight:400;vertical-align:top}
-td{text-align:right}
-tr:last-child th,tr:last-child td{border-bottom:1px solid var(--line)}
-tr.today th,tr.today td{background:var(--brass);border-color:var(--brass)}
-tr.today th{font-weight:600}
-tr.today th::after{content:" · today";font-weight:400}
-.hours-foot{margin-top:16px;color:#3a3d38}
-
-.find address{margin-top:clamp(16px,2vw,22px);font-size:clamp(18px,1.5vw,22px);font-weight:600;line-height:1.45}
-.links{display:flex;flex-wrap:wrap;align-items:center;gap:4px 28px;margin-top:clamp(18px,2.4vw,26px)}
-.links a{
-  display:inline-flex;align-items:center;min-height:48px;font-weight:600;color:var(--green);
-  text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;
-  text-decoration-color:var(--brass);
-}
-.links a:hover{color:var(--ink);text-decoration-color:var(--ink)}
-.cardline{margin-top:10px;color:#3a3d38}
-.ratings{
-  margin-top:clamp(22px,3vw,30px);padding-top:16px;border-top:1px solid var(--line);
-  max-width:52ch;font-size:17px;line-height:1.55;color:#3a3d38;
-}
-
-/* ---------- footer ---------- */
-footer{background:var(--ink);color:#e6e9e2;margin-top:clamp(40px,6vw,72px);padding-block:clamp(30px,4vw,46px)}
-footer p{max-width:66ch;font-size:17px;line-height:1.6}
-footer p + p{margin-top:8px;color:#c3c8bd}
-
-/* ---------- fixed bar ---------- */
-.bar{display:none}
-@media (max-width:820px){
-  body{padding-bottom:82px}
-  .bar{
-    display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;
-    background:var(--ink);border-top:2px solid var(--brass);
-  }
-  .bar a{display:flex;align-items:center;justify-content:center;min-height:62px;color:#fff;font-weight:600;font-size:17px;text-decoration:none}
-  .bar a:first-child{background:var(--green)}
-  .bar a:focus-visible{outline:3px solid var(--paper);outline-offset:-6px}
-}
-
-/* ---------- motion ---------- */
-@media (prefers-reduced-motion:no-preference){
-  @keyframes fan-draw{from{width:0px}to{width:1020px}}
-  .fan-clip-rect{animation:fan-draw 900ms cubic-bezier(.22,.65,.3,1) both}
-  .btn,.phone,.links a{transition:background-color 140ms ease,color 140ms ease,border-color 140ms ease,text-decoration-color 140ms ease}
-}
-@media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation:none !important;transition:none !important}
-}
+header{background:var(--dark);color:#fff;--focus:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px}
+nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{text-decoration:underline;text-underline-offset:5px}
+header .btn{background:#fff;color:var(--dark)}
+.banner{position:relative;color:#fff;background:linear-gradient(90deg,color-mix(in srgb,var(--dark) 96%,transparent) 0,color-mix(in srgb,var(--dark) 84%,transparent) 48%,color-mix(in srgb,var(--dark) 38%,transparent) 100%),var(--img) center/cover var(--dark);--focus:#fff}
+.banner .wrap{padding:80px 0 128px}.banner .label{color:#ffffffcc}
+h1{font-size:clamp(34px,5vw,62px);max-width:680px;margin-top:10px}h1 span{color:var(--gold)}
+.banner .lede{color:#ffffffe0}.banner .sub{color:var(--gold)}
+.bar{display:grid;grid-template-columns:repeat(3,1fr);margin-top:-64px;position:relative;z-index:2}
+.bar>*{padding:22px 24px;border-right:1px solid var(--line)}.bar>*:last-child{border:0}
+.bar strong{display:block;font-size:19px;letter-spacing:-.01em;margin-top:4px}.bar a strong{color:var(--accent)}
+.bar small{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
+section{padding:60px 0 0}
+.split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:start}
+.side p{color:var(--muted);margin-top:12px;max-width:380px}
+.side img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:22px}
+.list .gt:first-child{margin-top:0}
+.aboutc{padding:30px;background:var(--dark)!important;color:#fff}.aboutc p{color:#ffffffd9;margin-top:10px;max-width:720px}.aboutc .pts li{border-color:var(--gold)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:22px}
+.day{padding:16px 8px;text-align:center}.dname{display:block;font-weight:700;font-size:14px}.day .tag{display:block;margin:6px auto 0;width:max-content}
+.day span.h{display:block;font-size:13px;color:var(--muted);margin-top:6px;line-height:1.35}
+.day.today{background:var(--dark);color:#fff}.day.today span.h{color:#ffffffcc}
+.find{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:26px 28px;margin-top:14px}
+@media(max-width:860px){nav{display:none}.name{font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}.banner .wrap{padding:48px 0 96px}.bar{grid-template-columns:1fr}.bar>*{border-right:0;border-bottom:1px solid var(--line)}.split{grid-template-columns:1fr;gap:24px}.week{grid-template-columns:1fr 1fr}.find{grid-template-columns:1fr}section{padding:42px 0 0}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="hero">
-  <div class="frame hero-inner">
-    <div class="mast">
-      <p class="shop">Diesel Injection Service</p>
-      <a class="phone" href="tel:+19098850590">(909) 885-0590</a>
-    </div>
+<header><div class="wrap"><a href="#" class="name">Diesel Injection Service</a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Hours &amp; location</a></nav>
+<a class="btn" href="tel:+19098850590">(909) 885-0590</a></div></header>
+<main id="main">
+<div class="banner" role="img" aria-label="Mechanic repairing a truck engine" style="--img:url(https://images.pexels.com/photos/7564861/pexels-photo-7564861.jpeg?auto=compress&cs=tinysrgb&w=1800)"><div class="wrap">
+<span class="label">Diesel fuel systems · Fontana</span><h1>Diesel pumps, injectors and turbos, <span>rebuilt and tested in Fontana.</span></h1>
+<p class="lede">Half the work arrives as a part, the other half drives in. Either way, the fault gets found before anything gets replaced.</p></div></div>
+<div class="wrap"><div class="card bar">
+<div><span class="label">Shop hours</span><strong>Monday to Friday, 7 to 5</strong><small>Closed weekends</small></div>
+<a href="tel:+19098850590"><span class="label">Call</span><strong>(909) 885-0590</strong><small>Tap to call</small></a>
+<a href="#visit"><span class="label">Find us</span><strong style="color:var(--ink)">8482 Cherry Ave</strong><small>Fontana, CA 92335</small></a>
+</div></div>
+<section id="services"><div class="wrap split">
+<div class="side"><span class="label">What we do</span><h2>Bring the part or bring the truck.</h2>
+<img loading="lazy" alt="Mechanic working on the front of a truck" src="https://images.pexels.com/photos/6720532/pexels-photo-6720532.jpeg?auto=compress&cs=tinysrgb&w=1200"></div>
+<div class="list"><h3 class="gt">Bring the part</h3><ul class="card svc"><li><span class="dot" aria-hidden="true"></span><div><h3>Injection pumps</h3><p>Diesel fuel injection pumps rebuilt and tested here, from a customer truck, a tractor or a generator set.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Injectors</h3><p>Rebuilt and tested the same way, in a full set or one at a time.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Turbochargers</h3><p>Call with the number off the tag if you are matching one up.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Parts counter</h3><p>A walk-in counter for mechanics, farms and generator owners.</p></div></li></ul><h3 class="gt">Bring the truck</h3><ul class="card svc"><li><span class="dot" aria-hidden="true"></span><div><h3>Engine diagnostics</h3><p>Read the fault first, so a part only gets replaced when it is the part at fault.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Injector replacement</h3><p>Old injectors pulled and new ones fitted with the engine still in the truck.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Turbo repair</h3><p>For a turbo that is smoking, leaking or not making boost.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Basic maintenance</h3><p>Oil changes and the routine service a diesel needs between bigger jobs.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Fleet service</h3><p>Several trucks at once, scheduled around the days they are off the road.</p></div></li></ul><p class="note">Call first with the part number if you have it. Credit cards accepted.</p></div>
+</div></section>
 
-    <svg class="fan" viewBox="0 0 1200 300" preserveAspectRatio="xMinYMid meet" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <clipPath id="fan-clip" clipPathUnits="userSpaceOnUse">
-          <rect class="fan-clip-rect" x="180" y="0" width="1020" height="300"/>
-        </clipPath>
-      </defs>
-      <g clip-path="url(#fan-clip)" fill="none" stroke="#dfe9d8" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round">
-        <line x1="180" y1="150" x2="1200" y2="40"/>
-        <line x1="180" y1="150" x2="1200" y2="62"/>
-        <line x1="180" y1="150" x2="1200" y2="84"/>
-        <line x1="180" y1="150" x2="1200" y2="106"/>
-        <line x1="180" y1="150" x2="1200" y2="128"/>
-        <line x1="180" y1="150" x2="1200" y2="150"/>
-        <line x1="180" y1="150" x2="1200" y2="172"/>
-        <line x1="180" y1="150" x2="1200" y2="194"/>
-        <line x1="180" y1="150" x2="1200" y2="216"/>
-        <line x1="180" y1="150" x2="1200" y2="238"/>
-        <line x1="180" y1="150" x2="1200" y2="260"/>
-      </g>
-      <g>
-        <rect x="0" y="136" width="18" height="28" fill="#c9cfc9"/>
-        <rect x="18" y="126" width="68" height="48" fill="#c9cfc9"/>
-        <rect x="30" y="126" width="4" height="48" fill="#1b6b38"/>
-        <rect x="74" y="126" width="4" height="48" fill="#1b6b38"/>
-        <polygon points="86,120 104,120 116,132 116,168 104,180 86,180" fill="#b98a2e"/>
-        <rect x="116" y="138" width="28" height="24" fill="#c9cfc9"/>
-        <polygon points="144,138 180,150 144,162" fill="#c9cfc9"/>
-      </g>
-    </svg>
-
-    <div class="hero-foot">
-      <h1>Diesel pumps, injectors and turbos, rebuilt and tested in Fontana.</h1>
-      <div class="hero-actions">
-        <div class="buttons">
-          <a class="btn primary" href="tel:+19098850590">Call (909) 885-0590</a>
-          <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=8482+Cherry+Ave+Fontana+CA+92335">Get directions</a>
-        </div>
-        <p class="since">Since 1951</p>
-      </div>
-    </div>
-  </div>
-</header>
-
-<main id="main" tabindex="-1">
-  <div class="frame">
-    <div class="fork">
-      <section class="part" aria-labelledby="part-h">
-        <h2 id="part-h">Bring the part</h2>
-        <p class="lead">Half the work here arrives as a part, not a vehicle: the pump, the injectors or the turbo comes in, and it leaves rebuilt and tested.</p>
-        <ul class="services">
-          <li><strong>Injection pumps.</strong> Diesel fuel injection pumps rebuilt and tested here, whether it is a mechanic's customer unit, a farm's tractor pump or a generator set.</li>
-          <li><strong>Injectors.</strong> Rebuilt and tested the same way, in a full set or one at a time.</li>
-          <li><strong>Turbochargers.</strong> Brought in with the rest of the diesel work; call with the number off the tag if you are matching one up.</li>
-          <li><strong>Parts counter.</strong> A walk-in counter for mechanics, farms and generator owners picking up a pump, a set of injectors or a turbo.</li>
-        </ul>
-        <p class="note">Call first with the part number if you have it.</p>
-      </section>
-
-      <section class="truck" aria-labelledby="truck-h">
-        <h2 id="truck-h">Bring the truck</h2>
-        <p class="lead">The other half drives in. Leave the truck and let the shop find the fault before anything gets replaced.</p>
-        <ul class="services">
-          <li><strong>Engine diagnostics.</strong> Read the fault first, so a part only gets replaced when it is the part at fault.</li>
-          <li><strong>Injector replacement.</strong> Pulling the old injectors and fitting the new ones with the engine still in the truck.</li>
-          <li><strong>Turbo repair.</strong> For a turbo that is smoking, leaking or not making boost.</li>
-          <li><strong>Basic maintenance.</strong> Oil changes and the routine service a diesel needs between bigger jobs.</li>
-          <li><strong>Fleet service.</strong> Several trucks at once, scheduled around the days they are off the road.</li>
-        </ul>
-      </section>
-    </div>
-
-    <div class="info">
-      <section class="hours" id="hours" aria-labelledby="hours-h">
-        <h2 id="hours-h">Hours</h2>
-        <table>
-          <caption>Shop hours</caption>
-          <tbody>
-            <tr data-day="1"><th scope="row">Monday</th><td>7:00 AM – 5:00 PM</td></tr>
-            <tr data-day="2"><th scope="row">Tuesday</th><td>7:00 AM – 5:00 PM</td></tr>
-            <tr data-day="3"><th scope="row">Wednesday</th><td>7:00 AM – 5:00 PM</td></tr>
-            <tr data-day="4"><th scope="row">Thursday</th><td>7:00 AM – 5:00 PM</td></tr>
-            <tr data-day="5"><th scope="row">Friday</th><td>7:00 AM – 5:00 PM</td></tr>
-            <tr data-day="6"><th scope="row">Saturday</th><td>Closed</td></tr>
-            <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
-          </tbody>
-        </table>
-        <p class="hours-foot">Closed weekends.</p>
-      </section>
-
-      <section class="find" id="find" aria-labelledby="find-h">
-        <h2 id="find-h">Find us</h2>
-        <address>8482 Cherry Ave<br>Fontana, CA 92335</address>
-        <div class="links">
-          <a href="tel:+19098850590">Call (909) 885-0590</a>
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8482+Cherry+Ave+Fontana+CA+92335">Get directions</a>
-        </div>
-        <p class="cardline">Credit cards accepted.</p>
-        <p class="ratings">4.9 on Google from 83 reviews, 4.6 on Yelp from 39, as of Nov 10, 2026.</p>
-      </section>
-    </div>
-  </div>
+<section id="reviews"><div class="wrap"><span class="label">Reviews</span><h2>Rated by the people who run diesels.</h2>
+<div class="rates" style="margin-top:18px"><a class="rate" href="https://www.google.com/maps/search/?api=1&query=Diesel+Injection+Service+8482+Cherry+Ave+Fontana+CA" target="_blank" rel="noopener noreferrer"><strong>4.9 ★</strong><span>Google · 83 reviews</span><em>Read the reviews ↗</em></a><div class="rate"><strong>4.6 ★</strong><span>Yelp · 39 reviews</span></div></div></div></section>
+<section id="visit"><div class="wrap"><span class="label">Hours &amp; location</span><h2>Cherry Avenue, Fontana.</h2>
+<div class="week"><div class="card day" data-day="1"><span class="dname">Mon</span><span class="h">7 AM – 5 PM</span></div><div class="card day" data-day="2"><span class="dname">Tue</span><span class="h">7 AM – 5 PM</span></div><div class="card day" data-day="3"><span class="dname">Wed</span><span class="h">7 AM – 5 PM</span></div><div class="card day" data-day="4"><span class="dname">Thu</span><span class="h">7 AM – 5 PM</span></div><div class="card day" data-day="5"><span class="dname">Fri</span><span class="h">7 AM – 5 PM</span></div><div class="card day" data-day="6"><span class="dname">Sat</span><span class="h">Closed</span></div><div class="card day" data-day="0"><span class="dname">Sun</span><span class="h">Closed</span></div></div><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19098850590">(909) 885-0590</a> before you come in.</p></div>
+<div class="card find"><div><address>8482 Cherry Ave, Fontana, CA 92335</address></div>
+<div class="actions" style="margin:0"><a class="btn primary" href="https://www.google.com/maps/dir/?api=1&destination=8482+Cherry+Ave+Fontana+CA+92335" target="_blank" rel="noopener noreferrer">Get directions</a><a class="btn" href="tel:+19098850590">Call (909) 885-0590</a></div></div>
+</div></section>
 </main>
-
-<footer>
-  <div class="frame">
-    <p>Concept website by Phan Rodriguez LLC. Not the official Diesel Injection Service site.</p>
-    <p>Listing details checked Nov 10, 2026. Founding year is from a supplier's page and needs the owner's confirmation.</p>
-  </div>
-</footer>
-
-<nav class="bar" aria-label="Quick actions">
-  <a href="tel:+19098850590">Call</a>
-  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8482+Cherry+Ave+Fontana+CA+92335">Directions</a>
-</nav>
+<footer><div class="wrap"><strong>Diesel Injection Service · Fontana, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
-(function(){
-  try{
-    var name=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short'}).format(new Date());
-    var day=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(name);
-    var row=document.querySelector('tr[data-day="'+day+'"]');
-    if(row) row.classList.add('today');
-  }catch(e){}
-}());
+(()=>{
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
+// highlight today's hours in the shop's time zone
+const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
+const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
+})();
 </script>
+
 </body>
 </html>

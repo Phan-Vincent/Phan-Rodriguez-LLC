@@ -20,7 +20,8 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
 .muted{color:var(--muted)}
 table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
-th{text-align:left;font-weight:500}td{text-align:right}th,td{padding:10px 12px;background:var(--row,#fff)}
+th{text-align:left;font-weight:500}td{text-align:right;white-space:nowrap}
+@media(max-width:480px){table{font-size:14px}th,td{padding:9px 8px}}th,td{padding:10px 12px;background:var(--row,#fff)}
 tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
 tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
 .tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
@@ -104,7 +105,7 @@ h2.t{font-size:24px;margin-top:6px}
 (()=>{
 // scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
 document.documentElement.classList.add('js');
-const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
 targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
 targets.forEach(el=>io.observe(el));

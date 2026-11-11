@@ -2,221 +2,123 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>43's Mufflers &amp; Brakes — Pomona exhaust and brake shop (concept)</title>
-<meta name="description" content="Concept website for 43's Mufflers & Brakes, 1717 W Holt Ave, Pomona. Mufflers, catalytic converters, exhaust welding, tow hitches and brakes. Call (909) 868-1997.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:ital,wght@1,700;1,800&display=swap" rel="stylesheet">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>43's Mufflers & Brakes | Holt Ave, Pomona</title>
+<meta name="description" content="43's Mufflers & Brakes. Exhaust is what the sign says and what most people come in for. Tell us the car and what it's doing, and we'll tell you your options before we touch it. Concept site.">
 <style>
-:root{
-  --black:#15130f; --yellow:#f5c518; --white:#fff; --cream:#e8dfcb; --red:#8f3a29; --mortar:#cfc4ab;
-  --sign:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
-  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --frame:1280px; --gutter:clamp(18px,4vw,56px);
-}
-*,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:var(--body);font-size:clamp(17px,.5vw + 14px,19px);line-height:1.55;color:var(--black);background:var(--cream) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192'%3E%3Cpath d='M0 1h192M0 97h192M1 0v96M97 96v96' stroke='%23cfc4ab' stroke-width='2' fill='none'/%3E%3C/svg%3E") 0 0/192px 192px}
-h1,h2,h3,p,ul,table{margin:0}
-ul{padding:0;list-style:none}
-a{color:inherit}
-:focus-visible{outline:3px solid var(--black);outline-offset:3px}
-.sign :focus-visible,.door :focus-visible,footer :focus-visible{outline-color:var(--yellow)}
-.skip{position:absolute;left:12px;top:-60px;background:var(--yellow);color:var(--black);padding:10px 14px;font-weight:600;z-index:20}
-.skip:focus{top:12px}
-.frame{max-width:var(--frame);margin-inline:auto;padding-inline:var(--gutter)}
-.lettered{font-family:var(--sign);font-style:italic;font-weight:800;text-transform:uppercase;line-height:.84;letter-spacing:-.005em}
-h2{font-family:var(--sign);font-style:italic;font-weight:700;font-size:clamp(34px,5vw,64px);line-height:.98}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+.skip{position:absolute;left:16px;top:-80px;z-index:99;background:#fff;color:#000;padding:10px;border-radius:6px}.skip:focus{top:10px}
+.label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:6px;font-weight:600;font-size:15px;background:var(--chip);color:var(--ink);transition:filter .175s}
+.btn:hover{filter:brightness(.94)}.btn.primary{background:var(--accent);color:#fff}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003}
+.muted{color:var(--muted)}
+table{border-collapse:separate;border-spacing:0 4px;width:100%;font-size:15px}
+th{text-align:left;font-weight:500}td{text-align:right;white-space:nowrap}
+@media(max-width:480px){table{font-size:14px}th,td{padding:9px 8px}}th,td{padding:10px 12px;background:var(--row,#fff)}
+tr th{border-radius:6px 0 0 6px}tr td{border-radius:0 6px 6px 0}
+tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-today,#fff);font-weight:700}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-left:8px;border:1px solid currentColor;border-radius:6px;padding:2px 6px}
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.24,1,.4,1),transform .6s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--d,0)*90ms)}
+.js .reveal.in{opacity:1;transform:none}
+.holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#8F3A29;--dark:#15130F;--gold:#D9A81E;--focus:#8F3A29}
+h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+.lede{font-size:18px;margin-top:18px;max-width:560px}
+.sub{font-size:15px;font-weight:600;margin-top:10px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.gt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{padding:22px;border-top:4px solid var(--accent)}.tile h3{font-size:19px}.tile p{color:var(--muted);font-size:15px;margin-top:6px}
+.svc li{display:grid;grid-template-columns:14px 1fr;gap:14px;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line)}.svc li:last-child{border:0}
+.svc h3{font-size:18px}.svc p{color:var(--muted);font-size:15px;margin-top:3px}.dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.rates{display:flex;flex-wrap:wrap;gap:14px}
+.rate{display:block;background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;padding:18px 22px;min-width:200px}
+.rate strong{display:block;font-size:30px;letter-spacing:-.02em;color:var(--accent)}.rate span{font-size:13.5px;color:var(--muted)}.rate em{display:block;font-style:normal;font-size:13px;font-weight:600;margin-top:8px;text-decoration:underline;text-underline-offset:4px}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}
+.q{padding:22px}.q p{font-size:19px;font-weight:600;line-height:1.35}.q cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:14px}
+.more{font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.pts{display:grid;gap:10px;margin-top:16px}.pts li{padding-left:16px;border-left:3px solid var(--gold)}.pts strong{display:block}
+.note{margin-top:12px;font-size:14.5px;color:var(--muted)}
+address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
+.bigphone{display:inline-block;font-size:clamp(26px,3.2vw,38px);font-weight:700;letter-spacing:-.02em;margin-top:14px}
+.name{font-weight:700;font-size:20px;letter-spacing:-.01em}
+@media(max-width:860px){.tiles{grid-template-columns:1fr}}
 
-/* ---------- the sign ---------- */
-.sign{background:var(--black);color:var(--white);padding-block:clamp(18px,2.4vw,30px) clamp(26px,4vw,56px);border-bottom:10px solid var(--mortar);position:relative}
-.sign .bolts{position:absolute;inset:14px;pointer-events:none;background:
-  radial-gradient(circle,#6b665c 0 4px,transparent 5px) 0 0/14px 14px no-repeat,
-  radial-gradient(circle,#6b665c 0 4px,transparent 5px) 100% 0/14px 14px no-repeat,
-  radial-gradient(circle,#6b665c 0 4px,transparent 5px) 0 100%/14px 14px no-repeat,
-  radial-gradient(circle,#6b665c 0 4px,transparent 5px) 100% 100%/14px 14px no-repeat}
-.sign nav{display:flex;justify-content:flex-end;gap:clamp(16px,2.6vw,36px);font-weight:600;margin-bottom:clamp(10px,2vw,26px)}
-.sign nav a{text-decoration:none;padding-block:10px}
-.sign nav a:hover{color:var(--yellow)}
-.sign h1{font-size:clamp(64px,24vw,210px);display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.16em}
-.sign h1 .n{color:var(--yellow);text-transform:none;font-size:.78em;translate:0 -.16em;rotate:-3deg;display:inline-block}
-.sign h1 .amp{display:block;flex-basis:100%;font-size:.33em;line-height:1;margin-top:.12em;letter-spacing:.01em}
-.sign .phone{display:block;width:max-content;max-width:100%;color:var(--yellow);text-decoration:none;font-size:clamp(52px,18vw,190px);white-space:nowrap;margin-top:.1em;font-variant-numeric:lining-nums}
-.sign .phone:hover{color:var(--white)}
-.sign .under{display:flex;flex-wrap:wrap;gap:8px 28px;align-items:center;margin-top:clamp(14px,2vw,26px);font-size:clamp(17px,1.5vw,21px)}
-.sign .under a{font-weight:600;text-underline-offset:5px}
-.chip{display:inline-block;background:var(--yellow);color:var(--black);font-weight:600;padding:4px 12px;border-radius:2px}
-.chip[data-open="false"]{background:var(--white)}
-.paint{animation:paint .7s cubic-bezier(.3,0,.2,1) both}
-.sign .phone.paint{animation-delay:.35s}
-@keyframes paint{from{clip-path:inset(-10% 100% -10% 0)}to{clip-path:inset(-10% -5% -10% 0)}}
-
-/* ---------- the wall: services + bay door ---------- */
-.wall{display:grid;gap:clamp(36px,5vw,72px);padding-block:clamp(44px,6vw,96px)}
-.work > p{max-width:36em;margin-top:16px}
-.lists{display:grid;gap:clamp(24px,4vw,56px);margin-top:clamp(28px,4vw,48px)}
-.lists h3{font-size:1rem;font-weight:600;padding-bottom:8px;border-bottom:3px solid var(--black)}
-.lists li{padding-block:12px;border-bottom:2px solid var(--mortar)}
-.exhaust li{font-family:var(--sign);font-style:italic;font-weight:800;text-transform:uppercase;font-size:clamp(30px,4.4vw,58px);line-height:.95}
-.exhaust li small{display:block;font-family:var(--body);font-style:normal;font-weight:400;text-transform:none;font-size:1rem;line-height:1.5;margin-top:6px;max-width:32em}
-.rest li{font-weight:600}
-.rest li span{display:block;font-weight:400}
-@media (min-width:720px){.lists{grid-template-columns:minmax(0,5fr) minmax(0,3fr)}.rest{margin-top:clamp(40px,8vw,120px)}}
-
-.door{background:var(--red);color:var(--white);padding:clamp(24px,3vw,40px);align-self:start;
-  background-image:linear-gradient(rgba(0,0,0,.16) 0 2px,transparent 2px);background-size:100% 30px}
-.door h2{font-size:clamp(34px,4vw,54px)}
-.door .chip{margin-top:16px}
-table{width:100%;border-collapse:collapse;margin-top:20px}
-caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-th,td{text-align:left;padding:10px 8px;border-top:2px solid rgba(255,255,255,.28);font-weight:400}
-td{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-tr.today th,tr.today td{background:var(--yellow);color:var(--black);font-weight:600}
-tr.today th::after{content:" (today)";font-weight:400}
-.door address{font-style:normal;margin-top:22px;font-weight:600;font-size:1.1em}
-.door .fine{font-size:15px;margin-top:10px}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 22px;font-weight:600;text-decoration:none;border-radius:2px;background:var(--black);color:var(--white);margin-top:20px}
-.btn:hover{background:var(--yellow);color:var(--black)}
-@media (min-width:1000px){
-  .wall{grid-template-columns:minmax(0,7fr) minmax(0,5fr);align-items:start}
-  .door{margin-top:calc(clamp(44px,6vw,96px) * -1 - 10px);padding-top:clamp(40px,5vw,72px);position:relative;z-index:1}
-}
-@media (max-width:999px){.door{margin-inline:calc(var(--gutter) * -1);padding-inline:var(--gutter)}}
-
-/* ---------- who comes here ---------- */
-.cars{background:var(--black);color:var(--white);padding-block:clamp(44px,6vw,96px)}
-.cars .cols{display:grid;gap:clamp(24px,5vw,80px)}
-.cars h2{color:var(--yellow);max-width:11em}
-.cars p{max-width:36em}
-.cars p + p{margin-top:14px}
-.scores{display:flex;flex-wrap:wrap;gap:12px 44px;margin-top:26px;padding-top:22px;border-top:2px solid #3a362d}
-.scores b{font-family:var(--sign);font-style:italic;font-weight:800;font-size:clamp(48px,6vw,84px);line-height:.9;display:block;color:var(--yellow)}
-.scores a{text-underline-offset:4px}
-@media (min-width:900px){.cars .cols{grid-template-columns:minmax(0,5fr) minmax(0,6fr)}}
-
-footer{padding-block:30px 34px;font-size:15px;background:var(--cream);border-top:10px solid var(--mortar)}
-footer p{max-width:60em}
-footer p + p{margin-top:8px}
-
-.bar{display:none}
-@media (max-width:699px){
-  .sign nav{justify-content:flex-start}
-  body{padding-bottom:64px}
-  .bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;inset:auto 0 0 0;z-index:10;background:var(--black);border-top:2px solid var(--yellow)}
-  .bar a{min-height:62px;display:grid;place-items:center;color:var(--white);font-weight:600;text-decoration:none}
-  .bar a:first-child{background:var(--yellow);color:var(--black)}
-}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.paint{animation:none}}
+body{border-top:6px solid var(--accent)}
+.cover{height:clamp(200px,30vw,380px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover var(--dark);border-radius:0 0 8px 8px}
+.layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start;margin-top:-56px;position:relative}
+.shop{position:sticky;top:16px;padding:24px;--row:#F0F2F5;--today:var(--dark)}
+.shop h1{font-size:26px}.shop .sub{font-size:13px;font-weight:600;color:var(--muted);margin-top:4px}
+.shop .rates{margin:16px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);gap:18px}
+.shop .rate{box-shadow:none;padding:0;min-width:0}.shop .rate strong{font-size:22px;color:var(--ink)}.shop .rate span{font-size:12px}.shop .rate em{font-size:12px;margin-top:4px}
+.shop .btn{width:100%;margin-top:8px}
+.shop address{font-size:16px;margin:16px 0 4px}
+.shop table{font-size:14px;margin-top:14px}.shop th,.shop td{padding:7px 10px}
+.feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
+.feed>.card{padding:28px}
+.lead h2{font-size:clamp(30px,4vw,46px);margin:0}.lead h2 em{font-style:normal;color:var(--accent)}
+.lead p{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chips span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:6px;background:var(--chip)}
+.chips span:nth-child(3n+1){background:var(--dark);color:#fff}.chips span:nth-child(3n+2){background:var(--gold);color:#111}
+h2.t{font-size:24px;margin-top:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px 28px;margin-top:6px}
+.it{padding:12px 0 12px 14px;border-left:3px solid var(--accent)}.it h3{font-size:17px}.it p{font-size:14.5px;color:var(--muted);margin-top:3px}
+.photo{padding:0!important;overflow:hidden}.photo img{width:100%;aspect-ratio:21/9;object-fit:cover}
+.aboutc{background:var(--dark)!important;color:#fff}.aboutc h2{font-size:24px;margin:0}.aboutc p{color:#ffffffd9;margin-top:10px}.aboutc .pts li{border-color:var(--gold)}
+.feed .rates{display:none}
+@media(max-width:900px){.layout{grid-template-columns:1fr;margin-top:-40px}.shop{position:static}.two{grid-template-columns:1fr}.feed>.card{padding:22px}}
 </style>
 </head>
 <body>
-<a class="skip" href="#work">Skip to content</a>
+<a class="skip" href="#main">Skip to content</a>
 
-<header class="sign">
-  <div class="bolts" aria-hidden="true"></div>
-  <div class="frame">
-    <nav aria-label="Main">
-      <a href="#work">What we do</a>
-      <a href="#hours">Hours</a>
-      <a href="#reviews">Reviews</a>
-    </nav>
-    <h1 class="lettered paint" aria-label="43's Mufflers and Brakes"><span class="n" aria-hidden="true">43's</span><span aria-hidden="true">Mufflers</span><span class="amp" aria-hidden="true">&amp; Brakes, Pomona</span></h1>
-    <a class="phone lettered paint" href="tel:+19098681997" aria-label="Call 909-868-1997">909-868-1997</a>
-    <p class="under"><span class="chip" id="chip">Open Monday to Saturday</span><span>1717 W Holt Ave, Pomona</span><a href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA">Get directions</a></p>
-  </div>
-</header>
+<main id="main">
+<div class="wrap"><div class="cover" role="img" aria-label="Mechanic inspecting an exhaust system under a lifted car" style="--img:url(https://images.pexels.com/photos/8986100/pexels-photo-8986100.jpeg?auto=compress&cs=tinysrgb&w=1600)"></div>
+<div class="layout">
+<aside class="card shop" aria-label="Shop details">
+<h1>43's Mufflers &amp; Brakes</h1><p class="sub">Exhaust and brakes · Holt Ave, Pomona</p>
+<div class="rates"><a class="rate" href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer"><strong>4.5 ★</strong><span>Google · 105 reviews</span><em>Read the reviews ↗</em></a><a class="rate" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona" target="_blank" rel="noopener noreferrer"><strong>4.8 ★</strong><span>Yelp · 98 reviews</span><em>Read the reviews ↗</em></a></div>
+<a class="btn primary" href="tel:+19098681997">Call (909) 868-1997</a>
+<a class="btn" href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">Get directions</a>
+<address>1717 W Holt Ave, Ste 1709<br>Pomona, CA 91768</address><p class="note" style="margin-top:4px">In a busy auto plaza. Look for the black and yellow sign.</p>
+<table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>9:30 AM – 1:30 PM</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19098681997">(909) 868-1997</a> before you come in.</p></div>
+</aside>
+<div class="feed">
+<div class="card lead"><h2>Loud, leaking or stolen. <em>We fit it and weld it.</em></h2><p class="lede">Exhaust is what the sign says and what most people come in for. Tell us the car and what it's doing, and we'll tell you your options before we touch it.</p>
+<div class="chips"><span>Mufflers</span><span>Catalytic converters</span><span>Welding</span><span>Brakes</span><span>Tow hitches</span></div></div>
+<div class="card" id="services"><span class="label">Services</span><h2 class="t">What we do.</h2><h3 class="gt">Exhaust</h3><div class="two"><div class="it"><h3>Mufflers</h3><p>Swapped, replaced or changed for a different sound.</p></div><div class="it"><h3>Catalytic converters</h3><p>Replaced, including after a theft.</p></div><div class="it"><h3>Exhaust systems</h3><p>Pipe run and fitted to the car on the lift.</p></div><div class="it"><h3>Welding</h3><p>Brackets, hangers, tips and broken joints.</p></div><div class="it"><h3>Tow hitches</h3></div></div><h3 class="gt">Brakes and the rest</h3><div class="two"><div class="it"><h3>Brakes</h3><p>Drums and rotors.</p></div><div class="it"><h3>General service</h3><p>Suspension, lights and engine work. Ask when you call.</p></div><div class="it"><h3>Older cars welcome</h3><p>Sixties wagons and eighties pickups come through the bay.</p></div></div></div>
+<div class="card photo"><img loading="lazy" alt="Close-up of a brake rotor being inspected" src="https://images.pexels.com/photos/6870299/pexels-photo-6870299.jpeg?auto=compress&cs=tinysrgb&w=1200"></div>
 
-<main>
-  <div class="frame wall">
-    <section class="work" id="work" aria-labelledby="work-h">
-      <h2 id="work-h">Loud, leaking or stolen. We fit it and weld it.</h2>
-      <p>Exhaust is what the sign says and what most people come in for. Tell us the car and what it's doing, and we'll tell you your options before we touch it.</p>
-      <div class="lists">
-        <div class="exhaust">
-          <h3>Exhaust</h3>
-          <ul>
-            <li>Mufflers<small>Swapped, replaced or changed for a different sound.</small></li>
-            <li>Catalytic converters<small>Replaced, including after a theft.</small></li>
-            <li>Exhaust systems<small>Pipe run and fitted to the car on the lift.</small></li>
-            <li>Welding<small>Brackets, hangers, tips and broken joints.</small></li>
-            <li>Tow hitches</li>
-          </ul>
-        </div>
-        <div class="rest">
-          <h3>Brakes and the rest</h3>
-          <ul>
-            <li>Brakes<span>Drums and rotors.</span></li>
-            <li>General service<span>Suspension, lights and engine work. Ask when you call.</span></li>
-            <li>Older cars welcome<span>Reviewers bring in sixties wagons and eighties pickups.</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <aside class="door" id="hours" aria-labelledby="hours-h">
-      <h2 id="hours-h">Bay's open.</h2>
-      <p class="chip" id="chip2">Open Monday to Saturday</p>
-      <table>
-        <caption>Shop hours</caption>
-        <tbody>
-          <tr data-day="1"><th scope="row">Monday</th><td>9:30 – 5:30</td></tr>
-          <tr data-day="2"><th scope="row">Tuesday</th><td>9:30 – 5:30</td></tr>
-          <tr data-day="3"><th scope="row">Wednesday</th><td>9:30 – 5:30</td></tr>
-          <tr data-day="4"><th scope="row">Thursday</th><td>9:30 – 5:30</td></tr>
-          <tr data-day="5"><th scope="row">Friday</th><td>9:30 – 5:30</td></tr>
-          <tr data-day="6"><th scope="row">Saturday</th><td>9:30 – 1:30</td></tr>
-          <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
-        </tbody>
-      </table>
-      <address>1717 W Holt Ave, Ste 1709<br>Pomona, CA 91768</address>
-      <p class="fine">We share a busy auto plaza, so look for the black and yellow sign. Holiday hours can differ; call first.</p>
-      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA">Get directions</a>
-    </aside>
-  </div>
-
-  <section class="cars" id="reviews" aria-labelledby="rev-h">
-    <div class="frame cols">
-      <h2 id="rev-h">What people come back for.</h2>
-      <div>
-        <p>Across Google and Yelp, reviewers keep landing on the same things: straight answers, quotes that beat the last shop, fast turnaround on catalytic converters, and clean welds. Several brought their own parts and had them fitted.</p>
-        <div class="scores">
-          <p><b>4.5</b>from 105 Google reviews<br><a href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA">Read them on Google Maps</a></p>
-          <p><b>4.8</b>from 98 Yelp reviews<br><a href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona">Read them on Yelp</a></p>
-        </div>
-        <p style="margin-top:14px;font-size:15px">Ratings checked November 10, 2026.</p>
-      </div>
-    </div>
-  </section>
+<div class="card" id="reviews"><span class="label">Reviews</span><h2 class="t">What people come back for.</h2><p class="note">Straight answers, quotes that beat the last shop, fast turnaround on catalytic converters, and clean welds. Several customers brought their own parts and had them fitted.</p>
+<p style="margin-top:14px"><a class="more" href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">4.5 ★ Google · 105 reviews ↗</a> · <a class="more" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona" target="_blank" rel="noopener noreferrer">4.8 ★ Yelp · 98 reviews ↗</a></p></div>
+</div></div></div>
 </main>
-
-<footer>
-  <div class="frame">
-    <p>43's Mufflers &amp; Brakes, 1717 W Holt Ave, Ste 1709, Pomona, CA 91768. <a href="tel:+19098681997">(909) 868-1997</a></p>
-    <p>Concept website by Phan-Rodriguez LLC. Not the official site of 43's Mufflers &amp; Brakes. Details come from the shop's public Google and Yelp listings; confirm with the shop.</p>
-  </div>
-</footer>
-
-<nav class="bar" aria-label="Quick actions">
-  <a href="tel:+19098681997">Call</a>
-  <a href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA">Directions</a>
-</nav>
+<footer><div class="wrap"><strong>43's Mufflers & Brakes · Pomona, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
 
 <script>
-(function(){
-  var H={0:null,1:[570,1050],2:[570,1050],3:[570,1050],4:[570,1050],5:[570,1050],6:[570,810]};
-  try{
-    var parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
-    var g=function(k){return parts.filter(function(p){return p.type===k})[0].value};
-    var d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(g('weekday')), m=(+g('hour')%24)*60+ +g('minute');
-    var row=document.querySelector('tr[data-day="'+d+'"]'); if(row) row.classList.add('today');
-    var h=H[d], open=h&&m>=h[0]&&m<h[1];
-    var fmt=function(x){var hh=Math.floor(x/60),mm=x%60;return (hh%12||12)+(mm?':'+('0'+mm).slice(-2):'')+(hh<12?' AM':' PM')};
-    var text=open?'Open now until '+fmt(h[1]):(h&&m<h[0]?'Closed. Opens '+fmt(h[0])+' today':'Closed right now');
-    ['chip','chip2'].forEach(function(id){var c=document.getElementById(id);c.textContent=text;c.dataset.open=!!open;});
-  }catch(e){}
+(()=>{
+// scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
+document.documentElement.classList.add('js');
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+targets.forEach(el=>io.observe(el));
+// highlight today's hours in the shop's time zone
+const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
+const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>
+
 </body>
 </html>

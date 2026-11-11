@@ -156,3 +156,23 @@ Checked against Google Maps, Birdeye, SureCritic, Yelp and MapQuest on Nov 10, 2
 - **Layout:** A C Tires service list and photo column now match in height; Tri Auto visit card columns are vertically centered.
 - **Photos:** all 13 Unsplash URLs load (checked in a browser). They are still hotlinked.
 - **Tests:** Playwright at 1440px and 390px on all three: no horizontal overflow, no script errors, reveal hides below-the-fold blocks and shows them on scroll, carousels scroll, hold and resume.
+
+## All lead sites rebuilt in the house style (2026-11-10)
+
+Andrew asked for every site in the repo to be redesigned to match Tri Auto, A C Tires and Moreno's, with real photos, and chose to replace the pages on `main`. Vincent's 16 originals are in git history (last commit before the rebuild: `e69ee8b`); each site's own `DESIGN.md` and `screenshots/` still describe the original and are marked superseded.
+
+- **Generator:** `tools/auto-shop-generator/build_leads.py` (imports the shared base from `build_v2.py`). One data entry per site; three layouts rotated so neighbors differ.
+
+| Layout | Sites |
+| --- | --- |
+| A, split hero and tiles (like Tri Auto) | Alejandros Tree Service, El Rey "Retro Roadside", J C Auto Electric, Muffler Doctor, Sinaloa Tires, With Pride Auto Air |
+| B, photo banner and info bar (like A C Tires) | Diesel Injection Service, El Rey, King Tire Shop, Lockworx, Toy Shop Transmissions |
+| C, profile page with sticky shop card (like Moreno's) | 43's Mufflers & Brakes, Don Cortez Tire Shop, JC Bumper Repair, Performance Lube & Oil, Tepa Tire |
+
+- **Shared style:** gray canvas, white 8px cards, system font, flat buttons, each shop's own accent color (muted), scroll reveals, today highlighted in hours, Holiday hours note, noindex, concept-site footer.
+- **Facts:** names, addresses, phones, hours, ratings, services and quotes were carried over from Vincent's pages (checked by him Nov 9 to 10). No new facts were added and they were not re-verified in this pass. Dropped because they were flagged as unconfirmed: Diesel Injection Service "Since 1951". Wording such as "according to the shop" was removed, so these need owner sign-off: With Pride "more than 40 years", Performance Lube "free car wash with every service", Lockworx "key copies from $1.50".
+- **Removed features:** the interactive pieces of the originals (JC Bumper before/after slider, J C Auto fuse-box picker, King Tire clock, Toy Shop gear selector, location sketches, illustrated storefronts).
+- **Reviews:** rating tiles link to the Google or Yelp listing. Unnamed "From Google reviews" quotes are kept only where Vincent had them (El Rey, Lockworx, Don Cortez). No rotating review row on these sites because there are no named, linkable reviews yet.
+- **Photos (free license, hotlinked, all confirmed loading from the GitHub Pages address):** Pexels IDs 8986100, 6870299, 12596112, 31127615, 7564861, 6720532, 6870311, 30179627, 14006131, 35020122, 28992999, 8985448, 10490631, 8470881, 6870314, 8985660, 31097241, 18101862, 6565048, 10827691, 32662276, 13065690, 4876645, 29181492, 15489247, 6074540, 10490621; Unsplash 1578844251758. The auto ones come from Andrew's `Company_Image_Research.zip`; food, key and tree photos were found on Pexels the same day. They illustrate the service and are not photos of the businesses.
+- **From the research zip, not used:** `moreno_logo.png` is not an image (it contains a "request blocked" message). Tepa Tire: the pack flags a dealer listing with different hours (weekdays 7 to 5); the page keeps Google's 8 to 6 daily, so confirm with the owner.
+- **Checked:** Playwright at 1440px and 390px on all 16: no horizontal overflow, no script errors, reveals hide below-the-fold blocks, today's hours highlighted. Photos were placeholders in that check.

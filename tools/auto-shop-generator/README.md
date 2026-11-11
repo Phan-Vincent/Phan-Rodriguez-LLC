@@ -1,6 +1,6 @@
 # Auto shop site generator
 
-`build_v2.py` builds the three auto shop concept sites into `mockups/<folder>/index.html`. Each site has its own layout:
+`build_v2.py` builds Tri Auto, A C Tires and Moreno's. `build_leads.py` builds the other 16 lead sites in the same style (run it the same way). Both write to `mockups/<folder>/index.html`.
 
 | Site | Layout |
 | --- | --- |

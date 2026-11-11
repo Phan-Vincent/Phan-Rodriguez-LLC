@@ -1,3 +1,5 @@
+> **Superseded on 2026-11-10.** Andrew asked for every site to be rebuilt in the shared house style (see the root `DESIGN.md`, section "All lead sites rebuilt in the house style"). The notes below describe Vincent's original concept, which is still in git history (last commit before the rebuild: `e69ee8b`). Screenshots in this folder show the original.
+
 # 43's Mufflers & Brakes — "The Sign Out Front"
 
 Concept website for 43's Mufflers & Brakes, 1717 W Holt Ave (Ste 1709), Pomona, CA 91768.
