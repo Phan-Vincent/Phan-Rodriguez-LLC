@@ -74,10 +74,10 @@ h1 .it{font-size:1.04em;letter-spacing:-.03em;display:inline-block;padding-right
 .card-img .chip{position:absolute;z-index:2;bottom:18px;background:color-mix(in srgb,var(--bone) 92%,transparent);backdrop-filter:blur(10px);color:var(--ink);border-radius:999px;padding:10px 18px;font-weight:700;font-size:14px}
 .card-img .chip.l{left:18px}.card-img .chip.r{right:18px}.card-img .chip b{color:var(--acc)}
 /* hero: split */
-.hero.split{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);min-height:min(88svh,800px)}
+.hero.split{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);min-height:0}
 .hero.split .l{display:flex;flex-direction:column;justify-content:space-between;padding:0 clamp(18px,3.2vw,48px) 34px}
 .hero.split .l .top{padding-top:22px}
-.hero.split h1{font-size:clamp(50px,var(--h1,8vw),150px);margin:clamp(30px,5vw,70px) 0 26px}
+.hero.split h1{font-size:clamp(50px,var(--h1,8vw),150px);margin:clamp(36px,6vw,96px) 0 26px}
 .hero.split .r{position:relative;overflow:hidden;background:var(--ink);min-height:320px}
 .hero.split .meta{grid-template-columns:auto 1fr;align-items:center;gap:18px}
 /* hero: block */
@@ -91,7 +91,7 @@ h1 .it{font-size:1.04em;letter-spacing:-.03em;display:inline-block;padding-right
 .tilt{position:relative;z-index:3;width:min(1360px,calc(100% - 64px));margin:calc(clamp(120px,16vw,230px)*-1 + 30px) auto 0;height:clamp(230px,36vw,520px);border-radius:18px;overflow:hidden;background:var(--ink);transform:rotate(-1.2deg);box-shadow:0 40px 80px -40px #000a}
 .tilt .hero-img{inset:-6%}
 
-section{padding:clamp(52px,6.6vw,104px) 0}
+section{padding:clamp(44px,5.4vw,84px) 0}
 .lab{display:flex;align-items:center;gap:10px;color:var(--mut)}.lab:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--acc)}
 .rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--d,0)*90ms)}.rv.in{opacity:1;transform:none}
 .clip{clip-path:inset(0 0 100% 0);transition:clip-path 1.2s var(--ease);border-radius:14px;overflow:hidden}.clip.in{clip-path:inset(0)}
@@ -125,19 +125,20 @@ section{padding:clamp(52px,6.6vw,104px) 0}
 .item.solo{grid-template-columns:1fr}
 /* about */
 .pts{display:grid;gap:14px;margin-top:22px}.pts li{padding-top:14px;border-top:1px solid var(--line)}.pts strong{display:block;font-size:19px}
-.abt{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(30px,6vw,110px);align-items:start}
-.abt .left{position:sticky;top:96px}.abt .left>p{color:var(--mut);margin-top:20px;max-width:420px;font-size:18px}
-.abt .clip img{aspect-ratio:4/5}.band .clip img{aspect-ratio:21/9}
+.abt{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.abt .left{position:static}.abt .left>p{color:var(--mut);margin-top:20px;max-width:420px;font-size:18px}
+.abt .clip img{aspect-ratio:4/3}.band .clip img{aspect-ratio:21/9}
 /* reviews */
-.nums{display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,90px);margin-top:20px}
+.revhead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px clamp(30px,6vw,110px);margin-top:20px}.revhead .revtxt{flex:1 1 380px;margin:0 0 10px;max-width:640px}
+.nums{display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,90px)}
 .num strong{display:block;font-weight:800;font-stretch:var(--stretch,108%);font-size:clamp(64px,11vw,190px);line-height:.86;letter-spacing:-.05em}.num strong i{font-style:normal;color:var(--acc);font-size:.5em;vertical-align:.5em;margin-left:.06em}
 .num span{display:block;margin-top:10px;color:var(--mut)}.num a{display:inline-block;margin-top:6px;font-weight:600;font-size:14px;text-decoration:underline;text-underline-offset:5px}
 .qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:clamp(30px,4vw,56px)}
-.q{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}.q:hover{background:var(--ink);color:var(--bone)}
+.q{display:block;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}.q:hover{background:var(--ink);color:var(--bone)}
 .q p{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:30px;line-height:1.08}.q cite{display:block;font-style:normal;font-size:13px;opacity:.7;margin-top:22px}
 .revtxt{font-size:clamp(20px,2vw,28px);max-width:820px;margin-top:26px;letter-spacing:-.02em;line-height:1.25}
 .quotes{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding:4px 2px 10px;margin-top:clamp(30px,4vw,56px);cursor:grab}.quotes::-webkit-scrollbar{display:none}
-.quotes .quote{flex:0 0 min(400px,82%);background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}
+.quotes .quote{flex:1 0 min(380px,82%);background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}
 .quotes .quote:hover{background:var(--ink);color:var(--bone)}
 .review-body{display:flex;flex-direction:column;justify-content:space-between;gap:34px;height:100%}
 .review-origin{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
@@ -153,6 +154,7 @@ table{border-collapse:collapse;width:100%;font-size:16px;margin-top:8px}
 th{text-align:left;font-weight:400}td{text-align:right;white-space:nowrap}th,td{padding:12px 0;border-bottom:1px solid var(--line)}
 tr.today th,tr.today td{color:var(--star);font-weight:700}
 .today-tag{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid currentColor;border-radius:999px;padding:2px 8px;margin-left:10px}
+.map{display:block;width:100%;height:clamp(200px,22vw,300px);border:0;border-radius:14px;margin-top:26px;filter:grayscale(.2)}
 .hol{margin-top:16px;font-size:14px;color:var(--mut)}.hol a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 footer{background:var(--ink);color:color-mix(in srgb,var(--bone) 62%,var(--ink));padding:0 0 28px;overflow:hidden}
 .word{font-weight:800;font-stretch:112%;text-transform:uppercase;font-size:var(--wordsz,15vw);line-height:.8;letter-spacing:-.055em;color:transparent;-webkit-text-stroke:1.5px color-mix(in srgb,var(--bone) 36%,transparent);white-space:nowrap;text-align:center;user-select:none}
@@ -286,10 +288,16 @@ def reviews(s):
     if s.get("track"):
         body = s["track"]
     elif s.get("quotes"):
-        body = '<div class="qs">' + "".join(f'<blockquote class="q rv"><p>“{esc(q)}”</p><cite>From Google reviews</cite></blockquote>' for q in s["quotes"]) + "</div>"
+        url = s["ratings"][0][2]
+        body = '<div class="qs">' + "".join(f'<a class="q rv" href="{url}" target="_blank" rel="noopener noreferrer"><p>“{esc(q)}”</p><cite>From Google reviews · open the listing ↗</cite></a>' for q in s["quotes"]) + "</div>"
     else:
         body = ""
-    return f'<section id="reviews"><div class="wrap"><p class="tag lab rv">Reviews</p><div class="nums">{nums}</div>{txt}{body}</div></section>'
+    return f'<section id="reviews"><div class="wrap"><p class="tag lab rv">Reviews</p><div class="revhead"><div class="nums">{nums}</div>{txt}</div>{body}</div></section>'
+
+
+def frag(base, text):
+    from urllib.parse import quote
+    return base + "#:~:text=" + quote(text, safe="")
 
 
 def visit(s):
@@ -300,10 +308,12 @@ def visit(s):
     else:
         hrs = f'<span class="tag lab">Hours</span><p class="revtxt" style="margin-top:12px">Call <a href="tel:{t}" style="text-decoration:underline;text-underline-offset:5px">{s["phone"]}</a> for current availability and hours.</p>'
     find = f'<p class="find">{esc(s["find"])}</p>' if s.get("find") else ""
+    from urllib.parse import quote_plus
+    mp = f'<iframe class="map" loading="lazy" title="Map of {esc(s["short"])}" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={quote_plus(s["short"] + ", " + s["addr"].replace("<br>", ", "))}&z=15&output=embed"></iframe>' if s.get("hours") else ""
     return f"""<section class="dark" id="visit"><div class="wrap"><p class="tag lab rv">Visit or call</p>
 <a class="phone rv" href="tel:{t}">{s['phone']}</a>
 <div class="vgrid"><div class="rv"><span class="tag lab">Address</span><address>{s['addr']}</address>{find}
-<div class="cta"><a class="pill solid" href="{s['maps']}" target="_blank" rel="noopener noreferrer">Get directions</a><a class="pill" href="tel:{t}">Call the shop</a></div></div>
+<div class="cta"><a class="pill solid" href="{s['maps']}" target="_blank" rel="noopener noreferrer">Get directions</a><a class="pill" href="tel:{t}">Call the shop</a></div>{mp}</div>
 <div class="rv" style="--d:1">{hrs}</div></div></div></section>"""
 
 
@@ -385,8 +395,41 @@ SITES["ac-tires"] = dict(
     services=[("", [("New tires", "Fresh rubber in the sizes people around here actually drive."), ("Used tires", "Good used tires for when the budget says “not today” to a full new set."), ("Flat repair", "Nail in the tread? In and out fast, weekends included."), ("Mount & balance", "Bought tires elsewhere? We'll mount and balance them."), ("Wheels", "Ask what's in stock for your car.")])],
     svc_title="Tires. That's the shop.", svc_text="No waiting-room upsell. Pull in, tell us what you need, and get back on the road.",
     photos=(U("1792792944402-5e94ce198dce", 2000, 1300), U("1578844251758-2f71da64c96f", 1600, 700)), alt=("Gloved hands mounting a tire in a workshop", "Stacks of tires in a tire shop"),
-    track=V.track(V.AC_REVIEWS), extra_js=V.CAROUSEL_JS,
+    track=V.track(V.AC_REVIEWS[:4]), extra_js=V.CAROUSEL_JS,
 )
+
+# Real reviews, each linked to the review itself (found and checked 2026-11-10).
+# Yelp links use the review's own id (hrid), read from the shop's MapQuest listing, which shows its Yelp reviews.
+# King Tire, Don Cortez and Alejandros have no individually linkable reviews we could confirm; they link to the listing.
+def be(slug, words):
+    return frag("https://reviews.birdeye.com/" + slug, words)
+
+
+Y, G, yelp = "Yelp review", "Google review", V.yelp
+REAL = {
+    "lockworx": [("Daniel H.", Y, "They were quick, kind, and the prices are very good!", yelp("lockworx-fontana-4", "iEA7oRzGEo_1-Sn6flNhPw"), "Yelp"),
+                 ("Julie Y.", Y, "…Lockworx came to the rescue immediately.", yelp("lockworx-fontana-4", "1kRNcSs6UMOjYFl_renmsw"), "Yelp"),
+                 ("Arthur P.", Y, "Shane has great customer service", yelp("lockworx-fontana-4", "9gBlS8JOM_5wuMf-ZFFV3Q"), "Yelp"),
+                 ("Arie G.", Y, "…honest very transparent…", yelp("lockworx-fontana-4", "pYm_8XWg9qa7cW_TN1GloA"), "Yelp"),
+                 ("Char", Y, "Very professional very helpful…", yelp("lockworx-fontana-4", "ytZ8FPdbIiZpYFawKrRJHw"), "Yelp")],
+    "el-rey": [("James J.", Y, "…finally stopped in--wow, I've been missing out!", yelp("el-rey-chino", "w7GAgAniG0mgx7GjYvk5hQ"), "Yelp"),
+               ("James M.", Y, "…great quality food, drinks and self serve salsa.", yelp("el-rey-chino", "RxdtEwT1aOGotPQ5PJFcUQ"), "Yelp"),
+               ("Suzanne C.", Y, "Wow, the size of the portion is huge…", yelp("el-rey-chino", "GlO7-fQI9i_0pM5ao6IQrg"), "Yelp")],
+    "sinaloa-tires": [("Alex C.", Y, "Danny is awesome and knowledgeable.", yelp("sinaloa-tires-pomona-2", "VZaex1arX1qtCqZuDv81qw"), "Yelp"),
+                      ("Kim N.", Y, "these are the kindest, most genuine and honest people…", yelp("sinaloa-tires-pomona-2", "romopcdBiezp4d46-hAK8A"), "Yelp"),
+                      ("Emma G.", Y, "…el buen servicio que me dieron…", yelp("sinaloa-tires-pomona-2", "MItIqFT4R749PlZELMRzXg"), "Yelp")],
+    "43s-mufflers-brakes": [("Mark M.", Y, "…extremely helpful, honest, and fair with pricing.", yelp("43s-muffler-and-brakes-pomona", "HdfToYnn_LewqjPDiHOClg"), "Yelp"),
+                            ("Hector G.", Y, "Fast and communicative!", yelp("43s-muffler-and-brakes-pomona", "MQTU6LEpUlKLvJ3NFf7z_w"), "Yelp"),
+                            ("Melanie G.", Y, "In and out, great job. Highly recommend…", yelp("43s-muffler-and-brakes-pomona", "1Vnyynu9CuCggp5NzchNmQ"), "Yelp"),
+                            ("The M.", Y, "La dueña del local Jenni, siempre ayudandome…", yelp("43s-muffler-and-brakes-pomona", "ZL5XxdbtOOUqJycyWqPmoQ"), "Yelp"),
+                            ("Mike", Y, "Brakes done within reasonable time. Great prices…", yelp("43s-muffler-and-brakes-pomona", "SNWK7vdjd5Al1nAbY0O1Gw"), "Yelp")],
+    "tepa-tire": [("Troy D.", Y, "Jaime was excellent!", yelp("tepa-tire-and-auto-care-montclair", "bKngFnYLn6k4xIkYCroJsg"), "Yelp"),
+                  ("La Reina P.", Y, "They offer many services from tires used and new…", yelp("tepa-tire-and-auto-care-montclair", "D1tXekO3BUZucwrme3Nd5g"), "Yelp")],
+}
+for k, r in REAL.items():
+    SITES[k]["track"] = V.track(r)
+    SITES[k]["extra_js"] = V.CAROUSEL_JS
+    SITES[k].pop("quotes", None)
 
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])

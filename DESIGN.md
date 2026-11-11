@@ -262,3 +262,9 @@ Vincent's fifth batch, again through `build_leads.py`: Mailo's Auto Repair (spli
 - **Sheet sync:** the Status and Notes entries from the Google Sheet (rows 2 to 20) were copied into `leads/West_IE_No_Website_Leads.xlsx`. The mockup columns could not be written back to the Google Sheet from this session; `leads/google-sheet-paste-L2.tsv` is ready to paste at L2.
 - **Facts and photos:** Google Maps and Yelp, read Nov 10; six Pexels free-license photos. Details in `docs/lead-batch-2026-11-10/BATCH-5.md`.
 - **Checked:** Playwright at 1440px and 390px with real photos: no horizontal overflow, no script errors, one h1, no missing images, no motion under reduced-motion. Not checked: keyboard tab order, physical phone, other browsers.
+
+### 2026-11-10 (evening) — Real linked reviews and tighter spacing
+
+- **Reviews.** Six sites now rotate real customer reviews, each card linking to that exact review on Yelp (by the review's own id): Lockworx (5), 43's (5), A C Tires (4), El Rey (3), Sinaloa (3), Tepa (2). The reviews and ids were read from each shop's MapQuest listing, which shows its Yelp reviews, on 2026-11-10. Excerpts are short and word-for-word.
+- **No per-review links found** for King Tire Shop, Don Cortez (Fontana) and Alejandros Tree Service. Those show the rating with a link to the Google/Yelp listing; Don Cortez's two Google excerpts link to the listing. Birdeye pages do not show the Google review text in a normal browser, so Birdeye links were dropped (including the one on A C Tires).
+- **Spacing.** Split heroes are now as tall as their content, the "good to know" block is two even columns, the rating sits beside its summary text, sections are closer together, and a Google map fills the space under the address.

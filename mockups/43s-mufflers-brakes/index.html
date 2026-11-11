@@ -64,10 +64,10 @@ h1 .it{font-size:1.04em;letter-spacing:-.03em;display:inline-block;padding-right
 .card-img .chip{position:absolute;z-index:2;bottom:18px;background:color-mix(in srgb,var(--bone) 92%,transparent);backdrop-filter:blur(10px);color:var(--ink);border-radius:999px;padding:10px 18px;font-weight:700;font-size:14px}
 .card-img .chip.l{left:18px}.card-img .chip.r{right:18px}.card-img .chip b{color:var(--acc)}
 /* hero: split */
-.hero.split{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);min-height:min(88svh,800px)}
+.hero.split{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);min-height:0}
 .hero.split .l{display:flex;flex-direction:column;justify-content:space-between;padding:0 clamp(18px,3.2vw,48px) 34px}
 .hero.split .l .top{padding-top:22px}
-.hero.split h1{font-size:clamp(50px,var(--h1,8vw),150px);margin:clamp(30px,5vw,70px) 0 26px}
+.hero.split h1{font-size:clamp(50px,var(--h1,8vw),150px);margin:clamp(36px,6vw,96px) 0 26px}
 .hero.split .r{position:relative;overflow:hidden;background:var(--ink);min-height:320px}
 .hero.split .meta{grid-template-columns:auto 1fr;align-items:center;gap:18px}
 /* hero: block */
@@ -81,7 +81,7 @@ h1 .it{font-size:1.04em;letter-spacing:-.03em;display:inline-block;padding-right
 .tilt{position:relative;z-index:3;width:min(1360px,calc(100% - 64px));margin:calc(clamp(120px,16vw,230px)*-1 + 30px) auto 0;height:clamp(230px,36vw,520px);border-radius:18px;overflow:hidden;background:var(--ink);transform:rotate(-1.2deg);box-shadow:0 40px 80px -40px #000a}
 .tilt .hero-img{inset:-6%}
 
-section{padding:clamp(52px,6.6vw,104px) 0}
+section{padding:clamp(44px,5.4vw,84px) 0}
 .lab{display:flex;align-items:center;gap:10px;color:var(--mut)}.lab:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--acc)}
 .rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--d,0)*90ms)}.rv.in{opacity:1;transform:none}
 .clip{clip-path:inset(0 0 100% 0);transition:clip-path 1.2s var(--ease);border-radius:14px;overflow:hidden}.clip.in{clip-path:inset(0)}
@@ -115,19 +115,20 @@ section{padding:clamp(52px,6.6vw,104px) 0}
 .item.solo{grid-template-columns:1fr}
 /* about */
 .pts{display:grid;gap:14px;margin-top:22px}.pts li{padding-top:14px;border-top:1px solid var(--line)}.pts strong{display:block;font-size:19px}
-.abt{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(30px,6vw,110px);align-items:start}
-.abt .left{position:sticky;top:96px}.abt .left>p{color:var(--mut);margin-top:20px;max-width:420px;font-size:18px}
-.abt .clip img{aspect-ratio:4/5}.band .clip img{aspect-ratio:21/9}
+.abt{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.abt .left{position:static}.abt .left>p{color:var(--mut);margin-top:20px;max-width:420px;font-size:18px}
+.abt .clip img{aspect-ratio:4/3}.band .clip img{aspect-ratio:21/9}
 /* reviews */
-.nums{display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,90px);margin-top:20px}
+.revhead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px clamp(30px,6vw,110px);margin-top:20px}.revhead .revtxt{flex:1 1 380px;margin:0 0 10px;max-width:640px}
+.nums{display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,90px)}
 .num strong{display:block;font-weight:800;font-stretch:var(--stretch,108%);font-size:clamp(64px,11vw,190px);line-height:.86;letter-spacing:-.05em}.num strong i{font-style:normal;color:var(--acc);font-size:.5em;vertical-align:.5em;margin-left:.06em}
 .num span{display:block;margin-top:10px;color:var(--mut)}.num a{display:inline-block;margin-top:6px;font-weight:600;font-size:14px;text-decoration:underline;text-underline-offset:5px}
 .qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:clamp(30px,4vw,56px)}
-.q{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}.q:hover{background:var(--ink);color:var(--bone)}
+.q{display:block;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}.q:hover{background:var(--ink);color:var(--bone)}
 .q p{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:30px;line-height:1.08}.q cite{display:block;font-style:normal;font-size:13px;opacity:.7;margin-top:22px}
 .revtxt{font-size:clamp(20px,2vw,28px);max-width:820px;margin-top:26px;letter-spacing:-.02em;line-height:1.25}
 .quotes{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding:4px 2px 10px;margin-top:clamp(30px,4vw,56px);cursor:grab}.quotes::-webkit-scrollbar{display:none}
-.quotes .quote{flex:0 0 min(400px,82%);background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}
+.quotes .quote{flex:1 0 min(380px,82%);background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;transition:background .3s,color .3s}
 .quotes .quote:hover{background:var(--ink);color:var(--bone)}
 .review-body{display:flex;flex-direction:column;justify-content:space-between;gap:34px;height:100%}
 .review-origin{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
@@ -143,6 +144,7 @@ table{border-collapse:collapse;width:100%;font-size:16px;margin-top:8px}
 th{text-align:left;font-weight:400}td{text-align:right;white-space:nowrap}th,td{padding:12px 0;border-bottom:1px solid var(--line)}
 tr.today th,tr.today td{color:var(--star);font-weight:700}
 .today-tag{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid currentColor;border-radius:999px;padding:2px 8px;margin-left:10px}
+.map{display:block;width:100%;height:clamp(200px,22vw,300px);border:0;border-radius:14px;margin-top:26px;filter:grayscale(.2)}
 .hol{margin-top:16px;font-size:14px;color:var(--mut)}.hol a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 footer{background:var(--ink);color:color-mix(in srgb,var(--bone) 62%,var(--ink));padding:0 0 28px;overflow:hidden}
 .word{font-weight:800;font-stretch:112%;text-transform:uppercase;font-size:var(--wordsz,15vw);line-height:.8;letter-spacing:-.055em;color:transparent;-webkit-text-stroke:1.5px color-mix(in srgb,var(--bone) 36%,transparent);white-space:nowrap;text-align:center;user-select:none}
@@ -170,11 +172,12 @@ body{padding-bottom:58px}.dock{display:grid;grid-template-columns:1.3fr 1fr 1fr;
 </div></section>
 <section class="dark" id="services"><div class="wrap idx"><div class="left"><p class="tag lab rv">What we do</p><h2 class="big2 rv">What we do.</h2></div><div><p class="grp rv">Exhaust</p><div class="item rv"><h3>Mufflers</h3><p>Swapped, replaced or changed for a different sound.</p></div><div class="item rv"><h3>Catalytic converters</h3><p>Replaced, including after a theft.</p></div><div class="item rv"><h3>Exhaust systems</h3><p>Pipe run and fitted to the car on the lift.</p></div><div class="item rv"><h3>Welding</h3><p>Brackets, hangers, tips and broken joints.</p></div><div class="item rv solo"><h3>Tow hitches</h3></div><p class="grp rv">Brakes and the rest</p><div class="item rv"><h3>Brakes</h3><p>Drums and rotors.</p></div><div class="item rv"><h3>General service</h3><p>Suspension, lights and engine work. Ask when you call.</p></div><div class="item rv"><h3>Older cars welcome</h3><p>Sixties wagons and eighties pickups come through the bay.</p></div></div></div></section>
 <section class="band cliphost"><div class="wrap"><div class="clip"><img loading="lazy" alt="Close-up of a brake rotor being inspected" src="https://images.pexels.com/photos/6870299/pexels-photo-6870299.jpeg?auto=compress&cs=tinysrgb&w=1200"></div></div></section>
-<section id="reviews"><div class="wrap"><p class="tag lab rv">Reviews</p><div class="nums"><div class="num rv"><strong>4.5<i>★</i></strong><span>Google · 105 reviews</span><a href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">Read the reviews ↗</a></div><div class="num rv"><strong>4.8<i>★</i></strong><span>Yelp · 98 reviews</span><a href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona" target="_blank" rel="noopener noreferrer">Read the reviews ↗</a></div></div><p class="revtxt rv">Straight answers, quotes that beat the last shop, fast turnaround on catalytic converters, and clean welds. Several customers brought their own parts and had them fitted.</p></div></section>
+<section id="reviews"><div class="wrap"><p class="tag lab rv">Reviews</p><div class="revhead"><div class="nums"><div class="num rv"><strong>4.5<i>★</i></strong><span>Google · 105 reviews</span><a href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">Read the reviews ↗</a></div><div class="num rv"><strong>4.8<i>★</i></strong><span>Yelp · 98 reviews</span><a href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona" target="_blank" rel="noopener noreferrer">Read the reviews ↗</a></div></div><p class="revtxt rv">Straight answers, quotes that beat the last shop, fast turnaround on catalytic converters, and clean welds. Several customers brought their own parts and had them fitted.</p></div><p id="review-help" style="position:absolute;left:-9999px">Customer reviews scroll automatically and pause while you touch, hover or focus them.</p>
+<div class="quotes" id="review-track" role="region" aria-label="Customer reviews" aria-describedby="review-help" tabindex="0"><a class="quote" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona?hrid=HdfToYnn_LewqjPDiHOClg" target="_blank" rel="noopener noreferrer" aria-label="Read Mark M.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“…extremely helpful, honest, and fair with pricing.”</p></div><div><cite>Mark M. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona?hrid=MQTU6LEpUlKLvJ3NFf7z_w" target="_blank" rel="noopener noreferrer" aria-label="Read Hector G.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Fast and communicative!”</p></div><div><cite>Hector G. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona?hrid=1Vnyynu9CuCggp5NzchNmQ" target="_blank" rel="noopener noreferrer" aria-label="Read Melanie G.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“In and out, great job. Highly recommend…”</p></div><div><cite>Melanie G. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona?hrid=ZL5XxdbtOOUqJycyWqPmoQ" target="_blank" rel="noopener noreferrer" aria-label="Read The M.’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“La dueña del local Jenni, siempre ayudandome…”</p></div><div><cite>The M. · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a><a class="quote" href="https://www.yelp.com/biz/43s-muffler-and-brakes-pomona?hrid=SNWK7vdjd5Al1nAbY0O1Gw" target="_blank" rel="noopener noreferrer" aria-label="Read Mike’s review on Yelp (opens in a new tab)"><blockquote class="review-body"><div><p class="review-origin">Customer review</p><p style="margin-top:14px">“Brakes done within reasonable time. Great prices…”</p></div><div><cite>Mike · Yelp review</cite><span class="review-source">Read review on Yelp ↗</span></div></blockquote></a></div></div></section>
 <section class="dark" id="visit"><div class="wrap"><p class="tag lab rv">Visit or call</p>
 <a class="phone rv" href="tel:+19098681997">(909) 868-1997</a>
 <div class="vgrid"><div class="rv"><span class="tag lab">Address</span><address>1717 W Holt Ave, Ste 1709<br>Pomona, CA 91768</address><p class="find">In a busy auto plaza. Look for the black and yellow sign.</p>
-<div class="cta"><a class="pill solid" href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">Get directions</a><a class="pill" href="tel:+19098681997">Call the shop</a></div></div>
+<div class="cta"><a class="pill solid" href="https://www.google.com/maps/search/?api=1&query=43%27s+Mufflers+%26+Brakes+1717+W+Holt+Ave+Pomona+CA" target="_blank" rel="noopener noreferrer">Get directions</a><a class="pill" href="tel:+19098681997">Call the shop</a></div><iframe class="map" loading="lazy" title="Map of 43's Mufflers &amp; Brakes" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=43%27s+Mufflers+%26+Brakes%2C+1717+W+Holt+Ave%2C+Ste+1709%2C+Pomona%2C+CA+91768&z=15&output=embed"></iframe></div>
 <div class="rv" style="--d:1"><span class="tag lab">Hours</span><table><tr data-day="1"><th scope="row">Monday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>9:30 AM – 5:30 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>9:30 AM – 1:30 PM</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></table><p class="hol"><strong>Holiday hours.</strong> Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19098681997">(909) 868-1997</a> before you come in.</p></div></div></div></section>
 </main>
 <footer><div class="word" aria-hidden="true"><span>43's</span></div><div class="wrap"><strong>43's Mufflers &amp; Brakes · Pomona, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
@@ -209,6 +212,40 @@ const row=document.querySelector('tr[data-day="'+d+'"]');
 if(row){row.classList.add('today');const t=document.createElement('span');t.className='today-tag';t.textContent='Today';row.querySelector('th').append(t)}
 })();
 </script>
-
+<script>
+(()=>{
+  // Continuous review rotation. It stops while the visitor touches, holds, hovers, wheels or focuses the row, and resumes as soon as they let go.
+  const track=document.getElementById('review-track');
+  const motion=matchMedia('(prefers-reduced-motion:reduce)');
+  const originals=[...track.querySelectorAll('.quote')];
+  const copies=originals.map(card=>{const c=card.cloneNode(true);c.setAttribute('aria-hidden','true');c.tabIndex=-1;track.append(c);return c});
+  let held=false,hovered=false,focused=false,visible=true,settleUntil=0,previous=0,fraction=0,period=0;
+  const measure=()=>{period=copies[0].offsetLeft-originals[0].offsetLeft};
+  const wrap=()=>{if(period<=0)return;if(track.scrollLeft>=period)track.scrollLeft-=period;else if(track.scrollLeft<=0&&(held||performance.now()<settleUntil))track.scrollLeft+=period};
+  const settle=ms=>{settleUntil=performance.now()+ms};
+  const tick=time=>{
+    const run=!held&&!hovered&&!focused&&visible&&!motion.matches&&!document.hidden&&period>0&&time>=settleUntil;
+    if(run&&previous){fraction+=Math.min(time-previous,64)*36/1000;const px=Math.floor(fraction);fraction-=px;if(px){track.scrollLeft+=px;wrap()}}
+    else if(!run)fraction=0;
+    previous=time;requestAnimationFrame(tick);
+  };
+  track.addEventListener('pointerdown',()=>{held=true},{passive:true});
+  ['pointerup','pointercancel'].forEach(e=>addEventListener(e,()=>{if(held){held=false;settle(350)}},{passive:true}));
+  track.addEventListener('touchstart',()=>{held=true},{passive:true});
+  ['touchend','touchcancel'].forEach(e=>track.addEventListener(e,()=>{held=false;settle(350)},{passive:true}));
+  // a swipe keeps gliding after release: wait for it to finish, then carry on
+  track.addEventListener('scroll',()=>{if(held||performance.now()<settleUntil){settle(250);wrap()}},{passive:true});
+  track.addEventListener('wheel',()=>settle(500),{passive:true});
+  track.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')hovered=true});
+  track.addEventListener('pointerleave',()=>{hovered=false});
+  track.addEventListener('focusin',()=>{focused=track.matches(':focus-visible')||!!track.querySelector(':focus-visible')});
+  track.addEventListener('focusout',()=>queueMicrotask(()=>{focused=track.contains(document.activeElement)}));
+  track.addEventListener('keydown',e=>{if(e.target!==track)return;const d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(!d)return;e.preventDefault();if(d<0&&track.scrollLeft<period/originals.length)track.scrollLeft+=period;track.scrollBy({left:d*(originals[0].offsetWidth+22),behavior:motion.matches?'instant':'smooth'})});
+  addEventListener('resize',measure,{passive:true});
+  if('ResizeObserver' in window)new ResizeObserver(measure).observe(track);
+  if('IntersectionObserver' in window)new IntersectionObserver(es=>{visible=es[0].isIntersecting}).observe(track);
+  measure();requestAnimationFrame(tick);
+})();
+</script>
 </body>
 </html>
