@@ -70,3 +70,7 @@ The November 9 batch adds three local concepts. Each folder contains `DESIGN.md`
 - `tools/auto-shop-generator/`: the script that builds those three sites.
 
 - `docs/design-system/`: Astryx (Meta, MIT) token values and design rules we borrow, plus our UI changes playbook.
+
+## How we work
+
+Read `docs/WORKFLOW.md` before picking a lead: pull first, claim the row in `docs/claims.md`, build only from `docs/BUILD-QUEUE.md`. `leads/leads.json` is the one file with every lead's facts.

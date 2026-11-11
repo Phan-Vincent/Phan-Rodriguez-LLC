@@ -1,0 +1,2273 @@
+{
+ "_meta": {
+  "date_read": "2026-11-10",
+  "method": "Google Maps listings and Yelp pages read in a browser by Vincent's session; structured by a Reasonix worker from the handoff documents",
+  "not_confirmed_with_owner": true
+ },
+ "entries": [
+  {
+   "row": 27,
+   "name": "Auto Repair Foreign Domestic",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Build",
+   "angle": "Volkswagen work is what sets it apart, and pricing is what reviewers talk about most.",
+   "google": {
+    "name": "Auto Repair Foreign Domestic",
+    "rating": 4.3,
+    "reviews": 94,
+    "address": "12949 Central Ave, Chino, CA 91710",
+    "phone": "(909) 627-5018",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 1:30 PM",
+     "Closed"
+    ],
+    "topics": {
+     "pricing": 23,
+     "truck": 7,
+     "friendly owner": 6,
+     "honest mechanic": 4,
+     "honest staff": 4,
+     "diagnosis": 4,
+     "smog check": 3,
+     "oil change": 3,
+     "warranty": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/auto-repair-foreign-domestic-and-vw-chino-3",
+    "name": "Auto Repair Foreign Domestic & VW",
+    "rating": 4.1,
+    "reviews": 91,
+    "claimed": true,
+    "address": "12949 Central Ave, Chino, CA 91710",
+    "phone": "(909) 627-5018",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 1:30 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Smog Check Stations"
+    ],
+    "services": [
+     "Battery and electrical",
+     "Brakes",
+     "Engine repair",
+     "Light repair",
+     "Oil changes"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "The newest Google review shown is a complaint about waiting an hour with an appointment.",
+    "The owner is named in 55 Yelp reviews and is not used here.",
+    "The Google name has no \"VW\"; ask which name the owner uses."
+   ]
+  },
+  {
+   "row": 29,
+   "name": "A-1 Auto Expert",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Check website first",
+   "angle": "A family business where you can watch the work, with ASL proficiency that is worth asking the owner about before using it.",
+   "google": {
+    "name": "A-1 Auto Expert",
+    "rating": 4.8,
+    "reviews": 93,
+    "address": "14580 Central Ave, Chino, CA 91710",
+    "phone": "(909) 393-0777",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "quality of work": 4,
+     "trustworthy": 4,
+     "oil change": 3,
+     "respectful": 3,
+     "family business": 2,
+     "honest work": 2,
+     "appointment required": 2,
+     "transmission": 2,
+     "battery change": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/a-1-auto-expert-chino",
+    "name": null,
+    "rating": 4.5,
+    "reviews": 188,
+    "claimed": true,
+    "address": "14580 Central Ave, Chino, CA 91710",
+    "phone": "(909) 393-0777",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Battery and electrical",
+     "Brakes",
+     "Engine repair",
+     "Exhaust repair",
+     "General diagnosis"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "Batch 7 notes say MapQuest shows a Website button; neither Google nor Yelp lists a site.",
+    "Appointments appear to be required.",
+    "Two staff members are named in many reviews and are not used here."
+   ]
+  },
+  {
+   "row": 30,
+   "name": "Star Hi-Tech Auto",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Low priority",
+   "angle": null,
+   "google": {
+    "name": "Star Hi-Tech Auto",
+    "rating": 4.4,
+    "reviews": 89,
+    "address": "609 E Arrow Hwy, Pomona, CA 91767",
+    "phone": "(909) 399-9330",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "7:00 AM – 6:00 PM",
+     "7:00 AM – 6:00 PM",
+     "7:00 AM – 6:00 PM",
+     "7:00 AM – 6:00 PM",
+     "7:00 AM – 6:00 PM",
+     "7:00 AM – 6:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "honesty": 9,
+     "mechanic": 7,
+     "work": 5,
+     "engine repair": 3,
+     "quality of work": 3,
+     "electrical repair": 2,
+     "dealership alternative": 2,
+     "diagnose": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/star-hi-tech-auto-pomona",
+    "name": null,
+    "rating": 2.6,
+    "reviews": 32,
+    "claimed": false,
+    "address": "609 E Arrow Hwy, Pomona, CA 91767",
+    "phone": "(909) 399-9330",
+    "website": null,
+    "hours": null,
+    "categories": [],
+    "services": [
+     "Routine automotive maintenance"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "The 1.8-point gap between Google and Yelp makes this a weak pitch and a risky page to put a rating on.",
+    "The sheet says Claremont; both listings say Pomona.",
+    "If built, show the Google rating only and do not link Yelp."
+   ]
+  },
+  {
+   "row": 31,
+   "name": "Jujubuilt Engineered Performance",
+   "city": "Upland",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Build first",
+   "angle": "The Honda and Acura performance shop that is open until 11 at night, with pre-purchase inspections as a second hook.",
+   "google": {
+    "name": "Jujubuilt Engineered Performance",
+    "rating": 4.9,
+    "reviews": 88,
+    "address": "1133 W 9th St, Upland, CA 91786",
+    "phone": "(661) 492-4309",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "11:00 AM – 11:00 PM",
+     "11:00 AM – 11:00 PM",
+     "11:00 AM – 11:00 PM",
+     "11:00 AM – 11:00 PM",
+     "11:00 AM – 11:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "fair pricing": 6,
+     "quality work": 5,
+     "pre-purchase exam": 3,
+     "head gasket job": 2,
+     "faster turnarounds": 2,
+     "late hours": 2,
+     "OEM parts": 2,
+     "diagnostics": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/juju-built-engineered-performance-upland",
+    "name": "Juju Built Engineered Performance",
+    "rating": 4.9,
+    "reviews": 78,
+    "claimed": true,
+    "address": "1133 W 9th St, Upland, CA 91786",
+    "phone": "(661) 492-4309",
+    "website": null,
+    "hours": null,
+    "categories": [
+     "Auto Repair",
+     "Auto Customization"
+    ],
+    "services": [
+     "Engine repair",
+     "Oil changes",
+     "Routine maintenance",
+     "Electronics installation"
+    ],
+    "owner_text": "Automotive repair and diagnostics, also performance upgrades and modifications."
+   },
+   "flags": [
+    "The 661 area code is not local, so it is probably a mobile number.",
+    "A shop like this likely runs on Instagram; not checked.",
+    "Weekend closure and the 11 AM start are unusual, so confirm hours."
+   ]
+  },
+  {
+   "row": 34,
+   "name": "2Man Moving Services",
+   "city": "Ontario",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Build",
+   "angle": "Movers who answer at any hour, run by an owner who is active on Yelp and would likely use a site.",
+   "google": {
+    "name": "2Man Moving Services",
+    "rating": 4.8,
+    "reviews": 85,
+    "address": "1372 E 5th St Spc 104, Ontario, CA 91764",
+    "phone": "(818) 964-3103",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours"
+    ],
+    "topics": {
+     "polite staff": 10,
+     "friendly crew": 7,
+     "on time": 4,
+     "fast move": 3,
+     "timeliness": 3,
+     "stress-free move": 3,
+     "furniture protection": 3,
+     "rescheduling": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/2man-moving-services-ontario-4",
+    "name": null,
+    "rating": 4.7,
+    "reviews": 258,
+    "claimed": true,
+    "address": null,
+    "phone": "(747) 340-9007",
+    "website": null,
+    "hours": [
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours"
+    ],
+    "categories": [
+     "Movers",
+     "Packing Services",
+     "Self Storage"
+    ],
+    "services": [
+     "In-state moving",
+     "Out-of-state moving",
+     "International moving"
+    ],
+    "owner_text": "Owner's Yelp posts mention 15 years of experience, international moves and being open 24 hours every day, plus discount offers (10% for new customers and an expired 5% offer from 2024)."
+   },
+   "flags": [
+    "Two different phone numbers; ask which one to publish.",
+    "\"Spc 104\" reads like a home address, so show a service area, not the address, until the owner says otherwise.",
+    "This is the first non-auto lead, so the auto photos and service wording in the generator will not fit.",
+    "Discount offers change; leave them off the site."
+   ]
+  },
+  {
+   "row": 35,
+   "name": "Auto Technik Carcare",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Check website first",
+   "angle": "Diagnosis explained clearly before any work, backed by 471 Yelp reviews.",
+   "google": {
+    "name": "Auto Technik Carcare",
+    "rating": 4.8,
+    "reviews": 84,
+    "address": "5260 Las Flores Dr, Suite A and B, Chino, CA 91710",
+    "phone": "(909) 393-2679",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "honest staff": 7,
+     "detailed diagnostic": 5,
+     "quick work": 3,
+     "respectful staff": 3,
+     "clear estimate": 2,
+     "clear explanations": 2,
+     "oil change": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/auto-technik-carcare-chino-2",
+    "name": null,
+    "rating": 4.8,
+    "reviews": 471,
+    "claimed": true,
+    "address": "5260 Las Flores Dr, Suite A and B, Chino, CA 91710",
+    "phone": "(909) 393-2679",
+    "website": null,
+    "hours": null,
+    "categories": [],
+    "services": [
+     "Battery and electrical",
+     "Brakes",
+     "Engine repair",
+     "General diagnosis",
+     "HVAC repair"
+    ],
+    "owner_text": "An affordable and dependable family owned auto repair shop; call or message to set up an appointment."
+   },
+   "flags": [
+    "Check the MapQuest Website button (https://www.mapquest.com/us/california/auto-technik-carcare-11116856) before building.",
+    "A shop with this many reviews and AAA approval may already have a site that Google does not link.",
+    "Opening time differs by 30 minutes between Google and Yelp."
+   ]
+  },
+  {
+   "row": 38,
+   "name": "Diamond Auto Center / Propane",
+   "city": "Ontario",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Build",
+   "angle": null,
+   "google": {
+    "name": "Diamond Auto Center / Propane",
+    "rating": 4.8,
+    "reviews": 78,
+    "address": "105 W California St, Ontario, CA 91762",
+    "phone": "(909) 218-7600",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 4:00 PM",
+     "Closed"
+    ],
+    "topics": {}
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/diamond-auto-center-ontario-5",
+    "name": "Diamond Auto Center",
+    "rating": 4.2,
+    "reviews": 10,
+    "claimed": true,
+    "address": "105 W California St, Ontario, CA 91762",
+    "phone": null,
+    "website": "diamondautoc.com",
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 4:00 PM",
+     "9:00 AM – 2:00 PM"
+    ],
+    "categories": [],
+    "services": [],
+    "owner_text": null
+   },
+   "flags": [
+    "Yelp lists a business website, diamondautoc.com; the site itself was not opened.",
+    "Google shows no website link, which is why it is on the sheet.",
+    "Mark the sheet as has website unless the site turns out to be dead.",
+    "Supervisor follow-up: diamondautoc.com fails with a certificate error, so there is no working site and the lead is valid."
+   ]
+  },
+  {
+   "row": 39,
+   "name": "Claremont Auto Care",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads.md",
+   "verdict": "Build",
+   "angle": "A plain neighbourhood shop open six days a week, known for honesty and smog tests.",
+   "google": {
+    "name": "Claremont Auto Care",
+    "rating": 4.5,
+    "reviews": 75,
+    "address": "3624 Lynoak Dr, Pomona, CA 91767",
+    "phone": "(909) 621-3872",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "honesty": 5,
+     "smog test": 3,
+     "oil change": 3,
+     "knowledgeable mechanics": 3,
+     "great work": 3,
+     "coolant check": 2,
+     "clear explanations": 2,
+     "fairness": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/claremont-auto-care-pomona",
+    "name": null,
+    "rating": 3.9,
+    "reviews": 67,
+    "claimed": true,
+    "address": "3624 Lynoak St, Pomona, CA 91767",
+    "phone": "(909) 621-3872",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Oil changes",
+     "Routine maintenance"
+    ],
+    "owner_text": "New and used vehicle maintenance, minor and major repairs."
+   },
+   "flags": [
+    "The sheet says Claremont but both listings say Pomona, on the Claremont border.",
+    "The street is \"Dr\" on Google and \"St\" on Yelp.",
+    "Yelp's rating is 0.6 below Google's, so lead with Google."
+   ]
+  },
+  {
+   "row": 44,
+   "name": "Sergio's Auto Repair & Tires",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Build",
+   "angle": "Repair and tires under one roof on Riverside Drive.",
+   "google": {
+    "name": "Sergio's Auto Repair & Tires",
+    "rating": 4.3,
+    "reviews": 68,
+    "address": "5760 Riverside Dr, Chino, CA 91710",
+    "phone": "(909) 902-1887",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 3:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "honesty": 3,
+     "brakes": 3,
+     "turbo replacement": 2,
+     "oil change": 2,
+     "battery": 2,
+     "van": 2,
+     "communication": 2,
+     "quality work": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/sergios-auto-repair-and-tires-chino",
+    "name": null,
+    "rating": 5.0,
+    "reviews": 6,
+    "claimed": true,
+    "address": null,
+    "phone": "(909) 902-1887",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 3:30 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Tires"
+    ],
+    "services": [],
+    "owner_text": null
+   },
+   "flags": [
+    "Closing time differs by 30 minutes; use Google's shorter hours and say to call.",
+    "Six Yelp reviews is too few to show as a rating.",
+    "Same street as Performance Lube & Oil (5288 Riverside Dr)."
+   ]
+  },
+  {
+   "row": 45,
+   "name": "AutoTech's",
+   "city": "Rancho Cucamonga",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Build first",
+   "angle": "The mechanic people stay with for years, where honesty is nearly every topic.",
+   "google": {
+    "name": "AutoTech's",
+    "rating": 4.8,
+    "reviews": 68,
+    "address": "8840 Archibald Ave # E, Rancho Cucamonga, CA 91730",
+    "phone": "(909) 581-1942",
+    "website": null,
+    "unclaimed": true,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "mechanics": 9,
+     "honest": 7,
+     "long-term customer": 3,
+     "trustworthy": 3,
+     "honest mechanic": 2,
+     "honest advice": 2,
+     "polite staff": 2,
+     "fairness": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/auto-techs-rancho-cucamonga",
+    "name": "Auto Tech's",
+    "rating": 4.7,
+    "reviews": 47,
+    "claimed": true,
+    "address": "8840 Archibald Ave, Ste E, Rancho Cucamonga, CA 91730",
+    "phone": "(909) 581-1942",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Routine automotive maintenance"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "The sheet says Ontario; both listings say Rancho Cucamonga.",
+    "Yelp has a second, near-duplicate listing (autotechs-rancho-cucamonga).",
+    "No service list anywhere, so ask the owner."
+   ]
+  },
+  {
+   "row": 47,
+   "name": "Huerta Smog & Repair",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Low priority",
+   "angle": null,
+   "google": {
+    "name": "Huerta Smog & Repair",
+    "rating": 4.3,
+    "reviews": 66,
+    "address": "1703 W Holt Ave, Pomona, CA 91768",
+    "phone": "(909) 865-9383",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 4:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "friendly staff": 13,
+     "work": 5,
+     "honest": 3,
+     "smog certification": 2,
+     "friendly mechanics": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/huerta-smog-and-repair-pomona",
+    "name": null,
+    "rating": 3.1,
+    "reviews": 30,
+    "claimed": false,
+    "address": "1703 W Holt Ave, Pomona, CA 91768",
+    "phone": "(909) 865-9383",
+    "website": null,
+    "hours": null,
+    "categories": [],
+    "services": [
+     "Smog check",
+     "Transmission repair",
+     "Oil changes",
+     "Routine maintenance",
+     "Transmission leak inspection"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "1.2-point gap between Google and Yelp.",
+    "Next door to 43's Mufflers & Brakes (1709–1717 W Holt Ave), which already has a site.",
+    "If built, show the Google rating only."
+   ]
+  },
+  {
+   "row": 48,
+   "name": "Quinonez Mobile Svc",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Build, Google only",
+   "angle": "Truck and trailer mechanics on Cherry Avenue, with \"mobile\" in the name although no listing says they come to the truck.",
+   "google": {
+    "name": "Quinonez Mobile Svc",
+    "rating": 4.7,
+    "reviews": 65,
+    "address": "8640 Cherry Ave, Fontana, CA 92335",
+    "phone": "(909) 900-0476",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "7:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "knowledgeable mechanics": 4,
+     "job": 4,
+     "trailer repair": 2,
+     "trailer": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; a Yelp search returned unrelated businesses with the same surname.",
+    "Same stretch of Cherry Ave as Diesel Injection Service (8482) and Prime Truck (9978).",
+    "Ask whether the service is mobile, shop-based or both before writing copy about it."
+   ]
+  },
+  {
+   "row": 51,
+   "name": "Arredondo's Auto Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Build, Google only",
+   "angle": "Honest mechanic, fair prices; nothing more specific is on record.",
+   "google": {
+    "name": "Arredondo's Auto Repair",
+    "rating": 4.3,
+    "reviews": 61,
+    "address": "15441 Merrill Ave, Fontana, CA 92335",
+    "phone": "(909) 355-9122",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "mechanic": 13,
+     "honest mechanic": 4,
+     "honest people": 4,
+     "fair pricing": 3,
+     "trustworthy": 2,
+     "receipt": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only.",
+    "Yelp's search returned a Torrance shop with a similar name and a Fontana listing called \"Arrendondo Auto Tune Up\" that was not opened; it may be this shop under a misspelling.",
+    "No service list anywhere."
+   ]
+  },
+  {
+   "row": 54,
+   "name": "Kikas Tires",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Build",
+   "angle": "A family-owned tire shop open every day, including Sunday until 4.",
+   "google": {
+    "name": "Kikas Tires",
+    "rating": 4.7,
+    "reviews": 58,
+    "address": "1587 E Mission Blvd, Pomona, CA 91766",
+    "phone": "(909) 643-9998",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 4:00 PM"
+    ],
+    "topics": {
+     "tire repair": 3,
+     "family owned": 2,
+     "rims": 2,
+     "nice people": 2,
+     "tires": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/kikas-tires-pomona-2",
+    "name": null,
+    "rating": null,
+    "reviews": null,
+    "claimed": false,
+    "address": "1587 E Mission Blvd, Pomona, CA 91766",
+    "phone": "(909) 643-9998",
+    "website": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 4:00 PM"
+    ],
+    "categories": [],
+    "services": [],
+    "owner_text": null
+   },
+   "flags": [
+    "Yelp page exists but has no reviews to show a rating.",
+    "Whether tires are new, used or both is not stated anywhere."
+   ]
+  },
+  {
+   "row": 58,
+   "name": "HVAC Assistance - 24/7 On Call",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-2.md",
+   "verdict": "Hold",
+   "angle": null,
+   "google": {
+    "name": "HVAC Assistance - 24/7 On Call",
+    "rating": 4.7,
+    "reviews": 53,
+    "address": "9757 Sierra Ave, Fontana, CA 92335",
+    "phone": "(909) 326-0391",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours"
+    ],
+    "topics": {
+     "car": 7,
+     "honesty": 5,
+     "fair pricing": 2,
+     "quality work": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "The name says HVAC but the reviews talk about cars.",
+    "The sheet files it under Auto Repair.",
+    "It may be a car air-conditioning or mobile mechanic service, or a listing that was renamed.",
+    "Do not build until someone has read a few reviews or called."
+   ]
+  },
+  {
+   "row": 61,
+   "name": "Gil's Tire Shop",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build, Google only",
+   "angle": "Tires and tire repair on Holt Avenue, open every day of the week including Sunday.",
+   "google": {
+    "name": "Gil's Tire Shop",
+    "rating": 4.5,
+    "reviews": 50,
+    "address": "1281 W Holt Ave, Pomona, CA 91768",
+    "phone": "(626) 626-3354",
+    "website": null,
+    "unclaimed": true,
+    "hours": [
+     "10:00 AM – 6:00 PM",
+     "10:00 AM – 6:00 PM",
+     "10:00 AM – 6:00 PM",
+     "10:00 AM – 6:00 PM",
+     "10:00 AM – 6:00 PM",
+     "10:00 AM – 6:00 PM",
+     "10:00 AM – 6:00 PM"
+    ],
+    "topics": {
+     "sunday hours": 4,
+     "sunday": 3,
+     "helpful people": 3,
+     "tire repair": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp search returned Gil's Tire Center at 11836 Central Ave in Chino, a different business in a different city.",
+    "Hours are the same seven days.",
+    "The listing is unclaimed on Google.",
+    "No service list beyond the tire topic, so ask what is stocked."
+   ]
+  },
+  {
+   "row": 63,
+   "name": "Nino's Lawnmower Shop",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build",
+   "angle": "Fast turnaround on lawnmower and outdoor power equipment repair, rated 4.8 on Google and 4.9 on Yelp.",
+   "google": {
+    "name": "Nino's Lawnmower Shop",
+    "rating": 4.8,
+    "reviews": 50,
+    "address": "333 Clark Ave, Pomona, CA 91767",
+    "phone": "(909) 964-6143",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:30 AM – 4:30 PM",
+     "8:30 AM – 4:30 PM",
+     "8:30 AM – 4:30 PM",
+     "8:30 AM – 4:30 PM",
+     "8:30 AM – 4:30 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "helpful staff": 7,
+     "children": 4,
+     "turnaround time": 3,
+     "promptness": 3,
+     "honesty": 3,
+     "repair time": 2,
+     "saves money": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/ninos-lawn-mower-shop-pomona",
+    "name": "Nino's Lawn Mower Shop",
+    "rating": 4.9,
+    "reviews": 19,
+    "claimed": false,
+    "address": "333 Clark Ave, Pomona, CA 91767",
+    "phone": "(909) 964-6143",
+    "website": null,
+    "hours": null,
+    "categories": [
+     "Outdoor Power Equipment Services"
+    ],
+    "services": [],
+    "owner_text": null
+   },
+   "flags": [
+    "Not an auto shop — a lawnmower and outdoor power equipment repair business, so the generator's auto photos and wording will not fit.",
+    "The sheet files it under landscaping.",
+    "Yelp has no hours at all, so Google is the only hours source.",
+    "The name is spelled \"Lawnmower\" on Google and on the sheet, \"Lawn Mower\" on Yelp."
+   ]
+  },
+  {
+   "row": 66,
+   "name": "JR Truck Tire Road Service",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build, Google only",
+   "angle": "Truck tire road service that answers around the clock, with speed the top Google topic.",
+   "google": {
+    "name": "JR Truck Tire Road Service",
+    "rating": 4.9,
+    "reviews": 48,
+    "address": "8835 Emerald Ave, Fontana, CA 92335",
+    "phone": "(909) 279-9573",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours",
+     "Open 24 hours"
+    ],
+    "topics": {
+     "speed": 4,
+     "honesty": 2,
+     "call": 2,
+     "people": 2,
+     "job": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp search returned Merrill's Smog and Repair in Fontana, an unrelated business.",
+    "The listing is open 24 hours every day.",
+    "The name says road service, but no listing states whether work is done on the road, in a yard or both — ask before writing that copy."
+   ]
+  },
+  {
+   "row": 70,
+   "name": "Sal's Auto Care by Ramirez",
+   "city": "Montclair",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build",
+   "angle": "An honest mechanic first and foremost, with honesty the largest Google topic by a wide margin at 13 mentions.",
+   "google": {
+    "name": "Sal's Auto Care by Ramirez",
+    "rating": 4.9,
+    "reviews": 45,
+    "address": "4421 Mission Blvd, Montclair, CA 91763",
+    "phone": "(909) 590-5014",
+    "website": null,
+    "unclaimed": true,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "honesty": 13,
+     "mechanic": 7,
+     "great work": 6,
+     "honest mechanic shop": 2,
+     "reliable work": 2,
+     "customer loyalty": 2,
+     "trustworthy": 2,
+     "car repair": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/ramirez-auto-care-montclair",
+    "name": "Ramirez Auto Care",
+    "rating": 4.9,
+    "reviews": 14,
+    "claimed": false,
+    "address": "4421 Mission Blvd, Montclair, CA 91763",
+    "phone": "(909) 590-5014",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Routine automotive maintenance"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "The Yelp name differs from Google and from the sheet, suggesting a change of owner, so confirm which name the shop uses now.",
+    "Saturday hours differ: Google 8 AM–2 PM, Yelp closed.",
+    "Address, phone and weekday hours agree.",
+    "Only 14 Yelp reviews, so Google's 45 lead the facts block."
+   ]
+  },
+  {
+   "row": 71,
+   "name": "Arrow Auto Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build",
+   "angle": "A family-run shop where walk-ins are welcome and foreign and domestic cars, trucks and SUVs are all taken, in business for over 20 years.",
+   "google": {
+    "name": "Arrow Auto Repair",
+    "rating": 4.8,
+    "reviews": 44,
+    "address": "15750 Arrow Blvd #3p, Fontana, CA 92335",
+    "phone": "(909) 349-0107",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 4:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "job": 10,
+     "fair": 3,
+     "honest staff": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/arrow-auto-repair-fontana",
+    "name": null,
+    "rating": 4.3,
+    "reviews": 9,
+    "claimed": true,
+    "address": "15750 Arrow Blvd, Ste 3P, Fontana, CA 92335",
+    "phone": "(909) 349-0107",
+    "website": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 4:00 PM",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Auto brake repair",
+     "Auto engine repair",
+     "Auto general diagnosis",
+     "Auto HVAC repair",
+     "Auto light repair"
+    ],
+    "owner_text": "Call for an appointment or walk in; foreign and domestic cars, trucks and SUVs; family owned and operated with over 20 years of experience, serving the Inland Empire."
+   },
+   "flags": [
+    "Yelp's rating is 0.5 below Google's (4.3 against 4.8) but rests on nine reviews, so show the Google rating if this is built.",
+    "Weekday closing time differs: Google 5:30 PM, Yelp 6 PM; Saturday matches at 4 PM.",
+    "The suite is written \"#3p\" on Google and \"Ste 3P\" on Yelp.",
+    "Yelp is claimed; Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 72,
+   "name": "Moya Auto",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build",
+   "angle": "Straightforward, fair car care, with honesty and mechanic as the recurring topics and a Friday noon close that tells drivers to come in early in the week.",
+   "google": {
+    "name": "Moya Auto",
+    "rating": 4.9,
+    "reviews": 44,
+    "address": "13380 12th St, Chino, CA 91710",
+    "phone": "(909) 902-0262",
+    "website": null,
+    "unclaimed": true,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 12:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "mechanic": 6,
+     "honesty": 5,
+     "car care": 3,
+     "honest mechanic": 2,
+     "fair": 2,
+     "auto needs": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/moya-auto-chino",
+    "name": null,
+    "rating": 4.8,
+    "reviews": 32,
+    "claimed": false,
+    "address": "13380 12th St, Chino, CA 91710",
+    "phone": "(909) 902-0262",
+    "website": null,
+    "hours": [
+     "8:00 AM – 4:00 PM",
+     "8:00 AM – 4:00 PM",
+     "8:00 AM – 4:00 PM",
+     "8:00 AM – 4:00 PM",
+     "8:00 AM – 12:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Routine automotive maintenance"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "Friday is the odd day on both sites — 8 AM–12 PM while Monday to Thursday run to the afternoon; state that in the hours.",
+    "Weekday closing time differs: Google 5 PM, Yelp 4 PM.",
+    "Saturday and Sunday are closed on both.",
+    "Address, phone and rating agree; unclaimed on Google and on Yelp."
+   ]
+  },
+  {
+   "row": 73,
+   "name": "Hytech Auto Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Low priority",
+   "angle": "Value and honesty are what the reviews keep saying, with a tow truck mentioned among the work.",
+   "google": {
+    "name": "Hytech Auto Repair",
+    "rating": 4.4,
+    "reviews": 43,
+    "address": "8060 Mango Ave, Fontana, CA 92336",
+    "phone": "(909) 356-4600",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 3:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "value": 10,
+     "honest": 4,
+     "respectful staff": 2,
+     "tow truck": 2,
+     "quality work": 2,
+     "reliable": 2,
+     "work": 2,
+     "mechanic": 2,
+     "car repair": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp search returned Sal's Garage 909 at a different address.",
+    "4.4 is the lowest Google rating in this batch, and there is no second site to check it against.",
+    "No service list anywhere, so ask for one."
+   ]
+  },
+  {
+   "row": 74,
+   "name": "Speed 1 smog",
+   "city": "Montclair",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build",
+   "angle": "Smog checks on Brooks Street, with the owner's own price promise on Yelp, worth confirming before any price goes on a site.",
+   "google": {
+    "name": "Speed 1 smog",
+    "rating": 4.5,
+    "reviews": 43,
+    "address": "4727 Brooks St, Montclair, CA 91763",
+    "phone": "(909) 626-8060",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {}
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/speed-1-smog-montclair",
+    "name": null,
+    "rating": null,
+    "reviews": null,
+    "claimed": true,
+    "address": "4727 Brooks St, Montclair, CA 91763",
+    "phone": "(909) 626-8060",
+    "website": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "categories": [
+     "Smog Check Stations"
+    ],
+    "services": [],
+    "owner_text": "Any car is $30 out the door, pass or don't pay."
+   },
+   "flags": [
+    "Hours, phone and address agree on both sites.",
+    "Google places the business inside R Version Autoworks; Yelp gives the plain street address.",
+    "Yelp shows no rating, so Google's 4.5 is the only rating.",
+    "The price in the owner text was read on Nov 10, 2026; prices change, so report it as the owner's Yelp wording and confirm it with the shop before publishing."
+   ]
+  },
+  {
+   "row": 75,
+   "name": "JL Auto Body & Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build",
+   "angle": "Collision and dent work for everything from sedans to big rigs, with body restoration, bumper repair and frame straightening listed on Yelp.",
+   "google": {
+    "name": "JL Auto Body & Repair",
+    "rating": 4.6,
+    "reviews": 41,
+    "address": "15944 Valley Blvd, Fontana, CA 92335",
+    "phone": "(909) 320-7547",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 12:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "work": 8,
+     "cost": 3,
+     "dent repair": 2,
+     "quality work": 2,
+     "painting": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/jl-auto-body-and-repair-fontana",
+    "name": null,
+    "rating": 4.0,
+    "reviews": 35,
+    "claimed": true,
+    "address": "15944 Valley Blvd, Fontana, CA 92335",
+    "phone": "(909) 320-7547",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 12:00 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Body Shops"
+    ],
+    "services": [
+     "Auto body restoration",
+     "Bumper repair",
+     "Collision repair",
+     "Dent removal",
+     "Auto frame straightening"
+    ],
+    "owner_text": "Luxury sedans, big rigs and trucks of all types; the shop says it loves California's cars and trucks and fixes them after crashes and collisions."
+   },
+   "flags": [
+    "Yelp's rating is 0.6 below Google's (4.0 against 4.6) on 35 reviews, so show the Google rating if this is built.",
+    "Hours, phone and address agree on both sites.",
+    "Yelp is claimed; Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 76,
+   "name": "Ortega Smog & Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Low priority",
+   "angle": "Smog checks and general repair on Arrow Boulevard, with oil changes, brakes and transmission work listed on Yelp.",
+   "google": {
+    "name": "Ortega Smog & Repair",
+    "rating": 4.6,
+    "reviews": 39,
+    "address": "16375 Arrow Blvd C, Fontana, CA 92335",
+    "phone": "(909) 434-0575",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 3:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "car repair": 4,
+     "oil change": 2,
+     "oil": 2,
+     "polite staff": 2,
+     "honesty": 2,
+     "job": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/ortega-auto-repair-and-mufflers-fontana",
+    "name": "Ortega Auto Repair & Mufflers",
+    "rating": 3.7,
+    "reviews": 3,
+    "claimed": true,
+    "address": "16375 Arrow Blvd, Unit C, Fontana, CA 92335",
+    "phone": "(909) 695-6320",
+    "website": null,
+    "hours": [
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 3:00 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Smog Check Stations",
+     "Oil Change Stations"
+    ],
+    "services": [
+     "Auto battery or electrical system repair",
+     "Auto brake repair",
+     "Auto light repair",
+     "Auto transmission repair",
+     "Oil changes"
+    ],
+    "owner_text": "General mechanics, listing original engine swaps, transmission fluid and electrical maintenance, and asking customers to call about anything else."
+   },
+   "flags": [
+    "The Yelp name differs from Google and from the sheet: Ortega Auto Repair & Mufflers against Ortega Smog & Repair.",
+    "The phone differs too: (909) 434-0575 on Google and in the sheet, (909) 695-6320 on Yelp — use Google's number and confirm which one the shop answers.",
+    "The address and hours agree, with the suite written \"C\" on Google and \"Unit C\" on Yelp.",
+    "Yelp's 3.7 rests on three reviews, far too few to put on a page."
+   ]
+  },
+  {
+   "row": 77,
+   "name": "Advance Muffler",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Build first",
+   "angle": "The exhaust shop Chino has used since 2000, where exhaust repair alone accounts for 17 of the Google topics.",
+   "google": {
+    "name": "Advance Muffler",
+    "rating": 4.8,
+    "reviews": 39,
+    "address": "12365 Central Ave, Chino, CA 91710",
+    "phone": "(909) 548-6113",
+    "website": null,
+    "unclaimed": true,
+    "hours": [
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 3:00 PM",
+     "8:30 AM – 3:00 PM"
+    ],
+    "topics": {
+     "exhaust repair": 17,
+     "welding": 4,
+     "quality work": 4,
+     "catalytic converter": 3,
+     "sound": 3,
+     "custom exhaust": 2,
+     "friendly worker": 2,
+     "extra mile": 2,
+     "aftermarket": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/advance-muffler-chino",
+    "name": null,
+    "rating": 4.8,
+    "reviews": 184,
+    "claimed": true,
+    "address": "12365 Central Ave, Unit B, Chino, CA 91710",
+    "phone": "(909) 548-6113",
+    "website": null,
+    "hours": [
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 5:00 PM",
+     "8:30 AM – 3:00 PM",
+     "8:30 AM – 3:00 PM"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Auto Customization"
+    ],
+    "services": [
+     "Auto exhaust repair",
+     "Auto general diagnosis",
+     "Auto no-start diagnosis",
+     "Auto noise diagnosis",
+     "Auto pre-purchase inspection"
+    ],
+    "owner_text": "Since 2000, vehicle owners from Chino and the surrounding areas have trusted an honest, owner-operated muffler shop for muffler and exhaust work."
+   },
+   "flags": [
+    "Hours, phone and street address agree.",
+    "Yelp adds a unit letter; Google and the sheet give none.",
+    "Google shows the listing unclaimed while Yelp is claimed.",
+    "The same building as A Tech Automotive (Unit A), which already has a site.",
+    "Yelp has far more reviews than Google (184 against 39), so the Yelp rating leads in the facts block."
+   ]
+  },
+  {
+   "row": 78,
+   "name": "General Auto Care",
+   "city": "Montclair",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-3.md",
+   "verdict": "Check website first",
+   "angle": "General repair and maintenance with staff that people single out for being helpful, covering brakes, batteries, engines and air conditioning.",
+   "google": {
+    "name": "General Auto Care",
+    "rating": 4.7,
+    "reviews": 39,
+    "address": "10662 Ramona Ave, Montclair, CA 91763",
+    "phone": "(909) 391-7173",
+    "website": null,
+    "unclaimed": true,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "helpful staff": 6,
+     "mechanics": 5,
+     "trustworthy": 3,
+     "vehicle maintenance": 3,
+     "quality work": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/general-auto-care-montclair-2",
+    "name": null,
+    "rating": 4.5,
+    "reviews": 26,
+    "claimed": false,
+    "address": "10662 Ramona Ave, Montclair, CA 91763",
+    "phone": "(909) 626-5013",
+    "website": "generalautocare.net",
+    "hours": [
+     "8:30 AM – 6:00 PM",
+     "8:30 AM – 6:00 PM",
+     "8:30 AM – 6:00 PM",
+     "8:30 AM – 6:00 PM",
+     "8:30 AM – 6:00 PM",
+     "8:30 AM – 2:00 PM",
+     "Closed"
+    ],
+    "categories": [],
+    "services": [
+     "Auto battery and electrical system repair",
+     "Battery",
+     "Auto brake repair",
+     "Auto engine repair",
+     "Auto HVAC repair",
+     "Auto light repair"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "Yelp lists a website, generalautocare.net, and the browser could not load the page (navigation failed, cause not established).",
+    "Find out what the domain is being used for before building anything.",
+    "The Yelp phone differs from Google and from the sheet: (909) 626-5013 against (909) 391-7173.",
+    "Yelp opens 30 minutes later than Google on weekdays and Saturday; closing times match.",
+    "The same street as J C Auto Electric (10640) and County Brake (10602), which already have sites."
+   ]
+  },
+  {
+   "row": 79,
+   "name": "TJ Auto Repair",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build",
+   "angle": "General repair where honesty and price are what the reviews keep returning to — \"honest mechanic\" six times and \"pricing\" seven.",
+   "google": {
+    "name": "TJ Auto Repair",
+    "rating": 4.8,
+    "reviews": 38,
+    "address": "1524 S Garey Ave, Pomona, CA 91766",
+    "phone": "(909) 622-0669",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "pricing": 7,
+     "honest mechanic": 6,
+     "skill": 4,
+     "knowledgeable owner": 4,
+     "fair": 3,
+     "problem diagnosis": 2,
+     "willing to help": 2,
+     "trustworthy": 2,
+     "expertise": 2,
+     "kindness": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/tj-auto-repair-pomona",
+    "name": null,
+    "rating": 5.0,
+    "reviews": 14,
+    "claimed": false,
+    "address": "1524 S Garey Ave, Pomona, CA 91766",
+    "phone": "(909) 622-0669",
+    "website": null,
+    "hours": null,
+    "categories": [],
+    "services": [
+     "Routine automotive maintenance"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "Yelp lists no hours, so Google is the only hours source.",
+    "Name, address and phone agree.",
+    "The Yelp rating is 5.0 but rests on 14 reviews against Google's 38, so Google leads the facts block.",
+    "Yelp is unclaimed; Google's claim status was not read.",
+    "There is no owner text and no service list beyond routine maintenance, so ask what the shop takes on."
+   ]
+  },
+  {
+   "row": 80,
+   "name": "Sanchez Auto Electric",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Low priority",
+   "angle": "Auto electrical work, which the name and the Yelp services both point to, on Second Street in Pomona.",
+   "google": {
+    "name": "Sanchez Auto Electric",
+    "rating": 4.3,
+    "reviews": 38,
+    "address": "809 E 2nd St, Pomona, CA 91766",
+    "phone": "(909) 623-2374",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "honesty": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/sanchez-auto-electric-pomona",
+    "name": null,
+    "rating": 3.5,
+    "reviews": 6,
+    "claimed": true,
+    "address": "809 E 2nd St, Pomona, CA 91766",
+    "phone": "(909) 623-2374",
+    "website": null,
+    "hours": null,
+    "categories": [
+     "Auto Repair"
+    ],
+    "services": [
+     "Auto battery or electrical system repair",
+     "Battery",
+     "Auto brake repair",
+     "Auto engine repair",
+     "Auto general diagnosis",
+     "Auto HVAC repair"
+    ],
+    "owner_text": null
+   },
+   "flags": [
+    "Yelp's 3.5 is 0.8 below Google's 4.3, but rests on six reviews.",
+    "Together with 4.3 from 38 this is the weakest pair in the batch.",
+    "Yelp lists no hours, so Google is the only hours source.",
+    "Name, address and phone agree; Yelp is claimed and Google's claim status was not read.",
+    "Google's topics are too thin to build copy from, so the Yelp services list is the main material."
+   ]
+  },
+  {
+   "row": 81,
+   "name": "EJ's Auto",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build",
+   "angle": "A Subaru specialist that will take any Japanese car, where pricing is the largest Google topic at nine mentions.",
+   "google": {
+    "name": "EJ's Auto",
+    "rating": 4.8,
+    "reviews": 36,
+    "address": "16635 Foothill Blvd Suite 104, Fontana, CA 92335",
+    "phone": "(951) 237-6600",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "10:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "topics": {
+     "pricing": 9,
+     "fast repair": 4,
+     "job": 3,
+     "engine swap": 2,
+     "gaskets": 2,
+     "customer care": 2,
+     "opinion": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/ejs-auto-fontana",
+    "name": "EJ'S Auto",
+    "rating": 4.6,
+    "reviews": 22,
+    "claimed": true,
+    "address": "16635 Foothill Blvd, Ste 104, Fontana, CA 92335",
+    "phone": "(951) 237-6600",
+    "website": null,
+    "hours": [
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "10:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "Closed",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair"
+    ],
+    "services": [
+     "Auto transmission repair",
+     "Oil changes",
+     "Routine automotive maintenance",
+     "Transmission leak inspection"
+    ],
+    "owner_text": "The shop specialises in Subarus but works on any Japanese car, from oil changes to full swaps, including timing belts, clutch, engine and transmission swaps, rebuilt engines and short blocks."
+   },
+   "flags": [
+    "Thursday is the odd day — it opens at 10 AM on both Google and Yelp while the other weekdays open at 9 AM.",
+    "Hours, phone and address otherwise agree, with the suite written \"Suite 104\" on Google and \"Ste 104\" on Yelp.",
+    "The 951 area code is not local to Fontana, so confirm the number the shop answers before it goes on a page.",
+    "Yelp is claimed; Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 83,
+   "name": "Ontario Japan Auto",
+   "city": "Ontario",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build, Google only",
+   "angle": "Japanese car repair in Ontario where knowledgeable staff is the biggest topic by a wide margin at eight mentions, with air conditioning and oil changes also coming up.",
+   "google": {
+    "name": "Ontario Japan Auto",
+    "rating": 4.6,
+    "reviews": 36,
+    "address": "2215 E 4th St, Ontario, CA 91764",
+    "phone": "(909) 941-8855",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 12:30 PM",
+     "Closed"
+    ],
+    "topics": {
+     "knowledgeable staff": 8,
+     "AC": 3,
+     "honesty": 3,
+     "mechanics": 3,
+     "intake hose replacement": 2,
+     "oil change": 2,
+     "turnaround time": 2,
+     "trustworthy": 2,
+     "modified": 2,
+     "door": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp search returned no result at all.",
+    "No service list on the listing, so the topics are the only guide to what is done — ask for the full list before writing specifics.",
+    "Saturday closes at 12:30 PM, earlier than any other weekday.",
+    "Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 84,
+   "name": "SG Mechanics Auto shop Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Low priority",
+   "angle": "General repair on Foothill Boulevard, with nothing in the reviews beyond car repair to build copy on.",
+   "google": {
+    "name": "SG Mechanics Auto shop Repair",
+    "rating": 4.4,
+    "reviews": 35,
+    "address": "15867 Foothill Blvd Suite C, Fontana, CA 92335",
+    "phone": "(909) 452-6061",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 2:30 PM",
+     "Closed"
+    ],
+    "topics": {
+     "car repair": 3
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp result was a mobile mechanic in another city with a different phone.",
+    "4.4 from 35 is on the low side for this batch and there is no second site to check it against.",
+    "Only one Google topic and no service list, so ask what the shop does before writing anything specific.",
+    "Same boulevard as EJ's Auto in row 81.",
+    "Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 85,
+   "name": "Roadhaus Automotive & Diesel Specialist",
+   "city": "Montclair",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build",
+   "angle": "Diesel and general repair on Ramona Avenue, with transmission work in the Yelp categories and a business that says it has been at it nearly four decades.",
+   "google": {
+    "name": "Roadhaus Automotive & Diesel Specialist",
+    "rating": 4.4,
+    "reviews": 35,
+    "address": "10638 Ramona Ave, Montclair, CA 91763",
+    "phone": "(909) 621-5665",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 3:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "mechanics": 5,
+     "light": 3,
+     "car repair": 3,
+     "payment": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/roadhaus-automotive-and-diesel-specialist-montclair",
+    "name": "Roadhaus Automotive & Diesel Specialist",
+    "rating": 4.5,
+    "reviews": 24,
+    "claimed": true,
+    "address": "10638 Ramona Ave, Montclair, CA 91763",
+    "phone": "(909) 621-5665",
+    "website": null,
+    "hours": [
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 3:00 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Transmission Repair"
+    ],
+    "services": [
+     "Auto battery or electrical system repair",
+     "Battery",
+     "Auto brake repair",
+     "Auto engine repair",
+     "Auto fluids and filters maintenance",
+     "Auto HVAC repair"
+    ],
+    "owner_text": "For nearly four decades the shop's technicians have worked to deliver craftsmanship, and it aims to make cars better than when they came in."
+   },
+   "flags": [
+    "Name, address, phone and hours agree.",
+    "Yelp's 4.5 is 0.1 above Google's 4.4, and Google has the larger review count, so Google leads the facts block.",
+    "The shop is next door to J C Auto Electric at 10640 Ramona Ave, which already has a site in the repo.",
+    "Yelp is claimed; Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 86,
+   "name": "Avant-Garde Automotive",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build first",
+   "angle": "The European specialist in Chino — six named makes in the owner's own text, BMW among the Google topics, and knowledgeable staff as the biggest topic at nine mentions.",
+   "google": {
+    "name": "Avant-Garde Automotive",
+    "rating": 4.9,
+    "reviews": 34,
+    "address": "13611 12th St Ste B, Chino, CA 91710",
+    "phone": "(909) 964-6515",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "knowledgeable staff": 9,
+     "pricing": 7,
+     "car repair": 3,
+     "choice": 2,
+     "BMW": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/avant-garde-automotive-chino-2",
+    "name": null,
+    "rating": 4.7,
+    "reviews": 86,
+    "claimed": true,
+    "address": "13611 12th St, Unit B, Chino, CA 91710",
+    "phone": "(909) 964-6515",
+    "website": null,
+    "hours": [
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "8:00 AM – 6:00 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Oil Change Stations",
+     "Hybrid Car Repair"
+    ],
+    "services": [
+     "Auto battery and electrical system repair",
+     "Battery",
+     "Auto brake repair",
+     "Auto engine repair",
+     "Auto fluids and filters maintenance",
+     "Auto general diagnosis"
+    ],
+    "owner_text": "The shop specialises in BMW, Mercedes-Benz, Volvo, Porsche, Bentley and Ferrari, and does maintenance tune-ups, brakes, air conditioning, engine work, transmission and electrical work; Spanish is spoken."
+   },
+   "flags": [
+    "Name, phone, street address and hours agree.",
+    "The suite is written \"Ste B\" on Google and \"Unit B\" on Yelp.",
+    "Ratings differ slightly: Google 4.9 from 34, Yelp 4.7 from 86, so the Yelp rating leads the facts block.",
+    "Yelp is claimed; Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 87,
+   "name": "M&M CAR PRO'S",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build",
+   "angle": "A family-run body shop since 2009 that takes insurance claims, with bumper and dent work in the Google topics and a domain that has gone dark, which is the opening for the call.",
+   "google": {
+    "name": "M&M CAR PRO'S",
+    "rating": 4.9,
+    "reviews": 34,
+    "address": "16534 Ceres Ave #3, Fontana, CA 92335",
+    "phone": "(909) 329-6162",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "fast work": 4,
+     "bumper": 3,
+     "deductible assistance": 2,
+     "dent repair": 2,
+     "fair pricing": 2,
+     "time-saving": 2,
+     "painting": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/m-and-m-car-pros-fontana-4",
+    "name": "M&M Car Pro's",
+    "rating": 4.3,
+    "reviews": 18,
+    "claimed": true,
+    "address": "16534 Ceres Ave, Fontana, CA 92335",
+    "phone": "(909) 329-6162",
+    "website": "fontanammauto.com",
+    "hours": [
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 5:00 PM",
+     "9:00 AM – 2:00 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Body Shops"
+    ],
+    "services": [
+     "Auto body restoration",
+     "Bumper repair",
+     "Collision repair",
+     "Dent removal",
+     "Auto frame straightening"
+    ],
+    "owner_text": "A professional auto body and collision shop, family owned and operated since 2009, that welcomes all insurance claims."
+   },
+   "flags": [
+    "Yelp's 4.3 is 0.6 below Google's 4.9, on 18 reviews against 34, so show the Google rating if this is built.",
+    "The name is written \"M&M CAR PRO'S\" on Google and on the sheet, \"M&M Car Pro's\" on Yelp.",
+    "Yelp's address omits the \"#3\" suite; phone and hours agree.",
+    "Yelp lists a website, fontanammauto.com, and it is a GoDaddy \"parked free\" page, so the domain has lapsed or is unused.",
+    "The lead stays valid and that is a pitch point, not a reason to check the website first.",
+    "Same street as JC Bumper Repair, Ceres Collision and John's Auto Repair, which already have sites."
+   ]
+  },
+  {
+   "row": 88,
+   "name": "Pro Auto Service",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build, Google only",
+   "angle": "General repair on Holt Avenue, open six days, with knowledgeable mechanics and work quality the recurring topics.",
+   "google": {
+    "name": "Pro Auto Service",
+    "rating": 4.6,
+    "reviews": 33,
+    "address": "836 E Holt Ave #91767, Pomona, CA 91767",
+    "phone": "(909) 302-2054",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 5:30 PM",
+     "8:00 AM – 4:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "knowledgeable mechanics": 3,
+     "personable staff": 2,
+     "work quality": 2,
+     "efficiency": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp search returned a different shop at a different address.",
+    "Monday is the odd day — it closes at 5 PM while Tuesday to Friday close at 5:30 PM.",
+    "The address reads \"836 E Holt Ave #91767\", where the suite field holds the ZIP code; confirm whether there is a real suite.",
+    "No service list anywhere, so ask for one.",
+    "Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 89,
+   "name": "Omar Auto Body Paint And Repair",
+   "city": "Fontana",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build, Google only",
+   "angle": "A body and paint shop on Ceres Avenue, named for both and rated 4.8, where bumper repair and trucks come up in the reviews.",
+   "google": {
+    "name": "Omar Auto Body Paint And Repair",
+    "rating": 4.8,
+    "reviews": 33,
+    "address": "16522 Ceres Ave Ste 3, 4, Fontana, CA 92335",
+    "phone": "(909) 685-3183",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 5:00 PM",
+     "8:00 AM – 12:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "bumper repair": 2,
+     "family owned shop": 2,
+     "communicative": 2,
+     "truck": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "Google only; the Yelp search returned Ceres Auto Body and Paint, a different business two doors away.",
+    "No owner text and no service list beyond what the topics show.",
+    "Same street as row 87 and as JC Bumper Repair, Ceres Collision and John's Auto Repair, which already have sites.",
+    "Google's claim status was not read."
+   ]
+  },
+  {
+   "row": 91,
+   "name": "Chino Valley Auto Repair",
+   "city": "Chino",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Hold",
+   "angle": null,
+   "google": {
+    "name": "Chino Valley Auto Repair",
+    "rating": 4.7,
+    "reviews": 31,
+    "address": "5260 Las Flores Dr, Chino, CA 91710",
+    "phone": "(909) 597-1131",
+    "website": null,
+    "unclaimed": true,
+    "hours": null,
+    "topics": {
+     "pricing": 4,
+     "mechanic": 4,
+     "honesty": 2,
+     "promptness": 2,
+     "car repair": 2,
+     "busy": 2
+    }
+   },
+   "yelp": null,
+   "flags": [
+    "The listing has no hours, so the facts block has no hours key.",
+    "It is unclaimed on Google.",
+    "There is no Yelp page; the search returned a shop in Chino Valley, Arizona.",
+    "The address, 5260 Las Flores Dr, is the same as Auto Technik Carcare (Suites A and B), which already has a site in the repo, so this may be a previous business at that address.",
+    "Hold until someone confirms it still operates; if it does, the listing needs rebuilding from scratch."
+   ]
+  },
+  {
+   "row": 92,
+   "name": "Auto Tech Center",
+   "city": "Pomona",
+   "handoff": "docs/handoffs/2026-11-10-open-leads-4.md",
+   "verdict": "Build",
+   "angle": "Collision and bodywork alongside general repair, closed Monday and Sunday and open Saturday until 6.",
+   "google": {
+    "name": "Auto Tech Center",
+    "rating": 4.7,
+    "reviews": 31,
+    "address": "1407 W Holt Ave, Pomona, CA 91768",
+    "phone": "(909) 868-7000",
+    "website": null,
+    "unclaimed": null,
+    "hours": [
+     "Closed",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "Closed"
+    ],
+    "topics": {
+     "helpful mechanics": 3,
+     "fair pricing": 2
+    }
+   },
+   "yelp": {
+    "url": "https://www.yelp.com/biz/auto-tech-center-cc-pomona",
+    "name": "Auto Tech Center CC",
+    "rating": 4.7,
+    "reviews": 18,
+    "claimed": true,
+    "address": "1407 W Holt Ave, Pomona, CA 91768",
+    "phone": "(909) 868-7000",
+    "website": null,
+    "hours": [
+     "Closed",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "9:00 AM – 6:00 PM",
+     "Closed"
+    ],
+    "categories": [
+     "Auto Repair",
+     "Body Shops"
+    ],
+    "services": [
+     "Auto battery or electrical system repair",
+     "Battery",
+     "Auto brake repair",
+     "Auto engine repair",
+     "Auto fluids and filters maintenance",
+     "Auto general diagnosis"
+    ],
+    "owner_text": "The shop offers collision services including paint, a frame machine and towing at affordable rates, and works with all insurance companies."
+   },
+   "flags": [
+    "The name differs — \"Auto Tech Center\" on Google and on the sheet, \"Auto Tech Center CC\" on Yelp — so confirm which name the shop uses.",
+    "Hours, address and phone agree; Monday and Sunday are closed on both and Saturday runs to 6 PM.",
+    "Yelp files the business under both auto repair and body shops, while the sheet says auto repair only.",
+    "Yelp is claimed; Google's claim status was not read.",
+    "Towing comes from the owner's text and should be confirmed."
+   ]
+  }
+ ]
+}
