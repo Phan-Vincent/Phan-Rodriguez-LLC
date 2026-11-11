@@ -176,3 +176,17 @@ Andrew asked for every site in the repo to be redesigned to match Tri Auto, A C 
 - **Photos (free license, hotlinked, all confirmed loading from the GitHub Pages address):** Pexels IDs 8986100, 6870299, 12596112, 31127615, 7564861, 6720532, 6870311, 30179627, 14006131, 35020122, 28992999, 8985448, 10490631, 8470881, 6870314, 8985660, 31097241, 18101862, 6565048, 10827691, 32662276, 13065690, 4876645, 29181492, 15489247, 6074540, 10490621; Unsplash 1578844251758. The auto ones come from Andrew's `Company_Image_Research.zip`; food, key and tree photos were found on Pexels the same day. They illustrate the service and are not photos of the businesses.
 - **From the research zip, not used:** `moreno_logo.png` is not an image (it contains a "request blocked" message). Tepa Tire: the pack flags a dealer listing with different hours (weekdays 7 to 5); the page keeps Google's 8 to 6 daily, so confirm with the owner.
 - **Checked:** Playwright at 1440px and 390px on all 16: no horizontal overflow, no script errors, reveals hide below-the-fold blocks, today's hours highlighted. Photos were placeholders in that check.
+
+## Energy layer on all 19 sites (2026-11-10)
+
+Andrew said the sites looked too boring to sell and sent the first Tri Auto version (`tri-auto (1).html`) as the reference for how lively they should feel, while staying professional. The layouts, colors, facts and photos are unchanged; this adds motion and stronger hero treatment through the shared base in `build_v2.py`, so both generators pick it up.
+
+- **Headline:** larger and heavier (800 weight), words rise in one after another on load, with a gold marker highlight under the accent phrase on light heroes.
+- **Moving band:** a dark band of the shop's services scrolls under the hero (at the very top on profile-layout sites).
+- **Stripes:** three slanted stripes in the shop's accent color, gold and white drop into banner and cover photos, echoing the Tri Auto sign. Split-layout heroes get offset color blocks behind the photo.
+- **Rating badge:** a tilted dark badge with the rating counting up, which drifts slightly with the mouse. Ratings elsewhere count up when scrolled into view.
+- **Hover:** tiles fill with the accent color, cards lift with an offset accent shadow, list rows slide, the main button fills and its arrow nudges, photos gain saturation.
+- **Other:** a thin progress bar across the top while scrolling, section labels in the accent color with a short rule, a soft accent glow behind the top of the page.
+- **Astryx values used:** 175ms and 410ms durations, `cubic-bezier(.24,1,.4,1)` easing, 8px radius, low and high shadow roles, scarce emphasis (one primary button per group).
+- **Restraint:** no autoplay video or sound, no flashing, stripes fade to 30% on phones so they never fight the text, and every animation is off when the visitor's device asks for reduced motion.
+- **Checked:** Playwright at 1440px and 390px on all 19: no horizontal overflow, no script errors, reveals and today-highlight working, A C Tires carousel scrolls, holds and resumes. Photos were placeholders in that check. Two bugs found and fixed during the check: a broken regular expression that stopped the page script, and a class name clash that turned Moreno's headline blue.

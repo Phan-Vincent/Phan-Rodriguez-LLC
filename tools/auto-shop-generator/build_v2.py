@@ -42,17 +42,66 @@ tr.today th,tr.today td{background:var(--today,var(--accent));color:var(--on-tod
 .holiday{margin-top:12px;padding:12px 14px;border-radius:8px;background:var(--chip);font-size:14px}.holiday strong{display:block;font-size:13px}.holiday p{color:var(--muted);margin-top:2px}.holiday a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 footer{margin-top:72px;padding:26px 0 34px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
 footer .wrap{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}footer span{max-width:760px}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+
+/* ---- energy layer: rising headline, moving band, stripes, rating badge, hover fills (motion values from Astryx) ---- */
+body{background:radial-gradient(1100px 520px at 88% -8%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 62%),var(--bg);background-repeat:no-repeat}
+h1,h2,.lead h2{font-weight:800;letter-spacing:-.035em}
+.progress{position:fixed;left:0;top:0;height:4px;width:calc(var(--p,0)*100%);background:linear-gradient(90deg,var(--accent),var(--gold,var(--accent)));z-index:60}
+.label{color:var(--accent)}.label:before{content:"";display:inline-block;width:22px;height:3px;background:currentColor;margin-right:9px;vertical-align:middle}
+.js h1 .wd,.js .lead h2 .wd{display:inline-block;overflow:hidden;vertical-align:top;padding:.1em .05em .14em 0;margin:-.1em 0 -.14em}
+.js h1 .wd>span,.js .lead h2 .wd>span{display:inline-block;transform:translateY(112%);transition:transform .9s cubic-bezier(.24,1,.4,1);transition-delay:calc(var(--i)*70ms)}
+.js.ready h1 .wd>span,.js.ready .lead h2 .wd>span{transform:none}
+.btn{position:relative;overflow:hidden;isolation:isolate;transition:color .175s,filter .175s}
+.btn.primary:before{content:"";position:absolute;inset:0;background:var(--ink,#050505);transform:translateY(101%);transition:transform .41s cubic-bezier(.24,1,.4,1);z-index:-1}
+.btn.primary:hover:before{transform:none}.btn.primary:hover{filter:none}
+.btn.primary:after{content:"→";transition:transform .175s}.btn.primary:hover:after{transform:translateX(5px)}
+.marquee{overflow:hidden;white-space:nowrap;background:var(--dark,#141414);color:#fff;font-weight:800;text-transform:uppercase;letter-spacing:.03em;font-size:16px}
+.marquee div{display:inline-block;animation:slide 34s linear infinite;padding:13px 0}.marquee span{margin:0 22px}.marquee i{font-style:normal;color:var(--gold,#E9B949)}
+@keyframes slide{to{transform:translateX(-50%)}}
+.stripes{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.stripes i{position:absolute;top:-20%;height:140%;width:2.3vw;right:calc(var(--n)*3.3vw + 6vw);transform:skewX(-18deg) translateY(calc(var(--scroll,0)*-.1px));background:linear-gradient(90deg,#fff3,#fff0 20%,#0000 70%,#0003),var(--c);animation:drop 1.1s cubic-bezier(.24,1,.4,1) both;animation-delay:calc(var(--n)*120ms + 300ms);opacity:.93}
+.stripes i:nth-child(1){--n:2;--c:var(--accent)}.stripes i:nth-child(2){--n:1;--c:var(--gold,#E9B949)}.stripes i:nth-child(3){--n:0;--c:#fff}
+@keyframes drop{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+.shot{position:relative;isolation:isolate}
+.shot:before{content:"";position:absolute;right:-16px;bottom:-16px;width:72%;height:72%;background:var(--accent);border-radius:8px;z-index:-1}
+.shot:after{content:"";position:absolute;left:-14px;top:-14px;width:30%;height:34%;background:var(--gold,#E9B949);border-radius:8px;z-index:-1}
+.badge{position:absolute;left:-18px;bottom:26px;z-index:2;background:linear-gradient(160deg,#2a2a2a,#0c0c0c);color:#fff;padding:16px 22px;border-radius:8px;box-shadow:0 22px 40px -14px #000a;transform:rotate(-4deg) translate(calc(var(--mx,0)*-14px),calc(var(--my,0)*-14px));transition:transform .2s}
+.badge b{display:block;font-size:46px;line-height:1;font-weight:800;letter-spacing:-.03em}.badge b i{font-style:normal;color:var(--gold,#E9B949)}.badge small{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#ffffffcc}
+.cover{position:relative;overflow:hidden}.cover .badge{left:auto;right:28px;bottom:76px}
+.tile,.make,.it,.rate,.q,.s,.day{transition:transform .175s cubic-bezier(.24,1,.4,1),box-shadow .175s,color .175s,background .175s}
+.tile,.make{position:relative;overflow:hidden;isolation:isolate}
+.tile:before,.make:before{content:"";position:absolute;inset:0;background:var(--accent);transform:translateY(101%);transition:transform .41s cubic-bezier(.24,1,.4,1);z-index:-1}
+.tile:hover:before,.make:hover:before{transform:none}.tile:hover,.make:hover{color:#fff;transform:translateY(-4px)}.tile:hover p,.make:hover p{color:#ffffffe0}
+.rate:hover,.q:hover,.s:hover,a.quote:hover{transform:translateY(-4px) rotate(-.5deg);box-shadow:6px 6px 0 var(--accent)}
+.svc li{transition:padding .175s,background .175s}.svc li:hover{padding-left:30px;background:color-mix(in srgb,var(--accent) 7%,#fff)}
+.it:hover{transform:translateX(6px)}
+.hero img,.row img,.side img,.photo img,.s img{transition:filter .41s,transform .41s cubic-bezier(.24,1,.4,1);filter:saturate(.9) contrast(1.03)}
+.hero img:hover,.row img:hover,.side img:hover,.photo img:hover,.s:hover img{filter:none;transform:scale(1.02)}
+span[data-count]{font:inherit!important;color:inherit!important;letter-spacing:inherit!important;text-transform:none!important}
+h1 em,.lead h2 em{background:linear-gradient(transparent 68%,color-mix(in srgb,var(--gold,#E9B949) 60%,transparent) 0)}
+@media(max-width:860px){.stripes i{width:12px;right:calc(var(--n)*18px + 12px);opacity:.3}.name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.badge{left:10px;bottom:-18px;padding:12px 16px}.badge b{font-size:34px}.shot{margin:14px 14px 22px 14px;order:-1}.cover .badge{right:14px;bottom:52px}.marquee{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.js h1 .wd>span,.js .lead h2 .wd>span{transform:none}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 """
 
 JS = """<script>
 (()=>{
 // scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
 document.documentElement.classList.add('js');
-const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
+const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,.marquee,.shot,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
 targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
 targets.forEach(el=>io.observe(el));
+// headline words rise in
+const root=document.documentElement,reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+document.querySelectorAll('h1,.lead h2').forEach(h=>{let i=0;const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();c.textContent.split(/(\\s+)/).forEach(t=>{if(!t.trim()){f.append(t);return}const w=document.createElement('span');w.className='wd';const sp=document.createElement('span');sp.style.setProperty('--i',i++);sp.textContent=t;w.append(sp);f.append(w)});c.replaceWith(f)}else if(c.tagName!=='BR')walk(c)})};walk(h)});
+requestAnimationFrame(()=>requestAnimationFrame(()=>root.classList.add('ready')));
+// numbers count up when they come into view
+const count=el=>{const end=parseFloat(el.dataset.count),dec=(el.dataset.count.split('.')[1]||'').length;if(reduce)return;const t0=performance.now();const step=t=>{const p=Math.min((t-t0)/1300,1),e=1-Math.pow(1-p,3);el.textContent=(end*e).toFixed(dec);if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)};
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){count(e.target);cio.unobserve(e.target)}}),{threshold:.6});
+document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+// scroll progress bar, stripe drift and badge following the pointer
+if(!reduce){let tick=false;const upd=()=>{root.style.setProperty('--scroll',scrollY);root.style.setProperty('--p',(scrollY/Math.max(1,root.scrollHeight-innerHeight)).toFixed(4));tick=false};addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});
+addEventListener('pointermove',e=>{if(e.pointerType==='mouse'){root.style.setProperty('--mx',(e.clientX/innerWidth-.5).toFixed(3));root.style.setProperty('--my',(e.clientY/innerHeight-.5).toFixed(3))}},{passive:true})}
 // highlight today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
@@ -75,6 +124,18 @@ def hours_table(hours, phone, tel):
     return f'<table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption>{rows}</table>{holiday(phone, tel)}'
 
 
+def marquee(items):
+    run = "".join(f"<span>{i}</span><i>///</i>" for i in items)
+    return f'<div class="marquee" aria-hidden="true"><div>{run}{run}</div></div>'
+
+
+def badge(num, small):
+    return f'<div class="badge"><small>Google rating</small><b><span data-count="{num}">{num}</span><i>★</i></b><small>{small}</small></div>'
+
+
+STRIPES = '<div class="stripes" aria-hidden="true"><i></i><i></i><i></i></div>'
+
+
 def page(title, desc, css, body, extra_js=""):
     return f"""<!doctype html>
 <html lang="en">
@@ -88,6 +149,7 @@ def page(title, desc, css, body, extra_js=""):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
 {body}
 {JS}
 {extra_js}
@@ -146,12 +208,12 @@ MO_REVIEWS = [
 
 # ---------------------------------------------------------------- Tri Auto
 tri_css = """
-:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#B3261E;--a2:#C8642A;--a3:#D9A53A}
+:root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#B3261E;--a2:#C8642A;--a3:#D9A53A;--dark:#141414;--gold:#E9B949}
 header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 1px 2px #0000001f}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:60px}
 nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{color:var(--accent)}
 .hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding:56px 0 64px}
-h1{font-size:clamp(36px,5vw,64px)}h1 em{font-style:normal;color:var(--accent)}
+h1{font-size:clamp(40px,5.8vw,78px);line-height:1}h1 em{font-style:normal;color:var(--accent)}
 .lede{font-size:18px;color:var(--muted);margin-top:20px;max-width:520px}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .rating{margin-top:22px;font-size:14px;font-weight:600}.rating b{color:var(--accent)}
@@ -178,7 +240,7 @@ section{padding:56px 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
 address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4;margin:14px 0 6px}
 .bigphone{display:inline-block;font-size:clamp(28px,3.4vw,40px);font-weight:700;letter-spacing:-.02em;margin-top:16px}
 .visit{--row:#F0F2F5}
-@media(max-width:860px){nav{display:none}.hero{grid-template-columns:1fr;gap:28px;padding:28px 0 40px}.hero img{order:-1}.makes{grid-template-columns:1fr}.row{grid-template-columns:1fr;gap:18px}.row:nth-child(even) img{order:0}.visit{grid-template-columns:1fr;padding:22px}section{padding:40px 0}}
+@media(max-width:860px){nav{display:none}.hero{grid-template-columns:1fr;gap:28px;padding:28px 0 40px}.hero .shot{order:-1}.makes{grid-template-columns:1fr}.row{grid-template-columns:1fr;gap:18px}.row:nth-child(even) img{order:0}.visit{grid-template-columns:1fr;padding:22px}section{padding:40px 0}}
 """
 
 tri_logo = '<svg viewBox="0 0 250 60" role="img" aria-label="Tri-Auto" style="width:150px;display:block"><text x="0" y="44" font-family="\'Segoe UI\',system-ui,Arial,sans-serif" font-weight="700" font-size="44" letter-spacing="-1.5" fill="currentColor">Tri-Auto</text><g transform="skewX(-18)"><rect x="205" y="10" width="9" height="38" fill="#B3261E"/><rect x="218" y="10" width="9" height="38" fill="#C8642A"/><rect x="231" y="10" width="9" height="38" fill="#D9A53A"/></g></svg>'
@@ -192,9 +254,10 @@ tri_body = f"""
 <div><h1>Bye-bye, <em>dealership.</em></h1>
 <p class="lede">Tri Auto is Chino's independent shop for <strong style="color:var(--ink)">Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices well below the dealer's.</p>
 <div class="actions"><a class="btn primary" href="tel:+19094656422">Call Danny's shop</a><a class="btn" href="#visit">Hours &amp; directions</a></div>
-<p class="rating"><b>4.9 ★</b> on Google · 333 reviews</p></div>
-<img alt="Close-up of a mechanic's gloved hand holding a wrench" src="{U('1729844164746-d074d1d4ac6c', 1100, 825)}">
 </div>
+<div class="shot"><img alt="Close-up of a mechanic's gloved hand holding a wrench" src="{U('1729844164746-d074d1d4ac6c', 1100, 825)}">{badge('4.9', '333 reviews')}</div>
+</div>
+{marquee(['Toyota', 'Honda', 'Lexus', 'Honest work', 'Fair prices', 'Chino, CA'])}
 <section id="makes"><div class="wrap">
 <div class="intro"><span class="label">What we fix</span><h2>Three makes. Nothing else.</h2><p>We don't work on everything. We work on these three, every day. That focus is the whole idea behind the name.</p></div>
 <div class="makes">
@@ -226,7 +289,7 @@ tri_body = f"""
 
 # ---------------------------------------------------------------- A C Tires
 ac_css = """
-:root{--bg:#F5F6F8;--ink:#0B1220;--muted:#5A6272;--line:#D5D9E0;--chip:#E6E9EF;--accent:#B3261E;--navy:#16295E;--gold:#E9B949;--focus:#16295E}
+:root{--dark:#16295E;--bg:#F5F6F8;--ink:#0B1220;--muted:#5A6272;--line:#D5D9E0;--chip:#E6E9EF;--accent:#B3261E;--navy:#16295E;--gold:#E9B949;--focus:#16295E}
 header{background:var(--navy);color:#fff;--focus:#fff}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px}
 .sign{font-weight:700;font-size:20px;letter-spacing:-.01em}.sign small{color:var(--gold);font-size:.8em;font-weight:600}
@@ -234,7 +297,7 @@ nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{text-decora
 header .btn{background:#fff;color:var(--navy)}
 .banner{position:relative;color:#fff;background:linear-gradient(90deg,#101E47f2 0,#16295Ed9 46%,#16295E59 100%),var(--img) center/cover #16295E;--focus:#fff}
 .banner .wrap{padding:84px 0 132px}
-h1{font-size:clamp(36px,5.2vw,66px);max-width:640px}h1 span{color:var(--gold)}
+.banner{overflow:hidden}.banner .wrap{position:relative;z-index:1}h1{font-size:clamp(40px,6.2vw,84px);line-height:1;max-width:760px}h1 .hl{color:var(--gold)}
 .lede{font-size:18px;max-width:520px;margin-top:20px;color:#E3E8F5}
 .bar{display:grid;grid-template-columns:repeat(3,1fr);margin-top:-64px;position:relative;z-index:2}
 .bar>*{padding:22px 24px;border-right:1px solid var(--line)}.bar>*:last-child{border:0}
@@ -278,8 +341,8 @@ ac_body = f"""
 <nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Hours &amp; location</a></nav>
 <a class="btn" href="tel:+19093914636">(909) 391-4636</a></div></header>
 <main id="main">
-<div class="banner" role="img" aria-label="Gloved hands mounting a tire in a workshop" style="--img:url({U('1792792944402-5e94ce198dce', 1800, 900)})"><div class="wrap">
-<h1>Flat at 7 PM? <span>We're still open.</span></h1>
+<div class="banner" role="img" aria-label="Gloved hands mounting a tire in a workshop" style="--img:url({U('1792792944402-5e94ce198dce', 1800, 900)})">{STRIPES}<div class="wrap">
+<h1>Flat at 7 PM? <span class="hl">We're still open.</span></h1>
 <p class="lede">New and used tires, flat repair and mount-and-balance at the blue shop on California Street in Ontario.</p>
 </div></div>
 <div class="wrap"><div class="card bar">
@@ -287,13 +350,14 @@ ac_body = f"""
 <a href="tel:+19093914636"><span class="label">Call the shop</span><strong>(909) 391-4636</strong><small>Tap to call</small></a>
 <a href="#visit"><span class="label">Find us</span><strong style="color:var(--ink)">301 W California St</strong><small>Ontario, CA 91762 · look for the blue building</small></a>
 </div></div>
+<div style="margin-top:44px">{marquee(['New tires', 'Used tires', 'Flat repair', 'Mount &amp; balance', 'Open til 8 PM', 'Open Sundays'])}</div>
 <section id="services"><div class="wrap split">
 <div class="side"><span class="label">What we do</span><h2>Tires. That's it. That's the shop.</h2><p>No waiting-room upsell. Pull in, tell us what you need, and get back on the road.</p>
 <img loading="lazy" alt="Stacks of tires in a tire shop" src="{U('1578844251758-2f71da64c96f', 900, 675)}"></div>
 <ul class="card svc">{"".join(f'<li class="reveal" >{tire_icon}<div><h3>{n}</h3><p>{t}</p></div></li>' for i, (n, t) in enumerate(ac_services))}</ul>
 </div></section>
 <section id="reviews"><div class="wrap">
-<div class="stats reveal"><div><strong>4.4 ★</strong><span>Google rating</span></div><div><strong>324</strong><span>Google reviews</span></div><div><strong>7</strong><span>Days a week</span></div></div>
+<div class="stats reveal"><div><strong><span data-count="4.4">4.4</span> ★</strong><span>Google rating</span></div><div><strong data-count="324">324</strong><span>Google reviews</span></div><div><strong data-count="7">7</strong><span>Days a week</span></div></div>
 <div style="margin-top:48px"><span class="label">Reviews</span><h2>Quick, easy, straight forward.</h2></div>
 <div style="margin-top:24px">{track(AC_REVIEWS)}</div>
 </div></section>
@@ -310,9 +374,8 @@ ac_body = f"""
 
 # ---------------------------------------------------------------- Moreno's
 mo_css = """
-:root{--bg:#F2F3F5;--ink:#111418;--muted:#5F6670;--line:#D3D6DB;--chip:#E5E7EB;--accent:#A32420;--gold:#E9B949;--blue:#1E4A9C;--focus:#1E4A9C}
-body{border-top:6px solid var(--accent)}
-.cover{height:clamp(200px,30vw,380px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover #23262b;border-radius:0 0 8px 8px}
+:root{--dark:#111418;--bg:#F2F3F5;--ink:#111418;--muted:#5F6670;--line:#D3D6DB;--chip:#E5E7EB;--accent:#A32420;--gold:#E9B949;--blue:#1E4A9C;--focus:#1E4A9C}
+.cover{height:clamp(220px,32vw,400px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover #23262b;border-radius:0 0 8px 8px}
 .layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start;margin-top:-56px;position:relative}
 .shop{position:sticky;top:16px;padding:24px;--row:#F2F3F5}
 .shop h1{font-size:28px}.shop h1 i{font-style:normal;color:var(--accent)}
@@ -325,7 +388,7 @@ address{font-style:normal;font-weight:600;margin:16px 0 4px}
 .shop{--today:var(--gold);--on-today:#111}
 .feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
 .feed>.card{padding:28px}
-.lead h2{font-size:clamp(30px,4vw,48px)}.lead h2 em{font-style:normal;color:var(--accent)}
+.lead h2{font-size:clamp(34px,4.8vw,60px);line-height:1.02}.lead h2 em{font-style:normal;color:var(--accent)}
 .lead p{font-size:18px;color:var(--muted);margin-top:14px;max-width:600px}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
 .chips span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:6px}
@@ -354,8 +417,9 @@ mo_services = [
 ]
 
 mo_body = f"""
+{marquee(['Engine repair', 'Computer alignment', 'A/C service', 'Transmission rebuild', 'Family owned', 'Since 2009'])}
 <main id="main">
-<div class="wrap"><div class="cover" role="img" aria-label="Mechanic working under the hood of a car in a clean workshop" style="--img:url({U('1771340012319-0b4fca008b54', 1800, 760)})"></div>
+<div class="wrap"><div class="cover" role="img" aria-label="Mechanic working under the hood of a car in a clean workshop" style="--img:url({U('1771340012319-0b4fca008b54', 1800, 760)})">{STRIPES}{badge('4.7', '284 reviews')}</div>
 <div class="layout">
 <aside class="card shop" aria-label="Shop details">
 <h1>Moreno<i>'</i>s Auto Repair</h1><p class="sub">Family owned · Holt Blvd, Ontario · since 2009</p>

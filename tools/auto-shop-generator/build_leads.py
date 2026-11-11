@@ -15,7 +15,7 @@ invented here. Photos are Pexels/Unsplash free-license stock, loaded by URL.
 import sys, pathlib, html
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from build_v2 import BASE, JS, DAYS, U, page, holiday  # noqa: E402
+from build_v2 import BASE, JS, DAYS, U, page, holiday, marquee, badge, STRIPES  # noqa: E402
 
 
 def PX(pid, w=1200):
@@ -47,7 +47,7 @@ def hours_block(s):
 def ratings(s):
     out = []
     for num, label, url in s["ratings"]:
-        inner = f"<strong>{num} ★</strong><span>{label}</span>"
+        inner = f'<strong><span data-count="{num}">{num}</span> ★</strong><span>{label}</span>'
         out.append(f'<a class="rate" href="{url}" target="_blank" rel="noopener noreferrer">{inner}<em>Read the reviews ↗</em></a>' if url else f'<div class="rate">{inner}</div>')
     return "".join(out)
 
@@ -81,6 +81,17 @@ def about(s):
         return ""
     pts = "".join(f"<li><strong>{esc(h)}</strong> {esc(t)}</li>" for h, t in a.get("points", []))
     return f'<h2>{esc(a["title"])}</h2><p>{esc(a["text"])}</p>' + (f'<ul class="pts">{pts}</ul>' if pts else "")
+
+
+def band(s):
+    items = [n for _, its in s["services"] for n, _ in its][:6]
+    return marquee([esc(i) for i in items])
+
+
+def gbadge(s):
+    num, label, _ = s["ratings"][0]
+    src, _, cnt = label.partition(" · ")
+    return badge(num, cnt).replace("Google rating", f"{src} rating")
 
 
 def head_vars(s):
@@ -118,7 +129,7 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;gap:2
 .name{border-left:5px solid var(--accent);padding-left:10px}
 nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{color:var(--accent)}
 .hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding:56px 0 64px}
-h1{font-size:clamp(34px,4.8vw,60px)}h1 em{font-style:normal;color:var(--accent)}
+h1{font-size:clamp(40px,5.6vw,76px);line-height:1}h1 em{font-style:normal;color:var(--accent)}
 .lede{color:var(--muted)}
 .hero img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
 section{padding:52px 0}
@@ -127,7 +138,7 @@ section{padding:52px 0}
 .row img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px}
 .row p{margin-top:12px;color:var(--muted)}
 .visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px;align-items:center;--row:#F0F2F5}
-@media(max-width:860px){nav{display:none}.hero{grid-template-columns:1fr;gap:26px;padding:26px 0 36px}.hero img{order:-1}.row{grid-template-columns:1fr;gap:18px}.visit{grid-template-columns:1fr;padding:22px}section{padding:38px 0}.name{font-size:17px}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}}
+@media(max-width:860px){nav{display:none}.hero{grid-template-columns:1fr;gap:26px;padding:26px 0 36px}.hero .shot{order:-1}.row{grid-template-columns:1fr;gap:18px}.visit{grid-template-columns:1fr;padding:22px}section{padding:38px 0}.name{font-size:17px}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}}
 """
 
 
@@ -141,7 +152,8 @@ def layout_a(s):
 <div class="wrap hero"><div><span class="label">{esc(s['kicker'])}</span><h1 style="margin-top:10px">{esc(s['h1'][0])} <em>{esc(s['h1'][1])}</em></h1>
 {f'<p class="sub">{esc(s["sub"])}</p>' if s.get('sub') else ''}<p class="lede">{esc(s['lede'])}</p>
 <div class="actions"><a class="btn primary" href="tel:{t}">Call {s['phone']}</a><a class="btn" href="#visit">Hours &amp; directions</a></div></div>
-<img alt="{esc(s['alt'][0])}" src="{s['photos'][0]}"></div>
+<div class="shot"><img alt="{esc(s['alt'][0])}" src="{s['photos'][0]}">{gbadge(s)}</div></div>
+{band(s)}
 <section id="services"><div class="wrap"><div class="intro"><span class="label">{s.get('svc_label', 'What we do')}</span><h2>{esc(s['svc_title'])}</h2>{f'<p>{esc(s["svc_text"])}</p>' if s.get('svc_text') else ''}</div>
 {groups(s)}{f'<p class="note">{esc(s["svc_note"])}</p>' if s.get('svc_note') else ''}</div></section>
 {f'<section><div class="wrap row"><img loading="lazy" alt="{esc(s["alt"][1])}" src="{s["photos"][1]}"><div>{about(s)}</div></div></section>' if s.get('about') else ''}
@@ -164,9 +176,9 @@ header{background:var(--dark);color:#fff;--focus:#fff}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px}
 nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{text-decoration:underline;text-underline-offset:5px}
 header .btn{background:#fff;color:var(--dark)}
-.banner{position:relative;color:#fff;background:linear-gradient(90deg,color-mix(in srgb,var(--dark) 96%,transparent) 0,color-mix(in srgb,var(--dark) 84%,transparent) 48%,color-mix(in srgb,var(--dark) 38%,transparent) 100%),var(--img) center/cover var(--dark);--focus:#fff}
-.banner .wrap{padding:80px 0 128px}.banner .label{color:#ffffffcc}
-h1{font-size:clamp(34px,5vw,62px);max-width:680px;margin-top:10px}h1 span{color:var(--gold)}
+.banner{overflow:hidden;position:relative;color:#fff;background:linear-gradient(90deg,color-mix(in srgb,var(--dark) 96%,transparent) 0,color-mix(in srgb,var(--dark) 84%,transparent) 48%,color-mix(in srgb,var(--dark) 38%,transparent) 100%),var(--img) center/cover var(--dark);--focus:#fff}
+.banner .wrap{position:relative;z-index:1;padding:80px 0 128px}.banner .label{color:#ffffffcc}
+h1{font-size:clamp(40px,6vw,80px);line-height:1;max-width:780px;margin-top:10px}h1 .hl{color:var(--gold)}
 .banner .lede{color:#ffffffe0}.banner .sub{color:var(--gold)}
 .bar{display:grid;grid-template-columns:repeat(3,1fr);margin-top:-64px;position:relative;z-index:2}
 .bar>*{padding:22px 24px;border-right:1px solid var(--line)}.bar>*:last-child{border:0}
@@ -198,14 +210,15 @@ def layout_b(s):
 <nav aria-label="Main"><a href="#services">{s.get('svc_nav', 'Services')}</a><a href="#reviews">Reviews</a><a href="#visit">Hours &amp; location</a></nav>
 <a class="btn" href="tel:{t}">{s['phone']}</a></div></header>
 <main id="main">
-<div class="banner" role="img" aria-label="{esc(s['alt'][0])}" style="--img:url({s['photos'][0]})"><div class="wrap">
-<span class="label">{esc(s['kicker'])}</span><h1>{esc(s['h1'][0])} <span>{esc(s['h1'][1])}</span></h1>
+<div class="banner" role="img" aria-label="{esc(s['alt'][0])}" style="--img:url({s['photos'][0]})">{STRIPES}<div class="wrap">
+<span class="label">{esc(s['kicker'])}</span><h1>{esc(s['h1'][0])} <span class="hl">{esc(s['h1'][1])}</span></h1>
 {f'<p class="sub">{esc(s["sub"])}</p>' if s.get('sub') else ''}<p class="lede">{esc(s['lede'])}</p></div></div>
 <div class="wrap"><div class="card bar">
 <div><span class="label">{esc(s['bar'][0])}</span><strong>{esc(s['bar'][1])}</strong><small>{esc(s['bar'][2])}</small></div>
 <a href="tel:{t}"><span class="label">Call</span><strong>{s['phone']}</strong><small>Tap to call</small></a>
 <a href="#visit"><span class="label">Find us</span><strong style="color:var(--ink)">{esc(s['addr_short'][0])}</strong><small>{esc(s['addr_short'][1])}</small></a>
 </div></div>
+<div style="margin-top:44px">{band(s)}</div>
 <section id="services"><div class="wrap split">
 <div class="side"><span class="label">{s.get('svc_label', 'What we do')}</span><h2>{esc(s['svc_title'])}</h2>{f'<p>{esc(s["svc_text"])}</p>' if s.get('svc_text') else ''}
 <img loading="lazy" alt="{esc(s['alt'][1])}" src="{s['photos'][1]}"></div>
@@ -227,8 +240,7 @@ def layout_b(s):
 
 # ------------------------------------------------------------------ layout C
 C_CSS = """
-body{border-top:6px solid var(--accent)}
-.cover{height:clamp(200px,30vw,380px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover var(--dark);border-radius:0 0 8px 8px}
+.cover{height:clamp(220px,32vw,400px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover var(--dark);border-radius:0 0 8px 8px}
 .layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start;margin-top:-56px;position:relative}
 .shop{position:sticky;top:16px;padding:24px;--row:#F0F2F5;--today:var(--dark)}
 .shop h1{font-size:26px}.shop .sub{font-size:13px;font-weight:600;color:var(--muted);margin-top:4px}
@@ -239,7 +251,7 @@ body{border-top:6px solid var(--accent)}
 .shop table{font-size:14px;margin-top:14px}.shop th,.shop td{padding:7px 10px}
 .feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
 .feed>.card{padding:28px}
-.lead h2{font-size:clamp(30px,4vw,46px);margin:0}.lead h2 em{font-style:normal;color:var(--accent)}
+.lead h2{font-size:clamp(34px,4.8vw,58px);line-height:1.02;margin:0}.lead h2 em{font-style:normal;color:var(--accent)}
 .lead p{color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chips span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:6px;background:var(--chip)}
 .chips span:nth-child(3n+1){background:var(--dark);color:#fff}.chips span:nth-child(3n+2){background:var(--gold);color:#111}
@@ -260,8 +272,9 @@ def layout_c(s):
         items += (f'<h3 class="gt">{esc(title)}</h3>' if title else "") + '<div class="two">' + "".join(f'<div class="it"><h3>{esc(n)}</h3>{"<p>" + esc(d) + "</p>" if d else ""}</div>' for n, d in its) + "</div>"
     chips = "".join(f"<span>{esc(c)}</span>" for c in s.get("chips", []))
     body = f"""
+{band(s)}
 <main id="main">
-<div class="wrap"><div class="cover" role="img" aria-label="{esc(s['alt'][0])}" style="--img:url({s['photos'][0]})"></div>
+<div class="wrap"><div class="cover" role="img" aria-label="{esc(s['alt'][0])}" style="--img:url({s['photos'][0]})">{STRIPES}{gbadge(s)}</div>
 <div class="layout">
 <aside class="card shop" aria-label="Shop details">
 <h1>{esc(s['short'])}</h1><p class="sub">{esc(s['kicker'])}</p>
