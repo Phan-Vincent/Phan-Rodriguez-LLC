@@ -35,6 +35,7 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `a-tech-automotive/` | A Tech Automotive | Chino |
 | `johns-auto-repair/` | John's Auto Repair | Fontana |
 | `ceres-collision/` | Ceres Collision | Fontana |
+| `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |
 | `quality-auto-complete-auto-repair/` | Quality Auto Complete Auto Repair | Rancho Cucamonga |

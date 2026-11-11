@@ -510,6 +510,20 @@ SITES["ceres-collision"] = dict(
     photos=(PX(8470881, 1600), PX(6870314)), alt=("Painter working on a car in a body shop", "Spray gun painting a car part"),
 )
 
+# Prime Truck and Trailer Repair (Google Maps listing read in a browser 2026-11-10; no matching Yelp page found)
+SITES["prime-truck-trailer-repair"] = dict(
+    art=dict(hero="photo", ink="#14171A", bone="#F2EFE9", acc="#A8321A", star="#E6B23C", h1="9vw", stretch="80%", svc="rows", rowsz="6.4vw", mark="Prime Truck and Trailer Repair", word="Prime", wordsz="26vw"),
+    short="Prime Truck and Trailer Repair", kicker="Truck and trailer repair · Cherry Ave, Fontana", footer="Prime Truck and Trailer Repair · Fontana, CA",
+    h1=("Truck down?", "Bring it to Cherry Ave."), lede="Truck and trailer repair in Fontana, from alignments and suspension to engine rebuilds. Owner-operators welcome.",
+    phone="(909) 644-3029", addr="9978 Cherry Ave<br>Fontana, CA 92335", maps=GM + "Prime+Truck+and+Trailer+Repair+9978+Cherry+Ave+Fontana+CA",
+    hours=["8:30 AM – 6:00 PM"] * 5 + ["8:30 AM – 3:30 PM", "Closed"],
+    ratings=[("4.4", "Google · 102 reviews", GM + "Prime+Truck+and+Trailer+Repair+9978+Cherry+Ave+Fontana+CA")],
+    services=[("", [("Engine work", "Diagnostics through full engine rebuilds."), ("Suspension", ""), ("Alignment", ""), ("Trailer repair", ""), ("Bring your own parts", "Some reviewers had customer-supplied parts fitted. Ask when you call.")])],
+    svc_title="Truck and trailer repair.", svc_text="Call with the truck, the problem and where it is parked.",
+    rev_text="Google reviewers mention quality of work, honest mechanics, alignments and trailer repair.",
+    photos=(PX(6720519, 1800), PX(7019376)), alt=("Mechanic working on the front of a truck with the hood open", "Red semi truck parked in a repair shop"),
+)
+
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])
     only = sys.argv[2:]  # optional: site folder names

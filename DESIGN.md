@@ -281,3 +281,7 @@ Sheet re-read: the "not interested" rows are unchanged (Tri Auto, Moreno's, Roy'
 - **Ceres Collision phone conflict:** Google (sheet) lists (909) 251-4447; MapQuest lists (909) 349-2880. The site uses the Google number. Confirm on the call.
 - **Skipped, with reasons:** Purrfect Auto Services (part of a multi-location chain that has its own website), A-1 Auto Expert (its MapQuest listing shows a Website button; check before building), Prime Truck and Trailer (no listing found to confirm hours or services), Ontario Mills Tire Pros (Tire Pros is a national dealer network; likely has a site).
 - **Next rows without a site:** Auto Repair Foreign Domestic (Chino), Star Hi-Tech Auto (Claremont), Jujubuilt (Upland), 2Man Moving Services, Auto Technik Carcare, Diamond Auto Center, Claremont Auto Care, L & R Auto Repair, Freddie's Auto Repair.
+
+### 2026-11-10 (late night) — Prime Truck and Trailer Repair added
+
+Vincent's session added `prime-truck-trailer-repair` to `build_flagship.py` (photo hero, rows) from its Google Maps listing, which batch 7 had not been able to load. Its own Basic Auto Repair and A Tech Automotive pages, built in parallel with the older generator, were dropped in favour of the flagship ones. Extra findings, including a claimed Yelp page with a service list for A Tech, are at the end of `docs/lead-batch-2026-11-10/BATCH-6.md`. Checked with Playwright at 1440px and 390px; tab order and the map were not checked.
