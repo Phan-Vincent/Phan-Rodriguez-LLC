@@ -1,0 +1,38 @@
+Raw Google Maps extracts for handoff 3. Read in a browser on 2026-11-10 by Vincent's session.
+Format per line: sheet row | listing name | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Tues first because the page was read on a Tuesday; * marks Wednesday Nov 11, Veterans Day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are staff first names (for example row 71). Do not repeat staff names.
+
+61 | Gil's Tire Shop | 4.5 | 50 | 1281 W Holt Ave, Pomona, CA 91768 |  | (626) 626-3354 | web:none | UNCLAIMED | Tues: 10 AM to 6 PM; Wednes: 10 AM to 6 PM*; Thurs: 10 AM to 6 PM; Fri: 10 AM to 6 PM; Satur: 10 AM to 6 PM; Sun: 10 AM to 6 PM; Mon: 10 AM to 6 PM | TOPICS sunday hours:4, helpful people:3, tire repair:2, sunday:3
+
+63 | Nino's Lawnmower Shop | 4.8 | 50 | 333 Clark Ave, Pomona, CA 91767 |  | (909) 964-6143 | web:none | claimed? | Tues: 8:30 AM to 4:30 PM; Wednes: 8:30 AM to 4:30 PM*; Thurs: 8:30 AM to 4:30 PM; Fri: 8:30 AM to 4:30 PM; Satur: Closed; Sun: Closed; Mon: 8:30 AM to 4:30 PM | TOPICS turnaround time:3, promptness:3, helpful staff:7, saves money:2, children:4, honesty:3, repair time:2
+
+66 | JR Truck Tire Road Service | 4.9 | 48 | 8835 Emerald Ave, Fontana, CA 92335 |  | (909) 279-9573 | web:none | claimed? | Tues: Open 24 hours; Wednes: Open 24 hours*; Thurs: Open 24 hours; Fri: Open 24 hours; Satur: Open 24 hours; Sun: Open 24 hours; Mon: Open 24 hours | TOPICS honesty:2, call:2, people:2, job:2, speed:4
+
+70 | Sal's Auto Care by Ramirez | 4.9 | 45 | 4421 Mission Blvd, Montclair, CA 91763 |  | (909) 590-5014 | web:none | UNCLAIMED | Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS honest mechanic shop:2, reliable work:2, customer loyalty:2, great work:6, trustworthy:2, honesty:13, car repair:2, mechanic:7
+
+71 | Arrow Auto Repair | 4.8 | 44 | 15750 Arrow Blvd #3p, Fontana, CA 92335 |  | (909) 349-0107 | web:none | claimed? | Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM*; Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 8 AM to 4 PM; Sun: Closed; Mon: 8 AM to 5:30 PM | TOPICS honest staff:2, [a staff first name]:2, job:10, fair:3
+
+72 | Moya Auto | 4.9 | 44 | 13380 12th St, Chino, CA 91710 |  | (909) 902-0262 | web:none | UNCLAIMED | Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 12 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS honest mechanic:2, fair:2, honesty:5, car care:3, auto needs:2, mechanic:6
+
+73 | Hytech Auto Repair | 4.4 | 43 | 8060 Mango Ave, Fontana, CA 92336 |  | (909) 356-4600 | web:none | claimed? | Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 3 PM; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS respectful staff:2, value:10, tow truck:2, quality work:2, reliable:2, work:2, mechanic:2, honest:4, car repair:2
+
+74 | Speed 1 smog | 4.5 | 43 | 4727 Brooks St, Montclair, CA 91763 | Located in: R Version Autoworks | (909) 626-8060 | web:none | claimed? | Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 6 PM | TOPICS (none shown)
+
+75 | JL Auto Body & Repair | 4.6 | 41 | 15944 Valley Blvd, Fontana, CA 92335 |  | (909) 320-7547 | web:none | claimed? | Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 12 PM; Sun: Closed; Mon: 8 AM to 5 PM | TOPICS cost:3, dent repair:2, quality work:2, painting:2, work:8
+
+76 | ORTEGA SMOG & REPAIR | 4.6 | 39 | 16375 Arrow Blvd C, Fontana, CA 92335 |  | (909) 434-0575 | web:none | claimed? | Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM*; Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 8 AM to 3 PM; Sun: Closed; Mon: 8 AM to 5:30 PM | TOPICS oil change:2, polite staff:2, car repair:4, honesty:2, job:2, oil:2
+
+77 | Advance Muffler | 4.8 | 39 | 12365 Central Ave, Chino, CA 91710 |  | (909) 548-6113 | web:none | UNCLAIMED | Tues: 8:30 AM to 5 PM; Wednes: 8:30 AM to 5 PM*; Thurs: 8:30 AM to 5 PM; Fri: 8:30 AM to 5 PM; Satur: 8:30 AM to 3 PM; Sun: 8:30 AM to 3 PM; Mon: 8:30 AM to 5 PM | TOPICS exhaust repair:17, custom exhaust:2, friendly worker:2, welding:4, catalytic converter:3, quality work:4, extra mile:2, aftermarket:2, sound:3
+
+78 | General Auto Care | 4.7 | 39 | 10662 Ramona Ave, Montclair, CA 91763 |  | (909) 391-7173 | web:none | UNCLAIMED | Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 6 PM | TOPICS helpful staff:6, quality work:2, trustworthy:3, mechanics:5, vehicle maintenance:3
+
+Supervisor notes to carry into the handoff:
+- Row 78: Yelp lists a website, generalautocare.net. The supervisor tried to open it and the browser could not load it (navigation failed; cause not established). Treat as "has a domain, site did not load; check before building".
+- Row 77: Advance Muffler is at 12365 Central Ave, the same building as A Tech Automotive (Unit A), which already has a site. Yelp gives Unit B.
+- Row 78: General Auto Care is at 10662 Ramona Ave, the same street as J C Auto Electric (10640) and County Brake (10602), which already have sites.
+- Row 76: Google name "Ortega Smog & Repair", Yelp name "Ortega Auto Repair & Mufflers", same address, different phone numbers.
+- Row 70: Google name "Sal's Auto Care by Ramirez", Yelp name "Ramirez Auto Care"; the name suggests a change of owner.
+- Row 74: Yelp owner text states a price ("$30 out the door, pass or don't pay"). Prices change; report it as the owner's Yelp wording with the date read, and recommend confirming before putting any price on a site.
+- Row 63: not an auto shop (lawnmower and outdoor power equipment repair); the generator's auto photos and wording will not fit.
+- Row 66: mobile truck-tire road service, open 24 hours; Google only.
+- Rows 62 (Diaz Landscape), 64 (Valencia Handyman) were not researched.
