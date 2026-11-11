@@ -68,6 +68,18 @@ h1,h2,.lead h2{font-weight:800;letter-spacing:-.035em}
 span[data-count]{font:inherit!important;color:inherit!important;letter-spacing:inherit!important;text-transform:none!important}
 h1 em,.lead h2 em{background:linear-gradient(transparent 68%,color-mix(in srgb,var(--gold,#E9B949) 60%,transparent) 0)}
 @media(max-width:860px){.stripes i{width:12px;right:calc(var(--n)*18px + 12px);opacity:.3}.name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.badge{left:10px;bottom:-18px;padding:12px 16px}.badge b{font-size:34px}.shot{margin:14px 14px 22px 14px;order:-1}.cover .badge{right:14px;bottom:52px}.marquee{font-size:14px}}
+.dock{display:none}
+@media(max-width:860px){body{padding-bottom:62px}.dock{display:grid;grid-template-columns:1.3fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;box-shadow:0 -1px 0 var(--line),0 -8px 24px -12px #0006}.dock a{display:flex;align-items:center;justify-content:center;min-height:54px;font-size:14.5px;font-weight:700;border-right:1px solid var(--line)}.dock a:first-child{background:var(--accent);color:#fff}.dock a:last-child{border:0}}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.tabs button{font:inherit;font-weight:700;font-size:15px;padding:10px 16px;min-height:44px;border-radius:6px;border:0;background:var(--chip);color:var(--ink);cursor:pointer;transition:background .175s,color .175s}
+.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+.panel[hidden]{display:none}
+details.acc{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;margin-bottom:8px}
+details.acc summary{list-style:none;cursor:pointer;padding:16px 20px;font-weight:700;font-size:17px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+details.acc summary::-webkit-details-marker{display:none}
+details.acc summary:after{content:"+";font-size:22px;font-weight:400;color:var(--accent);transition:transform .175s}details.acc[open] summary:after{transform:rotate(45deg)}
+details.acc p{padding:0 20px 18px;color:var(--muted)}
+.cloud{display:flex;flex-wrap:wrap;gap:8px}.cloud span{background:#fff;border-radius:6px;box-shadow:0 1px 2px #0003;padding:11px 16px;font-weight:600;font-size:15px;border-left:4px solid var(--accent)}
 @media(prefers-reduced-motion:reduce){.js h1 .wd>span,.js .lead h2 .wd>span{transform:none}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 :root{--bg:#F0F2F5;--ink:#050505;--muted:#65676B;--line:#CED0D4;--chip:#E4E6EB;--accent:#173A8F;--dark:#0F275F;--gold:#E08A4A;--focus:#173A8F}
 h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
@@ -90,59 +102,55 @@ h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
 address{font-style:normal;font-size:20px;font-weight:600;line-height:1.4}
 .bigphone{display:inline-block;font-size:clamp(26px,3.2vw,38px);font-weight:700;letter-spacing:-.02em;margin-top:14px}
 .name{font-weight:700;font-size:20px;letter-spacing:-.01em}
-@media(max-width:860px){.tiles{grid-template-columns:1fr}}
-
-.cover{height:clamp(220px,32vw,400px);background:linear-gradient(180deg,#0000 55%,#0008 100%),var(--img) center 45%/cover var(--dark);border-radius:0 0 8px 8px}
-.layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start;margin-top:-56px;position:relative}
-.shop{position:sticky;top:16px;padding:24px;--row:#F0F2F5;--today:var(--dark)}
-.shop h1{font-size:26px}.shop .sub{font-size:13px;font-weight:600;color:var(--muted);margin-top:4px}
-.shop .rates{margin:16px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);gap:18px}
-.shop .rate{box-shadow:none;padding:0;min-width:0}.shop .rate strong{font-size:22px;color:var(--ink)}.shop .rate span{font-size:12px}.shop .rate em{font-size:12px;margin-top:4px}
-.shop .btn{width:100%;margin-top:8px}
-.shop address{font-size:16px;margin:16px 0 4px}
-.shop table{font-size:14px;margin-top:14px}.shop th,.shop td{padding:7px 10px}
-.feed{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;min-width:0}
-.feed>.card{padding:28px}
-.lead h2{font-size:clamp(34px,4.8vw,58px);line-height:1.02;margin:0}.lead h2 em{font-style:normal;color:var(--accent)}
-.lead p{color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chips span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:6px;background:var(--chip)}
-.chips span:nth-child(3n+1){background:var(--dark);color:#fff}.chips span:nth-child(3n+2){background:var(--gold);color:#111}
-h2.t{font-size:24px;margin-top:6px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:12px 28px;margin-top:6px}
 .it{padding:12px 0 12px 14px;border-left:3px solid var(--accent)}.it h3{font-size:17px}.it p{font-size:14.5px;color:var(--muted);margin-top:3px}
-.photo{padding:0!important;overflow:hidden}.photo img{width:100%;aspect-ratio:21/9;object-fit:cover}
-.aboutc{background:var(--dark)!important;color:#fff}.aboutc h2{font-size:24px;margin:0}.aboutc p{color:#ffffffd9;margin-top:10px}.aboutc .pts li{border-color:var(--gold)}
-.feed .rates{display:none}
-@media(max-width:900px){.layout{grid-template-columns:1fr;margin-top:-40px}.shop{position:static}.two{grid-template-columns:1fr}.feed>.card{padding:22px}}
+.glance{display:grid}.glance>*{display:block;padding:14px 18px;border-bottom:1px solid var(--line)}.glance>*:last-child{border:0}.glance strong{display:block;font-size:17px;margin-top:2px}.glance small{font-weight:500;color:var(--muted);font-size:13px}.glance a strong{color:var(--accent)}
+@media(max-width:860px){.two{grid-template-columns:1fr}}
+@media(max-width:860px){.tiles{grid-template-columns:1fr}}
+
+header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 1px 2px #0000001f}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:60px}
+.name{border-left:5px solid var(--accent);padding-left:10px}
+nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding:40px 0 48px}
+h1{font-size:clamp(36px,5vw,64px);line-height:1.02}h1 em{font-style:normal;color:var(--accent)}
+.lede{color:var(--muted)}
+.hero img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
+section{padding:38px 0}
+.intro{max-width:640px;margin-bottom:6px}.intro p{margin-top:10px;color:var(--muted)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.row img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px}
+.row p{margin-top:12px;color:var(--muted)}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px;align-items:center;--row:#F0F2F5}
+@media(max-width:860px){nav{display:none}.hero{grid-template-columns:1fr;gap:26px;padding:26px 0 36px}.hero .shot{order:-1}.row{grid-template-columns:1fr;gap:18px}.visit{grid-template-columns:1fr;padding:22px}section{padding:38px 0}.name{font-size:17px}header .btn{white-space:nowrap;padding:8px 12px;font-size:14px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <div class="progress" aria-hidden="true"></div>
 
-<div class="marquee" aria-hidden="true"><div><span>New &amp; used tires</span><i>///</i><span>Flat repair &amp; patching</span><i>///</i><span>Mount &amp; balance</span><i>///</i><span>Brakes</span><i>///</i><span>New &amp; used tires</span><i>///</i><span>Flat repair &amp; patching</span><i>///</i><span>Mount &amp; balance</span><i>///</i><span>Brakes</span><i>///</i></div></div>
+<header><div class="wrap"><a href="#" class="name">Tepa Tire &amp; Auto Care</a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+<a class="btn" href="tel:+19094589200">(909) 458-9200</a></div></header>
 <main id="main">
-<div class="wrap"><div class="cover" role="img" aria-label="Stacks of tires in a tire shop" style="--img:url(https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1600&h=700&q=70)"><div class="stripes" aria-hidden="true"><i></i><i></i><i></i></div><div class="badge"><small>Google rating</small><b><span data-count="4.6">4.6</span><i>★</i></b><small>205 reviews</small></div></div>
-<div class="layout">
-<aside class="card shop" aria-label="Shop details">
-<h1>Tepa Tire &amp; Auto Care</h1><p class="sub">Tires and brakes · S Mountain Ave, Ontario</p>
-<div class="rates"><a class="rate" href="https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA" target="_blank" rel="noopener noreferrer"><strong><span data-count="4.6">4.6</span> ★</strong><span>Google · 205 reviews</span><em>Read the reviews ↗</em></a></div>
-<a class="btn primary" href="tel:+19094589200">Call (909) 458-9200</a>
-<a class="btn" href="https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA" target="_blank" rel="noopener noreferrer">Get directions</a>
-<address>705 S Mountain Ave<br>Ontario, CA 91762</address><p class="note" style="margin-top:4px">Look for the blue-and-white sign, the stacked tires and the red and blue canopies.</p>
-<table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>8:00 AM – 6:00 PM</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19094589200">(909) 458-9200</a> before you come in.</p></div>
-</aside>
-<div class="feed">
-<div class="card lead"><h2>Tires and brakes, <em>handled.</em></h2><p class="lede">New and used tires, flat repair, mounting and balancing, and brake work on South Mountain Avenue. Call to discuss your vehicle.</p>
-<div class="chips"><span>New &amp; used tires</span><span>Flat repair &amp; patching</span><span>Mount &amp; balance</span><span>Brakes</span><span>Open 7 days</span></div></div>
-<div class="card" id="services"><span class="label">Services</span><h2 class="t">The kind of shop that writes it down.</h2><p class="note">Tires are stacked where you can see them, and the work is explained before it starts.</p><div class="two"><div class="it"><h3>New &amp; used tires</h3><p>Call with your tire size for today's options.</p></div><div class="it"><h3>Flat repair &amp; patching</h3><p>Bring the wheel or the vehicle. The tire comes off and gets checked before anyone says whether it is repairable.</p></div><div class="it"><h3>Mount &amp; balance</h3><p>Tires fitted to wheels and balanced.</p></div><div class="it"><h3>Brakes</h3><p>Grinding, squealing or a soft pedal? Describe it when you call.</p></div></div></div>
-<div class="card photo"><img loading="lazy" alt="Close-up of a brake rotor being inspected" src="https://images.pexels.com/photos/6870299/pexels-photo-6870299.jpeg?auto=compress&cs=tinysrgb&w=1200"></div>
+<div class="wrap hero"><div><span class="label">Tires and brakes · S Mountain Ave, Ontario</span><h1 style="margin-top:10px">Tires and brakes, <em>handled.</em></h1>
+<p class="lede">New and used tires, flat repair, mounting and balancing, and brake work on South Mountain Avenue. Call to discuss your vehicle.</p>
+<div class="actions"><a class="btn primary" href="tel:+19094589200">Call (909) 458-9200</a><a class="btn" href="#visit">Hours &amp; directions</a></div></div>
+<div class="shot"><img alt="Stacks of tires in a tire shop" src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1600&h=700&q=70"><div class="badge"><small>Google rating</small><b><span data-count="4.6">4.6</span><i>★</i></b><small>205 reviews</small></div></div></div>
 
-<div class="card" id="reviews"><span class="label">Reviews</span><h2 class="t">Your neighborhood tire counter.</h2><p class="note">Review topics include new and used tires, patching and brakes.</p>
-<p style="margin-top:14px"><a class="more" href="https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA" target="_blank" rel="noopener noreferrer">4.6 ★ Google · 205 reviews ↗</a></p></div>
-</div></div></div>
+<section id="services"><div class="wrap"><div class="intro"><span class="label">What we do</span><h2>The kind of shop that writes it down.</h2><p>Tires are stacked where you can see them, and the work is explained before it starts.</p></div>
+<ul class="card svc"><li><span class="dot" aria-hidden="true"></span><div><h3>New &amp; used tires</h3><p>Call with your tire size for today's options.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Flat repair &amp; patching</h3><p>Bring the wheel or the vehicle. The tire comes off and gets checked before anyone says whether it is repairable.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Mount &amp; balance</h3><p>Tires fitted to wheels and balanced.</p></div></li><li><span class="dot" aria-hidden="true"></span><div><h3>Brakes</h3><p>Grinding, squealing or a soft pedal? Describe it when you call.</p></div></li></ul></div></section>
+
+<section id="reviews"><div class="wrap"><span class="label">Reviews</span><h2>Your neighborhood tire counter.</h2><p class="note" style="max-width:640px">Review topics include new and used tires, patching and brakes.</p>
+<div class="rates" style="margin-top:18px"><a class="rate" href="https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA" target="_blank" rel="noopener noreferrer"><strong><span data-count="4.6">4.6</span> ★</strong><span>Google · 205 reviews</span><em>Read the reviews ↗</em></a></div></div></section>
+<section id="visit"><div class="wrap"><div class="card visit">
+<div><span class="label">Visit</span><h2>Find us.</h2><address style="margin-top:14px">705 S Mountain Ave<br>Ontario, CA 91762</address><p class="note">Look for the blue-and-white sign, the stacked tires and the red and blue canopies.</p>
+<a class="bigphone" href="tel:+19094589200">(909) 458-9200</a>
+<div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA" target="_blank" rel="noopener noreferrer">Get directions</a></div></div>
+<div><table><caption class="label" style="text-align:left;padding-bottom:8px">Hours</caption><tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>8:00 AM – 6:00 PM</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>8:00 AM – 6:00 PM</td></tr></table><div class="holiday"><strong>Holiday hours</strong><p>Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year's Day. Call <a href="tel:+19094589200">(909) 458-9200</a> before you come in.</p></div></div></div></div></section>
 </main>
 <footer><div class="wrap"><strong>Tepa Tire & Auto Care · Ontario, CA</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
+<nav class="dock" aria-label="Quick actions"><a href="tel:+19094589200">Call</a><a href="https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA" target="_blank" rel="noopener noreferrer">Directions</a><a href="#visit">Hours</a></nav>
 
 <script>
 (()=>{
@@ -163,9 +171,12 @@ document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
 // scroll progress bar, stripe drift and badge following the pointer
 if(!reduce){let tick=false;const upd=()=>{root.style.setProperty('--scroll',scrollY);root.style.setProperty('--p',(scrollY/Math.max(1,root.scrollHeight-innerHeight)).toFixed(4));tick=false};addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});
 addEventListener('pointermove',e=>{if(e.pointerType==='mouse'){root.style.setProperty('--mx',(e.clientX/innerWidth-.5).toFixed(3));root.style.setProperty('--my',(e.clientY/innerHeight-.5).toFixed(3))}},{passive:true})}
+// tabs
+document.querySelectorAll('[data-tabs]').forEach(g=>{const bs=[...g.querySelectorAll('[role=tab]')],ps=[...g.querySelectorAll('.panel')];const pick=i=>{bs.forEach((b,n)=>{b.setAttribute('aria-selected',n===i);b.tabIndex=n===i?0:-1});ps.forEach((p,n)=>p.hidden=n!==i)};bs.forEach((b,i)=>{b.addEventListener('click',()=>pick(i));b.addEventListener('keydown',e=>{const d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(d){e.preventDefault();const n=(i+d+bs.length)%bs.length;pick(n);bs[n].focus()}})});pick(0)});
 // highlight today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-today]').forEach(el=>{try{el.textContent=JSON.parse(el.dataset.today)[(d+6)%7]}catch(e){}});
 document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>

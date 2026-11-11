@@ -80,6 +80,18 @@ h1,h2,.lead h2{font-weight:800;letter-spacing:-.035em}
 span[data-count]{font:inherit!important;color:inherit!important;letter-spacing:inherit!important;text-transform:none!important}
 h1 em,.lead h2 em{background:linear-gradient(transparent 68%,color-mix(in srgb,var(--gold,#E9B949) 60%,transparent) 0)}
 @media(max-width:860px){.stripes i{width:12px;right:calc(var(--n)*18px + 12px);opacity:.3}.name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.badge{left:10px;bottom:-18px;padding:12px 16px}.badge b{font-size:34px}.shot{margin:14px 14px 22px 14px;order:-1}.cover .badge{right:14px;bottom:52px}.marquee{font-size:14px}}
+.dock{display:none}
+@media(max-width:860px){body{padding-bottom:62px}.dock{display:grid;grid-template-columns:1.3fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;box-shadow:0 -1px 0 var(--line),0 -8px 24px -12px #0006}.dock a{display:flex;align-items:center;justify-content:center;min-height:54px;font-size:14.5px;font-weight:700;border-right:1px solid var(--line)}.dock a:first-child{background:var(--accent);color:#fff}.dock a:last-child{border:0}}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.tabs button{font:inherit;font-weight:700;font-size:15px;padding:10px 16px;min-height:44px;border-radius:6px;border:0;background:var(--chip);color:var(--ink);cursor:pointer;transition:background .175s,color .175s}
+.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+.panel[hidden]{display:none}
+details.acc{background:#fff;border-radius:8px;box-shadow:0 1px 2px #0003;margin-bottom:8px}
+details.acc summary{list-style:none;cursor:pointer;padding:16px 20px;font-weight:700;font-size:17px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+details.acc summary::-webkit-details-marker{display:none}
+details.acc summary:after{content:"+";font-size:22px;font-weight:400;color:var(--accent);transition:transform .175s}details.acc[open] summary:after{transform:rotate(45deg)}
+details.acc p{padding:0 20px 18px;color:var(--muted)}
+.cloud{display:flex;flex-wrap:wrap;gap:8px}.cloud span{background:#fff;border-radius:6px;box-shadow:0 1px 2px #0003;padding:11px 16px;font-weight:600;font-size:15px;border-left:4px solid var(--accent)}
 @media(prefers-reduced-motion:reduce){.js h1 .wd>span,.js .lead h2 .wd>span{transform:none}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 """
 
@@ -102,9 +114,12 @@ document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
 // scroll progress bar, stripe drift and badge following the pointer
 if(!reduce){let tick=false;const upd=()=>{root.style.setProperty('--scroll',scrollY);root.style.setProperty('--p',(scrollY/Math.max(1,root.scrollHeight-innerHeight)).toFixed(4));tick=false};addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});
 addEventListener('pointermove',e=>{if(e.pointerType==='mouse'){root.style.setProperty('--mx',(e.clientX/innerWidth-.5).toFixed(3));root.style.setProperty('--my',(e.clientY/innerHeight-.5).toFixed(3))}},{passive:true})}
+// tabs
+document.querySelectorAll('[data-tabs]').forEach(g=>{const bs=[...g.querySelectorAll('[role=tab]')],ps=[...g.querySelectorAll('.panel')];const pick=i=>{bs.forEach((b,n)=>{b.setAttribute('aria-selected',n===i);b.tabIndex=n===i?0:-1});ps.forEach((p,n)=>p.hidden=n!==i)};bs.forEach((b,i)=>{b.addEventListener('click',()=>pick(i));b.addEventListener('keydown',e=>{const d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(d){e.preventDefault();const n=(i+d+bs.length)%bs.length;pick(n);bs[n].focus()}})});pick(0)});
 // highlight today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
 const d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+document.querySelectorAll('[data-today]').forEach(el=>{try{el.textContent=JSON.parse(el.dataset.today)[(d+6)%7]}catch(e){}});
 document.querySelectorAll('[data-day="'+d+'"]').forEach(row=>{row.classList.add('today');const h=row.querySelector('th,.dname');if(h){const t=document.createElement('span');t.className='tag';t.textContent='Today';h.append(t)}});
 })();
 </script>"""
@@ -134,6 +149,10 @@ def badge(num, small):
 
 
 STRIPES = '<div class="stripes" aria-hidden="true"><i></i><i></i><i></i></div>'
+
+
+def dock(phone, tel, maps):
+    return f'<nav class="dock" aria-label="Quick actions"><a href="tel:{tel}">Call</a><a href="{maps}" target="_blank" rel="noopener noreferrer">Directions</a><a href="#visit">Hours</a></nav>'
 
 
 def page(title, desc, css, body, extra_js=""):
@@ -213,12 +232,13 @@ header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 1px 2px #00
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:60px}
 nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{color:var(--accent)}
 .hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding:56px 0 64px}
-h1{font-size:clamp(40px,5.8vw,78px);line-height:1}h1 em{font-style:normal;color:var(--accent)}
+h1{font-size:clamp(36px,5vw,64px);line-height:1.02}h1 em{font-style:normal;color:var(--accent)}
 .lede{font-size:18px;color:var(--muted);margin-top:20px;max-width:520px}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .rating{margin-top:22px;font-size:14px;font-weight:600}.rating b{color:var(--accent)}
 .hero img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
-section{padding:56px 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+.shot:before,.shot:after{display:none}.shot .stripes{inset:-26px -56px -26px 40%;z-index:-1;overflow:visible}.shot .stripes i{width:28px;right:calc(var(--n)*40px);top:-4%;height:108%}
+section{padding:40px 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
 .intro{max-width:620px;margin-bottom:28px}.intro p:last-child{margin-top:10px;color:var(--muted)}
 .makes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .make{padding:26px 24px 28px;border-top:4px solid var(--c)}
@@ -255,7 +275,7 @@ tri_body = f"""
 <p class="lede">Tri Auto is Chino's independent shop for <strong style="color:var(--ink)">Toyota, Honda and Lexus</strong>. Three makes, known inside out, at prices well below the dealer's.</p>
 <div class="actions"><a class="btn primary" href="tel:+19094656422">Call Danny's shop</a><a class="btn" href="#visit">Hours &amp; directions</a></div>
 </div>
-<div class="shot"><img alt="Close-up of a mechanic's gloved hand holding a wrench" src="{U('1729844164746-d074d1d4ac6c', 1100, 825)}">{badge('4.9', '333 reviews')}</div>
+ <div class="shot">{STRIPES}<img alt="Close-up of a mechanic's gloved hand holding a wrench" src="{U('1729844164746-d074d1d4ac6c', 1100, 825)}">{badge('4.9', '333 reviews')}</div>
 </div>
 {marquee(['Toyota', 'Honda', 'Lexus', 'Honest work', 'Fair prices', 'Chino, CA'])}
 <section id="makes"><div class="wrap">
@@ -285,6 +305,7 @@ tri_body = f"""
 </div></div></section>
 </main>
 {footer('Tri Auto · Chino, CA')}
+{dock('(909) 465-6422', '+19094656422', 'https://www.google.com/maps/search/?api=1&query=Tri+Auto+6108+Schaefer+Ave+Chino+CA+91710')}
 """
 
 # ---------------------------------------------------------------- A C Tires
@@ -297,13 +318,13 @@ nav{display:flex;gap:26px;font-size:14px;font-weight:600}nav a:hover{text-decora
 header .btn{background:#fff;color:var(--navy)}
 .banner{position:relative;color:#fff;background:linear-gradient(90deg,#101E47f2 0,#16295Ed9 46%,#16295E59 100%),var(--img) center/cover #16295E;--focus:#fff}
 .banner .wrap{padding:84px 0 132px}
-.banner{overflow:hidden}.banner .wrap{position:relative;z-index:1}h1{font-size:clamp(40px,6.2vw,84px);line-height:1;max-width:760px}h1 .hl{color:var(--gold)}
+.banner{overflow:hidden}.banner .wrap{position:relative;z-index:1}h1{font-size:clamp(36px,5.2vw,66px);line-height:1.03;max-width:700px}h1 .hl{color:var(--gold)}
 .lede{font-size:18px;max-width:520px;margin-top:20px;color:#E3E8F5}
 .bar{display:grid;grid-template-columns:repeat(3,1fr);margin-top:-64px;position:relative;z-index:2}
 .bar>*{padding:22px 24px;border-right:1px solid var(--line)}.bar>*:last-child{border:0}
 .bar strong{display:block;font-size:20px;letter-spacing:-.01em;margin-top:4px}.bar a strong{color:var(--accent)}
 .bar small{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
-section{padding:64px 0 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
+section{padding:44px 0 0}h2{font-size:clamp(26px,3vw,38px);margin-top:8px}
 .split{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:stretch}
 .split .side{display:flex;flex-direction:column}.side p{color:var(--muted);margin-top:12px;max-width:360px}
 .side img{width:100%;flex:1;min-height:240px;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-top:24px}
@@ -341,7 +362,7 @@ ac_body = f"""
 <nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Hours &amp; location</a></nav>
 <a class="btn" href="tel:+19093914636">(909) 391-4636</a></div></header>
 <main id="main">
-<div class="banner" role="img" aria-label="Gloved hands mounting a tire in a workshop" style="--img:url({U('1792792944402-5e94ce198dce', 1800, 900)})">{STRIPES}<div class="wrap">
+<div class="banner" role="img" aria-label="Gloved hands mounting a tire in a workshop" style="--img:url({U('1792792944402-5e94ce198dce', 1800, 900)})"><div class="wrap">
 <h1>Flat at 7 PM? <span class="hl">We're still open.</span></h1>
 <p class="lede">New and used tires, flat repair and mount-and-balance at the blue shop on California Street in Ontario.</p>
 </div></div>
@@ -350,7 +371,6 @@ ac_body = f"""
 <a href="tel:+19093914636"><span class="label">Call the shop</span><strong>(909) 391-4636</strong><small>Tap to call</small></a>
 <a href="#visit"><span class="label">Find us</span><strong style="color:var(--ink)">301 W California St</strong><small>Ontario, CA 91762 · look for the blue building</small></a>
 </div></div>
-<div style="margin-top:44px">{marquee(['New tires', 'Used tires', 'Flat repair', 'Mount &amp; balance', 'Open til 8 PM', 'Open Sundays'])}</div>
 <section id="services"><div class="wrap split">
 <div class="side"><span class="label">What we do</span><h2>Tires. That's it. That's the shop.</h2><p>No waiting-room upsell. Pull in, tell us what you need, and get back on the road.</p>
 <img loading="lazy" alt="Stacks of tires in a tire shop" src="{U('1578844251758-2f71da64c96f', 900, 675)}"></div>
@@ -370,6 +390,7 @@ ac_body = f"""
 </div></section>
 </main>
 {footer('A C Tires · Ontario, CA')}
+{dock('(909) 391-4636', '+19093914636', 'https://www.google.com/maps/search/?api=1&query=A+C+Tires+301+W+California+St+Ontario+CA+91762')}
 """
 
 # ---------------------------------------------------------------- Moreno's
@@ -417,11 +438,10 @@ mo_services = [
 ]
 
 mo_body = f"""
-{marquee(['Engine repair', 'Computer alignment', 'A/C service', 'Transmission rebuild', 'Family owned', 'Since 2009'])}
 <main id="main">
-<div class="wrap"><div class="cover" role="img" aria-label="Mechanic working under the hood of a car in a clean workshop" style="--img:url({U('1771340012319-0b4fca008b54', 1800, 760)})">{STRIPES}{badge('4.7', '284 reviews')}</div>
+<div class="wrap"><div class="cover" role="img" aria-label="Mechanic working under the hood of a car in a clean workshop" style="--img:url({U('1771340012319-0b4fca008b54', 1800, 760)})">{badge('4.7', '284 reviews')}</div>
 <div class="layout">
-<aside class="card shop" aria-label="Shop details">
+<aside class="card shop" id="visit" aria-label="Shop details">
 <h1>Moreno<i>'</i>s Auto Repair</h1><p class="sub">Family owned · Holt Blvd, Ontario · since 2009</p>
 <div class="rates"><div><strong>4.7 ★</strong><span>Google · 284 reviews</span></div><div><strong>4.9 ★</strong><span>SureCritic · 661 reviews</span></div></div>
 <a class="btn primary" href="tel:+19094186955">Call (909) 418-6955</a>
@@ -440,6 +460,7 @@ mo_body = f"""
 </div></div></div>
 </main>
 {footer("Moreno's Auto Repair LLC · Ontario, CA")}
+{dock('(909) 418-6955', '+19094186955', 'https://www.google.com/maps/search/?api=1&query=Moreno%27s+Auto+Repair+527+E+Holt+Blvd+Ontario+CA+91761')}
 """
 
 SITES = {
@@ -451,6 +472,8 @@ SITES = {
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])
     for folder, args in SITES.items():
+        if folder == "tri-auto":
+            continue  # Tri Auto is hand-designed: see build_tri.py
         (OUT / folder).mkdir(parents=True, exist_ok=True)
         (OUT / folder / "index.html").write_text(page(*args))
         print("built", folder)

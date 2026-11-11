@@ -190,3 +190,30 @@ Andrew said the sites looked too boring to sell and sent the first Tri Auto vers
 - **Astryx values used:** 175ms and 410ms durations, `cubic-bezier(.24,1,.4,1)` easing, 8px radius, low and high shadow roles, scarce emphasis (one primary button per group).
 - **Restraint:** no autoplay video or sound, no flashing, stripes fade to 30% on phones so they never fight the text, and every animation is off when the visitor's device asks for reduced motion.
 - **Checked:** Playwright at 1440px and 390px on all 19: no horizontal overflow, no script errors, reveals and today-highlight working, A C Tires carousel scrolls, holds and resumes. Photos were placeholders in that check. Two bugs found and fixed during the check: a broken regular expression that stopped the page script, and a class name clash that turned Moreno's headline blue.
+
+## Tri Auto rebuilt by hand; calmer, more varied templates for the rest (2026-11-10, evening)
+
+Feedback relayed by Andrew: the sites looked nice but like a presentation, the same design and stripes repeated on every site, and they did not look as good as Awwwards sites. He asked for simpler navigation, less clutter, different designs per site, and work modeled on https://www.awwwards.com/websites/honorable/.
+
+**Research limits, stated plainly.** Awwwards blocks automated reading, so its pages were not scanned. Search results gave the names of current honorees (Creative Reference Library, ZIRKA Interceptor, Extrafazant, Agrumea Farm, Grids, Mubien, Fitosauna and others). One honoree's live site (mubien.com) was inspected; another (obys.agency) only showed a loader. The patterns below come from that plus general knowledge of award-level sites, not from a full scan.
+
+**Why the template sites fall short of that standard.** Award sites are designed one at a time around their own photography or film, a chosen typeface and a single idea. Ours were 19 pages from one shared stylesheet with stock photos and the system font, restyled several times in one day.
+
+**Tri Auto (`tools/auto-shop-generator/build_tri.py`, hand-designed, no longer built by `build_v2.py`).**
+- Type: Archivo (variable width and weight) for display and text, Instrument Serif italic as the accent. Both self-hosted in `mockups/tri-auto/fonts/` under the SIL Open Font License.
+- Full-screen photo hero with the headline set on it, navigation and phone on top, rating in the corner. The photo eases back as you scroll.
+- One statement paragraph and three facts (hours, address, phone) directly under the hero, so the essentials are found without hunting.
+- The three makes as full-width words on hairlines; a photo follows the mouse over each row.
+- A dark section with a heading that stays in place while three photo blocks scroll past and wipe in.
+- Large serif pull quote, then Vincent's rotating review row (same links).
+- The phone number as the closing headline, then address, hours with today highlighted and the holiday note. Outlined wordmark in the footer.
+- Navigation: a slim bar with section links and the phone appears after the hero; phones get a fixed Call / Directions / Hours bar.
+- The three-stripe motif now appears only in the Tri Auto logo, where it comes from the real sign.
+- Checked with Playwright at 1440px and 390px: no overflow, no script errors, all reveals fire, carousel moves, fonts load. Photos were placeholders in that check.
+
+**The other 18 (still templates, so they will not reach the Tri Auto standard).**
+- Stripes and the moving band removed (band kept on El Rey and King Tire only). Headlines smaller, sections tighter.
+- Three more layouts added, six in total: poster (Diesel Injection, El Rey Retro Roadside, Lockworx), framed photo (Alejandros, JC Bumper, Toy Shop), service desk with an at-a-glance card (Don Cortez, J C Auto Electric, Sinaloa), alongside split, banner and profile.
+- Services are shown differently per site: tabs (Diesel, Lockworx, El Rey menu), accordion (J C Auto symptoms, Toy Shop), chips, lists, tiles or two-column items.
+- Every site has the phone action bar and an anchor for hours.
+- Next step proposed to Andrew: redo the remaining sites one at a time by hand, like Tri Auto, starting with the leads most likely to buy.

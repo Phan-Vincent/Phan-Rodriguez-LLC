@@ -16,3 +16,6 @@ python3 tools/auto-shop-generator/build_v2.py mockups
 - If you hand-edit a page in `mockups/`, also change `build_v2.py`, or the next build overwrites it.
 - `build_v1_old.py` is the first generator, kept for history. `shot.py` takes Playwright screenshots.
 - Photos are Unsplash free-license images loaded by URL. Quotes, hours and addresses come from public listings; confirm with each owner before launch.
+
+- `build_tri.py` builds Tri Auto on its own. That page is hand-designed and is skipped by `build_v2.py`.
+- `build_leads.py` now has six layouts (A split, B banner, C profile, D poster, E framed photo, F service desk) and per-site service displays (`svc_mode`).
