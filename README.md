@@ -47,6 +47,13 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `baja-auto-center/` | Baja Auto Center Smog & Lamp | Ontario |
 | `ie-automotive/` | I.E Automotive | Ontario |
 | `v-tech-auto-care/` | V Tech Auto Care | Pomona |
+| `japanese-auto-tech/` | Japanese Auto Tech | Upland |
+| `german-and-japanese-auto-pro/` | German and Japanese Auto Pro | Upland |
+| `mendiola-diesel-auto/` | Mendiola Diesel & Auto | Pomona |
+| `molinas-tire-towing/` | Molina's Tire & Towing | Pomona |
+| `williams-independent-auto/` | Williams Independent Auto Repair & Smog | Fontana |
+| `rudys-auto-works-paint/` | Rudy's Auto Works and Paint | Fontana |
+| `auto-repair-foreign-domestic-vw/` | Auto Repair Foreign Domestic & VW | Chino |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

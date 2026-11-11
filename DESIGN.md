@@ -315,3 +315,11 @@ The mix is fixed by the site's position in `SITES`, so rebuilds are stable and a
 - **Claremont Auto Care address:** the sheet says 3624 Lynoak Dr, Claremont; MapQuest says 3624 Lynoak St, Pomona, CA 91767. The site shows "3624 Lynoak Dr, Pomona, CA 91767". Confirm street suffix and city with the owner.
 - **Held back:** Star Hi-Tech Auto (listing text is about a different business and most recent Yelp reviews are negative), Huerta Smog & Repair (four of five recent Yelp reviews are negative; decide whether to pitch), Sergio's Auto Repair & Tires (no hours on its listing).
 - **Not yet researched from the High rows:** Auto Repair Foreign Domestic, Jujubuilt, 2Man Moving, AutoTech's, QUINONEZ Mobile, Arredondo's, German and Japanese Auto, Mendiola Diesel, Molinas Tire & Towing, Williams Independent, HVAC Assistance, Rudy's Auto Works, Gil's Tire Shop, Diaz Landscape, Nino's Lawnmower Shop, Valencia Handyman, JR Truck Tire, Japanese Auto Tech, Sal's Auto Care, and everything below row 70.
+
+### 2026-11-10 — Batch 10: seven more lead sites
+
+- **Built:** `japanese-auto-tech`, `german-and-japanese-auto-pro`, `mendiola-diesel-auto`, `molinas-tire-towing`, `williams-independent-auto`, `rudys-auto-works-paint`, `auto-repair-foreign-domestic-vw`. Same sources and checks as batches 8 and 9. Six rotate Yelp reviews linked by review id; Williams had none on its listing and links to Google.
+- **Rudy's address:** the listing title and the sheet say 14597 Arrow Route; the listing's description mentions 8265 Juniper Avenue. The site uses 14597 Arrow Route. Confirm with the owner.
+- **German and Japanese Auto Pro:** the sheet's name is cut off ("German and Japanese Au..."); the site uses the name on the MapQuest and Yelp listings.
+- **Not found on MapQuest:** Sal's Auto Care (search returned a different shop), Gil's Tire Shop (search returned a different shop).
+- **Still to research in the High rows:** Jujubuilt, 2Man Moving, AutoTech's, QUINONEZ Mobile, Arredondo's, HVAC Assistance, Diaz Landscape, Nino's Lawnmower Shop, Valencia Handyman, JR Truck Tire, Kikas Tires (address and phone conflict), then rows 70 to 295.

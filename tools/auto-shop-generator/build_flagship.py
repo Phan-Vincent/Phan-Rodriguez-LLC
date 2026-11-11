@@ -682,6 +682,49 @@ mk("v-tech-auto-care", dict(hero="split", ink="#0E1A2B", bone="#EFF3F6", acc="#1
    svc_title="Bring the dealer's quote.")
 
 
+# Batch 10, researched 2026-11-10 the same way as batches 8 and 9.
+_ALT.update({8470881: "Painter working on a car in a body shop", 6870314: "Spray gun painting a car part", 6720519: "Mechanic working on the front of a truck with the hood open"})
+mk("japanese-auto-tech", dict(hero="poster", ink="#161616", bone="#F5F3EE", acc="#B91C1C", star="#E5A823", h1="9.6vw", stretch="86%", svc="rows", rowsz="6.4vw", mark="Japanese Auto Tech", word="JAT", wordsz="30vw"),
+   "Japanese Auto Tech", "Auto repair · E Arrow Hwy, Upland", ("Diagnosed fast.", "Fixed right."), "An auto repair shop on East Arrow Highway. Yelp reviewers call it honest, reliable and quick to find the problem.",
+   "(909) 949-3011", "259 E Arrow Hwy, Ste A<br>Upland, CA 91786", "Japanese+Auto+Tech+259+E+Arrow+Hwy+Upland+CA", wkh("8:00 AM – 4:00 PM", "8:00 AM – 12:00 PM"), ("4.6", 46),
+   [("", [("Diagnosis", "One reviewer was diagnosed and back on the road the same morning."), ("Repairs", "Call with the year, make and model."), ("Oil changes", "Ask for a quote by phone.")])],
+   (8986100, 6870299), "japanese-auto-tech-upland", [("Debbie T.", "very honest and reliable more than my expectations.", "vQmrVBXKdc-4tRXVh2a-PQ"), ("Felicia W.", "I love this shop Best place to go to", "ZWDdzGf_c7XfR0sfvYlLOw"), ("Tracey T.", "The BEST MECHANIC IN THE STATE!!", "a04kJynNHcusJl6UxPehqg"), ("Mario G.", "Tong diagnosed my problem super fast…", "SYcRGomf_2MpV_Bd2yMT9w")])
+mk("german-and-japanese-auto-pro", dict(hero="split", ink="#111827", bone="#F3F4F1", acc="#0F766E", star="#EAB308", h1="8.4vw", svc="index", mark="German & Japanese Auto Pro", word="Auto Pro", wordsz="21vw"),
+   "German and Japanese Auto Pro", "German and Japanese car repair · N Central Ave, Upland", ("He listens.", "Then he fixes it."), "Service and repair for German and Japanese cars on North Central Avenue. Yelp reviewers mention a Mercedes, a Honda and an Audi A3.",
+   "(909) 587-9394", "825 N Central Ave, Ste E<br>Upland, CA 91786", "German+and+Japanese+Auto+825+N+Central+Ave+Upland+CA", wkh("8:00 AM – 5:00 PM"), ("4.9", 60),
+   [("What we work on", [("German cars", "Reviewers mention Mercedes and Audi."), ("Japanese cars", "Reviewers mention Honda.")]), ("What we do", [("Service", "Regular servicing, done by the same mechanic each time."), ("Repairs", "No upselling. Tell us your concerns first.")])],
+   (6870311, 8985660), "german-and-japanese-auto-pro-upland-12", [("Melanie B.", "Honest mechanic with reasonable prices.", "VWPuEom7e0_4xbiuEAhDxg"), ("Jackie C.", "An honest mechanic that listens to your concerns…", "bACBO0syhMD7pAVVpvWV6A"), ("Craig L.", "…the best mechanic in in town…", "bBFoBUcymzHZrwUXfw__nA")],
+   svc_title="Two kinds of car.")
+mk("mendiola-diesel-auto", dict(hero="photo", ink="#17140F", bone="#F4EFE4", acc="#A16207", star="#F5C542", h1="10.4vw", stretch="78%", svc="rows", rowsz="6.4vw", mark="Mendiola Diesel & Auto", word="Mendiola", wordsz="19vw"),
+   "Mendiola Diesel & Auto", "Diesel and auto repair · S Garey Ave, Pomona", ("Diesel or gas.", "Open every day."), "Diesel and auto repair on South Garey Avenue, open seven days a week. Yelp reviewers name Arturo and mention same-day diagnosis.",
+   "(909) 630-1641", "1321 S Garey Ave, Unit C<br>Pomona, CA 91766", "Mendiola+Diesel+%26+Auto+1321+S+Garey+Ave+Pomona+CA", ["8:00 AM – 6:00 PM"] * 7, ("4.8", 58),
+   [("", [("Diesel repair", ""), ("Auto repair", ""), ("Diagnosis", "One reviewer was seen the same day.")])],
+   (6720519, 8986100), "mendiola-diesel-and-auto-pomona", [("Tanye C.", "PROFESSIONAL SERVICE all around! Arturo is the MAN.", "zlwLwH1AndNsY_HZXgrYvg"), ("Gustavo N.", "Arturo is an excellent mechanic…", "S8uu6nm-8HUwoG0WDyMKuA"), ("Don N.", "Fantastic job Quick response got me in same day…", "nRp1otJEnxAcDLKWS1x53g")])
+mk("molinas-tire-towing", dict(hero="block", ink="#151515", bone="#F6F2E7", acc="#1D4ED8", star="#FACC15", h1="10.8vw", stretch="76%", svc="index", mark="Molina's Tire & Towing", word="Molina's", wordsz="20vw"),
+   "Molina's Tire & Towing", "Tires and towing · W Mission Blvd, Pomona", ("Flat tire?", "Tow or roll in."), "New and used tires, flat repair and patching, and towing on West Mission Boulevard. Open Saturdays.",
+   "(909) 620-5528", "1558 W Mission Blvd<br>Pomona, CA 91766", "Molinas+Tire+%26+Towing+1558+W+Mission+Blvd+Pomona+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 4:00 PM"), ("4.5", 58),
+   [("Tires", [("New tires", ""), ("Used tires", ""), ("Flat repair and patching", "One reviewer was in and out for a patch in no time.")]), ("On the road", [("Towing", "Call first with where the vehicle is."), ("Mechanical help", "")])],
+   (8985660, 31097241), "molinas-tire-and-towing-pomona", [("Daniel P.", "Quick and efficient, came for a tire patch…", "CUf12hT4vBJpmlpmTgCwrw"), ("Abraham H.", "Fueron muy rápidos para hacer el trabajo y muy profesionales.", "Z7h5KyhxE7ypDGWwNdUoUw"), ("Gerardo C.", "Quality & optional brands…", "R2l3ZlZHY2sOP3XBhziA6A")],
+   svc_title="Tires and a tow truck.")
+mk("williams-independent-auto", dict(hero="split", serif=True, ink="#1F2421", bone="#F2F0EA", acc="#3F6212", star="#D4A72C", h1="8.6vw", svc="rows", rowsz="6.4vw", mark="Williams Independent", word="Williams", wordsz="20vw"),
+   "Williams Independent Auto Repair & Smog", "Auto repair and smog · Sierra Ave, Fontana", ("Repair and smog,", "one stop."), "Independent auto repair and smog on Sierra Avenue in Fontana. Open weekdays and Saturday mornings.",
+   "(909) 428-6805", "9435 Sierra Ave<br>Fontana, CA 92335", "Williams+Independent+Auto+9435+Sierra+Ave+Fontana+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 2:00 PM"), ("4.5", 54),
+   [("", [("Auto repair", "Call with the year, make and model."), ("Smog", "Ask what to bring when you call.")])],
+   (6870299, 6870311))
+mk("rudys-auto-works-paint", dict(hero="photo", ink="#1A1320", bone="#F5F1F4", acc="#9D174D", star="#F2B33D", h1="10vw", svc="index", mark="Rudy's Auto Works", word="Rudy's", wordsz="26vw"),
+   "Rudy's Auto Works and Paint", "Body work and paint · Arrow Route, Fontana", ("Dents out.", "Paint on."), "Auto body repair, painting and fender work in Fontana. Yelp reviewers mention a full repaint of a 1970 Chevelle and classic restoration.",
+   "(909) 437-0649", "14597 Arrow Route<br>Fontana, CA 92335", "Rudy%27s+Auto+Works+and+Paint+14597+Arrow+Route+Fontana+CA", wkh("8:00 AM – 5:00 PM", "9:00 AM – 2:00 PM"), ("4.8", 51),
+   [("", [("Auto body repair", ""), ("Painting", "From a scratch to a full repaint."), ("Fender work", ""), ("Classic restoration", "Mentioned by reviewers. Ask Rudy about your project.")])],
+   (8470881, 6870314), "rudys-auto-works-and-paint-fontana", [("Jon F.", "Great for general repair and classic restoration. Fair prices and great service!", "EfYfVMlZPec-0Hv6K9xFPw"), ("Nikki R.", "I have been doing business with Rudy for many years…", "tPpT8lG2HEtUqa2k9V8sNg"), ("Chi T.", "…friendly and helpful people working here.", "kkfdchDGo1yyYjKBBL8gmQ")],
+   svc_title="Body, paint, fenders.", find="Reviewers say the shop can be hard to find. Call if you can't spot it.")
+mk("auto-repair-foreign-domestic-vw", dict(hero="poster", ink="#0F172A", bone="#F1F5F3", acc="#B45309", star="#F59E0B", h1="9.2vw", stretch="80%", svc="index", mark="Foreign Domestic & VW", word="Chino VW", wordsz="20vw"),
+   "Auto Repair Foreign Domestic & VW", "Auto repair · Central Ave, Chino", ("Foreign, domestic", "and Volkswagen."), "Auto repair for foreign and domestic vehicles on Central Avenue in Chino. Yelp reviewers name Maha and call him patient, quick and honest.",
+   "(909) 627-5018", "12949 Central Ave<br>Chino, CA 91710", "Auto+Repair+Foreign+Domestic+12949+Central+Ave+Chino+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 1:30 PM"), ("4.3", 94),
+   [("What we work on", [("Foreign vehicles", ""), ("Domestic vehicles", ""), ("Volkswagen", "")]), ("What we do", [("Check-ups", "One reviewer was overdue and had everything looked over."), ("Repairs", "No talking you into work you don't need.")])],
+   (31097241, 6870311), "auto-repair-foreign-domestic-and-vw-chino-3", [("Davia C.", "Maha and his team are quick, reliable, and extremely knowledgeable.", "c78DtOxqB9evkFsuXCNKkw"), ("Sylvia M.", "God bless Maha! You are so very patient and kind!", "Lx84XcA8wf3bfNmO8SR3ww"), ("Brandon C.", "Maha is an awesome mechanic…", "l3GByd-GMXFIcqrKHOaHvw")],
+   svc_title="Whatever you drive.")
+
+
 def _lum(h):
     c = [int(h[i:i + 2], 16) / 255 for i in (1, 3, 5)]
     c = [x / 12.92 if x <= .03928 else ((x + .055) / 1.055) ** 2.4 for x in c]
