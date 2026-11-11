@@ -217,3 +217,11 @@ Feedback relayed by Andrew: the sites looked nice but like a presentation, the s
 - Services are shown differently per site: tabs (Diesel, Lockworx, El Rey menu), accordion (J C Auto symptoms, Toy Shop), chips, lists, tiles or two-column items.
 - Every site has the phone action bar and an anchor for hours.
 - Next step proposed to Andrew: redo the remaining sites one at a time by hand, like Tri Auto, starting with the leads most likely to buy.
+
+## Three more lead sites added to the generator (2026-11-10, night)
+
+Vincent's fourth lead batch went into `build_leads.py` instead of hand-built pages, so the new sites match the house style: County Brake, Alignment & Mufflers Plus (banner layout, service list), Hock's Japanese Car Specialists (profile layout, service list) and J & S Auto Center & Smog (service desk layout, tiles). The generator now builds 19 lead sites; rebuilding left the other 16 byte-identical.
+
+- **Facts:** read from each shop's Google Maps and Yelp pages on Nov 10; details and open questions are in `docs/lead-batch-2026-11-10/BATCH-4.md`. No review quotes or staff names.
+- **Photos:** six Pexels free-license stock images, picked from a contact sheet. One with a visible car-maker badge was swapped out.
+- **Checked:** Playwright at 1440px and 390px with the real photos loading: no horizontal overflow, no script errors, one h1, no missing images, no motion under reduced-motion. Not checked: keyboard tab order, physical phone, other browsers.
