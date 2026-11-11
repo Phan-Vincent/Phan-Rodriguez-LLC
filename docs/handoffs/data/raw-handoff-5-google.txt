@@ -1,0 +1,27 @@
+Raw Google Maps extracts for handoff 5. Read in a browser on 2026-11-11 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Wednes first because the page was read on Wednesday Nov 11, Veterans Day; * marks that day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words, or a first name). Do not repeat staff names.
+
+93 | Willy's Trailer Repair | Trailer repair shop | 4.7 | 31 | 8358 Beech Ave, Fontana, CA 92335 |  | (909) 265-0831 | web:none | claimed? (read in Google's limited view, which does not show the claim link) | Wednes: 7 AM to 6 PM*; Thurs: 7 AM to 6 PM; Fri: 7 AM to 6 PM; Satur: 7 AM to 6 PM; Sun: 7 AM to 6 PM; Mon: 7 AM to 6 PM; Tues: 7 AM to 6 PM | TOPICS efficiency:2, speed:2, communication:2, nice guy:2, trailer fix:3, truck:3, work:2
+
+94 | Andy's Auto Repair Paint & Body | Auto repair shop | 4.4 | 30 | 5334 Holt Blvd c, Montclair, CA 91763 |  | (909) 621-3008 | web:none | UNCLAIMED | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS bumper repair:2, mechanical work:2, friendly staff:7, bodywork:3, accommodating staff:2, repair time:2, deals:2, (a first name):2, car repair:2
+
+95 | Perfect Image Collision Center | Auto body shop | 4.7 | 30 | 15142 Slover Ave, Fontana, CA 92337 |  | (909) 574-9000 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS paint job:2, perfect job:2
+
+96 | RC Auto Repair | Auto repair shop | 4.8 | 30 | 1113 W Holt Blvd c1, Ontario, CA 91762 |  | (909) 395-9436 | web:none | claimed? | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS quality of work:3, mechanic:5, honesty:3, job:4
+
+97 | Sharp Auto Body & Paint | Auto repair shop | 4.8 | 29 | 4461 Brooks St, Montclair, CA 91763 |  | (909) 624-9379 | web:none | UNCLAIMED | Wednes: 8:30 AM to 5:30 PM*; Thurs: 8:30 AM to 5:30 PM; Fri: 8:30 AM to 5:30 PM; Satur: 8:30 AM to 5:30 PM; Sun: Closed; Mon: 8:30 AM to 5:30 PM; Tues: 8:30 AM to 5:30 PM | TOPICS staff:2
+
+98 | Jamacor Industries | Auto body shop | 4.6 | 28 | 10557 Juniper Ave, Fontana, CA 92337 | Located in: Fontana Crossings | (909) 793-4971 | web:none | UNCLAIMED | Wednes: 10 AM to 7 PM*; Thurs: 10 AM to 7 PM; Fri: 10 AM to 7 PM; Satur: 10 AM to 7 PM; Sun: Closed; Mon: Closed; Tues: 10 AM to 7 PM | TOPICS knowledgeable staff:5, work:2
+
+99 | Foothill Automotive | Auto repair shop | 4.3 | 27 | 377 E Foothill Blvd, Pomona, CA 91767 |  | (909) 392-4661 | web:none | UNCLAIMED | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS cost:8, work quality:2, trustworthy:2, honesty:5, staff:2, mechanic:5
+
+100 | Sunrise Concrete | Concrete contractor | 4.3 | 27 | 6970 Mendocino Pl, Rancho Cucamonga, CA 91701 |  | (951) 275-2929 | web:none | claimed? (listing shows "Identifies as Latino-owned") | Wednes: 6 AM to 6 PM*; Thurs: 6 AM to 6 PM; Fri: 6 AM to 6 PM; Satur: 5 AM to 6 PM; Sun: Closed; Mon: 6 AM to 6 PM; Tues: 6 AM to 6 PM | TOPICS backyard remodel:10, artificial turf installation:2, concrete patio:2, timely work:3, landscaping:3, estimate:4, professional work:3, work quality:4, follow-up:2, sprinklers:3
+
+101 | J And C Auto Repair | Auto repair shop | 4.9 | 27 | 806 E State St, Ontario, CA 91761 |  | (909) 984-6078 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS car repair:2
+
+102 | T&S auto repair | Auto repair shop | 4.4 | 25 | 1710 W Foothill Blvd Unit D1, Upland, CA 91786 |  | (909) 931-5255 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8:30 AM to 1 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS personable staff:2, oil change:3, fair mechanic:3, fair pricing:2, thoroughness:2, trustworthy:3, honesty:4, transparent:2, oil:3, mechanic:5
+
+103 | Fast Lane Auto Repair | Auto repair shop | 4.6 | 25 | 687 N Benson Ave Ste D, Upland, CA 91786 |  | (909) 608-7473 | web:none | UNCLAIMED | Wednes: 7:30 AM to 4 PM*; Thurs: 7:30 AM to 4 PM; Fri: 7:30 AM to 4 PM; Satur: Closed; Sun: Closed; Mon: 7:30 AM to 4 PM; Tues: 7:30 AM to 4 PM | TOPICS truck care:2, pricing:2, people:2, truck:3
+
+104 | Auto Pros Repair | Auto repair shop | 4.8 | 25 | 4771 Holt Blvd, Montclair, CA 91763 |  | (909) 399-9969 | web:none | UNCLAIMED | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS honest mechanic:3, pricing:3, mechanic:7

@@ -1,0 +1,819 @@
+{
+  "_meta": {
+    "date_read": "2026-11-11",
+    "method": "Google Maps listings and Yelp pages read in a browser by Vincent's session; structured by a Reasonix worker from the handoff documents",
+    "not_confirmed_with_owner": true
+  },
+  "entries": [
+    {
+      "row": 93,
+      "name": "Willy's Trailer Repair",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "Trailer repair on Beech Avenue, open every day from 7 AM to 6 PM on Google, with trailer fix and truck the two biggest Google topics.",
+      "google": {
+        "name": "Willy's Trailer Repair",
+        "rating": 4.7,
+        "reviews": 31,
+        "address": "8358 Beech Ave, Fontana, CA 92335",
+        "phone": "(909) 265-0831",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM"
+        ],
+        "topics": {
+          "efficiency": 2,
+          "speed": 2,
+          "communication": 2,
+          "nice guy": 2,
+          "trailer fix": 3,
+          "truck": 3,
+          "work": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/willys-trailer-repair-fontana",
+        "name": "Willy's Trailer Repair",
+        "rating": null,
+        "reviews": 0,
+        "claimed": true,
+        "address": null,
+        "phone": "(909) 265-0831",
+        "website": null,
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours"
+        ],
+        "categories": [
+          "Trailer Repair"
+        ],
+        "services": [],
+        "owner_text": "The shop describes reliable trailer repair that keeps customers on the road, and points to craftsmanship and attention to detail (the text is cut off by Yelp)."
+      },
+      "flags": [
+        "The Yelp page is claimed but has no reviews and shows no street address.",
+        "Google's listing was read in a limited view that does not show the claim link, so its claim status was not read.",
+        "Google gives 7 AM to 6 PM every day and Yelp says open 24 hours; the handoff and the hours here use Google's.",
+        "The sheet files this as auto body work, while Google's category is trailer repair shop and Yelp files it under trailer repair.",
+        "There is no Yelp rating, so only the Google rating appears in the handoff's facts block."
+      ]
+    },
+    {
+      "row": 94,
+      "name": "Andy's Auto Repair Paint & Body",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "Body and paint work alongside mechanical repair, with Yelp's 4.7 from 39 the stronger of the two ratings.",
+      "google": {
+        "name": "Andy's Auto Repair Paint & Body",
+        "rating": 4.4,
+        "reviews": 30,
+        "address": "5334 Holt Blvd c, Montclair, CA 91763",
+        "phone": "(909) 621-3008",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "bumper repair": 2,
+          "mechanical work": 2,
+          "friendly staff": 7,
+          "bodywork": 3,
+          "accommodating staff": 2,
+          "repair time": 2,
+          "deals": 2,
+          "car repair": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/andys-auto-repair-montclair",
+        "name": "Andy's Auto Repair",
+        "rating": 4.7,
+        "reviews": 39,
+        "claimed": false,
+        "address": "5334 Holt Blvd, Montclair, CA 91763",
+        "phone": "(909) 621-3008",
+        "website": null,
+        "hours": [
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Body Shops",
+          "Auto Repair"
+        ],
+        "services": [
+          "Bumper repair",
+          "Auto frame testing",
+          "Rear-end damage",
+          "Auto steering and suspension repair",
+          "Auto engine repair"
+        ],
+        "owner_text": "Paint and auto body work plus engine diagnostics, timing belts, transmissions, water pumps, air conditioning, brakes and oil changes."
+      },
+      "flags": [
+        "Yelp's 4.7 from 39 is stronger than Google's 4.4 from 30, so the Yelp rating leads the handoff's facts block.",
+        "The two sites disagree on hours: Google is Monday to Friday 8 AM to 6 PM and closed Saturday, Yelp is Monday to Friday 9 AM to 6 PM and Saturday 9 AM to 4 PM; the handoff's facts block uses the shorter of the two, opening at 9 AM with Saturday closed.",
+        "Unclaimed on both sites.",
+        "Google's address has the suite \"c\" and Yelp's has none.",
+        "Row 111 in the sheet, Highline Auto Service & Collision, is at the same street number in Ste B.",
+        "Friendly staff is the top Google topic at seven mentions."
+      ]
+    },
+    {
+      "row": 95,
+      "name": "Perfect Image Collision Center",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Check website first",
+      "angle": "A collision center with a paint and bumper service list, held back because the domain Yelp lists is only a placeholder today.",
+      "google": {
+        "name": "Perfect Image Collision Center",
+        "rating": 4.7,
+        "reviews": 30,
+        "address": "15142 Slover Ave, Fontana, CA 92337",
+        "phone": "(909) 574-9000",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "paint job": 2,
+          "perfect job": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/perfect-image-collision-center-fontana-3",
+        "name": "Perfect Image Collision Center",
+        "rating": 4.5,
+        "reviews": 10,
+        "claimed": false,
+        "address": "15142 Slover Ave, Fontana, CA 92337",
+        "phone": "(909) 574-9000",
+        "website": "perfectimagecollisioncenter.com",
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 12:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Body Shops"
+        ],
+        "services": [
+          "Bumper repair",
+          "Auto frame testing",
+          "Rear-end damage",
+          "Auto steering and suspension repair"
+        ],
+        "owner_text": "The shop calls itself the one collision center offering value for money and advertises a new $399 package deal worked by its trained staff."
+      },
+      "flags": [
+        "Yelp lists perfectimagecollisioncenter.com; on 2026-11-11 it loads a GoDaddy \"Launching Soon\" placeholder with a contact form and no shop content, so the shop may be getting a site — ask before building.",
+        "Saturday is closed on Google and 8 AM to 12 PM on Yelp.",
+        "The owner's text advertises a $399 package; do not put a price on a page without confirming it.",
+        "Google's 4.7 from 30 leads the handoff's facts block over Yelp's 4.5 from 10.",
+        "Yelp is unclaimed; Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 96,
+      "name": "RC Auto Repair",
+      "city": "Ontario",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "A family business established in 2005 serving the Inland Empire, with quality of work and honesty among the Google topics.",
+      "google": {
+        "name": "RC Auto Repair",
+        "rating": 4.8,
+        "reviews": 30,
+        "address": "1113 W Holt Blvd c1, Ontario, CA 91762",
+        "phone": "(909) 395-9436",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 2:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "quality of work": 3,
+          "mechanic": 5,
+          "honesty": 3,
+          "job": 4
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/rc-auto-repair-ontario",
+        "name": "RC Auto Repair",
+        "rating": 5.0,
+        "reviews": 5,
+        "claimed": true,
+        "address": "1113 W Holt Blvd, Ontario, CA 91762",
+        "phone": "(909) 395-9436",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": "A family business established in 2005 that serves the Inland Empire."
+      },
+      "flags": [
+        "Yelp's 5.0 rests on five reviews against Google's 30, so Google's 4.8 leads the handoff's facts block.",
+        "Saturday closes at 2 PM on Google and 3 PM on Yelp; the hours here are the earlier close.",
+        "Google's address carries the suite \"c1\" while Yelp's has none.",
+        "Yelp is claimed; Google's claim status was not read.",
+        "The 2005 date and the family description come from the owner's text and should be confirmed before they go on a page."
+      ]
+    },
+    {
+      "row": 97,
+      "name": "Sharp Auto Body & Paint",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "Body and paint work on Brooks Street, rated 4.8 from 29 on Google with one Google topic chip to build from.",
+      "google": {
+        "name": "Sharp Auto Body & Paint",
+        "rating": 4.8,
+        "reviews": 29,
+        "address": "4461 Brooks St, Montclair, CA 91763",
+        "phone": "(909) 624-9379",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:30 AM – 5:30 PM",
+          "8:30 AM – 5:30 PM",
+          "8:30 AM – 5:30 PM",
+          "8:30 AM – 5:30 PM",
+          "8:30 AM – 5:30 PM",
+          "8:30 AM – 5:30 PM",
+          "Closed"
+        ],
+        "topics": {
+          "staff": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/sharp-auto-body-and-collision-montclair",
+        "name": "Sharp Auto Body & Collision",
+        "rating": 4.3,
+        "reviews": 6,
+        "claimed": false,
+        "address": "4461 Brooks St, Montclair, CA 91763",
+        "phone": "(909) 624-9379",
+        "website": null,
+        "hours": null,
+        "categories": [
+          "Body Shops"
+        ],
+        "services": [
+          "Bumper repair",
+          "Auto frame testing",
+          "Rear-end damage",
+          "Auto steering and suspension repair"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Google's 4.8 from 29 leads the handoff's facts block, but its only topic chip is the generic word \"staff\".",
+        "Yelp names the business \"Sharp Auto Body & Collision\" and shows 4.3 from six; it was found only by searching the shorter name \"Sharp Auto Body\".",
+        "Yelp lists no hours, so Google is the only hours source.",
+        "Unclaimed on both sites.",
+        "The owner's text is empty, so the Yelp service list is the main material."
+      ]
+    },
+    {
+      "row": 98,
+      "name": "Jamacor Industries",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "An auto customization shop working in wraps, suspension setups and aftermarket parts, closed Sunday and Monday.",
+      "google": {
+        "name": "Jamacor Industries",
+        "rating": 4.6,
+        "reviews": 28,
+        "address": "10557 Juniper Ave, Fontana, CA 92337",
+        "phone": "(909) 793-4971",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "Closed",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "knowledgeable staff": 5,
+          "work": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/jamacor-industries-fontana",
+        "name": "Jamacor Industries",
+        "rating": 5.0,
+        "reviews": 1,
+        "claimed": true,
+        "address": "10557 Juniper Ave, Ste K, Fontana, CA 92337",
+        "phone": "(909) 793-4971",
+        "website": null,
+        "hours": [
+          "Closed",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "10:00 AM – 7:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Customization",
+          "Auto Parts & Supplies",
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto electronics installation",
+          "Engine customization",
+          "Auto exhaust customization",
+          "Auto exterior customization",
+          "Auto interior customization"
+        ],
+        "owner_text": "Auto customization work including performance vehicle wraps and accessories, suspension setups, aftermarket parts, skateboard customization, apparel and free estimates."
+      },
+      "flags": [
+        "This is an auto customization shop, not the body shop the sheet and Google's category say.",
+        "Google's 4.6 from 28 leads the handoff's facts block, since the Yelp 5.0 rests on a single review.",
+        "Closed Sunday and Monday on both sites, and the other hours agree.",
+        "Yelp adds Ste K to the address, which Google does not show.",
+        "Google is unclaimed and Yelp is claimed.",
+        "Google's listing sits in Fontana Crossings."
+      ]
+    },
+    {
+      "row": 99,
+      "name": "Foothill Automotive",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Low priority",
+      "angle": "General repair on Foothill Boulevard rated 4.3 on both sites, with cost the biggest Google topic at eight mentions.",
+      "google": {
+        "name": "Foothill Automotive",
+        "rating": 4.3,
+        "reviews": 27,
+        "address": "377 E Foothill Blvd, Pomona, CA 91767",
+        "phone": "(909) 392-4661",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 2:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "cost": 8,
+          "work quality": 2,
+          "trustworthy": 2,
+          "honesty": 5,
+          "staff": 2,
+          "mechanic": 5
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/foothill-automotive-pomona",
+        "name": "Foothill Automotive",
+        "rating": 4.3,
+        "reviews": 20,
+        "claimed": false,
+        "address": "377 E Foothill Blvd, Pomona, CA 91767",
+        "phone": "(909) 392-4661",
+        "website": null,
+        "hours": null,
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto engine repair",
+          "Oil changes",
+          "Routine automotive maintenance"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "4.3 on both sites is the lowest in the batch, level with row 100.",
+        "Unclaimed on both sites.",
+        "Yelp lists no hours, so Google is the only hours source.",
+        "Google and Yelp both put the address in Pomona while the sheet says Claremont; correct the sheet.",
+        "There is no owner's text and only three services on Yelp, so ask for the full list."
+      ]
+    },
+    {
+      "row": 100,
+      "name": "Sunrise Concrete",
+      "city": "Rancho Cucamonga",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Low priority",
+      "angle": "A concrete contractor whose largest Google topic is backyard remodel at ten mentions, with the Yelp page a probable match only.",
+      "google": {
+        "name": "Sunrise Concrete",
+        "rating": 4.3,
+        "reviews": 27,
+        "address": "6970 Mendocino Pl, Rancho Cucamonga, CA 91701",
+        "phone": "(951) 275-2929",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "6:00 AM – 6:00 PM",
+          "6:00 AM – 6:00 PM",
+          "6:00 AM – 6:00 PM",
+          "6:00 AM – 6:00 PM",
+          "6:00 AM – 6:00 PM",
+          "5:00 AM – 6:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "backyard remodel": 10,
+          "artificial turf installation": 2,
+          "concrete patio": 2,
+          "timely work": 3,
+          "landscaping": 3,
+          "estimate": 4,
+          "professional work": 3,
+          "work quality": 4,
+          "follow-up": 2,
+          "sprinklers": 3
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/sunrise-concrete-rancho-cucamonga-5",
+        "name": "Sunrise Concrete",
+        "rating": 4.1,
+        "reviews": 27,
+        "claimed": true,
+        "address": null,
+        "phone": "(909) 463-2593",
+        "website": null,
+        "hours": [
+          "8:00 AM – 3:00 PM",
+          "8:00 AM – 3:00 PM",
+          "8:00 AM – 3:00 PM",
+          "8:00 AM – 3:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Masonry/Concrete"
+        ],
+        "services": [
+          "Construction or installation",
+          "Brick",
+          "Stamped concrete",
+          "Concrete",
+          "Textured concrete",
+          "Masonry/concrete repair"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "The phone differs: Google and the sheet have (951) 275-2929 while Yelp shows (909) 463-2593, so the Yelp match is probable, not certain.",
+        "Hours differ widely: Google is 6 AM to 6 PM weekdays and 5 AM to 6 PM Saturday, Yelp is 8 AM to 3 PM weekdays and closed Saturday.",
+        "Google files it as a concrete contractor while the sheet says landscaping, and the largest Google topic is backyard remodel at ten mentions.",
+        "The address looks residential, so do not print it without asking.",
+        "Yelp is claimed and its comparison box says \"License not provided\"; Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 101,
+      "name": "J And C Auto Repair",
+      "city": "Ontario",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "The owner's text points to a newly added alignment machine and Spanish-speaking service, and Google shows 4.9 from 27.",
+      "google": {
+        "name": "J And C Auto Repair",
+        "rating": 4.9,
+        "reviews": 27,
+        "address": "806 E State St, Ontario, CA 91761",
+        "phone": "(909) 984-6078",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 2:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "car repair": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/j-c-auto-repair-ontario-2",
+        "name": "J C Auto Repair",
+        "rating": 4.2,
+        "reviews": 5,
+        "claimed": false,
+        "address": "806 E State St, Ontario, CA 91761",
+        "phone": "(909) 984-6078",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": "General automotive repair with fast, friendly service and quality parts; the shop has recently added an alignment machine and says Spanish is spoken."
+      },
+      "flags": [
+        "Google's 4.9 from 27 against Yelp's 4.2 from five is a 0.7 gap, so Google leads the handoff's facts block.",
+        "Weekdays close at 5 PM on Google and 5:30 PM on Yelp, and Saturday at 2 PM against 3 PM; the hours here are the shorter ones.",
+        "The name is written three ways: \"J And C Auto Repair\" on the sheet, \"J C Auto Repair\" on Yelp, and \"J&C Auto Repair\" in the owner's text.",
+        "The alignment machine and Spanish come from the owner's text and should be confirmed.",
+        "Yelp is unclaimed; Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 102,
+      "name": "T&S auto repair",
+      "city": "Upland",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "Honesty and a fair mechanic are the biggest Google topics, and the two sites agree on hours for all seven days.",
+      "google": {
+        "name": "T&S auto repair",
+        "rating": 4.4,
+        "reviews": 25,
+        "address": "1710 W Foothill Blvd Unit D1, Upland, CA 91786",
+        "phone": "(909) 931-5255",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:30 AM – 1:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "personable staff": 2,
+          "oil change": 3,
+          "fair mechanic": 3,
+          "fair pricing": 2,
+          "thoroughness": 2,
+          "trustworthy": 3,
+          "honesty": 4,
+          "transparent": 2,
+          "oil": 3,
+          "mechanic": 5
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/t-and-s-auto-repair-upland",
+        "name": "T&S Auto Repair",
+        "rating": 4.6,
+        "reviews": 10,
+        "claimed": false,
+        "address": "1710 W Foothill Blvd, Unit D1, Upland, CA 91786",
+        "phone": "(909) 931-5255",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:30 AM – 1:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto general diagnosis",
+          "Auto HVAC repair"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Hours agree on all seven days, and the address and phone match.",
+        "Google's 4.4 from 25 and Yelp's 4.6 from 10 are 0.2 apart; Google has the larger review count, so it leads the handoff's facts block.",
+        "Yelp is unclaimed; Google's claim status was not read.",
+        "There is no owner's text and only the Yelp service list to work from, so ask what the shop specialises in.",
+        "The sheet name is lower case, \"T&S auto repair\"; Yelp writes \"T&S Auto Repair\"."
+      ]
+    },
+    {
+      "row": 103,
+      "name": "Fast Lane Auto Repair",
+      "city": "Upland",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Skip",
+      "angle": "A truck and tire shop that already has a live site on the same phone, so there is no website gap to fill.",
+      "google": {
+        "name": "Fast Lane Auto Repair",
+        "rating": 4.6,
+        "reviews": 25,
+        "address": "687 N Benson Ave Ste D, Upland, CA 91786",
+        "phone": "(909) 608-7473",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "7:30 AM – 4:00 PM",
+          "7:30 AM – 4:00 PM",
+          "7:30 AM – 4:00 PM",
+          "7:30 AM – 4:00 PM",
+          "7:30 AM – 4:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "truck care": 2,
+          "pricing": 2,
+          "people": 2,
+          "truck": 3
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/fast-lane-auto-repair-upland",
+        "name": "Fast Lane Auto Repair",
+        "rating": 5.0,
+        "reviews": 4,
+        "claimed": false,
+        "address": "687 N Benson Ave, Ste D, Upland, CA 91786",
+        "phone": "(909) 608-7473",
+        "website": "fastlaneautoandfleetrepair.com",
+        "hours": [
+          "7:00 AM – 4:00 PM",
+          "7:00 AM – 4:00 PM",
+          "7:00 AM – 4:00 PM",
+          "7:00 AM – 4:00 PM",
+          "7:00 AM – 4:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Tires",
+          "Wheel & Rim Repair"
+        ],
+        "services": [
+          "Auto wheel alignment",
+          "Oil changes",
+          "Routine automotive maintenance",
+          "Wheel alignment"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "It already has a live website, fastlaneautoandfleetrepair.com, showing the same phone, so it does not belong on a no-website list.",
+        "Google shows no website link on the listing, which is why it was on the sheet.",
+        "It is in the same building as sheet row 10, ROYSAUTOREPAIR IN UPLAND at 687 N Benson Ave, in a different suite.",
+        "Yelp opens at 7 AM on weekdays against 7:30 AM on Google.",
+        "Unclaimed on both sites; the Yelp 5.0 rests on four reviews."
+      ]
+    },
+    {
+      "row": 104,
+      "name": "Auto Pros Repair",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-5.md",
+      "verdict": "Build",
+      "angle": "Honest mechanic and pricing are the two Google topics, and the shop is unclaimed on both sites.",
+      "google": {
+        "name": "Auto Pros Repair",
+        "rating": 4.8,
+        "reviews": 25,
+        "address": "4771 Holt Blvd, Montclair, CA 91763",
+        "phone": "(909) 399-9969",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 2:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "honest mechanic": 3,
+          "pricing": 3,
+          "mechanic": 7
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/auto-pros-repair-montclair",
+        "name": "Auto Pros Repair",
+        "rating": 4.4,
+        "reviews": 14,
+        "claimed": false,
+        "address": "4771 Holt Blvd, Montclair, CA 91763",
+        "phone": "(909) 399-9969",
+        "website": null,
+        "hours": null,
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Routine automotive maintenance"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Unclaimed on both sites.",
+        "Yelp lists no hours, so Google is the only hours source.",
+        "Google's 4.8 from 25 against Yelp's 4.4 from 14 means Google leads the handoff's facts block.",
+        "Address and phone agree.",
+        "No owner's text, and the only service Yelp lists is routine automotive maintenance, so ask for the full list before writing specifics."
+      ]
+    }
+  ]
+}
