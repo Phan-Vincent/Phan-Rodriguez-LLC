@@ -160,6 +160,23 @@ footer{background:var(--ink);color:color-mix(in srgb,var(--bone) 62%,var(--ink))
 .word{font-weight:800;font-stretch:112%;text-transform:uppercase;font-size:var(--wordsz,15vw);line-height:.8;letter-spacing:-.055em;color:transparent;-webkit-text-stroke:1.5px color-mix(in srgb,var(--bone) 36%,transparent);white-space:nowrap;text-align:center;user-select:none}
 footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:12.5px;margin-top:22px}footer span{max-width:720px}
 .dock{display:none}
+/* per-site variants (see vary()) */
+.accent{background:var(--acc);color:var(--on-acc);--mut:color-mix(in srgb,var(--on-acc) 82%,var(--acc));--line:color-mix(in srgb,var(--on-acc) 32%,transparent)}
+.accent .pill.solid{background:var(--ink);border-color:var(--ink);color:var(--bone)}.accent .pill:hover,.accent .pill.solid:hover{background:var(--on-acc);border-color:var(--on-acc);color:var(--acc)}
+.accent tr.today th,.accent tr.today td{color:inherit;font-weight:800}.accent .lab:before{background:currentColor}.accent .phone:hover{color:var(--ink)}
+.lightv{border-top:1.5px solid var(--ink)}.lightv tr.today th,.lightv tr.today td{color:var(--acc)}.lightv .phone:hover{color:var(--acc)}
+.sh-sq .pill,.sh-sq .card-img,.sh-sq .tilt,.sh-sq .clip,.sh-sq .q,.sh-sq .quotes .quote,.sh-sq .map,.sh-sq .chip,.sh-sq .cardx,.sh-sq .facts,.sh-sq .float,.sh-sq .today-tag{border-radius:0}
+.sh-soft .pill,.sh-soft .chip,.sh-soft .today-tag{border-radius:8px}.sh-soft .card-img,.sh-soft .tilt,.sh-soft .clip,.sh-soft .q,.sh-soft .quotes .quote,.sh-soft .map,.sh-soft .cardx{border-radius:8px}
+.lb-line .lab:before{width:22px;height:2px;border-radius:0}.lb-sq .lab:before{border-radius:0;width:7px;height:7px}
+.lg-bar .logo:before{width:5px;height:18px;border-radius:0;box-shadow:none}.lg-bar .logo span{margin-left:0}.lg-none .logo:before{display:none}.lg-none .logo span{margin-left:0}
+.ft-solid .word{color:var(--acc);-webkit-text-stroke:0}.ft-bone .word{color:color-mix(in srgb,var(--bone) 13%,var(--ink));-webkit-text-stroke:0}.ft-none .word{display:none}.ft-none footer{padding-top:14px}
+.fx-bar .facts{background:var(--ink);color:var(--bone);border:0;border-radius:16px;padding:4px 26px 24px}.fx-bar .facts div{border-color:color-mix(in srgb,var(--bone) 22%,transparent)}.fx-bar .facts .lab{color:color-mix(in srgb,var(--bone) 70%,var(--ink))}
+.st-center .state{grid-template-columns:1fr;justify-items:center;text-align:center;gap:14px}.st-center .state h2{max-width:1040px}.st-center .state+.facts+.cta,.st-center .cta.rv{justify-content:center}
+.rv-row .num strong{font-size:clamp(46px,5.4vw,84px)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:clamp(24px,3vw,40px)}
+.cardx{border:1.5px solid var(--line);border-radius:14px;padding:22px;min-height:160px;display:flex;flex-direction:column;justify-content:space-between;gap:24px;transition:background .3s,color .3s,border-color .3s}
+.cardx:hover{background:var(--ink);color:var(--bone);border-color:var(--ink)}.cardx h3{font-size:clamp(22px,2.1vw,30px);font-weight:700;letter-spacing:-.03em;line-height:1.05}.cardx p{font-size:15px;opacity:.72}.cardx .grp{margin:0}
+.cardhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 60px}.cardhead p{max-width:420px;color:var(--mut)}
 @media(max-width:860px){.wrap{width:calc(100% - 36px)}.top nav,.bar nav{display:none}.logo{font-size:16px}.top .pill{min-height:40px;padding:8px 14px;font-size:14px;white-space:nowrap}
 .hero.photo .hb{grid-template-columns:1fr;gap:18px;padding-bottom:78px}.hero.photo .meta{justify-items:start;text-align:left;grid-template-columns:auto 1fr;align-items:center}
 .hero.split{grid-template-columns:1fr}.hero.split .r{order:-1;height:42svh;min-height:260px}.hero.split .l{padding:0 18px 26px}.hero.split .l .top{position:absolute;left:18px;right:18px;top:0;color:var(--bone)}.hero.split{position:relative}.hero.split h1{margin:26px 0 20px}
@@ -250,14 +267,18 @@ def statement(s):
 </div></section>"""
 
 
-def services(s):
+def services(s, first=True):
     label = s.get("svc_label", "What we do")
     items = [(g, n, d) for g, its in s["services"] for n, d in its]
+    if s["art"].get("svc") == "cards":
+        cards = "".join(f'<div class="cardx rv"><div>{"<p class=grp>" + esc(g) + "</p>" if g else ""}<h3>{esc(n)}</h3></div>{"<p>" + esc(d) + "</p>" if d else ""}</div>' for g, n, d in items)
+        extra = " ".join(esc(s[k]) for k in ("svc_text", "svc_note") if s.get(k))
+        return f'<section id="services"{" style=padding-top:0" if first else ""}><div class="wrap"><p class="tag lab rv">{label}</p><div class="cardhead"><h2 class="big2 rv">{esc(s.get("svc_title", "What we do."))}</h2>{"<p class=rv>" + extra + "</p>" if extra else ""}</div><div class="cards">{cards}</div></div></section>'
     if s["art"].get("svc") == "rows":
         rows = "".join(f'<div class="row rv"><h3>{esc(n)}</h3><p>{esc(d)}</p></div>' for _, n, d in items)
         fl = '<div class="float" id="float" aria-hidden="true">' + "".join(f'<img alt="" src="{p}">' for p in s["photos"]) + "</div>"
         note = f'<p class="hol rv" style="margin-top:18px">{esc(s["svc_note"])}</p>' if s.get("svc_note") else ""
-        return f'<section id="services" style="padding-top:0"><div class="wrap"><p class="tag lab rv">{label}</p><div class="rows">{rows}</div>{note}</div>{fl}</section>'
+        return f'<section id="services"{" style=padding-top:0" if first else ""}><div class="wrap"><p class="tag lab rv">{label}</p><div class="rows">{rows}</div>{note}</div>{fl}</section>'
     out, last = "", None
     for g, n, d in items:
         if g and g != last:
@@ -275,7 +296,7 @@ def about(s):
     if not a:
         return f'<section class="band cliphost"><div class="wrap">{img}</div></section>'
     pts = "".join(f"<li class='rv'><strong>{esc(h)}</strong>{esc(t)}</li>" for h, t in a.get("points", []))
-    dark = "" if s["art"].get("svc") != "rows" else " dark"
+    dark = " dark" if s["art"].get("svc") in ("rows", "cards") else ""
     return f'<section class="{dark.strip()}"><div class="wrap abt cliphost"><div class="left"><p class="tag lab rv">Good to know</p><h2 class="big2 rv">{esc(a["title"])}</h2><p class="rv">{esc(a["text"])}</p>{f"<ul class=pts>{pts}</ul>" if pts else ""}</div>{img}</div></section>'
 
 
@@ -310,7 +331,7 @@ def visit(s):
     find = f'<p class="find">{esc(s["find"])}</p>' if s.get("find") else ""
     from urllib.parse import quote_plus
     mp = f'<iframe class="map" loading="lazy" title="Map of {esc(s["short"])}" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={quote_plus(s["short"] + ", " + s["addr"].replace("<br>", ", "))}&z=15&output=embed"></iframe>' if s.get("hours") else ""
-    return f"""<section class="dark" id="visit"><div class="wrap"><p class="tag lab rv">Visit or call</p>
+    return f"""<section class="{s['art'].get('visit', 'dark')}" id="visit"><div class="wrap"><p class="tag lab rv">Visit or call</p>
 <a class="phone rv" href="tel:{t}">{s['phone']}</a>
 <div class="vgrid"><div class="rv"><span class="tag lab">Address</span><address>{s['addr']}</address>{find}
 <div class="cta"><a class="pill solid" href="{s['maps']}" target="_blank" rel="noopener noreferrer">Get directions</a><a class="pill" href="tel:{t}">Call the shop</a></div>{mp}</div>
@@ -321,14 +342,14 @@ def build(folder, s):
     art = s["art"]
     t = tel(s["phone"])
     v = f":root{{--ink:{art['ink']};--bone:{art['bone']};--paper:{art.get('paper', '#ffffff')};--acc:{art['acc']};--star:{art['star']};--on-acc:{art.get('on_acc', '#fff')};--stretch:{art.get('stretch', '108%')};--h1:{art.get('h1', '11vw')};--rowsz:{art.get('rowsz', '8.6vw')};--wordsz:{art.get('wordsz', '15vw')}}}"
+    order = art.get("order", 0)
+    parts = [[statement(s), services(s), about(s), reviews(s)], [statement(s), about(s), services(s, False), reviews(s)], [statement(s), reviews(s), services(s, False), about(s)]][order]
+    sections = "\n".join(parts)
     body = f"""<a class="skip" href="#main">Skip to content</a>
 <div class="bar" id="bar"><div class="wrap">{nav(s, 'bar')}</div></div>
 {hero(s)}
 <main id="main">
-{statement(s)}
-{services(s)}
-{about(s)}
-{reviews(s)}
+{sections}
 {visit(s)}
 </main>
 <footer><div class="word" aria-hidden="true"><span>{esc(art.get('word', s['short']))}</span></div><div class="wrap"><strong>{esc(s['footer'])}</strong><span>Concept website by Phan-Rodriguez LLC. Not the official site of this business. Photos are stock images.</span></div></footer>
@@ -345,7 +366,7 @@ def build(folder, s):
 <link rel="preload" href="fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>{v}{CSS}</style>
 </head>
-<body class="{'serif' if art.get('serif') else ''}">
+<body class="{'serif ' if art.get('serif') else ''}{art.get('cls', '')}">
 {body}
 {JS}
 {s.get('extra_js', '')}
@@ -523,6 +544,31 @@ SITES["prime-truck-trailer-repair"] = dict(
     rev_text="Google reviewers mention quality of work, honest mechanics, alignments and trailer repair.",
     photos=(PX(6720519, 1800), PX(7019376)), alt=("Mechanic working on the front of a truck with the hood open", "Red semi truck parked in a repair shop"),
 )
+def _lum(h):
+    c = [int(h[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+    c = [x / 12.92 if x <= .03928 else ((x + .055) / 1.055) ** 2.4 for x in c]
+    return .2126 * c[0] + .7152 * c[1] + .0722 * c[2]
+
+
+def vary():
+    """Give every site its own mix of details so no two read as copies: button and card shape, label and logo marks,
+    footer wordmark, facts strip, statement alignment, section order, visit colour, and service layout.
+    The mix is fixed by the site's position in SITES, so rebuilds are stable. Anything set in a site's art wins."""
+    for i, (k, s) in enumerate(SITES.items()):
+        a = s["art"] = dict(s["art"])
+        cls = [["", "sh-sq", "sh-soft"][i % 3], ["", "lb-line", "lb-sq"][(i // 3 + i) % 3], ["", "lg-bar", "lg-none", ""][(i + i // 4) % 4],
+               ["", "ft-solid", "", "ft-bone", "ft-none"][i % 5], ["", "fx-bar"][(i // 2) % 2], "st-center" if i % 5 in (1, 3) else "", "rv-row" if i % 4 == 1 else ""]
+        a.setdefault("cls", " ".join(c for c in cls if c))
+        a.setdefault("order", (i * 2 + i // 3) % 3)
+        on = a.get("on_acc", "#ffffff")
+        ratio = (max(_lum(a["acc"]), _lum(on)) + .05) / (min(_lum(a["acc"]), _lum(on)) + .05)
+        v = ["dark", "accent", "lightv"][(i + i // 3) % 3]
+        a.setdefault("visit", "dark" if (v == "accent" and ratio < 4.5) else v)
+        if i % 4 == 3 and len([1 for g, its in s["services"] for _ in its]) >= 4:
+            a["svc"] = "cards"
+
+
+vary()
 
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])

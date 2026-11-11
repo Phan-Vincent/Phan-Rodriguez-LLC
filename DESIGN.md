@@ -285,3 +285,16 @@ Sheet re-read: the "not interested" rows are unchanged (Tri Auto, Moreno's, Roy'
 ### 2026-11-10 (late night) — Prime Truck and Trailer Repair added
 
 Vincent's session added `prime-truck-trailer-repair` to `build_flagship.py` (photo hero, rows) from its Google Maps listing, which batch 7 had not been able to load. Its own Basic Auto Repair and A Tech Automotive pages, built in parallel with the older generator, were dropped in favour of the flagship ones. Extra findings, including a claimed Yelp page with a service list for A Tech, are at the end of `docs/lead-batch-2026-11-10/BATCH-6.md`. Checked with Playwright at 1440px and 390px; tab order and the map were not checked.
+### 2026-11-10 — Every site gets its own mix of details
+
+So that no owner looks at another of our sites and sees a copy of theirs, `vary()` in `build_flagship.py` gives each site a different combination, on top of its own hero, type and palette:
+
+- button and card shape (round, square, soft corners)
+- label mark (dot, line, square) and logo mark (two dots, bar, none)
+- footer wordmark (outlined, solid accent, tone-on-tone, none)
+- facts strip (plain columns or a dark band) and statement alignment (left or centred)
+- section order (three orders) and review heading size
+- visit section colour (dark, accent colour, or light), with accent only used when the text contrast is at least 4.5:1
+- services layout (giant rows, index list, or a card grid)
+
+The mix is fixed by the site's position in `SITES`, so rebuilds are stable and adding a site at the end does not change the others. A check in this session confirmed no two of the 25 sites share the same combination.
