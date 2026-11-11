@@ -725,6 +725,51 @@ mk("auto-repair-foreign-domestic-vw", dict(hero="poster", ink="#0F172A", bone="#
    svc_title="Whatever you drive.")
 
 
+# Photo pass, 2026-11-10: every site gets its own photos, chosen to match the trade and the slot (portrait photos only
+# in the tall split hero). All are Pexels free-license photos; each id was loaded in a browser and the alt text follows
+# the photographer's own title. A check at the bottom of this block fails the build if any photo is used on two sites.
+PHOTOS = {
+    "sinaloa-tires": [(31097241, "Mechanic working on a wheel in a workshop"), (6641641, "Used tires stacked beside a wall")],
+    "king-tire-shop": [(8985660, "Mechanic rolling a tire beside a car on a lift"), (13746781, "Man rolling a tire")],
+    "tepa-tire": [(6870316, "Mechanic in a blue uniform holding a car tire"), (6870307, "Mechanic working on a car's brake system"), (13350018, "Close-up of brake pads behind a wheel")],
+    "basic-auto-repair": [(8986132, "Mechanic in blue coveralls standing beside a white car"), (4116193, "Hand holding a diagnostic tool")],
+    "a-tech-automotive": [(6870326, "Mechanic in blue coveralls holding a diagnostic tool"), (4315570, "Mechanic checking the engine of a car")],
+    "johns-auto-repair": [(36608166, "Close-up of a BMW engine in a garage"), (515674, "BMW engine bay")],
+    "ceres-collision": [(30250199, "Painter spraying a car in a body shop"), (6870296, "Person buffing a car's paint")],
+    "rudys-auto-works-paint": [(40649187, "Bodywork being spray painted in a workshop"), (14615263, "Close-up of a man painting car parts")],
+    "mendiola-diesel-auto": [(7541356, "Mechanic repairing the engine of a truck"), (7018493, "Man working underneath a truck")],
+    "freddies-auto-repair": [(8985456, "Mechanic fixing a car engine"), (13065696, "Hands pouring oil into an engine")],
+    "bates-auto-service": [(6870328, "Mechanic working on the brakes of a car"), (8478234, "Mechanic leaning over a car's engine bay")],
+    "express-transmissions": [(8986137, "Underside of a car on a lift"), (8985664, "Technician repairing a motor part")],
+    "menas-brake-suspension": [(34277923, "Close-up of a car's disc brake"), (6870300, "Mechanic working at a car's wheel hub")],
+    "the-auto-clinic": [(13065693, "Close-up of oil being poured into an engine"), (8985452, "Mechanic looking at the engine of a car")],
+    "auto-technik-carcare": [(4116170, "White car in a repair shop"), (36281957, "Mechanic checking a car's oil level")],
+    "diamond-auto-center": [(4756887, "Cars inside a repair shop"), (34277926, "Close-up of a brake caliper and disc")],
+    "claremont-auto-care": [(29198156, "Car on a lift in an auto repair shop"), (5233282, "Car exhaust pipe")],
+    "l-r-auto-repair": [(8986105, "Mechanic in blue coveralls working under a vehicle"), (4022545, "Disc brake in a service workshop")],
+    "baja-auto-center": [(5233283, "Silver car with a black exhaust pipe"), (6870295, "Mechanic in blue coveralls checking a vehicle")],
+    "ie-automotive": [(8985457, "Mechanic standing beside a white car's open hood"), (4116225, "Person repairing a car engine")],
+    "v-tech-auto-care": [(32152039, "Car being serviced in a modern repair shop"), (4116198, "Close-up of a mechanic with a tablet")],
+    "japanese-auto-tech": [(8478262, "Mechanic fixing a car under its hood"), (8478213, "Person looking at the engine of a car")],
+    "german-and-japanese-auto-pro": [(33055323, "Car engine under an open hood"), (8986033, "White car raised on a lift")],
+    "molinas-tire-towing": [(6870331, "Mechanic checking the tire of an orange car"), (10061763, "Tow truck carrying a car")],
+    "williams-independent-auto": [(31042165, "Close-up of dual exhaust pipes"), (8986148, "Mechanic in blue checking a car")],
+    "auto-repair-foreign-domestic-vw": [(8985517, "Mechanic in a garage"), (13065689, "Close-up of a mechanic working on a car")],
+}
+for _k, _ps in PHOTOS.items():
+    SITES[_k]["photos"] = tuple(PX(i, 1800 if n == 0 else 1200) for n, (i, _) in enumerate(_ps))
+    SITES[_k]["alt"] = tuple(a for _, a in _ps)
+SITES["ac-tires"]["photos"] = (SITES["ac-tires"]["photos"][0], PX(7807035))
+SITES["ac-tires"]["alt"] = (SITES["ac-tires"]["alt"][0], "Mechanic holding a tire wrench")
+_seen = {}
+for _k, _s in SITES.items():
+    for _u in _s["photos"]:
+        _id = _u.split("?")[0]
+        if _id in _seen and not {_k, _seen[_id]} <= {"el-rey", "el-rey-retro-roadside"}:
+            raise SystemExit(f"photo reused: {_id} on {_seen[_id]} and {_k}")
+        _seen[_id] = _k
+
+
 def _lum(h):
     c = [int(h[i:i + 2], 16) / 255 for i in (1, 3, 5)]
     c = [x / 12.92 if x <= .03928 else ((x + .055) / 1.055) ** 2.4 for x in c]

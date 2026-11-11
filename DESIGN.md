@@ -323,3 +323,11 @@ The mix is fixed by the site's position in `SITES`, so rebuilds are stable and a
 - **German and Japanese Auto Pro:** the sheet's name is cut off ("German and Japanese Au..."); the site uses the name on the MapQuest and Yelp listings.
 - **Not found on MapQuest:** Sal's Auto Care (search returned a different shop), Gil's Tire Shop (search returned a different shop).
 - **Still to research in the High rows:** Jujubuilt, 2Man Moving, AutoTech's, QUINONEZ Mobile, Arredondo's, HVAC Assistance, Diaz Landscape, Nino's Lawnmower Shop, Valencia Handyman, JR Truck Tire, Kikas Tires (address and phone conflict), then rows 70 to 295.
+
+### 2026-11-10 — Photo pass: no photo is used on two sites
+
+Five stock photos had been reused across 9 to 12 sites each. Twenty-seven sites now have their own photos, picked from Pexels searches by trade (mechanic, brakes, tires, oil change, body paint, truck repair, diagnostics, tow truck, exhaust, BMW engine) so the picture matches the business and the section it sits in. Portrait photos are only used in the tall split hero.
+
+- 52 new Pexels photo ids, each loaded in a browser to confirm it resolves, with its orientation. Alt text follows each photographer's own title. The photos themselves were not viewed one by one, so look over each page once.
+- `build_flagship.py` now stops the build if any photo appears on two sites (the two El Rey versions are the one exception).
+- The photo list, with alt text, is the `PHOTOS` block in `build_flagship.py`.
