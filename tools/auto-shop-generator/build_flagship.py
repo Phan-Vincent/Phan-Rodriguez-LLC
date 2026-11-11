@@ -161,7 +161,7 @@ footer{background:var(--ink);color:color-mix(in srgb,var(--bone) 62%,var(--ink))
 footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:12.5px;margin-top:22px}footer span{max-width:720px}
 .dock{display:none}
 @media(max-width:860px){.wrap{width:calc(100% - 36px)}.top nav,.bar nav{display:none}.logo{font-size:16px}.top .pill{min-height:40px;padding:8px 14px;font-size:14px;white-space:nowrap}
-.hero.photo .hb{grid-template-columns:1fr;gap:18px}.hero.photo .meta{justify-items:start;text-align:left;grid-template-columns:auto 1fr;align-items:center}
+.hero.photo .hb{grid-template-columns:1fr;gap:18px;padding-bottom:78px}.hero.photo .meta{justify-items:start;text-align:left;grid-template-columns:auto 1fr;align-items:center}
 .hero.split{grid-template-columns:1fr}.hero.split .r{order:-1;height:42svh;min-height:260px}.hero.split .l{padding:0 18px 26px}.hero.split .l .top{position:absolute;left:18px;right:18px;top:0;color:var(--bone)}.hero.split{position:relative}.hero.split h1{margin:26px 0 20px}
 .hero.block .under{grid-template-columns:1fr}.tilt{width:calc(100% - 36px)}.card-img .chip{font-size:12.5px;padding:8px 13px;bottom:12px}.card-img .chip.l{left:12px;bottom:auto;top:12px}.card-img .chip.r{right:12px}
 .state{grid-template-columns:1fr;gap:16px}.facts{grid-template-columns:1fr}.facts div{border-right:0;margin:0;border-bottom:1px solid var(--line);padding:16px 0}
@@ -372,6 +372,19 @@ ART = {
     "king-tire-shop": dict(hero="photo", ink="#131A36", bone="#F4F1EA", acc="#C8242C", star="#F6C744", h1="11.8vw", stretch="74%", svc="index", mark="King Tire Shop", word="King Tire", wordsz="19vw"),
     "43s-mufflers-brakes": dict(hero="poster", ink="#131210", bone="#F3EEDF", acc="#8F3A29", star="#E8B90E", h1="9.6vw", svc="index", mark="43's Mufflers & Brakes", word="43's", wordsz="34vw"),
     "tepa-tire": dict(hero="split", ink="#0E1E4A", bone="#F4EFE3", acc="#C4551E", star="#E9A23B", h1="9.6vw", stretch="78%", svc="rows", rowsz="7.4vw", mark="Tepa", word="Tepa Tire", wordsz="19vw"),
+    # Batch added 2026-11-10 (evening): the rest of the built leads, same craft, different direction per site
+    "mailos-auto-repair": dict(hero="photo", ink="#12191C", bone="#F2F0E9", acc="#1F5F74", star="#E0B34A", h1="9.4vw", svc="index", mark="Mailo's", word="Mailo's", wordsz="20vw"),
+    "bee-z-auto-care": dict(hero="block", ink="#17150E", bone="#FBF6E4", acc="#F0C02E", on_acc="#17150E", star="#17150E", h1="10.4vw", stretch="80%", svc="index", mark="Bee Z Auto Care", word="Bee Z", wordsz="26vw"),
+    "quality-auto-complete-auto-repair": dict(hero="poster", ink="#1A1216", bone="#F5F0EC", acc="#7B1F3A", star="#C98A1B", h1="9.6vw", svc="index", mark="Quality Auto", word="Quality Auto", wordsz="15vw"),
+    "county-brake-alignment": dict(hero="split", ink="#1B1A18", bone="#F4EEE3", acc="#9A4A12", star="#D99A1E", h1="7.8vw", stretch="78%", svc="index", mark="County Brake", word="County Brake", wordsz="15vw"),
+    "jc-bumper-repair": dict(hero="photo", ink="#11151C", bone="#EEF0F3", acc="#1E4A9C", star="#D9C27A", h1="10.4vw", stretch="76%", svc="rows", rowsz="7vw", mark="JC Bumper Repair", word="JC Bumper", wordsz="17vw"),
+    "with-pride-auto-air": dict(hero="block", ink="#0A2A40", bone="#EFF6FA", acc="#0B5E8E", star="#F2B632", h1="9vw", svc="index", mark="With Pride Auto Air", word="With Pride", wordsz="16vw"),
+    "performance-lube-oil": dict(hero="poster", ink="#0D2730", bone="#F1F6F6", acc="#0E6F8F", star="#E8A200", h1="11.4vw", stretch="80%", svc="rows", rowsz="6.6vw", mark="Performance Lube", word="Performance", wordsz="15vw"),
+    "j-s-auto-center-smog": dict(hero="split", serif=True, ink="#1A1D14", bone="#F3F2E6", acc="#5C6B1E", star="#C99A1E", h1="8vw", svc="index", mark="J & S Auto", word="J & S", wordsz="26vw"),
+    "jc-auto-electric": dict(hero="block", ink="#16181B", bone="#F5F2EC", acc="#8E1B16", star="#F2B632", h1="10vw", svc="index", mark="J C Auto Electric", word="J C Electric", wordsz="15vw"),
+    "diesel-injection-service": dict(hero="photo", ink="#101410", bone="#EFF1EA", acc="#1B6B38", star="#D2A546", h1="6.6vw", stretch="80%", svc="rows", rowsz="6.4vw", mark="Diesel Injection Service", word="Diesel", wordsz="24vw"),
+    "toy-shop-transmissions": dict(hero="poster", serif=True, ink="#1D1A17", bone="#F4F0E8", acc="#1A6B6A", star="#C9952B", h1="11vw", svc="index", mark="Toy Shop Transmissions", word="Toy Shop", wordsz="18vw"),
+    "hocks-japanese-car-specialists": dict(hero="split", ink="#15171F", bone="#F1F1F4", acc="#34407A", star="#C8962A", h1="7.6vw", svc="index", mark="Hock's", word="Hock's", wordsz="22vw"),
 }
 SITES = {}
 for k, art in ART.items():

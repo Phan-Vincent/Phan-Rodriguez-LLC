@@ -742,12 +742,12 @@ SITES = {
 TITLES = {k: f"{v['short']} | {v['kicker'].split(' · ')[-1]}" for k, v in SITES.items()}
 
 # Not built here: Muffler Doctor declined (site removed 2026-11-10); the rest are built by build_flagship.py
-SKIP = {"muffler-doctor", "lockworx", "el-rey", "don-cortez-tires", "alejandros-tree-service", "sinaloa-tires", "king-tire-shop", "43s-mufflers-brakes", "tepa-tire"}
+SKIP = None  # every lead page is now built by build_flagship.py; this file keeps the facts (SITES)
 
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])
     for folder, s in SITES.items():
-        if folder in SKIP:
+        if True:  # see SKIP note above
             continue
         css, body = LAYOUTS[s["layout"]](s)
         (OUT / folder).mkdir(parents=True, exist_ok=True)
