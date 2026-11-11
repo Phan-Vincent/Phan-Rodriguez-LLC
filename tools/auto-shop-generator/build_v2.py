@@ -20,7 +20,7 @@ def U(pid, w, h, q=70):
 
 BASE = """
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 h1,h2,h3{letter-spacing:-.02em;line-height:1.1;font-weight:700}
 a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus,var(--accent));outline-offset:3px;border-radius:4px}
@@ -92,25 +92,37 @@ details.acc summary::-webkit-details-marker{display:none}
 details.acc summary:after{content:"+";font-size:22px;font-weight:400;color:var(--accent);transition:transform .175s}details.acc[open] summary:after{transform:rotate(45deg)}
 details.acc p{padding:0 20px 18px;color:var(--muted)}
 .cloud{display:flex;flex-wrap:wrap;gap:8px}.cloud span{background:#fff;border-radius:6px;box-shadow:0 1px 2px #0003;padding:11px 16px;font-weight:600;font-size:15px;border-left:4px solid var(--accent)}
+/* Retained alternate layout: wrap rather than clip narrow content. */
+@media(max-width:860px){
+.name{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+h1,h2,h3,address,.facts strong{overflow-wrap:anywhere}
+.facts>*{min-width:0}.facts strong{min-width:0}
+table{table-layout:fixed;font-size:14px}th{width:40%}th,td{padding:9px 6px}
+td{white-space:normal;overflow-wrap:anywhere}.tag{display:table;margin:4px 0 0}
+}
 @media(prefers-reduced-motion:reduce){.js h1 .wd>span,.js .lead h2 .wd>span{transform:none}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 """
 
 JS = """<script>
 (()=>{
 // scroll reveal: blocks stay hidden until scrolled to, then fade and slide up; siblings arrive one after another
-document.documentElement.classList.add('js');
+try{
 const targets=[...document.querySelectorAll('.hero>*,.hero>div>*,.banner .wrap>*,.bar,.intro,.make,.row,.bigquote,#review-track,.visit,.side,.svc li,.stats,.quotes>.quote:not(#review-track .quote),.day,.find,.cover,.shop,.feed>.card,.s,.rev li,.tile,.rate,.q,.it,.aboutc,.marquee,.shot,main section>.wrap>.label,main section>.wrap>h2,main section>.wrap>div>.label,main section>.wrap>div>h2,.reveal')];
 targets.forEach(el=>{el.classList.add('reveal');const sibs=[...el.parentElement.children].filter(c=>targets.includes(c));el.style.setProperty('--d',Math.min(sibs.indexOf(el),5))});
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
 targets.forEach(el=>io.observe(el));
+document.documentElement.classList.add('js');
+}catch(e){document.documentElement.classList.remove('js')}
 // headline words rise in
 const root=document.documentElement,reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
 document.querySelectorAll('h1,.lead h2').forEach(h=>{let i=0;const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();c.textContent.split(/(\\s+)/).forEach(t=>{if(!t.trim()){f.append(t);return}const w=document.createElement('span');w.className='wd';const sp=document.createElement('span');sp.style.setProperty('--i',i++);sp.textContent=t;w.append(sp);f.append(w)});c.replaceWith(f)}else if(c.tagName!=='BR')walk(c)})};walk(h)});
 requestAnimationFrame(()=>requestAnimationFrame(()=>root.classList.add('ready')));
 // numbers count up when they come into view
 const count=el=>{const end=parseFloat(el.dataset.count),dec=(el.dataset.count.split('.')[1]||'').length;if(reduce)return;const t0=performance.now();const step=t=>{const p=Math.min((t-t0)/1300,1),e=1-Math.pow(1-p,3);el.textContent=(end*e).toFixed(dec);if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)};
+if('IntersectionObserver' in window){
 const cio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){count(e.target);cio.unobserve(e.target)}}),{threshold:.6});
 document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+}
 // scroll progress bar, stripe drift and badge following the pointer
 if(!reduce){let tick=false;const upd=()=>{root.style.setProperty('--scroll',scrollY);root.style.setProperty('--p',(scrollY/Math.max(1,root.scrollHeight-innerHeight)).toFixed(4));tick=false};addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});
 addEventListener('pointermove',e=>{if(e.pointerType==='mouse'){root.style.setProperty('--mx',(e.clientX/innerWidth-.5).toFixed(3));root.style.setProperty('--my',(e.clientY/innerHeight-.5).toFixed(3))}},{passive:true})}

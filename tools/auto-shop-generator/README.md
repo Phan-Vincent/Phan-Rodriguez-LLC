@@ -1,26 +1,48 @@
-# Auto shop site generator
+# Portfolio generator
 
-`build_v2.py` builds Tri Auto, A C Tires and Moreno's. `build_leads.py` builds the other 16 lead sites in the same style (run it the same way). Both write to `mockups/<folder>/index.html`.
-
-| Site | Layout |
-| --- | --- |
-| Tri Auto | Split hero, three make tiles, zigzag photo rows, rotating reviews, visit card |
-| A C Tires | Photo banner with an info bar, service list beside a sticky heading, stats band, week strip |
-| Moreno's | Profile page: cover photo, sticky shop card on the left, content cards on the right |
+Run from the repository root:
 
 ```
-python3 tools/auto-shop-generator/build_v2.py mockups
+python3 tools/auto-shop-generator/build_flagship.py mockups
 ```
 
-- `tri_reviews/` holds Tri Auto's review markup and carousel script (Vincent's Birdeye links). Edit reviews there.
-- If you hand-edit a page in `mockups/`, also change `build_v2.py`, or the next build overwrites it.
-- `build_v1_old.py` is the first generator, kept for history. `shot.py` takes Playwright screenshots.
-- Photos are Unsplash free-license images loaded by URL. Quotes, hours and addresses come from public listings; confirm with each owner before launch.
+This supported entry point builds all 46 catalog pages. Optional folder arguments
+limit the build, for example `mockups el-rey-retro-roadside`.
 
-- `build_tri.py` builds Tri Auto on its own. That page is hand-designed and is skipped by `build_v2.py`.
-- `build_leads.py` now has six layouts (A split, B banner, C profile, D poster, E framed photo, F service desk) and per-site service displays (`svc_mode`).
+- `build_flagship.py` owns the 45 flagship compositions and per-site overrides.
+- `build_leads.py` retains shared business data and the maintained layout D renderer
+  for El Rey Retro Roadside. The flagship entry point calls that renderer and
+  `build_v2.page` for the alternate; do not hand-edit its generated HTML.
+- `build_v2.py` supplies the alternate's shared CSS/JS and review helpers.
+  The older scripts' standalone build loops remain disabled.
+- Keep the existing `fonts/` and `tri_reviews/` assets alongside these scripts.
+  Fonts are copied to flagship outputs; images remain the existing stock URLs.
+- Edit facts in their owning data definitions. `HOURS_NOTES` records unresolved
+  listing differences beside the hours table and marks Today as unconfirmed.
+  It is not owner verification. Molina's weekend values intentionally request a call.
+- Generated pages retain `noindex`, concept disclaimers, contacts and review sources.
 
+## QA after regeneration
 
-## build_flagship.py (current, 2026-11-10)
+With an existing Playwright installation and the repository served on loopback:
 
-Builds the nine leads still in play with per-site art direction (`ART` dict). Run `python3 tools/auto-shop-generator/build_flagship.py mockups [folder ...]`. Facts come from `build_leads.SITES`; A C Tires is defined in the file. Fonts are copied from `tools/auto-shop-generator/fonts/`. `build_leads.py` and `build_v2.py` skip these folders.
+```
+node tools/portfolio-qa.test.mjs
+node tools/lead-batch-qa.mjs --base http://127.0.0.1:8765/ --out /tmp/portfolio-qa
+node tools/mobile-qa.mjs --base http://127.0.0.1:8765/ --out /tmp/portfolio-qa
+```
+
+Both runners discover pages from `index.html`. Each creates a unique child directory
+under `--out`; historical reports are never overwritten. Defaults are loopback port
+8765 and `qa-runs/`. `QA_BASE_URL` and `QA_OUTPUT_DIR` are equivalent defaults.
+Set `PLAYWRIGHT_MODULE` to an existing module path if necessary, and optionally
+`QA_BROWSER_CHANNEL=chrome` (or another installed Chromium channel).
+
+The portfolio runner covers 305, 320, 390 and 1440px; 305 explicitly exercises
+usable width on hosts with overlay scrollbars. The mobile runner also covers
+360, 430 and 768px. Checks scroll the full page, inspect element and text bounds,
+load HTML/image/CSS-background assets, detect console/page/request errors, validate
+anchors, check footer/dock overlap and sticky focus, and sample carousel positions
+under initial and dynamically enabled reduced motion. Third-party failures are
+reported, not silently waived. Review the JSON and manually inspect keyboard flow,
+no-JavaScript/failed-observer rendering, and screenshots in the target browsers.

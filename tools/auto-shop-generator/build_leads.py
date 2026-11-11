@@ -636,7 +636,7 @@ SITES = {
         visit_title="Sierra Avenue, Fontana.", footer="J & S Auto Center & Smog · Fontana, CA",
         photos=(PX(33814734, 1600), PX(37177070)), alt=("Cars on lifts in a repair shop", "Car battery under an open hood")),
     "king-tire-shop": dict(layout="B", svc_mode="chips", band=True, short="King Tire Shop", kicker="Tire shop · Rose Ave, Montclair", accent="#B3261E", dark="#1C2444", gold="#E9B949",
-        h1=("Flat at 8 PM?", "We're open till nine."), lede="Tires, flats, brakes and oil changes on Rose Ave in Montclair. If it's getting close to nine, call first so we know you're coming.",
+        h1=("Mon–Sat, flat at 8?", "We're open till nine."), lede="Tires, flats, brakes and oil changes on Rose Ave in Montclair. If it's getting close to nine, call first so we know you're coming.",
         bar=("Open late", "9 AM to 9 PM", "Monday to Saturday · closed Sunday"),
         phone="(909) 952-9219", addr="8939 Rose Ave<br>Montclair, CA 91763", addr_short=("8939 Rose Ave", "Montclair, CA 91763"), maps="https://www.google.com/maps/dir/?api=1&destination=King+Tire+Shop+8939+Rose+Ave+Montclair+CA+91763",
         hours=wk("9:00 AM – 9:00 PM", "9:00 AM – 9:00 PM", "Closed"),

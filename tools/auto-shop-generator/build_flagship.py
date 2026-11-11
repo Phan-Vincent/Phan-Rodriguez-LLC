@@ -24,7 +24,7 @@ CSS = """
 @font-face{font-family:'Instrument Serif';src:url(fonts/instrument-serif-latin-400-normal.woff2) format('woff2');font-style:normal;font-weight:400;font-display:swap}
 :root{--mut:color-mix(in srgb,var(--ink) 62%,var(--bone));--line:color-mix(in srgb,var(--ink) 16%,transparent);--ease:cubic-bezier(.24,1,.4,1)}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
-body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.5 Archivo,'Segoe UI',system-ui,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.5 Archivo,'Segoe UI',system-ui,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 h1,h2,h3,p,blockquote,figure,ul{margin:0}ul{padding:0;list-style:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--acc);outline-offset:4px;border-radius:4px}
 .wrap{width:min(1360px,calc(100% - 64px));margin:auto}
@@ -52,8 +52,8 @@ h1 .it{font-size:1.04em;letter-spacing:-.03em;display:inline-block;padding-right
 .serif h1{font-family:'Instrument Serif',Georgia,serif;font-weight:400;text-transform:none;letter-spacing:-.03em;line-height:.92}
 .serif h1 .it{font-size:1em}
 .ln{display:block;overflow:hidden;padding:.06em 0 .18em;margin:-.06em 0 -.18em}
-.ln>span{display:block;transform:translateY(110%);transition:transform 1.1s var(--ease);transition-delay:calc(var(--i,0)*110ms + 150ms)}
-.ready .ln>span{transform:none}
+.ln>span{display:block;transform:none;transition:transform 1.1s var(--ease);transition-delay:calc(var(--i,0)*110ms + 150ms)}
+.motion-ready:not(.ready) .ln>span{transform:translateY(110%)}
 .meta{display:grid;gap:12px}.meta p{max-width:270px;font-size:15px;line-height:1.4;opacity:.86}
 .meta strong{font-size:44px;font-weight:800;line-height:1;letter-spacing:-.03em}.meta strong span{color:var(--star)}
 
@@ -93,8 +93,8 @@ h1 .it{font-size:1.04em;letter-spacing:-.03em;display:inline-block;padding-right
 
 section{padding:clamp(44px,5.4vw,84px) 0}
 .lab{display:flex;align-items:center;gap:10px;color:var(--mut)}.lab:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--acc)}
-.rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--d,0)*90ms)}.rv.in{opacity:1;transform:none}
-.clip{clip-path:inset(0 0 100% 0);transition:clip-path 1.2s var(--ease);border-radius:14px;overflow:hidden}.clip.in{clip-path:inset(0)}
+.rv{opacity:1;transform:none;transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--d,0)*90ms)}.motion-ready .rv:not(.in){opacity:0;transform:translateY(28px)}
+.clip{clip-path:inset(0);transition:clip-path 1.2s var(--ease);border-radius:14px;overflow:hidden}.motion-ready .clip:not(.in){clip-path:inset(0 0 100% 0)}
 .clip img{width:100%;object-fit:cover;transform:scale(1.15);transition:transform 1.6s var(--ease)}.clip.in img{transform:none}
 .state{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);gap:40px;align-items:start}
 .state h2{font-weight:500;font-size:clamp(26px,3.5vw,56px);line-height:1.05;letter-spacing:-.035em}
@@ -184,21 +184,44 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;
 .state{grid-template-columns:1fr;gap:16px}.facts{grid-template-columns:1fr}.facts div{border-right:0;margin:0;border-bottom:1px solid var(--line);padding:16px 0}
 .row{grid-template-columns:1fr;gap:4px}.row p{padding:0}.float{display:none}.idx,.abt{grid-template-columns:1fr}.idx .left,.abt .left{position:static}.item{grid-template-columns:1fr;gap:4px}.vgrid{grid-template-columns:1fr}
 body{padding-bottom:58px}.dock{display:grid;grid-template-columns:1.3fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--bone);color:var(--ink);border-top:1px solid var(--line)}.dock a{display:flex;align-items:center;justify-content:center;min-height:56px;font-size:14.5px;font-weight:700;border-right:1px solid var(--line)}.dock a:first-child{background:var(--acc);color:var(--on-acc,#fff)}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.ln>span{transform:none}.rv{opacity:1;transform:none}.clip{clip-path:none}.clip img{transform:none}.hero-img{transform:none}}
+/* Keep real content within its container, including classic-scrollbar viewports. */
+.top,.bar .wrap{flex-wrap:wrap}
+.logo{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.logo:before{flex-shrink:0}.logo span{min-width:0}
+.top .pill,.bar .pill{flex-shrink:0;max-width:100%}
+h1,h2,h3,.phone,address{overflow-wrap:anywhere}
+.cards{grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))}
+@media(max-width:860px){
+html{scroll-padding-top:140px}
+.top,.bar .wrap{gap:10px 16px}.bar .wrap{padding:8px 0}
+.top .logo,.bar .logo{flex:1 1 160px}
+.top .pill,.bar .pill{white-space:nowrap}
+.row h3{font-size:clamp(32px,7vw,60px)}
+.phone{font-size:clamp(26px,7.8vw,64px);letter-spacing:-.035em}
+table{table-layout:fixed;font-size:14px}th{width:40%}td{white-space:normal;overflow-wrap:anywhere}
+.today-tag{display:table;margin:4px 0 0}
+.hero.photo{height:auto;min-height:100svh}.hero.photo .hb{padding-top:40px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.ln>span,.motion-ready:not(.ready) .ln>span{transform:none}.rv,.motion-ready .rv:not(.in){opacity:1;transform:none}.clip,.motion-ready .clip:not(.in){clip-path:none}.clip img{transform:none}.hero-img{transform:none}}
 """
 
 JS = """<script>
 (()=>{
 const root=document.documentElement,reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
 requestAnimationFrame(()=>requestAnimationFrame(()=>root.classList.add('ready')));
+try{
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 // photos wipe in when their block arrives (watch the parent: a fully clipped element never counts as visible)
 const cio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('.clip').forEach(c=>c.classList.add('in'));cio.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.cliphost').forEach(el=>cio.observe(el));
+root.classList.add('motion-ready');
+}catch(e){root.classList.remove('motion-ready')}
 // hero photo eases back on scroll; slim nav bar appears after the hero
 const bar=document.getElementById('bar'),hero=document.querySelector('.hero');let tick=false;
-const upd=()=>{const h=hero.offsetHeight||innerHeight;if(!reduce)root.style.setProperty('--hp',Math.min(scrollY/h,1).toFixed(3));bar.classList.toggle('show',scrollY>h*.8);tick=false};
+const upd=()=>{const h=hero.offsetHeight||innerHeight;if(!reduce)root.style.setProperty('--hp',Math.min(scrollY/h,1).toFixed(3));const show=scrollY>h*.8;
+if(!show&&bar.contains(document.activeElement))document.querySelector('.hero .logo').focus();
+bar.inert=!show;bar.setAttribute('aria-hidden',String(!show));bar.classList.toggle('show',show);tick=false};
 addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});upd();
 // photo follows the pointer over the big service rows (mouse only)
 const fl=document.getElementById('float');
@@ -207,7 +230,7 @@ document.querySelectorAll('.row').forEach((m,n)=>{m.addEventListener('pointerent
 addEventListener('pointermove',e=>{fl.style.setProperty('--fx',Math.min(e.clientX+28,innerWidth-330)+'px');fl.style.setProperty('--fy',(e.clientY-190)+'px')},{passive:true})}
 // footer wordmark always spans the page exactly
 const word=document.querySelector('.word');
-const fit=()=>{if(!word)return;word.style.fontSize='100px';const w=word.firstElementChild.offsetWidth;if(w)word.style.fontSize=Math.min(100*(innerWidth*.955)/w,innerWidth*.3)+'px'};
+const fit=()=>{if(!word)return;word.style.fontSize='100px';const w=word.firstElementChild.offsetWidth;if(w)word.style.fontSize=Math.min(100*(root.clientWidth*.955)/w,root.clientWidth*.3)+'px'};
 fit();addEventListener('resize',fit);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
 // today's hours in the shop's time zone
 const wd=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
@@ -262,7 +285,7 @@ def statement(s):
     sub = f'<p class="sub2 rv">{esc(s["sub"])}</p>' if s.get("sub") else ""
     return f"""<section><div class="wrap">
 <div class="state"><p class="tag lab rv">{esc(s['art'].get('about_label', 'The shop'))}</p><div><h2 class="rv">{esc(s['lede'])}</h2>{sub}</div></div>
-<div class="facts"><div class="rv"><span class="tag lab">Today</span>{today}</div><div class="rv" style="--d:1"><span class="tag lab">Where</span><strong>{s['addr'].replace('<br>', ', ')}</strong></div><div class="rv" style="--d:2"><span class="tag lab">Call</span><strong><a href="tel:{t}">{s['phone']}</a></strong></div></div>
+<div class="facts"><div class="rv"><span class="tag lab">{'Today · call to confirm' if s.get('hours_note') else 'Today'}</span>{today}</div><div class="rv" style="--d:1"><span class="tag lab">Where</span><strong>{s['addr'].replace('<br>', ', ')}</strong></div><div class="rv" style="--d:2"><span class="tag lab">Call</span><strong><a href="tel:{t}">{s['phone']}</a></strong></div></div>
 <div class="cta rv"><a class="pill solid" href="tel:{t}">Call the shop</a><a class="pill" href="{s['maps']}" target="_blank" rel="noopener noreferrer">Get directions</a></div>
 </div></section>"""
 
@@ -325,9 +348,11 @@ def visit(s):
     t = tel(s["phone"])
     if s.get("hours"):
         rows = "".join(f'<tr data-day="{(i + 1) % 7}"><th scope="row">{d}</th><td>{s["hours"][i]}</td></tr>' for i, d in enumerate(DAYS))
-        hrs = f'<span class="tag lab">Hours</span><table>{rows}</table><p class="hol"><strong>Holiday hours.</strong> Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year\'s Day. Call <a href="tel:{t}">{s["phone"]}</a> before you come in.</p>'
+        hrs = f'<span class="tag lab">{"Listed hours · call to confirm" if s.get("hours_note") else "Hours"}</span><table>{rows}</table><p class="hol"><strong>Holiday hours.</strong> Hours can change on holidays, including Veterans Day, Thanksgiving, Christmas and New Year\'s Day. Call <a href="tel:{t}">{s["phone"]}</a> before you come in.</p>'
     else:
         hrs = f'<span class="tag lab">Hours</span><p class="revtxt" style="margin-top:12px">Call <a href="tel:{t}" style="text-decoration:underline;text-underline-offset:5px">{s["phone"]}</a> for current availability and hours.</p>'
+    if s.get("hours_note"):
+        hrs += f'<p class="hol"><strong>Confirm regular hours.</strong> {esc(s["hours_note"])} Call <a href="tel:{t}">{s["phone"]}</a> before travelling.</p>'
     find = f'<p class="find">{esc(s["find"])}</p>' if s.get("find") else ""
     from urllib.parse import quote_plus
     mp = f'<iframe class="map" loading="lazy" title="Map of {esc(s["short"])}" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={quote_plus(s["short"] + ", " + s["addr"].replace("<br>", ", "))}&z=15&output=embed"></iframe>' if s.get("hours") else ""
@@ -346,7 +371,7 @@ def build(folder, s):
     parts = [[statement(s), services(s), about(s), reviews(s)], [statement(s), about(s), services(s, False), reviews(s)], [statement(s), reviews(s), services(s, False), about(s)]][order]
     sections = "\n".join(parts)
     body = f"""<a class="skip" href="#main">Skip to content</a>
-<div class="bar" id="bar"><div class="wrap">{nav(s, 'bar')}</div></div>
+<div class="bar" id="bar" inert aria-hidden="true"><div class="wrap">{nav(s, 'bar')}</div></div>
 {hero(s)}
 <main id="main">
 {sections}
@@ -422,7 +447,7 @@ SITES["tepa-tire"]["lede"] = "New and used tires, flat repair, mounting and bala
 SITES["ac-tires"] = dict(
     art=dict(hero="photo", ink="#101E47", bone="#F3F1EA", acc="#C2261F", star="#F0C24B", h1="10.8vw", svc="index", mark="A C Tires", word="A C Tires", wordsz="19vw"),
     short="A C Tires", kicker="New and used tires · Ontario, California", footer="A C Tires · Ontario, CA",
-    h1=("Flat at 7 PM?", "We're still open."), lede="New and used tires, flat repair and mount-and-balance at the blue shop on California Street. Open until 8 on weeknights, and open Sundays.",
+    h1=("Weeknight flat at 7?", "We're open until 8."), lede="New and used tires, flat repair and mount-and-balance at the blue shop on California Street. Open until 8 on weeknights, and open Sundays.",
     phone="(909) 391-4636", addr="301 W California St<br>Ontario, CA 91762", maps="https://www.google.com/maps/search/?api=1&query=A+C+Tires+301+W+California+St+Ontario+CA+91762", find="Look for the blue building.",
     hours=["8:00 AM – 8:00 PM"] * 5 + ["8:00 AM – 7:00 PM", "8:00 AM – 6:00 PM"],
     ratings=[("4.4", "Google · 324 reviews", "https://www.google.com/maps/search/?api=1&query=A+C+Tires+301+W+California+St+Ontario+CA+91762")],
@@ -585,7 +610,7 @@ SITES["express-transmissions"] = dict(
     ratings=[("4.7", "Google · 48 reviews", GM + "Express+Transmissions+309+E+Mission+Blvd+Pomona+CA")],
     services=[("Drivetrain", [("Transmission repair", "Including rebuilds. Ask for a price before any work starts."), ("Differential service", ""), ("Transfer case repair", ""), ("Diagnostics", "A check-up to find out what the transmission actually needs.")]),
               ("Also", [("Fleet service", "Maintenance for commercial vehicles."), ("Makes", "The listing names Chevrolet, Dodge, Ford, Honda and Toyota.")])],
-    svc_title="Transmissions. Only transmissions.", svc_text="Tell us the vehicle and what it's doing when it shifts.",
+    svc_title="Transmission and drivetrain service.", svc_text="Tell us the vehicle and what it's doing when it shifts.",
     about=dict(title="Ask about the warranty.", text="The shop's listing mentions a three-year, 100,000-mile warranty on transmission work. Ask for the terms when you call."),
     photos=(PX(31097241, 1800), PX(8986100)), alt=("Mechanic working on a wheel in a workshop", "Mechanic working under a car on a lift"),
     track=_y("express-transmission-pomona", [("Aren Y.", "I was referred to Juan by my trusted mechanic and he was responsive…", "-jhN4lnS7AJ9HSVmXJT7WA"), ("Geno F.", "Jaun is a great guy to work with…", "_xJkz94E4x_7Dj_oVHzH4w"), ("Daniel S.", "…they did a great job…", "xi4JSvWLrbribTa5AIwF5A")]),
@@ -648,7 +673,7 @@ mk("auto-technik-carcare", dict(hero="photo", ink="#101820", bone="#F1F3F2", acc
    (8986100, 6870311), "auto-technik-carcare-chino-2", [("Kevin Q.", "WOW, I am truly impressed with the level of care and professionalism…", "dFdgJawgbFzGAWwt7Nz0dg"), ("Ernie B.", "Both owners Sham and Jay are honest hard working…", "p9WMFxunPoWRGrGzyHskbA"), ("Javier J.", "Jay diagnosed the issue…", "R09sCneqUdOiGm-yi05tmw")],
    svc_title="Tell us what it's doing.")
 mk("diamond-auto-center", dict(hero="block", ink="#16131F", bone="#F4F2F7", acc="#4A2FA3", star="#F2C14E", h1="10.6vw", stretch="78%", svc="index", mark="Diamond Auto", word="Diamond", wordsz="21vw"),
-   "Diamond Auto Center", "Auto repair · W California St, Ontario", ("Open seven days.", "Ask for Rick."), "Oil changes, brakes, transmission repair and engine diagnostics on West California Street. Open every day, including Sunday mornings.",
+   "Diamond Auto Center", "Auto repair · W California St, Ontario", ("Need a repair?", "Ask for Rick."), "Oil changes, brakes, transmission repair and engine diagnostics on West California Street. Call to confirm availability, especially on Sundays.",
    "(909) 218-7600", "105 W California St<br>Ontario, CA 91762", "Diamond+Auto+Center+105+W+California+St+Ontario+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 4:00 PM", "9:00 AM – 2:00 PM"), ("4.8", 78),
    [("Everyday", [("Oil changes", ""), ("Brake repairs", ""), ("Tire and wheel maintenance", ""), ("Air conditioning service", "")]), ("Bigger jobs", [("Engine diagnostics", ""), ("Transmission repairs", ""), ("Suspension and steering", "")])],
    (31097241, 6870299), "diamond-auto-center-ontario-5", [("Jasmin C.", "I had such a wonderful experience here!", "dEJqAIVcVqnIaYH-R9HVOQ"), ("Judy V.", "Rick is THE GOAT. Honestly a life saver.", "Y-4Q8jhPQDMO5i68aZBO-Q"), ("Robert17515", "I took my Audi A5 and Rick took care of me.", "lzQo72dgWkOcNuqzoaRtoQ")],
@@ -696,7 +721,7 @@ mk("german-and-japanese-auto-pro", dict(hero="split", ink="#111827", bone="#F3F4
    (6870311, 8985660), "german-and-japanese-auto-pro-upland-12", [("Melanie B.", "Honest mechanic with reasonable prices.", "VWPuEom7e0_4xbiuEAhDxg"), ("Jackie C.", "An honest mechanic that listens to your concerns…", "bACBO0syhMD7pAVVpvWV6A"), ("Craig L.", "…the best mechanic in in town…", "bBFoBUcymzHZrwUXfw__nA")],
    svc_title="Two kinds of car.")
 mk("mendiola-diesel-auto", dict(hero="photo", ink="#17140F", bone="#F4EFE4", acc="#A16207", star="#F5C542", h1="10.4vw", stretch="78%", svc="rows", rowsz="6.4vw", mark="Mendiola Diesel & Auto", word="Mendiola", wordsz="19vw"),
-   "Mendiola Diesel & Auto", "Diesel and auto repair · S Garey Ave, Pomona", ("Diesel or gas.", "Open every day."), "Diesel and auto repair on South Garey Avenue, open seven days a week. Yelp reviewers name Arturo and mention same-day diagnosis.",
+   "Mendiola Diesel & Auto", "Diesel and auto repair · S Garey Ave, Pomona", ("Diesel or gas.", "Call for availability."), "Diesel and auto repair on South Garey Avenue. Call to confirm regular hours. Yelp reviewers name Arturo and mention same-day diagnosis.",
    "(909) 630-1641", "1321 S Garey Ave, Unit C<br>Pomona, CA 91766", "Mendiola+Diesel+%26+Auto+1321+S+Garey+Ave+Pomona+CA", ["8:00 AM – 6:00 PM"] * 7, ("4.8", 58),
    [("", [("Diesel repair", ""), ("Auto repair", ""), ("Diagnosis", "One reviewer was seen the same day.")])],
    (6720519, 8986100), "mendiola-diesel-and-auto-pomona", [("Tanye C.", "PROFESSIONAL SERVICE all around! Arturo is the MAN.", "zlwLwH1AndNsY_HZXgrYvg"), ("Gustavo N.", "Arturo is an excellent mechanic…", "S8uu6nm-8HUwoG0WDyMKuA"), ("Don N.", "Fantastic job Quick response got me in same day…", "nRp1otJEnxAcDLKWS1x53g")])
@@ -723,6 +748,28 @@ mk("auto-repair-foreign-domestic-vw", dict(hero="poster", ink="#0F172A", bone="#
    [("What we work on", [("Foreign vehicles", ""), ("Domestic vehicles", ""), ("Volkswagen", "")]), ("What we do", [("Check-ups", "One reviewer was overdue and had everything looked over."), ("Repairs", "No talking you into work you don't need.")])],
    (31097241, 6870311), "auto-repair-foreign-domestic-and-vw-chino-3", [("Davia C.", "Maha and his team are quick, reliable, and extremely knowledgeable.", "c78DtOxqB9evkFsuXCNKkw"), ("Sylvia M.", "God bless Maha! You are so very patient and kind!", "Lx84XcA8wf3bfNmO8SR3ww"), ("Brandon C.", "Maha is an awesome mechanic…", "l3GByd-GMXFIcqrKHOaHvw")],
    svc_title="Whatever you drive.")
+
+
+# Dated listing disagreements, not owner-confirmed schedules. Used beside the table.
+HOURS_NOTES = {
+    "ceres-collision": "Saved listings disagree on weekday closing: 4:30 or 5 PM.",
+    "express-transmissions": "Saved listings disagree on weekday closing: 5 or 6 PM.",
+    "l-r-auto-repair": "Saved weekday hours are 9 AM–5 PM or 8 AM–6 PM; Saturday is 10 AM–3 PM or 8 AM–4 PM.",
+    "baja-auto-center": "Saved Saturday closing times differ: 1 or 5 PM.",
+    "mendiola-diesel-auto": "Saved daily hours differ: 8 AM–6 PM or 9 AM–7 PM.",
+    "rudys-auto-works-paint": "Saved Saturday closing times differ: noon or 2 PM.",
+    "auto-technik-carcare": "Saved weekday opening times differ: 9 or 9:30 AM. Yelp's full week was not captured.",
+    "diamond-auto-center": "Sunday availability is disputed: one saved listing says closed, another says 9 AM–2 PM.",
+    "molinas-tire-towing": "Saved Monday opening times differ: 7 or 8 AM. Both listings show Saturday 8 AM–6 PM and Sunday opening at 8 AM, but Sunday closing differs: 5 or 6 PM. Weekend hours need confirmation.",
+    "williams-independent-auto": "Saved weekday closing times differ: 5 or 5:30 PM; Saturday closing differs: 2 or 3 PM.",
+    "a-tech-automotive": "Saved weekday closing times differ: 5 or 6 PM; Saturday closing differs: 3 or 4 PM.",
+    "mailos-auto-repair": "The displayed schedule follows the saved Google listing. Yelp shows longer hours; call if coming early or late.",
+}
+for _folder, _note in HOURS_NOTES.items():
+    SITES[_folder]["hours_note"] = _note
+# Do not turn conflicting snapshots into an asserted operating schedule.
+SITES["molinas-tire-towing"]["hours"][5:] = ["Call to confirm", "Call to confirm"]
+SITES["molinas-tire-towing"]["lede"] = SITES["molinas-tire-towing"]["lede"].replace("Open Saturdays.", "Call to confirm weekend hours.")
 
 
 # Photo pass, 2026-11-10: every site gets its own photos, chosen to match the trade and the slot (portrait photos only
@@ -802,3 +849,13 @@ if __name__ == "__main__":
     for folder, s in SITES.items():
         if not only or folder in only:
             build(folder, s)
+
+    if not only or "el-rey-retro-roadside" in only:
+        css, body = L.layout_d(L.SITES["el-rey-retro-roadside"])
+        out = OUT / "el-rey-retro-roadside"
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "index.html").write_text(V.page(
+            L.TITLES["el-rey-retro-roadside"],
+            "El Rey de las Tortas. Big tortas. Al pastor tacos. A salsa bar worth making room for. Find El Rey on Riverside Drive. Concept site.",
+            css, body))
+        print("built el-rey-retro-roadside D")
