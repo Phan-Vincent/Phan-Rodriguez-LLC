@@ -254,3 +254,11 @@ Each site has its own art direction, set in `ART` in `build_flagship.py`:
 Shared behaviour: line-by-line headline reveal, scroll reveals, photo wipe-ins, slim nav bar after the hero, today's hours highlighted, holiday-hours note, giant tap-to-call number, footer wordmark sized by script to span the page, mobile Call / Directions / Hours bar, reduced-motion support. Facts are unchanged from `build_leads.py` / `build_v2.py`; nothing new was claimed. Only A C Tires has per-review links; the others show ratings with a link to the listing and short Google excerpts carried over from Vincent's pages.
 
 Tested with Playwright at 1440 and 390 px: no horizontal overflow, no script errors, all reveals fire. Photos could not be loaded in the test sandbox, so check each live page once after deploy.
+
+## Three more lead sites and a sheet sync (2026-11-10, late)
+
+Vincent's fifth batch, again through `build_leads.py`: Mailo's Auto Repair (split layout, two-column services), Bee Z Auto Care (framed photo layout, accordion) and Quality Auto Complete Auto Repair (poster layout, tabs). These were chosen because the Google Sheet's Status column has them down for calls on Nov 11 and they had no mockup. After rebasing onto the flagship rebuild, `build_leads.py` builds 13 sites (the nine flagship sites and Muffler Doctor are skipped); a rebuild reproduces all 13 byte for byte.
+
+- **Sheet sync:** the Status and Notes entries from the Google Sheet (rows 2 to 20) were copied into `leads/West_IE_No_Website_Leads.xlsx`. The mockup columns could not be written back to the Google Sheet from this session; `leads/google-sheet-paste-L2.tsv` is ready to paste at L2.
+- **Facts and photos:** Google Maps and Yelp, read Nov 10; six Pexels free-license photos. Details in `docs/lead-batch-2026-11-10/BATCH-5.md`.
+- **Checked:** Playwright at 1440px and 390px with real photos: no horizontal overflow, no script errors, one h1, no missing images, no motion under reduced-motion. Not checked: keyboard tab order, physical phone, other browsers.
