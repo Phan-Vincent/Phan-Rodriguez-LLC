@@ -1,0 +1,1306 @@
+{
+ "lockworx": {
+  "row": 3,
+  "sheet_name": "Lockworx Locksmith Services",
+  "sheet_addr": "9035 Sierra Ave",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 494,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJDbCEWZJMw4ARnfN9USwFfDY",
+  "short": "Lockworx Locksmith Services",
+  "phone": "(909) 823-8510",
+  "addr": "9035 Sierra Ave, Fontana, CA 92335",
+  "hours": [
+   "Open 24 hours",
+   "Open 24 hours",
+   "Open 24 hours",
+   "Open 24 hours",
+   "Open 24 hours",
+   "Open 24 hours",
+   "Open 24 hours"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 496 reviews"
+   ]
+  ],
+  "find": "Charcoal brick, black awnings and the yellow key in the window.",
+  "lede": "Home. Vehicle. Commercial. From a spare key to a remote that needs repair, let's get your keys working for you."
+ },
+ "el-rey": {
+  "row": 2,
+  "sheet_name": "El Rey",
+  "sheet_addr": "4547 Riverside Dr",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 2328,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJi0h5Bukyw4ARPfYBcCSu_ng",
+  "short": "El Rey de las Tortas",
+  "phone": "(909) 590-0129",
+  "addr": "4547 Riverside Dr, Chino, CA 91710",
+  "hours": [
+   "7:00 AM – 10:00 PM",
+   "7:00 AM – 10:00 PM",
+   "7:00 AM – 10:00 PM",
+   "7:00 AM – 10:00 PM",
+   "7:00 AM – 11:00 PM",
+   "7:00 AM – 11:00 PM",
+   "7:00 AM – 10:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 2,328 reviews"
+   ]
+  ],
+  "find": "Inside the 7-Eleven. Look for El Rey.",
+  "lede": "Big tortas. Al pastor tacos. A salsa bar worth making room for. Pull up to El Rey on Riverside Drive."
+ },
+ "don-cortez-tires": {
+  "row": 4,
+  "sheet_name": "Don Cortez Tire Shop",
+  "sheet_addr": "9530 Sierra Ave Ste 1",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 362,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ00P9IL5Mw4ARfRyY1IHAtiQ",
+  "short": "Don Cortez Tire Shop",
+  "phone": "(909) 251-4965",
+  "addr": "9530 Sierra Ave, Ste 1, Fontana, CA 92335",
+  "hours": [
+   "8:00 AM – 6:30 PM",
+   "8:00 AM – 6:30 PM",
+   "8:00 AM – 6:30 PM",
+   "8:00 AM – 6:30 PM",
+   "8:00 AM – 6:30 PM",
+   "8:00 AM – 6:30 PM",
+   "8:00 AM – 5:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 362 reviews"
+   ]
+  ],
+  "find": "White storefront with royal blue awnings.",
+  "lede": "New and used tires, custom wheels and everyday tire repairs. Find the blue awnings on Sierra Avenue."
+ },
+ "alejandros-tree-service": {
+  "row": 9,
+  "sheet_name": "Alejandros Tree Service",
+  "sheet_addr": "1073 N Sandalwood Ave",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 188,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ-Qvq36pSw4ARYQYBgJ23ZWU",
+  "short": "Alejandros Tree Service",
+  "phone": "(909) 694-8945",
+  "addr": "Based in Rialto, California",
+  "hours": null,
+  "ratings": [
+   [
+    "4.8",
+    "Google · 188 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "For the palms above your roofline and the trees that make a house feel like home. Talk tree care with Alejandros."
+ },
+ "sinaloa-tires": {
+  "row": 13,
+  "sheet_name": "Sinaloa Tires",
+  "sheet_addr": "1542 S Garey Ave",
+  "sheet_rating": 4.3,
+  "sheet_reviews": 161,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJE8RyfpItw4AR0t5SOjQT4WA",
+  "short": "Sinaloa Tires",
+  "phone": "(909) 620-1199",
+  "addr": "1542 S Garey Ave, Pomona, CA 91766",
+  "hours": [
+   "8:00 AM – 7:00 PM",
+   "8:00 AM – 7:00 PM",
+   "8:00 AM – 7:00 PM",
+   "8:00 AM – 7:00 PM",
+   "8:00 AM – 7:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 3:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.3",
+    "Google · 161 reviews"
+   ]
+  ],
+  "find": "We're in the back. Estamos al fondo. Look for the orange flag at Garey Ave, then follow the driveway to the building.",
+  "lede": "Free air and a free check-engine scan. Aire gratis. Escaneo de check engine gratis."
+ },
+ "king-tire-shop": {
+  "row": 17,
+  "sheet_name": "king tire shop",
+  "sheet_addr": "8939 Rose Ave",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 135,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJa-Q7KXgxw4ARHwzRXWctZbo",
+  "short": "King Tire Shop",
+  "phone": "(909) 952-9219",
+  "addr": "8939 Rose Ave, Montclair, CA 91763",
+  "hours": [
+   "9:00 AM – 9:00 PM",
+   "9:00 AM – 9:00 PM",
+   "9:00 AM – 9:00 PM",
+   "9:00 AM – 9:00 PM",
+   "9:00 AM – 9:00 PM",
+   "9:00 AM – 9:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 135 reviews"
+   ],
+   [
+    "4.3",
+    "Yelp · 59 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Tires, flats, brakes and oil changes on Rose Ave in Montclair. If it's getting close to nine, call first so we know you're coming."
+ },
+ "43s-mufflers-brakes": {
+  "row": 19,
+  "sheet_name": "43's Mufflers & Brakes",
+  "sheet_addr": "1717 and, 1709 W Holt Ave",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 105,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJoTddIX8uw4ARmaMEo3ClnPU",
+  "short": "43's Mufflers & Brakes",
+  "phone": "(909) 868-1997",
+  "addr": "1717 W Holt Ave, Ste 1709, Pomona, CA 91768",
+  "hours": [
+   "9:30 AM – 5:30 PM",
+   "9:30 AM – 5:30 PM",
+   "9:30 AM – 5:30 PM",
+   "9:30 AM – 5:30 PM",
+   "9:30 AM – 5:30 PM",
+   "9:30 AM – 1:30 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 105 reviews"
+   ],
+   [
+    "4.8",
+    "Yelp · 98 reviews"
+   ]
+  ],
+  "find": "In a busy auto plaza. Look for the black and yellow sign.",
+  "lede": "Exhaust is what the sign says and what most people come in for. Tell us the car and what it's doing, and we'll tell you your options before we touch it."
+ },
+ "tepa-tire": {
+  "row": 8,
+  "sheet_name": "Tepa tire & auto care",
+  "sheet_addr": "705 S Mountain Ave",
+  "sheet_rating": 4.6,
+  "sheet_reviews": 205,
+  "maps_link": "https://www.google.com/maps/search/Tepa+tire+%26+auto+care+705+S+Mountain+Ave+Ontario+CA",
+  "short": "Tepa Tire & Auto Care",
+  "phone": "(909) 458-9200",
+  "addr": "705 S Mountain Ave, Ontario, CA 91762",
+  "hours": [
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.6",
+    "Google · 205 reviews"
+   ]
+  ],
+  "find": "Look for the blue-and-white sign, the stacked tires and the red and blue canopies.",
+  "lede": "New and used tires, flat repair, mounting and balancing, and brake work on South Mountain Avenue."
+ },
+ "mailos-auto-repair": {
+  "row": 14,
+  "sheet_name": "Mailo's Auto Repair",
+  "sheet_addr": "16624 Ceres Ave",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 153,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ5VxEL49Mw4AR5_IG_Hl3mB8",
+  "short": "Mailo's Auto Repair",
+  "phone": "(909) 427-9202",
+  "addr": "16624 Ceres Ave, Fontana, CA 92335",
+  "hours": [
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 153 reviews"
+   ],
+   [
+    "4.0",
+    "Yelp · 34 reviews"
+   ]
+  ],
+  "find": "Hours are from the Google listing. Yelp shows longer hours, so call if you are coming early or late.",
+  "lede": "Repairs and maintenance for cars and trucks on Ceres Avenue in Fontana. Open Monday to Saturday."
+ },
+ "bee-z-auto-care": {
+  "row": 15,
+  "sheet_name": "Bee Z Auto Care",
+  "sheet_addr": "231 E Arrow Hwy",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 145,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJOYpLOFIxw4ARO9_dNXXGAfE",
+  "short": "Bee Z Auto Care",
+  "phone": "(909) 982-4321",
+  "addr": "231 E Arrow Hwy, Upland, CA 91786",
+  "hours": [
+   "7:30 AM – 5:00 PM",
+   "7:30 AM – 5:00 PM",
+   "7:30 AM – 5:00 PM",
+   "7:30 AM – 5:00 PM",
+   "7:30 AM – 5:00 PM",
+   "7:30 AM – 12:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 145 reviews"
+   ],
+   [
+    "4.3",
+    "Yelp · 82 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Maintenance and repair for domestic and foreign vehicles on Arrow Highway in Upland. Open from 7:30, six days a week."
+ },
+ "quality-auto-complete-auto-repair": {
+  "row": 16,
+  "sheet_name": "Quality Auto Complete Auto Repair",
+  "sheet_addr": "8160 Masi Dr B",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 142,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJJfFzHwhKw4ARaWfoTyVxYa4",
+  "short": "Quality Auto Complete Auto Repair",
+  "phone": "(909) 466-1919",
+  "addr": "8160 Masi Dr, Unit B, Rancho Cucamonga, CA 91730",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 2:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 142 reviews"
+   ],
+   [
+    "4.1",
+    "Yelp · 151 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Complete auto repair in Rancho Cucamonga, from smog problems and brakes to clutches and transmissions."
+ },
+ "county-brake-alignment": {
+  "row": 23,
+  "sheet_name": "County Brake, Alignment & Mufflers Plus",
+  "sheet_addr": "10602 Ramona Ave",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 100,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJzUVUVjkyw4ARXDkBkT5QS1E",
+  "short": "County Brake, Alignment & Mufflers Plus",
+  "phone": "(909) 482-0594",
+  "addr": "10602 Ramona Ave, Montclair, CA 91763",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 4:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 101 reviews"
+   ],
+   [
+    "4.1",
+    "Yelp · 28 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Brakes, wheel alignment and mufflers on Ramona Avenue in Montclair. Tell us what the car is doing and we'll put it on the rack."
+ },
+ "jc-bumper-repair": {
+  "row": 24,
+  "sheet_name": "JC Bumper Repair",
+  "sheet_addr": "16620 Ceres Ave",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 98,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ5bfdVI9Mw4ARKRAh9g8SGhA",
+  "short": "JC Bumper Repair & Auto Body",
+  "phone": "(909) 349-0343",
+  "addr": "16620 Ceres Ave, Suite 6, Fontana, CA 92335",
+  "hours": [
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "10:30 AM – 2:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.9",
+    "Yelp · 32 reviews"
+   ],
+   [
+    "4.7",
+    "Google · 98 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Bumper repair and body work in Fontana. Have your year, make and model handy, and tell us which bumper and what happened to it. A photo helps when you come by."
+ },
+ "with-pride-auto-air": {
+  "row": 25,
+  "sheet_name": "With Pride Auto Air Conditioning",
+  "sheet_addr": "5438 Holt Blvd Unit F3",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 97,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJgTzNvLgzw4ARj-hlHKxZMHA",
+  "short": "With Pride Auto Air",
+  "phone": "(909) 391-4894",
+  "addr": "5438 Holt Blvd, Unit F3, Montclair, CA 91763",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "9:00 AM – 3:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 97 reviews"
+   ]
+  ],
+  "find": "In the red building at 5438 Holt Blvd.",
+  "lede": "Car air conditioning, diagnosed and repaired in Montclair by a family shop that has been at it for more than 40 years."
+ },
+ "performance-lube-oil": {
+  "row": 32,
+  "sheet_name": "Performance Lube & Oil",
+  "sheet_addr": "5288 Riverside Dr",
+  "sheet_rating": 4.3,
+  "sheet_reviews": 87,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJYTMFBSAzw4ARv1dQwxuQ93w",
+  "short": "Performance Lube & Oil",
+  "phone": "(909) 364-1197",
+  "addr": "5288 Riverside Dr, Chino, CA 91710",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.3",
+    "Google · 87 reviews"
+   ],
+   [
+    "4.2",
+    "Yelp · 129 reviews"
+   ]
+  ],
+  "find": "Behind the Chevron.",
+  "lede": "Open every day, 8 AM to 5 PM. A free complete car wash comes with every service. Ask about rainy days."
+ },
+ "j-s-auto-center-smog": {
+  "row": 33,
+  "sheet_name": "J & S Auto Center & SMOG",
+  "sheet_addr": "8807 Sierra Ave",
+  "sheet_rating": 4.9,
+  "sheet_reviews": 85,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJP4wlU4xMw4ARA6TRFE9OOAA",
+  "short": "J & S Auto Center & Smog",
+  "phone": "(909) 822-3055",
+  "addr": "8807 Sierra Ave, Fontana, CA 92335",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.9",
+    "Google · 85 reviews"
+   ],
+   [
+    "4.4",
+    "Yelp · 25 reviews"
+   ]
+  ],
+  "find": "Same lot as the J & S service station.",
+  "lede": "Smog checks, oil changes and repairs on Sierra Avenue in Fontana. Open Monday to Saturday, 8 to 5."
+ },
+ "jc-auto-electric": {
+  "row": 36,
+  "sheet_name": "J C Auto Electric",
+  "sheet_addr": "10640 Ramona Ave",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 83,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJTwxtRDkyw4ARh9qPaR4hI78",
+  "short": "J C Auto Electric",
+  "phone": "(909) 625-9181",
+  "addr": "10640 Ramona Ave, Montclair, CA 91763",
+  "hours": [
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 4:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 83 reviews"
+   ],
+   [
+    "4.2",
+    "Yelp · 12 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Starting, charging, wiring, gauges and air conditioning. The fault gets tested before anything gets replaced."
+ },
+ "diesel-injection-service": {
+  "row": 37,
+  "sheet_name": "Diesel Injection Service",
+  "sheet_addr": "8482 Cherry Ave",
+  "sheet_rating": 4.9,
+  "sheet_reviews": 83,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJh80U4vas3IARpsO2JQ9naBA",
+  "short": "Diesel Injection Service",
+  "phone": "(909) 885-0590",
+  "addr": "8482 Cherry Ave, Fontana, CA 92335",
+  "hours": [
+   "7:00 AM – 5:00 PM",
+   "7:00 AM – 5:00 PM",
+   "7:00 AM – 5:00 PM",
+   "7:00 AM – 5:00 PM",
+   "7:00 AM – 5:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.9",
+    "Google · 83 reviews"
+   ],
+   [
+    "4.6",
+    "Yelp · 39 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Half the work arrives as a part, the other half drives in. Either way, the fault gets found before anything gets replaced."
+ },
+ "toy-shop-transmissions": {
+  "row": 46,
+  "sheet_name": "Toy Shop Transmissions",
+  "sheet_addr": "1292 E 3rd St",
+  "sheet_rating": 4.9,
+  "sheet_reviews": 67,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ8dAZuA4yw4AR26MDptdAzd8",
+  "short": "Toy Shop Transmissions",
+  "phone": "(909) 620-5849",
+  "addr": "1292 E 3rd St, Pomona, CA 91766",
+  "hours": [
+   "9:00 AM – 6:00 PM",
+   "9:00 AM – 6:00 PM",
+   "9:00 AM – 6:00 PM",
+   "9:00 AM – 6:00 PM",
+   "9:00 AM – 6:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.9",
+    "Google · 67 reviews"
+   ],
+   [
+    "4.9",
+    "Yelp · 36 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Transmissions and differentials for hot rods, customs and the car you drive to work."
+ },
+ "hocks-japanese-car-specialists": {
+  "row": 50,
+  "sheet_name": "Hock's Japanese Car Specialists",
+  "sheet_addr": "45 Rio Rancho Rd Ste 2b",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 64,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJr0RSDpotw4AR8Vp8qg1ytFg",
+  "short": "Hock's Japanese Car Specialists",
+  "phone": "(909) 620-9761",
+  "addr": "45 Rio Rancho Rd, Ste 2B, Pomona, CA 91766",
+  "hours": [
+   "Closed",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 4:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 64 reviews"
+   ],
+   [
+    "4.6",
+    "Yelp · 106 reviews"
+   ]
+  ],
+  "find": "Inside the Rio Rancho Towne Center. Closed Sunday and Monday.",
+  "lede": "A family owned and operated shop for Japanese makes, from oil changes to engine work. Open Tuesday to Saturday in the Rio Rancho Towne Center."
+ },
+ "ac-tires": {
+  "row": 6,
+  "sheet_name": "A C Tires",
+  "sheet_addr": "301 W California St",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 322,
+  "maps_link": "https://www.google.com/maps/search/A+C+Tires+301+W+California+St+Ontario+CA",
+  "short": "A C Tires",
+  "phone": "(909) 391-4636",
+  "addr": "301 W California St, Ontario, CA 91762",
+  "hours": [
+   "8:00 AM – 8:00 PM",
+   "8:00 AM – 8:00 PM",
+   "8:00 AM – 8:00 PM",
+   "8:00 AM – 8:00 PM",
+   "8:00 AM – 8:00 PM",
+   "8:00 AM – 7:00 PM",
+   "8:00 AM – 6:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 324 reviews"
+   ]
+  ],
+  "find": "Look for the blue building.",
+  "lede": "New and used tires, flat repair and mount-and-balance at the blue shop on California Street. Open until 8 on weeknights, and open Sundays."
+ },
+ "basic-auto-repair": {
+  "row": 18,
+  "sheet_name": "Basic Auto Repair",
+  "sheet_addr": "803 E Holt Blvd",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 115,
+  "maps_link": "https://www.google.com/maps/search/Basic+Auto+Repair+803+E+Holt+Blvd+Ontario+CA",
+  "short": "Basic Auto Repair",
+  "phone": "(909) 984-8011",
+  "addr": "803 E Holt Blvd, Ontario, CA 91764",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 1:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 115 reviews"
+   ]
+  ],
+  "find": "New location. Older listings still show 810 E Holt Blvd; the shop is at 803.",
+  "lede": "Full-service auto repair on East Holt Boulevard, serving Ontario since 1995. Smog inspection, brakes, tune-ups and routine maintenance."
+ },
+ "a-tech-automotive": {
+  "row": 20,
+  "sheet_name": "A Tech Automotive",
+  "sheet_addr": "12365 Central Ave Unit a",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 104,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ3dcN-h0zw4ARfcyIAiZoHtA",
+  "short": "A Tech Automotive",
+  "phone": "(909) 590-0123",
+  "addr": "12365 Central Ave, Unit A, Chino, CA 91710",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 3:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 104 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair and maintenance on Central Avenue in Chino. Several Google reviewers say they have been coming back for ten years or more."
+ },
+ "johns-auto-repair": {
+  "row": 28,
+  "sheet_name": "John's Auto Repair - BMW, Mercedes Benz And Mini Cooper Experts",
+  "sheet_addr": "16566 Ceres Ave Unit 1 and 2",
+  "sheet_rating": 4.6,
+  "sheet_reviews": 93,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ8R5BUo9Mw4ARbQlHoVvvNcA",
+  "short": "John's Auto Repair",
+  "phone": "(909) 822-5606",
+  "addr": "16566 Ceres Ave, Unit 1 and 2, Fontana, CA 92335",
+  "hours": [
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "9:00 AM – 5:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.6",
+    "Google · 93 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "A family-owned shop on Ceres Avenue that focuses on BMW, Mercedes-Benz and Mini Cooper. Clear explanations and accurate quotes before the work starts."
+ },
+ "ceres-collision": {
+  "row": 65,
+  "sheet_name": "Ceres Collision",
+  "sheet_addr": "16616 Ceres Ave",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 50,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJhTt_N49Mw4ARSiqpfdcYSuI",
+  "short": "Ceres Collision",
+  "phone": "(909) 251-4447",
+  "addr": "16616 Ceres Ave, #1, Fontana, CA 92335",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 50 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto body and collision repair on Ceres Avenue. The shop says it has served the community for 20 years and can answer questions about your insurance claim."
+ },
+ "prime-truck-trailer-repair": {
+  "row": 22,
+  "sheet_name": "Prime Truck and Trailer Repair",
+  "sheet_addr": "9978 Cherry Ave",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 102,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ8UU9_RlLw4ARiU6R4-NtTVs",
+  "short": "Prime Truck and Trailer Repair",
+  "phone": "(909) 644-3029",
+  "addr": "9978 Cherry Ave, Fontana, CA 92335",
+  "hours": [
+   "8:30 AM – 6:00 PM",
+   "8:30 AM – 6:00 PM",
+   "8:30 AM – 6:00 PM",
+   "8:30 AM – 6:00 PM",
+   "8:30 AM – 6:00 PM",
+   "8:30 AM – 3:30 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 102 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Truck and trailer repair in Fontana, from alignments and suspension to engine rebuilds. Owner-operators welcome."
+ },
+ "freddies-auto-repair": {
+  "row": 41,
+  "sheet_name": "Freddie's Auto Repair",
+  "sheet_addr": "915 E Mission Blvd",
+  "sheet_rating": 4.6,
+  "sheet_reviews": 71,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJXer9vfstw4AR_U2qoo0mLKU",
+  "short": "Freddie's Auto Repair",
+  "phone": "(909) 622-7216",
+  "addr": "915 E Mission Blvd, Pomona, CA 91766",
+  "hours": [
+   "8:30 AM – 5:00 PM",
+   "8:30 AM – 5:00 PM",
+   "8:30 AM – 5:00 PM",
+   "8:30 AM – 5:00 PM",
+   "8:30 AM – 5:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.6",
+    "Google · 71 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair and oil changes on East Mission Boulevard. Customers on Yelp keep using the same two words: honest and knowledgeable."
+ },
+ "bates-auto-service": {
+  "row": 43,
+  "sheet_name": "Bates Auto Service",
+  "sheet_addr": "958 W 9th St",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 69,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJU0AvGl0xw4ARVGttWW4vUIk",
+  "short": "Bates Auto Service",
+  "phone": "(909) 949-7984",
+  "addr": "958 W 9th St, Upland, CA 91786",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 69 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair on West 9th Street in Upland. Yelp reviewers mention quick turnaround, competitive pricing and Henry, who they keep coming back to."
+ },
+ "express-transmissions": {
+  "row": 67,
+  "sheet_name": "Express Transmissions",
+  "sheet_addr": "309 E Mission Blvd",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 48,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJ79Z7P_Atw4AR4q_hVWQmxmw",
+  "short": "Express Transmissions",
+  "phone": "(909) 469-2282",
+  "addr": "309 E Mission Blvd, Pomona, CA 91766",
+  "hours": [
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 2:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 48 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "A family-owned transmission shop on East Mission Boulevard. Transmission repair, differentials, transfer cases and diagnostics, plus fleet service."
+ },
+ "menas-brake-suspension": {
+  "row": 68,
+  "sheet_name": "Menas Brake & Suspension",
+  "sheet_addr": "646 E Holt Blvd",
+  "sheet_rating": 4.6,
+  "sheet_reviews": 47,
+  "maps_link": "https://www.google.com/maps/search/Menas+Brake+%26+Suspension+646+E+Holt+Blvd+Ontario+CA",
+  "short": "Menas Brake & Suspension",
+  "phone": "(909) 933-9131",
+  "addr": "646 E Holt Blvd, Ontario, CA 91761",
+  "hours": [
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 5:30 PM",
+   "8:00 AM – 1:30 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.6",
+    "Google · 47 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Brake service and suspension on East Holt Boulevard, plus diagnostics, tune-ups, oil changes and engine and transmission work."
+ },
+ "the-auto-clinic": {
+  "row": 56,
+  "sheet_name": "The Auto Clinic",
+  "sheet_addr": "5530 Schaefer Ave Ste A",
+  "sheet_rating": 4.9,
+  "sheet_reviews": 55,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJg_2TDywzw4AR1zGx83ina-c",
+  "short": "The Auto Clinic",
+  "phone": "(909) 628-6796",
+  "addr": "5530 Schaefer Ave, Ste A, Chino, CA 91710",
+  "hours": [
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.9",
+    "Google · 55 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair and oil changes on Schaefer Avenue in Chino. Yelp reviewers describe Marcos as knowledgeable, honest and willing to explain."
+ },
+ "auto-technik-carcare": {
+  "row": 35,
+  "sheet_name": "Auto Technik Carcare",
+  "sheet_addr": "5260 Las Flores Dr Suite A and B",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 83,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJB2PwZt_M3IARclWBT1Z9eqs",
+  "short": "Auto Technik Carcare",
+  "phone": "(909) 393-2679",
+  "addr": "5260 Las Flores Dr, Ste A & B, Chino, CA 91710",
+  "hours": [
+   "9:30 AM – 6:00 PM",
+   "9:30 AM – 6:00 PM",
+   "9:30 AM – 6:00 PM",
+   "9:30 AM – 6:00 PM",
+   "9:30 AM – 6:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 83 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "An independent auto repair shop on Las Flores Drive. Yelp reviewers name the owners, Sham and Jay, and describe careful diagnosis and honest work."
+ },
+ "diamond-auto-center": {
+  "row": 38,
+  "sheet_name": "Diamond Auto Center / Propane",
+  "sheet_addr": "105 W California St",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 78,
+  "maps_link": "https://www.google.com/maps/search/Diamond+Auto+Center+%2F+Propane+105+W+California+St+Ontario+CA",
+  "short": "Diamond Auto Center",
+  "phone": "(909) 218-7600",
+  "addr": "105 W California St, Ontario, CA 91762",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 4:00 PM",
+   "9:00 AM – 2:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 78 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Oil changes, brakes, transmission repair and engine diagnostics on West California Street. Open every day, including Sunday mornings."
+ },
+ "claremont-auto-care": {
+  "row": 39,
+  "sheet_name": "Claremont Auto Care",
+  "sheet_addr": "3624 Lynoak Dr",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 75,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJh4-D9youw4ARp9kTjfmPLd8",
+  "short": "Claremont Auto Care",
+  "phone": "(909) 621-3872",
+  "addr": "3624 Lynoak Dr, Pomona, CA 91767",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 75 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Oil changes, smog tests and general repairs on Lynoak Drive, with mechanics who explain the work before they do it."
+ },
+ "l-r-auto-repair": {
+  "row": 40,
+  "sheet_name": "L & R Auto Repair",
+  "sheet_addr": "504 W Holt Blvd",
+  "sheet_rating": 4.4,
+  "sheet_reviews": 72,
+  "maps_link": "https://www.google.com/maps/search/L+%26+R+Auto+Repair+504+W+Holt+Blvd+Ontario+CA",
+  "short": "L & R Auto Repair",
+  "phone": "(909) 972-8883",
+  "addr": "504 W Holt Blvd, Ontario, CA 91762",
+  "hours": [
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 4:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.4",
+    "Google · 72 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Brake repair, tune-ups, axles, shocks, struts and timing belts on West Holt Boulevard. Open Saturdays."
+ },
+ "baja-auto-center": {
+  "row": 42,
+  "sheet_name": "Baja Auto Center Smog & Lamp",
+  "sheet_addr": "817 E Holt Blvd Ste #B",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 70,
+  "maps_link": "https://www.google.com/maps/search/Baja+Auto+Center+Smog+%26+Lamp+817+E+Holt+Blvd+Ste+%23B+Ontario+CA",
+  "short": "Baja Auto Center Smog & Lamp",
+  "phone": "(909) 986-7172",
+  "addr": "817 E Holt Blvd, Ste B, Ontario, CA 91761",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 1:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 70 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "California smog checks and vehicle safety inspections on East Holt Boulevard, plus oil changes and diagnostics."
+ },
+ "ie-automotive": {
+  "row": 49,
+  "sheet_name": "I.E Automotive",
+  "sheet_addr": "628 S Bon View Ave",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 65,
+  "maps_link": "https://www.google.com/maps/search/I.E+Automotive+628+S+Bon+View+Ave+Ontario+CA",
+  "short": "I.E Automotive",
+  "phone": "(909) 538-4789",
+  "addr": "628 S Bon View Ave, Unit B, Ontario, CA 91761",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 3:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 65 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair on South Bon View Avenue. One Yelp reviewer says they have been going to Ricky and his team for close to 20 years."
+ },
+ "v-tech-auto-care": {
+  "row": 60,
+  "sheet_name": "V Tech Auto Care Inc",
+  "sheet_addr": "45 Rio Rancho Rd 2 C",
+  "sheet_rating": 4.7,
+  "sheet_reviews": 50,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJqdRbBJotw4ARWP_QOTXwcx0",
+  "short": "V Tech Auto Care",
+  "phone": "(909) 620-1660",
+  "addr": "45 Rio Rancho Rd, Ste 2 C, Pomona, CA 91766",
+  "hours": [
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 3:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 3:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 2:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.7",
+    "Google · 50 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair and air conditioning work on Rio Rancho Road. Yelp reviewers say they came after a dealer quote and stayed."
+ },
+ "japanese-auto-tech": {
+  "row": 69,
+  "sheet_name": "Japanese Auto Tech",
+  "sheet_addr": "259 E Arrow Hwy A",
+  "sheet_rating": 4.6,
+  "sheet_reviews": 46,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJP9l7SFIxw4ARpWxYjkqVK_w",
+  "short": "Japanese Auto Tech",
+  "phone": "(909) 949-3011",
+  "addr": "259 E Arrow Hwy, Ste A, Upland, CA 91786",
+  "hours": [
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 4:00 PM",
+   "8:00 AM – 12:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.6",
+    "Google · 46 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "An auto repair shop on East Arrow Highway. Yelp reviewers call it honest, reliable and quick to find the problem."
+ },
+ "german-and-japanese-auto-pro": {
+  "row": 52,
+  "sheet_name": "German and Japanese Auto Repair",
+  "sheet_addr": "825 N Central Ave Ste E",
+  "sheet_rating": 4.9,
+  "sheet_reviews": 60,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJGfBDnAoxw4ARLvdtUj-nOXo",
+  "short": "German and Japanese Auto Pro",
+  "phone": "(909) 587-9394",
+  "addr": "825 N Central Ave, Ste E, Upland, CA 91786",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "Closed",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.9",
+    "Google · 60 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Service and repair for German and Japanese cars on North Central Avenue. Yelp reviewers mention a Mercedes, a Honda and an Audi A3."
+ },
+ "mendiola-diesel-auto": {
+  "row": 53,
+  "sheet_name": "Mendiola Diesel & Auto Service",
+  "sheet_addr": "1321 S Garey Ave Unit C",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 58,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJUUy4o00tw4ARISSFhnCj5RU",
+  "short": "Mendiola Diesel & Auto",
+  "phone": "(909) 630-1641",
+  "addr": "1321 S Garey Ave, Unit C, Pomona, CA 91766",
+  "hours": [
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 58 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Diesel and auto repair on South Garey Avenue, open seven days a week. Yelp reviewers name Arturo and mention same-day diagnosis."
+ },
+ "molinas-tire-towing": {
+  "row": 55,
+  "sheet_name": "Molinas Tire & Towing",
+  "sheet_addr": "1558 W Mission Blvd",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 58,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJTbMxktAtw4AR3S2tKa8zDsk",
+  "short": "Molina's Tire & Towing",
+  "phone": "(909) 620-5528",
+  "addr": "1558 W Mission Blvd, Pomona, CA 91766",
+  "hours": [
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 6:00 PM",
+   "8:00 AM – 4:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 58 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "New and used tires, flat repair and patching, and towing on West Mission Boulevard. Open Saturdays."
+ },
+ "williams-independent-auto": {
+  "row": 57,
+  "sheet_name": "Williams Independent Auto Repair & Smog",
+  "sheet_addr": "9435 Sierra Ave",
+  "sheet_rating": 4.5,
+  "sheet_reviews": 54,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJYXyFopVMw4ARaH4GFxbJJIc",
+  "short": "Williams Independent Auto Repair & Smog",
+  "phone": "(909) 428-6805",
+  "addr": "9435 Sierra Ave, Fontana, CA 92335",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 2:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.5",
+    "Google · 54 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Independent auto repair and smog on Sierra Avenue in Fontana. Open weekdays and Saturday mornings."
+ },
+ "rudys-auto-works-paint": {
+  "row": 59,
+  "sheet_name": "Rudy's Auto Works and Paint",
+  "sheet_addr": "14597 Arrow Route",
+  "sheet_rating": 4.8,
+  "sheet_reviews": 51,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJB1fcDWRMw4AR5GHmbQe8ujA",
+  "short": "Rudy's Auto Works and Paint",
+  "phone": "(909) 437-0649",
+  "addr": "14597 Arrow Route, Fontana, CA 92335",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "9:00 AM – 2:00 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.8",
+    "Google · 51 reviews"
+   ]
+  ],
+  "find": "Reviewers say the shop can be hard to find. Call if you can't spot it.",
+  "lede": "Auto body repair, painting and fender work in Fontana. Yelp reviewers mention a full repaint of a 1970 Chevelle and classic restoration."
+ },
+ "auto-repair-foreign-domestic-vw": {
+  "row": 27,
+  "sheet_name": "Auto Repair Foreign Domestic",
+  "sheet_addr": "12949 Central Ave",
+  "sheet_rating": 4.3,
+  "sheet_reviews": 94,
+  "maps_link": "https://www.google.com/maps/place/?q=place_id:ChIJEeV9FiAzw4ARkg-Lx_k7VWw",
+  "short": "Auto Repair Foreign Domestic & VW",
+  "phone": "(909) 627-5018",
+  "addr": "12949 Central Ave, Chino, CA 91710",
+  "hours": [
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 5:00 PM",
+   "8:00 AM – 1:30 PM",
+   "Closed"
+  ],
+  "ratings": [
+   [
+    "4.3",
+    "Google · 94 reviews"
+   ]
+  ],
+  "find": null,
+  "lede": "Auto repair for foreign and domestic vehicles on Central Avenue in Chino. Yelp reviewers name Maha and call him patient, quick and honest."
+ }
+}
