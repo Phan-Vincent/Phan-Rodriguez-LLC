@@ -225,3 +225,32 @@ Vincent's fourth lead batch went into `build_leads.py` instead of hand-built pag
 - **Facts:** read from each shop's Google Maps and Yelp pages on Nov 10; details and open questions are in `docs/lead-batch-2026-11-10/BATCH-4.md`. No review quotes or staff names.
 - **Photos:** six Pexels free-license stock images, picked from a contact sheet. One with a visible car-maker badge was swapped out.
 - **Checked:** Playwright at 1440px and 390px with the real photos loading: no horizontal overflow, no script errors, one h1, no missing images, no motion under reduced-motion. Not checked: keyboard tab order, physical phone, other browsers.
+
+
+## 2026-11-10 — Lead sheet cleanup and flagship rebuild
+
+**Removed (lead sheet status "not interested"):** Tri Auto, Moreno's Auto Repair, Muffler Doctor. Their folders, landing cards and README rows are gone; the generators skip them. ROYSAUTOREPAIR IN UPLAND and RC Auto concept also declined but never had a site.
+
+**Still in play, rebuilt by `tools/auto-shop-generator/build_flagship.py`:** Lockworx (gave an email), El Rey, Don Cortez, A C Tires, Alejandros Tree Service, Sinaloa Tires, King Tire Shop, 43's Mufflers & Brakes, Tepa Tire.
+
+**On the call list with no site yet (need research first):** Mailo's Auto Repair, Bee Z Auto Care, Quality Auto Complete Auto Repair, Basic Auto Repair, A Tech Automotive.
+
+**Design direction** (from Andrew's Awwwards captures and the honoree sites we could open): giant tight uppercase grotesk headlines mixed with serif italic, one idea per screen, image cards with small captions, almost no decoration. Fonts are Archivo (variable width) and Instrument Serif, self-hosted in each site's `fonts/` folder (SIL OFL).
+
+Each site has its own art direction, set in `ART` in `build_flagship.py`:
+
+| Site | Hero | Type | Palette | Services |
+|---|---|---|---|---|
+| lockworx | split (type left, photo right) | wide caps | charcoal, blue, key yellow | grouped index on dark |
+| el-rey | colour block with tilted photo card | condensed caps | red, navy, gold | giant menu rows with cursor photo |
+| don-cortez-tires | centred poster over photo card | wide caps | royal blue | index on dark |
+| alejandros-tree-service | split | serif display | forest green | giant serif rows |
+| sinaloa-tires | colour block | wide caps | orange, charcoal | index on dark |
+| king-tire-shop | full photo | condensed caps | night navy, red | index on dark |
+| 43s-mufflers-brakes | centred poster | wide caps | black, rust, yellow | index on dark |
+| tepa-tire | split | condensed caps | cobalt, orange | giant rows |
+| ac-tires | full photo | wide caps | navy, red | index, linked review carousel |
+
+Shared behaviour: line-by-line headline reveal, scroll reveals, photo wipe-ins, slim nav bar after the hero, today's hours highlighted, holiday-hours note, giant tap-to-call number, footer wordmark sized by script to span the page, mobile Call / Directions / Hours bar, reduced-motion support. Facts are unchanged from `build_leads.py` / `build_v2.py`; nothing new was claimed. Only A C Tires has per-review links; the others show ratings with a link to the listing and short Google excerpts carried over from Vincent's pages.
+
+Tested with Playwright at 1440 and 390 px: no horizontal overflow, no script errors, all reveals fire. Photos could not be loaded in the test sandbox, so check each live page once after deploy.

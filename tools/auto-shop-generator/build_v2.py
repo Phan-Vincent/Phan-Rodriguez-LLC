@@ -472,8 +472,8 @@ SITES = {
 if __name__ == "__main__":
     OUT = pathlib.Path(sys.argv[1])
     for folder, args in SITES.items():
-        if folder == "tri-auto":
-            continue  # Tri Auto is hand-designed: see build_tri.py
+        if folder in ("tri-auto", "morenos-auto-repair", "ac-tires"):
+            continue  # Tri Auto and Moreno's declined (sites removed 2026-11-10); A C Tires is built by build_flagship.py
         (OUT / folder).mkdir(parents=True, exist_ok=True)
         (OUT / folder / "index.html").write_text(page(*args))
         print("built", folder)

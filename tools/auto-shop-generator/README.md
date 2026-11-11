@@ -19,3 +19,8 @@ python3 tools/auto-shop-generator/build_v2.py mockups
 
 - `build_tri.py` builds Tri Auto on its own. That page is hand-designed and is skipped by `build_v2.py`.
 - `build_leads.py` now has six layouts (A split, B banner, C profile, D poster, E framed photo, F service desk) and per-site service displays (`svc_mode`).
+
+
+## build_flagship.py (current, 2026-11-10)
+
+Builds the nine leads still in play with per-site art direction (`ART` dict). Run `python3 tools/auto-shop-generator/build_flagship.py mockups [folder ...]`. Facts come from `build_leads.SITES`; A C Tires is defined in the file. Fonts are copied from `tools/auto-shop-generator/fonts/`. `build_leads.py` and `build_v2.py` skip these folders.

@@ -16,11 +16,8 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `el-rey-retro-roadside/` | El Rey, alternate "Retro Roadside" concept (see its `DESIGN.md`) | Chino |
 | `lockworx/` | Lockworx Locksmith Services | Fontana |
 | `don-cortez-tires/` | Don Cortez Tire Shop | Fontana |
-| `tri-auto/` | Tri Auto (Toyota, Honda and Lexus repair) | Chino |
 | `ac-tires/` | A C Tires (tire shop) | Ontario |
-| `morenos-auto-repair/` | Moreno's Auto Repair LLC | Ontario |
 | `tepa-tire/` | Tepa Tire & Auto Care — Work Order | Ontario |
-| `muffler-doctor/` | Muffler Doctor — Under the Lift | Montclair |
 | `alejandros-tree-service/` | Alejandros Tree Service — Canopy Light | Rialto (Maps; lead-sheet area estimates Fontana) |
 | `43s-mufflers-brakes/` | 43's Mufflers & Brakes — The Sign Out Front | Pomona |
 | `sinaloa-tires/` | Sinaloa Tires — La Bandera | Pomona |
