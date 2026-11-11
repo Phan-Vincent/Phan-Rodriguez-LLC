@@ -619,6 +619,69 @@ SITES["the-auto-clinic"] = dict(
 )
 
 
+# Batch 9, researched 2026-11-10 the same way as batch 8 (MapQuest listing in a browser; phone matches the lead sheet;
+# Google rating and count from the lead sheet). mk() keeps these entries short.
+_ALT = {8986100: "Mechanic working under a car on a lift", 6870299: "Close-up of a brake rotor being inspected", 8985660: "Mechanic rolling a tire beside a car on a lift",
+        31097241: "Mechanic working on a wheel in a workshop", 6870311: "Mechanic inspecting a tire in a workshop"}
+
+
+def mk(folder, art, short, kicker, h1, lede, phone, addr, q, hours, rating, services, ph, yelp_biz=None, revs=(), **extra):
+    link = GM + q
+    s = dict(art=art, short=short, kicker=kicker, footer=f"{short} · {addr.split('<br>')[1].split(',')[0]}, CA", h1=h1, lede=lede, phone=phone, addr=addr, maps=link,
+             hours=hours, ratings=[(rating[0], f"Google · {rating[1]} reviews", link)], services=services,
+             photos=(PX(ph[0], 1800), PX(ph[1])), alt=(_ALT[ph[0]], _ALT[ph[1]]), **extra)
+    if revs:
+        s["track"], s["extra_js"] = _y(yelp_biz, revs), V.CAROUSEL_JS
+    else:
+        s.setdefault("rev_text", f"Rated {rating[0]} on Google. Open the listing to read what customers wrote.")
+    SITES[folder] = s
+
+
+def wkh(mf, sat="Closed", sun="Closed"):
+    return [mf] * 5 + [sat, sun]
+
+
+mk("auto-technik-carcare", dict(hero="photo", ink="#101820", bone="#F1F3F2", acc="#0B6E99", star="#F0B93A", h1="10vw", stretch="84%", svc="index", mark="Auto Technik", word="Technik", wordsz="22vw"),
+   "Auto Technik Carcare", "Auto repair · Las Flores Dr, Chino", ("The small shop", "that explains it."), "An independent auto repair shop on Las Flores Drive. Yelp reviewers name the owners, Sham and Jay, and describe careful diagnosis and honest work.",
+   "(909) 393-2679", "5260 Las Flores Dr, Ste A & B<br>Chino, CA 91710", "Auto+Technik+Carcare+5260+Las+Flores+Dr+Chino+CA", wkh("9:30 AM – 6:00 PM"), ("4.8", 83),
+   [("", [("Diagnosis", "Rough idle, warning lights, a noise you can't place. Start by describing it."), ("Repairs", "Reviewers mention work a dealer had quoted first."), ("Maintenance", "Call with the year, make and model.")])],
+   (8986100, 6870311), "auto-technik-carcare-chino-2", [("Kevin Q.", "WOW, I am truly impressed with the level of care and professionalism…", "dFdgJawgbFzGAWwt7Nz0dg"), ("Ernie B.", "Both owners Sham and Jay are honest hard working…", "p9WMFxunPoWRGrGzyHskbA"), ("Javier J.", "Jay diagnosed the issue…", "R09sCneqUdOiGm-yi05tmw")],
+   svc_title="Tell us what it's doing.")
+mk("diamond-auto-center", dict(hero="block", ink="#16131F", bone="#F4F2F7", acc="#4A2FA3", star="#F2C14E", h1="10.6vw", stretch="78%", svc="index", mark="Diamond Auto", word="Diamond", wordsz="21vw"),
+   "Diamond Auto Center", "Auto repair · W California St, Ontario", ("Open seven days.", "Ask for Rick."), "Oil changes, brakes, transmission repair and engine diagnostics on West California Street. Open every day, including Sunday mornings.",
+   "(909) 218-7600", "105 W California St<br>Ontario, CA 91762", "Diamond+Auto+Center+105+W+California+St+Ontario+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 4:00 PM", "9:00 AM – 2:00 PM"), ("4.8", 78),
+   [("Everyday", [("Oil changes", ""), ("Brake repairs", ""), ("Tire and wheel maintenance", ""), ("Air conditioning service", "")]), ("Bigger jobs", [("Engine diagnostics", ""), ("Transmission repairs", ""), ("Suspension and steering", "")])],
+   (31097241, 6870299), "diamond-auto-center-ontario-5", [("Jasmin C.", "I had such a wonderful experience here!", "dEJqAIVcVqnIaYH-R9HVOQ"), ("Judy V.", "Rick is THE GOAT. Honestly a life saver.", "Y-4Q8jhPQDMO5i68aZBO-Q"), ("Robert17515", "I took my Audi A5 and Rick took care of me.", "lzQo72dgWkOcNuqzoaRtoQ")],
+   svc_title="Small jobs. Big jobs.")
+mk("claremont-auto-care", dict(hero="poster", serif=True, ink="#22201C", bone="#F5F1E8", acc="#8A5A1F", star="#D9A441", h1="9vw", svc="rows", rowsz="6.4vw", mark="Claremont Auto Care", word="Claremont", wordsz="17vw"),
+   "Claremont Auto Care", "Auto repair and smog · Lynoak Dr", ("Twenty years", "of the same customers."), "Oil changes, smog tests and general repairs on Lynoak Drive, with mechanics who explain the work before they do it.",
+   "(909) 621-3872", "3624 Lynoak Dr<br>Pomona, CA 91767", "Claremont+Auto+Care+3624+Lynoak+Dr", wkh("8:00 AM – 5:00 PM", "8:00 AM – 5:00 PM"), ("4.5", 75),
+   [("", [("Oil changes", ""), ("Smog tests", ""), ("General repairs", "Clear explanations of what the car needs and why.")])],
+   (8985660, 8986100), "claremont-auto-care-pomona", [("Willie H.", "We have been going to Claremont Auto Care for over 20 years…", "FVsNdWBN7ftKt1S9RcUB3Q"), ("Jared A.", "Great service, fair pricing, and honesty…", "8XTQdIjaFU7ei31DLFf6nQ"), ("Nancy A.", "Prices were affordable and they got the work done fast.", "isTfBIf9AnkidZ4qd4k8UA")])
+mk("l-r-auto-repair", dict(hero="split", ink="#1C1C1C", bone="#F3F1EC", acc="#C2410C", star="#EAB308", h1="8.8vw", stretch="80%", svc="index", mark="L & R Auto Repair", word="L & R", wordsz="30vw"),
+   "L & R Auto Repair", "Auto repair · W Holt Blvd, Ontario", ("Engine light on?", "Bring it in."), "Brake repair, tune-ups, axles, shocks, struts and timing belts on West Holt Boulevard. Open Saturdays.",
+   "(909) 972-8883", "504 W Holt Blvd<br>Ontario, CA 91762", "L+%26+R+Auto+Repair+504+W+Holt+Blvd+Ontario+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 4:00 PM"), ("4.4", 72),
+   [("", [("Brake repair", ""), ("Tune-ups", ""), ("Axles", ""), ("Shocks and struts", ""), ("Timing belts", ""), ("Check engine light", "Bring the vehicle in when the light comes on.")])],
+   (6870299, 31097241), "l-and-r-auto-repair-ontario", [("David A.", "Honest and reasonable mechanics", "hiVakwzTqMQF4pmuNXuz_Q"), ("Fernando V.", "I had a fantastic experience.", "jl6y7Wh7DdrHdjDOlSu7YQ"), ("Julianna B.", "…honest prices & outstanding work.", "PP4xjXja5xYsxm8iZqUc6g")],
+   svc_title="The usual suspects.")
+mk("baja-auto-center", dict(hero="photo", ink="#0F1F17", bone="#F2F4EE", acc="#1F7A3F", star="#F4C430", h1="10.2vw", svc="rows", rowsz="6.4vw", mark="Baja Auto Center", word="Baja", wordsz="30vw"),
+   "Baja Auto Center Smog & Lamp", "Smog check and repair · E Holt Blvd, Ontario", ("Smog check due?", "See Tony."), "California smog checks and vehicle safety inspections on East Holt Boulevard, plus oil changes and diagnostics.",
+   "(909) 986-7172", "817 E Holt Blvd, Ste B<br>Ontario, CA 91761", "Baja+Auto+Center+Smog+817+E+Holt+Blvd+Ontario+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 1:00 PM"), ("4.5", 70),
+   [("", [("Smog checks", "California state smog checks."), ("Safety inspections", "Vehicle safety inspections."), ("Oil changes", ""), ("Diagnostics", "")])],
+   (6870311, 8985660), "baja-auto-center-smog-and-lamp-ontario", [("Jason H.", "Honest mechanic who is knowledgeable, friendly, and fair.", "-uvWaOBH4lYUHhm2Bz1DPw"), ("Andrew P.", "Awesome service. Tony is incredibly chill and a friendly guy.", "GzMPEdR01WiDONxJBW3Jlw"), ("Jonathan R.", "Great shop. Tony helped me with a vehicle safety inspection.", "JDPEmTX6ot4OEUuqSUtVpA"), ("Jose G.", "Look no further for THE BEST mechanic in the Inland Empire!", "PkioI28UBx-3lmnNDUeOnQ")])
+mk("ie-automotive", dict(hero="block", ink="#141414", bone="#F4F0E6", acc="#9A1B1B", star="#E9B43A", h1="11vw", svc="rows", rowsz="6.4vw", mark="I.E Automotive", word="I.E Auto", wordsz="21vw"),
+   "I.E Automotive", "Auto repair · S Bon View Ave, Ontario", ("Twenty years", "with Ricky."), "Auto repair on South Bon View Avenue. One Yelp reviewer says they have been going to Ricky and his team for close to 20 years.",
+   "(909) 538-4789", "628 S Bon View Ave, Unit B<br>Ontario, CA 91761", "I.E+Automotive+628+S+Bon+View+Ave+Ontario+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 3:00 PM"), ("4.8", 65),
+   [("", [("Mechanical repair", "Reviewers mention seals, water pumps and radiators."), ("Quotes", "Bring the car by. One reviewer came for a quote and left with it fixed."), ("Maintenance", "Call with the year, make and model.")])],
+   (8986100, 6870299), "i-e-automotive-ontario", [("Pete F.", "Very trustworthy and honest.", "FnY0AGxK6Ia995rcAn25pg"), ("Elizabeth D.", "Ricardo and his team are the best mechanics.", "PxkbHtPRKxariw9Z3ZscIg"), ("James S.", "Reliable.. honest.. hardworking... trustworthy...", "PdEzAovZ8E28VapY_H5rhA")])
+mk("v-tech-auto-care", dict(hero="split", ink="#0E1A2B", bone="#EFF3F6", acc="#1B5EA8", star="#F2A93B", h1="8.6vw", svc="index", mark="V Tech Auto Care", word="V Tech", wordsz="26vw"),
+   "V Tech Auto Care", "Auto repair · Rio Rancho Rd, Pomona", ("The honest", "second quote."), "Auto repair and air conditioning work on Rio Rancho Road. Yelp reviewers say they came after a dealer quote and stayed.",
+   "(909) 620-1660", "45 Rio Rancho Rd, Ste 2 C<br>Pomona, CA 91766", "V+Tech+Auto+Care+45+Rio+Rancho+Rd+Pomona+CA", ["8:00 AM – 4:00 PM", "8:00 AM – 3:00 PM", "8:00 AM – 4:00 PM", "8:00 AM – 3:00 PM", "8:00 AM – 4:00 PM", "8:00 AM – 2:00 PM", "Closed"], ("4.7", 50),
+   [("", [("Air conditioning repair", ""), ("General repairs", "Reviewers say they bring every car they own."), ("Diagnostics", "Ask what the diagnostic costs when you call.")])],
+   (31097241, 8986100), "v-tech-auto-care-pomona-2", [("Jasmine P.", "Hands down to the honesty of this auto repair shop.", "uvDVIF-BaDrwaM2r5FcNlA"), ("Allison S.", "I cannot say enough nice things about V Tech & their staff!", "jJZw5e6D2JXAYQ7GmMFsuw"), ("Mehmeh J.", "Trust them with my cars.", "V6LXDFpXMwW_bHK1vTzwIg"), ("Lee B.", "Air conditioning repair. Very reliable company…", "stc3z_8h9quG8JDEvgc-8g")],
+   svc_title="Bring the dealer's quote.")
+
+
 def _lum(h):
     c = [int(h[i:i + 2], 16) / 255 for i in (1, 3, 5)]
     c = [x / 12.92 if x <= .03928 else ((x + .055) / 1.055) ** 2.4 for x in c]

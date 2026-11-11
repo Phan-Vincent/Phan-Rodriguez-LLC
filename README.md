@@ -40,6 +40,13 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `express-transmissions/` | Express Transmissions | Pomona |
 | `menas-brake-suspension/` | Menas Brake & Suspension | Ontario |
 | `the-auto-clinic/` | The Auto Clinic | Chino |
+| `auto-technik-carcare/` | Auto Technik Carcare | Chino |
+| `diamond-auto-center/` | Diamond Auto Center | Ontario |
+| `claremont-auto-care/` | Claremont Auto Care | Pomona |
+| `l-r-auto-repair/` | L & R Auto Repair | Ontario |
+| `baja-auto-center/` | Baja Auto Center Smog & Lamp | Ontario |
+| `ie-automotive/` | I.E Automotive | Ontario |
+| `v-tech-auto-care/` | V Tech Auto Care | Pomona |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

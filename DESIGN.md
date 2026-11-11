@@ -308,3 +308,10 @@ The mix is fixed by the site's position in `SITES`, so rebuilds are stable and a
 - **Held back:** Kikas Tires. MapQuest shows 1589 E Mission Blvd and (909) 203-0801; the sheet shows 1587 and (909) 643-9998. Needs a check before building.
 - **How leads are found cheaply:** search DuckDuckGo's HTML page in the browser for "mapquest <name> <address>", take the MapQuest listing id, then read hours, description and review ids from that page.
 - Tested with Playwright at 1440 and 390 px: no overflow, no script errors. Photos reuse ids already confirmed loading on other sites; not viewed live.
+
+### 2026-11-10 — Batch 9: seven more lead sites
+
+- **Built:** `auto-technik-carcare`, `diamond-auto-center`, `claremont-auto-care`, `l-r-auto-repair`, `baja-auto-center`, `ie-automotive`, `v-tech-auto-care`. Same sources and checks as batch 8. All seven rotate Yelp reviews linked by review id; only positive reviews are quoted, word for word.
+- **Claremont Auto Care address:** the sheet says 3624 Lynoak Dr, Claremont; MapQuest says 3624 Lynoak St, Pomona, CA 91767. The site shows "3624 Lynoak Dr, Pomona, CA 91767". Confirm street suffix and city with the owner.
+- **Held back:** Star Hi-Tech Auto (listing text is about a different business and most recent Yelp reviews are negative), Huerta Smog & Repair (four of five recent Yelp reviews are negative; decide whether to pitch), Sergio's Auto Repair & Tires (no hours on its listing).
+- **Not yet researched from the High rows:** Auto Repair Foreign Domestic, Jujubuilt, 2Man Moving, AutoTech's, QUINONEZ Mobile, Arredondo's, German and Japanese Auto, Mendiola Diesel, Molinas Tire & Towing, Williams Independent, HVAC Assistance, Rudy's Auto Works, Gil's Tire Shop, Diaz Landscape, Nino's Lawnmower Shop, Valencia Handyman, JR Truck Tire, Japanese Auto Tech, Sal's Auto Care, and everything below row 70.
