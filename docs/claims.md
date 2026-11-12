@@ -78,3 +78,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 162 | Arevalo Tree Service and Landscape | Vincent | research | 2026-11-12 | done |
 | 163 | Almazan's landscape | Vincent | research | 2026-11-12 | done |
 | 164 | Anthony’s auto repair and towing | Vincent | research | 2026-11-12 | done |
+| 165 | P & E Auto Repair | Vincent | research | 2026-11-12 | open |
+| 166 | M&M A/C Service & Auto Repair | Vincent | research | 2026-11-12 | open |
+| 167 | Docs auto repair and detailing | Vincent | research | 2026-11-12 | open |
+| 168 | Gary's Automotive | Vincent | research | 2026-11-12 | open |
+| 169 | The Tech Lab Auto | Vincent | research | 2026-11-12 | open |
+| 170 | Bailon's Auto Repair | Vincent | research | 2026-11-12 | open |
+| 171 | P & RAuto Electric Repair | Vincent | research | 2026-11-12 | open |
+| 172 | Merchant Landscape Services | Vincent | research | 2026-11-12 | open |
+| 173 | Cal Beaver Tree Service | Vincent | research | 2026-11-12 | open |
+| 174 | Fontana Paving & Pool Remodeling | Vincent | research | 2026-11-12 | open |
+| 175 | Affordable Handyman | Vincent | research | 2026-11-12 | open |
+| 176 | AA Handyman Services | Vincent | research | 2026-11-12 | open |
