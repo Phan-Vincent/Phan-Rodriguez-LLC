@@ -54,3 +54,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 138 | J & H Automotive Service | Vincent | research | 2026-11-11 | done |
 | 139 | Angel's Body Shop | Vincent | research | 2026-11-11 | done |
 | 140 | Bazan Auto Repair | Vincent | research | 2026-11-11 | done |
+| 141 | Jesus Tree Service Landscaping | Vincent | research | 2026-11-11 | open |
+| 142 | So.Cal Automotive Repair | Vincent | research | 2026-11-11 | open |
+| 143 | Ruano's Auto Repair | Vincent | research | 2026-11-11 | open |
+| 144 | Empire Mechanic | Vincent | research | 2026-11-11 | open |
+| 145 | Excellent Auto Repair | Vincent | research | 2026-11-11 | open |
+| 146 | D L Long Landscaping | Vincent | research | 2026-11-11 | open |
+| 147 | Torres Truck Repair & Road Services | Vincent | research | 2026-11-11 | open |
+| 148 | Pomona Car Care | Vincent | research | 2026-11-11 | open |
+| 149 | G&C Brothers Auto | Vincent | research | 2026-11-11 | open |
+| 150 | Panda Plastering and Stucco | Vincent | research | 2026-11-11 | open |
+| 151 | Highland Handyman | Vincent | research | 2026-11-11 | open |
+| 152 | DXM12 Chimney Inspection Services Ltd | Vincent | research | 2026-11-11 | open |
