@@ -1,0 +1,595 @@
+{
+  "_meta": {
+    "date_read": "2026-11-12",
+    "method": "Google Maps listings and Yelp pages read in a browser by Vincent's session; structured by a Reasonix worker from the handoff documents",
+    "not_confirmed_with_owner": true
+  },
+  "entries": [
+    {
+      "row": 153,
+      "name": "GS Auto Body Collision",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Hold",
+      "angle": "None until row 84 is settled, since this listing shares its phone and street number with SG Mechanics Auto shop Repair.",
+      "google": {
+        "name": "GS Auto Body Collision",
+        "rating": 4.7,
+        "reviews": 12,
+        "address": "15867 Foothill Blvd, Fontana, CA 92335",
+        "phone": "(909) 452-6061",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "Closed"
+        ],
+        "topics": {
+          "work": 2,
+          "car repair": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Hold: the phone (909) 452-6061 and the street number 15867 Foothill Blvd are the same as sheet row 84, SG Mechanics Auto shop Repair in suite C, which handoff 4 marked Low priority, and the two names mirror each other, \"GS\" here and \"SG\" there, so one may be a second name for the same shop.",
+        "Ask on one call which name answers that number and whether the shop does body work, mechanical work or both.",
+        "Google shows 4.7 from 12 with generic topic chips, work (2) and car repair (2), and its claim status was not read.",
+        "Hours are Monday to Saturday 8 AM to 5:30 PM with Sunday closed.",
+        "There is no Yelp page: the Yelp search at the street address returned only other body shops."
+      ]
+    },
+    {
+      "row": 154,
+      "name": "Elizalde Auto Repair",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Build",
+      "angle": "A general repair shop in units 4 and 5 on Ceres Avenue, rated 5.0 on Yelp from 7 against 4.0 on Google from 12, with the owner's text naming tune-ups, brakes, A/C, radiator, alternator, suspension, starter, belts and hoses, engine rebuilds and shocks.",
+      "google": {
+        "name": "Elizalde Auto Repair",
+        "rating": 4.0,
+        "reviews": 12,
+        "address": "16566 Ceres Ave Ste 4 & 5, Fontana, CA 92335",
+        "phone": "(909) 827-9808",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:30 AM – 7:00 PM",
+          "8:30 AM – 7:00 PM",
+          "8:30 AM – 7:00 PM",
+          "8:30 AM – 7:00 PM",
+          "8:30 AM – 7:00 PM",
+          "8:30 AM – 7:00 PM",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/elizalde-auto-repair-fontana",
+        "name": "Elizalde Auto Repair",
+        "rating": 5.0,
+        "reviews": 7,
+        "claimed": true,
+        "address": "16566 Ceres Ave, Ste 4 & 5, Fontana, CA 92335",
+        "phone": "(909) 827-9808",
+        "website": null,
+        "hours": [
+          "8:30 AM – 6:00 PM",
+          "8:30 AM – 6:00 PM",
+          "8:30 AM – 6:00 PM",
+          "8:30 AM – 6:00 PM",
+          "8:30 AM – 6:00 PM",
+          "8:30 AM – 6:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Transmission Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto fluids and filters maintenance"
+        ],
+        "owner_text": "A list of tune-ups, brakes, A/C, radiator, alternator, suspension, starter, belts and hoses, engine rebuilds and shocks, where Yelp cut the text."
+      },
+      "flags": [
+        "Google's 4.0 from 12 leads the handoff's facts block on review count, and the two sites disagree sharply, Yelp 5.0 from 7 against Google 4.0 from 12; Google shows no topic chips.",
+        "Yelp is claimed and Google's claim status was not read.",
+        "Hours differ, Google 8:30 AM to 7 PM Monday to Saturday against Yelp 8:30 AM to 6 PM, so the handoff's facts block uses the shorter hours and the real closing time must be asked.",
+        "Google places the shop inside Omar Auto Body Paint And Repair, sheet row 89 in handoff 4, so the two may share a lot and should not be confused.",
+        "Yelp's service list is marked verified by the business and runs 7 entries beyond the six shown.",
+        "Yelp lists cash, credit cards and Zelle as accepted."
+      ]
+    },
+    {
+      "row": 155,
+      "name": "A & V Auto Repair",
+      "city": "Ontario",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Low priority",
+      "angle": "None yet; there is only a name, address and phone, at 4.5 on Google from 12.",
+      "google": {
+        "name": "A & V Auto Repair",
+        "rating": 4.5,
+        "reviews": 12,
+        "address": "949 W State St #H, Ontario, CA 91762",
+        "phone": "(909) 391-8699",
+        "website": null,
+        "unclaimed": true,
+        "hours": null,
+        "topics": {}
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search at the street address returned only other shops with \"V\" in the name, so there is no Yelp page.",
+        "Google shows 4.5 from 12 and is unclaimed, with no hours, no topic chips and no website link.",
+        "The address is suite H on West State Street, written on Google as \"949 W State St #H\".",
+        "There is nothing to build from but a name, address and phone, so a call would settle the hours and the work the shop takes on."
+      ]
+    },
+    {
+      "row": 156,
+      "name": "Master Auto Repair",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Build, Google only",
+      "angle": "A general repair shop on Arrow Route rated 5.0 on Google from 10, with pricing (3) and saving money (2) the topics.",
+      "google": {
+        "name": "Master Auto Repair",
+        "rating": 5.0,
+        "reviews": 10,
+        "address": "15614 1/2 Arrow Route, Fontana, CA 92335",
+        "phone": "(909) 838-4589",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "saving money": 2,
+          "pricing": 3,
+          "money": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search returned only Master Auto Repair pages in Pomona and other Master-named businesses, none at Arrow Route in Fontana, so there is no Yelp page.",
+        "Google shows 5.0 from 10 with pricing (3), saving money (2) and money (2); money and saving money restate pricing, so the angle stands on price and on the rating.",
+        "Hours are Monday to Friday 8 AM to 5 PM with weekends closed.",
+        "The address is a half lot number, 15614 1/2 Arrow Route, so confirm it before printing.",
+        "Google's category is auto repair shop and its claim status was not read."
+      ]
+    },
+    {
+      "row": 157,
+      "name": "T 4 Auto Tech",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Low priority",
+      "angle": "None until the hours and services are asked, though the ratings, 5.0 on Google from 10 and 4.5 on Yelp from 21, are good.",
+      "google": {
+        "name": "T 4 Auto Tech",
+        "rating": 5.0,
+        "reviews": 10,
+        "address": "708 Indian Hill Blvd, Pomona, CA 91767",
+        "phone": "(909) 621-2369",
+        "website": null,
+        "unclaimed": true,
+        "hours": null,
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/t4-auto-tech-pomona",
+        "name": "T4 Auto Tech",
+        "rating": 4.5,
+        "reviews": 21,
+        "claimed": true,
+        "address": "708 Indian Hill Blvd, Pomona, CA 91767",
+        "phone": "(909) 621-2369",
+        "website": null,
+        "hours": [
+          "Closed",
+          "Closed",
+          "Closed",
+          "Closed",
+          "Closed",
+          "Closed",
+          "7:00 AM – 8:00 AM"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Windshield wiper replacement"
+        ],
+        "owner_text": "\"Automotive for vehicle\", with nothing more on the page."
+      },
+      "flags": [
+        "Yelp's 4.5 from 21 has the larger review count and Yelp is claimed, while Google shows 5.0 from 10 and is unclaimed.",
+        "Neither site gives usable hours: Google lists none, and Yelp shows closed every day except Sunday 7 AM to 8 AM, which cannot be right.",
+        "Yelp's only listed service is windshield wiper replacement, marked verified by the business.",
+        "The address is 708 Indian Hill Blvd in Pomona while the sheet puts the row in Montclair, so the city has to be settled.",
+        "Yelp writes the name \"T4 Auto Tech\" and Google writes \"T 4 Auto Tech\".",
+        "This row would move up to Build once the hours and services are asked on a call."
+      ]
+    },
+    {
+      "row": 158,
+      "name": "J & J Auto Services Center",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Build",
+      "angle": "A general repair shop inside Montclair Auto Center on Holt Boulevard, rated 4.4 on Google from 10 and 5.0 on Yelp from 3, with the owner's text naming oil changes, brakes, transmission service, A/C and tune-ups.",
+      "google": {
+        "name": "J & J Auto Services Center",
+        "rating": 4.4,
+        "reviews": 10,
+        "address": "5533 Holt Blvd, Montclair, CA 91763",
+        "phone": "(909) 625-5777",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/j-and-j-auto-service-center-montclair-2",
+        "name": "J & J Auto Service Center",
+        "rating": 5.0,
+        "reviews": 3,
+        "claimed": true,
+        "address": "5533 Holt Blvd, Montclair, CA 91763",
+        "phone": "(909) 625-5777",
+        "website": null,
+        "hours": [
+          "8:00 AM – 4:30 PM",
+          "8:00 AM – 4:30 PM",
+          "8:00 AM – 4:30 PM",
+          "8:00 AM – 4:30 PM",
+          "8:00 AM – 4:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Oil Change Stations"
+        ],
+        "services": [
+          "Auto HVAC repair",
+          "Auto transmission repair",
+          "Oil changes",
+          "Routine automotive maintenance",
+          "Transmission leak inspection"
+        ],
+        "owner_text": "Oil changes, brakes, transmission service, A/C service, tune-ups and all auto repair service."
+      },
+      "flags": [
+        "Google's 4.4 from 10 leads the handoff's facts block on review count, and Yelp's 5.0 rests on three reviews.",
+        "Yelp is claimed and Google's claim status was not read.",
+        "Hours differ, Google Monday to Friday 8 AM to 5 PM with weekends closed against Yelp Monday to Thursday 8 AM to 4:30 PM and Friday 8 AM to 4 PM with weekends closed, so the handoff's facts block uses the shorter hours and the real hours must be asked.",
+        "Google places the shop inside Montclair Auto Center.",
+        "Yelp writes the name \"J & J Auto Service Center\", singular, while Google writes \"Services\", so ask which the shop uses.",
+        "5533 Holt Blvd is next to 5521 Holt Blvd, which carries rows 114 and 144, a different shop, so do not merge them."
+      ]
+    },
+    {
+      "row": 159,
+      "name": "CALDERON LANDSCAPING & GRASS PAINTING SERVICES",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Low priority",
+      "angle": "A landscaper on Roswell Avenue rated 4.4 on Google from 10, whose single topic chip is grass painting, a service worth asking about.",
+      "google": {
+        "name": "CALDERON LANDSCAPING & GRASS PAINTING SERVICES",
+        "rating": 4.4,
+        "reviews": 10,
+        "address": "11204 Roswell Ave, Pomona, CA 91766",
+        "phone": "(909) 248-6913",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "7:00 AM – 5:30 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:30 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "grass painting": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search in Pomona returned only Calderon-named landscapers in other cities, so there is no Yelp page.",
+        "Google shows 4.4 from 10 with one topic chip, grass painting (2).",
+        "The listing name is all capitals, \"CALDERON LANDSCAPING & GRASS PAINTING SERVICES\", so ask how the business writes it.",
+        "11204 Roswell Ave may be a home rather than a business address; that is a guess and not on the listing, so ask before printing it.",
+        "Hours are Monday and Thursday 7 AM to 5:30 PM, and Tuesday, Wednesday, Friday and Saturday 7 AM to 5 PM, with Sunday closed.",
+        "The listing shows an \"Identifies as Latino-owned\" line, and Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 160,
+      "name": "Central Truck Body Inc",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Low priority",
+      "angle": "A truck parts supplier on Valley Boulevard at 4.3 on Google from 10, filed on the sheet as a repair shop.",
+      "google": {
+        "name": "Central Truck Body Inc",
+        "rating": 4.3,
+        "reviews": 10,
+        "address": "14984 1/2 Valley Blvd, Fontana, CA 92335",
+        "phone": "(909) 356-0388",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "7:00 AM – 3:30 PM",
+          "7:00 AM – 3:30 PM",
+          "7:00 AM – 3:30 PM",
+          "7:00 AM – 3:30 PM",
+          "7:00 AM – 3:30 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search at the street address returned only other truck and body businesses, so there is no Yelp page.",
+        "Google's category is truck parts supplier, not a repair or body shop as the sheet says, so settle what the business sells before building.",
+        "Google shows 4.3 from 10 and is unclaimed, with no topic chips.",
+        "Hours are Monday to Friday 7 AM to 3:30 PM with weekends closed, early hours that fit a parts counter.",
+        "The address is a half lot number, 14984 1/2 Valley Blvd, so confirm it before printing."
+      ]
+    },
+    {
+      "row": 161,
+      "name": "Elite Auto Body Collision",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Build, Google only",
+      "angle": "A body and collision shop in unit 1 on Ceres Avenue rated 5.0 on Google from 10, with pricing at four mentions.",
+      "google": {
+        "name": "Elite Auto Body Collision",
+        "rating": 5.0,
+        "reviews": 10,
+        "address": "16534 Ceres Ave #1, Fontana, CA 92335",
+        "phone": "(951) 531-6535",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "10:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "pricing": 4,
+          "work": 6
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search at the street address returned only \"Elite\"-named collision shops in other cities, so there is no Yelp page.",
+        "Google shows 5.0 from 10; work (6) is a generic word and pricing (4) is the only meaningful topic, so the angle rests on price and the rating.",
+        "The phone, (951) 531-6535, has a 951 area code that is not local to Fontana, so confirm it before printing.",
+        "Hours are Monday to Friday 8 AM to 5:30 PM and Saturday 10 AM to 3 PM with Sunday closed.",
+        "16534 Ceres Ave is on the same strip as rows 89, 131, 154 and 164.",
+        "Google's category is auto body shop and its claim status was not read."
+      ]
+    },
+    {
+      "row": 162,
+      "name": "Arevalo Tree Service and Landscape",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Skip",
+      "angle": "Skip, since the business already has a live website.",
+      "google": {
+        "name": "Arevalo Tree Service and Landscape",
+        "rating": 4.1,
+        "reviews": 9,
+        "address": "16362 Randall Ave, Fontana, CA 92335",
+        "phone": "(909) 561-0215",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours"
+        ],
+        "topics": {
+          "palm tree trimming": 2,
+          "clean up": 2,
+          "pricing": 4,
+          "company": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/arevalo-tree-service-and-landscape-fontana-2",
+        "name": "Arevalo Tree Service and Landscape",
+        "rating": 4.6,
+        "reviews": 28,
+        "claimed": true,
+        "address": "Fontana, CA",
+        "phone": "(909) 561-0215",
+        "website": "arevalotreeservice.com",
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours"
+        ],
+        "categories": [
+          "Tree Services",
+          "Landscaping"
+        ],
+        "services": [
+          "Tree cabling or bracing",
+          "Disease management - trees",
+          "Insect management - trees",
+          "Tree planting",
+          "Tree pruning or trimming"
+        ],
+        "owner_text": "A locally owned company serving Fontana and the surrounding area, specialising in artificial turf installation, natural sod, tree trimming and removal, irrigation and sprinkler systems and complete lawn care, where Yelp cut the text."
+      },
+      "flags": [
+        "Skip: the business already has a live website, arevalotreeservice.com, with a services list, a free-estimate form and the same phone, (909) 561-0215; Google shows no website link, which is why the row was on the sheet.",
+        "Yelp's 4.6 from 28 has the larger review count and Yelp is claimed; Google shows 4.1 from 9 and its claim status was not read.",
+        "Both sites list the business open 24 hours all seven days.",
+        "Yelp shows no street address, only \"Serving Fontana Area\", while Google gives 16362 Randall Ave.",
+        "Yelp's service list is marked verified by the business and runs 13 entries beyond the five shown.",
+        "Google's topics are pricing (4), palm tree trimming (2), clean up (2) and company (2)."
+      ]
+    },
+    {
+      "row": 163,
+      "name": "Almazan's landscape",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Low priority",
+      "angle": "A landscaper rated 4.6 on Google from 9 with no street address, whose probable Yelp page leans to concrete, artificial grass and irrigation and shows 3.4 from 7.",
+      "google": {
+        "name": "Almazan's landscape",
+        "rating": 4.6,
+        "reviews": 9,
+        "address": null,
+        "phone": "(909) 837-7122",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "6:30 AM – 7:00 PM",
+          "6:30 AM – 7:00 PM",
+          "6:30 AM – 7:00 PM",
+          "6:30 AM – 7:00 PM",
+          "6:30 AM – 7:00 PM",
+          "6:30 AM – 7:00 PM",
+          "7:00 AM – 6:00 PM"
+        ],
+        "topics": {
+          "hard-working crew": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/almazan-s-landscape-pomona",
+        "name": "Almazan's landscape",
+        "rating": 3.4,
+        "reviews": 7,
+        "claimed": true,
+        "address": "Pomona, CA",
+        "phone": "(909) 992-0740",
+        "website": null,
+        "hours": [
+          "7:30 AM – 8:00 PM",
+          "7:30 AM – 8:00 PM",
+          "7:30 AM – 8:00 PM",
+          "7:30 AM – 8:00 PM",
+          "7:30 AM – 8:00 PM",
+          "7:30 AM – 8:00 PM",
+          "7:30 AM – 8:00 PM"
+        ],
+        "categories": [
+          "Landscaping",
+          "Masonry/Concrete",
+          "Irrigation"
+        ],
+        "services": [
+          "Construction or installation",
+          "Steps",
+          "Concrete",
+          "Textured concrete",
+          "Brick",
+          "Stamped concrete",
+          "Earthmoving or regrading",
+          "Greenscape construction",
+          "Irrigation construction",
+          "Irrigation repair or maintenance"
+        ],
+        "owner_text": "Quotes for concrete, artificial grass, irrigation and landscaping, and a request to call to schedule an appointment."
+      },
+      "flags": [
+        "The Yelp page is a probable match only, because it serves the Pomona area while the sheet puts the row in Fontana, and it shows a different phone, (909) 992-0740 against Google's (909) 837-7122, so confirm the match on a call.",
+        "Google shows 4.6 from 9 with one topic chip, hard-working crew (2), and no street address because it is a service-area business.",
+        "Yelp shows 3.4 from 7 and is claimed; Google's claim status was not read.",
+        "Hours differ, Google 6:30 AM to 7 PM Monday to Saturday and 7 AM to 6 PM Sunday against Yelp 7:30 AM to 8 PM every day, so the real hours must be asked.",
+        "Yelp's service list leans to concrete, artificial grass and irrigation rather than general landscaping."
+      ]
+    },
+    {
+      "row": 164,
+      "name": "Anthony's auto repair and towing",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
+      "verdict": "Build, Google only",
+      "angle": "A repair shop in unit 4 on Ceres Avenue rated 5.0 on Google from 9, with pricing at four mentions and trucks at two.",
+      "google": {
+        "name": "Anthony's auto repair and towing",
+        "rating": 5.0,
+        "reviews": 9,
+        "address": "16622 Ceres Ave #4, Fontana, CA 92335",
+        "phone": "(909) 904-6061",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "pricing": 4,
+          "trucks": 2,
+          "recommendation": 2,
+          "car repair": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search at the street address returned only other Fontana repair shops, so there is no Yelp page.",
+        "Google shows 5.0 from 9, the fewest reviews in the batch, so the rating rests on a small sample.",
+        "Towing is in the business name but appears nowhere else on the listing, so confirm the shop offers it before printing it.",
+        "Pricing (4) and trucks (2) are the topics, so ask whether the shop takes trucks.",
+        "Hours are Monday to Saturday 8 AM to 6 PM with Sunday closed.",
+        "Google writes the name in lower case with a curly apostrophe, \"Anthony's auto repair and towing\", so ask how the shop writes it."
+      ]
+    }
+  ]
+}

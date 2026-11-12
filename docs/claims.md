@@ -66,15 +66,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 150 | Panda Plastering and Stucco | Vincent | research | 2026-11-11 | done |
 | 151 | Highland Handyman | Vincent | research | 2026-11-11 | done |
 | 152 | DXM12 Chimney Inspection Services Ltd | Vincent | research | 2026-11-11 | done |
-| 153 | GS Auto Body Collision | Vincent | research | 2026-11-12 | open |
-| 154 | Elizalde Auto Repair | Vincent | research | 2026-11-12 | open |
-| 155 | A & V Auto Repair | Vincent | research | 2026-11-12 | open |
-| 156 | Master Auto Repair | Vincent | research | 2026-11-12 | open |
-| 157 | T 4 Auto Tech | Vincent | research | 2026-11-12 | open |
-| 158 | J & J Auto Services Center | Vincent | research | 2026-11-12 | open |
-| 159 | CALDERON LANDSCAPING & GRASS PAINTING SERVICES | Vincent | research | 2026-11-12 | open |
-| 160 | Central Truck Body Inc | Vincent | research | 2026-11-12 | open |
-| 161 | Elite Auto Body Collision | Vincent | research | 2026-11-12 | open |
-| 162 | Arevalo Tree Service and Landscape | Vincent | research | 2026-11-12 | open |
-| 163 | Almazan's landscape | Vincent | research | 2026-11-12 | open |
-| 164 | Anthony’s auto repair and towing | Vincent | research | 2026-11-12 | open |
+| 153 | GS Auto Body Collision | Vincent | research | 2026-11-12 | done |
+| 154 | Elizalde Auto Repair | Vincent | research | 2026-11-12 | done |
+| 155 | A & V Auto Repair | Vincent | research | 2026-11-12 | done |
+| 156 | Master Auto Repair | Vincent | research | 2026-11-12 | done |
+| 157 | T 4 Auto Tech | Vincent | research | 2026-11-12 | done |
+| 158 | J & J Auto Services Center | Vincent | research | 2026-11-12 | done |
+| 159 | CALDERON LANDSCAPING & GRASS PAINTING SERVICES | Vincent | research | 2026-11-12 | done |
+| 160 | Central Truck Body Inc | Vincent | research | 2026-11-12 | done |
+| 161 | Elite Auto Body Collision | Vincent | research | 2026-11-12 | done |
+| 162 | Arevalo Tree Service and Landscape | Vincent | research | 2026-11-12 | done |
+| 163 | Almazan's landscape | Vincent | research | 2026-11-12 | done |
+| 164 | Anthony’s auto repair and towing | Vincent | research | 2026-11-12 | done |

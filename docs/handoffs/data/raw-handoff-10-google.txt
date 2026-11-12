@@ -1,0 +1,31 @@
+Raw Google Maps extracts for handoff 10. Read in a browser on 2026-11-12 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Thurs first because the page was read on Thursday Nov 12) | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+153 | GS Auto Body Collision | Auto body shop | 4.7 | 12 | 15867 Foothill Blvd, Fontana, CA 92335 |  | (909) 452-6061 | web:none | claimed? | Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 8 AM to 5:30 PM; Sun: Closed; Mon: 8 AM to 5:30 PM; Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM | TOPICS work:2, car repair:2
+   SUPERVISOR NOTE: the phone (909) 452-6061 and the street number 15867 Foothill Blvd are the same as sheet row 84, SG Mechanics Auto shop Repair (suite C), researched in handoff 4 with the verdict Low priority. Same phone, same street address, different name ("GS" here, "SG" there).
+
+154 | Elizalde Auto Repair | Auto repair shop | 4.0 | 12 | 16566 Ceres Ave Ste 4 & 5, Fontana, CA 92335 | Located in: Omar Auto Body Paint And Repair | (909) 827-9808 | web:none | claimed? | Thurs: 8:30 AM to 7 PM; Fri: 8:30 AM to 7 PM; Satur: 8:30 AM to 7 PM; Sun: Closed; Mon: 8:30 AM to 7 PM; Tues: 8:30 AM to 7 PM; Wednes: 8:30 AM to 7 PM | TOPICS none shown
+   SUPERVISOR NOTE: Google places it inside Omar Auto Body Paint And Repair, which is sheet row 89 (16522 Ceres Ave, researched in handoff 4, verdict Build, Google only).
+
+155 | A & V Auto Repair | Auto repair shop | 4.5 | 12 | 949 W State St #H, Ontario, CA 91762 |  | (909) 391-8699 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+
+156 | Master Auto Repair | Auto repair shop | 5.0 | 10 | 15614 1/2 Arrow Route, Fontana, CA 92335 |  | (909) 838-4589 | web:none | claimed? | Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM | TOPICS saving money:2, pricing:3, money:2
+
+157 | T 4 Auto Tech | Auto repair shop | 5.0 | 10 | 708 Indian Hill Blvd, Pomona, CA 91767 |  | (909) 621-2369 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+   (The sheet puts this row in Montclair; Google's address is in Pomona.)
+
+158 | J & J Auto Services Center | Auto repair shop | 4.4 | 10 | 5533 Holt Blvd, Montclair, CA 91763 | Located in: Montclair Auto Center | (909) 625-5777 | web:none | claimed? | Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM | TOPICS none shown
+
+159 | CALDERON LANDSCAPING & GRASS PAINTING SERVICES | Landscaper | 4.4 | 10 | 11204 Roswell Ave, Pomona, CA 91766 |  | (909) 248-6913 | web:none | claimed? (listing shows "Identifies as Latino-owned") | Thurs: 7 AM to 5:30 PM; Fri: 7 AM to 5 PM; Satur: 7 AM to 5 PM; Sun: Closed; Mon: 7 AM to 5:30 PM; Tues: 7 AM to 5 PM; Wednes: 7 AM to 5 PM | TOPICS grass painting:2
+
+160 | Central Truck Body Inc | Truck parts supplier | 4.3 | 10 | 14984 1/2 Valley Blvd, Fontana, CA 92335 |  | (909) 356-0388 | web:none | UNCLAIMED | Thurs: 7 AM to 3:30 PM; Fri: 7 AM to 3:30 PM; Satur: Closed; Sun: Closed; Mon: 7 AM to 3:30 PM; Tues: 7 AM to 3:30 PM; Wednes: 7 AM to 3:30 PM | TOPICS none shown
+
+161 | Elite Auto Body Collision | Auto body shop | 5.0 | 10 | 16534 Ceres Ave #1, Fontana, CA 92335 |  | (951) 531-6535 | web:none | claimed? | Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 10 AM to 3 PM; Sun: Closed; Mon: 8 AM to 5:30 PM; Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM | TOPICS pricing:4, work:6
+
+162 | Arevalo Tree Service and Landscape | Tree service | 4.1 | 9 | 16362 Randall Ave, Fontana, CA 92335 |  | (909) 561-0215 | web:none | claimed? | Open 24 hours all seven days | TOPICS palm tree trimming:2, clean up:2, pricing:4, company:2
+
+163 | Almazan's landscape | Landscaper | 4.6 | 9 | NO ADDRESS on the listing (service-area business) |  | (909) 837-7122 | web:none | claimed? | Thurs: 6:30 AM to 7 PM; Fri: 6:30 AM to 7 PM; Satur: 6:30 AM to 7 PM; Sun: 7 AM to 6 PM; Mon: 6:30 AM to 7 PM; Tues: 6:30 AM to 7 PM; Wednes: 6:30 AM to 7 PM | TOPICS hard-working crew:2
+
+164 | Anthony's auto repair and towing | Auto repair shop | 5.0 | 9 | 16622 Ceres Ave #4, Fontana, CA 92335 |  | (909) 904-6061 | web:none | claimed? | Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 6 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM | TOPICS pricing:4, trucks:2, recommendation:2, car repair:2
+   (Google writes the name with a curly apostrophe and lower case: "Anthony’s auto repair and towing".)
