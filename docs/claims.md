@@ -42,15 +42,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 126 | Chino Auto Repair | Vincent | research | 2026-11-11 | done |
 | 127 | Rudy's Autobody | Vincent | research | 2026-11-11 | done |
 | 128 | JT Automotive Service | Vincent | research | 2026-11-11 | done |
-| 129 | Ramirez Tree Service | Vincent | research | 2026-11-11 | open |
-| 130 | Japanese Auto Care Specialist | Vincent | research | 2026-11-11 | open |
-| 131 | Sergios Used Engines & Auto Repair | Vincent | research | 2026-11-11 | open |
-| 132 | Don Veverka Auto Services | Vincent | research | 2026-11-11 | open |
-| 133 | Danny's Automotive Repair / Car Repair Service | Vincent | research | 2026-11-11 | open |
-| 134 | Express Brake | Vincent | research | 2026-11-11 | open |
-| 135 | Ontario Auto Repair | Vincent | research | 2026-11-11 | open |
-| 136 | SAS Star Certified Smog Check Ontario Ca | Vincent | research | 2026-11-11 | open |
-| 137 | Dexter Auto Care | Vincent | research | 2026-11-11 | open |
-| 138 | J & H Automotive Service | Vincent | research | 2026-11-11 | open |
-| 139 | Angel's Body Shop | Vincent | research | 2026-11-11 | open |
-| 140 | Bazan Auto Repair | Vincent | research | 2026-11-11 | open |
+| 129 | Ramirez Tree Service | Vincent | research | 2026-11-11 | done |
+| 130 | Japanese Auto Care Specialist | Vincent | research | 2026-11-11 | done |
+| 131 | Sergios Used Engines & Auto Repair | Vincent | research | 2026-11-11 | done |
+| 132 | Don Veverka Auto Services | Vincent | research | 2026-11-11 | done |
+| 133 | Danny's Automotive Repair / Car Repair Service | Vincent | research | 2026-11-11 | done |
+| 134 | Express Brake | Vincent | research | 2026-11-11 | done |
+| 135 | Ontario Auto Repair | Vincent | research | 2026-11-11 | done |
+| 136 | SAS Star Certified Smog Check Ontario Ca | Vincent | research | 2026-11-11 | done |
+| 137 | Dexter Auto Care | Vincent | research | 2026-11-11 | done |
+| 138 | J & H Automotive Service | Vincent | research | 2026-11-11 | done |
+| 139 | Angel's Body Shop | Vincent | research | 2026-11-11 | done |
+| 140 | Bazan Auto Repair | Vincent | research | 2026-11-11 | done |

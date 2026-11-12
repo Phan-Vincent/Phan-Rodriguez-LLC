@@ -11,6 +11,7 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 77 | Advance Muffler | Chino | Build first | 4.8 / 39 | 4.8 / 184 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
 | 86 | Avant-Garde Automotive | Chino | Build first | 4.9 / 34 | 4.7 / 86 |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 107 | Advance Tranz | Upland | Build first | 5.0 / 24 | 5.0 / 58 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
+| 138 | J & H Automotive Service | Montclair | Build first | 4.6 / 17 | 4.8 / 39 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | 34 | 2Man Moving Services | Ontario | Build | 4.8 / 85 | 4.7 / 258 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 44 | Sergio's Auto Repair & Tires | Chino | Build | 4.3 / 68 | 5.0 / 6 |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 54 | Kikas Tires | Pomona | Build | 4.7 / 58 | no rating |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
@@ -42,6 +43,12 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 119 | C&H Axle & Auto Repair | Fontana | Build | 4.1 / 56 | 4.6 / 30 |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
 | 123 | C & C Auto Repair | Fontana | Build | 4.2 / 43 | 4.2 / 20 |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
 | 128 | JT Automotive Service | Montclair | Build | 5 / 19 | 4.8 / 8 |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
+| 130 | Japanese Auto Care Specialist | Rancho Cucamonga | Build | 4.9 / 18 | 4.4 / 25 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 131 | Sergios Used Engines & Auto Repair | Fontana | Build | 5.0 / 18 | 5.0 / 1 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 133 | Danny's Automotive Repair | Pomona | Build | 4.7 / 18 | 5.0 / 6 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 137 | Dexter Auto Care | Pomona | Build | 5.0 / 17 | 4.5 / 17 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 139 | Angel's Body Shop | Montclair | Build | 4.8 / 17 | 5.0 / 7 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 140 | Bazan Auto Repair | Pomona | Build | 4.8 / 16 | 3.9 / 15 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | 48 | Quinonez Mobile Svc | Fontana | Build, Google only | 4.7 / 65 | no page |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 51 | Arredondo's Auto Repair | Fontana | Build, Google only | 4.3 / 61 | no page |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 61 | Gil's Tire Shop | Pomona | Build, Google only | 4.5 / 50 | no page |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
@@ -49,12 +56,14 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 83 | Ontario Japan Auto | Ontario | Build, Google only | 4.6 / 36 | no page |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 88 | Pro Auto Service | Pomona | Build, Google only | 4.6 / 33 | no page |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 89 | Omar Auto Body Paint And Repair | Fontana | Build, Google only | 4.8 / 33 | no page |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
+| 135 | Ontario Auto Repair | Ontario | Build, Google only | 4.9 / 18 | no page |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | | **Not ready: clear the flag first** | | | | | | |
 | 29 | A-1 Auto Expert | Chino | Check website first | 4.8 / 93 | 4.5 / 188 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 78 | General Auto Care | Montclair | Check website first | 4.7 / 39 | 4.5 / 26 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
 | 95 | Perfect Image Collision Center | Fontana | Check website first | 4.7 / 30 | 4.5 / 10 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 114 | European Transmission Rebuild | Montclair | Check website first | 4.8 / 20 | 4.6 / 9 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
 | 124 | Hi Tech Auto Repair | Pomona | Check website first | 4.2 / 42 | 3.5 / 24 |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
+| 134 | Express Brake | Montclair | Check website first | 4.5 / 18 | 3.0 / 2 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | 30 | Star Hi-Tech Auto | Pomona | Low priority | 4.4 / 89 | 2.6 / 32 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 47 | Huerta Smog & Repair | Pomona | Low priority | 4.3 / 66 | 3.1 / 30 |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 73 | Hytech Auto Repair | Fontana | Low priority | 4.4 / 43 | no page |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
@@ -74,9 +83,12 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 125 | Fontana Suspension and Auto Repair | Fontana | Low priority | 4 / 34 | no page |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
 | 126 | Chino Auto Repair | Chino | Low priority | 4.2 / 33 | 3.7 / 40 |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
 | 127 | Rudy's Autobody | Fontana | Low priority | 4.2 / 22 | no rating |  | [2026-11-11-open-leads-7.md](handoffs/2026-11-11-open-leads-7.md) |
+| 129 | Ramirez Tree Service | Rancho Cucamonga | Low priority | 4.0 / 19 | 2.4 / 18 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 132 | Don Veverka Auto Services | Upland | Low priority | 4.9 / 18 | 5.0 / 7 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 136 | SAS Star Certified Smog Check Ontario Ca | Ontario | Low priority | 4.4 / 18 | no page |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | 58 | HVAC Assistance - 24/7 On Call | Fontana | Hold | 4.7 / 53 | no page |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 91 | Chino Valley Auto Repair | Chino | Hold | 4.7 / 31 | no page |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 115 | Don Cortez Tire Services | Ontario | Hold | 4.2 / 377 | 3.6 / 58 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
 | 103 | Fast Lane Auto Repair | Upland | Skip | 4.6 / 25 | 5.0 / 4 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 
-71 rows in the queue. 4 researched rows already have a site: 27 Auto Repair Foreign Domestic, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.
+83 rows in the queue. 4 researched rows already have a site: 27 Auto Repair Foreign Domestic, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.

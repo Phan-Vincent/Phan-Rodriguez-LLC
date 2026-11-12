@@ -1,0 +1,28 @@
+Raw Google Maps extracts for handoff 8. Read in a browser on 2026-11-11 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Wednes first because the page was read on Wednesday Nov 11, Veterans Day; * marks that day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+129 | Ramirez Tree Service | Tree service | 4.0 | 19 | NO ADDRESS on the listing (service-area business) |  | (909) 230-3103 | web:none | claimed? (listing shows "Identifies as Latino-owned") | Open 24 hours all seven days (Wednesday marked *) | TOPICS palm tree:4, palm tree trimming:3, promptness:3, to trim:4, front yard:2, work quality:3, cleanup:2, plan:2
+
+130 | Japanese Auto Care Specialist | Auto repair shop | 4.9 | 18 | 8727 Rochester Ave, Rancho Cucamonga, CA 91730 |  | (909) 981-3086 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS friendly staff:3, mechanic:3
+
+131 | Sergios Used Engines & Auto Repair | Auto repair shop | 5.0 | 18 | 16522 Ceres Ave units 5&6, Fontana, CA 92335 |  | (442) 356-3081 | web:none | claimed? (listing shows "LGBTQ+ friendly") | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 4 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS guaranteed work:2, mechanic:3
+
+132 | Don Veverka Auto Services | Auto repair shop | 4.9 | 18 | 1462 E 9th St, Upland, CA 91786 |  | (909) 946-9150 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+
+133 | Danny's Automotive Repair | Car Repair Service | Auto repair shop | 4.7 | 18 | 594 S San Antonio Ave, Pomona, CA 91766 |  | (909) 622-3785 | web:none | claimed? | Wednes: 9 AM to 6 PM*; Thurs: 9 AM to 6 PM; Fri: 9 AM to 6 PM; Satur: 10 AM to 3 PM; Sun: Closed; Mon: Closed; Tues: 9 AM to 6 PM | TOPICS affordable:2, reliable:3, pricing:3, work:2
+   (The listing name itself contains a vertical bar: "Danny's Automotive Repair | Car Repair Service".)
+
+134 | Express Brake | Auto parts store | 4.5 | 18 | 5640 E Arrow Hwy, Montclair, CA 91763 |  | (909) 982-8744 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 3 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS brakes:7, drum brakes:2, brake pads:2
+
+135 | Ontario Auto Repair | Auto repair shop | 4.9 | 18 | 111 W California St, Ontario, CA 91762 |  | (909) 391-6811 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS honest mechanic:2, has mechanic:3, oil:2, job:2, questions:2
+
+136 | SAS Star Certified Smog Check Ontario Ca | Smog inspection station | 4.4 | 18 | 2209 E 4th St, Ontario, CA 91764 |  | (909) 638-5067 | web:none | claimed? | Wednes: 9 AM to 6 PM*; Thurs: 9 AM to 6 PM; Fri: 9 AM to 6 PM; Satur: 9 AM to 6 PM; Sun: Closed; Mon: 9 AM to 6 PM; Tues: 9 AM to 6 PM | TOPICS none shown
+
+137 | Dexter Auto Care | Auto repair shop | 5.0 | 17 | 45 Rio Rancho Rd #4C, Pomona, CA 91766 | Located in: Rio Rancho Towne Center | (909) 629-8778 | web:none | UNCLAIMED | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 5 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS fair rates:3, reliability:3, honest:3
+
+138 | J & H Automotive Service | Auto repair shop | 4.6 | 17 | 10608 Ramona Ave, Montclair, CA 91763 |  | (909) 624-5819 | web:none | claimed? (listing shows "LGBTQ+ friendly") | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS honest mechanic:2, good deals:3, pricing:4, honesty:2, has mechanic:3
+
+139 | Angel's Body Shop | Auto body shop | 4.8 | 17 | 4691 Brooks St # G, Montclair, CA 91763 |  | (909) 626-6761 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS quality work:2, honesty:3
+
+140 | Bazan Auto Repair | Auto body shop | 4.8 | 16 | 1485 E Holt Ave, Pomona, CA 91767 |  | (909) 469-0113 | web:none | claimed? | Wednes: 9 AM to 7 PM*; Thurs: 9 AM to 7 PM; Fri: 9 AM to 7 PM; Satur: Closed; Sun: Closed; Mon: 9 AM to 7 PM; Tues: 9 AM to 7 PM | TOPICS insurance handling:2, car cleaning:2, car body work:2, job:2, insurance:2
