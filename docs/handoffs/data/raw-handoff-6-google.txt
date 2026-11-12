@@ -1,0 +1,27 @@
+Raw Google Maps extracts for handoff 6. Read in a browser on 2026-11-11 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Wednes first because the page was read on Wednesday Nov 11, Veterans Day; * marks that day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words, or a first name). Do not repeat staff names.
+
+105 | A & A Auto Repair | Auto repair shop | 4.4 | 25 | 1141 W Holt Blvd #1, Ontario, CA 91762 |  | (909) 391-0080 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS honest mechanic:2, great work:2, honesty:3, mechanic:7
+
+106 | Fontana Custom Auto Body | Auto body shop | 4.5 | 24 | 15770 Slover Ave Unit B, Fontana, CA 92337 |  | (909) 695-6606 | web:none | UNCLAIMED | Wednes: 8:30 AM to 9 PM*; Thurs: 8:30 AM to 9 PM; Fri: 8:30 AM to 9 PM; Satur: 8:30 AM to 9 PM; Sun: 8:30 AM to 9 PM; Mon: 8 AM to 6 PM; Tues: 8:30 AM to 9 PM | TOPICS recommended:2, car repair:2, working:3, bumper:2
+
+107 | Advance Tranz | Auto repair shop | 5.0 | 24 | 1466 E Foothill Blvd Ste a, Upland, CA 91786 | Located in: Redhill Plaza | (909) 920-0511 | web:none | UNCLAIMED | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS transmission repair:3, fair pricing:3, fairness:3, good people:2, mechanics:3, (a first name):6, transmission:2, honest:2
+
+108 | Lanny Monroe Automotive | Auto repair shop | 4.8 | 24 | 8428 Loma Pl, Upland, CA 91786 |  | (909) 946-3900 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS polite staff:2, pricing:6, mechanic:2
+
+109 | Joes Fleet Paint (J&E TRUKNBUS INC) | Auto body shop | 4.8 | 24 | 8646 Beech Ave, Fontana, CA 92335 |  | (909) 745-2634 | web:none | claimed? | Wednes: 8 AM to 4:30 PM*; Thurs: 8 AM to 4:30 PM; Fri: 7 AM to 3:30 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 4:30 PM; Tues: 8 AM to 4:30 PM | TOPICS attentive staff:4, quality of work:4, good people:2, customer experience:2, painting:2, work:3
+
+110 | Esparza Auto Body & Paint | Auto body shop | 4.4 | 23 | 109 N Vine Ave, Ontario, CA 91762 |  | (909) 208-8035 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 5 PM; Sun: 8 AM to 5 PM; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS quick turnaround:2, quality work:2, car repair:3
+
+111 | Highline Auto Service & Collision, LLC | Auto bodywork mechanic | 4.8 | 22 | 5334 Holt Blvd Ste B, Montclair, CA 91763 |  | (909) 399-1111 | web:none | claimed? | Wednes: 7 AM to 4 PM*; Thurs: 7 AM to 4 PM; Fri: 7 AM to 4 PM; Satur: Closed; Sun: Closed; Mon: 7 AM to 4 PM; Tues: 7 AM to 4 PM | TOPICS value:4, brakes:3, honest:2, rear ended:3
+
+112 | Norman's Auto Repair | Auto repair shop | 4.9 | 22 | 328 E California St, Ontario, CA 91761 |  | (909) 236-4416 | web:none | claimed? | Wednes: 8:30 AM to 6 PM*; Thurs: 8:30 AM to 6 PM; Fri: 8:30 AM to 6 PM; Satur: 9 AM to 2:30 PM; Sun: Closed; Mon: 8:30 AM to 6 PM; Tues: 8:30 AM to 6 PM | TOPICS mechanic:3, honesty:5
+
+113 | All Gear Transmission & Differential | Car repair and maintenance service | 4.3 | 21 | 5512 Arrow Hwy Ste F, Montclair, CA 91763 |  | (909) 204-2154 | web:none | claimed? | Wednes: 9:30 AM to 7 PM*; Thurs: 9:30 AM to 7 PM; Fri: 9:30 AM to 7 PM; Satur: 10 AM to 4 PM; Sun: Closed; Mon: 9:30 AM to 7 PM; Tues: 9:30 AM to 7 PM | TOPICS none shown
+
+114 | European Transmission Rebuild | Auto repair shop | 4.8 | 20 | 5521 Holt Blvd Ste g, Montclair, CA 91763 |  | (626) 234-5424 | web:none | claimed? | Wednes: 8 AM to 7 PM*; Thurs: 8 AM to 7 PM; Fri: 8 AM to 7 PM; Satur: 7 AM to 10 PM; Sun: 7 AM to 12 PM; Mon: 8 AM to 7 PM; Tues: 8 AM to 7 PM | TOPICS transmission repair:2, quality work:2, engine:3, fairness:2, honesty:6, problem-solving:2
+
+115 | Don Cortez Tire Services | Auto repair shop | 4.2 | 377 | 117 N Campus Ave, Ontario, CA 91764 |  | (909) 218-4924 | web:none | claimed? (listing shows "Identifies as women-owned") | Wednes: Google showed HOLIDAY HOURS 7 AM to 1:30 AM for Veterans Day, so the regular Wednesday hours were not readable; Thurs: 7 AM to 7 PM; Fri: 7 AM to 7 PM; Satur: 7 AM to 6 PM; Sun: 8 AM to 5 PM; Mon: 7 AM to 7 PM; Tues: 7 AM to 7 PM | TOPICS used tires:15, tire change:5, fast tire repair:2, tire balancing:2, tire mounting:2, new tires:3, polite staff:7, wait time:2, tire patch:2, fast work:2
+
+116 | Sierra Lawnmower Service | Lawn mower store | 4.2 | 83 | 7695 Sierra Ave, Fontana, CA 92336 |  | (909) 355-8507 | web:none | claimed? | Wednes: 9 AM to 4 PM*; Thurs: 9 AM to 4 PM; Fri: 9 AM to 4 PM; Satur: 9 AM to 2 PM; Sun: Closed; Mon: 9 AM to 4 PM; Tues: Closed | TOPICS lawn mower repair:8, turnaround time:3, family business:2, ma and pa shop:2, kind staff:3, timeliness:2, diagnostic fee:2, parts:3, carburetor:2, honest:3

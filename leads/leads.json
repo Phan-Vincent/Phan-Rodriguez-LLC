@@ -6,7 +6,7 @@
   "counts": {
    "leads": 294,
    "with_site": 45,
-   "researched": 51,
+   "researched": 63,
    "open_claims": 0
   }
  },
@@ -6185,10 +6185,59 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 105,
+    "name": "A & A Auto Repair",
+    "city": "Ontario",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Low priority",
+    "angle": "An unclaimed repair shop on Holt Boulevard rated 4.4 from 25, with honesty and honest mechanic the only topics that say anything.",
+    "google": {
+     "name": "A & A Auto Repair",
+     "rating": 4.4,
+     "reviews": 25,
+     "address": "1141 W Holt Blvd #1, Ontario, CA 91762",
+     "phone": "(909) 391-0080",
+     "website": null,
+     "unclaimed": true,
+     "hours": null,
+     "topics": {
+      "honest mechanic": 2,
+      "great work": 2,
+      "honesty": 3,
+      "mechanic": 7
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/a-and-a-auto-repair-ontario",
+     "name": "A & A Auto Repair",
+     "rating": 5.0,
+     "reviews": 3,
+     "claimed": false,
+     "address": "1141 W Holt Blvd, Ontario, CA 91762",
+     "phone": "(909) 391-0080",
+     "website": null,
+     "hours": null,
+     "categories": [
+      "Auto Repair"
+     ],
+     "services": [
+      "Routine automotive maintenance"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "No hours on either site, so a page would have to go without them until the shop is asked.",
+     "Unclaimed on both sites.",
+     "Google's 4.4 from 25 against Yelp's 5.0 from three means Google leads the handoff's facts block.",
+     "Yelp leaves off the suite \"#1\" that Google shows.",
+     "Of the topic chips, mechanic is a single generic word; honesty and honest mechanic are the only ones that say anything, and both are small counts."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.4/25, Yelp 5.0/3, unclaimed on both, no hours on either site. Low priority. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 106,
@@ -6210,10 +6259,78 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 106,
+    "name": "Fontana Custom Auto Body",
+    "city": "Fontana",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Low priority",
+    "angle": "None until the Yelp page is confirmed — it carries a different address and phone from Google's.",
+    "google": {
+     "name": "Fontana Custom Auto Body",
+     "rating": 4.5,
+     "reviews": 24,
+     "address": "15770 Slover Ave Unit B, Fontana, CA 92337",
+     "phone": "(909) 695-6606",
+     "website": null,
+     "unclaimed": true,
+     "hours": [
+      "8:00 AM – 6:00 PM",
+      "8:30 AM – 9:00 PM",
+      "8:30 AM – 9:00 PM",
+      "8:30 AM – 9:00 PM",
+      "8:30 AM – 9:00 PM",
+      "8:30 AM – 9:00 PM",
+      "8:30 AM – 9:00 PM"
+     ],
+     "topics": {
+      "recommended": 2,
+      "car repair": 2,
+      "working": 3,
+      "bumper": 2
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/fontana-custom-auto-body-fontana",
+     "name": "Fontana Custom Auto Body",
+     "rating": null,
+     "reviews": 0,
+     "claimed": false,
+     "address": "8296 Fremontia Ave, Ste B, Fontana, CA 92335",
+     "phone": "(909) 641-3737",
+     "website": null,
+     "hours": [
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours"
+     ],
+     "categories": [
+      "Body Shops"
+     ],
+     "services": [
+      "Bumper repair",
+      "Auto frame testing",
+      "Rear-end damage",
+      "Auto steering and suspension repair"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "The Yelp page with this name has a different address, 8296 Fremontia Ave, Ste B, and a different phone, (909) 641-3737, and no reviews, so it is not confirmed as the same shop and may be an old location.",
+     "Google's hours, 8:30 AM to 9 PM six days a week and Monday 8 AM to 6 PM, look unusual for a body shop.",
+     "Only generic topic chips are shown and there is no owner's text, so there is little to build from.",
+     "Unclaimed on both sites; Google's 4.5 from 24 is the only rating.",
+     "Yelp lists no hours beyond \"open 24 hours\"."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.5/24, unclaimed. The Yelp page of this name has a different address and phone and no reviews, so it is not confirmed. Low priority. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 107,
@@ -6235,10 +6352,86 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 107,
+    "name": "Advance Tranz",
+    "city": "Upland",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Build first",
+    "angle": "Transmission and muffler work with a 5.0 on both sites and 58 Yelp reviews behind it, plus fairness and fair pricing among the Google topics.",
+    "google": {
+     "name": "Advance Tranz",
+     "rating": 5.0,
+     "reviews": 24,
+     "address": "1466 E Foothill Blvd Ste a, Upland, CA 91786",
+     "phone": "(909) 920-0511",
+     "website": null,
+     "unclaimed": true,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "Closed",
+      "Closed"
+     ],
+     "topics": {
+      "transmission repair": 3,
+      "fair pricing": 3,
+      "fairness": 3,
+      "good people": 2,
+      "mechanics": 3,
+      "transmission": 2,
+      "honest": 2
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/advance-tranz-upland-2",
+     "name": "Advance Tranz",
+     "rating": 5.0,
+     "reviews": 58,
+     "claimed": true,
+     "address": "1466 E Foothill Blvd, Ste A, Upland, CA 91786",
+     "phone": "(909) 920-0511",
+     "website": null,
+     "hours": [
+      "9:00 AM – 5:00 PM",
+      "9:00 AM – 5:00 PM",
+      "9:00 AM – 5:00 PM",
+      "9:00 AM – 5:00 PM",
+      "9:00 AM – 5:00 PM",
+      "Closed",
+      "Closed"
+     ],
+     "categories": [
+      "Auto Repair",
+      "Transmission Repair",
+      "Auto Customization"
+     ],
+     "services": [
+      "Auto battery or electrical system repair",
+      "Battery",
+      "Auto engine repair",
+      "Auto exhaust repair",
+      "Auto fluids and filters maintenance",
+      "Auto general diagnosis"
+     ],
+     "owner_text": "The shop specialises in transmission, mufflers and automotive repair, and points readers to Instagram for before-and-after photos of the work."
+    },
+    "flags": [
+     "5.0 on both sites, but Yelp's rests on 58 reviews against Google's 24, so Yelp leads the handoff's facts block.",
+     "Yelp is claimed; Google is unclaimed.",
+     "Google opens at 8 AM on weekdays and Yelp at 9 AM, so the handoff's facts block uses the 9 AM opening.",
+     "Yelp lists a military discount, which should be confirmed before it is printed.",
+     "The owner's text points to Instagram before-and-after photos, which were not looked at.",
+     "Google places the shop in Redhill Plaza and Yelp adds \"Serving Upland Area\"."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 5.0/24, Yelp claimed 5.0/58. Transmission and muffler work. Google opens 8, Yelp 9. Build first. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 108,
@@ -6260,10 +6453,66 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 108,
+    "name": "Lanny Monroe Automotive",
+    "city": "Upland",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Build",
+    "angle": "A general repair shop at 4.8 on Google and 4.9 on Yelp with pricing the top Google topic at six mentions, once the name question is settled.",
+    "google": {
+     "name": "Lanny Monroe Automotive",
+     "rating": 4.8,
+     "reviews": 24,
+     "address": "8428 Loma Pl, Upland, CA 91786",
+     "phone": "(909) 946-3900",
+     "website": null,
+     "unclaimed": true,
+     "hours": null,
+     "topics": {
+      "polite staff": 2,
+      "pricing": 6,
+      "mechanic": 2
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/monroes-automotive-and-off-road-upland",
+     "name": "Monroe's Automotive & Off Road",
+     "rating": 4.9,
+     "reviews": 19,
+     "claimed": false,
+     "address": "8428 Loma Pl, Upland, CA 91786",
+     "phone": "(909) 946-3900",
+     "website": null,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "Closed",
+      "Closed"
+     ],
+     "categories": [
+      "Auto Repair"
+     ],
+     "services": [
+      "Routine automotive maintenance"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "The names differ: \"Lanny Monroe Automotive\" on Google and on the sheet, \"Monroe's Automotive & Off Road\" on Yelp, so ask which name the shop uses.",
+     "Google lists no hours, so Yelp's Monday to Friday 8 AM to 5 PM is the only source.",
+     "Unclaimed on both sites.",
+     "Pricing is the top Google topic at six mentions.",
+     "The address and phone agree, and Yelp's about text is cut off before it says anything."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.8/24, Yelp 4.9/19 as Monroe's Automotive & Off Road. No Google hours; Yelp Mon-Fri 8-5. Ask which name. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 109,
@@ -6285,10 +6534,80 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 109,
+    "name": "Joes Fleet Paint (J&E TRUKNBUS INC)",
+    "city": "Fontana",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Build",
+    "angle": "Medium and heavy duty paint and body work for trucks and buses, with attentive staff and quality of work the two biggest Google topics at four mentions each.",
+    "google": {
+     "name": "Joes Fleet Paint (J&E TRUKNBUS INC)",
+     "rating": 4.8,
+     "reviews": 24,
+     "address": "8646 Beech Ave, Fontana, CA 92335",
+     "phone": "(909) 745-2634",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "8:00 AM – 4:30 PM",
+      "8:00 AM – 4:30 PM",
+      "8:00 AM – 4:30 PM",
+      "8:00 AM – 4:30 PM",
+      "7:00 AM – 3:30 PM",
+      "Closed",
+      "Closed"
+     ],
+     "topics": {
+      "attentive staff": 4,
+      "quality of work": 4,
+      "good people": 2,
+      "customer experience": 2,
+      "painting": 2,
+      "work": 3
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/joes-fleet-painting-fontana",
+     "name": "Joe's Fleet Painting",
+     "rating": null,
+     "reviews": 0,
+     "claimed": true,
+     "address": "8646 Beech Ave, Fontana, CA 92335",
+     "phone": "(909) 745-2634",
+     "website": null,
+     "hours": [
+      "7:00 AM – 3:30 PM",
+      "7:00 AM – 3:30 PM",
+      "7:00 AM – 3:30 PM",
+      "7:00 AM – 3:30 PM",
+      "7:00 AM – 3:30 PM",
+      "Closed",
+      "Closed"
+     ],
+     "categories": [
+      "Body Shops"
+     ],
+     "services": [
+      "Bumper repair",
+      "Auto frame testing",
+      "Rear-end damage",
+      "Auto steering and suspension repair"
+     ],
+     "owner_text": "Medium and heavy duty paint and body work."
+    },
+    "flags": [
+     "Google's 4.8 from 24 is the only rating, since the Yelp page is claimed but has no reviews, so only the Google rating appears in the handoff's facts block.",
+     "Hours differ: Google runs Monday to Thursday 8 AM to 4:30 PM and Friday 7 AM to 3:30 PM, Yelp runs Monday to Friday 7 AM to 3:30 PM, and the handoff's facts block uses the shorter ones.",
+     "The name is written three ways: \"Joes Fleet Paint (J&E TRUKNBUS INC)\" on the sheet, \"Joe's Fleet Painting\" on Yelp and \"Joes Fleet Paint\" on Google, the sheet's long name carrying the company name in brackets.",
+     "Yelp's four services are the generic body shop list, so the fleet and heavy duty speciality rests on the owner's text and the business name.",
+     "The address and phone agree on both sites."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.8/24, Yelp claimed with no reviews. Medium and heavy duty paint and body. Hours differ slightly. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 110,
@@ -6310,10 +6629,79 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 110,
+    "name": "Esparza Auto Body & Paint",
+    "city": "Ontario",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Build",
+    "angle": "Body, paint and accident repair with car repair and quick turnaround among the Google topics, rated 4.4 from 23.",
+    "google": {
+     "name": "Esparza Auto Body & Paint",
+     "rating": 4.4,
+     "reviews": 23,
+     "address": "109 N Vine Ave, Ontario, CA 91762",
+     "phone": "(909) 208-8035",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM"
+     ],
+     "topics": {
+      "quick turnaround": 2,
+      "quality work": 2,
+      "car repair": 3
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/esparza-auto-body-and-paint-ontario-2",
+     "name": "Esparza Auto Body & Paint",
+     "rating": 3.7,
+     "reviews": 3,
+     "claimed": false,
+     "address": "109 North Vine St, Ontario, CA 91762",
+     "phone": "(909) 208-8035",
+     "website": null,
+     "hours": [
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 2:00 PM",
+      "Closed"
+     ],
+     "categories": [
+      "Body Shops",
+      "Auto Parts & Supplies"
+     ],
+     "services": [
+      "Bumper repair",
+      "Dent removal",
+      "Auto frame testing",
+      "Rear-end damage",
+      "Auto steering and suspension repair"
+     ],
+     "owner_text": "Established in 2012, car accident repair and auto repair with quality body repair and paint for Ontario and the surrounding area, and over 20 years of experience."
+    },
+    "flags": [
+     "Google's 4.4 from 23 leads the handoff's facts block; Yelp's 3.7 rests on only three reviews and comes second.",
+     "The hours disagree: Google is 8 AM to 5 PM every day including Sunday, Yelp is Monday to Friday 8 AM to 6 PM, Saturday 8 AM to 2 PM and closed Sunday, and the handoff's facts block uses the shorter ones.",
+     "The owner's text gives both 2012 and over 20 years of experience; confirm both before either goes on a page.",
+     "Yelp writes the street as North Vine St and Google as N Vine Ave, so confirm which is right.",
+     "Yelp is unclaimed; Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.4/23, Yelp 3.7/3. Est. 2012 per owner text. Google says 8-5 daily, Yelp closes Sunday. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 111,
@@ -6335,10 +6723,79 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 111,
+    "name": "Highline Auto Service & Collision, LLC",
+    "city": "Montclair",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Build",
+    "angle": "Collision repair alongside oil changes, brakes, tires and alignments, with 4.8 on Google and 5.0 on Yelp.",
+    "google": {
+     "name": "Highline Auto Service & Collision, LLC",
+     "rating": 4.8,
+     "reviews": 22,
+     "address": "5334 Holt Blvd Ste B, Montclair, CA 91763",
+     "phone": "(909) 399-1111",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "Closed",
+      "Closed"
+     ],
+     "topics": {
+      "value": 4,
+      "brakes": 3,
+      "honest": 2,
+      "rear ended": 3
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/highline-auto-service-and-collision-montclair",
+     "name": "Highline Auto Service & Collision",
+     "rating": 5.0,
+     "reviews": 6,
+     "claimed": true,
+     "address": "5334 Holt Blvd, Ste B, Montclair, CA 91763",
+     "phone": "(909) 399-1111",
+     "website": null,
+     "hours": [
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "Closed",
+      "Closed"
+     ],
+     "categories": [
+      "Body Shops"
+     ],
+     "services": [
+      "Auto body restoration",
+      "Bumper repair",
+      "Collision repair",
+      "Auto frame testing",
+      "Paint and scratches"
+     ],
+     "owner_text": "An invitation to call for oil changes, brake pads, tires and alignments, with collision named as the speciality and a free estimate offered."
+    },
+    "flags": [
+     "Yelp's 5.0 rests on six reviews against Google's 22, so Google leads the handoff's facts block.",
+     "Hours agree on all seven days.",
+     "Yelp is claimed; Google's claim status was not read.",
+     "It shares the street number 5334 Holt Blvd with sheet row 94, Andy's Auto Repair Paint & Body in suite c, researched in handoff 5, in a different suite.",
+     "Yelp writes the name without the \", LLC\" that Google and the sheet carry."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.8/22, Yelp claimed 5.0/6, hours agree (Mon-Fri 7-4). Collision plus general service. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 112,
@@ -6360,10 +6817,65 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 112,
+    "name": "Norman's Auto Repair",
+    "city": "Ontario",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Build",
+    "angle": "Honesty is the top Google topic at five mentions, on a shop rated 4.9 from 22 reviews.",
+    "google": {
+     "name": "Norman's Auto Repair",
+     "rating": 4.9,
+     "reviews": 22,
+     "address": "328 E California St, Ontario, CA 91761",
+     "phone": "(909) 236-4416",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "8:30 AM – 6:00 PM",
+      "8:30 AM – 6:00 PM",
+      "8:30 AM – 6:00 PM",
+      "8:30 AM – 6:00 PM",
+      "8:30 AM – 6:00 PM",
+      "9:00 AM – 2:30 PM",
+      "Closed"
+     ],
+     "topics": {
+      "mechanic": 3,
+      "honesty": 5
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/norman-s-auto-repair-ontario",
+     "name": "Norman's Auto Repair",
+     "rating": 5.0,
+     "reviews": 2,
+     "claimed": false,
+     "address": "Ontario, CA 91761",
+     "phone": "(909) 236-4416",
+     "website": null,
+     "hours": null,
+     "categories": [
+      "Auto Repair"
+     ],
+     "services": [
+      "Routine automotive maintenance"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "Yelp has only two reviews, no street address and no hours, so Google supplies the address and all the hours.",
+     "Yelp is unclaimed; Google's claim status was not read.",
+     "The Yelp 5.0 rests on two reviews, so Google's 4.9 from 22 leads the handoff's facts block.",
+     "Honesty is the top Google topic at five mentions.",
+     "There is no owner's text and only one service on Yelp, so ask what the shop takes on."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.9/22, Yelp 5.0/2 with no address or hours. Honesty is the top Google topic. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 113,
@@ -6385,10 +6897,71 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 113,
+    "name": "All Gear Transmission & Differential",
+    "city": "Montclair",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Low priority",
+    "angle": "Transmission repair on Arrow Highway with no Google topic chips to build a page from.",
+    "google": {
+     "name": "All Gear Transmission & Differential",
+     "rating": 4.3,
+     "reviews": 21,
+     "address": "5512 Arrow Hwy Ste F, Montclair, CA 91763",
+     "phone": "(909) 204-2154",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "10:00 AM – 4:00 PM",
+      "Closed"
+     ],
+     "topics": {}
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/all-gear-transmission-and-differential-montclair",
+     "name": "All Gear Transmission & Differential",
+     "rating": 4.6,
+     "reviews": 10,
+     "claimed": true,
+     "address": "5512 Arrow Hwy, Ste F, Montclair, CA 91763",
+     "phone": "(909) 985-1700",
+     "website": null,
+     "hours": [
+      "9:00 AM – 7:00 PM",
+      "9:00 AM – 7:00 PM",
+      "9:00 AM – 7:00 PM",
+      "9:00 AM – 7:00 PM",
+      "9:00 AM – 7:00 PM",
+      "10:00 AM – 4:00 PM",
+      "10:00 AM – 4:00 PM"
+     ],
+     "categories": [
+      "Transmission Repair"
+     ],
+     "services": [
+      "Auto transmission repair",
+      "Transmission leak inspection"
+     ],
+     "owner_text": "A transmission repair company based in Montclair, with transmission repair and transmission replacement among its services (the text is cut off by Yelp)."
+    },
+    "flags": [
+     "The phone differs: Google and the sheet have (909) 204-2154 while Yelp shows (909) 985-1700, so confirm which is right before printing either.",
+     "Sunday is closed on Google and 10 AM to 4 PM on Yelp, and weekdays open at 9:30 AM on Google against 9 AM on Yelp.",
+     "Google shows 4.3 with no topic chips at all.",
+     "Yelp shows 4.6 from 10 and is claimed, so Yelp leads the handoff's facts block.",
+     "Google's claim status was not read, and Yelp's about text is cut off after the service list begins."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.3/21 with no topics, Yelp claimed 4.6/10 with a different phone (909) 985-1700. Low priority. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 114,
@@ -6410,10 +6983,84 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 114,
+    "name": "European Transmission Rebuild",
+    "city": "Montclair",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Check website first",
+    "angle": "None until the domain question is settled — Yelp lists a domain that looks parked today.",
+    "google": {
+     "name": "European Transmission Rebuild",
+     "rating": 4.8,
+     "reviews": 20,
+     "address": "5521 Holt Blvd Ste g, Montclair, CA 91763",
+     "phone": "(626) 234-5424",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "8:00 AM – 7:00 PM",
+      "8:00 AM – 7:00 PM",
+      "8:00 AM – 7:00 PM",
+      "8:00 AM – 7:00 PM",
+      "8:00 AM – 7:00 PM",
+      "7:00 AM – 10:00 PM",
+      "7:00 AM – 12:00 PM"
+     ],
+     "topics": {
+      "transmission repair": 2,
+      "quality work": 2,
+      "engine": 3,
+      "fairness": 2,
+      "honesty": 6,
+      "problem-solving": 2
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/european-transmission-montclair-2",
+     "name": "European Transmission",
+     "rating": 4.6,
+     "reviews": 9,
+     "claimed": false,
+     "address": "5521 Holt Blvd, Ste G, Montclair, CA 91763",
+     "phone": "(626) 234-5424",
+     "website": "europeantransmissionrebuild.com",
+     "hours": [
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "9:30 AM – 7:00 PM",
+      "Closed"
+     ],
+     "categories": [
+      "Transmission Repair",
+      "Auto Repair",
+      "Wheel & Rim Repair"
+     ],
+     "services": [
+      "Auto transmission repair",
+      "Transmission leak inspection",
+      "Auto battery or electrical system repair",
+      "Auto engine repair",
+      "Auto fluids and filters maintenance"
+     ],
+     "owner_text": "The shop specialises in European, domestic and import vehicles."
+    },
+    "flags": [
+     "Yelp lists europeantransmissionrebuild.com; on 2026-11-11 it returned only a script that redirects to \"/lander\", the usual pattern of a parked domain, and the lander page itself was not opened, so it looks parked rather than confirmed.",
+     "The shop may own the domain, so ask before building.",
+     "The hours differ widely: Google is Monday to Friday 8 AM to 7 PM, Saturday 7 AM to 10 PM and Sunday 7 AM to 12 PM, Yelp is Monday to Saturday 9:30 AM to 7 PM and closed Sunday, and Google's Saturday and Sunday hours look like data-entry errors.",
+     "The phone carries a 626 area code, which is not local to Montclair.",
+     "Yelp names the shop \"European Transmission\", while Google and the sheet have \"European Transmission Rebuild\".",
+     "Google's 4.8 from 20 leads the handoff's facts block over Yelp's 4.6 from 9; Yelp is unclaimed and Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.8/20, Yelp 4.6/9 as European Transmission. Yelp lists europeantransmissionrebuild.com, which looks parked. Check website first. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 115,
@@ -6435,10 +7082,92 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 115,
+    "name": "Don Cortez Tire Services",
+    "city": "Ontario",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Hold",
+    "angle": "None until row 4's call is done — this looks like another location of a business that already has a site.",
+    "google": {
+     "name": "Don Cortez Tire Services",
+     "rating": 4.2,
+     "reviews": 377,
+     "address": "117 N Campus Ave, Ontario, CA 91764",
+     "phone": "(909) 218-4924",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 6:00 PM",
+      "8:00 AM – 5:00 PM"
+     ],
+     "topics": {
+      "used tires": 15,
+      "tire change": 5,
+      "fast tire repair": 2,
+      "tire balancing": 2,
+      "tire mounting": 2,
+      "new tires": 3,
+      "polite staff": 7,
+      "wait time": 2,
+      "tire patch": 2,
+      "fast work": 2
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/don-cortez-tire-service-ontario",
+     "name": "Don Cortez Tire Service",
+     "rating": 3.6,
+     "reviews": 58,
+     "claimed": true,
+     "address": "117 N Campus Ave, Unit B, Ontario, CA 91764",
+     "phone": "(909) 218-4924",
+     "website": null,
+     "hours": [
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "7:00 AM – 7:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 5:00 PM"
+     ],
+     "categories": [
+      "Tires",
+      "Auto Repair",
+      "Wheel & Rim Repair"
+     ],
+     "services": [
+      "Tire balancing",
+      "All-season",
+      "Summer",
+      "Run-flat",
+      "Winter",
+      "Tire installation",
+      "Tire Pressure Monitoring System repair",
+      "Tire repair",
+      "Tire rotation"
+     ],
+     "owner_text": "The shop opened in June 2009 and is family owned and operated, with new and used tires plus brakes, struts, shocks, suspension, alignment and GPS, and an invitation to call for a quote or stop by without commitment."
+    },
+    "flags": [
+     "Hold: sheet row 4, Don Cortez Tire Shop in Fontana, already has a site (mockups/don-cortez-tires) and is mid-call, with \"called 11/10, call again 11/11\" on it, and this looks like another location of the same business, since Yelp also shows a Rancho Cucamonga page.",
+     "Wait for that call and ask whether the owner wants one site for all locations.",
+     "For when it is released: 4.2 on Google from 377 reviews, the most reviews in the batch, against 3.6 on Yelp from 58, and Yelp is claimed.",
+     "The owner's text says family owned since June 2009, which should be confirmed, and used tires is the top Google topic at 15 mentions.",
+     "Saturday opens at 7 AM on Google and 8 AM on Yelp.",
+     "Google's regular Wednesday hours were hidden by Veterans Day holiday hours and are assumed to be 7 AM to 7 PM, the value on the other weekdays; Yelp adds Unit B to the address and names the shop \"Don Cortez Tire Service\"."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.2/377, Yelp claimed 3.6/58. Looks like another location of row 4 Don Cortez Tire Shop, which has a site and is mid-call. Hold. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 116,
@@ -6460,10 +7189,80 @@
     "folder": null
    },
    "claim": null,
-   "research": null,
+   "research": {
+    "row": 116,
+    "name": "Sierra Lawnmower Service",
+    "city": "Fontana",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-6.md",
+    "verdict": "Low priority",
+    "angle": "A mower repair shop and store established in 1987, with lawn mower repair the top Google topic at eight mentions.",
+    "google": {
+     "name": "Sierra Lawnmower Service",
+     "rating": 4.2,
+     "reviews": 83,
+     "address": "7695 Sierra Ave, Fontana, CA 92336",
+     "phone": "(909) 355-8507",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "9:00 AM – 4:00 PM",
+      "Closed",
+      "9:00 AM – 4:00 PM",
+      "9:00 AM – 4:00 PM",
+      "9:00 AM – 4:00 PM",
+      "9:00 AM – 2:00 PM",
+      "Closed"
+     ],
+     "topics": {
+      "lawn mower repair": 8,
+      "turnaround time": 3,
+      "family business": 2,
+      "ma and pa shop": 2,
+      "kind staff": 3,
+      "timeliness": 2,
+      "diagnostic fee": 2,
+      "parts": 3,
+      "carburetor": 2,
+      "honest": 3
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/sierra-lawnmower-service-fontana",
+     "name": "Sierra Lawnmower Service",
+     "rating": 3.7,
+     "reviews": 19,
+     "claimed": true,
+     "address": "7695 Sierra Ave, Fontana, CA 92336",
+     "phone": "(909) 355-8507",
+     "website": null,
+     "hours": [
+      "9:00 AM – 4:00 PM",
+      "Closed",
+      "9:00 AM – 4:00 PM",
+      "9:00 AM – 4:00 PM",
+      "9:00 AM – 4:00 PM",
+      "9:00 AM – 2:00 PM",
+      "Closed"
+     ],
+     "categories": [
+      "Nurseries & Gardening"
+     ],
+     "services": [],
+     "owner_text": "Established in 1987, followed by a note about a mower that will not start on a Saturday morning and a push to bring the machine in rather than keep guessing."
+    },
+    "flags": [
+     "The hours agree on all seven days, with Tuesday and Sunday closed.",
+     "The sheet files it under landscaping, but it is a mower repair shop and store, and Yelp files it under nurseries and gardening.",
+     "It is low priority because of the ratings, 4.2 on Google from 83 and 3.7 on Yelp from 19, not because of the facts.",
+     "A diagnostic fee is one of the Google topics, so do not state a fee on a page.",
+     "The 1987 date comes from the owner's text and should be confirmed.",
+     "Yelp is claimed and lists no services; Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
+   },
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.2/83, Yelp claimed 3.7/19, hours agree. Mower repair shop est. 1987, not landscaping. Low priority. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 117,

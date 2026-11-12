@@ -18,3 +18,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 102 | T&S auto repair | Vincent | research | 2026-11-11 | done |
 | 103 | Fast Lane Auto Repair | Vincent | research | 2026-11-11 | done |
 | 104 | Auto Pros Repair | Vincent | research | 2026-11-11 | done |
+| 105 | A & A Auto Repair | Vincent | research | 2026-11-11 | done |
+| 106 | Fontana Custom Auto Body | Vincent | research | 2026-11-11 | done |
+| 107 | Advance Tranz | Vincent | research | 2026-11-11 | done |
+| 108 | Lanny Monroe Automotive | Vincent | research | 2026-11-11 | done |
+| 109 | Joes Fleet Paint (J&E TRUKNBUS INC) | Vincent | research | 2026-11-11 | done |
+| 110 | Esparza Auto Body & Paint | Vincent | research | 2026-11-11 | done |
+| 111 | Highline Auto Service & Collision, LLC | Vincent | research | 2026-11-11 | done |
+| 112 | Norman's Auto Repair | Vincent | research | 2026-11-11 | done |
+| 113 | All Gear Transmission & Differential | Vincent | research | 2026-11-11 | done |
+| 114 | European Transmission Rebuild | Vincent | research | 2026-11-11 | done |
+| 115 | Don Cortez Tire Services | Vincent | research | 2026-11-11 | done |
+| 116 | Sierra Lawnmower Service | Vincent | research | 2026-11-11 | done |
