@@ -1,0 +1,28 @@
+Raw Google Maps extracts for handoff 9. Read in a browser on 2026-11-11 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Wednes first because the page was read on Wednesday Nov 11, Veterans Day; * marks that day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+141 | Jesus Tree Service Landscaping | Tree service | 4.3 | 16 | NO ADDRESS on the listing (service-area business) |  | (909) 757-4979 | web:none | claimed? | Wednes: 7 AM to 6 PM*; Thurs: 7 AM to 6 PM; Fri: 7 AM to 6 PM; Satur: 7 AM to 6 PM; Sun: Closed; Mon: 7 AM to 6 PM; Tues: 7 AM to 6 PM | TOPICS job:3
+
+142 | So.Cal Automotive Repair | Auto repair shop | 4.6 | 15 | 520 W California St, Ontario, CA 91762 |  | (909) 241-6822 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS affordable:2, mechanic:6
+
+143 | Ruano's Auto Repair | Auto repair shop | 4.7 | 14 | 604 W Holt Ave, Pomona, CA 91768 | Located in: Shell | (909) 630-2208 | web:none | UNCLAIMED | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 2:30 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS smog check:2, truck:2, mechanic:3, smog:2
+
+144 | Empire Mechanic | Auto repair shop | 4.7 | 14 | 5521 Holt Blvd Ste 1, Montclair, CA 91763 |  | (626) 234-5424 | web:none | UNCLAIMED | HOURS AS SHOWN (garbled split hours): Wednes: 12 AM to 6 AM and 9 AM to 12 AM*; Thurs: 12 AM to 6 AM and 9 AM to 12 AM; Fri: 12 AM to 6 AM and 9 AM to 12 AM; Satur: 12 AM to 6 AM and 10 AM to 12 AM; Sun: 12 AM to 3 AM; Mon: 9 AM to 12 AM; Tues: 12 AM to 6 AM and 9 AM to 12 AM | TOPICS quality work:3, honesty:2
+   SUPERVISOR NOTE: the phone (626) 234-5424 and the Google plus code 3878+36 are the same as sheet row 114, European Transmission Rebuild, 5521 Holt Blvd Ste g (researched in handoff 6, verdict Check website first). Same building, same phone, different suite and name.
+
+145 | Excellent Auto Repair | Auto repair shop | 4.7 | 14 | 4392 Brooks St B, Montclair, CA 91763 |  | (714) 944-7508 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 9 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS honesty:2
+
+146 | D L Long Landscaping | Landscaper | 4.4 | 14 | 5475 G St, Chino, CA 91710 |  | (909) 628-5531 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+
+147 | Torres Truck Repair & Road Services | Truck repair shop | 4.2 | 14 | 14838 Boyle Ave Ste a, Fontana, CA 92337 |  | (909) 429-0232 | web:none | claimed? | Wednes: 10 AM to 7 PM*; Thurs: 10 AM to 7 PM; Fri: 10 AM to 7 PM; Satur: 9 AM to 3 PM; Sun: Closed; Mon: 10 AM to 7 PM; Tues: 10 AM to 7 PM | TOPICS none shown
+
+148 | Pomona Car Care | Auto repair shop | 4.8 | 12 | 1207 E Mission Blvd, Pomona, CA 91766 | Located in: 76 | (909) 629-4863 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+
+149 | G&C Brothers Auto | Mechanic | 5.0 | 12 | 255 N White Ave, Pomona, CA 91768 |  | (909) 446-9104 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 1 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS clear explanations:2, fair pricing:2, workmanship:2, maintenance:2, truck:2, pricing:4
+
+150 | Panda Plastering and Stucco | Stucco contractor | 4.7 | 12 | 8964 Juniper Ave, Fontana, CA 92335 |  | (909) 409-6680 | web:none | claimed? | Wednes: 7 AM to 4 PM*; Thurs: 7 AM to 4 PM; Fri: 7 AM to 4 PM; Satur: Closed; Sun: Closed; Mon: 7 AM to 4 PM; Tues: 7 AM to 4 PM | TOPICS none shown
+
+151 | Highland Handyman | Handyman/Handywoman/Handyperson | 5.0 | 12 | 9988 Foothill Blvd, Rancho Cucamonga, CA 91730 |  | (909) 354-7780 | web:none | claimed? | Wednes: 7 AM to 5 PM*; Thurs: 7 AM to 5 PM; Fri: 7 AM to 5 PM; Satur: 8 AM to 3 PM; Sun: Closed; Mon: 7 AM to 5 PM; Tues: 7 AM to 5 PM | TOPICS home repair:2, plumbing:2, courteous:2, punctuality:3, trustworthy:4, electrical work:4, quality of work:2, skill:2
+
+152 | DXM12 Chimney Inspection Services Ltd | Chimney sweep | 4.2 | 12 | 11329 Fiesta Ct, Fontana, CA 92337 |  | (909) 382-8194 | web:none | UNCLAIMED | Open 24 hours all seven days (Wednesday marked *) | TOPICS none shown

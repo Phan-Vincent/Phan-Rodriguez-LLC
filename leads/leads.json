@@ -1,13 +1,13 @@
 {
  "_meta": {
-  "generated": "2026-11-11",
+  "generated": "2026-11-12",
   "generator": "tools/leads/sync.py",
   "do_not_edit": true,
   "counts": {
    "leads": 294,
    "with_site": 45,
-   "researched": 87,
-   "open_claims": 12
+   "researched": 99,
+   "open_claims": 0
   }
  },
  "leads": [
@@ -9368,15 +9368,48 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 141,
+    "name": "Jesus Tree Service Landscaping",
+    "city": "Chino",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Low priority",
+    "angle": "A tree service at 4.3 on Google from 16 with one generic topic chip, job at three mentions, and no street address.",
+    "google": {
+     "name": "Jesus Tree Service Landscaping",
+     "rating": 4.3,
+     "reviews": 16,
+     "address": null,
+     "phone": "(909) 757-4979",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "7:00 AM – 6:00 PM",
+      "7:00 AM – 6:00 PM",
+      "7:00 AM – 6:00 PM",
+      "7:00 AM – 6:00 PM",
+      "7:00 AM – 6:00 PM",
+      "7:00 AM – 6:00 PM",
+      "Closed"
+     ],
+     "topics": {
+      "job": 3
+     }
+    },
+    "yelp": null,
+    "flags": [
+     "Google only; the Yelp search in Chino returned only tree services of similar names in other cities, South Gate, Santa Ana, Orange, San Bernardino and Buena Park, so there is no Yelp page.",
+     "Google shows 4.3 from 16 with one generic topic chip, job at three mentions, so there is little to build an angle from.",
+     "No street address is given because it is a service-area business, so keep the city and phone on anything written.",
+     "Hours are Monday to Saturday 7 AM to 6 PM with Sunday closed, and Wednesday carries Google's note that hours might differ.",
+     "Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.3/16, one generic topic, no street address, no Yelp page. Low priority. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 142,
@@ -9397,15 +9430,40 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 142,
+    "name": "So.Cal Automotive Repair",
+    "city": "Ontario",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Low priority",
+    "angle": "A general repair shop on West California Street at 4.6 on Google from 15, with no hours and only generic topics.",
+    "google": {
+     "name": "So.Cal Automotive Repair",
+     "rating": 4.6,
+     "reviews": 15,
+     "address": "520 W California St, Ontario, CA 91762",
+     "phone": "(909) 241-6822",
+     "website": null,
+     "unclaimed": true,
+     "hours": null,
+     "topics": {
+      "mechanic": 6,
+      "affordable": 2
+     }
+    },
+    "yelp": null,
+    "flags": [
+     "Google only; searches for \"So Cal Automotive Repair\" at the street address and \"SoCal Automotive\" in Ontario returned only unrelated businesses, so there is no Yelp page.",
+     "Google shows 4.6 from 15 and is unclaimed, with no hours listed.",
+     "The only topic chips are mechanic (6) and affordable (2), which are generic, so the angle rests on the category, address and rating.",
+     "The name is written with a period, \"So.Cal\", so ask how the shop writes it."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.6/15 unclaimed, no hours, generic topics, no Yelp page. Low priority. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 143,
@@ -9426,15 +9484,72 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 143,
+    "name": "Ruano's Auto Repair",
+    "city": "Pomona",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Build",
+    "angle": "A shop Google places in a Shell station on West Holt Avenue, rated 4.7 on Google from 14 and 5.0 on Yelp from 6, with smog checks among its Google topics.",
+    "google": {
+     "name": "Ruano's Auto Repair",
+     "rating": 4.7,
+     "reviews": 14,
+     "address": "604 W Holt Ave, Pomona, CA 91768",
+     "phone": "(909) 630-2208",
+     "website": null,
+     "unclaimed": true,
+     "hours": [
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 6:00 PM",
+      "8:00 AM – 2:30 PM",
+      "Closed"
+     ],
+     "topics": {
+      "smog check": 2,
+      "truck": 2,
+      "mechanic": 3,
+      "smog": 2
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/ruanos-auto-repair-pomona",
+     "name": "Ruano's Auto Repair",
+     "rating": 5.0,
+     "reviews": 6,
+     "claimed": true,
+     "address": "604 W Holt Ave, Pomona, CA 91768",
+     "phone": "(909) 630-2208",
+     "website": null,
+     "hours": null,
+     "categories": [
+      "Tires",
+      "Oil Change Stations",
+      "Auto Repair"
+     ],
+     "services": [
+      "Oil changes",
+      "Routine automotive maintenance"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "Google's 4.7 from 14 leads the handoff's facts block on review count, and Yelp's 5.0 rests on six reviews.",
+     "Yelp is claimed and Google is unclaimed.",
+     "Yelp lists no hours, so Google's are the only source, Monday to Friday 8 AM to 6 PM and Saturday 8 AM to 2:30 PM with Sunday closed.",
+     "Google says the shop is located in a Shell station at 604 W Holt Ave, so confirm it is run separately from the station.",
+     "Smog and smog check are Google topics at two mentions each, and truck at two, so ask whether it does smog inspections and light truck work.",
+     "Yelp files it under tires and oil change stations as well as auto repair."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.7/14, Yelp claimed 5.0/6. Inside a Shell station; smog is a topic. Google hours Mon-Fri 8-6, Sat 8-2:30. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 144,
@@ -9455,15 +9570,50 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 144,
+    "name": "Empire Mechanic",
+    "city": "Montclair",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Hold",
+    "angle": "None until row 114 is settled, since this listing shares its phone and building with European Transmission Rebuild.",
+    "google": {
+     "name": "Empire Mechanic",
+     "rating": 4.7,
+     "reviews": 14,
+     "address": "5521 Holt Blvd Ste 1, Montclair, CA 91763",
+     "phone": "(626) 234-5424",
+     "website": null,
+     "unclaimed": true,
+     "hours": [
+      "9:00 AM – 12:00 AM",
+      "12:00 AM – 6:00 AM, 9:00 AM – 12:00 AM",
+      "12:00 AM – 6:00 AM, 9:00 AM – 12:00 AM",
+      "12:00 AM – 6:00 AM, 9:00 AM – 12:00 AM",
+      "12:00 AM – 6:00 AM, 9:00 AM – 12:00 AM",
+      "12:00 AM – 6:00 AM, 10:00 AM – 12:00 AM",
+      "12:00 AM – 3:00 AM"
+     ],
+     "topics": {
+      "quality work": 3,
+      "honesty": 2
+     }
+    },
+    "yelp": null,
+    "flags": [
+     "Hold: the phone (626) 234-5424 and the building at 5521 Holt Blvd are the same as sheet row 114, European Transmission Rebuild in suite G, which handoff 6 marked Check website first, so this may be the same operator under a second name.",
+     "Settle row 114 first and ask on that call whether the two names are the same business.",
+     "Google's hours are garbled split hours that cannot be used, so quote no hours until they are confirmed.",
+     "The listing shows 4.7 from 14 with quality work (3) and honesty (2), and it is unclaimed.",
+     "There is no Yelp page: the Yelp search at the street address returned only other businesses named Empire in other cities.",
+     "The suite is 1 here and g on row 114."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.7/14. Same phone and building as row 114 (European Transmission Rebuild); Google hours garbled. Hold until row 114 is settled. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 145,
@@ -9484,15 +9634,49 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 145,
+    "name": "Excellent Auto Repair",
+    "city": "Montclair",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Build, Google only",
+    "angle": "A general repair shop in suite B on Brooks Street at 4.7 on Google from 14, with honesty its only topic chip.",
+    "google": {
+     "name": "Excellent Auto Repair",
+     "rating": 4.7,
+     "reviews": 14,
+     "address": "4392 Brooks St B, Montclair, CA 91763",
+     "phone": "(714) 944-7508",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "9:00 AM – 2:00 PM",
+      "Closed"
+     ],
+     "topics": {
+      "honesty": 2
+     }
+    },
+    "yelp": null,
+    "flags": [
+     "Google only; the Yelp search at the street address returned only similarly named shops in other cities, so there is no Yelp page.",
+     "Google shows 4.7 from 14 with a single topic chip, honesty at two mentions, so the angle rests on the category, address and hours.",
+     "The phone, (714) 944-7508, has a 714 area code that is not local to Montclair, so confirm it before anything is printed.",
+     "The address is suite B on Brooks St, written on Google as \"4392 Brooks St B\".",
+     "Hours are Monday to Friday 8 AM to 5 PM and Saturday 9 AM to 2 PM, with Sunday closed.",
+     "Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.7/14, one topic, no Yelp page, 714 number. Build, Google only. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 146,
@@ -9513,15 +9697,62 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 146,
+    "name": "D L Long Landscaping",
+    "city": "Chino",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Check website first",
+    "angle": "None until the website is settled, since Yelp lists dllong.com and the page looks parked.",
+    "google": {
+     "name": "D L Long Landscaping",
+     "rating": 4.4,
+     "reviews": 14,
+     "address": "5475 G St, Chino, CA 91710",
+     "phone": "(909) 628-5531",
+     "website": null,
+     "unclaimed": true,
+     "hours": null,
+     "topics": {}
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/d-l-long-landscaping-chino",
+     "name": "D L Long Landscaping",
+     "rating": null,
+     "reviews": 0,
+     "claimed": false,
+     "address": "5475 G St, Chino, CA 91710",
+     "phone": "(909) 628-5531",
+     "website": "dllong.com",
+     "hours": [
+      "12:15 AM – 11:15 PM",
+      "12:15 AM – 11:15 PM",
+      "12:15 AM – 11:15 PM",
+      "12:15 AM – 11:15 PM",
+      "12:15 AM – 11:15 PM",
+      "12:15 AM – 11:15 PM",
+      "12:15 AM – 11:15 PM"
+     ],
+     "categories": [
+      "Landscaping"
+     ],
+     "services": [],
+     "owner_text": null
+    },
+    "flags": [
+     "Yelp lists dllong.com, which returns 403 to a script and shows a blank page with only a \"Do Not Sell or Share My Personal Information\" link in a browser, the usual look of a parked domain; parked is likely but not confirmed, so ask before building.",
+     "Google shows 4.4 from 14 and is unclaimed, with no hours and no topic chips.",
+     "The Yelp page has no rating and no reviews, and it is unclaimed.",
+     "Yelp's hours run 12:15 AM to 11:15 PM every day, which do not look like real hours.",
+     "Yelp's service list is keyword-style filler such as \"Efficient Irrigation Solutions and Systems in Chino, California\", so do not copy it.",
+     "The name, address and phone agree on both sites."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.4/14 unclaimed, no hours. Yelp lists dllong.com, which looks parked. Check website first. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 147,
@@ -9542,15 +9773,72 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 147,
+    "name": "Torres Truck Repair & Road Services",
+    "city": "Fontana",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Low priority",
+    "angle": "A truck repair shop on Boyle Avenue at 4.2 on Google from 14, with a Yelp page at the same address that shows a different phone and no reviews.",
+    "google": {
+     "name": "Torres Truck Repair & Road Services",
+     "rating": 4.2,
+     "reviews": 14,
+     "address": "14838 Boyle Ave Ste a, Fontana, CA 92337",
+     "phone": "(909) 429-0232",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "10:00 AM – 7:00 PM",
+      "10:00 AM – 7:00 PM",
+      "10:00 AM – 7:00 PM",
+      "10:00 AM – 7:00 PM",
+      "10:00 AM – 7:00 PM",
+      "9:00 AM – 3:00 PM",
+      "Closed"
+     ],
+     "topics": {}
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/torres-truck-and-road-service-fontana",
+     "name": "Torres Truck and Road Service",
+     "rating": null,
+     "reviews": 0,
+     "claimed": false,
+     "address": "14838 Boyle Ave, Unit A, Fontana, CA 92337",
+     "phone": "(909) 685-5249",
+     "website": null,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "Closed"
+     ],
+     "categories": [
+      "Auto Repair"
+     ],
+     "services": [
+      "Oil changes",
+      "Routine automotive maintenance"
+     ],
+     "owner_text": "Truck and trailer repair, heavy-duty trucks, construction equipment, roadside service, diesel smog tests, oil changes and clutch adjustment."
+    },
+    "flags": [
+     "The Yelp page here is page A, at the same street address and unit but with a different phone, (909) 685-5249 against Google's (909) 429-0232, and no rating and no reviews, so the match is probable only.",
+     "Page A's text lists heavy-duty truck, trailer and equipment work, roadside service and diesel smog tests.",
+     "Hours differ: Google is 10 AM to 7 PM Monday to Friday and 9 AM to 3 PM Saturday, while page A is 8 AM to 5 PM Monday to Saturday with Sunday closed.",
+     "A second page, https://www.yelp.com/biz/torres-diesel-road-repair-fontana, named Torres Diesel Road Repair, shows a 956 phone, (956) 513-4983, no address and 24 hours, and is a different listing, so do not link it.",
+     "Google's category is truck repair shop while the sheet says auto body, and Google shows no topic chips."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.2/14, no topics. Truck repair, not auto body. Yelp page at same address has a different phone. Low priority. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 148,
@@ -9571,15 +9859,55 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 148,
+    "name": "Pomona Car Care",
+    "city": "Pomona",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Low priority",
+    "angle": "Ratings of 4.8 on Google from 12 and 4.0 on Yelp from 3, but there is only a name, address and phone to build from.",
+    "google": {
+     "name": "Pomona Car Care",
+     "rating": 4.8,
+     "reviews": 12,
+     "address": "1207 E Mission Blvd, Pomona, CA 91766",
+     "phone": "(909) 629-4863",
+     "website": null,
+     "unclaimed": true,
+     "hours": null,
+     "topics": {}
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/pomona-car-care-pomona",
+     "name": "Pomona Car Care",
+     "rating": 4.0,
+     "reviews": 3,
+     "claimed": false,
+     "address": "1207 E Mission Blvd, Pomona, CA 91766",
+     "phone": "(909) 629-4863",
+     "website": null,
+     "hours": null,
+     "categories": [
+      "Auto Repair"
+     ],
+     "services": [
+      "Routine automotive maintenance"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "Both ratings rest on few reviews, 4.8 from 12 on Google and 4.0 from 3 on Yelp.",
+     "Neither site lists hours and Google shows no topic chips, and both listings are unclaimed.",
+     "There is only a name, address and phone to build from, as with row 132 in handoff 8.",
+     "Google says it is located in a 76 station on East Mission Blvd.",
+     "Yelp lists only routine automotive maintenance."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.8/12, no hours, no topics, unclaimed; Yelp 4.0/3. Inside a 76 station. Low priority until called. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 149,
@@ -9600,15 +9928,83 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 149,
+    "name": "G&C Brothers Auto",
+    "city": "Pomona",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Build",
+    "angle": "General repair on North White Avenue rated 5.0 on both sites, with pricing the top Google topic at four mentions and a verified Yelp service list covering brakes, engine and electrical work.",
+    "google": {
+     "name": "G&C Brothers Auto",
+     "rating": 5.0,
+     "reviews": 12,
+     "address": "255 N White Ave, Pomona, CA 91768",
+     "phone": "(909) 446-9104",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 1:00 PM",
+      "Closed"
+     ],
+     "topics": {
+      "clear explanations": 2,
+      "fair pricing": 2,
+      "workmanship": 2,
+      "maintenance": 2,
+      "truck": 2,
+      "pricing": 4
+     }
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/g-and-c-brothers-auto-pomona",
+     "name": "G&C Brothers Auto",
+     "rating": 5.0,
+     "reviews": 3,
+     "claimed": true,
+     "address": "255 N White Ave, Pomona, CA 91768",
+     "phone": "(909) 446-9104",
+     "website": null,
+     "hours": [
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 5:00 PM",
+      "8:00 AM – 1:00 PM",
+      "Closed"
+     ],
+     "categories": [
+      "Auto Repair"
+     ],
+     "services": [
+      "Auto battery and fluid recycling",
+      "Auto battery or electrical system repair",
+      "Auto brake repair",
+      "Auto defroster tab repair",
+      "Auto engine repair"
+     ],
+     "owner_text": null
+    },
+    "flags": [
+     "Both ratings are 5.0, Google from 12 and Yelp from 3, so Google leads the handoff's facts block and the Yelp rating rests on three reviews.",
+     "Hours agree on all seven days, Monday to Friday 8 AM to 5 PM and Saturday 8 AM to 1 PM with Sunday closed.",
+     "Yelp is claimed; Google's claim status was not read.",
+     "Yelp's service list is marked as verified by the business and runs 30 entries beyond the five shown, covering brakes, engine, electrical and battery work.",
+     "Google's category is mechanic rather than auto repair shop, and truck is a Google topic at two mentions, so ask whether the shop takes trucks.",
+     "Pricing is the top Google topic at four mentions, with fair pricing, clear explanations and workmanship at two each."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 5.0/12, Yelp claimed 5.0/3, hours agree (Mon-Fri 8-5, Sat 8-1). Pricing is the top topic. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 150,
@@ -9629,15 +10025,76 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 150,
+    "name": "Panda Plastering and Stucco",
+    "city": "Fontana",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Build",
+    "angle": "Lath, plaster and stucco work from small repairs to new residential and commercial projects, with Yelp 4.3 from 53 the most reviews in the batch against Google 4.7 from 12.",
+    "google": {
+     "name": "Panda Plastering and Stucco",
+     "rating": 4.7,
+     "reviews": 12,
+     "address": "8964 Juniper Ave, Fontana, CA 92335",
+     "phone": "(909) 409-6680",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "7:00 AM – 4:00 PM",
+      "Closed",
+      "Closed"
+     ],
+     "topics": {}
+    },
+    "yelp": {
+     "url": "https://www.yelp.com/biz/panda-plastering-fontana",
+     "name": "Panda Plastering",
+     "rating": 4.3,
+     "reviews": 53,
+     "claimed": true,
+     "address": "Fontana, CA 92335",
+     "phone": null,
+     "website": null,
+     "hours": [
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM"
+     ],
+     "categories": [
+      "Stucco Services"
+     ],
+     "services": [
+      "Siding installation",
+      "Siding repair",
+      "Siding replacement",
+      "Wall finish installation or replacement",
+      "Wall patching"
+     ],
+     "owner_text": "Lath, plaster and stucco work from small repairs to new residential and commercial projects: new stucco, re-stucco, color matching, texture matching, stucco siding, walls, fireplaces, chimneys, courtyards, barbecue islands and retaining walls, where the Yelp text is cut."
+    },
+    "flags": [
+     "Yelp's 4.3 from 53 is the most reviews in the batch and sits below Google's 4.7 from 12, so Yelp leads the handoff's facts block.",
+     "The Yelp match is probable only: Yelp shows no street address and no phone, and its name drops \"and Stucco\", so the match rests on the name and the stucco trade.",
+     "Hours differ widely, Google Monday to Friday 7 AM to 4 PM with weekends closed against Yelp 7 AM to 5 PM all seven days, so the handoff's facts block uses the shorter hours and the real hours must be asked.",
+     "Yelp has no street address, so ask before printing Google's 8964 Juniper Ave.",
+     "The sheet files the business as landscaping while Google's category is stucco contractor.",
+     "Yelp is claimed; Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.7/12, Yelp claimed 4.3/53 as Panda Plastering (probable match). Stucco contractor, not landscaping. Hours differ. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 151,
@@ -9658,15 +10115,56 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 151,
+    "name": "Highland Handyman",
+    "city": "Rancho Cucamonga",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Build, Google only",
+    "angle": "A handyman rated 5.0 on Google from 12, with electrical work and trustworthy the top topics at four mentions each.",
+    "google": {
+     "name": "Highland Handyman",
+     "rating": 5.0,
+     "reviews": 12,
+     "address": "9988 Foothill Blvd, Rancho Cucamonga, CA 91730",
+     "phone": "(909) 354-7780",
+     "website": null,
+     "unclaimed": null,
+     "hours": [
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "7:00 AM – 5:00 PM",
+      "8:00 AM – 3:00 PM",
+      "Closed"
+     ],
+     "topics": {
+      "home repair": 2,
+      "plumbing": 2,
+      "courteous": 2,
+      "punctuality": 3,
+      "trustworthy": 4,
+      "electrical work": 4,
+      "quality of work": 2,
+      "skill": 2
+     }
+    },
+    "yelp": null,
+    "flags": [
+     "Google only; the Yelp search in Rancho Cucamonga returned only other handyman services, so there is no Yelp page.",
+     "Google shows 5.0 from 12 with electrical work and trustworthy the top topics at four mentions each, and punctuality at three.",
+     "9988 Foothill Blvd may be a mailing address for a handyman who goes to the customer; that is a guess and not on the listing, so ask before printing the address.",
+     "Hours are Monday to Friday 7 AM to 5 PM and Saturday 8 AM to 3 PM, with Sunday closed.",
+     "Google's category reads Handyman/Handywoman/Handyperson.",
+     "Google's claim status was not read."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 5.0/12, no Yelp page. Electrical, plumbing and home repair topics; Mon-Fri 7-5, Sat 8-3. Build, Google only. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 152,
@@ -9687,15 +10185,46 @@
     "exists": false,
     "folder": null
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "research",
-    "date": "2026-11-11"
+   "claim": null,
+   "research": {
+    "row": 152,
+    "name": "DXM12 Chimney Inspection Services Ltd",
+    "city": "Fontana",
+    "handoff": "docs/handoffs/2026-11-11-open-leads-9.md",
+    "verdict": "Low priority",
+    "angle": "A chimney sweep on Fiesta Court listed open 24 hours at 4.2 on Google from 12, with no topic chips and no Yelp page.",
+    "google": {
+     "name": "DXM12 Chimney Inspection Services Ltd",
+     "rating": 4.2,
+     "reviews": 12,
+     "address": "11329 Fiesta Ct, Fontana, CA 92337",
+     "phone": "(909) 382-8194",
+     "website": null,
+     "unclaimed": true,
+     "hours": [
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours",
+      "Open 24 hours"
+     ],
+     "topics": {}
+    },
+    "yelp": null,
+    "flags": [
+     "Google only; the Yelp search in Fontana returned only other chimney and fireplace services, so there is no Yelp page.",
+     "Google shows 4.2 from 12 with no topic chips, and the listing is unclaimed.",
+     "Google's category is chimney sweep while the sheet says handyman.",
+     "The name ends in \"Ltd\" and carries a code-like prefix, \"DXM12\", so ask what the business calls itself.",
+     "The listing is open 24 hours all seven days, with Wednesday marked as hours might differ."
+    ],
+    "date_read": "2026-11-11"
    },
-   "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Researched Nov 11: Maps 4.2/12 unclaimed, no topics, listed 24 hours, no Yelp page. Chimney sweep, not handyman. Low priority. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-11"
   },
   {
    "row": 153,

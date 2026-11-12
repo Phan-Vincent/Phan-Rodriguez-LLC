@@ -1,0 +1,29 @@
+Raw Yelp extracts for handoff 9. Read in a browser on 2026-11-11 by Vincent's session.
+Format per line: sheet row | supervisor's match verdict | Yelp path || page header (name, rating, review count, claimed, categories) || SVC: services offered || ABOUT: owner text (owner and manager names already removed; "[...]" marks where Yelp cut the text) || LOC: address and weekly hours || web: business website shown on Yelp || phone shown on Yelp
+Review-highlight quotes were dropped because they name staff.
+
+141 | NO MATCH: the Yelp search in Chino returned only tree services of similar names in other cities (South Gate, Santa Ana, Orange, San Bernardino, Buena Park). Treat row 141 as having no Yelp page.
+
+142 | NO MATCH: searches for "So Cal Automotive Repair" at the street address and "SoCal Automotive" in Ontario returned only unrelated businesses. Treat row 142 as having no Yelp page.
+
+143 | MATCH | /biz/ruanos-auto-repair-pomona || Ruano's Auto Repair | 5.0 (6 reviews) | Claimed | Tires, Oil Change Stations, Auto Repair || SVC: Oil changes; Routine automotive maintenance || ABOUT: none || LOC: 604 W Holt Ave, Pomona, CA 91768 (no hours listed) || web:none || (909) 630-2208
+
+144 | NO MATCH: the Yelp search at the street address returned only other businesses named Empire in other cities. Treat row 144 as having no Yelp page.
+
+145 | NO MATCH: the Yelp search at the street address returned only similarly named shops in other cities. Treat row 145 as having no Yelp page.
+
+146 | MATCH (same name, address and phone) | /biz/d-l-long-landscaping-chino || D L Long Landscaping | NO RATING, no reviews | Unclaimed | Landscaping || SVC: a long list of keyword-style entries such as "Efficient Irrigation Solutions and Systems in Chino, California", "Experienced Concrete Contractor in Chino, California", "Expert Roofing Services Near You in Chino, California", "Fast Mulch Delivery Services in Chino, California" (these read like search-engine filler, not a real service list) || ABOUT: none || LOC: 5475 G St, Chino, CA 91710. Mon-Sun 12:15 AM - 11:15 PM (all seven days, as shown) || web: dllong.com. SUPERVISOR CHECK 2026-11-11: https://dllong.com returns 403 to a script and, in a browser, shows a blank page with only a "Do Not Sell or Share My Personal Information" link and no shop content, which is the usual look of a parked domain; "parked" is likely but not confirmed || (909) 628-5531
+
+147 | TWO YELP PAGES, NEITHER A CLEAN MATCH.
+   A | PROBABLE MATCH: same street address and unit, but a different phone | /biz/torres-truck-and-road-service-fontana || Torres Truck and Road Service | NO RATING, no reviews | Unclaimed | Auto Repair || SVC: Oil changes; Routine automotive maintenance || ABOUT: Truck repair, trailer repair, heavy duty trucks, construction equipment, road-side service, diesel smog test, oil changes, clutch adjustment || LOC: 14838 Boyle Ave, Unit A, Fontana, CA 92337. Mon 8:00 AM - 5:00 PM; Tue 8:00 AM - 5:00 PM; Wed 8:00 AM - 5:00 PM; Thu 8:00 AM - 5:00 PM; Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 5:00 PM; Sun Closed || web:none || (909) 685-5249 (Google and the sheet have (909) 429-0232)
+   B | NOT A MATCH (no address, 956 phone, open 24 hours) | /biz/torres-diesel-road-repair-fontana || Torres Diesel Road Repair | no rating | Unclaimed | Commercial Truck Repair, Trailer Repair, Towing || (956) 513-4983. Mention only as a similarly named business.
+
+148 | MATCH | /biz/pomona-car-care-pomona || Pomona Car Care | 4.0 (3 reviews) | Unclaimed | Auto Repair || SVC: Routine automotive maintenance || ABOUT: none || LOC: 1207 E Mission Blvd, Pomona, CA 91766 (no hours listed) || web:none || (909) 629-4863
+
+149 | MATCH | /biz/g-and-c-brothers-auto-pomona || G&C Brothers Auto | 5.0 (3 reviews) | Claimed | Auto Repair || SVC (verified by business): Auto battery and fluid recycling; Auto battery or electrical system repair; Auto brake repair; Auto defroster tab repair; Auto engine repair; "See 30 More" || ABOUT: none || LOC: 255 N White Ave, Pomona, CA 91768. Mon 8:00 AM - 5:00 PM; Tue 8:00 AM - 5:00 PM; Wed 8:00 AM - 5:00 PM; Thu 8:00 AM - 5:00 PM; Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 1:00 PM; Sun Closed || web:none || (909) 446-9104
+
+150 | PROBABLE MATCH: same name (without "and Stucco") and city, stucco trade; Yelp shows no street address and no phone, so the match rests on the name | /biz/panda-plastering-fontana || Panda Plastering | 4.3 (53 reviews) | Claimed | Stucco Services || SVC: Siding installation; Siding repair; Siding replacement; Wall finish installation or replacement; Wall patching; "See 1 More" || ABOUT: lath, plaster and stucco from small repairs to new residential and commercial projects: new stucco, re-stucco, color matching, texture matching, stucco siding, walls, fireplaces, chimneys, courtyards, barbecue islands, retaining[...] || LOC: no street address, "Fontana, CA 92335", "Serving Fontana Area". Mon 7:00 AM - 5:00 PM; Tue 7:00 AM - 5:00 PM; Wed 7:00 AM - 5:00 PM; Thu 7:00 AM - 5:00 PM; Fri 7:00 AM - 5:00 PM; Sat 7:00 AM - 5:00 PM; Sun 7:00 AM - 5:00 PM || web:none || no phone shown
+
+151 | NO MATCH: the Yelp search in Rancho Cucamonga returned only other handyman services. Treat row 151 as having no Yelp page.
+
+152 | NO MATCH: the Yelp search in Fontana returned only other chimney and fireplace services. Treat row 152 as having no Yelp page.
