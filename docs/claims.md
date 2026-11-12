@@ -30,15 +30,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 114 | European Transmission Rebuild | Vincent | research | 2026-11-11 | done |
 | 115 | Don Cortez Tire Services | Vincent | research | 2026-11-11 | done |
 | 116 | Sierra Lawnmower Service | Vincent | research | 2026-11-11 | done |
-| 117 | Colima Tires | Vincent | research | 2026-11-11 | open |
-| 118 | Ricos Auto Repair & Smog | Vincent | research | 2026-11-11 | open |
-| 119 | C&H Axle & Auto Repair | Vincent | research | 2026-11-11 | open |
-| 120 | Charlie's On-Site Mobile Mechanic | Vincent | research | 2026-11-11 | open |
-| 121 | C R Automotive | Vincent | research | 2026-11-11 | open |
-| 122 | Tune Tech | Vincent | research | 2026-11-11 | open |
-| 123 | C & C Auto Repair | Vincent | research | 2026-11-11 | open |
-| 124 | Hi Tech Auto Repair | Vincent | research | 2026-11-11 | open |
-| 125 | Fontana Suspension and Auto Repair | Vincent | research | 2026-11-11 | open |
-| 126 | Chino Auto Repair | Vincent | research | 2026-11-11 | open |
-| 127 | Rudy's Autobody | Vincent | research | 2026-11-11 | open |
-| 128 | JT Automotive Service | Vincent | research | 2026-11-11 | open |
+| 117 | Colima Tires | Vincent | research | 2026-11-11 | done |
+| 118 | Ricos Auto Repair & Smog | Vincent | research | 2026-11-11 | done |
+| 119 | C&H Axle & Auto Repair | Vincent | research | 2026-11-11 | done |
+| 120 | Charlie's On-Site Mobile Mechanic | Vincent | research | 2026-11-11 | done |
+| 121 | C R Automotive | Vincent | research | 2026-11-11 | done |
+| 122 | Tune Tech | Vincent | research | 2026-11-11 | done |
+| 123 | C & C Auto Repair | Vincent | research | 2026-11-11 | done |
+| 124 | Hi Tech Auto Repair | Vincent | research | 2026-11-11 | done |
+| 125 | Fontana Suspension and Auto Repair | Vincent | research | 2026-11-11 | done |
+| 126 | Chino Auto Repair | Vincent | research | 2026-11-11 | done |
+| 127 | Rudy's Autobody | Vincent | research | 2026-11-11 | done |
+| 128 | JT Automotive Service | Vincent | research | 2026-11-11 | done |

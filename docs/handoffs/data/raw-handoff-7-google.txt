@@ -1,0 +1,27 @@
+Raw Google Maps extracts for handoff 7. Read in a browser on 2026-11-11 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Wednes first because the page was read on Wednesday Nov 11, Veterans Day; * marks that day, which Google flags as "hours might differ") | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+117 | Colima Tires | Used tire shop | 4.1 | 77 | 1031 W Holt Ave, Pomona, CA 91768 | Located in: Joos Market | (909) 837-1694 | web:none | claimed? | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 4 PM; Sun: 8:30 AM to 4 PM; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS tire installation:6, scam:2, valve:2, rim:6
+
+118 | Ricos Auto Repair & Smog | Auto repair shop | 4.2 | 72 | 16178 Arrow Blvd, Fontana, CA 92335 |  | (909) 574-1511 | web:none | claimed? | Wednes: 8 AM to 5 PM (marked "Holiday hours" for Veterans Day, same as the other weekdays); Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 3 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS transmission swap:2, honest mechanic:4, quick fix:2, honest work:3, staff patience:2, scam:2, pricing:13, sensors:2, honesty:2, vehicle repair:2
+
+119 | C&H Axle & Auto Repair | Auto repair shop | 4.1 | 56 | 15750 Arrow Blvd n, Fontana, CA 92335 |  | (909) 356-4910 | web:none | claimed? (listing shows "LGBTQ+ friendly") | Wednes: 8 AM to 5:30 PM*; Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM; Satur: 8 AM to 1:30 PM; Sun: Closed; Mon: 8 AM to 5:30 PM; Tues: 8 AM to 5:30 PM | TOPICS axle repair:2, honest mechanic:2, helpful team:2, axle boots:3, axles:6, trustworthy:2, auto maintenance:3, check engine light:2, 2003:2, customer satisfaction:2
+
+120 | Charlie's On-Site Mobile Mechanic | Car repair and maintenance service | 4.0 | 56 | 12937 Falcon Pl, Chino, CA 91710 |  | (714) 390-8782 | web:none | claimed? | Open 24 hours all seven days (Wednesday marked *) | TOPICS mobile mechanic:9, starter replacement:3, battery change:2, fair pricing:9, quick diagnosis:2, quick repairs:2, labor cost:2, parts procurement:2, polite staff:2, quality of work:3
+
+121 | C R Automotive | Auto repair shop | 4.2 | 56 | 1715 W Holt Ave, Pomona, CA 91768 |  | (909) 469-6678 | web:none | claimed? | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 4 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS ac repair:2, honest mechanics:3, wait time:3, friendly staff:10, quality work:2, customer care:2, mechanic:7, repairs:2, family:2
+
+122 | Tune Tech | Auto repair shop | 4.1 | 54 | 402 W Holt Ave, Pomona, CA 91768 |  | (909) 622-5131 | web:none | UNCLAIMED | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 4 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS smog check:4, oil change:3, sensor:2, has mechanic:2, smog:7, oil:2, money:3
+
+123 | C & C Auto Repair | Auto repair shop | 4.2 | 43 | 15750 Arrow Blvd Unit K, Fontana, CA 92335 | Located in: Best Tire Shop of Fontana | (909) 574-6873 | web:none | claimed? | Wednes: 9 AM to 6 PM*; Thurs: 9 AM to 6 PM; Fri: 9 AM to 6 PM; Satur: 9 AM to 3 PM; Sun: Closed; Mon: 9 AM to 6 PM; Tues: 9 AM to 6 PM | TOPICS fast work:2, clean work:2, charge:2, honesty:2, car repair:2, mechanic:6, money:2, work:3
+
+124 | Hi Tech Auto Repair | Auto repair shop | 4.2 | 42 | 393 N East End Ave, Pomona, CA 91767 |  | (909) 620-8666 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 1:30 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS fair mechanic:2, honest business:2, friendly staff:3, money:2, mechanic:6, fair:2
+
+125 | Fontana Suspension and Auto Repair | Auto repair shop | 4.0 | 34 | 17474 Foothill Blvd Unit A, Fontana, CA 92335 |  | (909) 320-7757 | web:none | claimed? | Wednes: 8 AM to 6 PM*; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 4 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM | TOPICS repair time:2, honesty:2, mechanic:4, language:2, car repair:4, work:3, engine:2
+
+126 | Chino Auto Repair | Auto repair shop | 4.2 | 33 | 5715 Riverside Dr, Chino, CA 91710 | Located in: ARCO | (909) 548-6300 | web:none | UNCLAIMED | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS quality work:2, truck:2, smog:3, mechanic:7, oil:3
+
+127 | Rudy's Autobody | Auto body shop | 4.2 | 22 | 8265 Juniper Ave, Fontana, CA 92335 |  | (909) 822-3553 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 12 AM (as shown; looks like a data-entry error); Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS none shown
+
+128 | JT Automotive Service | Auto repair shop | 5.0 | 19 | 4711 E Arrow Hwy C, Montclair, CA 91763 |  | (909) 626-6447 | web:none | claimed? | Wednes: 8 AM to 5 PM*; Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 12 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM | TOPICS honest mechanic:4, knowledgeable staff:6, has mechanic:3, honest:2

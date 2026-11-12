@@ -1,0 +1,809 @@
+{
+  "_meta": {
+    "date_read": "2026-11-11",
+    "method": "Google Maps listings and Yelp pages read in a browser by Vincent's session; structured by a Reasonix worker from the handoff documents",
+    "not_confirmed_with_owner": true
+  },
+  "entries": [
+    {
+      "row": 117,
+      "name": "Colima Tires",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Build",
+      "angle": "A family tire shop for new and used tires, patching and balancing, open seven days, rated 4.1 on Google from 77 and 4.2 on Yelp from 24, once the low reviews are read.",
+      "google": {
+        "name": "Colima Tires",
+        "rating": 4.1,
+        "reviews": 77,
+        "address": "1031 W Holt Ave, Pomona, CA 91768",
+        "phone": "(909) 837-1694",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 4:00 PM",
+          "8:30 AM – 4:00 PM"
+        ],
+        "topics": {
+          "tire installation": 6,
+          "rim": 6,
+          "scam": 2,
+          "valve": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/colima-tires-pomona-2",
+        "name": "Colima Tires",
+        "rating": 4.2,
+        "reviews": 24,
+        "claimed": true,
+        "address": "1031 W Holt Ave, Pomona, CA 91768",
+        "phone": "(909) 837-1694",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 4:00 PM"
+        ],
+        "categories": [
+          "Tires"
+        ],
+        "services": [],
+        "owner_text": "A greeting from the Colima family, offering tire patching, balancing and new and used tires to get customers back on the road, with quick professional service."
+      },
+      "flags": [
+        "Google's 4.1 from 77 and Yelp's 4.2 from 24 are close, so Google leads the handoff's facts block on review count.",
+        "Yelp is claimed; Google's claim status was not read.",
+        "Saturday closes at 4 PM on Google and 5 PM on Yelp, and Sunday opens at 8:30 AM on Google and 8 AM on Yelp, so the handoff's facts block uses the shorter hours.",
+        "\"Scam\" is a Google topic chip with 2 mentions, so read the low reviews before anything is built.",
+        "Google places the shop in Joos Market, and the address and phone agree on both sites.",
+        "Yelp lists at-home services as an amenity, which should be confirmed before printing."
+      ]
+    },
+    {
+      "row": 118,
+      "name": "Ricos Auto Repair & Smog",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "General repair and smog with pricing the top Google topic at 13 mentions, against a lower Yelp rating.",
+      "google": {
+        "name": "Ricos Auto Repair & Smog",
+        "rating": 4.2,
+        "reviews": 72,
+        "address": "16178 Arrow Blvd, Fontana, CA 92335",
+        "phone": "(909) 574-1511",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "pricing": 13,
+          "honest mechanic": 4,
+          "honest work": 3,
+          "scam": 2,
+          "staff patience": 2,
+          "transmission swap": 2,
+          "quick fix": 2,
+          "sensors": 2,
+          "honesty": 2,
+          "vehicle repair": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/ricos-auto-repair-and-service-fontana-2",
+        "name": "Ricos Auto Repair and Service",
+        "rating": 3.6,
+        "reviews": 16,
+        "claimed": true,
+        "address": "16178 Arrow Blvd, Fontana, CA 92335",
+        "phone": "(909) 574-1511",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": "Complete automotive repair for foreign and domestic vehicles, covering scheduled maintenance, diagnosis, electrical, brakes, suspension, transmission, engines, air conditioning, clutches, fuel injection and tune-ups, plus a 3 month financing program through Easy Pay Finance."
+      },
+      "flags": [
+        "Yelp's 3.6 from 16 sits below Google's 4.2 from 72, so Google leads the handoff's facts block on review count, though Yelp is claimed and Google's claim status was not read.",
+        "Pricing is by far the top Google topic at 13 mentions, though \"scam\" also appears with 2.",
+        "Hours agree on all seven days.",
+        "The names differ, \"Ricos Auto Repair & Smog\" on Google and on the sheet against \"Ricos Auto Repair and Service\" on Yelp, and Yelp lists no smog category, so confirm smog is offered.",
+        "The owner's text mentions a 3 month financing program, which should be confirmed before printing.",
+        "Yelp lists waiting rooms and financing as amenities."
+      ]
+    },
+    {
+      "row": 119,
+      "name": "C&H Axle & Auto Repair",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Build",
+      "angle": "Axle work to match the name, rated 4.6 on Yelp from 30 against 4.1 on Google from 56, in a shop that also lists diagnostics, steering, suspension, brakes and oil changes.",
+      "google": {
+        "name": "C&H Axle & Auto Repair",
+        "rating": 4.1,
+        "reviews": 56,
+        "address": "15750 Arrow Blvd n, Fontana, CA 92335",
+        "phone": "(909) 356-4910",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 1:30 PM",
+          "Closed"
+        ],
+        "topics": {
+          "axles": 6,
+          "axle boots": 3,
+          "auto maintenance": 3,
+          "axle repair": 2,
+          "honest mechanic": 2,
+          "helpful team": 2,
+          "trustworthy": 2,
+          "check engine light": 2,
+          "2003": 2,
+          "customer satisfaction": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/c-and-h-axle-and-auto-repair-fontana-2",
+        "name": "C&H Axle & Auto Repair",
+        "rating": 4.6,
+        "reviews": 30,
+        "claimed": true,
+        "address": "15750 Arrow Blvd, Unit N, Fontana, CA 92335",
+        "phone": "(909) 356-4910",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 2:30 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Oil Change Stations"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto engine repair",
+          "Auto HVAC repair",
+          "Auto light repair",
+          "Auto steering and suspension repair"
+        ],
+        "owner_text": "Diagnostics, check engine light, suspension, tune-up, steering, brake and oil change services in Fontana and the surrounding area."
+      },
+      "flags": [
+        "Yelp's 4.6 from 30, claimed, is well above Google's 4.1 from 56, so Yelp leads the handoff's facts block.",
+        "Hours differ: Google closes at 5:30 PM on weekdays and 1:30 PM on Saturday, Yelp at 6 PM and 2:30 PM, and the handoff's facts block uses the shorter hours.",
+        "Axles is the top Google topic at 6 mentions, with axle boots (3) and axle repair (2), matching the name.",
+        "It is in the same complex as row 123 at 15750 Arrow Blvd, unit N here and unit K there; Google writes the unit as a lowercase \"n\" and Yelp as \"Unit N\".",
+        "Yelp lists auto pickup and delivery and a customer shuttle as amenities, which should be confirmed before printing.",
+        "Google's claim status was not read; Yelp is claimed."
+      ]
+    },
+    {
+      "row": 120,
+      "name": "Charlie's On-Site Mobile Mechanic",
+      "city": "Chino",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "A mobile mechanic open 24 hours, with mobile mechanic and fair pricing the top Google topics at nine mentions each.",
+      "google": {
+        "name": "Charlie's On-Site Mobile Mechanic",
+        "rating": 4,
+        "reviews": 56,
+        "address": "12937 Falcon Pl, Chino, CA 91710",
+        "phone": "(714) 390-8782",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours"
+        ],
+        "topics": {
+          "mobile mechanic": 9,
+          "fair pricing": 9,
+          "starter replacement": 3,
+          "quality of work": 3,
+          "battery change": 2,
+          "quick diagnosis": 2,
+          "quick repairs": 2,
+          "labor cost": 2,
+          "parts procurement": 2,
+          "polite staff": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; two Yelp searches, the full name in Chino and the shorter name at the street address, returned only unrelated businesses.",
+        "Google's 4.0 from 56 is the lowest Google rating in the batch with row 125.",
+        "Mobile mechanic (9) and fair pricing (9) are the top topics, and the listing is open 24 hours every day.",
+        "The listed address is on a residential-looking street, a judgement from the reading and not from the listing, so do not print the address.",
+        "The 714 area code is not local to Chino, so confirm the number before printing.",
+        "Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 121,
+      "name": "C R Automotive",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "A general repair shop on West Holt Avenue with friendly staff the top Google topic at 10 mentions.",
+      "google": {
+        "name": "C R Automotive",
+        "rating": 4.2,
+        "reviews": 56,
+        "address": "1715 W Holt Ave, Pomona, CA 91768",
+        "phone": "(909) 469-6678",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "friendly staff": 10,
+          "mechanic": 7,
+          "honest mechanics": 3,
+          "wait time": 3,
+          "ac repair": 2,
+          "quality work": 2,
+          "customer care": 2,
+          "repairs": 2,
+          "family": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/cr-automotive-pomona",
+        "name": "CR Automotive",
+        "rating": 3,
+        "reviews": 10,
+        "claimed": false,
+        "address": "1715 Holt Ave, Pomona, CA 91768",
+        "phone": "(909) 469-6678",
+        "website": null,
+        "hours": null,
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Routine automotive maintenance"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Yelp's 3.0 from 10 is unclaimed and lists no hours, so Google supplies the hours, and Google's claim status was not read.",
+        "Friendly staff is the top Google topic at 10 mentions, while mechanic at 7 is a single generic word.",
+        "The name is \"C R Automotive\" on Google and on the sheet against \"CR Automotive\" on Yelp, so confirm which is used.",
+        "Yelp drops the W from the street, writing 1715 Holt Ave for Google's 1715 W Holt Ave.",
+        "Yelp lists only routine automotive maintenance and has no owner's text."
+      ]
+    },
+    {
+      "row": 122,
+      "name": "Tune Tech",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "Smog checks and general repair, with smog and smog check the two biggest Google topics, at 3.0 on Yelp from 35.",
+      "google": {
+        "name": "Tune Tech",
+        "rating": 4.1,
+        "reviews": 54,
+        "address": "402 W Holt Ave, Pomona, CA 91768",
+        "phone": "(909) 622-5131",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "smog": 7,
+          "smog check": 4,
+          "oil change": 3,
+          "money": 3,
+          "oil": 2,
+          "sensor": 2,
+          "has mechanic": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/tune-tech-pomona",
+        "name": "Tune Tech",
+        "rating": 3,
+        "reviews": 35,
+        "claimed": true,
+        "address": "402 W Holt Ave, Pomona, CA 91768",
+        "phone": "(909) 622-5131",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 2:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Smog Check Stations",
+          "Auto Repair"
+        ],
+        "services": [
+          "Smog check",
+          "Auto battery or electrical system repair",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Yelp's 3.0 from 35, claimed, is the lowest Yelp rating in the batch along with row 121, against Google's 4.1 from 54; Google is unclaimed.",
+        "Smog is the top Google topic, smog at 7 and smog check at 4, matching its Yelp smog check category.",
+        "Saturday closes at 4 PM on Google and 2 PM on Yelp.",
+        "A second Tune Tech in Whittier exists on Yelp and was not opened, so keep the Pomona address with anything written.",
+        "There is no owner's text on Yelp."
+      ]
+    },
+    {
+      "row": 123,
+      "name": "C & C Auto Repair",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Build",
+      "angle": "General repair with electrical work — starters, alternators, batteries and lighting — at 4.2 on both sites.",
+      "google": {
+        "name": "C & C Auto Repair",
+        "rating": 4.2,
+        "reviews": 43,
+        "address": "15750 Arrow Blvd Unit K, Fontana, CA 92335",
+        "phone": "(909) 574-6873",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "mechanic": 6,
+          "work": 3,
+          "fast work": 2,
+          "clean work": 2,
+          "charge": 2,
+          "honesty": 2,
+          "car repair": 2,
+          "money": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/c-and-c-auto-repair-fontana",
+        "name": "C & C Auto Repair",
+        "rating": 4.2,
+        "reviews": 20,
+        "claimed": true,
+        "address": "15750 Arrow Blvd, Fontana, CA 92335",
+        "phone": "(909) 574-6873",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": "Complete auto repair covering tune-ups, timing belts, suspensions, brakes, engine repair, maintenance, alignments, clutches and air conditioning, with electrical service for all makes and models including starters, alternators, batteries and lighting."
+      },
+      "flags": [
+        "Both sites show 4.2, but Google's rests on 43 reviews and Yelp's on 20, so Google leads the handoff's facts block.",
+        "Hours differ: Google runs 9 AM to 6 PM on weekdays and 9 AM to 3 PM on Saturday, Yelp 8 AM to 6 PM and 8 AM to 4 PM, and the handoff's facts block uses the shorter hours.",
+        "Google places the shop in Best Tire Shop of Fontana, and Yelp gives the same street address with no unit and adds \"Serving Fontana Area\".",
+        "It is in the same complex as row 119, unit K here and unit N there.",
+        "The owner's text calls the shop \"C & C Auto Repair and Electrical\", so ask which name is current.",
+        "Yelp is claimed; Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 124,
+      "name": "Hi Tech Auto Repair",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Check website first",
+      "angle": "None until the website and the shop's name are settled — Yelp lists a domain that looks parked and an owner's text under a different name.",
+      "google": {
+        "name": "Hi Tech Auto Repair",
+        "rating": 4.2,
+        "reviews": 42,
+        "address": "393 N East End Ave, Pomona, CA 91767",
+        "phone": "(909) 620-8666",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 1:30 PM",
+          "Closed"
+        ],
+        "topics": {
+          "mechanic": 6,
+          "friendly staff": 3,
+          "fair mechanic": 2,
+          "honest business": 2,
+          "money": 2,
+          "fair": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/hi-tech-auto-repair-pomona-5",
+        "name": "Hi Tech Auto Repair",
+        "rating": 3.5,
+        "reviews": 24,
+        "claimed": true,
+        "address": "393 N East End Ave, Pomona, CA 91767",
+        "phone": "(909) 620-8666",
+        "website": "hitechautorepairshop.com",
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Smog Check Stations",
+          "Tires"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": "The text presents the shop as East End Auto Repair, with experienced technicians, quality control and workmanship, and describes it as a licensed California smog check centre for cars, trucks and trailers."
+      },
+      "flags": [
+        "Yelp lists hitechautorepairshop.com; on Nov 11 it returned only a script that redirects to \"/lander\", the usual pattern of a parked domain, and the lander page itself was not opened, so it looks parked rather than confirmed.",
+        "The shop may own the domain, so ask before building.",
+        "The owner's text calls the shop \"East End Auto Repair\", not Hi Tech, so ask which name is current.",
+        "Yelp's 3.5 from 24 sits well below Google's 4.2 from 42, so Google leads the handoff's facts block.",
+        "Hours differ: Google closes at 5 PM on weekdays and 1:30 PM on Saturday, Yelp at 6 PM and 4 PM.",
+        "Yelp is claimed; Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 125,
+      "name": "Fontana Suspension and Auto Repair",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "An auto repair shop on Foothill Boulevard at 4.0 from 34, with only generic topic chips to build from.",
+      "google": {
+        "name": "Fontana Suspension and Auto Repair",
+        "rating": 4,
+        "reviews": 34,
+        "address": "17474 Foothill Blvd Unit A, Fontana, CA 92335",
+        "phone": "(909) 320-7757",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "mechanic": 4,
+          "car repair": 4,
+          "work": 3,
+          "repair time": 2,
+          "honesty": 2,
+          "language": 2,
+          "engine": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search at the street address returned only unrelated businesses.",
+        "Google's 4.0 from 34 is the lowest Google rating in the batch with row 120, and its chips are generic single words.",
+        "The sheet files it as auto body, but Google's category is auto repair shop, so confirm what the shop takes on.",
+        "\"Language\" appears as a chip with 2 mentions and its meaning is unknown.",
+        "Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 126,
+      "name": "Chino Auto Repair",
+      "city": "Chino",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "Smog checks and failed-smog repair, rated 4.2 on Google from 33, at a shop Google places inside an ARCO.",
+      "google": {
+        "name": "Chino Auto Repair",
+        "rating": 4.2,
+        "reviews": 33,
+        "address": "5715 Riverside Dr, Chino, CA 91710",
+        "phone": "(909) 548-6300",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "mechanic": 7,
+          "smog": 3,
+          "oil": 3,
+          "quality work": 2,
+          "truck": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/chino-auto-repair-chino",
+        "name": "Chino Auto Repair",
+        "rating": 3.7,
+        "reviews": 40,
+        "claimed": true,
+        "address": "5715 Riverside Dr, Chino, CA 91710",
+        "phone": "(909) 548-6300",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Smog Check Stations"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto general diagnosis",
+          "Auto HVAC repair"
+        ],
+        "owner_text": "Smog checks for cars and trucks, repair of failed smog checks, ASE certified and state smog licensed technicians, and computer and electrical diagnostics for domestic and foreign vehicles; the text also quotes smog prices, which are left to be confirmed."
+      },
+      "flags": [
+        "Google shows 4.2 from 33 against Yelp's 3.7 from 40, so the two sites disagree and neither rating is strong.",
+        "Hours agree on all seven days, Monday to Friday 8 AM to 5 PM with Saturday and Sunday closed.",
+        "Google is unclaimed and says the shop is located in an ARCO; Yelp is claimed.",
+        "The owner's text quotes smog prices, $50 for a car and $60 for a truck or SUV, which must not go on a page without confirming.",
+        "Other Chino shops with near-identical names exist on Yelp, so keep the address on anything written.",
+        "Yelp lists a military discount as an amenity."
+      ]
+    },
+    {
+      "row": 127,
+      "name": "Rudy's Autobody",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Low priority",
+      "angle": "None until the address is settled — two Yelp pages share the phone.",
+      "google": {
+        "name": "Rudy's Autobody",
+        "rating": 4.2,
+        "reviews": 22,
+        "address": "8265 Juniper Ave, Fontana, CA 92335",
+        "phone": "(909) 822-3553",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 12:00 AM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/rudys-autobody-office-fontana-2",
+        "name": "Rudy's Autobody Office",
+        "rating": null,
+        "reviews": 0,
+        "claimed": false,
+        "address": "8265 Juniper Ave, Fontana, CA 92335",
+        "phone": "(909) 822-3553",
+        "website": null,
+        "hours": [
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Body Shops",
+          "Auto Repair"
+        ],
+        "services": [
+          "Bumper repair",
+          "Auto frame testing",
+          "Rear-end damage",
+          "Auto steering and suspension repair",
+          "Routine automotive maintenance"
+        ],
+        "owner_text": "Foreign and domestic work, insurance claims, towing available, and an EZ Liner II frame machine for unibody and full frame repair."
+      },
+      "flags": [
+        "Two Yelp pages share the phone; page A at 8265 Juniper Ave is the sheet's address, has no rating and no reviews yet, and is unclaimed, while page B, \"Rudy's Auto Body\" at 16749 Foothill Blvd, https://www.yelp.com/biz/rudys-auto-body-fontana, has 4.0 from 23 and is claimed, so ask which address customers should go to before anything is built.",
+        "Google shows 4.2 from 22 with no topic chips.",
+        "Google's Friday close of 12 AM looks like a data-entry error.",
+        "Google opens at 8 AM on weekdays and both Yelp pages at 7 AM.",
+        "Page A's text mentions insurance claims, towing and a frame machine; page B's only says auto repair and service, body repairing and painting.",
+        "Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 128,
+      "name": "JT Automotive Service",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-11-open-leads-7.md",
+      "verdict": "Build",
+      "angle": "Brakes, engine and transmission overhaul, axle work with struts and shocks, and radiators, rated 5.0 on Google and 4.8 on Yelp.",
+      "google": {
+        "name": "JT Automotive Service",
+        "rating": 5,
+        "reviews": 19,
+        "address": "4711 E Arrow Hwy C, Montclair, CA 91763",
+        "phone": "(909) 626-6447",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 12:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "knowledgeable staff": 6,
+          "honest mechanic": 4,
+          "has mechanic": 3,
+          "honest": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/j-t-automotive-service-montclair",
+        "name": "J T Automotive Service",
+        "rating": 4.8,
+        "reviews": 8,
+        "claimed": false,
+        "address": "4711 Arrow Hwy, Ste C, Montclair, CA 91763",
+        "phone": "(909) 626-6447",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 12:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto engine repair",
+          "Oil changes",
+          "Routine automotive maintenance"
+        ],
+        "owner_text": "Full service brakes, complete engine and transmission overhaul and servicing, axle repair including struts and shocks, and radiator repair or replacement, alongside regular services and quality replacement parts."
+      },
+      "flags": [
+        "Google's 5.0 rests on 19 reviews and Yelp's 4.8 on 8, the best ratings in the batch but on few reviews; Google leads the handoff's facts block.",
+        "Hours agree on all seven days.",
+        "Yelp is unclaimed; Google's claim status was not read.",
+        "The name is written \"JT\" on Google and on the sheet and \"J T\" on Yelp, and the address \"4711 E Arrow Hwy C\" on Google against \"4711 Arrow Hwy, Ste C\" on Yelp, so confirm both before printing.",
+        "The owner's text names brakes, engine and transmission overhaul, axle work including struts and shocks, and radiators, with knowledgeable staff the top Google topic at 6 mentions."
+      ]
+    }
+  ]
+}
