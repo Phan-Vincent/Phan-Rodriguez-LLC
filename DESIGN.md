@@ -335,3 +335,7 @@ Five stock photos had been reused across 9 to 12 sites each. Twenty-seven sites 
 ### 2026-11-12 — Purrfect Auto Service (Montclair)
 
 Built at Andrew's request (`mockups/purrfect-auto-service/`). It had been skipped on 2026-11-10 because the name is used by several locations and may already have a website; confirm that before pitching. Address, hours (Mon–Fri 8–5:30, Sat 8–4:30) and description are from the Montclair shop's MapQuest listing; phone matches the sheet; Google 4.7 from 104 reviews is the sheet's figure. Two positive Yelp reviews are linked by review id. Three of the five most recent Yelp reviews on the listing are negative.
+
+### 2026-11-12 — A-1 Auto Expert (Chino)
+
+Built at Andrew's request (`mockups/a-1-auto-expert/`). Hours (Mon–Fri 8–5) and five Yelp reviews linked by review id come from its MapQuest listing; phone matches the sheet; Google 4.8 from 92 reviews is the sheet's figure. The listing's description describes a different business (a credit-union car-buying service called Auto Expert), so it was not used: the services shown are only what the linked reviews mention (oil changes, brake fluid, quotes). Ask the owner for the full service list. The earlier "Website button" note was not confirmed: no website link was on the listing today.

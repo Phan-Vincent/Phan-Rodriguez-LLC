@@ -782,6 +782,17 @@ mk("purrfect-auto-service", dict(hero="poster", ink="#15131A", bone="#F6F3EE", a
    (8985614, 4116207), "purrfect-auto-service-montclair-7", [("Denise K.", "Always fair price and good service.", "2kAsBsuEP2dW5TN5PC2gGg"), ("Jennifer S.", "…Richard at this Montclair location has been absolutely awesome.", "33hyWnQDUj0JnkjMmFcZ1w")],
    svc_title="Oil change to engine work.")
 
+# A-1 Auto Expert, Chino (requested by Andrew 2026-11-12). Hours and Yelp reviews from its MapQuest listing, read in a
+# browser the same day; phone matches the lead sheet. The listing's description is about a different business
+# (a car-buying service), so services here come only from what the linked reviews mention.
+_ALT.update({8986035: "Black-and-white photo of a car in for repair", 8478201: "Mechanic holding a car wiper blade"})
+mk("a-1-auto-expert", dict(hero="photo", ink="#12161C", bone="#F3F4F0", acc="#1E40AF", star="#F2B33D", h1="10.4vw", stretch="92%", svc="rows", rowsz="6.6vw", mark="A-1 Auto Expert", word="A-1 Auto", wordsz="22vw"),
+   "A-1 Auto Expert", "Auto repair · Central Ave, Chino", ("A-1 on price.", "A-1 on people."), "Auto repair and oil changes on Central Avenue in Chino. Yelp reviewers call it family-owned, friendly and quick with a quote.",
+   "(909) 393-0777", "14580 Central Ave<br>Chino, CA 91710", "A-1+Auto+Expert+14580+Central+Ave+Chino+CA", wkh("8:00 AM – 5:00 PM"), ("4.8", 92),
+   [("", [("Oil changes", "Book ahead. One reviewer calls it the best price around."), ("Brake fluid service", "Mentioned by a reviewer who came in for an oil change."), ("Quotes", "Call with the year, make and model. Reviewers say quotes come back quickly.")])],
+   (8986035, 8478201), "a-1-auto-expert-chino", [("Eve B.", "This is hands down the best auto repair shop I've ever been to.", "HJ7eR5vX3i-SUSASdzr-xA"), ("D T.", "Best price around for an oil change. Highly recommended.", "3VaIk7poH0-K01Icd2S7yw"), ("Melody H.", "…always been very friendly and helpful, and they're quick to provide quotes.", "lM7eIcVXq1XI2gdV7OHJ0A"), ("Alfonso D.", "The service agents were knowledgeable, friendly…", "WkZ4-Fn96Aa6A_3ngQjg5A"), ("Ris L.", "Lovely Service", "qWgZPFPmWU3hpbUsR3L8Vw")],
+   svc_label="What customers come for")
+
 # Photo pass, 2026-11-10: every site gets its own photos, chosen to match the trade and the slot (portrait photos only
 # in the tall split hero). All are Pexels free-license photos; each id was loaded in a browser and the alt text follows
 # the photographer's own title. A check at the bottom of this block fails the build if any photo is used on two sites.
