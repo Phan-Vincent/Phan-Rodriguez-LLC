@@ -772,6 +772,16 @@ SITES["molinas-tire-towing"]["hours"][5:] = ["Call to confirm", "Call to confirm
 SITES["molinas-tire-towing"]["lede"] = SITES["molinas-tire-towing"]["lede"].replace("Open Saturdays.", "Call to confirm weekend hours.")
 
 
+# Purrfect Auto Service, Montclair (requested by Andrew 2026-11-12). MapQuest listing read in a browser the same day;
+# phone matches the lead sheet. Part of a multi-location name: this page covers the Montclair shop only.
+_ALT.update({8985614: "Mechanic repairing a vehicle", 4116207: "Car engine bay"})
+mk("purrfect-auto-service", dict(hero="poster", ink="#15131A", bone="#F6F3EE", acc="#BE123C", star="#F2B33D", h1="9.8vw", stretch="88%", svc="index", mark="Purrfect Auto", word="Purrfect", wordsz="20vw"),
+   "Purrfect Auto Service", "Auto repair · Arrow Hwy, Montclair", ("Running rough?", "Make it purr."), "Auto maintenance and repair on Arrow Highway in Montclair, from oil changes to engine repairs. Open Saturdays.",
+   "(909) 982-1919", "5483 Arrow Hwy<br>Montclair, CA 91763", "Purrfect+Auto+Service+5483+Arrow+Hwy+Montclair+CA", wkh("8:00 AM – 5:30 PM", "8:00 AM – 4:30 PM"), ("4.7", 104),
+   [("Maintenance", [("Oil changes", ""), ("A/C work", "Mentioned by a customer of eight years."), ("Transmission service", "")]), ("Repair", [("Engine repairs", "From small fixes to complex engine work."), ("Diagnosis", "Call with the year, make and model.")])],
+   (8985614, 4116207), "purrfect-auto-service-montclair-7", [("Denise K.", "Always fair price and good service.", "2kAsBsuEP2dW5TN5PC2gGg"), ("Jennifer S.", "…Richard at this Montclair location has been absolutely awesome.", "33hyWnQDUj0JnkjMmFcZ1w")],
+   svc_title="Oil change to engine work.")
+
 # Photo pass, 2026-11-10: every site gets its own photos, chosen to match the trade and the slot (portrait photos only
 # in the tall split hero). All are Pexels free-license photos; each id was loaded in a browser and the alt text follows
 # the photographer's own title. A check at the bottom of this block fails the build if any photo is used on two sites.

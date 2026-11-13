@@ -331,3 +331,7 @@ Five stock photos had been reused across 9 to 12 sites each. Twenty-seven sites 
 - 52 new Pexels photo ids, each loaded in a browser to confirm it resolves, with its orientation. Alt text follows each photographer's own title. The photos themselves were not viewed one by one, so look over each page once.
 - `build_flagship.py` now stops the build if any photo appears on two sites (the two El Rey versions are the one exception).
 - The photo list, with alt text, is the `PHOTOS` block in `build_flagship.py`.
+
+### 2026-11-12 — Purrfect Auto Service (Montclair)
+
+Built at Andrew's request (`mockups/purrfect-auto-service/`). It had been skipped on 2026-11-10 because the name is used by several locations and may already have a website; confirm that before pitching. Address, hours (Mon–Fri 8–5:30, Sat 8–4:30) and description are from the Montclair shop's MapQuest listing; phone matches the sheet; Google 4.7 from 104 reviews is the sheet's figure. Two positive Yelp reviews are linked by review id. Three of the five most recent Yelp reviews on the listing are negative.
