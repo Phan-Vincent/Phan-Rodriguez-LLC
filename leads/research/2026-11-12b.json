@@ -1,0 +1,606 @@
+{
+  "_meta": {
+    "date_read": "2026-11-12",
+    "method": "Google Maps listings and Yelp pages read in a browser by Vincent's session; structured by a Reasonix worker from the handoff documents",
+    "not_confirmed_with_owner": true
+  },
+  "entries": [
+    {
+      "row": 165,
+      "name": "P & E Auto Repair",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Build",
+      "angle": "A general repair shop in Rio Rancho Towne Center rated 4.9 on Google from 8 against 3.0 on Yelp from 2, with quick repair and fair pricing as the topics.",
+      "google": {
+        "name": "P & E Auto Repair",
+        "rating": 4.9,
+        "reviews": 8,
+        "address": "45 Rio Rancho Rd #1c, Pomona, CA 91766",
+        "phone": "(626) 863-2207",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "quick repair": 2,
+          "fair pricing": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/p-and-e-auto-repair-pomona",
+        "name": "P & E Auto Repair",
+        "rating": 3.0,
+        "reviews": 2,
+        "claimed": true,
+        "address": "45 Rio Rancho Rd, Ste 1C, Pomona, CA 91766",
+        "phone": "(909) 620-1120",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "The two sites give different phones, (909) 620-1120 on Yelp against (626) 863-2207 on Google and on the sheet, so confirm the number before anything is printed.",
+        "Google's 4.9 from 8 leads the handoff's facts block on review count, and its claim status was not read; Yelp shows 3.0 from 2 and is claimed, so the sites disagree sharply.",
+        "Hours agree on all seven days, 8 AM to 6 PM Monday to Friday, 8 AM to 3 PM Saturday and closed Sunday.",
+        "The 626 area code is not local to Pomona.",
+        "The shop is in Rio Rancho Towne Center, the same center as sheet row 137, Dexter Auto Care, in handoff 8 and marked Build, in a different suite with a different phone, so do not merge the two.",
+        "Google's topics are quick repair (2) and fair pricing (2), and Yelp's service list is marked verified by the business and runs 14 entries beyond the six shown."
+      ]
+    },
+    {
+      "row": 166,
+      "name": "M&M A/C Service & Auto Repair",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Build, Google only",
+      "angle": "An auto repair shop on East Holt Avenue rated 4.6 on Google from 8, with a name that points to air-conditioning service.",
+      "google": {
+        "name": "M&M A/C Service & Auto Repair",
+        "rating": 4.6,
+        "reviews": 8,
+        "address": "1152 E Holt Ave, Pomona, CA 91767",
+        "phone": "(909) 767-3008",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 2:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "mechanic": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only: the Yelp search at the street address returned only similarly named shops in other cities, so there is no Yelp page.",
+        "Google shows 4.6 from 8 and its claim status was not read, with one topic chip, mechanic (2), which is generic.",
+        "The name points to air-conditioning service as a speciality, but nothing else on the listing confirms it, so ask before printing it.",
+        "Hours are Monday to Friday 8 AM to 5 PM and Saturday 8 AM to 2 PM with Sunday closed.",
+        "Google's category is auto repair shop."
+      ]
+    },
+    {
+      "row": 167,
+      "name": "Docs auto repair and detailing",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Hold",
+      "angle": "None until the unit 4 question is settled, since the address and plus code match Anthony's auto repair and towing in row 164.",
+      "google": {
+        "name": "Docs auto repair and detailing",
+        "rating": 4.1,
+        "reviews": 7,
+        "address": "16622 Ceres Ave #4, Fontana, CA 92335",
+        "phone": "(909) 642-7066",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "9:30 AM – 6:00 PM",
+          "9:30 AM – 6:00 PM",
+          "9:30 AM – 6:00 PM",
+          "9:30 AM – 6:00 PM",
+          "9:30 AM – 6:00 PM",
+          "9:30 AM – 6:00 PM",
+          "9:30 AM – 6:00 PM"
+        ],
+        "topics": {
+          "people": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Hold: the address 16622 Ceres Ave #4 and the Google plus code 3HV5+RG are the same as sheet row 164, Anthony's auto repair and towing, in handoff 10 and marked Build, Google only, with a different phone, (909) 642-7066 here against (909) 904-6061 there.",
+        "Google also places this listing inside Omar Auto Body Paint And Repair, sheet row 89, so one unit may carry two or three names.",
+        "Settle which business is in unit 4 before building either row.",
+        "For later: Google shows 4.1 from 7 with one generic topic chip, people (2), hours of 9:30 AM to 6 PM every day, and its claim status was not read.",
+        "There is no Yelp page: the Yelp search at the street address returned only other Fontana repair shops."
+      ]
+    },
+    {
+      "row": 168,
+      "name": "Gary's Automotive",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Low priority",
+      "angle": "An engine rebuilding shop on Merrill Avenue at 4.4 on Google from 7, whose Yelp page shows 1.0 from 1 and an owner text reading \"Brakes & Performance engines\".",
+      "google": {
+        "name": "Gary's Automotive",
+        "rating": 4.4,
+        "reviews": 7,
+        "address": "16600 Merrill Ave A, Fontana, CA 92335",
+        "phone": "(909) 823-6171",
+        "website": null,
+        "unclaimed": true,
+        "hours": null,
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/garys-automotive-fontana",
+        "name": "Gary's Automotive",
+        "rating": 1.0,
+        "reviews": 1,
+        "claimed": false,
+        "address": "16600 Merrill Ave, Fontana, CA 92335",
+        "phone": "(909) 823-6171",
+        "website": null,
+        "hours": [
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Auto Customization"
+        ],
+        "services": [
+          "Routine automotive maintenance",
+          "Auto electronics installation"
+        ],
+        "owner_text": "\"Brakes & Performance engines\", with nothing more on the page."
+      },
+      "flags": [
+        "Google shows 4.4 from 7 and the listing is unclaimed, with no hours and no topic chips; its category is engine rebuilding service.",
+        "Yelp shows 1.0 from 1 and is unclaimed, so the sites disagree sharply and both samples are tiny.",
+        "Yelp gives Monday to Friday 9 AM to 5 PM with weekends closed, while Google lists no hours at all, so the hours come from Yelp alone and should be asked.",
+        "Yelp's services are routine automotive maintenance and auto electronics installation, and the owner's text reads \"Brakes & Performance engines\", which points to engine work.",
+        "The phone matches on both sites, (909) 823-6171."
+      ]
+    },
+    {
+      "row": 169,
+      "name": "The Tech Lab Auto",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Build",
+      "angle": "A general repair shop on East State Street rated 5.0 on Yelp from 8 against 4.6 on Google from 7, filed on Yelp under tires and auto parts as well as repair.",
+      "google": {
+        "name": "The Tech Lab Auto",
+        "rating": 4.6,
+        "reviews": 7,
+        "address": "4747 E State St D, Montclair, CA 91762",
+        "phone": "(909) 238-8464",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "work quality": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/the-tech-lab-auto-montclair-2",
+        "name": "The Tech Lab Auto",
+        "rating": 5.0,
+        "reviews": 8,
+        "claimed": true,
+        "address": "4747 E State St, Ste D, Montclair, CA 91762",
+        "phone": "(909) 238-8464",
+        "website": null,
+        "hours": [
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Tires",
+          "Auto Parts & Supplies"
+        ],
+        "services": [
+          "Auto battery or electrical system repair",
+          "Battery",
+          "Auto brake repair",
+          "Auto engine repair",
+          "Auto exhaust repair",
+          "Auto general diagnosis"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Yelp's 5.0 from 8 leads the handoff's facts block on review count and Yelp is claimed; Google shows 4.6 from 7 and its claim status was not read, with one topic chip, work quality (2).",
+        "Hours differ, Google 9 AM to 5 PM Monday to Friday against Yelp 9 AM to 6 PM, so the handoff's facts block uses the shorter hours and the real closing time must be asked; both sites close Saturday and Sunday.",
+        "Yelp files the shop under tires and auto parts and supplies as well as auto repair, so ask whether it sells tires and parts.",
+        "The ZIP 91762 is shared with Ontario, and the Yelp search page labelled the shop Ontario, so confirm the city before printing.",
+        "Yelp's service list is marked verified by the business and runs 14 entries beyond the six shown."
+      ]
+    },
+    {
+      "row": 170,
+      "name": "Bailon's Auto Repair",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Build, Google only",
+      "angle": "A general repair shop on West State Street rated 5.0 on Google from 7, unclaimed, with car repair the only topic.",
+      "google": {
+        "name": "Bailon's Auto Repair",
+        "rating": 5.0,
+        "reviews": 7,
+        "address": "5437 W State St, Montclair, CA 91763",
+        "phone": "(626) 626-3961",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 6:00 PM",
+          "9:00 AM – 4:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "car repair": 2
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only: the Yelp search at the street address returned only unrelated shops, so there is no Yelp page.",
+        "Google shows 5.0 from 7 and the listing is unclaimed, with one topic chip, car repair (2), which is generic.",
+        "The 626 area code is not local to Montclair, so confirm the phone before printing.",
+        "Hours are Monday to Friday 9 AM to 6 PM and Saturday 9 AM to 4 PM with Sunday closed.",
+        "Google's category is auto repair shop."
+      ]
+    },
+    {
+      "row": 171,
+      "name": "P & RAuto Electric Repair",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Low priority",
+      "angle": "An auto electrical shop on Holt Boulevard at 4.1 on Google from 7, whose only Yelp review rates it 1.0 and whose owner text promises general mechanical and electrical work in Spanish.",
+      "google": {
+        "name": "P & RAuto Electric Repair",
+        "rating": 4.1,
+        "reviews": 7,
+        "address": "5438 Holt Blvd E1, Montclair, CA 91763",
+        "phone": "(909) 447-4128",
+        "website": null,
+        "unclaimed": true,
+        "hours": null,
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/p-and-r-auto-electric-repair-montclair-2",
+        "name": "P & R Auto Electric Repair",
+        "rating": 1.0,
+        "reviews": 1,
+        "claimed": true,
+        "address": "5438 Holt Blvd, Ste E1, Montclair, CA 91763",
+        "phone": "(909) 447-4128",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair"
+        ],
+        "services": [
+          "Routine automotive maintenance"
+        ],
+        "owner_text": "General mechanical and electrical work, written in Spanish as \"Mecánica general y electrico\"."
+      },
+      "flags": [
+        "Google shows 4.1 from 7 and the listing is unclaimed, with no hours and no topic chips; its category is auto electrical service.",
+        "Yelp shows 1.0 from 1, is claimed, and gives Monday to Friday 8 AM to 5 PM and Saturday 8 AM to 3 PM with Sunday closed, so the hours come from Yelp alone.",
+        "The owner's text is in Spanish, \"Mecánica general y electrico\", meaning general mechanical and electrical work, so ask what work the shop actually takes on.",
+        "The sheet name runs \"P & R\" and \"Auto\" together, \"P & RAuto Electric Repair\", while Yelp writes \"P & R Auto Electric Repair\", so ask which the shop uses.",
+        "Yelp also lists online appointments, auto pickup and delivery as amenities.",
+        "The address and phone match on both sites."
+      ]
+    },
+    {
+      "row": 172,
+      "name": "Merchant Landscape Services",
+      "city": "Rancho Cucamonga",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Low priority",
+      "angle": "A landscaper on East 9th Street rated 4.4 on Google from 7, possibly a branch of the multi-office Merchants Landscape Services company.",
+      "google": {
+        "name": "Merchant Landscape Services",
+        "rating": 4.4,
+        "reviews": 7,
+        "address": "8847 E 9th St, Rancho Cucamonga, CA 91730",
+        "phone": "(909) 981-1022",
+        "website": null,
+        "unclaimed": true,
+        "hours": null,
+        "topics": {}
+      },
+      "yelp": null,
+      "flags": [
+        "Google only; the Yelp search in Rancho Cucamonga returned \"Merchants Landscape Services\" pages in Santa Ana, Sun Valley and Palm Springs and \"Merchants Landscape\" in East Irvine, none at this address, so there is no Yelp page of its own.",
+        "Google shows 4.4 from 7 and the listing is unclaimed, with no hours, no topic chips and no website link.",
+        "The name matches a multi-office commercial landscaping company, and sheet row 261 is \"Merchants Landscape Services, Inc.\" in Rancho Cucamonga at 8748 Industrial Ln, so check whether this row is a branch of that company rather than a separate business.",
+        "That company may have its own website, which was not checked, so check it before building.",
+        "Google's category is landscape designer."
+      ]
+    },
+    {
+      "row": 173,
+      "name": "Cal Beaver Tree Service",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Build",
+      "angle": "A tree service rated 4.8 on Yelp from 24 against 4.9 on Google from 7, whose owner text names tree trimming, stump removal and tree removal since 1999.",
+      "google": {
+        "name": "Cal Beaver Tree Service",
+        "rating": 4.9,
+        "reviews": 7,
+        "address": "13786 Dodge Ct, Fontana, CA 92336",
+        "phone": "(909) 821-1590",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/cal-beaver-tree-service-fontana",
+        "name": "Cal Beaver Tree Service",
+        "rating": 4.8,
+        "reviews": 24,
+        "claimed": true,
+        "address": "13786 Dodge Ct, Fontana, CA 92336",
+        "phone": "(909) 821-1590",
+        "website": null,
+        "hours": [
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "7:00 AM – 6:00 PM",
+          "6:00 AM – 7:00 PM",
+          "Open 24 hours"
+        ],
+        "categories": [
+          "Tree Services"
+        ],
+        "services": [
+          "Tree pruning or trimming",
+          "Tree stump removal",
+          "Tree removal"
+        ],
+        "owner_text": "Professional tree services for homeowners and businesses since 1999, more than 25 years, built on honest work and fair pricing, specialising in tree trimming, where Yelp cut the text."
+      },
+      "flags": [
+        "Yelp's 4.8 from 24 leads the handoff's facts block on review count and Yelp is claimed; Google shows 4.9 from 7 and its claim status was not read.",
+        "The owner's text says the business has served homeowners and businesses since 1999, more than 25 years, built on honest work and fair pricing, and specialises in tree trimming, so confirm the year before printing it.",
+        "Hours conflict: Google shows open 24 hours every day, while Yelp gives 7 AM to 6 PM Monday to Friday, 6 AM to 7 PM Saturday and 24 hours Sunday, so the handoff's facts block uses the shorter hours on weekdays and Saturday and says \"Call ahead\" for Sunday, since both sites showing 24 hours on Sunday looks wrong and must be asked.",
+        "13786 Dodge Ct may be a home rather than a business address; that is a guess and not on either listing, so the handoff's facts block prints the city only.",
+        "Google shows no topic chips."
+      ]
+    },
+    {
+      "row": 174,
+      "name": "Fontana Paving & Pool Remodeling",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Skip",
+      "angle": "Skip, since the business already has a live website.",
+      "google": {
+        "name": "Fontana Paving & Pool Remodeling",
+        "rating": 5.0,
+        "reviews": 7,
+        "address": "7970 Cherry Ave, Fontana, CA 92336",
+        "phone": "(909) 368-0676",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 8:00 PM",
+          "7:30 AM – 7:00 PM"
+        ],
+        "topics": {
+          "driveway paving": 2,
+          "quality of work": 2,
+          "driveway": 3
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/fontana-paving-and-pool-remodeling-fontana",
+        "name": "Fontana Paving & Pool Remodeling",
+        "rating": null,
+        "reviews": 0,
+        "claimed": false,
+        "address": "7970 Cherry Ave, Fontana, CA 92336",
+        "phone": "(909) 368-0676",
+        "website": "fontanapaving.co",
+        "hours": [
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 8:00 PM",
+          "7:30 AM – 7:00 PM"
+        ],
+        "categories": [
+          "Landscaping",
+          "Masonry/Concrete",
+          "Irrigation"
+        ],
+        "services": [
+          "Irrigation construction",
+          "Drainage",
+          "Sprinkler",
+          "Irrigation",
+          "Stormwater or rainwater management",
+          "Irrigation repair or maintenance",
+          "Landscape design",
+          "Irrigation design services"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Skip: the business already has a live website, fontanapaving.co, which is a paving-contractor site titled \"Paving Contractor Fontana | (909) 368-0676\" with pages for concrete driveways and pavers and the same phone as the sheet; Google shows no website link, which is why the row was on the sheet.",
+        "The domain fontanapaving.com is a different domain and unrelated, so do not print it.",
+        "Google shows 5.0 from 7 and the listing is unclaimed, with driveway (3), driveway paving (2) and quality of work (2) as the topics.",
+        "The Yelp page is unclaimed with no rating and no reviews, and lists the same address, phone and hours.",
+        "Hours run 7 AM to 7 PM Monday to Friday, 7 AM to 8 PM Saturday and 7:30 AM to 7 PM Sunday on both sites.",
+        "Google's category is paving contractor, and Yelp's categories are landscaping, masonry and concrete, and irrigation."
+      ]
+    },
+    {
+      "row": 175,
+      "name": "Affordable Handyman",
+      "city": "Rancho Cucamonga",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Build, Google only",
+      "angle": "A handyman rated 4.4 on Google from 7 whose strongest topic is punctuality (6), then work quality (4) and reliability (3).",
+      "google": {
+        "name": "Affordable Handyman",
+        "rating": 4.4,
+        "reviews": 7,
+        "address": "8458 Autumnhill Pl, Rancho Cucamonga, CA 91730",
+        "phone": "(951) 295-7983",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "cleanliness": 2,
+          "punctuality": 6,
+          "fair pricing": 2,
+          "communication": 2,
+          "work quality": 4,
+          "reliability": 3
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only: the Yelp page for \"Affordable HandyMan\" is a Montclair-area business, 4.2 from 45, with a different phone, (951) 584-2994 against Google's (951) 295-7983, and it is not confirmed as the same business, so no Yelp page is linked.",
+        "Google shows 4.4 from 7 with punctuality (6) the strongest topic, then work quality (4), reliability (3), and cleanliness, fair pricing and communication at 2 each.",
+        "8458 Autumnhill Pl looks like a home rather than a business address; that is a guess and not on the listing, so the handoff's facts block prints the city only.",
+        "The 951 area code is not local to Rancho Cucamonga.",
+        "Sheet row 241 is a different business, \"Affordable Handy Man\" at 6682 Austin Ct in Rancho Cucamonga, so do not mix the two up.",
+        "Hours are 7 AM to 7 PM Monday to Saturday with Sunday closed, and Google's claim status was not read."
+      ]
+    },
+    {
+      "row": 176,
+      "name": "AA Handyman Services",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-12-open-leads-11.md",
+      "verdict": "Low priority",
+      "angle": "None yet beyond a name, phone and 5.0 on Google from 7, since the listing gives no street address and no topic chips.",
+      "google": {
+        "name": "AA Handyman Services",
+        "rating": 5.0,
+        "reviews": 7,
+        "address": null,
+        "phone": "(424) 207-4631",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "7:00 AM – 7:00 PM",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": null,
+      "flags": [
+        "Google only: there is no street address on the listing because it is a service-area business, and Google shows no topic chips.",
+        "Google shows 5.0 from 7, with claim status not read.",
+        "The phone, (424) 207-4631, has a 424 area code, which is a Los Angeles area code and not local to Pomona, so confirm it before printing.",
+        "Hours are 7 AM to 7 PM Monday to Saturday with Sunday closed.",
+        "The Yelp \"AA Handyman\" page in Pomona is not a match: it is unclaimed, has no reviews, shows a different phone, (909) 242-1902, and its service list reads as keyword filler, so no Yelp page is printed."
+      ]
+    }
+  ]
+}

@@ -54,6 +54,9 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 150 | Panda Plastering and Stucco | Fontana | Build | 4.7 / 12 | 4.3 / 53 |  | [2026-11-11-open-leads-9.md](handoffs/2026-11-11-open-leads-9.md) |
 | 154 | Elizalde Auto Repair | Fontana | Build | 4.0 / 12 | 5.0 / 7 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 158 | J & J Auto Services Center | Montclair | Build | 4.4 / 10 | 5.0 / 3 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
+| 165 | P & E Auto Repair | Pomona | Build | 4.9 / 8 | 3.0 / 2 |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 169 | The Tech Lab Auto | Montclair | Build | 4.6 / 7 | 5.0 / 8 |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 173 | Cal Beaver Tree Service | Fontana | Build | 4.9 / 7 | 4.8 / 24 |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 | 48 | Quinonez Mobile Svc | Fontana | Build, Google only | 4.7 / 65 | no page |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 51 | Arredondo's Auto Repair | Fontana | Build, Google only | 4.3 / 61 | no page |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 61 | Gil's Tire Shop | Pomona | Build, Google only | 4.5 / 50 | no page |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
@@ -67,6 +70,9 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 156 | Master Auto Repair | Fontana | Build, Google only | 5.0 / 10 | no page |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 161 | Elite Auto Body Collision | Fontana | Build, Google only | 5.0 / 10 | no page |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 164 | Anthony's auto repair and towing | Fontana | Build, Google only | 5.0 / 9 | no page |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
+| 166 | M&M A/C Service & Auto Repair | Pomona | Build, Google only | 4.6 / 8 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 170 | Bailon's Auto Repair | Montclair | Build, Google only | 5.0 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 175 | Affordable Handyman | Rancho Cucamonga | Build, Google only | 4.4 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 | | **Not ready: clear the flag first** | | | | | | |
 | 29 | A-1 Auto Expert | Chino | Check website first | 4.8 / 93 | 4.5 / 188 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 78 | General Auto Care | Montclair | Check website first | 4.7 / 39 | 4.5 / 26 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
@@ -107,12 +113,18 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 159 | CALDERON LANDSCAPING & GRASS PAINTING SERVICES | Pomona | Low priority | 4.4 / 10 | no page |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 160 | Central Truck Body Inc | Fontana | Low priority | 4.3 / 10 | no page |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 163 | Almazan's landscape | Fontana | Low priority | 4.6 / 9 | 3.4 / 7 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
+| 168 | Gary's Automotive | Fontana | Low priority | 4.4 / 7 | 1.0 / 1 |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 171 | P & RAuto Electric Repair | Montclair | Low priority | 4.1 / 7 | 1.0 / 1 |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 172 | Merchant Landscape Services | Rancho Cucamonga | Low priority | 4.4 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
+| 176 | AA Handyman Services | Pomona | Low priority | 5.0 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 | 58 | HVAC Assistance - 24/7 On Call | Fontana | Hold | 4.7 / 53 | no page |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 91 | Chino Valley Auto Repair | Chino | Hold | 4.7 / 31 | no page |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 115 | Don Cortez Tire Services | Ontario | Hold | 4.2 / 377 | 3.6 / 58 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
 | 144 | Empire Mechanic | Montclair | Hold | 4.7 / 14 | no page |  | [2026-11-11-open-leads-9.md](handoffs/2026-11-11-open-leads-9.md) |
 | 153 | GS Auto Body Collision | Fontana | Hold | 4.7 / 12 | no page |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
+| 167 | Docs auto repair and detailing | Fontana | Hold | 4.1 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 | 103 | Fast Lane Auto Repair | Upland | Skip | 4.6 / 25 | 5.0 / 4 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 162 | Arevalo Tree Service and Landscape | Fontana | Skip | 4.1 / 9 | 4.6 / 28 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
+| 174 | Fontana Paving & Pool Remodeling | Fontana | Skip | 5.0 / 7 | no rating |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 
-107 rows in the queue. 4 researched rows already have a site: 27 Auto Repair Foreign Domestic, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.
+119 rows in the queue. 4 researched rows already have a site: 27 Auto Repair Foreign Domestic, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.

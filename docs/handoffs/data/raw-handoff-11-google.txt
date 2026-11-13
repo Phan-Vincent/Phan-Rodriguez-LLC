@@ -1,0 +1,31 @@
+Raw Google Maps extracts for handoff 11. Read in a browser on 2026-11-12 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Thurs first because the page was read on Thursday Nov 12) | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+165 | P & E Auto Repair | Auto repair shop | 4.9 | 8 | 45 Rio Rancho Rd #1c, Pomona, CA 91766 | Located in: Rio Rancho Towne Center | (626) 863-2207 | web:none | claimed? | Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM; Satur: 8 AM to 3 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM | TOPICS quick repair:2, fair pricing:2
+   SUPERVISOR NOTE: same shopping center as sheet row 137, Dexter Auto Care (45 Rio Rancho Rd #4C, handoff 8, Build); different suite and phone.
+
+166 | M&M A/C Service & Auto Repair | Auto repair shop | 4.6 | 8 | 1152 E Holt Ave, Pomona, CA 91767 |  | (909) 767-3008 | web:none | claimed? | Thurs: 8 AM to 5 PM; Fri: 8 AM to 5 PM; Satur: 8 AM to 2 PM; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM | TOPICS mechanic:2
+
+167 | Docs auto repair and detailing | Auto repair shop | 4.1 | 7 | 16622 Ceres Ave #4, Fontana, CA 92335 | Located in: Omar Auto Body Paint And Repair | (909) 642-7066 | web:none | claimed? | Thurs: 9:30 AM to 6 PM; Fri: 9:30 AM to 6 PM; Satur: 9:30 AM to 6 PM; Sun: 9:30 AM to 6 PM; Mon: 9:30 AM to 6 PM; Tues: 9:30 AM to 6 PM; Wednes: 9:30 AM to 6 PM | TOPICS people:2
+   SUPERVISOR NOTE: the address 16622 Ceres Ave #4 and the Google plus code 3HV5+RG are the same as sheet row 164, Anthony's auto repair and towing (handoff 10, Build, Google only), with a different phone. Google also places this listing inside Omar Auto Body Paint And Repair (row 89).
+
+168 | Gary's Automotive | Engine rebuilding service | 4.4 | 7 | 16600 Merrill Ave A, Fontana, CA 92335 |  | (909) 823-6171 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+
+169 | The Tech Lab Auto | Auto repair shop | 4.6 | 7 | 4747 E State St D, Montclair, CA 91762 |  | (909) 238-8464 | web:none | claimed? | Thurs: 9 AM to 5 PM; Fri: 9 AM to 5 PM; Satur: Closed; Sun: Closed; Mon: 9 AM to 5 PM; Tues: 9 AM to 5 PM; Wednes: 9 AM to 5 PM | TOPICS work quality:2
+
+170 | Bailon's Auto Repair | Auto repair shop | 5.0 | 7 | 5437 W State St, Montclair, CA 91763 |  | (626) 626-3961 | web:none | UNCLAIMED | Thurs: 9 AM to 6 PM; Fri: 9 AM to 6 PM; Satur: 9 AM to 4 PM; Sun: Closed; Mon: 9 AM to 6 PM; Tues: 9 AM to 6 PM; Wednes: 9 AM to 6 PM | TOPICS car repair:2
+
+171 | P & RAuto Electric Repair | Auto electrical service | 4.1 | 7 | 5438 Holt Blvd E1, Montclair, CA 91763 |  | (909) 447-4128 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+
+172 | Merchant Landscape Services | Landscape designer | 4.4 | 7 | 8847 E 9th St, Rancho Cucamonga, CA 91730 |  | (909) 981-1022 | web:none | UNCLAIMED | NO HOURS LISTED on Google | TOPICS none shown
+   SUPERVISOR NOTE: sheet row 261 is "Merchants Landscape Services, Inc." in Rancho Cucamonga (8748 Industrial Ln). Yelp shows "Merchants Landscape Services" pages in Santa Ana, Sun Valley and Palm Springs, which suggests a larger multi-office commercial company. Whether it has its own website was not checked.
+
+173 | Cal Beaver Tree Service | Tree service | 4.9 | 7 | 13786 Dodge Ct, Fontana, CA 92336 |  | (909) 821-1590 | web:none | claimed? | Open 24 hours all seven days | TOPICS none shown
+
+174 | Fontana Paving & Pool Remodeling | Paving contractor | 5.0 | 7 | 7970 Cherry Ave, Fontana, CA 92336 |  | (909) 368-0676 | web:none | UNCLAIMED | Thurs: 7 AM to 7 PM; Fri: 7 AM to 7 PM; Satur: 7 AM to 8 PM; Sun: 7:30 AM to 7 PM; Mon: 7 AM to 7 PM; Tues: 7 AM to 7 PM; Wednes: 7 AM to 7 PM | TOPICS driveway paving:2, quality of work:2, driveway:3
+
+175 | Affordable Handyman | Handyman/Handywoman/Handyperson | 4.4 | 7 | 8458 Autumnhill Pl, Rancho Cucamonga, CA 91730 |  | (951) 295-7983 | web:none | claimed? | Thurs: 7 AM to 7 PM; Fri: 7 AM to 7 PM; Satur: 7 AM to 7 PM; Sun: Closed; Mon: 7 AM to 7 PM; Tues: 7 AM to 7 PM; Wednes: 7 AM to 7 PM | TOPICS cleanliness:2, punctuality:6, fair pricing:2, communication:2, work quality:4, reliability:3
+   SUPERVISOR NOTE: sheet row 241 is a different listing, "Affordable Handy Man" at 6682 Austin Ct, Rancho Cucamonga.
+
+176 | AA Handyman Services | Handyman/Handywoman/Handyperson | 5.0 | 7 | NO ADDRESS on the listing (service-area business) |  | (424) 207-4631 | web:none | claimed? | Thurs: 7 AM to 7 PM; Fri: 7 AM to 7 PM; Satur: 7 AM to 7 PM; Sun: Closed; Mon: 7 AM to 7 PM; Tues: 7 AM to 7 PM; Wednes: 7 AM to 7 PM | TOPICS none shown
