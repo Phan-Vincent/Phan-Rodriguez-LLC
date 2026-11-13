@@ -339,3 +339,7 @@ Built at Andrew's request (`mockups/purrfect-auto-service/`). It had been skippe
 ### 2026-11-12 — A-1 Auto Expert (Chino)
 
 Built at Andrew's request (`mockups/a-1-auto-expert/`). Hours (Mon–Fri 8–5) and five Yelp reviews linked by review id come from its MapQuest listing; phone matches the sheet; Google 4.8 from 92 reviews is the sheet's figure. The listing's description describes a different business (a credit-union car-buying service called Auto Expert), so it was not used: the services shown are only what the linked reviews mention (oil changes, brake fluid, quotes). Ask the owner for the full service list. The earlier "Website button" note was not confirmed: no website link was on the listing today.
+
+### 2026-11-12 — Performance Lube & Oil: linked reviews
+
+The site already existed. Added four Yelp reviews linked by review id (from its MapQuest listing, whose phone and daily 8–5 hours match the site). Nothing else changed.

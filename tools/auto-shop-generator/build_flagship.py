@@ -793,6 +793,10 @@ mk("a-1-auto-expert", dict(hero="photo", ink="#12161C", bone="#F3F4F0", acc="#1E
    (8986035, 8478201), "a-1-auto-expert-chino", [("Eve B.", "This is hands down the best auto repair shop I've ever been to.", "HJ7eR5vX3i-SUSASdzr-xA"), ("D T.", "Best price around for an oil change. Highly recommended.", "3VaIk7poH0-K01Icd2S7yw"), ("Melody H.", "…always been very friendly and helpful, and they're quick to provide quotes.", "lM7eIcVXq1XI2gdV7OHJ0A"), ("Alfonso D.", "The service agents were knowledgeable, friendly…", "WkZ4-Fn96Aa6A_3ngQjg5A"), ("Ris L.", "Lovely Service", "qWgZPFPmWU3hpbUsR3L8Vw")],
    svc_label="What customers come for")
 
+# Performance Lube & Oil: linked Yelp reviews added 2026-11-12 (read from its MapQuest listing; phone and hours match the site).
+SITES["performance-lube-oil"]["track"] = _y("performance-lube-and-oil-chino-2", [("Nessa L.", "The service was quick, professional, and super convenient.", "AueOzQjbIhicZS6yZRPUmw"), ("Amy L.", "Highly recommend this place!", "FsC-ccGu6ZWTM5HtFH2Jrg"), ("Mohammed N.", "Service was good. Pretty nice car wash…", "1MykCVPqpykyhvUG-6PuqQ"), ("Carmen L.", "…she's always super cool and nice!", "ztFfRMyGAWyHTPp9XqlGVg")])
+SITES["performance-lube-oil"]["extra_js"] = V.CAROUSEL_JS
+
 # Photo pass, 2026-11-10: every site gets its own photos, chosen to match the trade and the slot (portrait photos only
 # in the tall split hero). All are Pexels free-license photos; each id was loaded in a browser and the alt text follows
 # the photographer's own title. A check at the bottom of this block fails the build if any photo is used on two sites.
