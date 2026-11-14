@@ -108,7 +108,7 @@ services=[("", [("Diagnostics", "Google reviewers mention detailed diagnostics a
 - **Yelp services:** battery and electrical, brakes, engine repair, exhaust repair, general diagnosis, 14 more.
 - **Yelp amenities:** waiting room, service observation window, ASL proficient, accepts credit cards.
 - **Angle:** family business where you can watch the work. "ASL proficient" is unusual and worth asking the owner about before using it.
-- **Flags:** Andrew's batch 7 notes say MapQuest shows a Website button; neither Google nor Yelp lists a site. Check it. Appointments appear to be required. Two staff members are named in many reviews; not used here.
+- **Flags:** Andrew's batch 7 notes say MapQuest shows a Website button; neither Google nor Yelp lists a site. Check it. **Checked Nov 13:** the MapQuest button links to autoexpertonline.com, a different business (a car-buying service in Riverside); a web search found only directory listings and BBB shows no website, so A-1 has no site of its own and the verdict is now Build. Appointments appear to be required. Two staff members are named in many reviews; not used here.
 - **Yelp page:** https://www.yelp.com/biz/a-1-auto-expert-chino
 
 ```python

@@ -832,7 +832,7 @@
     "name": "A-1 Auto Expert",
     "city": "Chino",
     "handoff": "docs/handoffs/2026-11-10-open-leads.md",
-    "verdict": "Check website first",
+    "verdict": "Build",
     "angle": "A family business where you can watch the work, with ASL proficiency that is worth asking the owner about before using it.",
     "google": {
      "name": "A-1 Auto Expert",
@@ -893,13 +893,14 @@
     },
     "flags": [
      "Batch 7 notes say MapQuest shows a Website button; neither Google nor Yelp lists a site.",
+     "Website check on 2026-11-13: the MapQuest Website button links to autoexpertonline.com, which belongs to a different business (Auto Expert Online, a car-buying service in Riverside with a 1-800 number); a web search found only directory listings (Yelp, BBB, Yellow Pages, Chamber of Commerce) and BBB shows no website, so A-1 has no site of its own.",
      "Appointments appear to be required.",
      "Two staff members are named in many reviews and are not used here."
     ],
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Site built Nov 12 by Andrew's session from the MapQuest listing (same phone as the sheet). Researched in handoff 1 as Check website first: MapQuest showed a Website button, so confirm the shop has no site before pitching.",
+   "research_note": "Site built Nov 12 by Andrew's session. Researched in handoff 1; website checked Nov 13: the MapQuest Website button goes to a different business (Auto Expert Online, Riverside), and no site of A-1's own was found. OK to pitch.",
    "last_checked": "2026-11-13"
   },
   {
