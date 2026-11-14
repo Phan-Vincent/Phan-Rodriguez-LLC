@@ -5,7 +5,7 @@
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 46,
+   "with_site": 47,
    "researched": 123,
    "open_claims": 0
   }
@@ -823,8 +823,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "a-1-auto-expert"
    },
    "claim": null,
    "research": {
@@ -899,8 +899,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.8/93, Yelp claimed 4.5/188. Mon–Fri 8–5. Check MapQuest Website button, then build. See docs/handoffs.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 12 by Andrew's session from the MapQuest listing (same phone as the sheet). No research handoff for this row.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 30,

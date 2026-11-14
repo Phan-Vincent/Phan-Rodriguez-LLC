@@ -74,7 +74,6 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 170 | Bailon's Auto Repair | Montclair | Build, Google only | 5.0 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 | 175 | Affordable Handyman | Rancho Cucamonga | Build, Google only | 4.4 / 7 | no page |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 | | **Not ready: clear the flag first** | | | | | | |
-| 29 | A-1 Auto Expert | Chino | Check website first | 4.8 / 93 | 4.5 / 188 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 78 | General Auto Care | Montclair | Check website first | 4.7 / 39 | 4.5 / 26 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
 | 95 | Perfect Image Collision Center | Fontana | Check website first | 4.7 / 30 | 4.5 / 10 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 114 | European Transmission Rebuild | Montclair | Check website first | 4.8 / 20 | 4.6 / 9 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
@@ -127,4 +126,4 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 162 | Arevalo Tree Service and Landscape | Fontana | Skip | 4.1 / 9 | 4.6 / 28 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 174 | Fontana Paving & Pool Remodeling | Fontana | Skip | 5.0 / 7 | no rating |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 
-119 rows in the queue. 4 researched rows already have a site: 27 Auto Repair Foreign Domestic, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.
+118 rows in the queue. 5 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.
