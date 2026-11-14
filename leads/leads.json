@@ -5,9 +5,9 @@
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 47,
+   "with_site": 59,
    "researched": 123,
-   "open_claims": 6
+   "open_claims": 0
   }
  },
  "leads": [
@@ -1001,14 +1001,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "jujubuilt-engineered-performance"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-13"
-   },
+   "claim": null,
    "research": {
     "row": 31,
     "name": "Jujubuilt Engineered Performance",
@@ -1074,8 +1070,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.9/88, Yelp claimed 4.9/78. Honda/Acura performance, Mon–Fri 11 AM–11 PM. Build first. See docs/handoffs.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/88, Yelp claimed 4.9/78. Honda/Acura performance, Mon–Fri 11 AM–11 PM. Build first. See docs/handoffs.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 32,
@@ -1814,8 +1810,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "sergios-auto-repair-tires"
    },
    "claim": null,
    "research": {
@@ -1886,8 +1882,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.3/68, Yelp claimed 5.0/6. Mon–Fri 8–5, Sat 8–3 (Yelp 30 min later). Build. See docs/handoffs/2026-11-10-open-leads-2.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.3/68, Yelp claimed 5.0/6. Mon–Fri 8–5, Sat 8–3 (Yelp 30 min later). Build. See docs/handoffs/2026-11-10-open-leads-2.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 45,
@@ -1905,14 +1901,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "autotechs"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-13"
-   },
+   "claim": null,
    "research": {
     "row": 45,
     "name": "AutoTech's",
@@ -1980,8 +1972,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Rancho Cucamonga, not Ontario. Maps 4.8/68 unclaimed, Yelp claimed 4.7/47. Mon–Fri 8–5. Build first. See docs/handoffs.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Rancho Cucamonga, not Ontario. Maps 4.8/68 unclaimed, Yelp claimed 4.7/47. Mon–Fri 8–5. Build first. See docs/handoffs.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 46,
@@ -2407,8 +2399,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "kikas-tires"
    },
    "claim": null,
    "research": {
@@ -2472,8 +2464,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.7/58, open 7 days (Sun 8–4). Yelp unclaimed, no rating. Build. See docs/handoffs.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.7/58, open 7 days (Sun 8–4). Yelp unclaimed, no rating. Build. See docs/handoffs.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 55,
@@ -2889,8 +2881,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "ninos-lawnmower-shop"
    },
    "claim": null,
    "research": {
@@ -2952,8 +2944,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: lawnmower repair, not auto. Maps 4.8/50, Yelp 4.9/19. Mon–Fri 8:30–4:30. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: lawnmower repair, not auto. Maps 4.8/50, Yelp 4.9/19. Mon–Fri 8:30–4:30. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 64,
@@ -3348,8 +3340,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "arrow-auto-repair"
    },
    "claim": null,
    "research": {
@@ -3419,8 +3411,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.8/44, Yelp claimed 4.3/9. Family owned per Yelp. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.8/44, Yelp claimed 4.3/9. Family owned per Yelp. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 72,
@@ -3438,8 +3430,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "moya-auto"
    },
    "claim": null,
    "research": {
@@ -3508,8 +3500,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.9/44, Yelp 4.8/32. Friday closes at noon. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/44, Yelp 4.8/32. Friday closes at noon. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 73,
@@ -3595,8 +3587,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "speed-1-smog"
    },
    "claim": null,
    "research": {
@@ -3658,8 +3650,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.5/43, inside R Version Autoworks. Yelp claimed, no rating; owner text states a price. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.5/43, inside R Version Autoworks. Yelp claimed, no rating; owner text states a price. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 75,
@@ -3867,14 +3859,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "advance-muffler"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-13"
-   },
+   "claim": null,
    "research": {
     "row": 77,
     "name": "Advance Muffler",
@@ -3952,8 +3940,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.8/39, Yelp claimed 4.8/184. Exhaust specialist, open 7 days. Build first. See docs/handoffs/2026-11-10-open-leads-3.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.8/39, Yelp claimed 4.8/184. Exhaust specialist, open 7 days. Build first. See docs/handoffs/2026-11-10-open-leads-3.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 78,
@@ -4582,14 +4570,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "avant-garde-automotive"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-13"
-   },
+   "claim": null,
    "research": {
     "row": 86,
     "name": "Avant-Garde Automotive",
@@ -4664,8 +4648,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.9/34, Yelp claimed 4.7/86. European makes specialist, Mon–Sat 8–6. Build first. See docs/handoffs/2026-11-10-open-leads-4.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/34, Yelp claimed 4.7/86. European makes specialist, Mon–Sat 8–6. Build first. See docs/handoffs/2026-11-10-open-leads-4.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 87,
@@ -6365,14 +6349,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "advance-tranz"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-13"
-   },
+   "claim": null,
    "research": {
     "row": 107,
     "name": "Advance Tranz",
@@ -6451,8 +6431,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 5.0/24, Yelp claimed 5.0/58. Transmission and muffler work. Google opens 8, Yelp 9. Build first. See docs/handoffs/2026-11-11-open-leads-6.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 11: Maps 5.0/24, Yelp claimed 5.0/58. Transmission and muffler work. Google opens 8, Yelp 9. Build first. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 108,
@@ -9122,14 +9102,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "j-h-automotive-service"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-13"
-   },
+   "claim": null,
    "research": {
     "row": 138,
     "name": "J & H Automotive Service",
@@ -9206,8 +9182,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.6/17, Yelp claimed 4.8/39. Owner text: 45 years at this location. Google closes 5, Yelp 5:30. Build first. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.6/17, Yelp claimed 4.8/39. Owner text: 45 years at this location. Google closes 5, Yelp 5:30. Build first. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 139,

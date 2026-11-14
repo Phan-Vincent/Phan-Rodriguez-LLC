@@ -56,6 +56,18 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `auto-repair-foreign-domestic-vw/` | Auto Repair Foreign Domestic & VW | Chino |
 | `purrfect-auto-service/` | Purrfect Auto Service | Montclair |
 | `a-1-auto-expert/` | A-1 Auto Expert | Chino |
+| `jujubuilt-engineered-performance/` | Jujubuilt Engineered Performance | Upland |
+| `autotechs/` | AutoTech's | Rancho Cucamonga |
+| `advance-muffler/` | Advance Muffler | Chino |
+| `avant-garde-automotive/` | Avant-Garde Automotive | Chino |
+| `advance-tranz/` | Advance Tranz | Upland |
+| `j-h-automotive-service/` | J & H Automotive Service | Montclair |
+| `sergios-auto-repair-tires/` | Sergio's Auto Repair & Tires | Chino |
+| `kikas-tires/` | Kikas Tires | Pomona |
+| `ninos-lawnmower-shop/` | Nino's Lawnmower Shop | Pomona |
+| `arrow-auto-repair/` | Arrow Auto Repair | Fontana |
+| `moya-auto/` | Moya Auto | Chino |
+| `speed-1-smog/` | Speed 1 Smog | Montclair |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

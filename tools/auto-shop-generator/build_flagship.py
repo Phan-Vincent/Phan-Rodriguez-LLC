@@ -793,6 +793,123 @@ mk("a-1-auto-expert", dict(hero="photo", ink="#12161C", bone="#F3F4F0", acc="#1E
    (8986035, 8478201), "a-1-auto-expert-chino", [("Eve B.", "This is hands down the best auto repair shop I've ever been to.", "HJ7eR5vX3i-SUSASdzr-xA"), ("D T.", "Best price around for an oil change. Highly recommended.", "3VaIk7poH0-K01Icd2S7yw"), ("Melody H.", "…always been very friendly and helpful, and they're quick to provide quotes.", "lM7eIcVXq1XI2gdV7OHJ0A"), ("Alfonso D.", "The service agents were knowledgeable, friendly…", "WkZ4-Fn96Aa6A_3ngQjg5A"), ("Ris L.", "Lovely Service", "qWgZPFPmWU3hpbUsR3L8Vw")],
    svc_label="What customers come for")
 
+# Build batch from research handoffs 1-8, 2026-11-13 (Vincent's session). Facts, hours and both ratings come from the
+# handoff for each row (Google Maps and Yelp read in a browser 2026-11-10/11); Yelp review ids and quotes come from each
+# shop's MapQuest listing, read 2026-11-13, whose phone matches the sheet. Only positive reviews are quoted, word for word.
+# Photos: Pexels, each loaded in a browser and looked at on a contact sheet; alt text follows the photographer's title.
+YB = "https://www.yelp.com/biz/"
+_ALT.update({17789324: "Blue Honda Civic Type R with its hood open at a racetrack", 36320021: "Modified car engine with red accents",
+             4489776: "Two mechanics working in a garage", 4489758: "Mechanic working at a bench in a garage",
+             34133277: "Exhaust parts hanging on a workshop wall", 8986143: "Exhaust system parts under a vehicle",
+             17042851: "BMW engine under an open hood", 8192663: "Open BMW hood showing the engine",
+             32152042: "Mechanic working on a car's undercarriage", 4116173: "Mechanic inspecting the underside of a vehicle",
+             8986041: "Mechanic moving an engine in a busy repair shop", 8986130: "Car raised on a lift in a repair shop"})
+
+
+def _two(folder, first, second):
+    SITES[folder]["ratings"] = [first, second]
+
+
+mk("jujubuilt-engineered-performance", dict(hero="split", ink="#111318", bone="#F2F2EF", acc="#C8102E", star="#F5C400", h1="8.4vw", stretch="82%", svc="index", mark="Jujubuilt", word="Jujubuilt", wordsz="19vw"),
+   "Jujubuilt Engineered Performance", "Repair and performance · W 9th St, Upland", ("Honda and Acura.", "Open till 11."), "Repair, diagnostics and performance upgrades on West 9th Street, open weeknights until 11. Google reviewers mention fair pricing, head gasket jobs and pre-purchase inspections.",
+   "(661) 492-4309", "1133 W 9th St<br>Upland, CA 91786", "Jujubuilt+Engineered+Performance+1133+W+9th+St+Upland+CA", wkh("11:00 AM – 11:00 PM"), ("4.9", 88),
+   [("Repair", [("Repair and diagnostics", ""), ("Engine work", "Reviewers mention head gasket jobs."), ("Oil changes and routine maintenance", "")]), ("Performance", [("Upgrades and modifications", "Yelp reviewers mention Honda and Acura builds."), ("Pre-purchase inspections", "Mentioned in three Google reviews."), ("Electronics installation", "")])],
+   (17789324, 36320021), "juju-built-engineered-performance-upland", [("Anamarie C.", "…the exceptional quality work on my car was outstanding!!", "7yTPncoRasZfWFjPBd3vhw"), ("Liana Q.", "…my car was fixed in one hour vs 3 days…", "h2uKT03wAQaBKdnpH6XE4g"), ("Angel G.", "So I've been dealing with George and Louie for over 7 years…", "xhNrdhewxlVbYLbfFYDUcQ"), ("Jovani H.", "Best spot in the IE hands down…", "Ijfiq4gGVBVCfhlzhpI7hw")],
+   svc_title="Daily driver or build.", find="In the Mountain Avenue Business Park.",
+   hours_note="Google lists weekdays 11 AM–11 PM and weekends closed; Yelp lists no hours.")
+_two("jujubuilt-engineered-performance", ("4.9", "Google · 88 reviews", GM + "Jujubuilt+Engineered+Performance+1133+W+9th+St+Upland+CA"), ("4.9", "Yelp · 78 reviews", YB + "juju-built-engineered-performance-upland"))
+
+mk("autotechs", dict(hero="photo", ink="#13202B", bone="#F1F3F4", acc="#2F5D50", star="#F2B33D", h1="10vw", stretch="86%", svc="rows", rowsz="6.6vw", mark="AutoTech's", word="AutoTech's", wordsz="18vw"),
+   "AutoTech's", "Auto repair · Archibald Ave, Rancho Cucamonga", ("The mechanic", "you keep for years."), "Maintenance and repair on Archibald Avenue. Yelp reviewers name the brothers Majid and Mo and say they explain the repair and give good options.",
+   "(909) 581-1942", "8840 Archibald Ave, Ste E<br>Rancho Cucamonga, CA 91730", "AutoTech's+8840+Archibald+Ave+Rancho+Cucamonga+CA", wkh("8:00 AM – 5:00 PM"), ("4.8", 68),
+   [("", [("Maintenance", "Oil changes, fluid flushes and routine service."), ("Engine repairs", "Water pumps, thermostats and the like."), ("Advice first", "Reviewers say the options are explained before the work starts.")])],
+   (4489776, 4489758), "auto-techs-rancho-cucamonga", [("Joseph O.", "This is the ONLY place I take my vehicles.", "kneezE8thAWTB36aeLlwxw"), ("Angela N.", "This place is awesome we bring all our cars here…", "Sco08ksm8T8oc73V9vFMyw"), ("Cathi P.", "Our family has taken our vehicles to Majid and his brother Mo for many years.", "KG3BSqq_KXXv-OWp3Jx2WA"), ("Robert H.", "…always willing to explain the repairs and provide good options…", "G3AK70zJ3gdCfWSX2-vBPQ")],
+   svc_label="What customers come for")
+_two("autotechs", ("4.8", "Google · 68 reviews", GM + "AutoTech's+8840+Archibald+Ave+Rancho+Cucamonga+CA"), ("4.7", "Yelp · 47 reviews", YB + "auto-techs-rancho-cucamonga"))
+
+mk("advance-muffler", dict(hero="poster", ink="#1A1714", bone="#F4EFE7", acc="#B4441B", star="#F2B33D", h1="10vw", stretch="84%", svc="index", mark="Advance Muffler", word="Advance", wordsz="20vw"),
+   "Advance Muffler", "Muffler and exhaust shop · Central Ave, Chino", ("Exhaust work", "since 2000."), "An owner-operated muffler and exhaust shop on Central Avenue. Custom exhaust, catalytic converters and welding, seven days a week.",
+   "(909) 548-6113", "12365 Central Ave, Unit B<br>Chino, CA 91710", "Advance+Muffler+12365+Central+Ave+Chino+CA", wkh("8:30 AM – 5:00 PM", "8:30 AM – 3:00 PM", "8:30 AM – 3:00 PM"), ("4.8", 39),
+   [("Exhaust", [("Exhaust repair", "The job mentioned most in Google reviews."), ("Custom exhaust", "Tips, resonator deletes and full systems."), ("Catalytic converters", ""), ("Welding", "")]), ("Diagnosis", [("Noise and no-start", ""), ("Pre-purchase inspections", "")])],
+   (34133277, 8986143), "advance-muffler-chino", [("David L.", "Dago is great. Fast, efficient and does a great job.", "FmfhnpQxkfoOucdXgDgHag"), ("Jojo C.", "Dago did an amazing job at a very fair price.", "8QXf519fwwZEdXPzHoJLjA"), ("Matt M.", "Did an excellent job installing a magnaflow overland exhaust on my 99 4Runner…", "Zhd-NfhLOS7-jFnTzG30CA"), ("Roger M.", "When you bring your vehicle here, rest assured you are in good hands.", "hNrqMFutVeE-qT4VHu8peg")],
+   svc_title="Quiet it down or open it up.")
+_two("advance-muffler", ("4.8", "Yelp · 184 reviews", YB + "advance-muffler-chino"), ("4.8", "Google · 39 reviews", GM + "Advance+Muffler+12365+Central+Ave+Chino+CA"))
+
+mk("avant-garde-automotive", dict(hero="block", ink="#0D1420", bone="#F0F2F5", acc="#1C3D6E", star="#E8B23A", h1="9.6vw", stretch="80%", svc="index", mark="Avant-Garde", word="Avant-Garde", wordsz="15vw"),
+   "Avant-Garde Automotive", "European auto repair · 12th St, Chino", ("BMW to Ferrari.", "Fixed in Chino."), "European auto repair on 12th Street. The owner lists BMW, Mercedes-Benz, Volvo, Porsche, Bentley and Ferrari, and Spanish is spoken.",
+   "(909) 964-6515", "13611 12th St, Ste B<br>Chino, CA 91710", "Avant-Garde+Automotive+13611+12th+St+Chino+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 6:00 PM"), ("4.9", 34),
+   [("What we work on", [("BMW and Mercedes-Benz", ""), ("Volvo and Porsche", ""), ("Bentley and Ferrari", ""), ("Hybrids", "Yelp category.")]), ("What we do", [("Maintenance and tune-ups", ""), ("Brakes", ""), ("Air conditioning", ""), ("Engine and transmission work", ""), ("Electrical work", "")])],
+   (17042851, 8192663), "avant-garde-automotive-chino-2", [("Lan Anh T.", "…a place that truly cares about their work and provides great quality at a reasonable price…", "TibAjovbiA-MdwXjP6gRbA"), ("Jr L.", "Needed to get an M3 diagnosed for some weird clicking noise…", "2uZmushfNIYvwVpxpS549A"), ("Benny B.", "Kevin the owner is super helpful…", "OMSbTtqH0gCmGMEXjQPh1Q")],
+   svc_title="Six makes, one shop.")
+_two("avant-garde-automotive", ("4.7", "Yelp · 86 reviews", YB + "avant-garde-automotive-chino-2"), ("4.9", "Google · 34 reviews", GM + "Avant-Garde+Automotive+13611+12th+St+Chino+CA"))
+
+mk("advance-tranz", dict(hero="split", ink="#1B1B1F", bone="#F5F3EE", acc="#0E7490", star="#F4C430", h1="8.2vw", svc="rows", rowsz="6.4vw", mark="Advance Tranz", word="Tranz", wordsz="30vw"),
+   "Advance Tranz", "Transmission and muffler repair · E Foothill Blvd, Upland", ("Transmission trouble?", "Talk to Art."), "Transmission repair and rebuilds, mufflers and general repair in Redhill Plaza. Yelp reviewers describe a father-and-son shop that keeps them informed.",
+   "(909) 920-0511", "1466 E Foothill Blvd, Ste A<br>Upland, CA 91786", "Advance+Tranz+1466+E+Foothill+Blvd+Upland+CA", wkh("9:00 AM – 5:00 PM"), ("5.0", 24),
+   [("", [("Transmission repair", "Repairs and rebuilds."), ("Mufflers and exhaust", ""), ("Engine repair", ""), ("Battery and electrical", ""), ("Fluids and filters", ""), ("Diagnosis", "Call with the year, make and model.")])],
+   (32152042, 4116173), "advance-tranz-upland-2", [("Diana W.", "Not only were they the best price, but Art answered all my questions.", "I0BBaIPmwQpdXSFLsTDWsw"), ("Neel T.", "If they can't fix it - they refer you somewhere else", "g8aiT08N34ezWnvY_a4lRg"), ("A C.", "Fast service, reasonable price.", "R1PhTRwQE75BLwabhR2yGg"), ("Debbie R.", "Kept me informed every day of the progress.", "3jzigKiq6T7SwJmWXhGu8Q")],
+   find="In Redhill Plaza.", hours_note="Google opens at 8 AM on weekdays; Yelp at 9 AM.")
+_two("advance-tranz", ("5.0", "Yelp · 58 reviews", YB + "advance-tranz-upland-2"), ("5.0", "Google · 24 reviews", GM + "Advance+Tranz+1466+E+Foothill+Blvd+Upland+CA"))
+
+mk("j-h-automotive-service", dict(hero="photo", serif=True, ink="#1F1A17", bone="#F6F1E9", acc="#7C2D12", star="#E0A526", h1="9vw", svc="index", mark="J & H Automotive", word="J & H", wordsz="30vw"),
+   "J & H Automotive Service", "Foreign and domestic repair · Ramona Ave, Montclair", ("Brakes to engines,", "foreign and domestic."), "Foreign and domestic repair on Ramona Avenue, from tune-ups and check engine lights to transmissions and smog failure repairs. Yelp reviewers name Mike.",
+   "(909) 624-5819", "10608 Ramona Ave<br>Montclair, CA 91763", "J+%26+H+Automotive+Service+10608+Ramona+Ave+Montclair+CA", wkh("8:00 AM – 5:00 PM"), ("4.6", 17),
+   [("Repair", [("Brakes", ""), ("Engine repair", ""), ("Transmission repair", ""), ("A/C repair", ""), ("Battery and electrical", "")]), ("Upkeep", [("Tune-ups", ""), ("Check engine light", ""), ("Smog failure repairs", "Failed a smog test? Bring the report."), ("Fluids and filters", "")])],
+   (8986041, 8986130), "j-and-h-automotive-service-montclair", [("Tracy P.", "Will only do the job required, no surprise work and cost.", "vI4u6_czePCKYvHJM4OTjQ"), ("Ray L.", "Mike is knowledgeable and honest…", "nqTUQp6GI6PiUOy0JQRRAg"), ("Chris M.", "Whenever I need my Jeep worked on I take it here.", "vCMtWxutbn59EAISpwlqLg")],
+   svc_title="Foreign or domestic.", hours_note="Google lists weekday closing at 5 PM; Yelp at 5:30 PM.")
+_two("j-h-automotive-service", ("4.8", "Yelp · 39 reviews", YB + "j-and-h-automotive-service-montclair"), ("4.6", "Google · 17 reviews", GM + "J+%26+H+Automotive+Service+10608+Ramona+Ave+Montclair+CA"))
+
+# Build batch 12, same day and same sources as batch 11. Where Google and Yelp hours disagree the shorter hours are shown
+# (docs/WORKFLOW.md). Kikas Tires and Speed 1 smog have no reviews on MapQuest, so their pages link to Google instead.
+_ALT.update({13746776: "Man repairing a tire outdoors", 36044141: "Mechanic working on a car's front brakes",
+             34357281: "Car tires stacked with an alloy wheel on top", 36353556: "Close-up of stacked tires with deep tread",
+             5163423: "Gloved hands working on a lawn mower engine", 32208764: "Man fixing a lawn mower in a workshop",
+             4116231: "Mechanics working on cars in a workshop", 6870324: "Mechanic with a clipboard inspecting a car",
+             8985513: "Mechanic working on an engine in a garage", 33814736: "Car on a lift in a well-lit garage",
+             13065692: "Mechanic checking an engine with a diagnostic tool", 8985514: "Underside of a vehicle on a lift"})
+
+mk("sergios-auto-repair-tires", dict(hero="photo", ink="#14171C", bone="#F4F2EC", acc="#C2410C", star="#F2B33D", h1="10.2vw", stretch="84%", svc="index", mark="Sergio's", word="Sergio's", wordsz="20vw"),
+   "Sergio's Auto Repair & Tires", "Auto repair and tires · Riverside Dr, Chino", ("Brakes, tires,", "turbos too."), "Auto repair and tires on Riverside Drive in Chino. Google reviewers mention brakes, oil changes, batteries and a turbo replacement; Yelp reviewers name Sergio and Anay.",
+   "(909) 902-1887", "5760 Riverside Dr<br>Chino, CA 91710", "Sergio's+Auto+Repair+%26+Tires+5760+Riverside+Dr+Chino+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 3:00 PM"), ("4.3", 68),
+   [("Repair", [("Brakes", ""), ("Engine work", "Reviewers mention a turbo replacement."), ("Struts", "Mentioned by a Yelp reviewer."), ("Batteries", "")]), ("Upkeep", [("Tires", ""), ("Oil changes", "")])],
+   (13746776, 36044141), "sergios-auto-repair-and-tires-chino", [("Kelly L.", "Great service for both tires and auto repairs.", "lJCKm2WmOrXp2xbUGvaitQ"), ("Rodel U.", "Sergio is very responsive and honest.", "vBRKkYDJRLVPBoS8f9mHgA"), ("Francisco G.", "Great service completed job as promised and a reasonable rate.", "_9VcYz-bAjKHxmzvGGYrTA"), ("Amanda C.", "Sergio & Anay are such kind, hardworking people!", "iCvaBTz7GVudMXCxEjLX-g")],
+   svc_title="Under the hood and on the wheels.", hours_note="Yelp lists weekday closing at 5:30 PM and Saturday at 3:30 PM; Google at 5 and 3.")
+
+mk("kikas-tires", dict(hero="split", ink="#121212", bone="#F5F2EA", acc="#B91C1C", star="#F5C400", h1="8.6vw", stretch="82%", svc="index", mark="Kikas Tires", word="Kikas", wordsz="28vw"),
+   "Kikas Tires", "Tire shop · E Mission Blvd, Pomona", ("Open seven days.", "Sundays till 4."), "A family-owned tire shop on East Mission Boulevard, open every day of the week. Google reviewers mention tire repair, rims and nice people.",
+   "(909) 643-9998", "1587 E Mission Blvd<br>Pomona, CA 91766", "Kikas+Tires+1587+E+Mission+Blvd+Pomona+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 5:00 PM", "8:00 AM – 4:00 PM"), ("4.7", 58),
+   [("", [("Tires", "Call with your tire size."), ("Tire repair", "The job mentioned most in Google reviews."), ("Rims", "")])],
+   (34357281, 36353556), svc_title="Tires, repairs, rims.")
+
+mk("ninos-lawnmower-shop", dict(hero="poster", ink="#14261A", bone="#F2F3E8", acc="#3F7D20", star="#E8C547", h1="9.6vw", stretch="84%", svc="rows", rowsz="6.4vw", mark="Nino's Lawnmower Shop", word="Nino's", wordsz="26vw"),
+   "Nino's Lawnmower Shop", "Lawnmower and small-engine repair · Clark Ave, Pomona", ("Mower won't start?", "Bring it to Nino."), "Lawn mower and small-engine repair on Clark Avenue in Pomona. Reviewers mention mowers, line trimmers, blowers and a Honda generator, and Google reviewers bring up quick turnaround.",
+   "(909) 964-6143", "333 Clark Ave<br>Pomona, CA 91767", "Nino's+Lawnmower+Shop+333+Clark+Ave+Pomona+CA", wkh("8:30 AM – 4:30 PM"), ("4.8", 50),
+   [("", [("Lawn mowers", "Push mowers and riding mowers. Call to ask about yours."), ("Line and hedge trimmers", ""), ("Blowers", ""), ("Generators", "A Yelp reviewer brought in a Honda generator during a power outage."), ("Other small gas engines", "Call and describe the machine.")])],
+   (5163423, 32208764), "ninos-lawn-mower-shop-pomona", [("Brandon B.", "Always go to this lawnmower shop. Honest, knowledgeable & very reasonable.", "zC4qQwyWUrqKzoUqr5QdNw"), ("Rick M.", "Nino is honest and has great prices.", "PqI0KSMSECHEbb3tPr16Tw"), ("Chris M.", "…This is by far the best place to go to have it repaired.", "I0AuBBKMlB_3C7YS3dlpBQ"), ("Jonny D.", "Found Nino after trying to find a shop to work on my Honda generator…", "lHEEGrZDlOzpftRpiUmrBg")],
+   svc_label="What Nino fixes", svc_nav="Repairs", hours_note="Yelp lists no hours; these are Google's.")
+_two("ninos-lawnmower-shop", ("4.8", "Google · 50 reviews", GM + "Nino's+Lawnmower+Shop+333+Clark+Ave+Pomona+CA"), ("4.9", "Yelp · 19 reviews", YB + "ninos-lawn-mower-shop-pomona"))
+
+mk("arrow-auto-repair", dict(hero="block", ink="#1A1C22", bone="#F3F2EE", acc="#1D4E89", star="#F2B33D", h1="10.6vw", stretch="80%", svc="index", mark="Arrow Auto Repair", word="Arrow", wordsz="28vw"),
+   "Arrow Auto Repair", "Auto repair · Arrow Blvd, Fontana", ("Walk in.", "Foreign or domestic."), "Family owned and operated for over 20 years, on Arrow Boulevard in Fontana. Foreign and domestic cars, trucks and SUVs. Call for an appointment or walk in.",
+   "(909) 349-0107", "15750 Arrow Blvd, Ste 3P<br>Fontana, CA 92335", "Arrow+Auto+Repair+15750+Arrow+Blvd+Fontana+CA", wkh("8:00 AM – 5:30 PM", "8:00 AM – 4:00 PM"), ("4.8", 44),
+   [("", [("Brakes", ""), ("Engine repair", ""), ("Diagnosis", ""), ("A/C and heating", "A Yelp reviewer's AC blows cold again."), ("Lights", "")])],
+   (4116231, 6870324), "arrow-auto-repair-fontana", [("Sandra M.", "Very efficient and fair pricing.", "a1d6g1fJZLwEDW0B15swZQ"), ("Jordan R.", "Great Staff! Friendly, timely, and efficient!", "g4AYMcIWVHWHBIQD6q1rUw"), ("Christian Q.", "Good price and my AC blows cold again.", "X2VzuDZ0yhnRBkqT6noxCA"), ("Jeff G.", "They are straight forward and honest…", "O83cbYD4azJjEQYTCRwlSA")],
+   svc_title="Cars, trucks and SUVs.", hours_note="Google lists weekday closing at 5:30 PM; Yelp at 6 PM.")
+
+mk("moya-auto", dict(hero="poster", serif=True, ink="#1E1B18", bone="#F5F0E6", acc="#9A3412", star="#E0A526", h1="8.4vw", svc="rows", rowsz="6.4vw", mark="Moya Auto", word="Moya", wordsz="30vw"),
+   "Moya Auto", "Auto repair · 12th St, Chino", ("Come early in the week.", "Fridays end at noon."), "Auto repair and maintenance on 12th Street in Chino. Yelp reviewers name the owner, Mark, and one has been going to him for over 15 years.",
+   "(909) 902-0262", "13380 12th St<br>Chino, CA 91710", "Moya+Auto+13380+12th+St+Chino+CA", ["8:00 AM – 4:00 PM"] * 4 + ["8:00 AM – 12:00 PM", "Closed", "Closed"], ("4.9", 44),
+   [("", [("Auto repair", "Call with the year, make and model."), ("Routine maintenance", ""), ("A/C repair", "Mentioned by a Yelp reviewer.")])],
+   (8985513, 33814736), "moya-auto-chino", [("Josh N.", "Honest mechanic and a good man.", "AUGYpiVC8fzueWTZlIAWUg"), ("Marcus L.", "…thank you Moya Auto for fixing my AC. Good price, quick turn around…", "F3QodfsmTYgwTXdELHXZ7w"), ("Jheno C.", "Id give this spot 10 stars if I could.", "jgBVLAdp0f00jlZ0Gplh-g"), ("Sig J.", "They were very helpful even though they couldn't service my car.", "tBF39JI2NjQvl7JiIi4nrA")],
+   svc_label="What we do", hours_note="Google lists Monday to Thursday closing at 5 PM; Yelp at 4 PM. Both show Friday 8 AM to noon.")
+_two("moya-auto", ("4.9", "Google · 44 reviews", GM + "Moya+Auto+13380+12th+St+Chino+CA"), ("4.8", "Yelp · 32 reviews", YB + "moya-auto-chino"))
+
+mk("speed-1-smog", dict(hero="photo", ink="#0F1A14", bone="#F0F4EF", acc="#15803D", star="#F4C430", h1="10.4vw", stretch="82%", svc="index", mark="Speed 1 Smog", word="Speed 1", wordsz="24vw"),
+   "Speed 1 smog", "Smog check · Brooks St, Montclair", ("Smog check", "on Brooks Street."), "A smog check station on Brooks Street in Montclair, open weekdays from 8 to 6. Call ahead for the price and wait time.",
+   "(909) 626-8060", "4727 Brooks St<br>Montclair, CA 91763", "Speed+1+smog+4727+Brooks+St+Montclair+CA", wkh("8:00 AM – 6:00 PM"), ("4.5", 43),
+   [("", [("Smog checks", "Call for today's price."), ("Before you come", "Bring your DMV renewal notice if you have one.")])],
+   (13065692, 8985514), svc_title="Weekdays, 8 to 6.", find="Google places the station inside R Version Autoworks.")
+
 # Performance Lube & Oil: linked Yelp reviews added 2026-11-12 (read from its MapQuest listing; phone and hours match the site).
 SITES["performance-lube-oil"]["track"] = _y("performance-lube-and-oil-chino-2", [("Nessa L.", "The service was quick, professional, and super convenient.", "AueOzQjbIhicZS6yZRPUmw"), ("Amy L.", "Highly recommend this place!", "FsC-ccGu6ZWTM5HtFH2Jrg"), ("Mohammed N.", "Service was good. Pretty nice car wash…", "1MykCVPqpykyhvUG-6PuqQ"), ("Carmen L.", "…she's always super cool and nice!", "ztFfRMyGAWyHTPp9XqlGVg")])
 SITES["performance-lube-oil"]["extra_js"] = V.CAROUSEL_JS

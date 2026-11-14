@@ -27,7 +27,7 @@ Yes	mockups/auto-repair-foreign-domestic-vw/index.html		Not assessed	Researched 
 Yes	mockups/johns-auto-repair/index.html		Not assessed	Built by Andrew's session (batch 7, flagship generator).	2026-11-09
 Yes	mockups/a-1-auto-expert/index.html		Not assessed	Site built Nov 12 by Andrew's session. Researched in handoff 1; website checked Nov 13: the MapQuest Website button goes to a different business (Auto Expert Online, Riverside), and no site of A-1's own was found. OK to pitch.	2026-11-13
 No			Not assessed	Researched Nov 10: Pomona, not Claremont. Maps 4.4/89 but Yelp unclaimed 2.6/32. Low priority. See docs/handoffs.	2026-11-10
-No			Not assessed	Researched Nov 10: Maps 4.9/88, Yelp claimed 4.9/78. Honda/Acura performance, Mon–Fri 11 AM–11 PM. Build first. See docs/handoffs.	2026-11-10
+Yes	mockups/jujubuilt-engineered-performance/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/88, Yelp claimed 4.9/78. Honda/Acura performance, Mon–Fri 11 AM–11 PM. Build first. See docs/handoffs.	2026-11-13
 Yes	mockups/performance-lube-oil/index.html	11	Low	Maps 4.3/87; Yelp claimed 4.2/129. Daily 8–5, behind Chevron. Free wash is manager wording; recent upsell complaints.	2026-11-10
 Yes	mockups/j-s-auto-center-smog/index.html	18	Low	Maps 4.9/85; Yelp claimed 4.4/25 (also lists used cars). Mon–Sat 8–5. Owner says 30 years. House-style generator page.	2026-11-10
 No			Not assessed	Researched Nov 10: movers. Maps 4.8/85, Yelp claimed 4.7/258. Phone differs on Yelp (747) 340-9007. Needs non-auto treatment. See docs/handoffs.	2026-11-10
@@ -40,8 +40,8 @@ Yes	mockups/l-r-auto-repair/index.html		Not assessed	No local mockup; business l
 Yes	mockups/freddies-auto-repair/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/baja-auto-center/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/bates-auto-service/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
-No			Not assessed	Researched Nov 10: Maps 4.3/68, Yelp claimed 5.0/6. Mon–Fri 8–5, Sat 8–3 (Yelp 30 min later). Build. See docs/handoffs/2026-11-10-open-leads-2.md.	2026-11-10
-No			Not assessed	Researched Nov 10: Rancho Cucamonga, not Ontario. Maps 4.8/68 unclaimed, Yelp claimed 4.7/47. Mon–Fri 8–5. Build first. See docs/handoffs.	2026-11-10
+Yes	mockups/sergios-auto-repair-tires/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.3/68, Yelp claimed 5.0/6. Mon–Fri 8–5, Sat 8–3 (Yelp 30 min later). Build. See docs/handoffs/2026-11-10-open-leads-2.md.	2026-11-13
+Yes	mockups/autotechs/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Rancho Cucamonga, not Ontario. Maps 4.8/68 unclaimed, Yelp claimed 4.7/47. Mon–Fri 8–5. Build first. See docs/handoffs.	2026-11-13
 Yes	mockups/toy-shop-transmissions/index.html	13	Low	Maps 4.9/67 unclaimed, Mon–Fri 9–6; Yelp unclaimed 4.9/36, no hours. Rebuilds, differentials, hot rods. Local only.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.3/66, Yelp unclaimed 3.1/30, no Yelp hours. Low priority. See docs/handoffs.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.7/65, Mon–Fri 8–6, Sat 7–2. Truck and trailer. No Yelp page. See docs/handoffs.	2026-11-10
@@ -50,7 +50,7 @@ Yes	mockups/hocks-japanese-car-specialists/index.html	17	Low–medium	Maps 4.7/6
 No			Not assessed	Researched Nov 10: Maps 4.3/61, Mon–Fri 8–5. No Yelp page confirmed. See docs/handoffs.	2026-11-10
 Yes	mockups/german-and-japanese-auto-pro/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/mendiola-diesel-auto/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
-No			Not assessed	Researched Nov 10: Maps 4.7/58, open 7 days (Sun 8–4). Yelp unclaimed, no rating. Build. See docs/handoffs.	2026-11-10
+Yes	mockups/kikas-tires/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.7/58, open 7 days (Sun 8–4). Yelp unclaimed, no rating. Build. See docs/handoffs.	2026-11-13
 Yes	mockups/molinas-tire-towing/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/the-auto-clinic/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/williams-independent-auto/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
@@ -59,7 +59,7 @@ Yes	mockups/rudys-auto-works-paint/index.html		Not assessed	No local mockup; bus
 Yes	mockups/v-tech-auto-care/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 No			Not assessed	Researched Nov 10: Maps 4.5/50, open 7 days 10–6. No Yelp page. Build, Google only. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
 No			Not assessed	No local mockup; business listing not rechecked.	2026-11-09
-No			Not assessed	Researched Nov 10: lawnmower repair, not auto. Maps 4.8/50, Yelp 4.9/19. Mon–Fri 8:30–4:30. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
+Yes	mockups/ninos-lawnmower-shop/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: lawnmower repair, not auto. Maps 4.8/50, Yelp 4.9/19. Mon–Fri 8:30–4:30. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-13
 No			Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/ceres-collision/index.html		Not assessed	Built by Andrew's session (batch 7, flagship generator).	2026-11-09
 No			Not assessed	Researched Nov 10: Maps 4.9/48, 24-hour truck tire road service. No Yelp page. Build, Google only. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
@@ -67,13 +67,13 @@ Yes	mockups/express-transmissions/index.html		Not assessed	No local mockup; busi
 Yes	mockups/menas-brake-suspension/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 Yes	mockups/japanese-auto-tech/index.html		Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 No			Not assessed	Researched Nov 10: Maps 4.9/45, Yelp 4.9/14 as Ramirez Auto Care. Saturday hours differ. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
-No			Not assessed	Researched Nov 10: Maps 4.8/44, Yelp claimed 4.3/9. Family owned per Yelp. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
-No			Not assessed	Researched Nov 10: Maps 4.9/44, Yelp 4.8/32. Friday closes at noon. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
+Yes	mockups/arrow-auto-repair/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.8/44, Yelp claimed 4.3/9. Family owned per Yelp. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-13
+Yes	mockups/moya-auto/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/44, Yelp 4.8/32. Friday closes at noon. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-13
 No			Not assessed	Researched Nov 10: Maps 4.4/43. No Yelp page. Low priority. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
-No			Not assessed	Researched Nov 10: Maps 4.5/43, inside R Version Autoworks. Yelp claimed, no rating; owner text states a price. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
+Yes	mockups/speed-1-smog/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.5/43, inside R Version Autoworks. Yelp claimed, no rating; owner text states a price. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-13
 No			Not assessed	Researched Nov 10: Maps 4.6/41, Yelp claimed 4.0/35. Body shop. Build. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.6/39; Yelp 3.7/3 under another name and phone. Low priority. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
-No			Not assessed	Researched Nov 10: Maps 4.8/39, Yelp claimed 4.8/184. Exhaust specialist, open 7 days. Build first. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
+Yes	mockups/advance-muffler/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.8/39, Yelp claimed 4.8/184. Exhaust specialist, open 7 days. Build first. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-13
 No			Not assessed	Researched Nov 10: Maps 4.7/39, Yelp 4.5/26 lists generalautocare.net (did not load). Phone differs on Yelp. Check website first. See docs/handoffs/2026-11-10-open-leads-3.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.8/38, Yelp 5.0/14 unclaimed, no Yelp hours. Mon–Fri 8–6, Sat 8–2. Build. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.3/38, Yelp claimed 3.5/6, no Yelp hours. Low priority. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
@@ -82,7 +82,7 @@ No			Not assessed	No local mockup; business listing not rechecked.	2026-11-09
 No			Not assessed	Researched Nov 10: Maps 4.6/36, Mon–Fri 8–6, Sat 8–12:30. No Yelp page. Build, Google only. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.4/35. No Yelp page. Low priority. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.4/35, Yelp claimed 4.5/24. Mon–Fri 9–6, Sat 9–3. Next to J C Auto Electric. Build. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
-No			Not assessed	Researched Nov 10: Maps 4.9/34, Yelp claimed 4.7/86. European makes specialist, Mon–Sat 8–6. Build first. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
+Yes	mockups/avant-garde-automotive/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/34, Yelp claimed 4.7/86. European makes specialist, Mon–Sat 8–6. Build first. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-13
 No			Not assessed	Researched Nov 10: Maps 4.9/34, Yelp claimed 4.3/18. Body shop. Yelp-listed domain fontanammauto.com is parked. Build. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.6/33; suite field on listing holds the ZIP. No Yelp page. Build, Google only. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
 No			Not assessed	Researched Nov 10: Maps 4.8/33. Body shop. No Yelp page. Build, Google only. See docs/handoffs/2026-11-10-open-leads-4.md.	2026-11-10
@@ -103,7 +103,7 @@ No			Not assessed	Researched Nov 11: has a live website, fastlaneautoandfleetrep
 No			Not assessed	Researched Nov 11: Maps 4.8/25, Yelp 4.4/14, unclaimed on both, no Yelp hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.4/25, Yelp 5.0/3, unclaimed on both, no hours on either site. Low priority. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.5/24, unclaimed. The Yelp page of this name has a different address and phone and no reviews, so it is not confirmed. Low priority. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-11
-No			Not assessed	Researched Nov 11: Maps 5.0/24, Yelp claimed 5.0/58. Transmission and muffler work. Google opens 8, Yelp 9. Build first. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-11
+Yes	mockups/advance-tranz/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 11: Maps 5.0/24, Yelp claimed 5.0/58. Transmission and muffler work. Google opens 8, Yelp 9. Build first. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-13
 No			Not assessed	Researched Nov 11: Maps 4.8/24, Yelp 4.9/19 as Monroe's Automotive & Off Road. No Google hours; Yelp Mon-Fri 8-5. Ask which name. Build. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.8/24, Yelp claimed with no reviews. Medium and heavy duty paint and body. Hours differ slightly. Build. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.4/23, Yelp 3.7/3. Est. 2012 per owner text. Google says 8-5 daily, Yelp closes Sunday. Build. See docs/handoffs/2026-11-11-open-leads-6.md.	2026-11-11
@@ -134,7 +134,7 @@ No			Not assessed	Researched Nov 11: Maps 4.5/18 as an auto parts store, Yelp 3.
 No			Not assessed	Researched Nov 11: Maps 4.9/18, no confirmed Yelp page (two same-name pages at other addresses). Build, Google only. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.4/18, no topics, no Yelp page. Smog inspection station, Mon-Sat 9-6. Low priority. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 5.0/17, Yelp 4.5/17, unclaimed on both, no Yelp hours (Google Mon-Sat 8-5). Build. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-11
-No			Not assessed	Researched Nov 11: Maps 4.6/17, Yelp claimed 4.8/39. Owner text: 45 years at this location. Google closes 5, Yelp 5:30. Build first. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-11
+Yes	mockups/j-h-automotive-service/index.html		Not assessed	Site built Nov 13 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.6/17, Yelp claimed 4.8/39. Owner text: 45 years at this location. Google closes 5, Yelp 5:30. Build first. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-13
 No			Not assessed	Researched Nov 11: Maps 4.8/17 with no hours, Yelp 5.0/7 (Mon-Fri 9-7, Sat 10-5), unclaimed on both. Body shop, not auto repair. Build. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.8/16 as an auto body shop, Yelp claimed 3.9/15 with no hours. Ask whether body work or repair. Build. See docs/handoffs/2026-11-11-open-leads-8.md.	2026-11-11
 No			Not assessed	Researched Nov 11: Maps 4.3/16, one generic topic, no street address, no Yelp page. Low priority. See docs/handoffs/2026-11-11-open-leads-9.md.	2026-11-11

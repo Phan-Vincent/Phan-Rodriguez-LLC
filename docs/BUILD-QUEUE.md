@@ -6,20 +6,8 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 
 | Row | Business | City | Verdict | Google | Yelp | Claimed | Brief |
 |---|---|---|---|---|---|---|---|
-| 31 | Jujubuilt Engineered Performance | Upland | Build first | 4.9 / 88 | 4.9 / 78 | Vincent (build) | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
-| 45 | AutoTech's | Rancho Cucamonga | Build first | 4.8 / 68 | 4.7 / 47 | Vincent (build) | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
-| 77 | Advance Muffler | Chino | Build first | 4.8 / 39 | 4.8 / 184 | Vincent (build) | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 86 | Avant-Garde Automotive | Chino | Build first | 4.9 / 34 | 4.7 / 86 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
-| 107 | Advance Tranz | Upland | Build first | 5.0 / 24 | 5.0 / 58 | Vincent (build) | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
-| 138 | J & H Automotive Service | Montclair | Build first | 4.6 / 17 | 4.8 / 39 | Vincent (build) | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | 34 | 2Man Moving Services | Ontario | Build | 4.8 / 85 | 4.7 / 258 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
-| 44 | Sergio's Auto Repair & Tires | Chino | Build | 4.3 / 68 | 5.0 / 6 |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
-| 54 | Kikas Tires | Pomona | Build | 4.7 / 58 | no rating |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
-| 63 | Nino's Lawnmower Shop | Pomona | Build | 4.8 / 50 | 4.9 / 19 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
 | 70 | Sal's Auto Care by Ramirez | Montclair | Build | 4.9 / 45 | 4.9 / 14 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 71 | Arrow Auto Repair | Fontana | Build | 4.8 / 44 | 4.3 / 9 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 72 | Moya Auto | Chino | Build | 4.9 / 44 | 4.8 / 32 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 74 | Speed 1 smog | Montclair | Build | 4.5 / 43 | no rating |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
 | 75 | JL Auto Body & Repair | Fontana | Build | 4.6 / 41 | 4.0 / 35 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
 | 79 | TJ Auto Repair | Pomona | Build | 4.8 / 38 | 5.0 / 14 |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 81 | EJ's Auto | Fontana | Build | 4.8 / 36 | 4.6 / 22 |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
@@ -126,4 +114,4 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 162 | Arevalo Tree Service and Landscape | Fontana | Skip | 4.1 / 9 | 4.6 / 28 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 174 | Fontana Paving & Pool Remodeling | Fontana | Skip | 5.0 / 7 | no rating |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 
-118 rows in the queue. 5 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care.
+106 rows in the queue. 17 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 31 Jujubuilt Engineered Performance, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care, 44 Sergio's Auto Repair & Tires, 45 AutoTech's, 54 Kikas Tires, 63 Nino's Lawnmower Shop, 71 Arrow Auto Repair, 72 Moya Auto, 74 Speed 1 smog, 77 Advance Muffler, 86 Avant-Garde Automotive, 107 Advance Tranz, 138 J & H Automotive Service.

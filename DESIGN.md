@@ -343,3 +343,24 @@ Built at Andrew's request (`mockups/a-1-auto-expert/`). Hours (Mon–Fri 8–5) 
 ### 2026-11-12 — Performance Lube & Oil: linked reviews
 
 The site already existed. Added four Yelp reviews linked by review id (from its MapQuest listing, whose phone and daily 8–5 hours match the site). Nothing else changed.
+
+### 2026-11-13 — Build batch 11: the six "Build first" rows from the handoffs
+
+Built by Vincent's session at Vincent's request, with the same generator and look (`build_flagship.py`, `mk()` entries): `jujubuilt-engineered-performance` (row 31), `autotechs` (45), `advance-muffler` (77), `avant-garde-automotive` (86), `advance-tranz` (107), `j-h-automotive-service` (138).
+
+- **Facts** (address, phone, hours, Google and Yelp ratings, services, angle) are from each row's research handoff. Where the handoff says Yelp has more reviews, the Yelp rating leads; both ratings are shown and linked.
+- **Reviews:** Yelp reviews linked by review id, read from each shop's MapQuest listing on 2026-11-13; every listing's phone matches the sheet. Only positive reviews are quoted, word for word.
+- **Hours shown as "call to confirm"** where the listings disagree or are thin: Jujubuilt (Yelp lists no hours; the 11 AM–11 PM weekday hours are unusual), Advance Tranz (8 or 9 AM opening; the later one is shown), J & H (5 or 5:30 PM closing; the earlier one is shown).
+- **Left off on purpose:** Advance Tranz's military discount (Yelp amenity, unconfirmed) and J & H's "45 years at this location" (owner text, unconfirmed). Confirm both on the call.
+- **Photos:** twelve new Pexels ids, each loaded and looked at on a contact sheet; none is used on another site. Rebuilding every site to a scratch folder gave byte-identical pages for all existing sites.
+
+### 2026-11-13 — Build batch 12: six more rows from the handoffs
+
+Same session, generator, sources and checks as batch 11: `sergios-auto-repair-tires` (row 44), `kikas-tires` (54), `ninos-lawnmower-shop` (63), `arrow-auto-repair` (71), `moya-auto` (72), `speed-1-smog` (74).
+
+- **Shorter hours shown** where Google and Yelp disagree (per `docs/WORKFLOW.md`), marked "call to confirm": Sergio's, Arrow, Moya (Mon–Thu to 4 PM; Friday 8 AM to noon on both). Nino's shows Google's hours because Yelp has none.
+- **Kikas Tires:** Google, Yelp and the sheet agree on 1587 E Mission Blvd and (909) 643-9998, so those are used. MapQuest still shows 1589 and (909) 203-0801 (the conflict noted in batch 8). Confirm on the call. MapQuest has no reviews, so the page links to Google.
+- **Speed 1 smog:** the owner's Yelp price ("$30 out the door, pass or don't pay") is left off until confirmed. No reviews on MapQuest; links to Google.
+- **Nino's Lawnmower Shop** is not an auto shop: lawn-mower photos, and the service list is only what reviewers mention (mowers, trimmers, blowers, a generator).
+- **Ratings:** Sergio's (6 Yelp reviews) and Arrow (9) show Google only, as the handoffs advise.
+- **Skipped from the queue for now:** row 34, 2Man Moving (not an auto shop; phone numbers differ between listings) and row 70, Sal's Auto Care by Ramirez (Yelp calls it Ramirez Auto Care; confirm the current name first).

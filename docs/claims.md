@@ -90,15 +90,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 174 | Fontana Paving & Pool Remodeling | Vincent | research | 2026-11-12 | done |
 | 175 | Affordable Handyman | Vincent | research | 2026-11-12 | done |
 | 176 | AA Handyman Services | Vincent | research | 2026-11-12 | done |
-| 31 | Jujubuilt Engineered Performance | Vincent | build | 2026-11-13 | open |
-| 45 | AutoTech's | Vincent | build | 2026-11-13 | open |
-| 77 | Advance Muffler | Vincent | build | 2026-11-13 | open |
-| 86 | Avant-Garde Automotive | Vincent | build | 2026-11-13 | open |
-| 107 | Advance Tranz | Vincent | build | 2026-11-13 | open |
-| 138 | J & H Automotive Service | Vincent | build | 2026-11-13 | open |
-| 44 | Sergio's Auto Repair & Tires | Vincent | build | 2026-11-13 | open |
-| 54 | Kikas Tires | Vincent | build | 2026-11-13 | open |
-| 63 | Nino's Lawnmower Shop | Vincent | build | 2026-11-13 | open |
-| 71 | Arrow Auto Repair | Vincent | build | 2026-11-13 | open |
-| 72 | Moya Auto | Vincent | build | 2026-11-13 | open |
-| 74 | Speed 1 smog | Vincent | build | 2026-11-13 | open |
+| 31 | Jujubuilt Engineered Performance | Vincent | build | 2026-11-13 | done |
+| 45 | AutoTech's | Vincent | build | 2026-11-13 | done |
+| 77 | Advance Muffler | Vincent | build | 2026-11-13 | done |
+| 86 | Avant-Garde Automotive | Vincent | build | 2026-11-13 | done |
+| 107 | Advance Tranz | Vincent | build | 2026-11-13 | done |
+| 138 | J & H Automotive Service | Vincent | build | 2026-11-13 | done |
+| 44 | Sergio's Auto Repair & Tires | Vincent | build | 2026-11-13 | done |
+| 54 | Kikas Tires | Vincent | build | 2026-11-13 | done |
+| 63 | Nino's Lawnmower Shop | Vincent | build | 2026-11-13 | done |
+| 71 | Arrow Auto Repair | Vincent | build | 2026-11-13 | done |
+| 72 | Moya Auto | Vincent | build | 2026-11-13 | done |
+| 74 | Speed 1 smog | Vincent | build | 2026-11-13 | done |
