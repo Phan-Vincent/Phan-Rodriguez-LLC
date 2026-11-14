@@ -96,3 +96,9 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 86 | Avant-Garde Automotive | Vincent | build | 2026-11-13 | open |
 | 107 | Advance Tranz | Vincent | build | 2026-11-13 | open |
 | 138 | J & H Automotive Service | Vincent | build | 2026-11-13 | open |
+| 44 | Sergio's Auto Repair & Tires | Vincent | build | 2026-11-13 | open |
+| 54 | Kikas Tires | Vincent | build | 2026-11-13 | open |
+| 63 | Nino's Lawnmower Shop | Vincent | build | 2026-11-13 | open |
+| 71 | Arrow Auto Repair | Vincent | build | 2026-11-13 | open |
+| 72 | Moya Auto | Vincent | build | 2026-11-13 | open |
+| 74 | Speed 1 smog | Vincent | build | 2026-11-13 | open |
