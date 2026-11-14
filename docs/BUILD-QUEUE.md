@@ -6,12 +6,12 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 
 | Row | Business | City | Verdict | Google | Yelp | Claimed | Brief |
 |---|---|---|---|---|---|---|---|
-| 31 | Jujubuilt Engineered Performance | Upland | Build first | 4.9 / 88 | 4.9 / 78 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
-| 45 | AutoTech's | Rancho Cucamonga | Build first | 4.8 / 68 | 4.7 / 47 |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
-| 77 | Advance Muffler | Chino | Build first | 4.8 / 39 | 4.8 / 184 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 86 | Avant-Garde Automotive | Chino | Build first | 4.9 / 34 | 4.7 / 86 |  | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
-| 107 | Advance Tranz | Upland | Build first | 5.0 / 24 | 5.0 / 58 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
-| 138 | J & H Automotive Service | Montclair | Build first | 4.6 / 17 | 4.8 / 39 |  | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
+| 31 | Jujubuilt Engineered Performance | Upland | Build first | 4.9 / 88 | 4.9 / 78 | Vincent (build) | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
+| 45 | AutoTech's | Rancho Cucamonga | Build first | 4.8 / 68 | 4.7 / 47 | Vincent (build) | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
+| 77 | Advance Muffler | Chino | Build first | 4.8 / 39 | 4.8 / 184 | Vincent (build) | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
+| 86 | Avant-Garde Automotive | Chino | Build first | 4.9 / 34 | 4.7 / 86 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
+| 107 | Advance Tranz | Upland | Build first | 5.0 / 24 | 5.0 / 58 | Vincent (build) | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
+| 138 | J & H Automotive Service | Montclair | Build first | 4.6 / 17 | 4.8 / 39 | Vincent (build) | [2026-11-11-open-leads-8.md](handoffs/2026-11-11-open-leads-8.md) |
 | 34 | 2Man Moving Services | Ontario | Build | 4.8 / 85 | 4.7 / 258 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 44 | Sergio's Auto Repair & Tires | Chino | Build | 4.3 / 68 | 5.0 / 6 |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |
 | 54 | Kikas Tires | Pomona | Build | 4.7 / 58 | no rating |  | [2026-11-10-open-leads-2.md](handoffs/2026-11-10-open-leads-2.md) |

@@ -90,3 +90,9 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 174 | Fontana Paving & Pool Remodeling | Vincent | research | 2026-11-12 | done |
 | 175 | Affordable Handyman | Vincent | research | 2026-11-12 | done |
 | 176 | AA Handyman Services | Vincent | research | 2026-11-12 | done |
+| 31 | Jujubuilt Engineered Performance | Vincent | build | 2026-11-13 | open |
+| 45 | AutoTech's | Vincent | build | 2026-11-13 | open |
+| 77 | Advance Muffler | Vincent | build | 2026-11-13 | open |
+| 86 | Avant-Garde Automotive | Vincent | build | 2026-11-13 | open |
+| 107 | Advance Tranz | Vincent | build | 2026-11-13 | open |
+| 138 | J & H Automotive Service | Vincent | build | 2026-11-13 | open |

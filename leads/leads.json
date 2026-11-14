@@ -7,7 +7,7 @@
    "leads": 294,
    "with_site": 47,
    "researched": 123,
-   "open_claims": 0
+   "open_claims": 6
   }
  },
  "leads": [
@@ -1004,7 +1004,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-13"
+   },
    "research": {
     "row": 31,
     "name": "Jujubuilt Engineered Performance",
@@ -1904,7 +1908,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-13"
+   },
    "research": {
     "row": 45,
     "name": "AutoTech's",
@@ -3862,7 +3870,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-13"
+   },
    "research": {
     "row": 77,
     "name": "Advance Muffler",
@@ -4573,7 +4585,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-13"
+   },
    "research": {
     "row": 86,
     "name": "Avant-Garde Automotive",
@@ -6352,7 +6368,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-13"
+   },
    "research": {
     "row": 107,
     "name": "Advance Tranz",
@@ -9105,7 +9125,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-13"
+   },
    "research": {
     "row": 138,
     "name": "J & H Automotive Service",
