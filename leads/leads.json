@@ -1,11 +1,11 @@
 {
  "_meta": {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "generator": "tools/leads/sync.py",
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 45,
+   "with_site": 46,
    "researched": 123,
    "open_claims": 0
   }
@@ -502,14 +502,14 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "purrfect-auto-service"
    },
    "claim": null,
    "research": null,
    "fact_check": null,
-   "research_note": "No local mockup; business listing not rechecked.",
-   "last_checked": "2026-11-09"
+   "research_note": "Site built Nov 12 by Andrew's session (Montclair shop only; rows 187 and 188 are other Purrfect Auto Service locations). No research handoff for this row.",
+   "last_checked": "2026-11-13"
   },
   {
    "row": 22,
