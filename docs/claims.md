@@ -108,3 +108,15 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 85 | Roadhaus Automotive & Diesel Specialist | Vincent | build | 2026-11-14 | open |
 | 87 | M&M CAR PRO'S | Vincent | build | 2026-11-14 | open |
 | 92 | Auto Tech Center | Vincent | build | 2026-11-14 | open |
+| 177 | Handy Joe | Vincent | research | 2026-11-14 | open |
+| 178 | Mailos auto and towing | Vincent | research | 2026-11-14 | open |
+| 179 | Mario's Garden Service | Vincent | research | 2026-11-14 | open |
+| 180 | On The Go Landscaping | Vincent | research | 2026-11-14 | open |
+| 181 | Eric Ellis Yard and Handyman Services | Vincent | research | 2026-11-14 | open |
+| 182 | Charlie's Handyman Service | Vincent | research | 2026-11-14 | open |
+| 183 | 1 Stop Chassis and Trailer Repair Inc | Vincent | research | 2026-11-14 | open |
+| 184 | Claremont Tire & Auto Center | Vincent | research | 2026-11-14 | open |
+| 185 | F&R Garcia's Landscaping | Vincent | research | 2026-11-14 | open |
+| 186 | Sierra Car Wash & Detail Shop | Vincent | research | 2026-11-14 | open |
+| 187 | Purrfect Auto Service | Vincent | research | 2026-11-14 | open |
+| 188 | Purrfect Auto Service | Vincent | research | 2026-11-14 | open |

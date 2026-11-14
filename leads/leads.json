@@ -1,13 +1,13 @@
 {
  "_meta": {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "generator": "tools/leads/sync.py",
   "do_not_edit": true,
   "counts": {
    "leads": 294,
    "with_site": 59,
    "researched": 123,
-   "open_claims": 0
+   "open_claims": 18
   }
  },
  "leads": [
@@ -3672,7 +3672,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-14"
+   },
    "research": {
     "row": 75,
     "name": "JL Auto Body & Repair",
@@ -4056,7 +4060,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-14"
+   },
    "research": {
     "row": 79,
     "name": "TJ Auto Repair",
@@ -4226,7 +4234,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-14"
+   },
    "research": {
     "row": 81,
     "name": "EJ's Auto",
@@ -4478,7 +4490,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-14"
+   },
    "research": {
     "row": 85,
     "name": "Roadhaus Automotive & Diesel Specialist",
@@ -4670,7 +4686,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-14"
+   },
    "research": {
     "row": 87,
     "name": "M&M CAR PRO'S",
@@ -4981,7 +5001,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "build",
+    "date": "2026-11-14"
+   },
    "research": {
     "row": 92,
     "name": "Auto Tech Center",
@@ -12029,7 +12053,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12054,7 +12082,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12079,7 +12111,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12104,7 +12140,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12129,7 +12169,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12154,7 +12198,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12179,7 +12227,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12204,7 +12256,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12229,7 +12285,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12254,7 +12314,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12279,7 +12343,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
@@ -12304,7 +12372,11 @@
     "exists": false,
     "folder": null
    },
-   "claim": null,
+   "claim": {
+    "by": "Vincent",
+    "for": "research",
+    "date": "2026-11-14"
+   },
    "research": null,
    "fact_check": null,
    "research_note": "No local mockup; business listing not rechecked.",
