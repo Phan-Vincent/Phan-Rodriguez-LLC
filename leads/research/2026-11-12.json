@@ -555,7 +555,7 @@
       "name": "Anthony's auto repair and towing",
       "city": "Fontana",
       "handoff": "docs/handoffs/2026-11-12-open-leads-10.md",
-      "verdict": "Build, Google only",
+      "verdict": "Hold",
       "angle": "A repair shop in unit 4 on Ceres Avenue rated 5.0 on Google from 9, with pricing at four mentions and trucks at two.",
       "google": {
         "name": "Anthony's auto repair and towing",
@@ -583,6 +583,7 @@
       },
       "yelp": null,
       "flags": [
+        "Moved to Hold on 2026-11-14: sheet row 178, Mailos auto and towing, has the same phone (909) 904-6061 and the same unit, and sheet row 14, Mailo's Auto Repair at 16624 Ceres Ave, already has a site and is in the call queue, so this may be the same business under another name; settle it on the row 14 call (see handoff 12).",
         "Google only; the Yelp search at the street address returned only other Fontana repair shops, so there is no Yelp page.",
         "Google shows 5.0 from 9, the fewest reviews in the batch, so the rating rests on a small sample.",
         "Towing is in the business name but appears nowhere else on the listing, so confirm the shop offers it before printing it.",

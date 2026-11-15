@@ -1,0 +1,734 @@
+{
+  "_meta": {
+    "date_read": "2026-11-14",
+    "method": "Google Maps listings and Yelp pages read in a browser by Vincent's session; structured by a Reasonix worker from the handoff documents",
+    "not_confirmed_with_owner": true
+  },
+  "entries": [
+    {
+      "row": 177,
+      "name": "Handy Joe",
+      "city": "Rancho Cucamonga",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Build",
+      "angle": "A handyman rated 5.0 on both sites, Yelp from 9 and Google from 7, whose owner text offers free estimates by text and replies within about 15 minutes.",
+      "google": {
+        "name": "Handy Joe",
+        "rating": 5.0,
+        "reviews": 7,
+        "address": null,
+        "phone": "(909) 775-4134",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {
+          "work": 4
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/handy-joe-fontana",
+        "name": "Handy Joe",
+        "rating": 5.0,
+        "reviews": 9,
+        "claimed": true,
+        "address": null,
+        "phone": "(909) 775-4134",
+        "website": null,
+        "hours": [
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "categories": [
+          "Handyman",
+          "TV Mounting",
+          "Lighting Fixtures & Equipment"
+        ],
+        "services": [
+          "Handyman assembly",
+          "Furniture",
+          "Wall hangings",
+          "Shelving",
+          "Electric repair",
+          "Plumbing installation or replacement",
+          "Plumbing repair"
+        ],
+        "owner_text": "Small home repairs and installation, with free estimates by text giving name, city and project, and replies to texts within about 15 minutes."
+      },
+      "flags": [
+        "5.0 on both sites, but Yelp's rests on 9 reviews against Google's 7, and Yelp is claimed while Google's claim status was not read.",
+        "Hours agree on both sites, 9 AM to 5 PM Monday to Friday with Saturday and Sunday closed.",
+        "Yelp says the business serves the Fontana area while the sheet puts it in Rancho Cucamonga, so the area to print must be asked before a site is built.",
+        "Neither site gives a street address, because the business is a service-area business, so the handoff's address line reads \"Serving Fontana and nearby\".",
+        "Google's one topic chip is work (4), which is generic and was not used as a service.",
+        "Yelp's service list is marked verified by the business and covers assembly, furniture, wall hangings, shelving, electrical repair and plumbing installation or repair."
+      ]
+    },
+    {
+      "row": 178,
+      "name": "Mailos auto and towing",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Hold",
+      "angle": "None until the Ceres Ave question is settled, since the phone and unit match Anthony's auto repair and towing in row 164 and the street number matches Mailo's Auto Repair in row 14.",
+      "google": {
+        "name": "Mailos auto and towing",
+        "rating": 5.0,
+        "reviews": 6,
+        "address": "16622 Ceres Ave #4, Fontana, CA 92335",
+        "phone": "(909) 904-6061",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "1:00 PM – 4:00 PM"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/mailos-auto-and-towing-fontana",
+        "name": "Mailos auto and towing",
+        "rating": 3.0,
+        "reviews": 2,
+        "claimed": true,
+        "address": "16622 Ceres Ave, Ste 4, Fontana, CA 92335",
+        "phone": "(909) 904-6061",
+        "website": null,
+        "hours": null,
+        "categories": [
+          "Auto Repair",
+          "Towing",
+          "Transmission Repair"
+        ],
+        "services": [
+          "Auto fluids and filters maintenance",
+          "Transmission filter",
+          "Transmission fluid",
+          "Auto transmission repair",
+          "Routine automotive maintenance",
+          "Transmission leak inspection"
+        ],
+        "owner_text": "A small family-owned auto shop and towing business offering general repair, maintenance and towing, with mobile service over short and long distances, 24/7."
+      },
+      "flags": [
+        "Hold, because the phone (909) 904-6061, the unit 16622 Ceres Ave #4 and the plus code 3HV5+RG are the same as sheet row 164, Anthony's auto repair and towing, in handoff 10 and marked Build, Google only.",
+        "Sheet row 14, Mailo's Auto Repair at 16624 Ceres Ave, phone (909) 427-9202, already has a site and is in the call queue, so ask on that call whether rows 14, 164 and 178 are one business under several names.",
+        "Sheet row 167, Docs auto repair and detailing, shares the same unit with another phone.",
+        "Row 164 is being moved to Hold for the same reason, in a separate edit.",
+        "For later, Google shows 5.0 from 6 in the towing service category, listed open 24 hours Monday to Saturday and 1 PM to 4 PM Sunday, with no topic chips.",
+        "Yelp shows 3.0 from 2, is claimed, lists no hours, and its owner text describes a small family-owned repair and towing business with 24/7 mobile service."
+      ]
+    },
+    {
+      "row": 179,
+      "name": "Mario's Garden Service",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Low priority",
+      "angle": "A gardener on Mulberry Avenue at 4.7 from 6 on Google against 5.0 from 1 on Yelp, with the Yelp listing unclaimed.",
+      "google": {
+        "name": "Mario's Garden Service",
+        "rating": 4.7,
+        "reviews": 6,
+        "address": "8460 Mulberry Ave, Fontana, CA 92335",
+        "phone": "(951) 218-0569",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/marios-garden-service-fontana",
+        "name": "Mario's Garden Service",
+        "rating": 5.0,
+        "reviews": 1,
+        "claimed": false,
+        "address": "8460 Mulberry Ave, Fontana, CA 92335",
+        "phone": "(951) 218-0569",
+        "website": null,
+        "hours": [
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM",
+          "9:00 AM – 4:00 PM"
+        ],
+        "categories": [
+          "Gardeners",
+          "Landscaping"
+        ],
+        "services": [
+          "Gardening"
+        ],
+        "owner_text": "A specialties line reading \"Specializing in: Gardeners; Landscaping & Lawn Services\", and nothing more."
+      },
+      "flags": [
+        "Google shows 4.7 from 6 with no topic chips and its claim status was not read, while Yelp shows 5.0 from 1 and is unclaimed, so the Yelp rating rests on a single review.",
+        "Hours agree, 9 AM to 4 PM every day on both sites.",
+        "Yelp's only listed service is gardening, and its categories are gardeners and landscaping, while Google's category is gardener.",
+        "The 951 area code is not local to Fontana, so confirm the phone before printing.",
+        "8460 Mulberry Ave may be a home rather than a business address; that is a guess and not on either listing, so do not print it on a site without asking."
+      ]
+    },
+    {
+      "row": 180,
+      "name": "On The Go Landscaping",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Low priority",
+      "angle": "None yet beyond a name and 5.0 from 6 on Google, since the listing gives no phone and no address and the only topics are generic.",
+      "google": {
+        "name": "On The Go Landscaping",
+        "rating": 5.0,
+        "reviews": 6,
+        "address": null,
+        "phone": null,
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours",
+          "Open 24 hours"
+        ],
+        "topics": {
+          "hard worker": 2,
+          "job": 3
+        }
+      },
+      "yelp": null,
+      "flags": [
+        "Google only: the listing gives no phone and no address, and the sheet has no phone for this row either.",
+        "The only item on the listing is a link labelled where2goanaheim.com, which is an unrelated directory site rather than the business's website.",
+        "A Yelp page in Rialto under a similar name is claimed, has no reviews and shows (323) 244-6609, and nothing ties it to this listing, so it is not confirmed as the same business and no Yelp page is printed.",
+        "Google shows 5.0 from 6 with two generic topic chips, job (3) and hard worker (2).",
+        "Google lists the business open 24 hours all seven days, which for a landscaper reads as a default rather than real hours."
+      ]
+    },
+    {
+      "row": 181,
+      "name": "Eric Ellis Yard and Handyman Services",
+      "city": "Claremont",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Build",
+      "angle": "An all-purpose handyman serving Pomona, rated 5.0 on both sites, Google from 6 and Yelp from 4, whose owner text lists yard work, garage cleanouts, paving, landscaping, small jobs and painting.",
+      "google": {
+        "name": "Eric Ellis Yard and Handyman Services",
+        "rating": 5.0,
+        "reviews": 6,
+        "address": null,
+        "phone": "(909) 242-9675",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "yard work": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/eric-ellis-yard-and-handyman-services-pomona",
+        "name": "Eric Ellis Yard & Handyman Services",
+        "rating": 5.0,
+        "reviews": 4,
+        "claimed": true,
+        "address": "Pomona, CA 91767",
+        "phone": "(909) 242-9675",
+        "website": null,
+        "hours": [
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Handyman",
+          "Landscaping"
+        ],
+        "services": [
+          "Appliance installation"
+        ],
+        "owner_text": "An all-purpose handyman covering yard work, garage cleanouts, paving, landscaping, small jobs around the house, painting and more."
+      },
+      "flags": [
+        "Google's 5.0 from 6 leads on review count and its claim status was not read, while Yelp shows 5.0 from 4 and is claimed.",
+        "Hours agree, 7 AM to 5 PM Monday to Saturday with Sunday closed.",
+        "Yelp writes the name \"Eric Ellis Yard & Handyman Services\" with an ampersand, while Google and the sheet write \"and\", so ask which the business uses.",
+        "Yelp says the business serves the Pomona area while the sheet puts it in Claremont, so the area to print must be asked; the handoff's address line reads \"Serving Pomona and nearby\".",
+        "Neither site gives a street address, because the business is a service-area business.",
+        "Yelp's service list is a long list of appliance brands under appliance installation and was not copied, so the JSON keeps appliance installation only."
+      ]
+    },
+    {
+      "row": 182,
+      "name": "Charlie's Handyman Service",
+      "city": "Rancho Cucamonga",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Build",
+      "angle": "A handyman serving Rancho Cucamonga with 5.0 on Yelp from 27 against 4.3 on Google from 6, the strongest handyman in the batch on review count.",
+      "google": {
+        "name": "Charlie's Handyman Service",
+        "rating": 4.3,
+        "reviews": 6,
+        "address": null,
+        "phone": "(909) 541-7484",
+        "website": null,
+        "unclaimed": null,
+        "hours": null,
+        "topics": {
+          "skilled handyman": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/charlies-handyman-service-rancho-cucamonga",
+        "name": "Charlie's Handyman Service",
+        "rating": 5.0,
+        "reviews": 27,
+        "claimed": true,
+        "address": "Rancho Cucamonga, CA 91701",
+        "phone": "(909) 541-7484",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 3:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Handyman",
+          "Furniture Assembly",
+          "Drywall Installation & Repair"
+        ],
+        "services": [
+          "Appliance installation"
+        ],
+        "owner_text": "The text reads \"Handyman service\", and nothing more."
+      },
+      "flags": [
+        "Yelp's 5.0 from 27 leads on review count and Yelp is claimed, while Google shows 4.3 from 6 and its claim status was not read.",
+        "Google lists no hours, so the Monday to Friday 8 AM to 5 PM and Saturday 8 AM to 3 PM hours come from Yelp alone and must be asked.",
+        "Neither site gives a street address, because the business is a service-area business, so the handoff's address line reads \"Serving Rancho Cucamonga\".",
+        "Drywall installation and repair and furniture assembly are Yelp categories, so both are printed as services.",
+        "Yelp's service list runs as a long list of appliance brands under appliance installation and was not copied, so the JSON keeps appliance installation only.",
+        "The owner's text reads \"Handyman service\", and nothing more."
+      ]
+    },
+    {
+      "row": 183,
+      "name": "1 Stop Chassis and Trailer Repair Inc",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Skip",
+      "angle": "Skip, since Google marks the business permanently closed.",
+      "google": {
+        "name": "1 Stop Chassis and Trailer Repair Inc",
+        "rating": 4.0,
+        "reviews": 6,
+        "address": "14272 Santa Ana Ave, Fontana, CA 92337",
+        "phone": "(909) 695-4078",
+        "website": null,
+        "unclaimed": true,
+        "hours": null,
+        "topics": {}
+      },
+      "yelp": null,
+      "flags": [
+        "Skip, because Google marks the listing permanently closed, so there is nothing to build.",
+        "Google shows no category, no hours, no topic chips and no website link, and the listing is unclaimed.",
+        "It shows 4.0 from 6.",
+        "Yelp was not searched for this row because of the closure."
+      ]
+    },
+    {
+      "row": 184,
+      "name": "Claremont Tire & Auto Center",
+      "city": "Montclair",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Low priority",
+      "angle": "A tire shop on East Arrow Highway at 4.8 from 5 on Google and 4.0 from 4 on Yelp, unclaimed on both sites.",
+      "google": {
+        "name": "Claremont Tire & Auto Center",
+        "rating": 4.8,
+        "reviews": 5,
+        "address": "4711 E Arrow Hwy # B, Montclair, CA 91763",
+        "phone": "(909) 625-3848",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "9:00 AM – 5:00 PM",
+          "Closed",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/claremont-tire-and-auto-center-montclair",
+        "name": "Claremont Tire & Auto Center",
+        "rating": 4.0,
+        "reviews": 4,
+        "claimed": false,
+        "address": "4711 Arrow Hwy, Ste B, Montclair, CA 91763",
+        "phone": "(909) 625-3848",
+        "website": null,
+        "hours": null,
+        "categories": [
+          "Tires",
+          "Auto Repair"
+        ],
+        "services": [
+          "Routine automotive maintenance"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Too few reviews and nothing claimed: Google shows 4.8 from 5 and Yelp 4.0 from 4, and both listings are unclaimed.",
+        "Google's category is tire shop, while Yelp files it under tires and auto repair.",
+        "Google gives Monday to Thursday 8 AM to 5 PM and Friday 9 AM to 5 PM with weekends closed, and Yelp lists no hours.",
+        "It is in the same building as sheet row 128, JT Automotive Service at 4711 E Arrow Hwy C, in handoff 7 and marked Build, in a different suite and with a different phone, so do not merge the two.",
+        "Yelp's only listed service is routine automotive maintenance."
+      ]
+    },
+    {
+      "row": 185,
+      "name": "F&R Garcia's Landscaping",
+      "city": "Ontario",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Low priority",
+      "angle": "A landscaper listed in Ontario at 4.2 from 5 on Google, unclaimed, whose Yelp page is claimed but shows no rating.",
+      "google": {
+        "name": "F&R Garcia's Landscaping",
+        "rating": 4.2,
+        "reviews": 5,
+        "address": "670 E Elm St, Ontario, CA 91761",
+        "phone": "(909) 292-5122",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "Closed"
+        ],
+        "topics": {}
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/f-and-r-garcias-landscaping-ontario-3",
+        "name": "F&R Garcia's Landscaping",
+        "rating": null,
+        "reviews": 0,
+        "claimed": true,
+        "address": "Ontario, CA 91761",
+        "phone": "(909) 292-5122",
+        "website": null,
+        "hours": [
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "7:00 AM – 5:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Landscaping",
+          "Tree Services",
+          "Irrigation"
+        ],
+        "services": [
+          "Disease management - shrubs",
+          "Disease management - trees",
+          "Gardening",
+          "Insect management - shrubs",
+          "Insect management - trees"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Google shows 4.2 from 5 and the listing is unclaimed, with no topic chips.",
+        "Yelp is claimed but shows no rating and no reviews, and its service list runs 15 entries beyond the five shown.",
+        "Hours agree, 7 AM to 5 PM Monday to Saturday with Sunday closed.",
+        "The Yelp page gives no street address, only Ontario, CA 91761, while Google gives 670 E Elm St.",
+        "670 E Elm St may be a home rather than a business address; that is a guess and not on either listing, so do not print it on a site without asking.",
+        "Yelp's categories are landscaping, tree services and irrigation, so confirm whether tree work and irrigation are offered."
+      ]
+    },
+    {
+      "row": 186,
+      "name": "Sierra Car Wash & Detail Shop",
+      "city": "Fontana",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Skip",
+      "angle": "Skip, since this is a car wash rather than a repair shop and the ratings are low on both sites.",
+      "google": {
+        "name": "Sierra Car Wash & Detail Shop",
+        "rating": 3.0,
+        "reviews": 349,
+        "address": "9146 Sierra Ave, Fontana, CA 92335",
+        "phone": "(909) 350-1800",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 4:00 PM"
+        ],
+        "topics": {
+          "hand car wash": 11,
+          "wait time": 19,
+          "interior cleaning": 11,
+          "rude staff": 7,
+          "new ownership": 5,
+          "detailing": 2,
+          "polite staff": 3,
+          "rims": 8,
+          "front desk staff": 2,
+          "cleanliness": 5
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/sierra-car-wash-and-detail-shop-fontana",
+        "name": "Sierra Car Wash & Detail Shop",
+        "rating": 1.5,
+        "reviews": 160,
+        "claimed": false,
+        "address": "9146 Sierra Ave, Fontana, CA 92335",
+        "phone": "(909) 350-1800",
+        "website": null,
+        "hours": [
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:30 AM – 5:00 PM",
+          "8:00 AM – 5:00 PM",
+          "8:00 AM – 4:00 PM"
+        ],
+        "categories": [
+          "Car Wash",
+          "Auto Detailing"
+        ],
+        "services": [
+          "Auto detailing work"
+        ],
+        "owner_text": null
+      },
+      "flags": [
+        "Skip, because this is a car wash and detail shop rather than a repair shop.",
+        "The ratings are low on both sites, Google 3.0 from 349 and Yelp 1.5 from 160, and a new site would not change that.",
+        "The top Google topics are wait time (19), hand car wash (11), interior cleaning (11) and rude staff (7).",
+        "The Yelp listing is unclaimed.",
+        "Hours agree on both sites, 8:30 AM to 5 PM Monday to Friday, 8 AM to 5 PM Saturday and 8 AM to 4 PM Sunday."
+      ]
+    },
+    {
+      "row": 187,
+      "name": "Purrfect Auto Service",
+      "city": "Pomona",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Check website first",
+      "angle": "Check the franchise's corporate site before building, since Purrfect Auto Service is a franchise with nearly 100 independently owned locations and purrfectautoservice.com has a locations page.",
+      "google": {
+        "name": "Purrfect Auto Service",
+        "rating": 3.8,
+        "reviews": 263,
+        "address": "621 E Arrow Hwy, Pomona, CA 91767",
+        "phone": "(909) 482-2222",
+        "website": null,
+        "unclaimed": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "Closed"
+        ],
+        "topics": {
+          "brake repair": 4,
+          "oil change": 20,
+          "spark plug replacement": 2,
+          "car inspection": 2,
+          "wait time": 3,
+          "honest staff": 4,
+          "kind staff": 4,
+          "coupon": 7,
+          "going above and beyond": 2,
+          "quality work": 2
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/purrfect-auto-service-pomona-6",
+        "name": "Purrfect Auto Service",
+        "rating": 4.0,
+        "reviews": 374,
+        "claimed": true,
+        "address": "621 E Arrow Hwy, Pomona, CA 91767",
+        "phone": "(909) 482-2222",
+        "website": null,
+        "hours": [
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "8:00 AM – 6:00 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Oil Change Stations",
+          "Smog Check Stations"
+        ],
+        "services": [
+          "Auto brake repair",
+          "Auto transmission repair",
+          "Oil changes",
+          "Routine automotive maintenance",
+          "Smog check"
+        ],
+        "owner_text": "In Spanish, an auto repair and mechanical service shop at the best price, with up-to-date equipment, where Yelp cut the text."
+      },
+      "flags": [
+        "Check the website first: the Ontario location's Yelp text says Purrfect Auto Service is a franchise with nearly 100 locations in California, Nevada and Arizona, each independently owned.",
+        "A web search shows a corporate site, purrfectautoservice.com, with a locations page, and at least one location with its own site, purrfectautofontana.com.",
+        "purrfectautoservice.com could not be opened from this computer because its security certificate is not trusted here, so whether it already has a page for this location is unknown; ask the owner before building.",
+        "Yelp's 4.0 rests on 374 reviews and is claimed, while Google shows 3.8 from 263 and its claim status was not read.",
+        "The address on both sites is in Pomona while the sheet puts the row in Claremont, so confirm the city.",
+        "A further Purrfect location at 45 Rio Rancho Rd, 4.1 from 263 and phone (909) 629-2886, is a different shop and not a sheet row in this batch, so do not merge the two."
+      ]
+    },
+    {
+      "row": 188,
+      "name": "Purrfect Auto Service",
+      "city": "Ontario",
+      "handoff": "docs/handoffs/2026-11-14-open-leads-12.md",
+      "verdict": "Check website first",
+      "angle": "Check the franchise's corporate site before building, on the same question as row 187, since the corporate site may already carry a page for this location.",
+      "google": {
+        "name": "Purrfect Auto Service",
+        "rating": 3.8,
+        "reviews": 165,
+        "address": "11075 Central Ave, Ontario, CA 91762",
+        "phone": "(909) 517-9140",
+        "website": null,
+        "unclaimed": true,
+        "hours": [
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "Closed"
+        ],
+        "topics": {
+          "smog check": 15,
+          "brake work": 3,
+          "oil change": 10,
+          "honest mechanic": 2,
+          "no appointment": 2,
+          "wait time": 3,
+          "kind staff": 5,
+          "thoroughness": 5,
+          "workmanship": 3,
+          "efficiency": 3
+        }
+      },
+      "yelp": {
+        "url": "https://www.yelp.com/biz/purrfect-auto-service-ontario",
+        "name": "Purrfect Auto Service",
+        "rating": 4.0,
+        "reviews": 126,
+        "claimed": true,
+        "address": "11075 S Central Ave, Unit C, Ontario, CA 91762",
+        "phone": "(909) 517-9140",
+        "website": null,
+        "hours": [
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "8:00 AM – 5:30 PM",
+          "Closed"
+        ],
+        "categories": [
+          "Auto Repair",
+          "Smog Check Stations",
+          "Oil Change Stations"
+        ],
+        "services": [
+          "Auto brake repair",
+          "Auto HVAC repair",
+          "Oil changes",
+          "Routine automotive maintenance",
+          "Smog check"
+        ],
+        "owner_text": "Purrfect Auto Service is a franchised business with nearly 100 locations in California, Nevada and Arizona, each independently owned and operated, where Yelp cut the text."
+      },
+      "flags": [
+        "The same franchise question as row 187: the owner text describes a franchised business with nearly 100 locations in California, Nevada and Arizona, each independently owned, and purrfectautoservice.com could not be opened here because its security certificate is not trusted, so whether it already has a page for this location is unknown.",
+        "Ask the owner before building.",
+        "Sheet row 21, Purrfect in Montclair, already has a site built by Andrew's session, so the same question applies to it.",
+        "Yelp's 4.0 from 126 is the higher rating and Yelp is claimed, while Google shows 3.8 from 165 and is unclaimed.",
+        "Hours agree, 8 AM to 5:30 PM Monday to Saturday with Sunday closed, and both give the same phone.",
+        "Yelp writes the address \"11075 S Central Ave, Unit C\" where Google writes \"11075 Central Ave\", so confirm the street and unit before printing."
+      ]
+    }
+  ]
+}

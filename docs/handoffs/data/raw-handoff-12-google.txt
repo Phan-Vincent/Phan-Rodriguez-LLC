@@ -1,0 +1,33 @@
+Raw Google Maps extracts for handoff 12. Read in a browser on 2026-11-14 by Vincent's session.
+Format per line: sheet row | listing name | Google category | rating | review count | address | "Located in" line if any | phone | web: website link on the listing or none | UNCLAIMED if the listing showed "Claim this business", otherwise "claimed?" meaning unknown | hours by day (Sat first because the page was read on Saturday Nov 14) | TOPICS: Google review-topic chips as topic:mention count
+Some topic chips are noise (single common words). Do not repeat staff names.
+
+177 | Handy Joe | Handyman/Handywoman/Handyperson | 5.0 | 7 | NO ADDRESS on the listing (service-area business) |  | (909) 775-4134 | web:none | claimed? | Satur: Closed; Sun: Closed; Mon: 9 AM to 5 PM; Tues: 9 AM to 5 PM; Wednes: 9 AM to 5 PM; Thurs: 9 AM to 5 PM; Fri: 9 AM to 5 PM | TOPICS work:4
+
+178 | Mailos auto and towing | Towing service | 5.0 | 6 | 16622 Ceres Ave #4, Fontana, CA 92335 |  | (909) 904-6061 | web:none | claimed? | Satur: Open 24 hours; Sun: 1 PM to 4 PM; Mon: Open 24 hours; Tues: Open 24 hours; Wednes: Open 24 hours; Thurs: Open 24 hours; Fri: Open 24 hours | TOPICS none shown
+   SUPERVISOR NOTE: the phone (909) 904-6061, the address 16622 Ceres Ave #4 and the plus code 3HV5+RG are the SAME as sheet row 164, Anthony's auto repair and towing (handoff 10, verdict Build, Google only). Row 167 (Docs auto repair and detailing, handoff 11, Hold) shares the same unit with another phone. Sheet row 14, "Mailo's Auto Repair" at 16624 Ceres Ave, phone (909) 427-9202, already has a site (mockups/mailos-auto-repair) and is in the call queue ("call again 11/11").
+
+179 | Mario's Garden Service | Gardener | 4.7 | 6 | 8460 Mulberry Ave, Fontana, CA 92335 |  | (951) 218-0569 | web:none | claimed? | 9 AM to 4 PM all seven days | TOPICS none shown
+
+180 | On The Go Landscaping | Landscaper | 5.0 | 6 | NO ADDRESS and NO PHONE on the listing; the only item shown is a link labelled "where2goanaheim.com" |  | none | web:none | claimed? | Open 24 hours all seven days | TOPICS hard worker:2, job:3
+   (The sheet also has no phone for this row.)
+
+181 | Eric Ellis Yard and Handyman Services | Gardener | 5.0 | 6 | NO ADDRESS on the listing (service-area business) |  | (909) 242-9675 | web:none | claimed? | Satur: 7 AM to 5 PM; Sun: Closed; Mon: 7 AM to 5 PM; Tues: 7 AM to 5 PM; Wednes: 7 AM to 5 PM; Thurs: 7 AM to 5 PM; Fri: 7 AM to 5 PM | TOPICS yard work:2
+
+182 | Charlie's Handyman Service | Handyman/Handywoman/Handyperson | 4.3 | 6 | NO ADDRESS on the listing (service-area business) |  | (909) 541-7484 | web:none | claimed? | NO HOURS LISTED on Google | TOPICS skilled handyman:2
+
+183 | 1 Stop Chassis and Trailer Repair Inc | (no category shown) | 4.0 | 6 | 14272 Santa Ana Ave, Fontana, CA 92337 |  | (909) 695-4078 | web:none | UNCLAIMED | PERMANENTLY CLOSED per Google; no hours | TOPICS none shown
+
+184 | Claremont Tire & Auto Center | Tire shop | 4.8 | 5 | 4711 E Arrow Hwy # B, Montclair, CA 91763 |  | (909) 625-3848 | web:none | UNCLAIMED | Satur: Closed; Sun: Closed; Mon: 8 AM to 5 PM; Tues: 8 AM to 5 PM; Wednes: 8 AM to 5 PM; Thurs: 8 AM to 5 PM; Fri: 9 AM to 5 PM | TOPICS none shown
+   SUPERVISOR NOTE: same building as sheet row 128, JT Automotive Service (4711 E Arrow Hwy C, handoff 7, Build); different suite and phone.
+
+185 | F&R Garcia's Landscaping | Gardener | 4.2 | 5 | 670 E Elm St, Ontario, CA 91761 |  | (909) 292-5122 | web:none | UNCLAIMED | Satur: 7 AM to 5 PM; Sun: Closed; Mon: 7 AM to 5 PM; Tues: 7 AM to 5 PM; Wednes: 7 AM to 5 PM; Thurs: 7 AM to 5 PM; Fri: 7 AM to 5 PM | TOPICS none shown
+
+186 | Sierra Car Wash & Detail Shop | Car wash | 3.0 | 349 | 9146 Sierra Ave, Fontana, CA 92335 |  | (909) 350-1800 | web:none | claimed? | Satur: 8 AM to 5 PM; Sun: 8 AM to 4 PM; Mon: 8:30 AM to 5 PM; Tues: 8:30 AM to 5 PM; Wednes: 8:30 AM to 5 PM; Thurs: 8:30 AM to 5 PM; Fri: 8:30 AM to 5 PM | TOPICS hand car wash:11, wait time:19, interior cleaning:11, rude staff:7, new ownership:5, detailing:2, polite staff:3, rims:8, front desk staff:2, cleanliness:5
+
+187 | Purrfect Auto Service | Auto repair shop | 3.8 | 263 | 621 E Arrow Hwy, Pomona, CA 91767 |  | (909) 482-2222 | web:none | claimed? | Satur: 8 AM to 6 PM; Sun: Closed; Mon: 8 AM to 6 PM; Tues: 8 AM to 6 PM; Wednes: 8 AM to 6 PM; Thurs: 8 AM to 6 PM; Fri: 8 AM to 6 PM | TOPICS brake repair:4, oil change:20, spark plug replacement:2, car inspection:2, wait time:3, honest staff:4, kind staff:4, coupon:7, going above and beyond:2, quality work:2
+   (The sheet puts this row in Claremont; Google's address is in Pomona.)
+
+188 | Purrfect Auto Service | Auto repair shop | 3.8 | 165 | 11075 Central Ave, Ontario, CA 91762 |  | (909) 517-9140 | web:none | UNCLAIMED | Satur: 8 AM to 5:30 PM; Sun: Closed; Mon: 8 AM to 5:30 PM; Tues: 8 AM to 5:30 PM; Wednes: 8 AM to 5:30 PM; Thurs: 8 AM to 5:30 PM; Fri: 8 AM to 5:30 PM | TOPICS smog check:15, brake work:3, oil change:10, honest mechanic:2, no appointment:2, wait time:3, kind staff:5, thoroughness:5, workmanship:3, efficiency:3
+
+SUPERVISOR CHECK 2026-11-14 on the Purrfect Auto Service brand (rows 187, 188, and the already-built row 21): the Ontario location's Yelp text says Purrfect Auto Service is a franchise with nearly 100 locations in California, Nevada and Arizona, each independently owned. A web search shows a corporate site, purrfectautoservice.com (with a /locations page), and at least one location with its own site (purrfectautofontana.com). purrfectautoservice.com could NOT be opened from this computer (its security certificate is not trusted here), so whether it has a page for these locations is unknown. purrfectauto.com redirects to "/lander" (parked).
