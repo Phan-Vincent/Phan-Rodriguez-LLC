@@ -5,9 +5,9 @@
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 59,
+   "with_site": 65,
    "researched": 123,
-   "open_claims": 18
+   "open_claims": 12
   }
  },
  "leads": [
@@ -3669,14 +3669,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "jl-auto-body-repair"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 75,
     "name": "JL Auto Body & Repair",
@@ -3747,8 +3743,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.6/41, Yelp claimed 4.0/35. Body shop. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.6/41, Yelp claimed 4.0/35. Body shop. Build. See docs/handoffs/2026-11-10-open-leads-3.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 76,
@@ -4057,14 +4053,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "tj-auto-repair"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 79,
     "name": "TJ Auto Repair",
@@ -4128,8 +4120,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.8/38, Yelp 5.0/14 unclaimed, no Yelp hours. Mon–Fri 8–6, Sat 8–2. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.8/38, Yelp 5.0/14 unclaimed, no Yelp hours. Mon–Fri 8–6, Sat 8–2. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 80,
@@ -4231,14 +4223,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "ejs-auto"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 81,
     "name": "EJ's Auto",
@@ -4311,8 +4299,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.8/36, Yelp claimed 4.6/22. Subaru and Japanese cars. Thursday opens 10. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.8/36, Yelp claimed 4.6/22. Subaru and Japanese cars. Thursday opens 10. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 82,
@@ -4487,14 +4475,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "roadhaus-automotive-diesel"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 85,
     "name": "Roadhaus Automotive & Diesel Specialist",
@@ -4567,8 +4551,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.4/35, Yelp claimed 4.5/24. Mon–Fri 9–6, Sat 9–3. Next to J C Auto Electric. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.4/35, Yelp claimed 4.5/24. Mon–Fri 9–6, Sat 9–3. Next to J C Auto Electric. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 86,
@@ -4683,14 +4667,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "m-m-car-pros"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 87,
     "name": "M&M CAR PRO'S",
@@ -4766,8 +4746,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.9/34, Yelp claimed 4.3/18. Body shop. Yelp-listed domain fontanammauto.com is parked. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.9/34, Yelp claimed 4.3/18. Body shop. Yelp-listed domain fontanammauto.com is parked. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 88,
@@ -4998,14 +4978,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "auto-tech-center-pomona"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 92,
     "name": "Auto Tech Center",
@@ -5077,8 +5053,8 @@
     "date_read": "2026-11-10"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 10: Maps 4.7/31, Yelp claimed 4.7/18 as Auto Tech Center CC. Closed Mon and Sun. Collision work. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
-   "last_checked": "2026-11-10"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 10: Maps 4.7/31, Yelp claimed 4.7/18 as Auto Tech Center CC. Closed Mon and Sun. Collision work. Build. See docs/handoffs/2026-11-10-open-leads-4.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 93,

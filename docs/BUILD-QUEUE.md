@@ -8,12 +8,6 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 |---|---|---|---|---|---|---|---|
 | 34 | 2Man Moving Services | Ontario | Build | 4.8 / 85 | 4.7 / 258 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 70 | Sal's Auto Care by Ramirez | Montclair | Build | 4.9 / 45 | 4.9 / 14 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 75 | JL Auto Body & Repair | Fontana | Build | 4.6 / 41 | 4.0 / 35 | Vincent (build) | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 79 | TJ Auto Repair | Pomona | Build | 4.8 / 38 | 5.0 / 14 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
-| 81 | EJ's Auto | Fontana | Build | 4.8 / 36 | 4.6 / 22 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
-| 85 | Roadhaus Automotive & Diesel Specialist | Montclair | Build | 4.4 / 35 | 4.5 / 24 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
-| 87 | M&M CAR PRO'S | Fontana | Build | 4.9 / 34 | 4.3 / 18 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
-| 92 | Auto Tech Center | Pomona | Build | 4.7 / 31 | 4.7 / 18 | Vincent (build) | [2026-11-10-open-leads-4.md](handoffs/2026-11-10-open-leads-4.md) |
 | 93 | Willy's Trailer Repair | Fontana | Build | 4.7 / 31 | no rating |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 94 | Andy's Auto Repair Paint & Body | Montclair | Build | 4.4 / 30 | 4.7 / 39 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 96 | RC Auto Repair | Ontario | Build | 4.8 / 30 | 5.0 / 5 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
@@ -114,4 +108,4 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 162 | Arevalo Tree Service and Landscape | Fontana | Skip | 4.1 / 9 | 4.6 / 28 |  | [2026-11-12-open-leads-10.md](handoffs/2026-11-12-open-leads-10.md) |
 | 174 | Fontana Paving & Pool Remodeling | Fontana | Skip | 5.0 / 7 | no rating |  | [2026-11-12-open-leads-11.md](handoffs/2026-11-12-open-leads-11.md) |
 
-106 rows in the queue. 17 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 31 Jujubuilt Engineered Performance, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care, 44 Sergio's Auto Repair & Tires, 45 AutoTech's, 54 Kikas Tires, 63 Nino's Lawnmower Shop, 71 Arrow Auto Repair, 72 Moya Auto, 74 Speed 1 smog, 77 Advance Muffler, 86 Avant-Garde Automotive, 107 Advance Tranz, 138 J & H Automotive Service.
+100 rows in the queue. 23 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 31 Jujubuilt Engineered Performance, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care, 44 Sergio's Auto Repair & Tires, 45 AutoTech's, 54 Kikas Tires, 63 Nino's Lawnmower Shop, 71 Arrow Auto Repair, 72 Moya Auto, 74 Speed 1 smog, 75 JL Auto Body & Repair, 77 Advance Muffler, 79 TJ Auto Repair, 81 EJ's Auto, 85 Roadhaus Automotive & Diesel Specialist, 86 Avant-Garde Automotive, 87 M&M CAR PRO'S, 92 Auto Tech Center, 107 Advance Tranz, 138 J & H Automotive Service.

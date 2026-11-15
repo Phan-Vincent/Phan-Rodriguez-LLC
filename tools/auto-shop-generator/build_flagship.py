@@ -910,6 +910,61 @@ mk("speed-1-smog", dict(hero="photo", ink="#0F1A14", bone="#F0F4EF", acc="#15803
    [("", [("Smog checks", "Call for today's price."), ("Before you come", "Bring your DMV renewal notice if you have one.")])],
    (13065692, 8985514), svc_title="Weekdays, 8 to 6.", find="Google places the station inside R Version Autoworks.")
 
+# Build batch 13, 2026-11-14, same sources and checks as batches 11 and 12. EJ's Auto has no MapQuest listing, so its
+# page links to Google and Yelp instead of quoting reviews.
+_ALT.update({35149611: "Dent being pulled from a car door", 37809554: "Mechanic repairing a car bumper",
+             4489743: "Mechanic under a car on a lift in a busy workshop", 8985606: "Mechanic inspecting a vehicle's undercarriage",
+             16350059: "Blue Subaru Impreza with its hood open", 39846428: "Subaru boxer engine with blue hoses",
+             7541360: "Mechanic working on a yellow truck's engine", 7019371: "Mechanics servicing a truck in a garage",
+             6870310: "Mechanic polishing a car's paintwork", 37809549: "Mechanic repairing a dent with a fine tool",
+             10490611: "Mechanic in gloves inspecting a car engine", 4489741: "Sparks flying as a mechanic welds inside a car"})
+
+mk("jl-auto-body-repair", dict(hero="split", ink="#16181D", bone="#F3F1EC", acc="#B91C1C", star="#F2B33D", h1="8vw", stretch="80%", svc="index", mark="JL Auto Body", word="JL Auto", wordsz="24vw"),
+   "JL Auto Body & Repair", "Body shop · Valley Blvd, Fontana", ("Sedans to big rigs,", "straightened out."), "Collision repair, dent removal, bumpers, painting and frame straightening on Valley Boulevard in Fontana, for luxury sedans, trucks and big rigs.",
+   "(909) 320-7547", "15944 Valley Blvd<br>Fontana, CA 92335", "JL+Auto+Body+%26+Repair+15944+Valley+Blvd+Fontana+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 12:00 PM"), ("4.6", 41),
+   [("Body", [("Collision repair", ""), ("Dent removal", "A Google topic."), ("Bumper repair", ""), ("Painting", "Mentioned in Google reviews.")]), ("Bigger jobs", [("Frame straightening", ""), ("Body restoration", ""), ("Trucks and big rigs", "Named in the owner's Yelp text.")])],
+   (35149611, 37809554), "jl-auto-body-and-repair-fontana", [("Johnny M.", "The paint work came out really good…", "XmMPFKHEKie9YbdP-FyqKg"), ("Elisabeth M.", "Called and he came to look at my vehicle and gave me estimates…", "PuQYulF8pJSGMDwTiSBTGA"), ("Tamara M.", "JL Auto Body got the part in very quickly…", "xb0OdlJF_zE3qzqelVdImg"), ("Bee-Cash P.", "Good job..much appreciated", "NsACy2EnliW6p4cfmNgkSA")],
+   svc_title="Bumper to frame.")
+
+mk("tj-auto-repair", dict(hero="photo", ink="#141A20", bone="#F2F3F1", acc="#B45309", star="#F4C430", h1="10.4vw", stretch="84%", svc="rows", rowsz="6.6vw", mark="TJ Auto Repair", word="TJ Auto", wordsz="24vw"),
+   "TJ Auto Repair", "Auto repair · S Garey Ave, Pomona", ("Honest mechanic.", "Fair price."), "General auto repair on South Garey Avenue in Pomona. Google reviewers keep coming back to honesty and pricing; Yelp reviewers name John and mention OEM parts.",
+   "(909) 622-0669", "1524 S Garey Ave<br>Pomona, CA 91766", "TJ+Auto+Repair+1524+S+Garey+Ave+Pomona+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 2:00 PM"), ("4.8", 38),
+   [("", [("Auto repair", "Call with the year, make and model."), ("Diagnosis", "A Google topic."), ("Brakes", "Mentioned by a Yelp reviewer."), ("Oil changes and maintenance", "")])],
+   (4489743, 8985606), "tj-auto-repair-pomona", [("Wendy H.", "Best mechanic around! Gets the job done at a very fair price.", "a3krWMhuoprAr9gHVJN_Fg"), ("Nicolas G.", "John is an amazing mechanic. He does clean/fast work.", "3_QcV_in9TPvCaeyh-V4TA"), ("Bruce C.", "Best kept secret for car owners.", "wjBYBf1GAoJlvfp1_pStpg"), ("Daniel S.", "This is the only one place i trust my cars with.", "ZQc1ybWfLK6mkVAbuQJJXg")],
+   svc_label="What customers come for", hours_note="Yelp lists no hours; these are Google's.")
+_two("tj-auto-repair", ("4.8", "Google · 38 reviews", GM + "TJ+Auto+Repair+1524+S+Garey+Ave+Pomona+CA"), ("5.0", "Yelp · 14 reviews", YB + "tj-auto-repair-pomona"))
+
+mk("ejs-auto", dict(hero="block", ink="#0E1A33", bone="#EEF2F7", acc="#1E4FA0", star="#F2C230", h1="10.4vw", stretch="80%", svc="index", mark="EJ's Auto", word="EJ's", wordsz="32vw"),
+   "EJ's Auto", "Subaru and Japanese car repair · Foothill Blvd, Fontana", ("Subaru first.", "Any Japanese car."), "A Subaru specialist on Foothill Boulevard that takes any Japanese car, from oil changes to engine and transmission swaps. Pricing is the top topic in Google reviews.",
+   "(951) 237-6600", "16635 Foothill Blvd, Suite 104<br>Fontana, CA 92335", "EJ's+Auto+16635+Foothill+Blvd+Fontana+CA", ["9:00 AM – 5:00 PM", "9:00 AM – 5:00 PM", "9:00 AM – 5:00 PM", "10:00 AM – 5:00 PM", "9:00 AM – 5:00 PM", "Closed", "Closed"], ("4.8", 36),
+   [("Everyday", [("Oil changes", ""), ("Timing belts", ""), ("Clutch work", ""), ("Transmission leaks", "Inspection and repair.")]), ("Bigger jobs", [("Engine and transmission swaps", ""), ("Rebuilt engines and short blocks", ""), ("Gaskets", "A Google topic.")])],
+   (16350059, 39846428), svc_title="Oil change to full swap.")
+_two("ejs-auto", ("4.8", "Google · 36 reviews", GM + "EJ's+Auto+16635+Foothill+Blvd+Fontana+CA"), ("4.6", "Yelp · 22 reviews", YB + "ejs-auto-fontana"))
+
+mk("roadhaus-automotive-diesel", dict(hero="photo", ink="#16130F", bone="#F4F0E6", acc="#A16207", star="#F5C542", h1="9.6vw", stretch="80%", svc="index", mark="Roadhaus", word="Roadhaus", wordsz="19vw"),
+   "Roadhaus Automotive & Diesel Specialist", "Auto and diesel repair · Ramona Ave, Montclair", ("Gas or diesel.", "Bring it to Roadhaus."), "Auto and diesel repair on Ramona Avenue in Montclair, including transmission work. The shop's Yelp page speaks of nearly four decades of craftsmanship.",
+   "(909) 621-5665", "10638 Ramona Ave<br>Montclair, CA 91763", "Roadhaus+Automotive+%26+Diesel+Specialist+10638+Ramona+Ave+Montclair+CA", wkh("9:00 AM – 6:00 PM", "9:00 AM – 3:00 PM"), ("4.4", 35),
+   [("Repair", [("Diesel repair", ""), ("Engine repair", ""), ("Transmission repair", "Yelp category.")]), ("Service", [("Brakes", ""), ("Batteries and electrical", ""), ("Heating and A/C", ""), ("Fluids and filters", "")])],
+   (7541360, 7019371), "roadhaus-automotive-and-diesel-specialist-montclair", [("Jose J.", "Great place to get your car serviced and fixed!", "beqvsU0KMgpBnqDpVqjHOQ"), ("Marcellus M.", "I just met these car guys and I must say, I'M IMPRESSED.", "NCbapepk_nMG0OM0zv2-7w"), ("Seth N.", "…I KNOW when someone is sharp and has integrity.", "yvyGZ6pBOO7qwPsIIE3vxA"), ("Alvin L.", "…an EXCELLENT place for your SPECIAL car…", "t1mDMnE5IK0VaYu9lEePFQ")],
+   svc_title="Cars, trucks, diesels.", find="Next door to J C Auto Electric.")
+_two("roadhaus-automotive-diesel", ("4.4", "Google · 35 reviews", GM + "Roadhaus+Automotive+%26+Diesel+Specialist+10638+Ramona+Ave+Montclair+CA"), ("4.5", "Yelp · 24 reviews", YB + "roadhaus-automotive-and-diesel-specialist-montclair"))
+
+mk("m-m-car-pros", dict(hero="split", serif=True, ink="#1A1420", bone="#F6F2F4", acc="#86198F", star="#E9B43A", h1="8.4vw", svc="rows", rowsz="6.4vw", mark="M&M Car Pro's", word="M&M", wordsz="32vw"),
+   "M&M CAR PRO'S", "Body shop · Ceres Ave, Fontana", ("Body and paint,", "family run since 2009."), "A family-owned auto body and collision shop on Ceres Avenue since 2009. All insurance claims welcome; Google reviewers mention bumpers, dents and help with the deductible.",
+   "(909) 329-6162", "16534 Ceres Ave #3<br>Fontana, CA 92335", "M%26M+CAR+PRO'S+16534+Ceres+Ave+Fontana+CA", wkh("9:00 AM – 5:00 PM", "9:00 AM – 2:00 PM"), ("4.9", 34),
+   [("", [("Collision repair", ""), ("Bumper repair", "A Google topic."), ("Dent removal", ""), ("Painting", "Including sun-damaged paint, says a Yelp reviewer."), ("Frame straightening", ""), ("Insurance claims", "All claims welcome. Reviewers mention help with the deductible.")])],
+   (6870310, 37809549), "m-and-m-car-pros-fontana-4", [("AJ P.", "This is now my go to place for Auto Body Work.", "yeG4YiW9zE7AA0PVHy93Fw"), ("Billie", "Mario did an amazing job bringing my car back to like new condition.", "2dRAqAsXnLwAPXquWsGH2A"), ("P C.", "Got the tail light replaced, reasonable price and quick service.", "DM0muhoAr_7TPlCYCQADeg")],
+   svc_label="What we fix")
+_two("m-m-car-pros", ("4.9", "Google · 34 reviews", GM + "M%26M+CAR+PRO'S+16534+Ceres+Ave+Fontana+CA"), ("4.3", "Yelp · 18 reviews", YB + "m-and-m-car-pros-fontana-4"))
+
+mk("auto-tech-center-pomona", dict(hero="poster", ink="#111827", bone="#F2F4F3", acc="#047857", star="#F2B33D", h1="9vw", stretch="84%", svc="index", mark="Auto Tech Center", word="Auto Tech", wordsz="19vw"),
+   "Auto Tech Center", "Repair and collision · W Holt Ave, Pomona", ("Fender bender", "or check engine light."), "General repair and collision work on West Holt Avenue: paint, frame work and insurance claims. Open Tuesday to Saturday, until 6 on Saturdays.",
+   "(909) 868-7000", "1407 W Holt Ave<br>Pomona, CA 91768", "Auto+Tech+Center+1407+W+Holt+Ave+Pomona+CA", ["Closed"] + ["9:00 AM – 6:00 PM"] * 5 + ["Closed"], ("4.7", 31),
+   [("Repair", [("Diagnosis", "One reviewer's A/C fan problem turned out to be a bad sensor."), ("Brakes", ""), ("Battery and electrical", ""), ("Smog tests", "Mentioned by a Yelp reviewer.")]), ("Collision", [("Collision repair", ""), ("Paint", ""), ("Frame work", "The owner's text names a frame machine."), ("Insurance claims", "Works with all insurance companies.")])],
+   (10490611, 4489741), "auto-tech-center-cc-pomona", [("Mel C.", "Good price. Highly recommended. Fast and reliable.", "qokNNZYn_nKXYTX4FRIkFA"), ("Shania", "Prompt and polite service.", "oD79H2cDieJA7ZO30NX2Xg"), ("Cherie Ping L.", "They are honest people, won't make things up.", "W7RQ0SiaTvqgga7OTrGfcA"), ("maianh l.", "…they are very honest, patient and kind…", "6M_5p6whtc7t-w5DAm6DkQ")],
+   svc_title="Under the hood and on the body.")
+_two("auto-tech-center-pomona", ("4.7", "Google · 31 reviews", GM + "Auto+Tech+Center+1407+W+Holt+Ave+Pomona+CA"), ("4.7", "Yelp · 18 reviews", YB + "auto-tech-center-cc-pomona"))
+
 # Performance Lube & Oil: linked Yelp reviews added 2026-11-12 (read from its MapQuest listing; phone and hours match the site).
 SITES["performance-lube-oil"]["track"] = _y("performance-lube-and-oil-chino-2", [("Nessa L.", "The service was quick, professional, and super convenient.", "AueOzQjbIhicZS6yZRPUmw"), ("Amy L.", "Highly recommend this place!", "FsC-ccGu6ZWTM5HtFH2Jrg"), ("Mohammed N.", "Service was good. Pretty nice car wash…", "1MykCVPqpykyhvUG-6PuqQ"), ("Carmen L.", "…she's always super cool and nice!", "ztFfRMyGAWyHTPp9XqlGVg")])
 SITES["performance-lube-oil"]["extra_js"] = V.CAROUSEL_JS

@@ -102,12 +102,12 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 71 | Arrow Auto Repair | Vincent | build | 2026-11-13 | done |
 | 72 | Moya Auto | Vincent | build | 2026-11-13 | done |
 | 74 | Speed 1 smog | Vincent | build | 2026-11-13 | done |
-| 75 | JL Auto Body & Repair | Vincent | build | 2026-11-14 | open |
-| 79 | TJ Auto Repair | Vincent | build | 2026-11-14 | open |
-| 81 | EJ's Auto | Vincent | build | 2026-11-14 | open |
-| 85 | Roadhaus Automotive & Diesel Specialist | Vincent | build | 2026-11-14 | open |
-| 87 | M&M CAR PRO'S | Vincent | build | 2026-11-14 | open |
-| 92 | Auto Tech Center | Vincent | build | 2026-11-14 | open |
+| 75 | JL Auto Body & Repair | Vincent | build | 2026-11-14 | done |
+| 79 | TJ Auto Repair | Vincent | build | 2026-11-14 | done |
+| 81 | EJ's Auto | Vincent | build | 2026-11-14 | done |
+| 85 | Roadhaus Automotive & Diesel Specialist | Vincent | build | 2026-11-14 | done |
+| 87 | M&M CAR PRO'S | Vincent | build | 2026-11-14 | done |
+| 92 | Auto Tech Center | Vincent | build | 2026-11-14 | done |
 | 177 | Handy Joe | Vincent | research | 2026-11-14 | open |
 | 178 | Mailos auto and towing | Vincent | research | 2026-11-14 | open |
 | 179 | Mario's Garden Service | Vincent | research | 2026-11-14 | open |

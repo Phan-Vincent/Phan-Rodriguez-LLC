@@ -68,6 +68,12 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `arrow-auto-repair/` | Arrow Auto Repair | Fontana |
 | `moya-auto/` | Moya Auto | Chino |
 | `speed-1-smog/` | Speed 1 Smog | Montclair |
+| `jl-auto-body-repair/` | JL Auto Body & Repair | Fontana |
+| `tj-auto-repair/` | TJ Auto Repair | Pomona |
+| `ejs-auto/` | EJ's Auto | Fontana |
+| `roadhaus-automotive-diesel/` | Roadhaus Automotive & Diesel | Montclair |
+| `m-m-car-pros/` | M&M Car Pro's | Fontana |
+| `auto-tech-center-pomona/` | Auto Tech Center | Pomona |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

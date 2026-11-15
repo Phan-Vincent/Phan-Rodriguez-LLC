@@ -364,3 +364,14 @@ Same session, generator, sources and checks as batch 11: `sergios-auto-repair-ti
 - **Nino's Lawnmower Shop** is not an auto shop: lawn-mower photos, and the service list is only what reviewers mention (mowers, trimmers, blowers, a generator).
 - **Ratings:** Sergio's (6 Yelp reviews) and Arrow (9) show Google only, as the handoffs advise.
 - **Skipped from the queue for now:** row 34, 2Man Moving (not an auto shop; phone numbers differ between listings) and row 70, Sal's Auto Care by Ramirez (Yelp calls it Ramirez Auto Care; confirm the current name first).
+
+### 2026-11-14 — Build batch 13: rows 75, 79, 81, 85, 87, 92
+
+Same session, generator, sources and checks as batches 11 and 12: `jl-auto-body-repair` (row 75), `tj-auto-repair` (79), `ejs-auto` (81), `roadhaus-automotive-diesel` (85), `m-m-car-pros` (87), `auto-tech-center-pomona` (92). Portfolio and mobile QA passed on all six.
+
+- **Ratings:** JL shows Google only (Yelp 4.0 is well below Google's 4.6), as the handoff advises. The others show both, Google first.
+- **EJ's Auto:** no MapQuest listing, so no quoted reviews; the page links to Google and Yelp. The 951 number is the same on Google and Yelp but is not a Fontana area code; confirm it is the shop's line. Thursday opens at 10 AM on both listings.
+- **TJ Auto Repair:** Yelp lists no hours, so Google's are shown with "call to confirm".
+- **Auto Tech Center:** Yelp calls it "Auto Tech Center CC"; the page uses the sheet's name. Towing (owner text) is left off until confirmed. A reviewer says new staff run the shop now.
+- **Roadhaus:** reviewers name a new owner; the "nearly four decades" line is attributed to the shop's Yelp page, not stated as fact.
+- **M&M CAR PRO'S:** Yelp lists fontanammauto.com, which is a parked domain (handoff 4). That is a pitch point.
