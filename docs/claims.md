@@ -126,3 +126,9 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 97 | Sharp Auto Body & Paint | Vincent | build | 2026-11-14 | done |
 | 98 | Jamacor Industries | Vincent | build | 2026-11-14 | done |
 | 101 | J And C Auto Repair | Vincent | build | 2026-11-14 | done |
+| 102 | T&S auto repair | Vincent | build | 2026-11-14 | open |
+| 104 | Auto Pros Repair | Vincent | build | 2026-11-14 | open |
+| 109 | Joes Fleet Paint (J&E TRUKNBUS INC) | Vincent | build | 2026-11-14 | open |
+| 110 | Esparza Auto Body & Paint | Vincent | build | 2026-11-14 | open |
+| 111 | Highline Auto Service & Collision, LLC | Vincent | build | 2026-11-14 | open |
+| 112 | Norman's Auto Repair | Vincent | build | 2026-11-14 | open |
