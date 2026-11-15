@@ -132,3 +132,9 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 110 | Esparza Auto Body & Paint | Vincent | build | 2026-11-14 | done |
 | 111 | Highline Auto Service & Collision, LLC | Vincent | build | 2026-11-14 | done |
 | 112 | Norman's Auto Repair | Vincent | build | 2026-11-14 | done |
+| 117 | Colima Tires | Vincent | build | 2026-11-15 | open |
+| 119 | C&H Axle & Auto Repair | Vincent | build | 2026-11-15 | open |
+| 123 | C & C Auto Repair | Vincent | build | 2026-11-15 | open |
+| 128 | JT Automotive Service | Vincent | build | 2026-11-15 | open |
+| 130 | Japanese Auto Care Specialist | Vincent | build | 2026-11-15 | open |
+| 131 | Sergios Used Engines & Auto Repair | Vincent | build | 2026-11-15 | open |
