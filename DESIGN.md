@@ -375,3 +375,14 @@ Same session, generator, sources and checks as batches 11 and 12: `jl-auto-body-
 - **Auto Tech Center:** Yelp calls it "Auto Tech Center CC"; the page uses the sheet's name. Towing (owner text) is left off until confirmed. A reviewer says new staff run the shop now.
 - **Roadhaus:** reviewers name a new owner; the "nearly four decades" line is attributed to the shop's Yelp page, not stated as fact.
 - **M&M CAR PRO'S:** Yelp lists fontanammauto.com, which is a parked domain (handoff 4). That is a pitch point.
+
+### 2026-11-14 — Build batch 14: rows 93, 94, 96, 97, 98, 101
+
+Same session, generator, sources and checks as batches 11 to 13: `willys-trailer-repair` (row 93), `andys-auto-repair-paint-body` (94), `rc-auto-repair` (96), `sharp-auto-body-paint` (97), `jamacor-industries` (98), `j-and-c-auto-repair` (101).
+
+- **Willy's Trailer Repair** is a trailer shop, not a body shop as the sheet says. Its Yelp page has no reviews, so the page links to Google. Google's daily 7 AM–6 PM hours are shown; Yelp says 24 hours.
+- **Andy's:** Yelp's 4.7 from 39 leads. The shorter hours are shown (9 AM opening, Saturday closed) with "call to confirm"; Yelp lists Saturday 9–4.
+- **RC Auto Repair:** the "family business since 2005" owner text is left off until confirmed.
+- **Sharp Auto Body & Paint:** Yelp calls it Sharp Auto Body & Collision; the page says so. Yelp has no hours, so Google's are shown.
+- **Jamacor Industries** is an auto customization shop (wraps, suspension, aftermarket parts), not a body shop. Google rating only; Yelp's rests on one review, quoted once.
+- **J And C Auto Repair:** Google rating only (Yelp 4.2 from 5). The alignment machine and "Spanish spoken" come from owner text: alignment is shown with "ask when you call", Spanish is left off.

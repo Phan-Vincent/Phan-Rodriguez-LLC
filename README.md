@@ -74,6 +74,12 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `roadhaus-automotive-diesel/` | Roadhaus Automotive & Diesel | Montclair |
 | `m-m-car-pros/` | M&M Car Pro's | Fontana |
 | `auto-tech-center-pomona/` | Auto Tech Center | Pomona |
+| `willys-trailer-repair/` | Willy's Trailer Repair | Fontana |
+| `andys-auto-repair-paint-body/` | Andy's Auto Repair Paint & Body | Montclair |
+| `rc-auto-repair/` | RC Auto Repair | Ontario |
+| `sharp-auto-body-paint/` | Sharp Auto Body & Paint | Montclair |
+| `jamacor-industries/` | Jamacor Industries | Fontana |
+| `j-and-c-auto-repair/` | J And C Auto Repair | Ontario |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

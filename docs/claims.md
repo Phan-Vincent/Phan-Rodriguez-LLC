@@ -120,9 +120,9 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 186 | Sierra Car Wash & Detail Shop | Vincent | research | 2026-11-14 | done |
 | 187 | Purrfect Auto Service | Vincent | research | 2026-11-14 | done |
 | 188 | Purrfect Auto Service | Vincent | research | 2026-11-14 | done |
-| 93 | Willy's Trailer Repair | Vincent | build | 2026-11-14 | open |
-| 94 | Andy's Auto Repair Paint & Body | Vincent | build | 2026-11-14 | open |
-| 96 | RC Auto Repair | Vincent | build | 2026-11-14 | open |
-| 97 | Sharp Auto Body & Paint | Vincent | build | 2026-11-14 | open |
-| 98 | Jamacor Industries | Vincent | build | 2026-11-14 | open |
-| 101 | J And C Auto Repair | Vincent | build | 2026-11-14 | open |
+| 93 | Willy's Trailer Repair | Vincent | build | 2026-11-14 | done |
+| 94 | Andy's Auto Repair Paint & Body | Vincent | build | 2026-11-14 | done |
+| 96 | RC Auto Repair | Vincent | build | 2026-11-14 | done |
+| 97 | Sharp Auto Body & Paint | Vincent | build | 2026-11-14 | done |
+| 98 | Jamacor Industries | Vincent | build | 2026-11-14 | done |
+| 101 | J And C Auto Repair | Vincent | build | 2026-11-14 | done |

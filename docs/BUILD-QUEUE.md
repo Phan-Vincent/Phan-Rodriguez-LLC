@@ -8,12 +8,6 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 |---|---|---|---|---|---|---|---|
 | 34 | 2Man Moving Services | Ontario | Build | 4.8 / 85 | 4.7 / 258 |  | [2026-11-10-open-leads.md](handoffs/2026-11-10-open-leads.md) |
 | 70 | Sal's Auto Care by Ramirez | Montclair | Build | 4.9 / 45 | 4.9 / 14 |  | [2026-11-10-open-leads-3.md](handoffs/2026-11-10-open-leads-3.md) |
-| 93 | Willy's Trailer Repair | Fontana | Build | 4.7 / 31 | no rating | Vincent (build) | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
-| 94 | Andy's Auto Repair Paint & Body | Montclair | Build | 4.4 / 30 | 4.7 / 39 | Vincent (build) | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
-| 96 | RC Auto Repair | Ontario | Build | 4.8 / 30 | 5.0 / 5 | Vincent (build) | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
-| 97 | Sharp Auto Body & Paint | Montclair | Build | 4.8 / 29 | 4.3 / 6 | Vincent (build) | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
-| 98 | Jamacor Industries | Fontana | Build | 4.6 / 28 | 5.0 / 1 | Vincent (build) | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
-| 101 | J And C Auto Repair | Ontario | Build | 4.9 / 27 | 4.2 / 5 | Vincent (build) | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 102 | T&S auto repair | Upland | Build | 4.4 / 25 | 4.6 / 10 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 104 | Auto Pros Repair | Montclair | Build | 4.8 / 25 | 4.4 / 14 |  | [2026-11-11-open-leads-5.md](handoffs/2026-11-11-open-leads-5.md) |
 | 108 | Lanny Monroe Automotive | Upland | Build | 4.8 / 24 | 4.9 / 19 |  | [2026-11-11-open-leads-6.md](handoffs/2026-11-11-open-leads-6.md) |
@@ -120,4 +114,4 @@ Researched rows with no site, best first. Claim a row in `docs/claims.md` before
 | 183 | 1 Stop Chassis and Trailer Repair Inc | Fontana | Skip | 4.0 / 6 | no page |  | [2026-11-14-open-leads-12.md](handoffs/2026-11-14-open-leads-12.md) |
 | 186 | Sierra Car Wash & Detail Shop | Fontana | Skip | 3.0 / 349 | 1.5 / 160 |  | [2026-11-14-open-leads-12.md](handoffs/2026-11-14-open-leads-12.md) |
 
-112 rows in the queue. 23 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 31 Jujubuilt Engineered Performance, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care, 44 Sergio's Auto Repair & Tires, 45 AutoTech's, 54 Kikas Tires, 63 Nino's Lawnmower Shop, 71 Arrow Auto Repair, 72 Moya Auto, 74 Speed 1 smog, 75 JL Auto Body & Repair, 77 Advance Muffler, 79 TJ Auto Repair, 81 EJ's Auto, 85 Roadhaus Automotive & Diesel Specialist, 86 Avant-Garde Automotive, 87 M&M CAR PRO'S, 92 Auto Tech Center, 107 Advance Tranz, 138 J & H Automotive Service.
+106 rows in the queue. 29 researched rows already have a site: 27 Auto Repair Foreign Domestic, 29 A-1 Auto Expert, 31 Jujubuilt Engineered Performance, 35 Auto Technik Carcare, 38 Diamond Auto Center / Propane, 39 Claremont Auto Care, 44 Sergio's Auto Repair & Tires, 45 AutoTech's, 54 Kikas Tires, 63 Nino's Lawnmower Shop, 71 Arrow Auto Repair, 72 Moya Auto, 74 Speed 1 smog, 75 JL Auto Body & Repair, 77 Advance Muffler, 79 TJ Auto Repair, 81 EJ's Auto, 85 Roadhaus Automotive & Diesel Specialist, 86 Avant-Garde Automotive, 87 M&M CAR PRO'S, 92 Auto Tech Center, 93 Willy's Trailer Repair, 94 Andy's Auto Repair Paint & Body, 96 RC Auto Repair, 97 Sharp Auto Body & Paint, 98 Jamacor Industries, 101 J And C Auto Repair, 107 Advance Tranz, 138 J & H Automotive Service.

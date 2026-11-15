@@ -5,9 +5,9 @@
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 65,
+   "with_site": 71,
    "researched": 135,
-   "open_claims": 6
+   "open_claims": 0
   }
  },
  "leads": [
@@ -5072,14 +5072,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "willys-trailer-repair"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 93,
     "name": "Willy's Trailer Repair",
@@ -5148,8 +5144,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.7/31, Yelp claimed but no reviews. Trailer repair, not auto body. Google 7-6 daily, Yelp says 24 hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.7/31, Yelp claimed but no reviews. Trailer repair, not auto body. Google 7-6 daily, Yelp says 24 hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 94,
@@ -5167,14 +5163,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "andys-auto-repair-paint-body"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 94,
     "name": "Andy's Auto Repair Paint & Body",
@@ -5252,8 +5244,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.4/30, Yelp 4.7/39 as Andy's Auto Repair, unclaimed on both. Hours disagree (Sat closed on Google, 9-4 on Yelp). Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.4/30, Yelp 4.7/39 as Andy's Auto Repair, unclaimed on both. Hours disagree (Sat closed on Google, 9-4 on Yelp). Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 95,
@@ -5362,14 +5354,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "rc-auto-repair"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 96,
     "name": "RC Auto Repair",
@@ -5442,8 +5430,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/30, Yelp claimed 5.0/5. Family business est. 2005. Sat closes 2 on Google, 3 on Yelp. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/30, Yelp claimed 5.0/5. Family business est. 2005. Sat closes 2 on Google, 3 on Yelp. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 97,
@@ -5461,14 +5449,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "sharp-auto-body-paint"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 97,
     "name": "Sharp Auto Body & Paint",
@@ -5528,8 +5512,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/29, Yelp 4.3/6 as Sharp Auto Body & Collision, unclaimed on both, no Yelp hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/29, Yelp 4.3/6 as Sharp Auto Body & Collision, unclaimed on both, no Yelp hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 98,
@@ -5547,14 +5531,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "jamacor-industries"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 98,
     "name": "Jamacor Industries",
@@ -5627,8 +5607,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.6/28, Yelp claimed 5.0/1. Auto customization shop (wraps, suspension), not a body shop. Closed Sun and Mon. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.6/28, Yelp claimed 5.0/1. Auto customization shop (wraps, suspension), not a body shop. Closed Sun and Mon. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 99,
@@ -5833,14 +5813,10 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "j-and-c-auto-repair"
    },
-   "claim": {
-    "by": "Vincent",
-    "for": "build",
-    "date": "2026-11-14"
-   },
+   "claim": null,
    "research": {
     "row": 101,
     "name": "J And C Auto Repair",
@@ -5910,8 +5886,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.9/27, Yelp 4.2/5 as J C Auto Repair. Alignment machine, Spanish spoken. Close times differ by 30-60 min. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.9/27, Yelp 4.2/5 as J C Auto Repair. Alignment machine, Spanish spoken. Close times differ by 30-60 min. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 102,
