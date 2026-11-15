@@ -1,11 +1,11 @@
 {
  "_meta": {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "generator": "tools/leads/sync.py",
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 77,
+   "with_site": 83,
    "researched": 135,
    "open_claims": 0
   }
@@ -7281,8 +7281,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "colima-tires"
    },
    "claim": null,
    "research": {
@@ -7351,8 +7351,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.1/77, Yelp claimed 4.2/24. Family tire shop, open seven days. A 'scam' topic chip (2) on Google; read low reviews first. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 15 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.1/77, Yelp claimed 4.2/24. Family tire shop, open seven days. A 'scam' topic chip (2) on Google; read low reviews first. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
+   "last_checked": "2026-11-15"
   },
   {
    "row": 118,
@@ -7472,8 +7472,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "ch-axle-auto-repair"
    },
    "claim": null,
    "research": {
@@ -7556,8 +7556,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.1/56, Yelp claimed 4.6/30. Axle work is the top Google topic. Close times differ by 30-60 min. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 15 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.1/56, Yelp claimed 4.6/30. Axle work is the top Google topic. Close times differ by 30-60 min. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
+   "last_checked": "2026-11-15"
   },
   {
    "row": 120,
@@ -7832,8 +7832,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "c-c-auto-repair"
    },
    "claim": null,
    "research": {
@@ -7913,8 +7913,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.2/43, Yelp claimed 4.2/20. Electrical work in owner text. Google 9-6, Yelp 8-6. Same complex as row 119. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 15 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.2/43, Yelp claimed 4.2/20. Electrical work in owner text. Google 9-6, Yelp 8-6. Same complex as row 119. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
+   "last_checked": "2026-11-15"
   },
   {
    "row": 124,
@@ -8289,8 +8289,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "jt-automotive-service"
    },
    "claim": null,
    "research": {
@@ -8362,8 +8362,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 5.0/19, Yelp 4.8/8, hours agree (Mon-Fri 8-5, Sat 8-12). Brakes, engine, transmission, axle work. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 15 by Vincent's session from the research handoff. Researched Nov 11: Maps 5.0/19, Yelp 4.8/8, hours agree (Mon-Fri 8-5, Sat 8-12). Brakes, engine, transmission, axle work. Build. See docs/handoffs/2026-11-11-open-leads-7.md.",
+   "last_checked": "2026-11-15"
   },
   {
    "row": 129,
@@ -8482,8 +8482,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "japanese-auto-care-specialist"
    },
    "claim": null,
    "research": {
@@ -8554,8 +8554,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.9/18, Yelp claimed 4.4/25, hours agree (Mon-Fri 8-5). Ask which Japanese makes. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 15 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.9/18, Yelp claimed 4.4/25, hours agree (Mon-Fri 8-5). Ask which Japanese makes. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-15"
   },
   {
    "row": 131,
@@ -8573,8 +8573,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "sergios-used-engines-auto-repair"
    },
    "claim": null,
    "research": {
@@ -8635,8 +8635,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 5.0/18. Yelp page (5.0/1, claimed) shows a different phone, (909) 994-7262; confirm the number. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 15 by Vincent's session from the research handoff. Researched Nov 11: Maps 5.0/18. Yelp page (5.0/1, claimed) shows a different phone, (909) 994-7262; confirm the number. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-15"
   },
   {
    "row": 132,

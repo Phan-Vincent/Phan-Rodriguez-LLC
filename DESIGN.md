@@ -396,3 +396,14 @@ Same session, generator, sources and checks as batches 11 to 14: `ts-auto-repair
 - **Joes Fleet Paint (J&E Truknbus Inc):** medium and heavy duty fleet paint and body. Its Yelp page has no reviews, so it links to Google. Shorter hours shown: Monday to Thursday 8 AM–3:30 PM, Friday 7 AM–3:30 PM.
 - **Esparza Auto Body & Paint:** Google's "109 N Vine Ave" is used; Yelp and MapQuest say "109 North Vine St". Confirm the street. The owner text's "2012" and "over 20 years" are left off. Google rating only (Yelp 3.7 from 3).
 - **Highline Auto Service & Collision:** same building as Andy's (row 94); the page says Suite B and names Andy's as the neighbour. "Free estimates" is left off until confirmed.
+
+### 2026-11-15 — Build batch 16: rows 117, 119, 123, 128, 130, 131
+
+Same session, generator, sources and checks as batches 11 to 15: `colima-tires` (row 117), `ch-axle-auto-repair` (119), `c-c-auto-repair` (123), `jt-automotive-service` (128), `japanese-auto-care-specialist` (130), `sergios-used-engines-auto-repair` (131).
+
+- **Colima Tires:** the handoff asked for the low reviews to be read because "scam" is a Google topic. The only low review on MapQuest's Yelp feed is a cheap emergency tire that did not last; nothing else negative was found. "At-home services" (a Yelp amenity) is left off until confirmed. Shorter weekend hours shown, with call to confirm.
+- **C&H Axle & Auto Repair:** Yelp's 4.6 from 30 leads. Pickup and delivery and the customer shuttle (Yelp amenities) are left off until confirmed. Unit N; row 123 is unit K in the same complex. Shorter hours shown.
+- **C & C Auto Repair:** the MapQuest listing at this address is Arrow Auto Repair with another phone, so no reviews are quoted and the page links to Google. The owner's Yelp text says "C & C Auto Repair and Electrical"; the page uses Google's and the sheet's "C & C Auto Repair". Confirm which name is current. Shorter hours shown.
+- **JT Automotive Service:** Google's "JT" and "4711 E Arrow Hwy C" are used; Yelp writes "J T" and "Ste C". Ratings rest on few reviews (19 and 8). Yelp reviewers name Guy.
+- **Japanese Auto Care Specialist:** Yelp's 4.4 from 25 leads. Neither site lists makes, so the page says "Call to ask about your make". Engine replacement is listed only because a reviewer's Scion had one.
+- **Sergios Used Engines & Auto Repair:** Yelp (one review) shows a different phone, (909) 994-7262, and no street address, so no Yelp review is quoted and only Google's 5.0 from 18 is shown. The page uses the sheet's and Google's (442) 356-3081, which is not a local area code. Confirm the phone before sending. "Guaranteed work" is mentioned only as a Google topic, with no terms. Yelp lists no hours; Google's are shown.

@@ -1071,6 +1071,60 @@ mk("normans-auto-repair", dict(hero="poster", serif=True, ink="#201A14", bone="#
    (8478219, 8985461), "norman-s-auto-repair-ontario", [("M R.", "Best price auto repair shop in town.", "n4Ai3xifjYxKQdbi8doILA"), ("J. H.", "It has been my go to shop since 2019.", "DHx_RbQ_glHscOJCHh7ePQ")],
    svc_label="What we do", hours_note="Yelp lists no hours; these are Google's.")
 
+# Build batch 16, 2026-11-15, same sources and checks as batches 11 to 15. C & C's MapQuest listing is a different
+# business and Sergios' Yelp page shows another phone, so both pages link to Google instead of quoting reviews.
+_ALT.update({6870330: "Mechanic kneeling to work on a car tire", 3806249: "Mechanic changing a car tire",
+             37175105: "Car suspension and underside during a repair", 8985605: "Mechanic inspecting the underside of a car",
+             8478264: "Mechanic's hands working on a car's wiring", 4116172: "Diagnostic scan tool in an engine bay",
+             13010580: "Red car with the wheel off, showing the brake disc", 5733659: "Mechanic working on a wheel hub",
+             3689314: "Engine bay of a Toyota", 4116169: "Two mechanics inspecting a car on a lift",
+             4116294: "Car engine hoisted in a workshop", 4116192: "Engines and engine parts in a workshop"})
+
+mk("colima-tires", dict(hero="split", ink="#141A1F", bone="#F2F4F3", acc="#0F766E", star="#F5C400", h1="8.6vw", stretch="82%", svc="index", mark="Colima Tires", word="Colima", wordsz="22vw"),
+   "Colima Tires", "New and used tires · W Holt Ave, Pomona", ("Flat tire?", "Open seven days."), "A family tire shop on West Holt Avenue in Pomona: new and used tires, patching, balancing and installation. Yelp reviewers mention fast, friendly service.",
+   "(909) 837-1694", "1031 W Holt Ave<br>Pomona, CA 91768", "Colima+Tires+1031+W+Holt+Ave+Pomona+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 4:00 PM", "8:30 AM – 4:00 PM"), ("4.1", 77),
+   [("Tires", [("New and used tires", ""), ("Installation", "A Google topic."), ("Rims", "A Google topic.")]), ("Repairs", [("Patching", ""), ("Balancing", "")])],
+   (6870330, 3806249), "colima-tires-pomona-2", [("George M.", "Service was Fast and top grade!!", "xkSmKrKNE49Vu6SzJ7hbXA"), ("Valerie L.", "This is the spot to go to for fast reliable trustworthy service!", "OZO0INqVBzuwoN4jA9g9Cw"), ("Frederick A.", "…with professionalism & friendly service, Thank You!", "Q9RGANfRJz2SdMRLFknY8A")],
+   svc_title="Tires, patches, balancing.", find="Inside Joos Market.", hours_note="Yelp lists Saturday to 5 PM and Sunday from 8 AM; Google lists Saturday to 4 PM and Sunday from 8:30 AM.")
+_two("colima-tires", ("4.1", "Google · 77 reviews", GM + "Colima+Tires+1031+W+Holt+Ave+Pomona+CA"), ("4.2", "Yelp · 24 reviews", YB + "colima-tires-pomona-2"))
+
+mk("ch-axle-auto-repair", dict(hero="photo", ink="#18140F", bone="#F5F2EC", acc="#C2410C", star="#F2B33D", h1="10vw", stretch="84%", svc="rows", rowsz="6.4vw", mark="C&H Axle & Auto Repair", word="C&H", wordsz="34vw"),
+   "C&H Axle & Auto Repair", "Axle and auto repair · Arrow Blvd, Fontana", ("Axles first,", "then everything else."), "Axle and auto repair on Arrow Boulevard in Fontana. Axles and axle boots are the top Google topics, and Yelp reviewers mention straightforward pricing.",
+   "(909) 356-4910", "15750 Arrow Blvd, Unit N<br>Fontana, CA 92335", "C%26H+Axle+%26+Auto+Repair+15750+Arrow+Blvd+Fontana+CA", wkh("8:00 AM – 5:30 PM", "8:00 AM – 1:30 PM"), ("4.1", 56),
+   [("Axles", [("Axle repair", "The top Google topic."), ("Axle boots", ""), ("Steering and suspension", "")]), ("Repair", [("Diagnostics and check engine light", ""), ("Brakes", ""), ("Tune-ups", ""), ("Battery and electrical", ""), ("Heating and A/C", "")]), ("Upkeep", [("Oil changes", "")])],
+   (37175105, 8985605), "c-and-h-axle-and-auto-repair-fontana-2", [("Yvette E.", "The mechanic was straightforward and transparent about the pricing…", "BJgwdeyrFCfR3U3IvQ1ByQ"), ("Eryka H.", "This is my to go shop for any car troubles.", "VqBspEpAoLn6gHLSAZLdPg"), ("Bob S.", "…took my Lexus, no regrets…", "FhsFlMwG6ic8c5j-BBfSiw")],
+   svc_title="Axles, boots, suspension.", hours_note="Yelp lists weekday closing at 6 PM and Saturday at 2:30 PM; Google at 5:30 and 1:30.")
+_two("ch-axle-auto-repair", ("4.6", "Yelp · 30 reviews", YB + "c-and-h-axle-and-auto-repair-fontana-2"), ("4.1", "Google · 56 reviews", GM + "C%26H+Axle+%26+Auto+Repair+15750+Arrow+Blvd+Fontana+CA"))
+
+mk("c-c-auto-repair", dict(hero="block", ink="#111827", bone="#F3F4F6", acc="#CA8A04", star="#FACC15", h1="9vw", stretch="80%", svc="index", mark="C & C Auto Repair", word="C & C", wordsz="30vw"),
+   "C & C Auto Repair", "Auto repair and electrical · Arrow Blvd, Fontana", ("Starters, alternators,", "and the rest."), "Auto repair and electrical work on Arrow Boulevard in Fontana: starters, alternators, batteries and lighting, plus brakes, suspension, clutches and A/C. Google reviewers mention fast, clean work.",
+   "(909) 574-6873", "15750 Arrow Blvd Unit K<br>Fontana, CA 92335", "C+%26+C+Auto+Repair+15750+Arrow+Blvd+Fontana+CA", wkh("9:00 AM – 6:00 PM", "9:00 AM – 3:00 PM"), ("4.2", 43),
+   [("Electrical", [("Starters and alternators", ""), ("Batteries", ""), ("Lighting", "")]), ("Repair", [("Brakes", ""), ("Engine repair", ""), ("Exhaust", ""), ("Suspension and alignments", ""), ("Clutches", ""), ("Timing belts", ""), ("Air conditioning", ""), ("Diagnosis", "")])],
+   (8478264, 4116172), svc_title="Electrical and repair.", find="Unit K, inside Best Tire Shop of Fontana.", hours_note="Yelp lists weekdays 8 AM–6 PM and Saturday 8 AM–4 PM; Google lists 9–6 and 9–3.")
+_two("c-c-auto-repair", ("4.2", "Google · 43 reviews", GM + "C+%26+C+Auto+Repair+15750+Arrow+Blvd+Fontana+CA"), ("4.2", "Yelp · 20 reviews", YB + "c-and-c-auto-repair-fontana"))
+
+mk("jt-automotive-service", dict(hero="split", serif=True, ink="#1A1614", bone="#F7F2EC", acc="#9F1239", star="#E8B23A", h1="8.6vw", svc="index", mark="JT Automotive Service", word="JT", wordsz="40vw"),
+   "JT Automotive Service", "Brakes, engine and axle repair · E Arrow Hwy, Montclair", ("Brakes to axles,", "explained clearly."), "Brakes, engine and transmission work, axles, struts, shocks and radiators on East Arrow Highway in Montclair. Yelp reviewers name Guy, and knowledgeable staff is the top Google topic.",
+   "(909) 626-6447", "4711 E Arrow Hwy C<br>Montclair, CA 91763", "JT+Automotive+Service+4711+E+Arrow+Hwy+Montclair+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 12:00 PM"), ("5.0", 19),
+   [("Repair", [("Brakes", ""), ("Engine and transmission overhaul", ""), ("Axles, struts and shocks", ""), ("Radiator repair and replacement", "")]), ("Upkeep", [("Oil changes", ""), ("Routine maintenance", ""), ("Pre-purchase inspections", "A Yelp reviewer had one done here.")])],
+   (13010580, 5733659), "j-t-automotive-service-montclair", [("Kevin Todd K.", "He was very knowledgeable, took his time, and explained everything clearly…", "6mQnGtFhnbeJYXuITCL51w"), ("K L.", "Fortunate to find a good, honest mechanic in the area!", "fTzZpP2Z6SF9U4HA3XoqKw"), ("Sola E.", "Guy didn't give me the evil eye I get every time I take my car to a mechanic…", "V29EbNzvNCO4-RNUDm5o_g")],
+   svc_title="Ask Guy.")
+_two("jt-automotive-service", ("5.0", "Google · 19 reviews", GM + "JT+Automotive+Service+4711+E+Arrow+Hwy+Montclair+CA"), ("4.8", "Yelp · 8 reviews", YB + "j-t-automotive-service-montclair"))
+
+mk("japanese-auto-care-specialist", dict(hero="poster", ink="#14161B", bone="#F4F2EE", acc="#B91C1C", star="#F2B33D", h1="9vw", stretch="84%", svc="rows", rowsz="6.4vw", mark="Japanese Auto Care", word="Japanese", wordsz="18vw"),
+   "Japanese Auto Care Specialist", "Japanese-car repair · Rochester Ave, Rancho Cucamonga", ("Quicker than", "the dealer."), "Japanese-car repair on Rochester Avenue in Rancho Cucamonga. One Yelp reviewer found it quicker and cheaper than the dealer; another has brought cars to Ray, the owner, for 17 years.",
+   "(909) 981-3086", "8727 Rochester Ave<br>Rancho Cucamonga, CA 91730", "Japanese+Auto+Care+Specialist+8727+Rochester+Ave+Rancho+Cucamonga+CA", wkh("8:00 AM – 5:00 PM"), ("4.9", 18),
+   [("", [("Japanese cars", "Call to ask about your make."), ("Engine replacement", "One reviewer's Scion got a new motor in four days."), ("Oil changes", ""), ("Battery and electrical", ""), ("Routine maintenance", "")])],
+   (3689314, 4116169), "japanese-auto-care-specialist-rancho-cucamonga-2", [("Tracey K.", "Quicker and less expensive than the dealer!", "3tif7UKrVcy136M_icW_WA"), ("Don Chuey M.", "Ray explained my options…", "0asm8eq9-tIJf-m7qta1Fg"), ("Ryan M.", "I found Japanese Auto Care (and Ray, owner) 17 years ago.", "Z3hhbc6HR_uYohEMRvZyFQ")],
+   svc_label="What we do")
+_two("japanese-auto-care-specialist", ("4.4", "Yelp · 25 reviews", YB + "japanese-auto-care-specialist-rancho-cucamonga-2"), ("4.9", "Google · 18 reviews", GM + "Japanese+Auto+Care+Specialist+8727+Rochester+Ave+Rancho+Cucamonga+CA"))
+
+mk("sergios-used-engines-auto-repair", dict(hero="photo", ink="#171717", bone="#F4F1EC", acc="#4D7C0F", star="#EAB308", h1="9vw", stretch="80%", svc="index", mark="Sergios Used Engines", word="Sergios", wordsz="21vw"),
+   "Sergios Used Engines & Auto Repair", "Used engines and auto repair · Ceres Ave, Fontana", ("Used engines,", "put in right."), "Used engines and auto repair on Ceres Avenue in Fontana, rated 5.0 on Google from 18 reviews. Guaranteed work is one of the Google topics.",
+   "(442) 356-3081", "16522 Ceres Ave units 5&amp;6<br>Fontana, CA 92335", "Sergios+Used+Engines+%26+Auto+Repair+16522+Ceres+Ave+Fontana+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 4:00 PM"), ("5.0", 18),
+   [("", [("Used engines", "Call with the year, make and model."), ("General auto repair", ""), ("Routine maintenance", "")])],
+   (4116294, 4116192), svc_title="Engines and repair.", hours_note="Yelp lists no hours; these are Google's.")
+
 # Performance Lube & Oil: linked Yelp reviews added 2026-11-12 (read from its MapQuest listing; phone and hours match the site).
 SITES["performance-lube-oil"]["track"] = _y("performance-lube-and-oil-chino-2", [("Nessa L.", "The service was quick, professional, and super convenient.", "AueOzQjbIhicZS6yZRPUmw"), ("Amy L.", "Highly recommend this place!", "FsC-ccGu6ZWTM5HtFH2Jrg"), ("Mohammed N.", "Service was good. Pretty nice car wash…", "1MykCVPqpykyhvUG-6PuqQ"), ("Carmen L.", "…she's always super cool and nice!", "ztFfRMyGAWyHTPp9XqlGVg")])
 SITES["performance-lube-oil"]["extra_js"] = V.CAROUSEL_JS

@@ -86,6 +86,12 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `esparza-auto-body-paint/` | Esparza Auto Body & Paint | Ontario |
 | `highline-auto-service-collision/` | Highline Auto Service & Collision | Montclair |
 | `normans-auto-repair/` | Norman's Auto Repair | Ontario |
+| `colima-tires/` | Colima Tires | Pomona |
+| `ch-axle-auto-repair/` | C&H Axle & Auto Repair | Fontana |
+| `c-c-auto-repair/` | C & C Auto Repair | Fontana |
+| `jt-automotive-service/` | JT Automotive Service | Montclair |
+| `japanese-auto-care-specialist/` | Japanese Auto Care Specialist | Rancho Cucamonga |
+| `sergios-used-engines-auto-repair/` | Sergios Used Engines & Auto Repair | Fontana |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |
