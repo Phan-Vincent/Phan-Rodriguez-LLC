@@ -80,6 +80,12 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `sharp-auto-body-paint/` | Sharp Auto Body & Paint | Montclair |
 | `jamacor-industries/` | Jamacor Industries | Fontana |
 | `j-and-c-auto-repair/` | J And C Auto Repair | Ontario |
+| `ts-auto-repair/` | T&S Auto Repair | Upland |
+| `auto-pros-repair/` | Auto Pros Repair | Montclair |
+| `joes-fleet-paint/` | Joes Fleet Paint | Fontana |
+| `esparza-auto-body-paint/` | Esparza Auto Body & Paint | Ontario |
+| `highline-auto-service-collision/` | Highline Auto Service & Collision | Montclair |
+| `normans-auto-repair/` | Norman's Auto Repair | Ontario |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

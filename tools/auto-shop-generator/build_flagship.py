@@ -1018,6 +1018,59 @@ mk("j-and-c-auto-repair", dict(hero="split", serif=True, ink="#1C1A16", bone="#F
    (3806280, 38324578), "j-c-auto-repair-ontario-2", [("Elvis N.", "The workers are trustworthy and always charge me a fair price!", "RzV0Ml3vqEx4itx_O28yeA"), ("Jenny R.", "Been taking my cars here for over 10 years!", "J1uQm90NtXSyC_hn1d-v7Q"), ("Benito L.", "Best place to get your vehicles repair, good prices.", "jkOlQ5g929av1KeDNLhOQA"), ("Julio C.", "…everything was handled with care.", "eWxckVPpT0vCyj6UmG7tzg")],
    svc_title="Fair prices, every car.", hours_note="Yelp lists weekday closing at 5:30 PM and Saturday at 3 PM; Google at 5 and 2.")
 
+# Build batch 15, 2026-11-14, same sources and checks as batches 11 to 14. Joes Fleet Paint has no Yelp reviews, so
+# its page links to Google instead of quoting reviews.
+_ALT.update({8478221: "Mechanic checking under the hood of a car", 8985707: "Mechanic checking engine oil with a dipstick",
+             20550054: "Mechanic in a cap working under an open hood", 4489761: "Mechanic working in a garage",
+             7019372: "Red semi truck in a repair garage", 31759165: "Painter in protective gear using a spray gun",
+             29945082: "Mechanic working on a car bumper", 5233291: "Polishing a white car's bumper",
+             8985615: "Mechanic inspecting the underside of a car on a lift", 8986034: "Car in for repair in a workshop",
+             8478219: "Mechanic reaching into an engine bay", 8985461: "Engine bay during a repair"})
+
+mk("ts-auto-repair", dict(hero="photo", ink="#16181C", bone="#F3F3EF", acc="#B45309", star="#F2B33D", h1="10vw", stretch="84%", svc="index", mark="T&S Auto Repair", word="T&S", wordsz="34vw"),
+   "T&S Auto Repair", "Auto repair · W Foothill Blvd, Upland", ("Straight answers,", "fair bills."), "Auto repair on West Foothill Boulevard in Upland. Honesty and a fair mechanic are the biggest Google topics, and Yelp reviewers name Tony.",
+   "(909) 931-5255", "1710 W Foothill Blvd, Unit D1<br>Upland, CA 91786", "T%26S+auto+repair+1710+W+Foothill+Blvd+Upland+CA", wkh("8:00 AM – 5:00 PM", "8:30 AM – 1:00 PM"), ("4.4", 25),
+   [("Repair", [("General diagnosis", ""), ("Brakes", ""), ("Engine repair", ""), ("Battery and electrical", "")]), ("Upkeep", [("Oil changes", "A Google topic, three mentions."), ("Heating and A/C", "")])],
+   (8478221, 8985707), "t-and-s-auto-repair-upland", [("Jose G.", "He is a man of integrity.", "96Y_lbWBSp5Vpkyxa7ZnWQ"), ("bryant r.", "…he's very professional and knows his job.", "1NV1dAbWMg6eorG2TlXbiA"), ("Joshua M.", "Tony will take care of you.", "X_sSdCQOqtDXXnm2MZElpQ")],
+   svc_title="Tell Tony what it's doing.")
+_two("ts-auto-repair", ("4.4", "Google · 25 reviews", GM + "T%26S+auto+repair+1710+W+Foothill+Blvd+Upland+CA"), ("4.6", "Yelp · 10 reviews", YB + "t-and-s-auto-repair-upland"))
+
+mk("auto-pros-repair", dict(hero="split", ink="#131B17", bone="#F1F4F0", acc="#166534", star="#F4C430", h1="8.6vw", stretch="82%", svc="rows", rowsz="6.4vw", mark="Auto Pros Repair", word="Auto Pros", wordsz="20vw"),
+   "Auto Pros Repair", "Auto repair · Holt Blvd, Montclair", ("Quoted first.", "Price honored."), "Auto repair on Holt Boulevard in Montclair. Yelp reviewers say the owner quotes before the work and honors it, shows you the parts he replaced, and knows Hondas and Acuras.",
+   "(909) 399-9969", "4771 Holt Blvd<br>Montclair, CA 91763", "Auto+Pros+Repair+4771+Holt+Blvd+Montclair+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 2:00 PM"), ("4.8", 25),
+   [("", [("Maintenance", ""), ("Repairs", "Quoted before the work starts."), ("Honda and Acura", "A Yelp reviewer calls the owner a Honda and Acura specialist."), ("Leaks", "One reviewer brought in a van with a leak they couldn't place.")])],
+   (20550054, 4489761), "auto-pros-repair-montclair", [("Wei K.", "You can be quoted before any of the work is done and he will honor it…", "j0JdsEU6F6_5e-eOlb8h2g"), ("Beverly D.", "…he shows you what he did and shows you the parts he replaced", "GW6mR5oBy0IG8bnaoL0a3w"), ("Joe N.", "Definetly our go to.", "8YffnvEaOw8FHOYNEITH_Q"), ("Van D.", "He is very honest and reliable.", "-Hu1qB05bXOtlx7YsH9qsQ")],
+   svc_label="What customers come for", hours_note="Yelp lists no hours; these are Google's.")
+_two("auto-pros-repair", ("4.8", "Google · 25 reviews", GM + "Auto+Pros+Repair+4771+Holt+Blvd+Montclair+CA"), ("4.4", "Yelp · 14 reviews", YB + "auto-pros-repair-montclair"))
+
+mk("joes-fleet-paint", dict(hero="block", ink="#1B1416", bone="#F5F1EF", acc="#B91C1C", star="#F5C400", h1="10vw", stretch="80%", svc="index", mark="Joes Fleet Paint", word="Fleet", wordsz="30vw"),
+   "Joes Fleet Paint", "Fleet paint and body · Beech Ave, Fontana", ("Trucks and buses,", "painted right."), "Medium and heavy duty paint and body work on Beech Avenue in Fontana, from J&E Truknbus Inc. Google reviewers mention attentive staff and quality of work.",
+   "(909) 745-2634", "8646 Beech Ave<br>Fontana, CA 92335", "Joes+Fleet+Paint+8646+Beech+Ave+Fontana+CA", ["8:00 AM – 3:30 PM"] * 4 + ["7:00 AM – 3:30 PM", "Closed", "Closed"], ("4.8", 24),
+   [("Fleet work", [("Medium and heavy duty paint", "Call to ask what is taken in."), ("Fleet painting", ""), ("Body work", "")]), ("Repairs", [("Bumper repair", ""), ("Rear-end damage", ""), ("Frame testing", ""), ("Steering and suspension", "")])],
+   (7019372, 31759165), svc_title="Fleet paint and body.", hours_note="Google lists Monday to Thursday 8 AM–4:30 PM and Friday 7 AM–3:30 PM; Yelp lists weekdays 7 AM–3:30 PM.")
+
+mk("esparza-auto-body-paint", dict(hero="split", serif=True, ink="#1C1712", bone="#F6F1E8", acc="#A16207", star="#E8B23A", h1="8.6vw", svc="index", mark="Esparza Auto Body", word="Esparza", wordsz="21vw"),
+   "Esparza Auto Body & Paint", "Auto body and paint · N Vine Ave, Ontario", ("Pearl white?", "Matched in two days."), "Body, paint and accident repair on North Vine in Ontario: dents, bumpers, frame testing and rear-end damage. Google reviewers mention quick turnaround and quality work.",
+   "(909) 208-8035", "109 N Vine Ave<br>Ontario, CA 91762", "Esparza+Auto+Body+%26+Paint+109+N+Vine+Ave+Ontario+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 2:00 PM"), ("4.4", 23),
+   [("", [("Body and paint", "Including tricky colors, says a Yelp reviewer with a pearl white car."), ("Accident repair", ""), ("Dent removal", ""), ("Bumper repair", ""), ("Frame testing", ""), ("Rear-end damage", "")])],
+   (29945082, 5233291), "esparza-auto-body-and-paint-ontario-2", [("Jovani G.", "They did a fantastic job and had the repairs completed in two days!", "rRB59Cfh6Y40RFODR-qlKw"), ("Miranda C.", "Go with Luis!", "LSPlVPjEXDdL1TA5WD51UA")],
+   svc_title="Dents, bumpers, paint.", hours_note="Google lists 8 AM–5 PM every day; Yelp lists weekdays 8 AM–6 PM, Saturday 8 AM–2 PM and Sunday closed.")
+
+mk("highline-auto-service-collision", dict(hero="poster", ink="#0F172A", bone="#F1F4F8", acc="#0369A1", star="#F2B33D", h1="9vw", stretch="84%", svc="index", mark="Highline Auto", word="Highline", wordsz="19vw"),
+   "Highline Auto Service & Collision", "Collision and mechanical repair · Holt Blvd, Montclair", ("Collision repair,", "plus oil and brakes."), "Collision and body repair on Holt Boulevard in Montclair, plus oil changes, brake pads, tires and alignments. Value and brakes are among the top Google topics.",
+   "(909) 399-1111", "5334 Holt Blvd, Ste B<br>Montclair, CA 91763", "Highline+Auto+Service+%26+Collision+5334+Holt+Blvd+Montclair+CA", wkh("7:00 AM – 4:00 PM"), ("4.8", 22),
+   [("Collision", [("Collision repair", ""), ("Body restoration", ""), ("Bumper repair", ""), ("Paint and scratches", ""), ("Frame testing", "")]), ("Service", [("Oil changes", ""), ("Brakes", "A Google topic."), ("Tires and alignments", "")])],
+   (8985615, 8986034), "highline-auto-service-and-collision-montclair", [("Briana P.", "All I have to say is HONEST, which is unfortunately rare in this industry.", "BNRrVMuhTkQjCEueO3l_kQ"), ("Ryan R.", "Bill and his crew really care about providing great customer service.", "OgtqMf8smH3pbKgKihFGKw"), ("Adam R.", "…great, honest pricing and no gimmicks…", "FYephhowYhKhCHfovxep2w"), ("David C.", "Super honest, super competent…", "XZixbjDOPj679kKStRRj0Q")],
+   svc_title="Body shop and service bay.", find="Suite B. Andy's Auto Repair is in the same building.")
+_two("highline-auto-service-collision", ("4.8", "Google · 22 reviews", GM + "Highline+Auto+Service+%26+Collision+5334+Holt+Blvd+Montclair+CA"), ("5.0", "Yelp · 6 reviews", YB + "highline-auto-service-and-collision-montclair"))
+
+mk("normans-auto-repair", dict(hero="poster", serif=True, ink="#201A14", bone="#F6F0E6", acc="#7C2D12", star="#E0A526", h1="9vw", svc="rows", rowsz="6.4vw", mark="Norman's Auto Repair", word="Norman's", wordsz="20vw"),
+   "Norman's Auto Repair", "Auto repair · E California St, Ontario", ("Honest work", "on California Street."), "Auto repair on East California Street in Ontario. Honesty is the top Google topic, and a Yelp reviewer calls it the best-priced shop in town.",
+   "(909) 236-4416", "328 E California St<br>Ontario, CA 91761", "Norman's+Auto+Repair+328+E+California+St+Ontario+CA", wkh("8:30 AM – 6:00 PM", "9:00 AM – 2:30 PM"), ("4.9", 22),
+   [("", [("Routine maintenance", ""), ("General repair", "Call with the year, make and model.")])],
+   (8478219, 8985461), "norman-s-auto-repair-ontario", [("M R.", "Best price auto repair shop in town.", "n4Ai3xifjYxKQdbi8doILA"), ("J. H.", "It has been my go to shop since 2019.", "DHx_RbQ_glHscOJCHh7ePQ")],
+   svc_label="What we do", hours_note="Yelp lists no hours; these are Google's.")
+
 # Performance Lube & Oil: linked Yelp reviews added 2026-11-12 (read from its MapQuest listing; phone and hours match the site).
 SITES["performance-lube-oil"]["track"] = _y("performance-lube-and-oil-chino-2", [("Nessa L.", "The service was quick, professional, and super convenient.", "AueOzQjbIhicZS6yZRPUmw"), ("Amy L.", "Highly recommend this place!", "FsC-ccGu6ZWTM5HtFH2Jrg"), ("Mohammed N.", "Service was good. Pretty nice car wash…", "1MykCVPqpykyhvUG-6PuqQ"), ("Carmen L.", "…she's always super cool and nice!", "ztFfRMyGAWyHTPp9XqlGVg")])
 SITES["performance-lube-oil"]["extra_js"] = V.CAROUSEL_JS

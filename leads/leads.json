@@ -5,7 +5,7 @@
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 71,
+   "with_site": 77,
    "researched": 135,
    "open_claims": 0
   }
@@ -5905,8 +5905,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "ts-auto-repair"
    },
    "claim": null,
    "research": {
@@ -5987,8 +5987,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.4/25, Yelp 4.6/10, hours agree. Honesty is the top Google topic. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.4/25, Yelp 4.6/10, hours agree. Honesty is the top Google topic. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 103,
@@ -6101,8 +6101,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "auto-pros-repair"
    },
    "claim": null,
    "research": {
@@ -6163,8 +6163,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/25, Yelp 4.4/14, unclaimed on both, no Yelp hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/25, Yelp 4.4/14, unclaimed on both, no Yelp hours. Build. See docs/handoffs/2026-11-11-open-leads-5.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 105,
@@ -6531,8 +6531,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "joes-fleet-paint"
    },
    "claim": null,
    "research": {
@@ -6607,8 +6607,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/24, Yelp claimed with no reviews. Medium and heavy duty paint and body. Hours differ slightly. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/24, Yelp claimed with no reviews. Medium and heavy duty paint and body. Hours differ slightly. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 110,
@@ -6626,8 +6626,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "esparza-auto-body-paint"
    },
    "claim": null,
    "research": {
@@ -6701,8 +6701,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.4/23, Yelp 3.7/3. Est. 2012 per owner text. Google says 8-5 daily, Yelp closes Sunday. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.4/23, Yelp 3.7/3. Est. 2012 per owner text. Google says 8-5 daily, Yelp closes Sunday. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 111,
@@ -6720,8 +6720,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "highline-auto-service-collision"
    },
    "claim": null,
    "research": {
@@ -6795,8 +6795,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/22, Yelp claimed 5.0/6, hours agree (Mon-Fri 7-4). Collision plus general service. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/22, Yelp claimed 5.0/6, hours agree (Mon-Fri 7-4). Collision plus general service. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 112,
@@ -6814,8 +6814,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "normans-auto-repair"
    },
    "claim": null,
    "research": {
@@ -6875,8 +6875,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.9/22, Yelp 5.0/2 with no address or hours. Honesty is the top Google topic. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 14 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.9/22, Yelp 5.0/2 with no address or hours. Honesty is the top Google topic. Build. See docs/handoffs/2026-11-11-open-leads-6.md.",
+   "last_checked": "2026-11-14"
   },
   {
    "row": 113,

@@ -386,3 +386,13 @@ Same session, generator, sources and checks as batches 11 to 13: `willys-trailer
 - **Sharp Auto Body & Paint:** Yelp calls it Sharp Auto Body & Collision; the page says so. Yelp has no hours, so Google's are shown.
 - **Jamacor Industries** is an auto customization shop (wraps, suspension, aftermarket parts), not a body shop. Google rating only; Yelp's rests on one review, quoted once.
 - **J And C Auto Repair:** Google rating only (Yelp 4.2 from 5). The alignment machine and "Spanish spoken" come from owner text: alignment is shown with "ask when you call", Spanish is left off.
+
+### 2026-11-14 — Build batch 15: rows 102, 104, 109, 110, 111, 112
+
+Same session, generator, sources and checks as batches 11 to 14: `ts-auto-repair` (row 102), `auto-pros-repair` (104), `joes-fleet-paint` (109), `esparza-auto-body-paint` (110), `highline-auto-service-collision` (111), `normans-auto-repair` (112). Row 108, Lanny Monroe Automotive, was skipped: Yelp calls it Monroe's Automotive & Off Road, so confirm the name first (as with row 70).
+
+- **T&S Auto Repair:** the page uses Yelp's capitalisation; the sheet writes "T&S auto repair".
+- **Auto Pros Repair** and **Norman's Auto Repair:** Yelp lists no hours, so Google's are shown with "call to confirm". Service lists are thin on purpose: only what reviewers mention (Auto Pros: quotes honoured, Honda and Acura, a leak). Norman's shows Google's rating only (Yelp has two reviews).
+- **Joes Fleet Paint (J&E Truknbus Inc):** medium and heavy duty fleet paint and body. Its Yelp page has no reviews, so it links to Google. Shorter hours shown: Monday to Thursday 8 AM–3:30 PM, Friday 7 AM–3:30 PM.
+- **Esparza Auto Body & Paint:** Google's "109 N Vine Ave" is used; Yelp and MapQuest say "109 North Vine St". Confirm the street. The owner text's "2012" and "over 20 years" are left off. Google rating only (Yelp 3.7 from 3).
+- **Highline Auto Service & Collision:** same building as Andy's (row 94); the page says Suite B and names Andy's as the neighbour. "Free estimates" is left off until confirmed.
