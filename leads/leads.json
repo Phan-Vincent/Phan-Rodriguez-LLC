@@ -1,11 +1,11 @@
 {
  "_meta": {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "generator": "tools/leads/sync.py",
   "do_not_edit": true,
   "counts": {
    "leads": 294,
-   "with_site": 83,
+   "with_site": 89,
    "researched": 135,
    "open_claims": 0
   }
@@ -8722,8 +8722,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "dannys-automotive-repair"
    },
    "claim": null,
    "research": {
@@ -8797,8 +8797,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.7/18, Yelp claimed 5.0/6. Hours disagree widely (Google closed Monday; Yelp open Mon-Sat). Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 16 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.7/18, Yelp claimed 5.0/6. Hours disagree widely (Google closed Monday; Yelp open Mon-Sat). Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-16"
   },
   {
    "row": 134,
@@ -9021,8 +9021,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "dexter-auto-care"
    },
    "claim": null,
    "research": {
@@ -9083,8 +9083,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 5.0/17, Yelp 4.5/17, unclaimed on both, no Yelp hours (Google Mon-Sat 8-5). Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 16 by Vincent's session from the research handoff. Researched Nov 11: Maps 5.0/17, Yelp 4.5/17, unclaimed on both, no Yelp hours (Google Mon-Sat 8-5). Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-16"
   },
   {
    "row": 138,
@@ -9201,8 +9201,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "angels-body-shop"
    },
    "claim": null,
    "research": {
@@ -9265,8 +9265,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/17 with no hours, Yelp 5.0/7 (Mon-Fri 9-7, Sat 10-5), unclaimed on both. Body shop, not auto repair. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 16 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/17 with no hours, Yelp 5.0/7 (Mon-Fri 9-7, Sat 10-5), unclaimed on both. Body shop, not auto repair. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-16"
   },
   {
    "row": 140,
@@ -9284,8 +9284,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "bazan-auto-repair"
    },
    "claim": null,
    "research": {
@@ -9347,8 +9347,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.8/16 as an auto body shop, Yelp claimed 3.9/15 with no hours. Ask whether body work or repair. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 16 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.8/16 as an auto body shop, Yelp claimed 3.9/15 with no hours. Ask whether body work or repair. Build. See docs/handoffs/2026-11-11-open-leads-8.md.",
+   "last_checked": "2026-11-16"
   },
   {
    "row": 141,
@@ -9482,8 +9482,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "ruanos-auto-repair"
    },
    "claim": null,
    "research": {
@@ -9549,8 +9549,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 4.7/14, Yelp claimed 5.0/6. Inside a Shell station; smog is a topic. Google hours Mon-Fri 8-6, Sat 8-2:30. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 16 by Vincent's session from the research handoff. Researched Nov 11: Maps 4.7/14, Yelp claimed 5.0/6. Inside a Shell station; smog is a topic. Google hours Mon-Fri 8-6, Sat 8-2:30. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-16"
   },
   {
    "row": 144,
@@ -9926,8 +9926,8 @@
     "notes": null
    },
    "mockup": {
-    "exists": false,
-    "folder": null
+    "exists": true,
+    "folder": "gc-brothers-auto"
    },
    "claim": null,
    "research": {
@@ -10004,8 +10004,8 @@
     "date_read": "2026-11-11"
    },
    "fact_check": null,
-   "research_note": "Researched Nov 11: Maps 5.0/12, Yelp claimed 5.0/3, hours agree (Mon-Fri 8-5, Sat 8-1). Pricing is the top topic. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
-   "last_checked": "2026-11-11"
+   "research_note": "Site built Nov 16 by Vincent's session from the research handoff. Researched Nov 11: Maps 5.0/12, Yelp claimed 5.0/3, hours agree (Mon-Fri 8-5, Sat 8-1). Pricing is the top topic. Build. See docs/handoffs/2026-11-11-open-leads-9.md.",
+   "last_checked": "2026-11-16"
   },
   {
    "row": 150,

@@ -407,3 +407,14 @@ Same session, generator, sources and checks as batches 11 to 15: `colima-tires` 
 - **JT Automotive Service:** Google's "JT" and "4711 E Arrow Hwy C" are used; Yelp writes "J T" and "Ste C". Ratings rest on few reviews (19 and 8). Yelp reviewers name Guy.
 - **Japanese Auto Care Specialist:** Yelp's 4.4 from 25 leads. Neither site lists makes, so the page says "Call to ask about your make". Engine replacement is listed only because a reviewer's Scion had one.
 - **Sergios Used Engines & Auto Repair:** Yelp (one review) shows a different phone, (909) 994-7262, and no street address, so no Yelp review is quoted and only Google's 5.0 from 18 is shown. The page uses the sheet's and Google's (442) 356-3081, which is not a local area code. Confirm the phone before sending. "Guaranteed work" is mentioned only as a Google topic, with no terms. Yelp lists no hours; Google's are shown.
+
+### 2026-11-16 — Build batch 17: rows 133, 137, 139, 140, 143, 149
+
+Same session, generator, sources and checks as batches 11 to 16: `dannys-automotive-repair` (row 133), `dexter-auto-care` (137), `angels-body-shop` (139), `bazan-auto-repair` (140), `ruanos-auto-repair` (143), `gc-brothers-auto` (149).
+
+- **Danny's Automotive Repair:** Google and Yelp disagree widely on hours (Google closes Monday; Yelp opens Monday and earlier every day), so Google's shorter hours are shown with "call to confirm". Towing, from the owner's text, is left off until confirmed. The Google listing's "| Car Repair Service" suffix is dropped from the name.
+- **Dexter Auto Care:** no MapQuest listing was found, so no reviews are quoted and the page links to Google. Both listings are unclaimed. Yelp lists no hours; Google's are shown.
+- **Angel's Body Shop:** the sheet files it as auto repair, but both sites say body shop, so the page does too. Google lists no hours; Yelp's are shown. A Yelp reviewer names Manuel, and another says it can be hard to reach by phone.
+- **Bazan Auto Repair:** Google files it as a body shop and the Yelp reviews are about dents and paint, so the page leads with body work and lists general repair with "call to ask". Only Google's 4.8 is shown (Yelp 3.9 from 15). Two one-star Yelp reviews describe a repair that took over a year and a body job dispute; worth knowing before the call. "Insurance handling" (a Google topic) is left off. Yelp lists no hours.
+- **Ruano's Auto Repair:** Google places it in a Shell station; confirm it is run separately. Smog checks (a Google topic) are left off until it is confirmed as a licensed station; work trucks are listed because a reviewer brought one in. A reviewer says the shop speaks English and Spanish, also left off until confirmed. Yelp lists no hours.
+- **G&C Brothers Auto:** hours agree on both sites. Both ratings are 5.0, Yelp on three reviews. Whether it takes trucks (a Google topic) is not stated on the page.

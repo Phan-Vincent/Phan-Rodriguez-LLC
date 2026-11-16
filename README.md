@@ -92,6 +92,12 @@ Live (GitHub Pages): https://phan-vincent.github.io/Phan-Rodriguez-LLC/
 | `jt-automotive-service/` | JT Automotive Service | Montclair |
 | `japanese-auto-care-specialist/` | Japanese Auto Care Specialist | Rancho Cucamonga |
 | `sergios-used-engines-auto-repair/` | Sergios Used Engines & Auto Repair | Fontana |
+| `dannys-automotive-repair/` | Danny's Automotive Repair | Pomona |
+| `dexter-auto-care/` | Dexter Auto Care | Pomona |
+| `angels-body-shop/` | Angel's Body Shop | Montclair |
+| `bazan-auto-repair/` | Bazan Auto Repair | Pomona |
+| `ruanos-auto-repair/` | Ruano's Auto Repair | Pomona |
+| `gc-brothers-auto/` | G&C Brothers Auto | Pomona |
 | `prime-truck-trailer-repair/` | Prime Truck and Trailer Repair | Fontana |
 | `mailos-auto-repair/` | Mailo's Auto Repair | Fontana |
 | `bee-z-auto-care/` | Bee Z Auto Care | Upland |

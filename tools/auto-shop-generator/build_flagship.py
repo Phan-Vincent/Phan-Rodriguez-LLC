@@ -1125,6 +1125,61 @@ mk("sergios-used-engines-auto-repair", dict(hero="photo", ink="#171717", bone="#
    [("", [("Used engines", "Call with the year, make and model."), ("General auto repair", ""), ("Routine maintenance", "")])],
    (4116294, 4116192), svc_title="Engines and repair.", hours_note="Yelp lists no hours; these are Google's.")
 
+# Build batch 17, 2026-11-16, same sources and checks as batches 11 to 16. Dexter Auto Care has no MapQuest listing,
+# so its page links to Google instead of quoting reviews.
+_ALT.update({6870301: "Mechanic at a wall of tools in a garage", 3807120: "Mechanic working under a car on a lift",
+             8986145: "SUV raised on a lift in a repair shop", 6870332: "Mechanic using a diagnostic tablet",
+             7493886: "Painter spraying a car part", 33749906: "Close-up of a damaged front bumper",
+             7493883: "Painter in protective gear spraying a car part", 29960489: "Body shop with a car in for work",
+             21831854: "Mechanic working on trucks with the hoods up", 3807329: "Mechanic working under a car's hood",
+             6720544: "Mechanic talking with a customer in a garage", 4116205: "Repair garage with a pickup truck inside"})
+
+mk("dannys-automotive-repair", dict(hero="photo", ink="#16191D", bone="#F2F3F1", acc="#1D4ED8", star="#F2B33D", h1="10vw", stretch="84%", svc="index", mark="Danny's Automotive", word="Danny's", wordsz="22vw"),
+   "Danny's Automotive Repair", "Auto repair · S San Antonio Ave, Pomona", ("Danny explains", "every repair."), "Auto repair on South San Antonio Avenue in Pomona: tune-ups, brakes, A/C, suspension, electrical and transmission work. Yelp reviewers say Danny explains the problem and the options, at fair prices.",
+   "(909) 622-3785", "594 S San Antonio Ave<br>Pomona, CA 91766", "Danny%27s+Automotive+Repair+594+S+San+Antonio+Ave+Pomona+CA", ["Closed"] + ["9:00 AM – 6:00 PM"] * 4 + ["10:00 AM – 3:00 PM", "Closed"], ("4.7", 18),
+   [("Repair", [("Brakes", ""), ("Suspension, front and rear", ""), ("Electrical", ""), ("Transmission rebuild and repair", ""), ("Complete diagnosis", "")]), ("Upkeep", [("Tune-ups", ""), ("A/C service", "One reviewer had the A/C compressor replaced."), ("Oil changes", "")])],
+   (6870301, 3807120), "dannys-automotive-repair-pomona", [("Bryan O.", "…Danny is very friendly and gave me all the details that I wanted to know…", "rTbFgd4YFtL5UURfYamiQA"), ("Jorge C.", "Our whole family has been coming here for years…", "-ZZA3l4DHLbOWj9KTq8cdQ"), ("Jennifer C.", "…reasonable price compared to other places…", "ipikSY52zOadYvYOnt9Daw"), ("Zack H.", "He has the best prices in town!", "Zo48clMvWUZKUAntHNr5Ow")],
+   svc_title="Ask Danny what it's doing.", hours_note="Yelp lists Monday 8 AM–6 PM, Tuesday to Friday 7:45 AM–6 PM and Saturday 8 AM–5 PM; Google shows Monday closed.")
+_two("dannys-automotive-repair", ("4.7", "Google · 18 reviews", GM + "Danny%27s+Automotive+Repair+594+S+San+Antonio+Ave+Pomona+CA"), ("5.0", "Yelp · 6 reviews", YB + "dannys-automotive-repair-pomona"))
+
+mk("dexter-auto-care", dict(hero="poster", ink="#0F1A14", bone="#EFF3EF", acc="#15803D", star="#F4C430", h1="9vw", stretch="84%", svc="rows", rowsz="6.4vw", mark="Dexter Auto Care", word="Dexter", wordsz="22vw"),
+   "Dexter Auto Care", "Auto repair · Rio Rancho Rd, Pomona", ("Fair rates,", "honest work."), "Auto repair in the Rio Rancho Towne Center in Pomona, open six days. Fair rates, reliability and honesty are the top Google topics.",
+   "(909) 629-8778", "45 Rio Rancho Rd #4C<br>Pomona, CA 91766", "Dexter+Auto+Care+45+Rio+Rancho+Rd+Pomona+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 5:00 PM"), ("5.0", 17),
+   [("", [("General auto repair", "Call with the year, make and model."), ("Routine maintenance", "")])],
+   (8986145, 6870332), svc_label="What we do", find="Suite 4C in the Rio Rancho Towne Center.", hours_note="Yelp lists no hours; these are Google's.")
+_two("dexter-auto-care", ("5.0", "Google · 17 reviews", GM + "Dexter+Auto+Care+45+Rio+Rancho+Rd+Pomona+CA"), ("4.5", "Yelp · 17 reviews", YB + "dexter-auto-care-pomona"))
+
+mk("angels-body-shop", dict(hero="split", serif=True, ink="#1F1514", bone="#F7F0EC", acc="#B91C1C", star="#E8B23A", h1="8.6vw", svc="index", mark="Angel's Body Shop", word="Angel's", wordsz="22vw"),
+   "Angel's Body Shop", "Body work · Brooks St, Montclair", ("Rear-ended?", "Bring it to Angel's."), "Body work on Brooks Street in Montclair: bumpers, frame, rear-end damage and paint. Yelp reviewers mention clean work, excellent paint, fair prices and quick turnaround.",
+   "(909) 626-6761", "4691 Brooks St # G<br>Montclair, CA 91763", "Angel%27s+Body+Shop+4691+Brooks+St+Montclair+CA", wkh("9:00 AM – 7:00 PM", "10:00 AM – 5:00 PM"), ("4.8", 17),
+   [("", [("Body and paint", ""), ("Bumper repair", ""), ("Frame testing and repair", ""), ("Rear-end damage", ""), ("Steering and suspension", "")])],
+   (7493886, 33749906), "angels-body-shop-montclair", [("Marlie P.", "They did an awesome and clean job!", "hhYHfs3VoCyIudcjsqvJjQ"), ("Joe L.", "Paint quality is excellent.", "tVJt4kmo8HqcVDji_SB6dA"), ("Patrick Z.", "Great place with quick turnaround…", "WQw2U_9Dk4KS8uOXekL6ow")],
+   svc_title="Bumpers, frames, paint.", hours_note="Google lists no hours; these are Yelp's.")
+_two("angels-body-shop", ("4.8", "Google · 17 reviews", GM + "Angel%27s+Body+Shop+4691+Brooks+St+Montclair+CA"), ("5.0", "Yelp · 7 reviews", YB + "angels-body-shop-montclair"))
+
+mk("bazan-auto-repair", dict(hero="block", ink="#141414", bone="#F4F2EF", acc="#7E22CE", star="#F5C400", h1="10vw", stretch="80%", svc="index", mark="Bazan Auto Repair", word="Bazan", wordsz="28vw"),
+   "Bazan Auto Repair", "Body work and repair · E Holt Ave, Pomona", ("Dents out,", "color matched."), "Body work and repair on East Holt Avenue in Pomona. Google files it as a body shop, and Yelp reviewers mention reasonable prices and a responsive owner.",
+   "(909) 469-0113", "1485 E Holt Ave<br>Pomona, CA 91767", "Bazan+Auto+Repair+1485+E+Holt+Ave+Pomona+CA", wkh("9:00 AM – 7:00 PM"), ("4.8", 16),
+   [("", [("Body work", "Google's category for the shop."), ("Dent repair", "A Yelp reviewer had door dents fixed on a white Corolla."), ("Paint", ""), ("General repair", "Call to ask what is taken in.")])],
+   (7493883, 29960489), "bazan-auto-repair-pomona", [("K P.", "The repairs costs were very reasonable.", "gu5sj1BRzDivCtH3uZm2oQ"), ("Greta L.", "…very responsive, reliable, and honest.", "MKxloAsRcFeEzpNd22miZQ")],
+   svc_title="Dents, paint, repair.", hours_note="Yelp lists no hours; these are Google's.")
+
+mk("ruanos-auto-repair", dict(hero="photo", ink="#1A1612", bone="#F6F2EA", acc="#B45309", star="#F2B33D", h1="9vw", stretch="82%", svc="rows", rowsz="6.4vw", mark="Ruano's Auto Repair", word="Ruano's", wordsz="20vw"),
+   "Ruano's Auto Repair", "Auto repair · W Holt Ave, Pomona", ("Family owned,", "fair prices."), "Auto repair on West Holt Avenue in Pomona. Yelp reviewers call it honest and affordable, bring in work trucks as well as cars, and name Pancho and his crew.",
+   "(909) 630-2208", "604 W Holt Ave<br>Pomona, CA 91768", "Ruano%27s+Auto+Repair+604+W+Holt+Ave+Pomona+CA", wkh("8:00 AM – 6:00 PM", "8:00 AM – 2:30 PM"), ("4.7", 14),
+   [("", [("General auto repair", ""), ("Work trucks", "One reviewer's husband brought in his work truck."), ("Oil changes", ""), ("Routine maintenance", "")])],
+   (21831854, 3807329), "ruanos-auto-repair-pomona", [("Mel C.", "Honest and affordable, Good service.", "x3tM5f2r_mDyhzF2TFuj7A"), ("Michael G.", "The crew was quick to get my vehicle in and out.", "ARETm15c0fBUoYv2RgYxkQ"), ("Victor M.", "…Pancho (Panchito) and his crew get it done.", "3N9WX-IKP_y5WL2YMiujjA")],
+   svc_label="What we do", hours_note="Yelp lists no hours; these are Google's.")
+_two("ruanos-auto-repair", ("4.7", "Google · 14 reviews", GM + "Ruano%27s+Auto+Repair+604+W+Holt+Ave+Pomona+CA"), ("5.0", "Yelp · 6 reviews", YB + "ruanos-auto-repair-pomona"))
+
+mk("gc-brothers-auto", dict(hero="block", ink="#0F172A", bone="#F1F5F9", acc="#0E7490", star="#FACC15", h1="9vw", stretch="80%", svc="index", mark="G&C Brothers Auto", word="G&C", wordsz="34vw"),
+   "G&C Brothers Auto", "Auto repair · N White Ave, Pomona", ("Diagnosed in", "ten minutes."), "Auto repair on North White Avenue in Pomona, rated 5.0 on Google and Yelp. Pricing is the top Google topic, and Yelp reviewers name Guillermo.",
+   "(909) 446-9104", "255 N White Ave<br>Pomona, CA 91768", "G%26C+Brothers+Auto+255+N+White+Ave+Pomona+CA", wkh("8:00 AM – 5:00 PM", "8:00 AM – 1:00 PM"), ("5.0", 12),
+   [("Repair", [("Brakes and master cylinders", "One reviewer's was diagnosed within ten minutes."), ("Check engine light", ""), ("Engine repair", ""), ("Battery and electrical", ""), ("Defroster tab repair", "")]), ("Upkeep", [("Oil changes", ""), ("Maintenance", "A Google topic.")])],
+   (6720544, 4116205), "g-and-c-brothers-auto-pomona", [("Sam L.", "…he diagnosed the brake and master cylinder failure issue within 10mins.", "Fm-jZFZCBM2vvGwkVsyvsw"), ("Brenda P.", "…Guillermo was really knowledgeable…", "4v6F2rePVPh6GJaAq3GWGg"), ("Hoonz -.", "…was happy with pricing and professionalism.", "iFzY4nEt2JpA-Vg9k0Rxxg")],
+   svc_title="Brakes, engines, electrical.")
+_two("gc-brothers-auto", ("5.0", "Google · 12 reviews", GM + "G%26C+Brothers+Auto+255+N+White+Ave+Pomona+CA"), ("5.0", "Yelp · 3 reviews", YB + "g-and-c-brothers-auto-pomona"))
+
 # Performance Lube & Oil: linked Yelp reviews added 2026-11-12 (read from its MapQuest listing; phone and hours match the site).
 SITES["performance-lube-oil"]["track"] = _y("performance-lube-and-oil-chino-2", [("Nessa L.", "The service was quick, professional, and super convenient.", "AueOzQjbIhicZS6yZRPUmw"), ("Amy L.", "Highly recommend this place!", "FsC-ccGu6ZWTM5HtFH2Jrg"), ("Mohammed N.", "Service was good. Pretty nice car wash…", "1MykCVPqpykyhvUG-6PuqQ"), ("Carmen L.", "…she's always super cool and nice!", "ztFfRMyGAWyHTPp9XqlGVg")])
 SITES["performance-lube-oil"]["extra_js"] = V.CAROUSEL_JS
