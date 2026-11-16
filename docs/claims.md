@@ -138,3 +138,9 @@ Keep the table format exactly; `tools/leads/sync.py` reads it. Date is YYYY-MM-D
 | 128 | JT Automotive Service | Vincent | build | 2026-11-15 | done |
 | 130 | Japanese Auto Care Specialist | Vincent | build | 2026-11-15 | done |
 | 131 | Sergios Used Engines & Auto Repair | Vincent | build | 2026-11-15 | done |
+| 133 | Danny's Automotive Repair | Vincent | build | 2026-11-16 | open |
+| 137 | Dexter Auto Care | Vincent | build | 2026-11-16 | open |
+| 139 | Angel's Body Shop | Vincent | build | 2026-11-16 | open |
+| 140 | Bazan Auto Repair | Vincent | build | 2026-11-16 | open |
+| 143 | Ruano's Auto Repair | Vincent | build | 2026-11-16 | open |
+| 149 | G&C Brothers Auto | Vincent | build | 2026-11-16 | open |
