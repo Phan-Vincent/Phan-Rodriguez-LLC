@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "generated": "2026-11-16",
+  "generated": "2026-11-18",
   "generator": "tools/leads/sync.py",
   "do_not_edit": true,
   "counts": {
@@ -24,7 +24,7 @@
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJi0h5Bukyw4ARPfYBcCSu_ng",
    "call": {
     "status": "called 11/10",
-    "notes": "7-3 11/11"
+    "notes": "call again 7am-3pm"
    },
    "mockup": {
     "exists": true,
@@ -48,7 +48,7 @@
    "sheet_reviews": 494,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJDbCEWZJMw4ARnfN9USwFfDY",
    "call": {
-    "status": "called 11/10",
+    "status": "called 11/10 & 11/12; owner will call back re: changes",
     "notes": "lock.worx@yahoo.com"
    },
    "mockup": {
@@ -498,8 +498,8 @@
    "sheet_reviews": 104,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJHaQO5nkxw4ARq03JW_25Q-4",
    "call": {
-    "status": null,
-    "notes": null
+    "status": "pasmontclair@gmail.com; email sent",
+    "notes": "called 11/12"
    },
    "mockup": {
     "exists": true,
@@ -523,8 +523,8 @@
    "sheet_reviews": 102,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8UU9_RlLw4ARiU6R4-NtTVs",
    "call": {
-    "status": null,
-    "notes": null
+    "status": "(909) 685-3387",
+    "notes": "message left 11/12"
    },
    "mockup": {
     "exists": true,
@@ -548,8 +548,8 @@
    "sheet_reviews": 100,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJzUVUVjkyw4ARXDkBkT5QS1E",
    "call": {
-    "status": null,
-    "notes": null
+    "status": "owner on vacation",
+    "notes": "called 11/12"
    },
    "mockup": {
     "exists": true,
@@ -573,7 +573,7 @@
    "sheet_reviews": 98,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ5bfdVI9Mw4ARKRAh9g8SGhA",
    "call": {
-    "status": null,
+    "status": "msg left to owner 11/12",
     "notes": null
    },
    "mockup": {
@@ -598,7 +598,7 @@
    "sheet_reviews": 97,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJgTzNvLgzw4ARj-hlHKxZMHA",
    "call": {
-    "status": null,
+    "status": "msg left 11/12",
     "notes": null
    },
    "mockup": {
@@ -770,7 +770,7 @@
    "sheet_reviews": 93,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ8R5BUo9Mw4ARbQlHoVvvNcA",
    "call": {
-    "status": null,
+    "status": "call next week 11/16, owner on vacation",
     "notes": null
    },
    "mockup": {
@@ -819,7 +819,7 @@
    "sheet_reviews": 92,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJp8VgG9jM3IARyfff32y7obQ",
    "call": {
-    "status": null,
+    "status": "a1autoexpert@gmail.com",
     "notes": null
    },
    "mockup": {
@@ -915,7 +915,7 @@
    "sheet_reviews": 89,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJUQ0LISAuw4ARTM-gfU-Ojs8",
    "call": {
-    "status": null,
+    "status": "msg left 11/12",
     "notes": null
    },
    "mockup": {
@@ -1085,7 +1085,7 @@
    "sheet_reviews": 87,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJYTMFBSAzw4ARv1dQwxuQ93w",
    "call": {
-    "status": null,
+    "status": "call wednesday",
     "notes": null
    },
    "mockup": {
@@ -1135,7 +1135,7 @@
    "sheet_reviews": 85,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJ7TxNvomg3IARsuy2iryqix8",
    "call": {
-    "status": null,
+    "status": "msg left 11/12",
     "notes": null
    },
    "mockup": {
@@ -1232,7 +1232,7 @@
    "sheet_reviews": 83,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJB2PwZt_M3IARclWBT1Z9eqs",
    "call": {
-    "status": null,
+    "status": "number left",
     "notes": null
    },
    "mockup": {
@@ -1341,7 +1341,7 @@
    "sheet_reviews": 83,
    "maps": "https://www.google.com/maps/place/?q=place_id:ChIJTwxtRDkyw4ARh9qPaR4hI78",
    "call": {
-    "status": null,
+    "status": "autotechnikcarcare@gmail.com",
     "notes": null
    },
    "mockup": {

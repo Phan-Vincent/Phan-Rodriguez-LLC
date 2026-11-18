@@ -36,6 +36,18 @@ python3 tools/leads/sync.py
 
 It needs only the Python standard library. It also prints problems it finds (a site folder with no sheet row marked, a claim older than a day, a research phone that does not match the sheet).
 
+## Calling leads
+
+`leads/outreach/index.html` is the call list. `sync.py` rebuilds it, and `python3 tools/leads/outreach.py` rebuilds only the call list. It lists every lead that has a site, in three tabs:
+
+- **Follow-ups:** leads with a call status, with due ones first. The due date comes from the dates written in the status ("call again 11/11", "call in 3 weeks from 11/10").
+- **New calls:** leads not called yet, ordered by priority, then verdict, then review count.
+- **All**
+
+Leads that are open right now (from the researched hours, Pacific time) sort to the top. Each card holds an opener, talking points from the research, the research flags, the mockup link with a QR code, and buttons that text or email the link. Send the link only after the owner says yes on the call: cold texts to cell numbers are not allowed.
+
+Log each call on its card. Then press **Copy log for sheet** and paste the lines into the Status and Notes columns of the Google Sheet, or hand them to a Claude session to enter. The log is kept only in that browser. Statuses come from the workbook copy of the sheet, so copy columns J and K in from the Google Sheet before regenerating. The page shows a warning when the newest status is three or more days old.
+
 ## Pushing research quickly
 
 Research only helps if it lands before the build. Vincent has said he is happy for research handoffs, fact checks, `leads/` files and claim lines to be pushed as soon as they are checked. Each session still follows its own rules about confirming before it commits or pushes. Anything under `mockups/` or `tools/auto-shop-generator/` needs a yes from the person whose lane it is.

@@ -11,6 +11,7 @@ Reads   leads/West_IE_No_Website_Leads.xlsx   (sheet values, call status, mockup
 Writes  leads/leads.json                      (one record per lead; do not edit by hand)
         leads/google-sheet-paste-L2.tsv       (columns L-Q, paste at L2 on the Leads tab)
         docs/BUILD-QUEUE.md                   (researched rows with no site, best first)
+        leads/outreach/index.html             (call list and outreach kits, via tools/leads/outreach.py)
 Prints  problems it finds. Standard library only.
 """
 import datetime
@@ -222,6 +223,8 @@ def main():
         print(f"{len(problems)} problems:")
         for p in problems:
             print(" -", p)
+    import outreach  # same folder; rebuilds leads/outreach/index.html from the new leads.json
+    outreach.main()
     return 0
 
 
